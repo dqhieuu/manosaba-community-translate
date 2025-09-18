@@ -1,0 +1,1 @@
+; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act01_Chapter02/Act01_Chapter02_Adv08' Naninovel scenario script

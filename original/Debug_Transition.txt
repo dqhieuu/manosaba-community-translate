@@ -1,0 +1,5 @@
+; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Debug/Debug_Transition' Naninovel scenario script
+
+# ~c6a9d991
+; Debug_Transition # Main
+

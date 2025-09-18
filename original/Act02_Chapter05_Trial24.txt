@@ -1,0 +1,377 @@
+; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter05/Act02_Chapter05_Trial24' Naninovel scenario script
+
+# 0205Trial24_Sherry001
+; > @printDebate pos:70,50 roll:4 |#0205Trial24_Sherry001|
+; 私は小さい頃、<br>日常的に肉体を<br>傷付けられていました。
+小时候<br>
+我曾长期遭受<br>
+他人对我的肉体伤害。
+
+# 0205Trial24_Sherry002
+; > @printDebate pos:70,50 roll:4 |#0205Trial24_Sherry002|
+; でもある日<br>子供ながらに少し<br>反抗したんです。
+虽然我还小，<br>
+但是后来的某天<br>
+我试着反抗了一下。
+
+# 0205Trial24_Sherry003
+; > @printDebate pos:70,50 roll:4 |#0205Trial24_Sherry003|
+; ……でも<br>私はちょっと<br>人より力が<br>強かったんですよね。
+……不过<br>
+我好像力气<br>
+比别人稍微<br>
+大了一点。
+
+# 0205Trial24_Sherry004
+; > @printDebate pos:70,50 roll:4 |#0205Trial24_Sherry004|
+; その結果、<br>この世から<br>命が１つ<br>消えてしまいました。
+结果就是，<br>
+这个世界上<br>
+又少了<br>
+一条生命。
+
+# 0205Trial24_Sherry005
+; > @printDebate pos:70,50 roll:4 |#0205Trial24_Sherry005|
+; 施設職員の惨殺死体は、<br>事件の迷宮入りと共に<br>事故死として扱われて<br>闇に葬られます。
+案子最终成了无头迷案，<br>
+而设施职员惨死的尸体，<br>
+也被当成意外死亡处理，<br>
+一切都埋葬在了黑暗中。
+
+# 0205Trial24_Sherry006
+; > @printDebate pos:70,50 roll:4 |#0205Trial24_Sherry006|
+; でもそのあと<br>シェリーちゃんは<br>新しいご家庭に<br>引き取られました。
+不过之后<br>
+雪莉她<br>
+被新的家庭<br>
+收养了。
+
+# 0205Trial24_Sherry007
+; > @printDebate pos:70,50 roll:4 |#0205Trial24_Sherry007|
+; そうして<br>優しいお義父さんや<br>お義母さんのもと、<br>シェリーちゃんは<br>末永く幸せに<br>暮らしましたとさ。<br>めでたしめでたし――。
+就这样<br>
+在温柔的<br>
+养父养母身边，<br>
+雪莉从此<br>
+过上了<br>
+幸福快乐的生活。<br>
+可喜可贺，可喜可贺——
+
+# 0205Trial24_Sherry008
+; > @printDebate pos:70,50 roll:4 |#0205Trial24_Sherry008|
+; ――そうなったら、<br>良かったんですけどね。
+——假如真是那样<br>
+就好了。
+
+# 0205Trial24_Sherry009
+; > @printDebate pos:70,50 roll:4 |#0205Trial24_Sherry009|
+; でもシェリーちゃんは、<br>それから他の人とは<br>少し違う生き物に<br>なってしまった<br>みたいでした。
+只是雪莉她<br>
+从那以后好像<br>
+变成了跟其他人<br>
+稍微不太一样的<br>
+生物。
+
+# 0205Trial24_Sherry010
+; > @printDebate pos:70,50 roll:4 |#0205Trial24_Sherry010|
+; お義父さんにも<br>お義母さんにも<br>不満はないです。<br>だから彼らが望む<br>【いいこ】になろうと<br>したつもりです。
+我对养父养母<br>
+没有任何不满。<br>
+所以我<br>
+打算努力成为<br>
+他们所期望的<br>
+【好孩子】。
+
+# 0205Trial24_Sherry011
+; > @printDebate pos:70,50 roll:4 |#0205Trial24_Sherry011|
+; 周りの人間に対しても<br>同じです。<br>……わからないなりに、<br>溶け込もうとしていたんですよ。
+我对身边的人<br>
+也一样。<br>
+……虽然不太懂，<br>
+但也在努力融入其中哦。
+
+# 0205Trial24_Sherry012
+; > @printDebate pos:70,50 roll:4 |#0205Trial24_Sherry012|
+; でも……<br><link="Objection_02_05_24_01">やっぱりダメ</link>だった<br>みたいで。
+只不过……<br>
+我好像<link="Objection_02_05_24_01">真的做不到</link>呢。<br>
+
+
+# 0205Trial24_Sherry013
+; > @printDebate pos:70,50 roll:4 |#0205Trial24_Sherry013|
+; 頑張っても<br>普通の人間のフリが<br>できない……<br>これってとっても<br>悲しくないですか？<br>えーんえんえんえーん……！
+不管怎么努力<br>
+也无法假装成<br>
+普通人……<br>
+这不是<br>
+很可悲吗？<br>
+嘤嘤嘤嘤……！
+
+# 0205Trial24_Sherry014
+; > @printDebate pos:70,50 roll:4 |#0205Trial24_Sherry014|
+; ……【悲しい】って、<br><link="Objection_02_05_24_02">これであって</link>ます？
+……【悲伤】是<br>
+<link="Objection_02_05_24_02">这样表达</link>的，没错吧？
+
+# 0205Trial24_Hiro001
+; > Hiro: |#0205Trial24_Hiro001|
+; （シェリーの心は……<br>　たしかに閉ざされている）
+（雪莉的内心……<br>
+　的确是封闭着的）
+
+# 0205Trial24_Hiro002
+; > Hiro: |#0205Trial24_Hiro002|
+; （彼女の欠落した感情は<br>　一朝一夕でどうにかなるものでもない）
+（她感情中的空洞，<br>
+　只靠一朝一夕是无法填补的）
+
+# 0205Trial24_Hiro003
+; > Hiro: |#0205Trial24_Hiro003|
+; （しかしこれまでの魔女化を考えれば、<br>　シェリーの魔女化も不可能ではないはずだ）
+（不过参考之前的魔女化，<br>
+　雪莉的魔女化应该并非不可能）
+
+# 0205Trial24_Hiro004
+; > Hiro: |#0205Trial24_Hiro004|
+; （それには……<br>　まずシェリーの心に向き合って、<br>　彼女の心を紐解くんだ）
+（为此……<br>
+　首先我得直面雪莉的内心，<br>
+　解开她的心结）
+
+# 0205Trial24_Choice001
+; > @choice |#0205Trial24_Choice001| button:ChoiceButtons/Trial/Objection handler:TrialHiro
+; そんなことはない
+不必自责
+
+# Common_Return
+; > @choice |#Common_Return| button:ChoiceButtons/Trial/Cancel handler:TrialHiro
+; 戻る
+返回
+
+# 0205Trial24_Choice002
+; > @choice |#0205Trial24_Choice002| button:ChoiceButtons/Trial/Objection handler:TrialHiro
+; それで正しい
+方法是对的
+
+# 0205Trial24_Choice003
+; > @choice |#0205Trial24_Choice003| button:ChoiceButtons/Trial/Objection handler:TrialHiro
+; 痛みだ
+这是痛苦的感觉
+
+# 0205Trial24_Hiro005
+; > Hiro: |#0205Trial24_Hiro005|
+; そんなことはない。
+你不必自责。
+
+# 0205Trial24_Hiro006
+; > Hiro: |#0205Trial24_Hiro006|
+; 君は私たちと打ち解けていた。
+你和我们相处得很融洽。
+
+# 0205Trial24_Hiro007
+; > Hiro: |#0205Trial24_Hiro007|
+; ……たしかに、<br>少しズレているところがなかったとは言えないが……。
+……当然，<br>
+不能说完全没有异于常人的地方……
+
+# 0205Trial24_Hiro008
+; > Hiro: |#0205Trial24_Hiro008|
+; それも個性の範囲だろう。
+但那也算是某种个性吧。
+
+# 0205Trial24_Sherry015
+; > Sherry: |#0205Trial24_Sherry015|
+; 優しいんですね、ヒロさんは。
+你真温柔啊，希罗。
+
+# 0205Trial24_Sherry016
+; > Sherry: |#0205Trial24_Sherry016|
+; でも私はそうは思っていません。
+但我并不这么认为。
+
+# 0205Trial24_Sherry017
+; > Sherry: |#0205Trial24_Sherry017|
+; 今でも理解できないことは多いし、<br>正解の選択肢が見えないんです。
+现在我还有很多不理解的事情，<br>
+也看不到正确的选项。
+
+# 0205Trial24_Sherry018
+; > Sherry: |#0205Trial24_Sherry018|
+; ヒロさんと私が見えている世界は、違うんですよ。
+希罗你和我所看到的世界，是不一样的哦。
+
+# 0205Trial24_Hiro009
+; > Hiro: |#0205Trial24_Hiro009|
+; （……この言葉では<br>　シェリーに届かないか）
+（……看来我这番话<br>
+　无法触达雪莉的内心）
+
+# 0205Trial24_Hiro010
+; > Hiro: |#0205Trial24_Hiro010|
+; （魔女化させるためには、<br>　まずは彼女の抱える問題を正確に理解しないといけないな）
+（要让她魔女化，<br>
+　首先必须准确理解她面临的问题才行）
+
+# 0205Trial24_Hiro011
+; > Hiro: |#0205Trial24_Hiro011|
+; ……ああ、それでいい。
+……嗯，就是那样。
+
+# 0205Trial24_Hiro012
+; > Hiro: |#0205Trial24_Hiro012|
+; 君の反応は、たしかに意図して作られたものかもしれない。
+你的反应，或许只是刻意做出来的。
+
+# 0205Trial24_Hiro013
+; > Hiro: |#0205Trial24_Hiro013|
+; だがそれであっても<br>コミュニケーションが取れるなら十分じゃないか。
+但即便如此，<br>
+只要能相互沟通就足够了，不是吗。
+
+# 0205Trial24_Sherry019
+; > Sherry: |#0205Trial24_Sherry019|
+; そうなんですね！<br>じゃあ私に欠点なんてないのかもしれません！
+是这样吗！<br>
+那说不定我根本没什么缺点呢！
+
+# 0205Trial24_Sherry020
+; > Sherry: |#0205Trial24_Sherry020|
+; ……うーん、でもそれじゃあどうしましょうか？
+……嗯～，不过是真的话，接下来该怎么办呢？
+
+# 0205Trial24_Sherry021
+; > Sherry: |#0205Trial24_Sherry021|
+; 私、パーフェクト名探偵シェリーちゃんになっちゃいました！<br>魔女化なんてしませんよ、きっと！
+我变成完美名侦探雪莉了！<br>
+肯定不会魔女化了！
+
+# 0205Trial24_Hiro014
+; > Hiro: |#0205Trial24_Hiro014|
+; （……魔女化が後退した気がする……）
+（……感觉魔女化的进度倒退了……）
+
+# 0205Trial24_Hiro015
+; > Hiro: |#0205Trial24_Hiro015|
+; （魔女化させるためには、<br>　まずは彼女の抱える問題を正確に理解しないといけないな）
+（要让她魔女化，<br>
+　首先必须准确理解她面临的问题才行）
+
+# 0205Trial24_Hiro016
+; > Hiro: |#0205Trial24_Hiro016|
+; ……それは【痛み】だ。
+……这是【痛苦的感觉】。
+
+# 0205Trial24_Sherry022
+; > Sherry: |#0205Trial24_Sherry022|
+; え？
+欸？
+
+# 0205Trial24_Hiro017
+; > Hiro: |#0205Trial24_Hiro017|
+; 君が感じていない感情だよ。
+是你没有感受到的感情哦。
+
+# 0205Trial24_Hiro018
+; > Hiro: |#0205Trial24_Hiro018|
+; 君は痛みを正しく認識できていないんじゃないかな。
+我猜，你没办法正确认识到痛苦。
+
+# 0205Trial24_Sherry023
+; > Sherry: |#0205Trial24_Sherry023|
+; ……そうでしょうか？
+……是这样吗？
+
+# 0205Trial24_Sherry024
+; > Sherry: |#0205Trial24_Sherry024|
+; 手を切れば痛いですし、<br>足を刺せば痛いですよ？
+手割破了会痛，<br>
+脚被刺了也会痛哦？
+
+# 0205Trial24_Sherry025
+; > Sherry: |#0205Trial24_Sherry025|
+; 痛覚が鈍いわけではないと思うんですけどね。
+我不觉得我痛觉迟钝啊。
+
+# 0205Trial24_Hiro019
+; > Hiro: |#0205Trial24_Hiro019|
+; 皮膚から来る信号と、<br>君がそれをどう受け取るかは別の問題だ。
+来自皮肤的信号，<br>
+和你如何看待它，是两回事。
+
+# 0205Trial24_Hiro020
+; > Hiro: |#0205Trial24_Hiro020|
+; 君の心は痛みを苦しいものだと感じていない……。
+你的心并没有将痛苦当作难受的事情……
+
+# 0205Trial24_Hiro021
+; > Hiro: |#0205Trial24_Hiro021|
+; だから無茶なことだってできるし、<br>処刑されるような事態に陥っても魔女化はしない……。
+所以你才能做出不顾一切的举动，<br>
+就算陷入被处刑的境地，也不会魔女化……
+
+# 0205Trial24_Hiro022
+; > Hiro: |#0205Trial24_Hiro022|
+; ……それに、よくよく考えれば<br>君の魔法には多少なりとも反動があるはずだ。
+……而且，仔细想想，<br>
+你的魔法应该多少会有些反作用力才对。
+
+# 0205Trial24_Hiro023
+; > Hiro: |#0205Trial24_Hiro023|
+; 物体に力をかけるとき、体に反作用の力がかかる。
+对物体施力时，身体会受到反作用力。
+
+# 0205Trial24_Hiro024
+; > Hiro: |#0205Trial24_Hiro024|
+; それを軽減するのも君の魔法の<br>効果のうちかもしれないが――。
+而减轻反作用力，<br>
+说不定也是你魔法的效果之一——
+
+# 0205Trial24_Hiro025
+; > Hiro: |#0205Trial24_Hiro025|
+; ――でも、君が痛みを苦痛と受け取らないからこそ<br>万全に使いこなせる魔法なんじゃないかな。
+——但是依我看，正因为你不将痛苦视作苦难，<br>
+你才能完美地运用这个魔法。
+
+# 0205Trial24_Hiro026
+; > Hiro: |#0205Trial24_Hiro026|
+; ……君の心は、痛みを受容することを拒否している。
+……你的内心，拒绝接受痛苦。
+
+# 0205Trial24_Hiro027
+; > Hiro: |#0205Trial24_Hiro027|
+; 君と他者との決定的な違いはそこだ。
+你和他人之间的决定性的不同就在这里。
+
+# 0205Trial24_Sherry026
+; > Sherry: |#0205Trial24_Sherry026|
+; なるほど！<br>面白い推理ですね～！
+原来如此！<br>
+真是有趣的推理～！
+
+# 0205Trial24_Sherry027
+; > Sherry: |#0205Trial24_Sherry027|
+; でも……それならなおさら<br>私を【魔女化】させることは難しいんじゃないでしょうか？
+不过……这么一来，<br>
+要让我【魔女化】岂不是更难了？
+
+# 0205Trial24_Hiro028
+; > Hiro: |#0205Trial24_Hiro028|
+; （たしかに……そうかもしれない）
+（这……说不定确实是）
+
+# 0205Trial24_Hiro029
+; > Hiro: |#0205Trial24_Hiro029|
+; （だが彼女の内面への理解は一歩進んだ）
+（不过我对她内心的理解又进了一步）
+
+# 0205Trial24_Hiro030
+; > Hiro: |#0205Trial24_Hiro030|
+; （今なら彼女の心を揺さぶり、<br>　魔女化させることができるかもしれない……）
+（现在的话，或许就能动摇她的心，<br>
+　让她魔女化了……）
+
+# 0205Trial24_Hiro031
+; > Hiro: |#0205Trial24_Hiro031|
+; （向き合うんだ。<br>　彼女の心と――！）
+（是时候，<br>
+　直面她的内心了！）

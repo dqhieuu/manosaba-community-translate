@@ -1,0 +1,392 @@
+; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter05/Act02_Chapter05_Trial28' Naninovel scenario script
+
+# 0205Trial28_Ema001
+; > @printDebate pos:70,50 roll:4 |#0205Trial28_Ema001|
+; ボクは……<br>ヒロちゃんが留学するまで、<br>ずっと一緒だった……！
+我……<br>
+在希罗出国留学之前，<br>
+一直都和你在一起……！
+
+# 0205Trial28_Hiro001
+; > @printDebate pos:30,50 roll:-4 |#0205Trial28_Hiro001|
+; ……正確には。
+……准确地说。
+
+# 0205Trial28_Hiro002
+; > @printDebate pos:30,50 roll:-4 |#0205Trial28_Hiro002|
+; 私と君は<br>しばらく疎遠になっていた。
+我和你<br>
+曾一度疏远了。
+
+# 0205Trial28_Hiro003
+; > @printDebate pos:30,50 roll:-4 |#0205Trial28_Hiro003|
+; 私が……<br>【３人目】なんだ。
+因为我……<br>
+是【第三个人】。
+
+# 0205Trial28_Ema002
+; > @printDebate pos:70,50 roll:4 |#0205Trial28_Ema002|
+; ……そんな。<br>じゃあ、ボクは……！
+……怎么会。<br>
+那，我……！
+
+# 0205Trial28_Hiro004
+; > @printDebate pos:30,50 roll:-4 |#0205Trial28_Hiro004|
+; ……帰国した私を<br>待っていたのは、<br>いじめを苦にして<br>首を吊った彼女の姿だった。
+……等待着<br>
+回国的我的，<br>
+是因不堪忍受霸凌<br>
+而上吊的她的身影。
+
+# 0205Trial28_Ema003
+; > @printDebate pos:70,50 roll:4 |#0205Trial28_Ema003|
+; ……いじめ……自殺……。
+……霸凌……自杀……
+
+# 0205Trial28_Hiro005
+; > @printDebate pos:30,50 roll:-4 |#0205Trial28_Hiro005|
+; エマ……。
+艾玛……
+
+# 0205Trial28_Hiro006
+; > @printDebate pos:30,50 roll:-4 |#0205Trial28_Hiro006|
+; 思い出すんだ、<br>彼女の姿を。
+快想起来<br>
+她是谁吧。
+
+# 0205Trial28_Ema004
+; > @printDebate pos:70,50 roll:4 |#0205Trial28_Ema004|
+; ……でも、<br><link="Objection_02_05_28_01">いじめられてた</link>のは……<br>ボクだ……。
+……但是，<br>
+<link="Objection_02_05_28_01">被霸凌</link>的人……<br>
+是我啊……
+
+# 0205Trial28_Ema005
+; > @printDebate pos:70,50 roll:4 |#0205Trial28_Ema005|
+; <link="Objection_02_05_28_02">どうして</link>……<br>自殺を……？
+<link="Objection_02_05_28_02">为什么</link>……<br>
+会自杀……？
+
+# 0205Trial28_Ema006
+; > @printDebate pos:70,50 roll:4 |#0205Trial28_Ema006|
+; ヒロちゃんが<br>何を言ってるのか……<br><link="Objection_02_05_28_03">わからない</link>よ……！
+希罗你<br>
+在说什么……<br>
+我完全<link="Objection_02_05_28_03">听不懂</link>……！
+
+# 0205Trial28_Hiro007
+; > Hiro: |#0205Trial28_Hiro007|
+; （私はもう……）
+（我已经……）
+
+# 0205Trial28_Hiro008
+; > Hiro: |#0205Trial28_Hiro008|
+; （……迷わない！）
+（……不会再迷茫！）
+
+# 0205Trial28_Choice001
+; > @choice |#0205Trial28_Choice001| button:ChoiceButtons/Trial/Objection handler:TrialHiro
+; 偽りの記憶だ
+那是虚假的记忆
+
+# Common_Return
+; > @choice |#Common_Return| button:ChoiceButtons/Trial/Cancel handler:TrialHiro
+; 戻る
+返回
+
+# 0205Trial28_Choice002
+; > @choice |#0205Trial28_Choice002| button:ChoiceButtons/Trial/Objection handler:TrialHiro
+; 目を背けるな
+不要逃避现实
+
+# 0205Trial28_Choice003
+; > @choice |#0205Trial28_Choice003| button:ChoiceButtons/Trial/Objection handler:TrialHiro
+; 落ち着くんだ
+你冷静点
+
+# 0205Trial28_Hiro009
+; > Hiro: |#0205Trial28_Hiro009|
+; エマ……事実から目を背けるな。
+艾玛……不要逃避事实。
+
+# 0205Trial28_Hiro010
+; > Hiro: |#0205Trial28_Hiro010|
+; 君は目撃したんだ。
+你也看到了。
+
+# 0205Trial28_Ema007
+; > Ema: |#0205Trial28_Ema007|
+; そんなの……知らない……ボクは……！
+我才……不知道……我……！
+
+# 0205Trial28_Hiro011
+; > Hiro: |#0205Trial28_Hiro011|
+; （……直接、突きつけるしかないか）
+（……看来我只能直接揭穿了）
+
+# 0205Trial28_Hiro012
+; > Hiro: |#0205Trial28_Hiro012|
+; （彼女の記憶を……！）
+（揭穿她的记忆……！）
+
+# 0205Trial28_Hiro013
+; > Hiro: |#0205Trial28_Hiro013|
+; 落ち着くんだエマ。<br>私が言っていることは、難しいことじゃない。
+冷静下来，艾玛。<br>
+我说的，并不是什么难懂的事情。
+
+# 0205Trial28_Ema008
+; > Ema: |#0205Trial28_Ema008|
+; だって……そんなこと……ありえないよ。
+但是……这……不可能啊。
+
+# 0205Trial28_Ema009
+; > Ema: |#0205Trial28_Ema009|
+; ボクは……１人でずっといじめられてて……。
+我……一直孤单一人，遭受霸凌……
+
+# 0205Trial28_Hiro014
+; > Hiro: |#0205Trial28_Hiro014|
+; （……直接、突きつけるしかないか）
+（……看来我只能直接揭穿了）
+
+# 0205Trial28_Hiro015
+; > Hiro: |#0205Trial28_Hiro015|
+; （彼女の記憶を……！）
+（揭穿她的记忆……！）
+
+# 0205Trial28_Hiro016
+; > Hiro: |#0205Trial28_Hiro016|
+; ……エマ。
+……艾玛。
+
+# 0205Trial28_Hiro017
+; > Hiro: |#0205Trial28_Hiro017|
+; 君の記憶……。
+你的记忆……
+
+# 0205Trial28_Hiro018
+; > Hiro: |#0205Trial28_Hiro018|
+; それは……偽りの記憶だ！
+是虚假的！
+
+# 0205Trial28_Hiro019
+; > Hiro: |#0205Trial28_Hiro019|
+; （……違う。これじゃあない）
+（……不对，不是这个）
+
+# 0205Trial28_Hiro020
+; > Hiro: |#0205Trial28_Hiro020|
+; （【エマの過去】を……突きつけるんだ！）
+（我要揭穿【艾玛的过去】……！）
+
+# 0205Trial28_Hiro021
+; > Hiro: |#0205Trial28_Hiro021|
+; 君が記憶している、過去にいじめられていた姿。
+你脑海中的，过去遭受霸凌的记忆。
+
+# 0205Trial28_Hiro022
+; > Hiro: |#0205Trial28_Hiro022|
+; それは君が無意識に改変した記憶であって、<br>真実ではない！
+那是你无意识中篡改的记忆，<br>
+并不是真相！
+
+# 0205Trial28_Hiro023
+; > Hiro: |#0205Trial28_Hiro023|
+; 思い出せ！ そこにいた、本当の人物の名を！
+快想起来！在你真实记忆中存在的，那个人的名字！
+
+# 0205Trial28_Ema010
+; > Ema: |#0205Trial28_Ema010|
+; あ、ああっ……！
+啊、啊啊……！
+
+# 0205Trial28_Ema011
+; > Ema: |#0205Trial28_Ema011|
+; あああ……あああああっ……！
+啊啊啊……啊啊啊啊啊……！
+
+# 0205Trial28_Ema012
+; > Ema: |#0205Trial28_Ema012|
+; …………ユキ……ちゃん。
+…………小雪……
+
+# 0205Trial28_Hiro024
+; > Hiro: |#0205Trial28_Hiro024|
+; ……月代ユキ。
+……月代雪。
+
+# 0205Trial28_Hiro025
+; > Hiro: |#0205Trial28_Hiro025|
+; 私たちの同級生。
+她是我们的同学。
+
+# 0205Trial28_Hiro026
+; > Hiro: |#0205Trial28_Hiro026|
+; そして……もう１人の親友の名前だ。
+同时也是……我的另一位挚友。
+
+# 0205Trial28_Hiro027
+; > Hiro: |#0205Trial28_Hiro027|
+; ……エマ。
+……艾玛。
+
+# 0205Trial28_Hiro028
+; > Hiro: |#0205Trial28_Hiro028|
+; 君はいじめの被害者ではなかった――。
+你并不是霸凌的受害者——
+
+# 0205Trial28_Ema013
+; > Ema: |#0205Trial28_Ema013|
+; うっ……！
+呜……！
+
+# 0205Trial28_Narrative001
+; 日を追うごとにいじめの空気は過熱し、<br>心臓は<ruby="なまり">鉛</ruby>のように重くなっていった。
+霸凌日益变本加厉，<br>
+我的心脏好似灌铅般愈发沉重。
+
+# 0205Trial28_Narrative002
+; やめてよ。<br>やめて、やめて、やめてやめてやめて。
+住手吧。<br>
+住手。住手。住手住手住手。
+
+# 0205Trial28_Narrative003
+; もう虐めないで！！
+不要再欺负人了！！
+
+# 0205Trial28_Narrative004
+; どうしてもその一言が発せない。
+唯有这句话不管怎样都说不出口。
+
+# 0205Trial28_Ema014
+; > Ema: |#0205Trial28_Ema014|
+; ――ボクは。
+——我。
+
+# 0205Trial28_Narrative005
+; <ruby="さげす">蔑</ruby>まれ、 貶められ、嘲笑される毎日に、<br>終わりは見えなかった。<br>その残酷な行為は、あまりにも徹底的に、長期に及んだ。
+她被辱骂，被欺侮，被嘲笑，<br>
+每日如此，不见尽头。<br>
+如此残酷的行为，竟长期持续，未曾断绝。
+
+# 0205Trial28_Narrative006
+; 誰よりも臆病な自分を責めて、<br>自分を嫌って、<br>消えていなくなってしまいたくなる。
+我不禁开始责备比任何人都胆小的自己。<br>
+我太过讨厌自己，<br>
+甚至想要就此消失。
+
+# 0205Trial28_Ema015
+; > Ema: |#0205Trial28_Ema015|
+; ――見ていた、だけだった。
+——我只是，单纯在旁观而已。
+
+# 0205Trial28_Ema016
+; > Ema: |#0205Trial28_Ema016|
+; あの子を助けることも、<br>声をあげることもできずに。
+既没能帮助她，<br>
+也没能替她发声。
+
+# 0205Trial28_Ema017
+; > Ema: |#0205Trial28_Ema017|
+; ただ見ていただけの――傍観者だった……！
+我是单纯在一旁看着的——旁观者……！
+
+# 0205Trial28_Ema018
+; > Ema: |#0205Trial28_Ema018|
+; いじめの被害者じゃなくて……。
+不是霸凌的受害者……
+
+# 0205Trial28_Ema019
+; > Ema: |#0205Trial28_Ema019|
+; いじめの……傍観者……。
+而是霸凌的……旁观者……
+
+# 0205Trial28_Ema020
+; > Ema: |#0205Trial28_Ema020|
+; それが……ボクの罪だったんだ……。
+那就是……我的罪孽……
+
+# 0205Trial28_Ema021
+; > Ema: |#0205Trial28_Ema021|
+; ……ボクは……ボクは……！
+……我……我……！
+
+# 0205Trial28_Hiro029
+; > Hiro: |#0205Trial28_Hiro029|
+; ……エマ。
+……艾玛。
+
+# 0205Trial28_Hiro030
+; > Hiro: |#0205Trial28_Hiro030|
+; 話の続きは、まだある。
+故事还没有结束。
+
+# 0205Trial28_Ema022
+; > Ema: |#0205Trial28_Ema022|
+; ……え……？
+……欸……？
+
+# 0205Trial28_Hiro031
+; > Hiro: |#0205Trial28_Hiro031|
+; 彼女は……<br>私たちをずっと監視していた。
+她……<br>
+一直在监视着我们。
+
+# 0205Trial28_Hiro032
+; > Hiro: |#0205Trial28_Hiro032|
+; 君を魔女にするため……<br>ずっとそばにいたんだ。
+为了让你变成魔女……<br>
+她一直待在你身边。
+
+# 0205Trial28_Ema023
+; > Ema: |#0205Trial28_Ema023|
+; ……どういう……こと……？
+……什么……意思……？
+
+# 0205Trial28_Hiro033
+; > Hiro: |#0205Trial28_Hiro033|
+; 彼女が宿っていた呪物……それは。
+她所附身的咒物……就是——
+
+# 0205Trial28_Hiro034
+; > Hiro: |#0205Trial28_Hiro034|
+; （……これではない）
+（……不是这个）
+
+# 0205Trial28_Hiro035
+; > Hiro: |#0205Trial28_Hiro035|
+; （エマと私のそばにずっとあって、<br>　彼女が宿っていたものがあったはずだ……）
+（应该有某样物品一直存在于艾玛和我的身边，<br>
+　那就是她附身的物品才对……）
+
+# 0205Trial28_Hiro036
+; > Hiro: |#0205Trial28_Hiro036|
+; （……それは）
+（……那件物品就是）
+
+# 0205Trial28_Hiro037
+; > Hiro: |#0205Trial28_Hiro037|
+; これが【月代ユキ】……<br>いや、彼女こそがこの事件の元凶である黒幕――！
+这就是【月代雪】……<br>
+不，正是这起事件的元凶，幕后黑手——！
+
+# 0205Trial28_Hiro038
+; > Hiro: |#0205Trial28_Hiro038|
+; ――【大魔女】が宿った依代だ！
+——【大魔女】所附身的凭依物！
+
+# 0205Trial28_Hiro039
+; > Hiro: |#0205Trial28_Hiro039|
+; ……さあ、用意したぞ。
+……来吧，我都准备好了。
+
+# 0205Trial28_Hiro040
+; > Hiro: |#0205Trial28_Hiro040|
+; １３人の魔女と……儀礼の剣！
+13位魔女……还有仪式的剑！
+
+# 0205Trial28_Hiro041
+; > Hiro: |#0205Trial28_Hiro041|
+; 姿を見せてもらうぞ……大魔女っ！！
+现出真身吧……大魔女！！

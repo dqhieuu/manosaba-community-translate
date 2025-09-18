@@ -1,0 +1,440 @@
+; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter05/Act02_Chapter05_Trial20' Naninovel scenario script
+
+# 0205Trial20_Alisa001
+; > @printDebate pos:70,50 roll:4 |#0205Trial20_Alisa001|
+; おめえらだって<br>わかってんだろうがよ……。
+你们其实<br>
+心里都清楚吧……
+
+# 0205Trial20_Alisa002
+; > @printDebate pos:70,50 roll:4 |#0205Trial20_Alisa002|
+; ウチらは魔女だ。<br><link="Objection_02_05_20_01">呪われた子</link>だ。
+我们是魔女。<br>
+是<link="Objection_02_05_20_01">受诅咒之子</link>。
+
+# 0205Trial20_Alisa003
+; > @printDebate pos:70,50 roll:4 |#0205Trial20_Alisa003|
+; 誰かを<link="Objection_02_05_20_02">殺すための力</link>を<br>持って生まれてきて、<br>実際に誰かを<br>殺すことでしか<br>生きていけねー存在<br>なんだよ。
+生来就拥有<br>
+用来<link="Objection_02_05_20_02">杀人的力量</link>，<br>
+并且实际上<br>
+也只能去<br>
+杀害某人<br>
+才能存活下去。
+
+# 0205Trial20_Alisa004
+; > @printDebate pos:70,50 roll:4 |#0205Trial20_Alisa004|
+; そんなん、<br>今取り戻した記憶を見りゃ<br>わかるだろ！？
+只要看看刚才<br>
+恢复的记忆<br>
+也总该明白了吧！？
+
+# 0205Trial20_Alisa005
+; > @printDebate pos:70,50 roll:4 |#0205Trial20_Alisa005|
+; ……ならそんなもんは<br>存在しちゃいけねーんだ。
+……既然如此，<br>
+我们就不应该存在。
+
+# 0205Trial20_Alisa006
+; > @printDebate pos:70,50 roll:4 |#0205Trial20_Alisa006|
+; みんな跡形もなく<br>消し炭にして……<br><link="Objection_02_05_20_03">終わらせちまえばいい</link>。
+只要把大家<br>
+都烧成灰烬……<br>
+<link="Objection_02_05_20_03">让一切都结束就好了</link>。
+
+# 0205Trial20_Alisa007
+; > @printDebate pos:70,50 roll:4 |#0205Trial20_Alisa007|
+; ウチなら、<br>それができる……。
+我的话，<br>
+就能做得到……
+
+# 0205Trial20_Alisa008
+; > @printDebate pos:70,50 roll:4 |#0205Trial20_Alisa008|
+; だから……<br><link="Objection_02_05_20_04">大人しく</link>死んどけよぉ！
+所以……<br>
+<link="Objection_02_05_20_04">乖乖</link>受死吧！
+
+# 0205Trial20_Hiro001
+; > Hiro: |#0205Trial20_Hiro001|
+; （……ダメだ！<br>　この熱気……近付くことすらできない）
+（……不行！<br>
+　热量太强了……连靠近她都没办法！）
+
+# 0205Trial20_Hiro002
+; > Hiro: |#0205Trial20_Hiro002|
+; （このままでは大魔女を呼び出すまでもなく、全滅だ……！）
+（这样下去，不等召唤出大魔女，就要先全灭了……！）
+
+# 0205Trial20_Hiro003
+; > Hiro: |#0205Trial20_Hiro003|
+; （なんとかアリサを落ち着かせなければ……！）
+（必须想办法让亚里沙冷静下来……！）
+
+# 0205Trial20_Choice002
+; > 10-20-3通過後
+; > @choice |#0205Trial20_Choice002| button:ChoiceButtons/Trial/Objection handler:TrialHiro
+; 悪いのは大魔女だ
+错的是大魔女
+
+# Common_Return
+; > @choice |#Common_Return| button:ChoiceButtons/Trial/Cancel handler:TrialHiro
+; 戻る
+返回
+
+# 0205Trial20_Choice004
+; > MARK: 10-20-3: ❌ 通過後
+; > @choice |#0205Trial20_Choice004| button:ChoiceButtons/Trial/Objection handler:TrialHiro
+; 正しく力を使える
+力量可以用在正道上
+
+# 0205Trial20_Choice006
+; > MARK: 10-20-3: ❌ 通過後
+; > @choice |#0205Trial20_Choice006| button:ChoiceButtons/Trial/Objection handler:TrialHiro
+; 呪いは終わらない
+诅咒不会结束
+
+# 0205Trial20_Choice007
+; > @choice |#0205Trial20_Choice007| button:ChoiceButtons/Trial/MagicAnAn handler:TrialHiro
+; 【洗脳】
+【洗脑】
+
+# 0205Trial20_Choice008
+; > @choice |#0205Trial20_Choice008| button:ChoiceButtons/Trial/MagicLeia handler:TrialHiro
+; 【視線誘導】
+【视线诱导】
+
+# 0205Trial20_Hiro004
+; > Hiro: |#0205Trial20_Hiro004|
+; アリサ、君は――！
+亚里沙，你——！
+
+# 0205Trial20_Alisa009
+; > Alisa: |#0205Trial20_Alisa009|
+; うるせぇ！
+吵死了！
+
+# 0205Trial20_Hiro005
+; > Hiro: |#0205Trial20_Hiro005|
+; くっ……！？
+唔……！？
+
+# 0205Trial20_Hiro006
+; > Hiro: |#0205Trial20_Hiro006|
+; （ダメだ……！ 話を聞く気がない……！）
+（不行……！她根本不打算听人讲话……！）
+
+# 0205Trial20_Hiro007
+; > Hiro: |#0205Trial20_Hiro007|
+; その呪いを残した諸悪の根源は、大魔女だ！
+留下那诅咒的万恶之源，是大魔女！
+
+# 0205Trial20_Hiro008
+; > Hiro: |#0205Trial20_Hiro008|
+; みんな大魔女の悪意に操られて<br>罪を犯してしまっただけだ……！
+大家只是被大魔女的恶意操纵，<br>
+才犯下了罪行……！
+
+# 0205Trial20_Hiro009
+; > Hiro: |#0205Trial20_Hiro009|
+; だから君たちは悪くない！
+所以你们没有错！
+
+# 0205Trial20_Alisa010
+; > Alisa: |#0205Trial20_Alisa010|
+; ……それで？<br>被害者はそんな言い訳で納得すると思ってんのかよ！？
+……所以呢？<br>
+你觉得受害者会接受那种借口吗！？
+
+# 0205Trial20_Alisa011
+; > Alisa: |#0205Trial20_Alisa011|
+; 大魔女のせいでこうなってんだとしても、<br>実際に罪を犯したのはウチらだろーが！
+就算一切都是大魔女害的，<br>
+可实际犯罪的不还是我们吗！
+
+# 0205Trial20_Alisa012
+; > Alisa: |#0205Trial20_Alisa012|
+; だからみんな死ぬしかねぇんだよッ！！
+所以大家只能去死啊！！
+
+# 0205Trial20_Hiro010
+; > Hiro: |#0205Trial20_Hiro010|
+; （アリサに詭弁は通じないか……！）
+（诡辩对亚里沙无效吗……！）
+
+# 0205Trial20_Hiro011
+; > Hiro: |#0205Trial20_Hiro011|
+; （……アリサは、ここでみんなが死ねば<br>　悲劇は止まると思い込んでいる）
+（……亚里沙深信，只要大家死在这里，<br>
+　悲剧就会停止）
+
+# 0205Trial20_Hiro012
+; > Hiro: |#0205Trial20_Hiro012|
+; （だが、本当にそうか……？）
+（但是，情况真的如此吗……？）
+
+# 0205Trial20_Hiro013
+; > Hiro: |#0205Trial20_Hiro013|
+; アリサ……それは違う！
+亚里沙……你说得不对！
+
+# 0205Trial20_Hiro014
+; > Hiro: |#0205Trial20_Hiro014|
+; 魔法の力は、正しく使うことだって出来たじゃないか……！
+魔法的力量，也是可以用在正道上的，不是吗……！
+
+# 0205Trial20_Hiro015
+; > Hiro: |#0205Trial20_Hiro015|
+; この裁判の中でも、<br>誰かを癒したり、前を向かせるために<br>力を使ってくれた子がいた……！
+在这场审判中，<br>
+也有人使用力量<br>
+去治愈他人，或者引导他人向前看……！
+
+# 0205Trial20_Hiro016
+; > Hiro: |#0205Trial20_Hiro016|
+; 大事なのは、力をどう使うかだ！
+重要的是，怎样去使用力量！
+
+# 0205Trial20_Alisa013
+; > Alisa: |#0205Trial20_Alisa013|
+; 力をどう使おうが<br>行きつく先は一緒だろ！？
+不管怎么去用力量，<br>
+最终结果不都一样吗！？
+
+# 0205Trial20_Alisa014
+; > Alisa: |#0205Trial20_Alisa014|
+; 佐伯が見せた記憶でもそうだったじゃねえか……。
+米莉亚展现的记忆里不也是这样吗……
+
+# 0205Trial20_Alisa015
+; > Alisa: |#0205Trial20_Alisa015|
+; ここにいる奴ら全員、<br>最後は殺人衝動に飲まれて殺し合っちまうんだ！
+待在这里的家伙，<br>
+最后都会被杀人冲动吞噬而互相残杀！
+
+# 0205Trial20_Alisa016
+; > Alisa: |#0205Trial20_Alisa016|
+; どうせ死ぬんなら……<br>今死ねよぉ！！
+反正最后都要死……<br>
+不如现在就去死啊！！
+
+# 0205Trial20_Hiro017
+; > Hiro: |#0205Trial20_Hiro017|
+; （くっ……<br>　生半可な説得では意味がないか……！）
+（唔……<br>
+　半吊子的说服没有意义吗……！）
+
+# 0205Trial20_Hiro018
+; > Hiro: |#0205Trial20_Hiro018|
+; （……アリサは、ここでみんなが死ねば<br>　悲劇は止まると思い込んでいる）
+（……亚里沙深信，只要大家死在这里，<br>
+　悲剧就会停止）
+
+# 0205Trial20_Hiro019
+; > Hiro: |#0205Trial20_Hiro019|
+; （だが、本当にそうか……？）
+（但是，情况真的如此吗……？）
+
+# 0205Trial20_Hiro020
+; > Hiro: |#0205Trial20_Hiro020|
+; レイア！ 君の魔法で！
+蕾雅！用你的魔法！
+
+# 0205Trial20_Leia001
+; > Leia: |#0205Trial20_Leia001|
+; 任せてくれたまえっ！
+交给我吧！
+
+# 0205Trial20_Leia002
+; > Leia: |#0205Trial20_Leia002|
+; アリサくん！<br>【あっちを見るんだ】！！
+亚里沙！<br>
+【看那边】！！
+
+# 0205Trial20_Alisa017
+; > Alisa: |#0205Trial20_Alisa017|
+; くそっ……！？ 蓮見、てめえ……！！
+可恶……！？莲见，你这家伙……！！
+
+# 0205Trial20_Leia003
+; > Leia: |#0205Trial20_Leia003|
+; 安心していいよ……<br>【視線誘導】でキミの視線を逸らしているだけさ。
+放心……<br>
+我只是用【视线诱导】转移了你的视线而已。
+
+# 0205Trial20_Leia004
+; > Leia: |#0205Trial20_Leia004|
+; これで、炎の狙いは定まらない……！
+这样，你的火焰就喷不准了……！
+
+# 0205Trial20_Alisa018
+; > Alisa: |#0205Trial20_Alisa018|
+; 定める必要ねーんだよ！
+根本没必要瞄准！
+
+# 0205Trial20_Leia005
+; > Leia: |#0205Trial20_Leia005|
+; 熱い熱い熱い！！
+好烫好烫好烫！！
+
+# 0205Trial20_Hiro021
+; > Hiro: |#0205Trial20_Hiro021|
+; （だめだ……！<br>　アリサがどこを向いていようと、<br>　炎は広がってくる……！）
+（不行……！<br>
+　无论亚里沙看向哪里，<br>
+　火焰都会烧过来……！）
+
+# 0205Trial20_Hiro022
+; > Hiro: |#0205Trial20_Hiro022|
+; （……アリサは、ここでみんなが死ねば<br>　悲劇は止まると思い込んでいる）
+（……亚里沙深信，只要大家死在这里，<br>
+　悲剧就会停止）
+
+# 0205Trial20_Hiro023
+; > Hiro: |#0205Trial20_Hiro023|
+; （だが、本当にそうか……？）
+（但是，情况真的如此吗……？）
+
+# 0205Trial20_Hiro024
+; > Hiro: |#0205Trial20_Hiro024|
+; くっ……！<br>アンアン！ 力を貸してくれ！
+唔……！<br>
+安安！帮我一把！
+
+# 0205Trial20_AnAn001
+; > AnAn: |#0205Trial20_AnAn001|
+; ……わがはいは……。
+……这次……
+
+# 0205Trial20_AnAn002
+; > AnAn: |#0205Trial20_AnAn002|
+; 次は……止めてみせる。
+吾辈……一定要阻止。
+
+# 0205Trial20_AnAn003
+; > AnAn: |#0205Trial20_AnAn003|
+; ミリアも……ノアも……レイアもだ……！
+不管是米莉亚……还是诺亚……还有蕾雅……！
+
+# 0205Trial20_AnAn004
+; > AnAn: |#0205Trial20_AnAn004|
+; だから……<color=#9c8eff><b>【人を殺すな】</b></color>！ アリサ！
+所以……<color=#9c8eff><b>【不许杀人】</b></color>！亚里沙！
+
+# 0205Trial20_Alisa019
+; > Alisa: |#0205Trial20_Alisa019|
+; ぐっ……！
+咕……！
+
+# 0205Trial20_Alisa020
+; > Alisa: |#0205Trial20_Alisa020|
+; 人だと……！？<br>ウチらは魔女だ！<br>もう人間じゃねぇ……！
+人！？<br>
+我们是魔女！<br>
+已经不是人类了……！
+
+# 0205Trial20_Alisa021
+; > Alisa: |#0205Trial20_Alisa021|
+; そんな命令……聞けるかよ！
+什么狗屁命令……我才不听！
+
+# 0205Trial20_Hiro025
+; > Hiro: |#0205Trial20_Hiro025|
+; くっ……！
+唔……！
+
+# 0205Trial20_AnAn005
+; > AnAn: |#0205Trial20_AnAn005|
+; 話を……<color=#9c8eff><b>【聞け】</b></color>ぇ！！
+把话……<color=#9c8eff><b>【听进去】</b></color>啊！！
+
+# 0205Trial20_Hiro026
+; > Hiro: |#0205Trial20_Hiro026|
+; （アンアンの魔法、<br>　アリサを完全に制御できるほどの力はないか……！）
+（安安的魔法，<br>
+　并没有强大到能完全控制亚里沙吗……！）
+
+# 0205Trial20_Alisa022
+; > Alisa: |#0205Trial20_Alisa022|
+; ……チッ……！
+……啧……！
+
+# 0205Trial20_Hiro027
+; > Hiro: |#0205Trial20_Hiro027|
+; （いや……！<br>　炎の勢いは弱まっている……！）
+（不……！<br>
+　火势减弱了……！）
+
+# 0205Trial20_Hiro028
+; > Hiro: |#0205Trial20_Hiro028|
+; （少しは彼女も耳を傾けてくれているということか……！）
+（也就是说她多少有把话听进去……！）
+
+# 0205Trial20_Hiro029
+; > Hiro: |#0205Trial20_Hiro029|
+; （今なら話を聞いてくれる余地はあるかもしれない……！）
+（那么现在或许还有机会，能让她听进去我说的话……！）
+
+# Toast_002
+; > @toast |#Toast_002|
+; 議論発展…
+讨论前进…
+
+# 0205Trial20_Hiro030
+; > Hiro: |#0205Trial20_Hiro030|
+; 待てアリサ！
+等下，亚里沙！
+
+# 0205Trial20_Hiro031
+; > Hiro: |#0205Trial20_Hiro031|
+; 魔女を殺したところで魔女因子は消失しない！
+就算杀了魔女，魔女因子也不会消失！
+
+# 0205Trial20_Hiro032
+; > Hiro: |#0205Trial20_Hiro032|
+; また新たな犠牲者を生むだけだ！
+只会产生新的牺牲者罢了！
+
+# 0205Trial20_Alisa023
+; > Alisa: |#0205Trial20_Alisa023|
+; ぐっ……！<br>う、うるせぇ……。
+唔……！<br>
+吵、吵死了……
+
+# 0205Trial20_Alisa024
+; > Alisa: |#0205Trial20_Alisa024|
+; うるせぇうるせぇうるせぇ……！
+吵死了吵死了吵死了……！
+
+# 0205Trial20_Alisa025
+; > Alisa: |#0205Trial20_Alisa025|
+; ――みんな死ぬしかねぇんだよ！
+——大家只能去死啊！
+
+# 0205Trial20_Hiro033
+; > Hiro: |#0205Trial20_Hiro033|
+; （くっ……！<br>　説得は効かないか――！？）
+（唔……！<br>
+　还是说服不了吗——！？）
+
+# 0205Trial20_Hiro034
+; > Hiro: |#0205Trial20_Hiro034|
+; （……いや、そんなことはない。<br>　また炎の勢いが弱まってきている……）
+（……不，也不是完全没效果。<br>
+　火势又减弱了……）
+
+# 0205Trial20_Hiro035
+; > Hiro: |#0205Trial20_Hiro035|
+; （……アンアンの魔法は、<br>　相手がその言葉に納得しないと効果を発揮しない）
+（……如果对方不认可安安说的话，<br>
+　她的魔法就无法发挥效果）
+
+# 0205Trial20_Hiro036
+; > Hiro: |#0205Trial20_Hiro036|
+; （大丈夫だ……！<br>　アリサはちゃんと私の話を聞いている！）
+（没问题……！<br>
+　亚里沙的确有听进我说的话！）
+
+# 0205Trial20_Hiro037
+; > Hiro: |#0205Trial20_Hiro037|
+; （このまま説得を続けるんだ……！）
+（继续说服她吧……！）

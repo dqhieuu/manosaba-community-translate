@@ -1,0 +1,220 @@
+; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter05/Act02_Chapter05_Trial22' Naninovel scenario script
+
+# 0205Trial22_Hanna001
+; > @printDebate pos:70,50 roll:4 |#0205Trial22_Hanna001|
+; だめ……だめ……<br>どうして<link="Objection_02_05_22_01">そんなこと</link>……。
+不要……不要……<br>
+为什么我会<link="Objection_02_05_22_01">做出这种事</link>……
+
+# 0205Trial22_Hanna002
+; > @printDebate pos:70,50 roll:4 |#0205Trial22_Hanna002|
+; どうしてわたくしは<br><link="Objection_02_05_22_02">殺して</link>しまったの……？<br>レイアさんを……<br>エマさんを……！
+为什么我会<br>
+<link="Objection_02_05_22_02">杀人</link>……？<br>
+把蕾雅杀了……<br>
+把艾玛杀了……！
+
+# 0205Trial22_Hanna003
+; > @printDebate pos:70,50 roll:4 |#0205Trial22_Hanna003|
+; 何の罪もない<br>人たちなのに……！
+明明她们<br>
+根本没有罪过……！
+
+# 0205Trial22_Hanna004
+; > @printDebate pos:70,50 roll:4 |#0205Trial22_Hanna004|
+; それに……<br><link="Objection_02_05_22_03">シェリーさん</link>は<br>そんなわたくしに付き合って……。
+而且……<br>
+我这么罪孽深重，<br>
+<link="Objection_02_05_22_03">雪莉</link>竟然要陪我一起……
+
+# 0205Trial22_Hanna005
+; > @printDebate pos:70,50 roll:4 |#0205Trial22_Hanna005|
+; うう……<br>ああああ……！
+呜呜……<br>
+啊啊啊啊……！
+
+# 0205Trial22_Hiro001
+; > @printDebate pos:30,50 roll:-4 |#0205Trial22_Hiro001|
+; ……ハンナ！<br>心を強く持つんだ！
+……汉娜！<br>
+你振作一点！
+
+# 0205Trial22_Hanna006
+; > @printDebate pos:70,50 roll:4 |#0205Trial22_Hanna006|
+; そんなの<link="Objection_02_05_22_04">無理</link>よ……！<br>わたくしは……<br>わたくしは……！！
+<link="Objection_02_05_22_04">做不到</link>啊……！<br>
+我……<br>
+该怎办……！！
+
+# 0205Trial22_Hiro002
+; > Hiro: |#0205Trial22_Hiro002|
+; （ハンナの心が負荷に耐えきれず、<br>　魔法が暴走している……！）
+（汉娜的心承受不住负担，<br>
+　令魔法失控了……！）
+
+# 0205Trial22_Hiro003
+; > Hiro: |#0205Trial22_Hiro003|
+; （重力がぐちゃぐちゃで、ハンナに近付くこともできない）
+（重力变得紊乱，我甚至没法靠近汉娜）
+
+# 0205Trial22_Hiro004
+; > Hiro: |#0205Trial22_Hiro004|
+; （……島の高度は今もどんどん上がり続けている……！<br>　このまま放っておけばどうなるのかは想像したくないな……！）
+（……岛的高度现在还在不断上升……！<br>
+　真不敢想放任不管下去会出什么事……！）
+
+# 0205Trial22_Hiro005
+; > Hiro: |#0205Trial22_Hiro005|
+; （ハンナに……呼びかけ続けるしかない！）
+（我只能……持续对汉娜喊话了！）
+
+# 0205Trial22_Choice001
+; > @choice |#0205Trial22_Choice001| button:ChoiceButtons/Trial/Objection handler:TrialHiro
+; 仕方なかった
+不是你的错
+
+# Common_Return
+; > @choice |#Common_Return| button:ChoiceButtons/Trial/Cancel handler:TrialHiro
+; 戻る
+返回
+
+# 0205Trial22_Choice002
+; > @choice |#0205Trial22_Choice002| button:ChoiceButtons/Trial/Objection handler:TrialHiro
+; 君がやったんじゃない
+不是你动手的
+
+# 0205Trial22_Choice003
+; > @choice |#0205Trial22_Choice003| button:ChoiceButtons/Trial/Objection handler:TrialHiro
+; シェリーの選択だ
+那是雪莉的选择
+
+# 0205Trial22_Choice004
+; > 他選択肢全通過
+; > @choice |#0205Trial22_Choice004| button:ChoiceButtons/Trial/Objection handler:TrialHiro
+; 君なら乗り越えられる
+你有办法克服
+
+# 0205Trial22_Hiro006
+; > Hiro: |#0205Trial22_Hiro006|
+; 仕方なかったんだ！<br>君は魔女化が進行していた……！
+那不怪你！<br>
+当时你的魔女化正在加深……！
+
+# 0205Trial22_Hiro007
+; > Hiro: |#0205Trial22_Hiro007|
+; それは君の意思じゃない！<br>全て魔女因子のせいだ！
+你不是真心想杀人的！<br>
+这全都是魔女因子的错！
+
+# 0205Trial22_Hanna007
+; > Hanna: |#0205Trial22_Hanna007|
+; わたくしは……わたくし……は……！
+我……已经……！
+
+# 0205Trial22_Hiro008
+; > Hiro: |#0205Trial22_Hiro008|
+; （ハンナの心は憔悴している……）
+（汉娜的心已经憔悴不堪……）
+
+# 0205Trial22_Hiro009
+; > Hiro: |#0205Trial22_Hiro009|
+; （だが……諦めるものかっ！）
+（但是……我怎能放弃！）
+
+# Toast_002
+; > @toast |#Toast_002|
+; 議論発展…
+讨论前进…
+
+# 0205Trial22_Hiro010
+; > Hiro: |#0205Trial22_Hiro010|
+; それは君がやったことじゃない！<br>別の世界の君がしたことだ！
+那不是你做的！<br>
+只是另一个世界的你做的事！
+
+# 0205Trial22_Hiro011
+; > Hiro: |#0205Trial22_Hiro011|
+; 今ここにいる君が悔やむ必要なんてない！
+当下的你根本没必要懊悔！
+
+# 0205Trial22_Hanna008
+; > Hanna: |#0205Trial22_Hanna008|
+; ……それでも、わたくしは……！！
+……就算是这样，我也……！！
+
+# 0205Trial22_Hiro012
+; > Hiro: |#0205Trial22_Hiro012|
+; （こちらの声はまだ届いている……！）
+（她还听得进我说的话……！）
+
+# 0205Trial22_Hiro013
+; > Hiro: |#0205Trial22_Hiro013|
+; （諦めるのは早い！）
+（现在放弃还太早！）
+
+# 0205Trial22_Hiro014
+; > Hiro: |#0205Trial22_Hiro014|
+; それはシェリーが選択したことだ！
+那是雪莉自己选择的！
+
+# 0205Trial22_Hiro015
+; > Hiro: |#0205Trial22_Hiro015|
+; 君が責任を感じる必要なんてない！
+你根本没必要感到自责！
+
+# 0205Trial22_Sherry001
+; > Sherry: |#0205Trial22_Sherry001|
+; ……複雑な気持ちですが。
+……总感觉心情复杂呢。
+
+# 0205Trial22_Sherry002
+; > Sherry: |#0205Trial22_Sherry002|
+; 私のことはお気になさらず！<br>全然気にしてないので！
+请不用在意我！<br>
+我完全不介意的！
+
+# 0205Trial22_Hanna009
+; > Hanna: |#0205Trial22_Hanna009|
+; そんなこと……言われても……！
+现在说这个……有什么用……！
+
+# 0205Trial22_Hiro016
+; > Hiro: |#0205Trial22_Hiro016|
+; 君なら乗り越えられる……。
+你一定能克服……
+
+# 0205Trial22_Hiro017
+; > Hiro: |#0205Trial22_Hiro017|
+; 君は気高い【お嬢様】なんだろう！
+你不是高贵的【大小姐】吗！
+
+# 0205Trial22_Hanna010
+; > Hanna: |#0205Trial22_Hanna010|
+; ……っ！
+……！
+
+# 0205Trial22_Hanna011
+; > Hanna: |#0205Trial22_Hanna011|
+; それは……。
+我……
+
+# 0205Trial22_Hanna012
+; > Hanna: |#0205Trial22_Hanna012|
+; ……っ……。
+…………
+
+# 0205Trial22_Hanna013
+; > Hanna: |#0205Trial22_Hanna013|
+; やっぱり無理です……！<br>わたくしに……お嬢様の資格なんてないんですわ……！
+还是不行……！<br>
+我……根本没有当大小姐的资格呀……！
+
+# 0205Trial22_Hiro018
+; > Hiro: |#0205Trial22_Hiro018|
+; ……！
+……！
+
+# 0205Trial22_Hanna014
+; > Hanna: |#0205Trial22_Hanna014|
+; わたくしは……ダメな子なんです！！
+我……真的太不中用了！！

@@ -1,0 +1,9 @@
+; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Debug/Debug_Movie' Naninovel scenario script
+
+# ~29a7fe76
+; Debug_Movie # Main
+
+
+# ~93dbd26e
+; Movie ends.
+

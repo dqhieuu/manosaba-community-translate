@@ -1,0 +1,390 @@
+; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter04/Act02_Chapter04_Trial01' Naninovel scenario script
+
+# 0204Trial01_Alisa001
+; > @printDebate pos:70,50 roll:4 |#0204Trial01_Alisa001|
+; 結局、<br>二階堂の前に<br>エレベーターに乗ったのは<br>誰なんだよ。
+到头来，<br>
+是谁在<br>
+二阶堂前面<br>
+上的电梯啊？
+
+# 0204Trial01_Miria001
+; > @printDebate pos:30,50 roll:-4 |#0204Trial01_Miria001|
+; お、おじさんになるのかな？
+可、可能是大叔我吧？
+
+# 0204Trial01_Miria002
+; > @printDebate pos:30,55 roll:-4 |#0204Trial01_Miria002|
+; でもそのときは<br>死体なんてなかったよ！
+但我上电梯的时候<br>
+根本没看见尸体啊！
+
+# 0204Trial01_Hanna001
+; > @printDebate pos:70,50 roll:4 |#0204Trial01_Hanna001|
+; 上の階では<br>わたくしとシェリーさんが<br>ミリアさんが出てくるのを<br>見ていましたわ……。
+我和雪莉在上层，<br>
+亲眼看到<br>
+米莉亚从电梯里<br>
+出来的哇……
+
+# 0204Trial01_Sherry001
+; > @printDebate pos:30,50 roll:-4 |#0204Trial01_Sherry001|
+; でもエレベーターの中には<br>エマさんの死体なんて<br><link="Objection_02_04_01_01">ありません</link>でしたけどねー。
+但是电梯里<br>
+并<link="Objection_02_04_01_01">没有</link><br>
+艾玛的尸体啊。
+
+# 0204Trial01_Sherry002
+; > @printDebate pos:30,50 roll:-4 |#0204Trial01_Sherry002|
+; エレベーターの中に<br><link="Objection_02_04_01_02">隠れられるところ</link>も<br>ありませんでしたし……。
+电梯里<br>
+也<link="Objection_02_04_01_02">没地方能躲起来</link>……<br>
+
+
+# 0204Trial01_Miria003
+; > @printDebate pos:70,50 roll:4 |#0204Trial01_Miria003|
+; つ、つまりおじさんは<br><link="Objection_02_04_01_03">何もしてない</link><br>ってことだよ！
+总、<br>
+总之大叔我<br>
+<link="Objection_02_04_01_03">什么都没做</link>啦！
+
+# 0204Trial01_Alisa002
+; > @printDebate pos:30,50 roll:-4 |#0204Trial01_Alisa002|
+; じゃあやっぱり、<br>犯人は二階堂でしかねーだろ。
+这么说来，<br>
+凶手只能是二阶堂了吧。
+
+# 0204Trial01_Alisa003
+; > @printDebate pos:30,50 roll:-4 |#0204Trial01_Alisa003|
+; エレベーターが<br>下に降りてから、<br>二階堂が桜羽を殺した。
+电梯下降之后，<br>
+二阶堂杀害了樱羽。<br>
+
+
+# 0204Trial01_Alisa004
+; > @printDebate pos:30,50 roll:-4 |#0204Trial01_Alisa004|
+; ……もしくは<br><link="Objection_02_04_01_04">あらかじめ殺していた</link><br>死体を持ってきて、<br>見つけたフリをしたんだろ。
+……又或者是，<br>
+把<link="Objection_02_04_01_04">事先杀害</link><br>
+的尸体搬过来，<br>
+然后装作自己是刚发现的。
+
+# 0204Trial01_Alisa005
+; > @printDebate pos:30,50 roll:-4 |#0204Trial01_Alisa005|
+; それしか<br>考えられねーじゃねーか。
+只有这几种<br>
+可能了吧。
+
+# 0204Trial01_Hiro001
+; > Hiro: |#0204Trial01_Hiro001|
+; （何が起こったのかを明らかにするには、<br>　状況を整理する必要がある）
+（要弄清楚到底发生了什么，<br>
+　必须整理清楚情况）
+
+# 0204Trial01_Hiro002
+; > Hiro: |#0204Trial01_Hiro002|
+; （１つ１つ可能性を潰し……<br>　その先にある真実を見つけるんだ！）
+（把可能性一个个排除……<br>
+　找到剩下的唯一真相！）
+
+# 0204Trial01_Choice001
+; > @choice |#0204Trial01_Choice001| button:ChoiceButtons/Trial/Objection handler:TrialHiro
+; ３人全員が見落とした
+三个人全都看漏了尸体
+
+# Common_Return
+; > @choice |#Common_Return| button:ChoiceButtons/Trial/Cancel handler:TrialHiro
+; 戻る
+返回
+
+# 0204Trial01_Choice002
+; > @choice |#0204Trial01_Choice002| button:ChoiceButtons/Trial/Objection handler:TrialHiro
+; 隠れる場所はあった
+有地方可以躲起来
+
+# 0204Trial01_Choice003
+; > @choice |#0204Trial01_Choice003| button:ChoiceButtons/Trial/Objection handler:TrialHiro
+; ミリアが隠した
+米莉亚藏起了尸体
+
+# 0204Trial01_Choice004
+; > @choice |#0204Trial01_Choice004| button:ChoiceButtons/Trial/Objection handler:TrialHiro
+; 殺すヒマなどない
+没有空闲杀人
+
+# 0204Trial01_Hiro003
+; > Hiro: |#0204Trial01_Hiro003|
+; それはどうかな。
+这可不一定。
+
+# 0204Trial01_Hiro004
+; > Hiro: |#0204Trial01_Hiro004|
+; もしも３人全員が見落としていたとしたら？<br>それなら辻褄が合う。
+万一三个人都看漏了尸体呢？<br>
+这样就说得通了。
+
+# 0204Trial01_Sherry003
+; > Sherry: |#0204Trial01_Sherry003|
+; うーん、そうでしょうか？
+嗯～……真的吗？
+
+# 0204Trial01_Sherry004
+; > Sherry: |#0204Trial01_Sherry004|
+; あのとき、エレベーターは<br>ヒロさんの前に３人が利用しています。
+那时，在希罗之前<br>
+有三个人乘坐了电梯。
+
+# 0204Trial01_Sherry005
+; > Sherry: |#0204Trial01_Sherry005|
+; もしエレベーターの中に死体があったなら<br>誰かしらが気付くんじゃないでしょうか？
+如果电梯里真有尸体，<br>
+肯定会有人注意到的吧？
+
+# 0204Trial01_Miria004
+; > Miria: |#0204Trial01_Miria004|
+; ヒロちゃんが乗る前から、<br>エレベーターの中にはエマちゃんの死体があったんだよね……？
+小希乘坐之前<br>
+电梯里就已经有小艾的尸体了吧……？
+
+# 0204Trial01_Hanna002
+; > Hanna: |#0204Trial01_Hanna002|
+; それなのにわたくしたちが見落とすワケ、ありませんわー！
+那样的话我们不可能看漏的吧！
+
+# 0204Trial01_Hiro005
+; > Hiro: |#0204Trial01_Hiro005|
+; （……３人全員が見逃したとするには、根拠がないか）
+（……要说3个人全部都看漏了，确实证据不足）
+
+# 0204Trial01_Hiro006
+; > Hiro: |#0204Trial01_Hiro006|
+; （だがこのままでは<br>　私が処刑されるのは目に見えている）
+（但是再这么下去，<br>
+　我就注定要被处刑了）
+
+# 0204Trial01_Hiro007
+; > Hiro: |#0204Trial01_Hiro007|
+; （なんとかして【私以外にも犯行ができた可能性】を<br>　立証する必要があるな）
+（必须想办法证明<br>
+　【除了我以外也有人能够作案的可能性】）
+
+# 0204Trial01_Hiro008
+; > Hiro: |#0204Trial01_Hiro008|
+; ……私がエマの死体を見つける前、<br>エレベーターに乗っていたのはミリアだ。
+……在我发现艾玛的尸体之前，<br>
+乘坐电梯的是米莉亚。
+
+# 0204Trial01_Hiro009
+; > Hiro: |#0204Trial01_Hiro009|
+; よってミリアにしか犯行はできない……。
+因此只有米莉亚才有可能作案……
+
+# 0204Trial01_Hiro010
+; > Hiro: |#0204Trial01_Hiro010|
+; つまりミリアがエマを殺害し、<br>その死体を隠していたんだ。
+也就是说米莉亚杀害了艾玛，<br>
+并把尸体藏了起来。
+
+# 0204Trial01_Miria005
+; > Miria: |#0204Trial01_Miria005|
+; お、おじさんは無実だよ……！
+大、大叔我是无辜的……！
+
+# 0204Trial01_Miria006
+; > Miria: |#0204Trial01_Miria006|
+; だって、あの時のエレベーターって<br>１人しか乗れなかったはずだよね……！？
+因为那时<br>
+电梯只能乘坐一个人才对吧……！？
+
+# 0204Trial01_Hanna003
+; > Hanna: |#0204Trial01_Hanna003|
+; ええ、そうでしたわ……。<br>だからわたくしたち、<br>１人ずつ地上に昇ったわけですし……。
+是的，没错……<br>
+所以我们那时才<br>
+一个一个坐电梯上去呀……
+
+# 0204Trial01_Miria007
+; > Miria: |#0204Trial01_Miria007|
+; じゃあおじさんがエレベーターの中で<br>エマちゃんを殺すことなんて<br>無理なんじゃないかな……！？
+那这样说来，<br>
+大叔我在电梯里杀害小艾这种事，<br>
+是不可能的吧……！？
+
+# 0204Trial01_Sherry006
+; > Sherry: |#0204Trial01_Sherry006|
+; エレベーターの中に何か隠せる場所なんて<br>ありませんでしたしね！
+电梯里也<br>
+没有可以藏身的地方哇！
+
+# 0204Trial01_Hiro011
+; > Hiro: |#0204Trial01_Hiro011|
+; （……あのタイミングで<br>　死体を隠すこと自体が難しいか）
+（……在那么短的时间内<br>
+　藏匿尸体这件事就很困难）
+
+# 0204Trial01_Hiro012
+; > Hiro: |#0204Trial01_Hiro012|
+; （だがこのままでは<br>　私が処刑されるのは目に見えている）
+（但是再这么下去，<br>
+　我就注定要被处刑了）
+
+# 0204Trial01_Hiro013
+; > Hiro: |#0204Trial01_Hiro013|
+; （なんとかして【私以外にも犯行ができた可能性】を<br>　立証する必要があるな）
+（必须想办法证明<br>
+　【除了我以外也有人能够作案的可能性】）
+
+# 0204Trial01_Hiro014
+; > Hiro: |#0204Trial01_Hiro014|
+; ……いいや。<br>私にエマを殺すヒマなんてなかったよ。
+……不对。<br>
+我根本没有时间杀害艾玛。
+
+# 0204Trial01_Hiro015
+; > Hiro: |#0204Trial01_Hiro015|
+; 私はずっと<br>メルルの死体を氷塊から取り出す作業をしていたんだから。
+为了把梅露露的尸体从冰块里取出来，<br>
+我一直在凿冰。
+
+# 0204Trial01_Sherry007
+; > Sherry: |#0204Trial01_Sherry007|
+; でもそれって逆に言えば、<br>ひとりきりの時間が長かった……<br>ということじゃないでしょうか？
+那反过来说，也意味着<br>
+你独处的时间很长……<br>
+不是吗？
+
+# 0204Trial01_Alisa006
+; > Alisa: |#0204Trial01_Alisa006|
+; その合間に殺すことだって<br>できたんじゃねーのか。
+在这段时间里<br>
+你不是完全有时间杀人吗？
+
+# 0204Trial01_Sherry008
+; > Sherry: |#0204Trial01_Sherry008|
+; たしかにその通りです！<br>ヒロさんのアリバイにはならないと思います！
+确实是这样！<br>
+我认为这不能作为希罗的不在场证明！
+
+# 0204Trial01_Hiro016
+; > Hiro: |#0204Trial01_Hiro016|
+; （……私の証言だけでは、なんの証明にもならないか）
+（……仅仅依靠我的证词并不能证明什么）
+
+# 0204Trial01_Hiro017
+; > Hiro: |#0204Trial01_Hiro017|
+; （だがこのままでは<br>　私が処刑されるのは目に見えている）
+（但是再这么下去，<br>
+　我就注定要被处刑了）
+
+# 0204Trial01_Hiro018
+; > Hiro: |#0204Trial01_Hiro018|
+; （なんとかして【私以外にも犯行ができた可能性】を<br>　立証する必要があるな）
+（必须想办法证明<br>
+　【除了我以外也有人能够作案的可能性】）
+
+# 0204Trial01_Hiro019
+; > Hiro: |#0204Trial01_Hiro019|
+; それはどうかな。
+这可不一定。
+
+# 0204Trial01_Hiro020
+; > Hiro: |#0204Trial01_Hiro020|
+; たしかにエレベーターの中に<br>身を隠せるような場所は<br>ないかもしれないが……。
+确实电梯里<br>
+可能是无处藏身……<br>
+
+
+# 0204Trial01_Hiro021
+; > Hiro: |#0204Trial01_Hiro021|
+; エレベーターの外……<br>その【頭上】になら隠れる場所はあった。
+但如果是在电梯轿厢外……<br>
+在【头顶上】的话，是有可以藏身的地方的。
+
+# 0204Trial01_Sherry009
+; > Sherry: |#0204Trial01_Sherry009|
+; 頭上……<br>エレベーターの天井裏ですね！
+头顶上……<br>
+也就是电梯顶上的空间，对吧！
+
+# 0204Trial01_Hiro022
+; > Hiro: |#0204Trial01_Hiro022|
+; そうだ。<br>シェリーが破壊した天井裏への入口……。
+没错。<br>
+就是被雪莉砸穿的，通向电梯顶板上方的盖子……
+
+# 0204Trial01_Hiro023
+; > Hiro: |#0204Trial01_Hiro023|
+; そこに隠れられるようなスペースがあったのは間違いない。
+毫无疑问，那里是有可以藏身的空间的。
+
+# 0204Trial01_Hiro024
+; > Hiro: |#0204Trial01_Hiro024|
+; なにせ、そこにはレイアの死体があったのだから！
+毕竟，蕾雅的尸体就在那里！
+
+# 0204Trial01_Sherry010
+; > Sherry: |#0204Trial01_Sherry010|
+; ……そうなんですよ！<br>あのスペースは怪しすぎますよね。
+……就是啊！<br>
+那个空间太可疑了！
+
+# 0204Trial01_Sherry011
+; > Sherry: |#0204Trial01_Sherry011|
+; だからこそ、あらかじめ調べておきましたよ！
+所以我早就提前调查过了！
+
+# 0204Trial01_Sherry012
+; > Sherry: |#0204Trial01_Sherry012|
+; エレベーターの屋根裏とでも言うべきあの空間は、<br>地下とは逆にとっても蒸し暑い場所でした。
+那个空间，也许应该叫它电梯的夹层吧。<br>
+与寒冷的地下完全相反，那里非常闷热。
+
+# 0204Trial01_Sherry013
+; > Sherry: |#0204Trial01_Sherry013|
+; 犯人がその場所を利用したのは間違いないでしょう。<br>なにせいろいろな痕跡が残っていましたから！
+可以确定的是，凶手一定使用过那个空间。<br>
+因为那里残留着各种各样的痕迹！
+
+# 0204Trial01_Sherry014
+; > Sherry: |#0204Trial01_Sherry014|
+; エマさんの衣服や持っていた荷物、<br>あとは血……と見られる液体ですね。
+在那里发现了艾玛的衣服和她带来的行李，<br>
+还有血液……疑似血液的液体。
+
+# 0204Trial01_Sherry015
+; > Sherry: |#0204Trial01_Sherry015|
+; そのほか、とくに気になるものはありませんでした。
+除此之外，就没有什么特别需要留意的地方了。
+
+# Toast_001
+; > エマが持っていた。
+; > @toast "|#Toast_001|"
+; 魔女図鑑 更新…
+魔女图鉴 更新…
+
+# 0204Trial01_Sherry016
+; > Sherry: |#0204Trial01_Sherry016|
+; これだけ証拠品が残っていますからね！<br>犯人がそこにいた可能性はありそうです！
+毕竟留下了这么多的证物嘛！<br>
+凶手很有可能在那里待过！
+
+# 0204Trial01_Miria008
+; > Miria: |#0204Trial01_Miria008|
+; 【犯人は天井裏にいた】……。
+【凶手曾经待在电梯顶板上的空间】……
+
+# 0204Trial01_Miria009
+; > Miria: |#0204Trial01_Miria009|
+; ……本当に、そうなのかな。
+……真的，是这样吗？
+
+# 0204Trial01_Sherry017
+; > Sherry: |#0204Trial01_Sherry017|
+; と、言いますと？
+你的意思是？
+
+# 0204Trial01_Miria010
+; > Miria: |#0204Trial01_Miria010|
+; ……おじさんが気になってること、<br>話すね……。
+……大叔我其实有件事很在意，<br>
+那我说了哦……

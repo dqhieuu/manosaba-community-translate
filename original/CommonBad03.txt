@@ -1,0 +1,163 @@
+; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Common/CommonBad03' Naninovel scenario script
+
+# CommonBad03_Narrative001
+; ――確たる結論が出ないまま、時間は流れた。
+——大家至今一直没有得出明确的结论，时间徒然流逝。
+
+# CommonBad03_Warden001
+; > Warden: |#CommonBad03_Warden001|
+; 議論はここまでということで、<br>投票に移ってもらっていいですかね？
+讨论到此为止，<br>
+可以请各位进入投票环节了吗？
+
+# CommonBad03_Ema001
+; > Ema: |#CommonBad03_Ema001|
+; （また、誰を処刑するか決めなくちゃいけないんだ……）
+（又得决定去处刑谁了……）
+
+# CommonBad03_Narrative002
+; もしかしたら、自分に投票されるのではないか――
+下一个被投票选中的，会不会就是自己——
+
+# CommonBad03_Narrative003
+; 少女たちの間に漂う恐れや緊張といった空気が、<br>濃度を増していく。
+萦绕在少女身边的恐惧和紧张的气氛<br>
+愈发浓重。
+
+# CommonBad03_Narrative004
+; 誰もが震え、青ざめているように思えた。<br>凄惨な処刑の光景を思い出しているのだろう。
+每个人都面色铁青，颤抖不已。<br>
+也许，她们想起了凄惨的处刑场面。
+
+# CommonBad03_Narrative005
+; だが、容赦なく投票の時間はやってくる。
+然而，投票时间无情地降临了。
+
+# CommonBad03_Narrative006
+; 少女たちは自身のスマホを操作し、<br>投票をしていく。
+少女们各自按着自己的手机，<br>
+进行投票。
+
+# CommonBad03_Narrative007
+; そして。
+然后。
+
+# CommonBad03_Narrative008
+; ファンファーレ音と共に、<br>スマホに映し出されたのは――
+随着庆祝的号角声响起，<br>
+手机屏幕上出现的——
+
+# CommonBad03_Narrative009
+; ナノカの画像だった。
+是奈叶香的照片。
+
+# CommonBad03_Warden002
+; > Warden: |#CommonBad03_Warden002|
+; はい、黒部ナノカの処刑が決定～！
+好了，决定执行对黑部奈叶香的刑罚～！
+
+# CommonBad03_Nanoka001
+; > Nanoka: |#CommonBad03_Nanoka001|
+; あなたたちの結論は間違ってる……！<br>私は殺してなんかない……！
+你们的结论错了……！<br>
+我根本没杀她……！
+
+# CommonBad03_Warden003
+; > Warden: |#CommonBad03_Warden003|
+; 間違いでも投票で決まったことなので、<br>諦めていただけると……。
+就算错了那也是投票得出的结果，<br>
+请你放弃……
+
+# CommonBad03_Nanoka002
+; > Nanoka: |#CommonBad03_Nanoka002|
+; こんなのバカげてるわ……！<br>私は大人しく処刑されるつもりはない！
+这太胡闹了……！<br>
+我可不想老老实实地被处刑！
+
+# CommonBad03_Narrative010
+; 抵抗を試みたナノカだったが<br>結局は看守によって取り押さえられ、<br>処刑が執行された――
+奈叶香尝试反抗，<br>
+但最终还是被看守制服，<br>
+接受了处刑——
+
+# CommonBad03_Narrative011
+; 魔女裁判の後。<br>エマは１人、監房で物思いに<ruby="ふけ">耽</ruby>っていた。
+魔女审判之后。<br>
+艾玛一个人在牢房里静静沉思。
+
+# CommonBad03_Ema002
+; > Ema: |#CommonBad03_Ema002|
+; （また、殺人事件が起こるのかな……）
+（凶杀案还会发生的吧……）
+
+# CommonBad03_Ema003
+; > Ema: |#CommonBad03_Ema003|
+; （そのたびに誰かが殺されて……<br>　誰かが魔女として処刑されて……）
+（到时候又会有人被杀……<br>
+　又会有人被当作魔女处刑……）
+
+# CommonBad03_Ema004
+; > Ema: |#CommonBad03_Ema004|
+; もしかしたら次はボクが……。
+说不定下次就轮到我……
+
+# CommonBad03_Ema005
+; > Ema: |#CommonBad03_Ema005|
+; あれ、この音って……？
+哎呀，这个声音是……？
+
+# CommonBad03_Narrative012
+; 不意に響いてきた音が、<br>どんどんこちらに近付いてくる。
+不经意间响起的声音，<br>
+离她越来越近。
+
+# CommonBad03_Ema006
+; > Ema: |#CommonBad03_Ema006|
+; なんだろう……？
+怎么回事呢……？
+
+# CommonBad03_Narrative013
+; エマは格子から通路の様子をうかがって――
+艾玛从铁栅栏内往过道方向探望——
+
+# CommonBad03_Narrative014
+; 何者かによって致命傷を負わされたエマが、<br>床に倒れ伏す。
+被某人袭击的艾玛受了致命伤，<br>
+趴倒在地上。
+
+# CommonBad03_Narrative015
+; 格子の向こうに見えた人影に、エマは目を見開いた。
+看见铁栅栏对面的人影，艾玛瞪大了双眼。
+
+# CommonBad03_Ema007
+; > Ema: |#CommonBad03_Ema007|
+; （そんな……どうして……？）
+（怎么会，为什么……？）
+
+# CommonBad03_Ema008
+; > Ema: |#CommonBad03_Ema008|
+; …………。
+…………
+
+# CommonBad03_Narrative016
+; 問いかけようとした言葉は声にならず――<br>エマは息絶えた。
+疑问未能成声——<br>
+艾玛便断了气。
+
+# CommonBad03_Narrative017
+; エマの命が奪われた。<br>次の犠牲者となった彼女を殺した犯人は誰なのか。
+艾玛被人杀死了。<br>
+她成了下一位牺牲者，而杀死她的又会是谁。
+
+# CommonBad03_Narrative018
+; 新たな殺人者か。<br>あるいはミリアを殺した犯人が他にいたのか――
+是出现了新的凶手？<br>
+还是杀死米莉亚的真凶另有其人——
+
+# CommonBad03_Narrative019
+; また、魔女裁判が開かれる。
+魔女审判又将再次开庭。
+
+# CommonBad03_Narrative020
+; 真実が明らかになる保証はどこにもない――
+而真相是否能水落石出，谁也无法保证——

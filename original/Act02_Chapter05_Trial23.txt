@@ -1,0 +1,425 @@
+; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter05/Act02_Chapter05_Trial23' Naninovel scenario script
+
+# 0205Trial23_Hanna001
+; > @printDebate pos:70,50 roll:4 |#0205Trial23_Hanna001|
+; わたくしが<br>犯してしまった罪は<br><link="Objection_02_05_23_01">身勝手で残忍な</link><br>ものですわ……！
+我犯下的<br>
+罪孽，<br>
+<link="Objection_02_05_23_01">既自私又残忍</link>……！<br>
+
+
+# 0205Trial23_Hanna002
+; > @printDebate pos:70,50 roll:4 |#0205Trial23_Hanna002|
+; 謝っても許されない、<br>取り返しの<br>つかないもの……。
+是道歉也无法得到原谅，<br>
+且无可挽回的<br>
+重罪……
+
+# 0205Trial23_Hanna003
+; > @printDebate pos:70,50 roll:4 |#0205Trial23_Hanna003|
+; 彼女たちは……<br>別の世界のわたくしたちは、<br>一生懸命生きようとした<br>はずですわ。
+她们……<br>
+另一个世界的我们，<br>
+应该都是拼尽全力<br>
+想活下去的。
+
+# 0205Trial23_Hanna004
+; > @printDebate pos:70,50 roll:4 |#0205Trial23_Hanna004|
+; それを全て<br><link="Objection_02_05_23_02">なかったことにする</link><br>なんてできませんわ……！
+怎么可以把那一切<br>
+<link="Objection_02_05_23_02">当作没发生过</link><br>
+呢……！
+
+# 0205Trial23_Hanna005
+; > @printDebate pos:70,50 roll:4 |#0205Trial23_Hanna005|
+; 彼女たちのことを<br>忘れてしまったら……<br>いったい誰が彼女たちを<br>弔ってあげられますの……？
+如果忘记了<br>
+她们……<br>
+还有谁能<br>
+为她们哀悼……？
+
+# 0205Trial23_Hanna006
+; > @printDebate pos:70,50 roll:4 |#0205Trial23_Hanna006|
+; わたくしは<br>永遠に忘れてはいけない……。
+我必须<br>
+永远记住……
+
+# 0205Trial23_Hanna007
+; > @printDebate pos:70,50 roll:4 |#0205Trial23_Hanna007|
+; 彼女たちを<br><link="Objection_02_05_23_03">見捨てて</link>しまったら……<br>わたくしは<br>人間ではなくなって<br>しまいますわ！！
+如果<link="Objection_02_05_23_03">抛弃</link>了<br>
+她们……<br>
+我就<br>
+没资格<br>
+继续当人了！！
+
+# 0205Trial23_Hiro001
+; > Hiro: |#0205Trial23_Hiro001|
+; （ハンナは絶望に支配されている……）
+（汉娜已经深陷在绝望当中了……）
+
+# 0205Trial23_Hiro002
+; > Hiro: |#0205Trial23_Hiro002|
+; （彼女を止められなければ、<br>　このまま全員死んでしまう……！）
+（如果不阻止她，<br>
+　最后大家都会死……！）
+
+# 0205Trial23_Hiro003
+; > Hiro: |#0205Trial23_Hiro003|
+; （ハンナの持つトラウマ……<br>　彼女を説得する鍵はそこにある）
+（汉娜的心理创伤……<br>
+　就是说服她的关键所在）
+
+# 0205Trial23_Hiro004
+; > Hiro: |#0205Trial23_Hiro004|
+; （ミリアの魔法によって共有された<br>　【記憶】を思い出すんだ……！）
+（我得回想起<br>
+　得到米莉亚的魔法共享的【记忆】……！）
+
+# 0205Trial23_Choice001
+; > @choice |#0205Trial23_Choice001| button:ChoiceButtons/Trial/Objection handler:TrialHiro
+; ハンナだけじゃない
+杀人的不是只有你
+
+# Common_Return
+; > @choice |#Common_Return| button:ChoiceButtons/Trial/Cancel handler:TrialHiro
+; 戻る
+返回
+
+# 0205Trial23_Choice002
+; > @choice |#0205Trial23_Choice002| button:ChoiceButtons/Trial/Objection handler:TrialHiro
+; なかったことにはしない
+不会当作没发生过的
+
+# 0205Trial23_Choice003
+; > @choice |#0205Trial23_Choice003| button:ChoiceButtons/Trial/Objection handler:TrialHiro
+; 見捨てていない
+你没有抛弃
+
+# 0205Trial23_Hiro005
+; > Hiro: |#0205Trial23_Hiro005|
+; ハンナ落ち着くんだ！
+汉娜你冷静点！
+
+# 0205Trial23_Hiro006
+; > Hiro: |#0205Trial23_Hiro006|
+; 殺人事件なんて、今に始まったことじゃない。<br>世界中で数えきれないほど起こっている！
+凶杀案又不是现在才开始的。<br>
+在全世界范围内已经发生过无数次了！
+
+# 0205Trial23_Hiro007
+; > Hiro: |#0205Trial23_Hiro007|
+; 君の事件は、<br>そのうちのちっぽけな１つにしか過ぎない。
+你的案子，<br>
+不过是微不足道的其中之一而已。
+
+# 0205Trial23_Hiro008
+; > Hiro: |#0205Trial23_Hiro008|
+; それにあの時の君は、<br>魔女因子の殺人衝動に心を侵されていたんだ……！
+而且当时的你，<br>
+内心受到了魔女因子的杀人冲动的侵蚀……！
+
+# 0205Trial23_Hiro009
+; > Hiro: |#0205Trial23_Hiro009|
+; だから君が気に病む必要はない……！
+所以你没必要太在意……！
+
+# 0205Trial23_Hanna008
+; > Hanna: |#0205Trial23_Hanna008|
+; ……だから、人を殺してもいいと？
+……所以你想说，杀了人也不要紧吗？
+
+# 0205Trial23_Hanna009
+; > Hanna: |#0205Trial23_Hanna009|
+; そんな理屈、納得できませんわ！
+这种道理，我无法接受啊！
+
+# 0205Trial23_Hanna010
+; > Hanna: |#0205Trial23_Hanna010|
+; そんな理由で自分を許してしまったら、<br>体だけじゃなく、心まで化け物になってしまいますもの……。
+如果靠这种道理就原谅了自己，<br>
+那就不只是身体，连心灵都会变成怪物的……
+
+# 0205Trial23_Hanna011
+; > Hanna: |#0205Trial23_Hanna011|
+; そんなの、わたくしは絶対イヤですわ……！
+我绝对不想变成怪物……！
+
+# 0205Trial23_Hiro010
+; > Hiro: |#0205Trial23_Hiro010|
+; （この言葉ではハンナの心に届かないか……）
+（看来我刚刚说的话无法触及汉娜的内心……）
+
+# 0205Trial23_Hiro011
+; > Hiro: |#0205Trial23_Hiro011|
+; （ハンナは今まさに、<br>　自責の念に押しつぶされそうになっている）
+（汉娜现在<br>
+　快要被自责感压垮了）
+
+# 0205Trial23_Hiro012
+; > Hiro: |#0205Trial23_Hiro012|
+; （心を少しでも軽くさせるために、<br>　何か掛けられる言葉はないか……）
+（为了稍微减轻她的心理负担，我得想想<br>
+　有没有什么能对她说的话……）
+
+# 0205Trial23_Hiro013
+; > Hiro: |#0205Trial23_Hiro013|
+; ハンナ、それは違う……！
+汉娜，不是这样的……！
+
+# 0205Trial23_Hiro014
+; > Hiro: |#0205Trial23_Hiro014|
+; 過ぎてしまったことは仕方がない……<br>なら、大切なのは【今】のはずだ。
+已经过去的事情无法改变……<br>
+那么，重要的应该是【现在】才对。
+
+# 0205Trial23_Hiro015
+; > Hiro: |#0205Trial23_Hiro015|
+; 今度は失敗しないよう、<br>過去を教訓にすればいい！
+为了下次不再失败，<br>
+把过去当作教训就好了！
+
+# 0205Trial23_Hiro016
+; > Hiro: |#0205Trial23_Hiro016|
+; なかったことにする必要はないんだ。
+没必要当作没发生过。
+
+# 0205Trial23_Hanna012
+; > Hanna: |#0205Trial23_Hanna012|
+; ……ヒロさんはやり直せるから<br>そんなこと言えるんでしょうけど……。
+……希罗你有办法重来，<br>
+所以才说得出这种话吧……
+
+# 0205Trial23_Hanna013
+; > Hanna: |#0205Trial23_Hanna013|
+; 人の命は本来１回きりですわ。<br>死んでしまったらそれでおしまい……。
+人的生命只有一次啊。<br>
+死了就什么都没了……
+
+# 0205Trial23_Hanna014
+; > Hanna: |#0205Trial23_Hanna014|
+; 簡単に割り切るなんて出来ませんわ！
+不可能说放下就能放下的！
+
+# 0205Trial23_Hanna015
+; > Hanna: |#0205Trial23_Hanna015|
+; 命はそんなに軽いものじゃないんですもの！
+生命并不是那么轻贱的东西！
+
+# 0205Trial23_Hiro017
+; > Hiro: |#0205Trial23_Hiro017|
+; （説得力に欠けていたか……）
+（看来我的观点缺乏说服力……）
+
+# 0205Trial23_Hiro018
+; > Hiro: |#0205Trial23_Hiro018|
+; （ハンナは今まさに、<br>　自責の念に押しつぶされそうになっている）
+（汉娜现在<br>
+　快要被自责感压垮了）
+
+# 0205Trial23_Hiro019
+; > Hiro: |#0205Trial23_Hiro019|
+; （心を少しでも軽くさせるために、<br>　何か掛けられる言葉はないか……）
+（为了稍微减轻她的心理负担，我得想想<br>
+　有没有什么能对她说的话……）
+
+# 0205Trial23_Hiro020
+; > Hiro: |#0205Trial23_Hiro020|
+; 違う、ハンナ！
+不对，汉娜！
+
+# 0205Trial23_Hiro021
+; > Hiro: |#0205Trial23_Hiro021|
+; 君は見捨てていない……！
+你并没有抛弃……！
+
+# 0205Trial23_Hiro022
+; > Hiro: |#0205Trial23_Hiro022|
+; 見捨てることと、<br>滑り落ちる者の手を掴めなかったことは別物だ！
+主动抛弃，<br>
+和没能抓住正在坠落之人的手，是两回事！
+
+# 0205Trial23_Hanna016
+; > Hanna: |#0205Trial23_Hanna016|
+; ………！
+………！
+
+# 0205Trial23_Hiro023
+; > Hiro: |#0205Trial23_Hiro023|
+; ……人の手が届く範囲には限界がある。
+……一个人的手，能触及的范围十分有限。
+
+# 0205Trial23_Hiro024
+; > Hiro: |#0205Trial23_Hiro024|
+; たしかに……君の手では救えなかったのかもしれない。
+我能理解……凭你一个人的力量，或许没办法拯救他人。
+
+# 0205Trial23_Hiro025
+; > Hiro: |#0205Trial23_Hiro025|
+; でも、君は見捨てたんじゃない……。
+但是，你并非作出了抛弃……
+
+# 0205Trial23_Hiro026
+; > Hiro: |#0205Trial23_Hiro026|
+; 君ではどうやっても救えなかった……<br>ただ、それだけなんだ。
+只不过是你无论如何都无法拯救……<br>
+仅此而已。
+
+# 0205Trial23_Hanna017
+; > Hanna: |#0205Trial23_Hanna017|
+; ああ………あああ……！
+啊啊………啊啊啊……！
+
+# 0205Trial23_Hiro027
+; > Hiro: |#0205Trial23_Hiro027|
+; ……たしかにすべてを他人や環境のせいにしてはいけない。
+……当然了，不能把一切都归咎于他人和环境。
+
+# 0205Trial23_Hiro028
+; > Hiro: |#0205Trial23_Hiro028|
+; けれど、君がすべての責任を抱え込む必要もない……！
+但是，你也没必要承担所有的责任……！
+
+# 0205Trial23_Hiro029
+; > Hiro: |#0205Trial23_Hiro029|
+; ……ハンナ！<br>私の手を取ってくれ！
+……汉娜！<br>
+抓住我的手吧！
+
+# 0205Trial23_Hiro030
+; > Hiro: |#0205Trial23_Hiro030|
+; 今度は私を……<br>私たちを、見捨てるな！
+这次，不要再抛弃我……<br>
+不要再抛弃我们了！
+
+# 0205Trial23_Hanna018
+; > Hanna: |#0205Trial23_Hanna018|
+; …………ヒロ、さんっ……！
+…………希罗……！
+
+# 0205Trial23_Hanna019
+; > Hanna: |#0205Trial23_Hanna019|
+; ……あぁ……。
+……啊啊……
+
+# 0205Trial23_Hanna020
+; > Hanna: |#0205Trial23_Hanna020|
+; 今度は……わたくし……。
+这次……我……
+
+# 0205Trial23_Hanna021
+; > Hanna: |#0205Trial23_Hanna021|
+; ちゃんと……握っていられるかしら……。
+到底能不能……稳稳地握住呢……
+
+# 0205Trial23_Hiro031
+; > Hiro: |#0205Trial23_Hiro031|
+; ……止まったか。
+……停下来了吗。
+
+# 0205Trial23_Warden001
+; > Warden: |#0205Trial23_Warden001|
+; ……現在島の高度はゆっくりと低下中です。<br>無事着水したら、地図を書き換えないといけませんねぇ。
+……目前岛屿高度正在缓慢下降中。<br>
+安全着水后，必须重绘地图了啊。
+
+# 0205Trial23_Hiro032
+; > Hiro: |#0205Trial23_Hiro032|
+; ……何を呑気なことを。
+……真亏你能一点都不紧张。
+
+# 0205Trial23_Hiro033
+; > Hiro: |#0205Trial23_Hiro033|
+; （……ひとまず物理的な壊滅は免れたか）
+（……看来物理上的毁灭算是成功避免了）
+
+# 0205Trial23_Hiro034
+; > Hiro: |#0205Trial23_Hiro034|
+; （残る魔女候補は、２人……）
+（剩下的预备魔女，还剩两人……）
+
+# 0205Trial23_Hiro035
+; > Hiro: |#0205Trial23_Hiro035|
+; （エマと……）
+（是艾玛和……）
+
+# 0205Trial23_Sherry001
+; > Sherry: |#0205Trial23_Sherry001|
+; …………。
+…………
+
+# 0205Trial23_Hiro036
+; > Hiro: |#0205Trial23_Hiro036|
+; （……シェリーだ）
+（……雪莉）
+
+# 0205Trial23_Hiro037
+; > Hiro: |#0205Trial23_Hiro037|
+; ……他の者たちは魔女化させてもらった。
+……我已经完成了其他人的魔女化。
+
+# 0205Trial23_Hiro038
+; > Hiro: |#0205Trial23_Hiro038|
+; 元々この議論の場は、<br>真の黒幕を引きずり出すために用意した場だ。
+我之所以发起这场讨论，<br>
+就是为了揪出真正的幕后黑手。
+
+# 0205Trial23_Hiro039
+; > Hiro: |#0205Trial23_Hiro039|
+; 事後的な了承で済まないが……<br>ここまで来たんだ、協力してくれないかな。
+很抱歉，我只能打马后炮了……<br>
+但都走到这一步了，请问你是否愿意协助我呢？
+
+# 0205Trial23_Sherry002
+; > Sherry: |#0205Trial23_Sherry002|
+; ……ええ、いいですよ。
+……嗯，可以哦。
+
+# 0205Trial23_Sherry003
+; > Sherry: |#0205Trial23_Sherry003|
+; 元から私は、<br>ヒロさんに反対する気はありませんでしたし。
+我本来就<br>
+没打算反对你。
+
+# 0205Trial23_Sherry004
+; > Sherry: |#0205Trial23_Sherry004|
+; ……それに、<br>あなたが体験した過去を見た以上<br>協力しない理由もありません。
+……而且，<br>
+你所经历的过去我都看见了，<br>
+我没理由不帮你。
+
+# 0205Trial23_Hiro040
+; > Hiro: |#0205Trial23_Hiro040|
+; ……助かるよ。
+……谢谢你。
+
+# 0205Trial23_Sherry005
+; > Sherry: |#0205Trial23_Sherry005|
+; ――ですが。
+——但是。
+
+# 0205Trial23_Hiro041
+; > Hiro: |#0205Trial23_Hiro041|
+; ――！
+——！
+
+# 0205Trial23_Sherry006
+; > Sherry: |#0205Trial23_Sherry006|
+; あなたに私を魔女化させることができますか？
+你有办法触发我的魔女化吗？
+
+# 0205Trial23_Hiro042
+; > Hiro: |#0205Trial23_Hiro042|
+; ……なるほど。<br>たしかに手強そうな相手だ。
+……是这么一回事啊。<br>
+的确很棘手。
+
+# 0205Trial23_Sherry007
+; > Sherry: |#0205Trial23_Sherry007|
+; そうです、私は――。
+没错，我是——
+
+# 0205Trial23_Sherry008
+; > Sherry: |#0205Trial23_Sherry008|
+; ――魔女に、なれないんです。
+——无法成为魔女的。

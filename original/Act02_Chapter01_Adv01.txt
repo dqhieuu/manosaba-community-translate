@@ -1,0 +1,17 @@
+; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter01/Act02_Chapter01_Adv01' Naninovel scenario script
+
+# 0201Adv01_Unknown001
+; > Unknown: |#0201Adv01_Unknown001|
+; うぅ……うぅう……！
+呜呜……呜呜呜……！
+
+# 0201Adv01_Unknown002
+; > Unknown: |#0201Adv01_Unknown002|
+; お願い……誰か……<br>誰か、助けて……。
+拜托了……有没有人……<br>
+有人可以帮帮忙吗……
+
+# 0201Adv01_Unknown003
+; > Unknown: |#0201Adv01_Unknown003|
+; あの子を、助けてあげて――！
+救救她吧——！

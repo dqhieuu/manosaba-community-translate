@@ -1,0 +1,599 @@
+; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter02/Act02_Chapter02_Trial05' Naninovel scenario script
+
+# 0202Trial05_Ema001
+; > @printDebate pos:30,50 roll:-4 |#0202Trial05_Ema001|
+; でもそもそも<br>今回の事件には<br>ボクとヒロちゃんしか<br>関われないんだ。
+可是话说回来，<br>
+这次的案情<br>
+只涉及到我和希罗<br>
+两个人。
+
+# 0202Trial05_Hiro001
+; > @printDebate pos:70,50 roll:4 |#0202Trial05_Hiro001|
+; ……エマの言葉は正しい。
+……艾玛说得对。
+
+# 0202Trial05_Hiro002
+; > @printDebate pos:70,50 roll:4 |#0202Trial05_Hiro002|
+; 死体は<br>私が中庭を通ったあとに<br>発見された。
+尸体<br>
+是在我经过中庭以后<br>
+才被发现的。
+
+# 0202Trial05_Hiro003
+; > @printDebate pos:70,50 roll:4 |#0202Trial05_Hiro003|
+; だからエマが<br>犯人だと言っているんだ。<br>……私が死体を<br>見逃したのでもなければね。
+所以我才说<br>
+艾玛是凶手。<br>
+……前提是<br>
+我经过中庭时确实没看漏尸体。
+
+# 0202Trial05_Noah001
+; > @printDebate pos:30,50 roll:-4 |#0202Trial05_Noah001|
+; あれ？<br>ならヒロちゃんが<br>見逃した可能性は<br>あるってこと？
+咦？<br>
+那就是说<br>
+也有可能是希罗你<br>
+没注意到尸体？
+
+# 0202Trial05_Noah002
+; > @printDebate pos:30,50 roll:-4 |#0202Trial05_Noah002|
+; ヒロちゃんって、<br>配信でココちゃんが<br>死んだのを見て<br>ココちゃんを<br>探してたんだよね。
+希罗，<br>
+你在直播中<br>
+看到可可死了<br>
+就过来<br>
+找她了对吧。
+
+# 0202Trial05_Noah003
+; > @printDebate pos:30,50 roll:-4 |#0202Trial05_Noah003|
+; だったら急いで<br>探してたって<br>ことだし……。
+所以你<br>
+找人找得<br>
+很匆忙……
+
+# 0202Trial05_Noah004
+; > @printDebate pos:30,50 roll:-4 |#0202Trial05_Noah004|
+; 中庭にあった死体を<br>見逃して通り過ぎても、<br><link="Objection_02_02_05_01">おかしくない</link>んじゃ<br>ないかなー？
+就算经过中庭时<br>
+没注意到尸体<br>
+也<link="Objection_02_02_05_01">并不出奇</link>吧～？<br>
+
+
+# 0202Trial05_Leia001
+; > @printDebate pos:70,50 roll:4 |#0202Trial05_Leia001|
+; とはいえ、<br>ヒロくんの視認を疑う前に<br>他にも疑問は<br>残っていると思うよ。
+不过，<br>
+比起质疑希罗的所见，<br>
+我觉得还有<br>
+其他问题更值得讨论。
+
+# 0202Trial05_Noah005
+; > @printDebate pos:30,50 roll:-4 |#0202Trial05_Noah005|
+; 疑問って？
+什么问题？
+
+# 0202Trial05_Leia002
+; > @printDebate pos:70,50 roll:4 |#0202Trial05_Leia002|
+; たとえば……。
+比如说……
+
+# 0202Trial05_Leia003
+; > @printDebate pos:70,50 roll:4 |#0202Trial05_Leia003|
+; ヒロくんはさっき、<br>ココくんが死んだ場所は<br>地下の焼却炉室の<br>可能性が高いと<br>示していたよね。
+希罗，你刚才说<br>
+可可的死亡地点<br>
+很有可能是<br>
+地下的焚烧炉室，<br>
+对吧。
+
+# 0202Trial05_Leia004
+; > @printDebate pos:70,50 roll:4 |#0202Trial05_Leia004|
+; けれど、<br>死体は中庭で見つかっている。<br>この<link="Objection_02_02_05_02">矛盾の説明</link>が<br>できていないよ。
+然而，<br>
+尸体是在中庭被发现的。<br>
+这个<link="Objection_02_02_05_02">矛盾目前讲不通</link>。<br>
+
+
+# 0202Trial05_Miria001
+; > @printDebate pos:30,50 roll:-4 |#0202Trial05_Miria001|
+; たしかにそうかも……！
+还真是……！
+
+# 0202Trial05_Miria002
+; > @printDebate pos:30,50 roll:-4 |#0202Trial05_Miria002|
+; もし誰かが<br>地下から<br>中庭に運んだなら……。
+如果是谁<br>
+把尸体从地下<br>
+搬运到了中庭……
+
+# 0202Trial05_Miria003
+; > @printDebate pos:30,50 roll:-4 |#0202Trial05_Miria003|
+; それって、<br>ヒロちゃんと<br>エマちゃんの間に<br>タイミング良く<br>滑り込んだって<br>ことだよね。
+那就意味着<br>
+这个人掐准了<br>
+希罗和艾玛<br>
+两人行动之间的<br>
+时间窗口。<br>
+
+
+# 0202Trial05_AnAn001
+; > @printDebate pos:70,50 roll:4 |#0202Trial05_AnAn001|
+; 『それはそもそも<br>不可能だ』
+『这根本<br>
+不可能』
+
+# 0202Trial05_Leia005
+; > @printDebate pos:70,50 roll:4 |#0202Trial05_Leia005|
+; ラウンジには<br><link="Objection_02_02_05_03">私とアンアンくん</link>が<br>いた……。
+<link="Objection_02_02_05_03">我和安安</link><br>
+当时就在<br>
+会客厅里……
+
+# 0202Trial05_Miria004
+; > @printDebate pos:30,50 roll:-4 |#0202Trial05_Miria004|
+; 地下の焼却炉室から<br>中庭に行くには、<br>ラウンジを<br>通らなきゃだよね。
+要从地下的焚烧炉室<br>
+前往中庭，<br>
+必须经过<br>
+会客厅。
+
+# 0202Trial05_Alisa001
+; > @printDebate pos:70,50 roll:4 |#0202Trial05_Alisa001|
+; たしかに<br>ラウンジを通らねーと<br>死体を中庭に<br>運ぶことは<br><link="Objection_02_02_05_04">不可能</link>だ。
+不经过会客厅<br>
+确实<link="Objection_02_02_05_04">不可能</link><br>
+把尸体<br>
+搬到中庭。<br>
+
+
+# 0202Trial05_Noah006
+; > @printDebate pos:30,50 roll:-4 |#0202Trial05_Noah006|
+; 遠回りしても、<br>誰かしらに<br>会っちゃいそうだよね。
+就算绕远路，<br>
+也有可能<br>
+遇到其他人呢。
+
+# 0202Trial05_Sherry001
+; > @printDebate pos:70,50 roll:4 |#0202Trial05_Sherry001|
+; ということはやっぱり、<br>エマさんとヒロさんの<br>どちらかが犯人って<br>ことですね！
+那也就是说，<br>
+凶手还是<br>
+艾玛和希罗<br>
+二选一咯！
+
+# 0202Trial05_AnAn002
+; > @printDebate pos:30,50 roll:-4 |#0202Trial05_AnAn002|
+; 『そういうことになる』
+『正是如此』
+
+# 0202Trial05_AnAn003
+; > @printDebate pos:30,50 roll:-4 |#0202Trial05_AnAn003|
+; ……何か反論はあるか？
+……有人要反对吗？
+
+# 0202Trial05_Hiro004
+; > Hiro: |#0202Trial05_Hiro004|
+; （第三者の可能性……か）
+（凶手有可能是第三者吗……）
+
+# 0202Trial05_Hiro005
+; > Hiro: |#0202Trial05_Hiro005|
+; （仮にエマが犯人なら、<br>　第三者の可能性がないことを<br>　証明してやればいい）
+（如果艾玛是凶手的话，<br>
+　就只需证明<br>
+　凶手不可能是第三者）
+
+# 0202Trial05_Hiro006
+; > Hiro: |#0202Trial05_Hiro006|
+; （逆に、そうでないのなら……）
+（反过来说，如果她不是凶手……）
+
+# 0202Trial05_Hiro007
+; > Hiro: |#0202Trial05_Hiro007|
+; （【第三者が介入した可能性】を指摘する必要がある）
+（就必须指出【有第三者介入的可能性】）
+
+# 0202Trial05_Hiro008
+; > Hiro: |#0202Trial05_Hiro008|
+; （もしも本当にエマが犯人でないなら……だが）
+（但前提是……艾玛真的不是凶手）
+
+# 0202Trial05_Choice001
+; > @choice |#0202Trial05_Choice001| button:ChoiceButtons/Trial/Objection handler:TrialHiro
+; 私が見逃すはずがない
+我不可能没注意到
+
+# Common_Return
+; > @choice |#Common_Return| button:ChoiceButtons/Trial/Cancel handler:TrialHiro
+; 戻る
+返回
+
+# 0202Trial05_Choice002
+; > @choice |#0202Trial05_Choice002| button:ChoiceButtons/Trial/Objection handler:TrialHiro
+; 殺害現場は中庭だった
+杀人现场是中庭
+
+# 0202Trial05_Choice003
+; > @choice |#0202Trial05_Choice003| button:ChoiceButtons/Trial/Objection handler:TrialHiro
+; レイアたちが見落とした
+是你们没注意到
+
+# 0202Trial05_Choice004
+; > @choice |#0202Trial05_Choice004| button:ChoiceButtons/Trial/Objection handler:TrialHiro
+; 中庭に入る方法があった
+有其他进入中庭的途径
+
+# 0202Trial05_Hiro009
+; > Hiro: |#0202Trial05_Hiro009|
+; 私が見逃すはずはない。
+我不可能没注意到。
+
+# 0202Trial05_Hiro010
+; > Hiro: |#0202Trial05_Hiro010|
+; 中庭だってちゃんと見ていた。
+中庭我也仔细看过了。
+
+# 0202Trial05_Hanna001
+; > Hanna: |#0202Trial05_Hanna001|
+; ウソおっしゃいませですわーッ！！
+你肯定在说谎！！
+
+# 0202Trial05_Hiro011
+; > Hiro: |#0202Trial05_Hiro011|
+; な、なにを根拠に――！
+你、你有什么证据——！
+
+# 0202Trial05_Hanna002
+; > Hanna: |#0202Trial05_Hanna002|
+; 死体発見直前……２階に上がる階段で<br>ヒロさんはわたくしに激突してきましたの！
+就在尸体被发现的前不久……你在楼梯上<br>
+狠狠撞到了我！
+
+# 0202Trial05_Hanna003
+; > Hanna: |#0202Trial05_Hanna003|
+; 前方不注意！！<br>ヒロさんが周囲をちゃんと見ていたとは言い切れませんわー！！
+连路都不注意看！！<br>
+你怎么敢肯定自己有仔细观察周围的情况！！
+
+# 0202Trial05_Hiro012
+; > Hiro: |#0202Trial05_Hiro012|
+; （……そういえばそうだった）
+（……确实有过这么一回事）
+
+# 0202Trial05_Hiro013
+; > Hiro: |#0202Trial05_Hiro013|
+; （……ぶつかったという事実がある以上、説得力がないか……）
+（……既然我撞到了她，这个论点就没有说服力了……）
+
+# 0202Trial05_Hiro014
+; > Hiro: |#0202Trial05_Hiro014|
+; （ひとまずは何が真実で、何が錯覚なのかを見極めよう）
+（先一一辨清哪些是真事，哪些是错觉吧）
+
+# 0202Trial05_Hiro015
+; > Hiro: |#0202Trial05_Hiro015|
+; （可能性を潰した先に、真実はある……）
+（在扫清所有不可能以后，一定能看到真相……）
+
+# 0202Trial05_Hiro016
+; > Hiro: |#0202Trial05_Hiro016|
+; （……殺害現場が焼却炉室だと仮定したら、<br>　【中庭に死体がある状況】は成立するのか……？）
+（……假如杀人现场是焚烧炉室，<br>
+　那让【尸体出现在中庭】的方法到底是……？）
+
+# 0202Trial05_Hiro017
+; > Hiro: |#0202Trial05_Hiro017|
+; ……とすると、<br>ココはやはり中庭で殺されたんだ。
+……那么，<br>
+可可就是在中庭被杀害的。
+
+# 0202Trial05_Noah007
+; > Noah: |#0202Trial05_Noah007|
+; え？ なんで？
+欸？为什么？
+
+# 0202Trial05_Nanoka001
+; > Nanoka: |#0202Trial05_Nanoka001|
+; じゃあ地下の血痕はなんだったのかしら。
+那地下的血迹你要怎么解释。
+
+# 0202Trial05_AnAn004
+; > AnAn: |#0202Trial05_AnAn004|
+; 『話をひっくり返すな』
+『别反复推翻结论』
+
+# 0202Trial05_Hiro018
+; > Hiro: |#0202Trial05_Hiro018|
+; （……矛盾が説明できないか）
+（……看来这个说法无法解释矛盾）
+
+# 0202Trial05_Hiro019
+; > Hiro: |#0202Trial05_Hiro019|
+; （ひとまずは何が真実で、何が錯覚なのかを見極めよう）
+（先一一辨清哪些是真事，哪些是错觉吧）
+
+# 0202Trial05_Hiro020
+; > Hiro: |#0202Trial05_Hiro020|
+; （可能性を潰した先に、真実はある……）
+（在扫清所有不可能以后，一定能看到真相……）
+
+# 0202Trial05_Hiro021
+; > Hiro: |#0202Trial05_Hiro021|
+; （……殺害現場が焼却炉室だと仮定したら、<br>　【中庭に死体がある状況】は成立するのか……？）
+（……假如杀人现场是焚烧炉室，<br>
+　那让【尸体出现在中庭】的方法到底是……？）
+
+# 0202Trial05_Hiro022
+; > Hiro: |#0202Trial05_Hiro022|
+; なら、可能性は１つ。
+那么，只剩下一种可能性。
+
+# 0202Trial05_Hiro023
+; > Hiro: |#0202Trial05_Hiro023|
+; レイアたちは雑談に夢中で<br>犯人を見落としたに違いない。
+一定是你们当时沉迷在闲聊之中，<br>
+没注意到凶手。
+
+# 0202Trial05_Leia006
+; > Leia: |#0202Trial05_Leia006|
+; ちょ、ちょっと待ってくれたまえ。
+等、等一等。
+
+# 0202Trial05_Leia007
+; > Leia: |#0202Trial05_Leia007|
+; 死体を担いだ犯人がラウンジを横切ったら、<br>さすがに私たちだって気付くはずさ。
+如果凶手扛着尸体穿过会客厅，<br>
+再怎么说我们肯定会注意到。
+
+# 0202Trial05_Miria005
+; > Miria: |#0202Trial05_Miria005|
+; 何か理由があったっていうなら別だけど……。
+除非有什么别的原因……
+
+# 0202Trial05_AnAn005
+; > AnAn: |#0202Trial05_AnAn005|
+; 『透明にでもなっていない限り<br>　気付くだろうな』
+『只要没变成透明人<br>
+　我们肯定会注意到』
+
+# 0202Trial05_Leia008
+; > Leia: |#0202Trial05_Leia008|
+; 私たちの視認に文句をつけるなら、<br>その根拠を示してもらおう！
+对我们的目击情报有意见的话，<br>
+就拿出证据来！
+
+# 0202Trial05_Hiro024
+; > Hiro: |#0202Trial05_Hiro024|
+; （……たしかに根拠になるものは何もないか）
+（……那我确实没有证据能证明）
+
+# 0202Trial05_Hiro025
+; > Hiro: |#0202Trial05_Hiro025|
+; （ひとまずは何が真実で、何が錯覚なのかを見極めよう）
+（先一一辨清哪些是真事，哪些是错觉吧）
+
+# 0202Trial05_Hiro026
+; > Hiro: |#0202Trial05_Hiro026|
+; （可能性を潰した先に、真実はある……）
+（在扫清所有不可能以后，一定能看到真相……）
+
+# 0202Trial05_Hiro027
+; > Hiro: |#0202Trial05_Hiro027|
+; （……殺害現場が焼却炉室だと仮定したら、<br>　【中庭に死体がある状況】は成立するのか……？）
+（……假如杀人现场是焚烧炉室，<br>
+　那让【尸体出现在中庭】的方法到底是……？）
+
+# 0202Trial05_Hiro028
+; > Hiro: |#0202Trial05_Hiro028|
+; 【中庭に入れない】……？<br>いや、そんなことはないよ。
+【进不去中庭】……？<br>
+不，那可不一定。
+
+# 0202Trial05_Hiro029
+; > Hiro: |#0202Trial05_Hiro029|
+; 中庭に入る方法は他にもある。
+还有其他进入中庭的途径。
+
+# 0202Trial05_Alisa002
+; > Alisa: |#0202Trial05_Alisa002|
+; んだと？<br>じゃあどっから入ったんだ。
+你说什么？<br>
+那到底能从哪进去。
+
+# 0202Trial05_Leia009
+; > Leia: |#0202Trial05_Leia009|
+; 中庭は三方が壁に囲まれていて、<br>正面の廊下からしか入ることはできない……。
+中庭被三面墙围住，<br>
+只能从正面的走廊进入……
+
+# 0202Trial05_Leia010
+; > Leia: |#0202Trial05_Leia010|
+; にも関わらず、ヒロくんは【入れた】と言うんだね。
+然而，你却说凶手【能进去】。
+
+# 0202Trial05_Hiro030
+; > Hiro: |#0202Trial05_Hiro030|
+; やれやれ。<br>ここまで説明してもわからないのか？
+服了你们。<br>
+我都说到这份上了，你们还不明白吗？
+
+# 0202Trial05_Hiro031
+; > Hiro: |#0202Trial05_Hiro031|
+; 犯人はある場所から中庭に侵入したんだ。<br>その場所とは……。
+凶手是从某个地方潜入中庭的。<br>
+那就是……
+
+# 0202Trial05_Choice005
+; > @choice |#0202Trial05_Choice005|
+; 壁
+墙壁
+
+# 0202Trial05_Choice006
+; > @choice |#0202Trial05_Choice006|
+; 土
+地下
+
+# 0202Trial05_Choice007
+; > @choice |#0202Trial05_Choice007|
+; 空
+空中
+
+# 0202Trial05_Hiro032
+; > Hiro: |#0202Trial05_Hiro032|
+; ……壁だ。
+……墙壁。
+
+# 0202Trial05_Hiro033
+; > Hiro: |#0202Trial05_Hiro033|
+; 中庭の壁に隠し扉があったんだよ。
+中庭的墙壁上有扇隐藏的门。
+
+# 0202Trial05_Nanoka002
+; > Nanoka: |#0202Trial05_Nanoka002|
+; ……何を根拠にそんなことを？
+……你这话有什么依据？
+
+# 0202Trial05_AnAn006
+; > AnAn: |#0202Trial05_AnAn006|
+; 『わがはいたちも現場検証を徹底したがなかったぞ』
+『我们已经彻底调查过现场了，但并没有发现』
+
+# 0202Trial05_Noah008
+; > Noah: |#0202Trial05_Noah008|
+; もしかして……<br>ヒロちゃん、隠し通路の証拠とか見つけた？
+还是说……<br>
+希罗你找到了存在秘密通道的证据？
+
+# 0202Trial05_Hiro034
+; > Hiro: |#0202Trial05_Hiro034|
+; いや……特に証拠はないが。
+不……我没什么证据。
+
+# 0202Trial05_Alisa003
+; > Alisa: |#0202Trial05_Alisa003|
+; なんとなくで推理してんじゃねーぞ。
+别光靠直觉推理啊。
+
+# 0202Trial05_Hiro035
+; > Hiro: |#0202Trial05_Hiro035|
+; （……そんな便利な抜け道はないか）
+（……看来没有那么便捷的近路）
+
+# 0202Trial05_Hiro036
+; > Hiro: |#0202Trial05_Hiro036|
+; （だが中庭は完全な密室ではない……）
+（但中庭并不是个完全的密室……）
+
+# 0202Trial05_Hiro037
+; > Hiro: |#0202Trial05_Hiro037|
+; （行き来ができる場所があるとしたら――）
+（要说能从哪里进出中庭——）
+
+# 0202Trial05_Hiro038
+; > Hiro: |#0202Trial05_Hiro038|
+; 土の中だ。
+地里。
+
+# 0202Trial05_Hiro039
+; > Hiro: |#0202Trial05_Hiro039|
+; 犯人はあらかじめ外から地面を掘って<br>中庭に通じる抜け穴を作っていたんだよ。
+凶手事先从外面<br>
+挖掘出一条通往中庭的地下洞穴。
+
+# 0202Trial05_Miria006
+; > Miria: |#0202Trial05_Miria006|
+; ……で、でも死体を持って<br>中庭に入らなきゃならないんだよね……？
+……可、可那样的话，<br>
+凶手得背着尸体进入中庭吧……？
+
+# 0202Trial05_Miria007
+; > Miria: |#0202Trial05_Miria007|
+; ふたりも人間が通り抜けられるような穴なんてあったら<br>すぐにわかりそうなものだけど……。
+如果洞穴宽到足够两个人通过，<br>
+肯定能一眼发现……
+
+# 0202Trial05_Noah009
+; > Noah: |#0202Trial05_Noah009|
+; そんな穴なかったよー？
+但是我们没发现那么大的洞穴呀？
+
+# 0202Trial05_Nanoka003
+; > Nanoka: |#0202Trial05_Nanoka003|
+; ……死体に土がついていたわけでもないのだしね。
+……而且尸体上面也没有沾到土。
+
+# 0202Trial05_Nanoka004
+; > Nanoka: |#0202Trial05_Nanoka004|
+; その可能性は、検討する必要があるのかしら。
+你这个说法真的有必要讨论吗？
+
+# 0202Trial05_Hiro040
+; > Hiro: |#0202Trial05_Hiro040|
+; （……地中からの侵入を示す痕跡はないか）
+（……看来没有从地里潜入中庭的痕迹）
+
+# 0202Trial05_Hiro041
+; > Hiro: |#0202Trial05_Hiro041|
+; （だが中庭は完全な密室ではない……）
+（但中庭并不是个完全的密室……）
+
+# 0202Trial05_Hiro042
+; > Hiro: |#0202Trial05_Hiro042|
+; （行き来ができる場所があるとしたら――）
+（要说能从哪里进出中庭——）
+
+# 0202Trial05_Hiro043
+; > Hiro: |#0202Trial05_Hiro043|
+; それはもちろん、【空】だ。
+当然，是从【空中】进入的。
+
+# 0202Trial05_Hiro044
+; > Hiro: |#0202Trial05_Hiro044|
+; 庭園に植物はつきもの。<br>そしてそれは【日光】を必要とする。
+庭院里种了植物，<br>
+而这些植物需要【阳光】。
+
+# 0202Trial05_Hiro045
+; > Hiro: |#0202Trial05_Hiro045|
+; 当然、中庭は吹き抜け……<br>直接空と繋がっているんだ。
+所以，中庭自然是露天的……<br>
+直接与天空相连。
+
+# 0202Trial05_Hiro046
+; > Hiro: |#0202Trial05_Hiro046|
+; 屋根がない空間は、密室とは言えないんだよ。
+没有屋顶的空间可称不上密室。
+
+# 0202Trial05_Leia011
+; > Leia: |#0202Trial05_Leia011|
+; なるほど……！<br>ココくんは空を飛んで中庭に……！
+原来如此……！<br>
+可可是从空中飞进了中庭……！
+
+# 0202Trial05_Sherry002
+; > Sherry: |#0202Trial05_Sherry002|
+; つまり犯人は空中を浮いて<br>ココさんの死体を運んだということですね！
+换言之，凶手是通过空中飘浮的方式<br>
+把可可搬到了中庭对吧！
+
+# 0202Trial05_Sherry003
+; > Sherry: |#0202Trial05_Sherry003|
+; そんなことができたのは――。
+而拥有这个能力的人只有——
+
+# 0202Trial05_Sherry004
+; > Sherry: |#0202Trial05_Sherry004|
+; ――空を飛ぶ魔法が使えるハンナさん！<br>あなたが犯人だったんですねー！
+——能使用飞天魔法的汉娜！<br>
+你就是凶手吧！
+
+# 0202Trial05_Hanna004
+; > Hanna: |#0202Trial05_Hanna004|
+; なっ……！？
+什么……！？
+
+# 0202Trial05_Hanna005
+; > Hanna: |#0202Trial05_Hanna005|
+; なんですってのーー！？
+你说什么——！？

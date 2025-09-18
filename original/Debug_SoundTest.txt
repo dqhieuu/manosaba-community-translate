@@ -1,0 +1,11 @@
+; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Debug/Debug_SoundTest' Naninovel scenario script
+
+# ~6ba56969
+; > @choice "|#~6ba56969|" button:ChoiceButtons/Debug/Default handler:Debug
+; BGM 停止
+
+
+# ~88ca4b0b
+; > @choice |#~88ca4b0b| button:ChoiceButtons/Debug/Cancel handler:Debug
+; タイトルへ戻る
+

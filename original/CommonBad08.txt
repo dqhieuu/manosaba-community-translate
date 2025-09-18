@@ -1,0 +1,235 @@
+; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Common/CommonBad08' Naninovel scenario script
+
+# CommonBad08_Warden001
+; > Warden: |#CommonBad08_Warden001|
+; 議論はここまでということで、<br>投票に移ってもらっていいですかね？
+讨论到此为止，<br>
+可以请各位进入投票环节了吗？
+
+# CommonBad08_Narrative001
+; 結論が出ないまま、<br>ゴクチョーにより議論の終了が告げられた。
+大家仍未讨论出一个结论，<br>
+典狱长便宣布讨论结束。
+
+# CommonBad08_Narrative002
+; 投票によって【魔女】に選ばれたのは――
+被众人投票选为【魔女】的是——
+
+# CommonBad08_Warden002
+; > Warden: |#CommonBad08_Warden002|
+; はい、ありがとうございます。<br>佐伯ミリアの処刑が決定しました～！
+好的，谢谢各位。<br>
+决定处刑佐伯米莉亚了～！
+
+# CommonBad08_Miria001
+; > Miria: |#CommonBad08_Miria001|
+; そんな、ちょっと待ってよ……<br>どうしておじさんなの！？
+怎么会，等等啊……<br>
+为什么是大叔我！？
+
+# CommonBad08_Miria002
+; > Miria: |#CommonBad08_Miria002|
+; どう考えたって、<br>疑わしいのはヒロちゃんだよね！？
+不管怎么想，<br>
+小希才是最可疑的吧！？
+
+# CommonBad08_Narrative003
+; 信じられないといった様子で、<br>ミリアは私を指さし、声を荒げる。
+米莉亚一副难以置信的样子，<br>
+指着我，高声说道。
+
+# CommonBad08_Hiro001
+; > Hiro: |#CommonBad08_Hiro001|
+; ……見苦しいな。
+……真难看。
+
+# CommonBad08_Miria003
+; > Miria: |#CommonBad08_Miria003|
+; ！！
+！！
+
+# CommonBad08_Narrative004
+; 騒いだところで、結果はもう覆せない。<br>本当にミリアが犯人なのか。<br>もう、それを考える段階ではないのだ。
+事到如今再怎么吵闹，结果也不会改变。<br>
+米莉亚到底是不是凶手？<br>
+已经不是思考这个问题的时候了。
+
+# CommonBad08_Miria004
+; > Miria: |#CommonBad08_Miria004|
+; こんなの間違ってる……<br>おかしいよ、絶対……！！
+这不对……<br>
+这一定有问题，绝对……！！
+
+# CommonBad08_Narrative005
+; <ruby="おび">怯</ruby>えきった表情で、ミリアが叫ぶ。
+米莉亚畏惧地叫喊着。
+
+# CommonBad08_Narrative006
+; それは私も含めて、<br>この場にいる少女全員が感じていることだ。
+包括我在内，<br>
+在场的所有少女都感受着和她一样的心情。
+
+# CommonBad08_Narrative007
+; だが、選ばなければならない。
+但我们不得不作出选择。
+
+# CommonBad08_Narrative008
+; そうしなければ、<br>全員の命がないのだから。
+不这么做，<br>
+所有人都会死。
+
+# CommonBad08_Warden003
+; > Warden: |#CommonBad08_Warden003|
+; 全員がスマホの処刑ボタンを押したら、<br>処刑執行スタートです。
+大家只要按下手机上的处刑按钮，<br>
+就会开始执行处刑了。
+
+# CommonBad08_Narrative009
+; ゴクチョーに促され、<br>私たちは処刑ボタンを押していく。
+在典狱长的催促下，<br>
+我们只得接连按下按钮。
+
+# CommonBad08_Warden004
+; > Warden: |#CommonBad08_Warden004|
+; はい！ ではこれより、<br>魔女の処刑を執行します～。
+好了！那么，<br>
+现在开始执行对魔女的刑罚～
+
+# CommonBad08_Narrative010
+; ゴクチョーの宣言と共に、<br>仕掛けが作動しはじめた。
+随着典狱长一声令下，<br>
+某处的机关启动了。
+
+# CommonBad08_Narrative011
+; どこからか歯車の回転音が聞こえ、<br>中央の台座がわずかに揺れた。
+接着，从某处传来了齿轮的转动声，<br>
+中央的底座颤动了一下。
+
+# CommonBad08_Narrative012
+; 床が開き、台座がゆっくりと下降していく。<br>そして――
+地板开了一个洞，底座缓缓地往下降。<br>
+然后——
+
+# CommonBad08_Narrative013
+; 不意に裁判所が暗闇に包まれた。
+审判庭突然陷入一片黑暗。
+
+# CommonBad08_Miria005
+; > @char Miria.Fearful1,ArmR8,ArmL7,Angle01/Facial/Eyes>Eyes_Fearful_Open,Angle01/Facial/Mouth>Mouth_Fearful_Closed pos:50
+; > Miria: |#CommonBad08_Miria005|
+; やめて！ 触らないで！
+住手！别碰我！
+
+# CommonBad08_Narrative014
+; ミリアの悲鳴と、不穏な物音が聞こえる。
+听见了米莉亚的惨叫，和不祥的响动。
+
+# CommonBad08_Miria006
+; > @char Miria.Fearful1,ArmR8,ArmL7,Angle01/Facial/Eyes>Eyes_Fearful_Open,Angle01/Facial/Mouth>Mouth_Fearful_Closed pos:50
+; > Miria: |#CommonBad08_Miria006|
+; うわああああぁっ！
+呜哇啊啊啊啊啊！
+
+# CommonBad08_Narrative015
+; 明かりが点き、私の目に飛び込んできたのは――
+灯光亮起，映入我眼帘的是——
+
+# CommonBad08_Narrative016
+; <ruby="たっけい">磔刑</ruby>台に拘束されたミリアの姿だった。
+被拘束在十字架上的米莉亚的身影。
+
+# CommonBad08_Narrative017
+; すでに数本の<ruby="やり">槍</ruby>が、彼女の体を刺し貫いている。
+已经有数根长枪刺穿了她的身体。
+
+# CommonBad08_Narrative018
+; 看守が、さらに<ruby="やり">槍</ruby>を<ruby="とうてき">投擲</ruby>しようと身構える。
+看守摆出姿势，准备再次投掷长枪。
+
+# CommonBad08_Miria007
+; > Miria: |#CommonBad08_Miria007|
+; やめっ……やめて……<br>しにたく、ない……おねがい……。
+住手……住手……<br>
+我不想、死……求求你们……
+
+# CommonBad08_Narrative019
+; 痛みと、迫る死の恐怖――
+剧痛、以及步步逼近的死亡所带来的恐惧——
+
+# CommonBad08_Narrative020
+; それはきっと、計り知れないものだろう。<br>歪んだミリアの顔が物語っている。
+一定是无法估量的痛苦。<br>
+米莉亚扭曲的脸庞说明了一切。
+
+# CommonBad08_Miria008
+; > Miria: |#CommonBad08_Miria008|
+; おじさんは……犯人なんかじゃない……<br>何もしてない……のに……。
+大叔我……不是凶手……<br>
+什么都没做……却……
+
+# CommonBad08_Narrative021
+; 絞り出すように囁かれたミリアの声が、<br>虚ろに響く。
+米莉亚用尽全力般挤出的低语<br>
+回响在虚空中。
+
+# CommonBad08_Miria009
+; > Miria: |#CommonBad08_Miria009|
+; こんなの……ひどいよ……。
+这样……太过分了……
+
+# CommonBad08_Narrative022
+; それが、最期の言葉だった。
+这是她死前的最后一句话。
+
+# CommonBad08_Narrative023
+; 看守が投げ放った<ruby="やり">槍</ruby>が、ミリアの胸を刺し貫く。
+看守投掷出的长枪，刺穿了米莉亚的胸膛。
+
+# CommonBad08_Miria010
+; > @char Miria.Fearful1,ArmR6,ArmL6,Angle01/Facial/Mouth>Mouth_Fearful_Closed pos:50
+; > Miria: |#CommonBad08_Miria010|
+; か、はっ……。
+咳、哈……
+
+# CommonBad08_Narrative024
+; ミリアから流れ出た鮮血は、全て<ruby="ちょう">蝶</ruby>となって舞う。<br>まるで、彼女の最後を華やかに彩るように……。
+从米莉亚身上流出的鲜血，全都化作蝴蝶翩翩飞去。<br>
+仿佛在为她的死，增添一抹华丽的色彩……
+
+# CommonBad08_Narrative025
+; 魔女裁判の後。<br>私はひとり、中庭にいた。
+魔女审判之后。<br>
+我独自一人，待在中庭。
+
+# CommonBad08_Narrative026
+; ミリアが魔女として処刑され、<br>私は難を逃れた。
+由于米莉亚被选为魔女并处决，<br>
+我逃过了一劫。
+
+# CommonBad08_Narrative027
+; だが、どうにも<ruby="ふ">腑</ruby>に落ちない。<br>本当にこれでよかったのだろうか。<br>もし他に真犯人がいたとしたら……。
+但是，总觉得无法释怀。<br>
+这样真的好吗？<br>
+如果真凶另有其人……
+
+# CommonBad08_Narrative028
+; ふと、背後に誰かの気配を感じる。<br>そして、背中に焼けるような痛みが走った。
+忽然，我感到背后有人靠近。<br>
+接着，背上传来一阵灼烧般的剧痛。
+
+# CommonBad08_Narrative029
+; 私は地面に倒れ、空を見上げる。
+我倒在了地上，仰望着天空。
+
+# CommonBad08_Narrative030
+; それが【今回】の記憶の最後――
+那就是【这次】记忆的最后一幕——
+
+# CommonBad08_Narrative031
+; 私は何者かに殺害され、死に戻った。
+我被某人杀害了，然后发动了死亡回溯。
+
+# CommonBad08_Narrative032
+; やはり、ミリアは犯人ではなかった？<br>なら、今度こそは真犯人を突き止めなければ――
+果然米莉亚并不是凶手吗？<br>
+那么，这次我一定要查明真凶——

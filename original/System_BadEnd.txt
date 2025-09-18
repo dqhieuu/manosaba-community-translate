@@ -1,0 +1,11 @@
+; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'System/System_BadEnd' Naninovel scenario script
+
+# Common_BadEnd001
+; > @choice |#Common_BadEnd001|
+; 直前の選択肢へ戻る
+返回先前的分支选项处
+
+# Common_BadEnd002
+; > @choice |#Common_BadEnd002|
+; タイトル画面へ戻る
+返回标题画面

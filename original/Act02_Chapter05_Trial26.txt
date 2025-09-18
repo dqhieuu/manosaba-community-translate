@@ -1,0 +1,194 @@
+; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter05/Act02_Chapter05_Trial26' Naninovel scenario script
+
+# 0205Trial26_Hiro001
+; > @printDebate pos:70,50 roll:4 |#0205Trial26_Hiro001|
+; ……君の過去を、<br>教えてくれ。
+……告诉我<br>
+你的过去吧。
+
+# 0205Trial26_Ema001
+; > @printDebate pos:30,50 roll:-4 |#0205Trial26_Ema001|
+; うん……。
+嗯……
+
+# 0205Trial26_Ema002
+; > @printDebate pos:30,50 roll:-4 |#0205Trial26_Ema002|
+; ボクは……<br>学校でいじめられていた。
+我……<br>
+在学校被霸凌了。
+
+# 0205Trial26_Ema003
+; > @printDebate pos:30,50 roll:-4 |#0205Trial26_Ema003|
+; どうして<br>そんなことを<br>されていたのか……<br>どうして<br>嫌われていたのか……。
+为什么会<br>
+遭欺负……<br>
+为什么会<br>
+被讨厌……<br>
+
+
+# 0205Trial26_Ema004
+; > @printDebate pos:30,50 roll:-4 |#0205Trial26_Ema004|
+; そんなの……<br><link="Objection_02_05_26_01">わからなかった</link>。
+原因……<br>
+<link="Objection_02_05_26_01">我不知道</link>。
+
+# 0205Trial26_Ema005
+; > @printDebate pos:30,50 roll:-4 |#0205Trial26_Ema005|
+; だから……<br>思ったんだ。
+所以……<br>
+我曾经想过。
+
+# 0205Trial26_Ema006
+; > @printDebate pos:30,50 roll:-4 |#0205Trial26_Ema006|
+; ――みんな、<br><link="Objection_02_05_26_02">死ねばいいのに</link>。
+——只要大家<br>
+都<link="Objection_02_05_26_02">去死就好</link>了。
+
+# 0205Trial26_Ema007
+; > @printDebate pos:30,50 roll:-4 |#0205Trial26_Ema007|
+; みんなを……<br><link="Objection_02_05_26_03">恨んでいた</link>。
+我……<br>
+<link="Objection_02_05_26_03">怨恨着</link>大家。
+
+# 0205Trial26_Hiro002
+; > Hiro: |#0205Trial26_Hiro002|
+; （……エマ）
+（……艾玛）
+
+# 0205Trial26_Hiro003
+; > Hiro: |#0205Trial26_Hiro003|
+; （どうして……）
+（为什么……）
+
+# 0205Trial26_Choice001
+; > @choice |#0205Trial26_Choice001| button:ChoiceButtons/Trial/Objection handler:TrialHiro
+; 君は知っている
+你是知道的
+
+# Common_Return
+; > @choice |#Common_Return| button:ChoiceButtons/Trial/Cancel handler:TrialHiro
+; 戻る
+返回
+
+# 0205Trial26_Choice002
+; > @choice |#0205Trial26_Choice002| button:ChoiceButtons/Trial/Objection handler:TrialHiro
+; そんなことを思ってはいけない
+不可以有这种想法
+
+# 0205Trial26_Choice003
+; > @choice |#0205Trial26_Choice003| button:ChoiceButtons/Trial/Objection handler:TrialHiro
+; 恨む必要なんてない
+没有必要去怨恨
+
+# 0205Trial26_Hiro004
+; > Hiro: |#0205Trial26_Hiro004|
+; ……そんなことは、思ってはいけないよ。
+……不可以有这种想法。
+
+# 0205Trial26_Ema008
+; > Ema: |#0205Trial26_Ema008|
+; わかってるけど……止められなかったんだ。
+我知道……可是我止不住这么想。
+
+# 0205Trial26_Ema009
+; > Ema: |#0205Trial26_Ema009|
+; どうしてみんな……ボクをいじめるの……？
+为什么大家……都要欺负我……？
+
+# 0205Trial26_Hiro005
+; > Hiro: |#0205Trial26_Hiro005|
+; （エマの【殺意】が<br>　【魔女を殺す魔法】を起動させる可能性はある……）
+（艾玛的【杀意】<br>
+　有可能会触发【杀死魔女的魔法】……）
+
+# 0205Trial26_Hiro006
+; > Hiro: |#0205Trial26_Hiro006|
+; （……慎重に、話を進めよう）
+（……我要慎重地推进对话）
+
+# 0205Trial26_Hiro007
+; > Hiro: |#0205Trial26_Hiro007|
+; 君が恨む必要なんてない……。
+你没必要恨……
+
+# 0205Trial26_Hiro008
+; > Hiro: |#0205Trial26_Hiro008|
+; 全ては……大魔女の悪意によるものだ。
+一切……都是大魔女的恶意造成的。
+
+# 0205Trial26_Ema010
+; > Ema: |#0205Trial26_Ema010|
+; そんなこと……言われても。
+你说这个……也没意义。
+
+# 0205Trial26_Ema011
+; > Ema: |#0205Trial26_Ema011|
+; 難しいよ……ボクには。
+我……很难理解。
+
+# 0205Trial26_Hiro009
+; > Hiro: |#0205Trial26_Hiro009|
+; （エマの【殺意】が<br>　【魔女を殺す魔法】を起動させる可能性はある……）
+（艾玛的【杀意】<br>
+　有可能会触发【杀死魔女的魔法】……）
+
+# 0205Trial26_Hiro010
+; > Hiro: |#0205Trial26_Hiro010|
+; （……慎重に、話を進めよう）
+（……我要慎重地推进对话）
+
+# 0205Trial26_Hiro011
+; > Hiro: |#0205Trial26_Hiro011|
+; そんなわけはない。
+不可能不知道。
+
+# 0205Trial26_Hiro012
+; > Hiro: |#0205Trial26_Hiro012|
+; 君は知っている。
+你是知道的。
+
+# 0205Trial26_Hiro013
+; > Hiro: |#0205Trial26_Hiro013|
+; どうして君が、<br>ターゲットになったのかを。
+为什么你，<br>
+会成为目标。
+
+# 0205Trial26_Ema012
+; > Ema: |#0205Trial26_Ema012|
+; そんなこと言われても……わからないよ。
+不管你再怎么说……我也搞不明白啊。
+
+# 0205Trial26_Ema013
+; > Ema: |#0205Trial26_Ema013|
+; 本当に……わからないんだ……。
+我真的……不知道……
+
+# 0205Trial26_Hiro014
+; > Hiro: |#0205Trial26_Hiro014|
+; …………。
+…………
+
+# 0205Trial26_Hiro015
+; > Hiro: |#0205Trial26_Hiro015|
+; ……なら、次は私のことを話してくれないか。
+……那么，接下来能请你谈谈我的事吗？
+
+# 0205Trial26_Ema014
+; > Ema: |#0205Trial26_Ema014|
+; えっ……。
+欸……
+
+# 0205Trial26_Hiro016
+; > Hiro: |#0205Trial26_Hiro016|
+; たのむ、エマ。
+拜托你了，艾玛。
+
+# 0205Trial26_Ema015
+; > Ema: |#0205Trial26_Ema015|
+; う、うん……。
+嗯、嗯……
+
+# 0205Trial26_Ema016
+; > Ema: |#0205Trial26_Ema016|
+; ……わかった。
+……我明白了。

@@ -1,0 +1,63 @@
+; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Common/CommonBad13' Naninovel scenario script
+
+# CommonBad13_Yuki001
+; > Yuki: |#CommonBad13_Yuki001|
+; ――言いたいことは、それで終わりですか？
+——想说的话，就这些了吗？
+
+# CommonBad13_Hiro001
+; > Hiro: |#CommonBad13_Hiro001|
+; 何……？
+什么……？
+
+# CommonBad13_Narrative001
+; ゆるやかに、ユキは頭を振る。
+小雪缓缓地摇了摇头。
+
+# CommonBad13_Yuki002
+; > Yuki: |#CommonBad13_Yuki002|
+; どのような言葉を並べられても、<br>忌まわしい記憶は消せません。
+无论堆砌怎样的辞藻，<br>
+那些可憎的记忆也不会消失。
+
+# CommonBad13_Yuki003
+; > Yuki: |#CommonBad13_Yuki003|
+; もう、うんざりです。
+我已经受够了。
+
+# CommonBad13_Yuki004
+; > Yuki: |#CommonBad13_Yuki004|
+; でもね……ヒロ、エマ。<br>あなたたちには感謝しているんですよ。
+但是呢……希罗，艾玛。<br>
+我很感谢你们。
+
+# CommonBad13_Narrative002
+; ユキは微笑む。
+小雪微微一笑。
+
+# CommonBad13_Narrative003
+; 美しい笑顔。<br>だが、<ruby="にじ">滲</ruby>み出る怒りと憎悪が、背筋を凍らせる。
+笑容很美。<br>
+但那溢出的愤怒与憎恶，却让我脊背发凉。
+
+# CommonBad13_Yuki005
+; > Yuki: |#CommonBad13_Yuki005|
+; あなたたちの魔力が、<br>以前はできなかったことを可能にしてくれました。
+是你们的魔力，<br>
+让我有办法做到，以前无法做到的事情。
+
+# CommonBad13_Narrative004
+; ユキはゆっくりと両腕を広げ、天を仰いだ。<br>まるで神の言葉でも告げるように、超然と言葉を紡ぐ。
+小雪缓缓张开双臂，仰望天空。<br>
+仿佛在宣告神谕一般，超然地编织着话语。
+
+# CommonBad13_Yuki006
+; > Yuki: |#CommonBad13_Yuki006|
+; ふふふ……すべての人類に<br>私の声を届けましょう。
+呵呵呵……就让所有人类，<br>
+都听到我的声音吧。
+
+# CommonBad13_Yuki007
+; > Yuki: |#CommonBad13_Yuki007|
+; み ん な し ね。
+全・都・去・死・吧。

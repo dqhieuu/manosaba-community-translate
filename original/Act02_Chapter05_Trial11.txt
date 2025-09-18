@@ -1,0 +1,380 @@
+; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter05/Act02_Chapter05_Trial11' Naninovel scenario script
+
+# 0205Trial11_Hiro001
+; > @printDebate pos:70,50 roll:4 |#0205Trial11_Hiro001|
+; 絶望して諦めてしまえば、<br>その瞬間<br>全ての可能性は潰える。
+如果因绝望而放弃，<br>
+那么，在那一瞬间<br>
+所有的可能性都会破灭。
+
+# 0205Trial11_Hiro002
+; > @printDebate pos:70,50 roll:4 |#0205Trial11_Hiro002|
+; だが、<br>わずかな可能性であっても<br>それに向かって進む限り、<br>希望は潰えない……！
+但是，<br>
+只要朝着那<br>
+微小的可能性前进，<br>
+希望就不会破灭……！
+
+# 0205Trial11_Hiro003
+; > @printDebate pos:70,50 roll:4 |#0205Trial11_Hiro003|
+; 諦めるのは、<br>すべてが無理であると<br>わかってからでも<br>遅くはない……。
+想要放弃的话，<br>
+等你确定一切都<br>
+无法挽回之后，<br>
+再说放弃也不迟……
+
+# 0205Trial11_Hiro004
+; > @printDebate pos:70,50 roll:4 |#0205Trial11_Hiro004|
+; それが【正しい道】だ！
+这才是【正确的道路】！
+
+# 0205Trial11_Nanoka001
+; > @printDebate pos:30,50 roll:-4 |#0205Trial11_Nanoka001|
+; ……なら、<br>その具体的な方法を<br>教えてちょうだい。
+……那，<br>
+请你告诉我<br>
+具体的方法。
+
+# 0205Trial11_Nanoka002
+; > @printDebate pos:30,50 roll:-4 |#0205Trial11_Nanoka002|
+; あなたは魔女因子を<br>取り除くというけれど……。
+你说要去除<br>
+魔女因子……
+
+# 0205Trial11_Nanoka003
+; > @printDebate pos:30,50 roll:-4 |#0205Trial11_Nanoka003|
+; そんなこと、<br>本当にできるのかしら。
+这真的<br>
+有办法做到吗？
+
+# 0205Trial11_Hiro005
+; > @printDebate pos:70,50 roll:4 |#0205Trial11_Hiro005|
+; ……メルルの話では、<br>大魔女はその身を<br>魔女因子に変えた。
+……按照梅露露所说，<br>
+大魔女将自身<br>
+转化为了魔女因子。
+
+# 0205Trial11_Hiro006
+; > @printDebate pos:70,50 roll:4 |#0205Trial11_Hiro006|
+; なら、<br>大魔女を再び<br>この世に顕現させれば<br>その構成要素だった魔女因子が<br>還元されるはずだ。
+那么，<br>
+只要让大魔女<br>
+再次现身于世，<br>
+那构成她本质的魔女因子<br>
+应该就会得到复原。
+
+# 0205Trial11_Hiro007
+; > @printDebate pos:70,50 roll:4 |#0205Trial11_Hiro007|
+; その結果、<br>君の姉が【なれはて】から<br>元に戻る可能性だってある……！
+其最终结果，<br>
+你的姐姐是有可能<br>
+从【残骸】恢复原状的……！
+
+# 0205Trial11_Nanoka004
+; > @printDebate pos:30,50 roll:-4 |#0205Trial11_Nanoka004|
+; 【魔女化させた少女を集めて、<br>大魔女を復活させる】……。
+【召集完成魔女化的少女，<br>
+令大魔女复活】……
+
+# 0205Trial11_Nanoka005
+; > @printDebate pos:30,50 roll:-4 |#0205Trial11_Nanoka005|
+; ……まるで邪教の儀式ね。
+……简直就是邪教仪式呢。
+
+# 0205Trial11_Nanoka006
+; > @printDebate pos:30,50 roll:-4 |#0205Trial11_Nanoka006|
+; ……Ｂ級ホラーでも<br>見ないような、<br><link="Objection_02_05_11_01">ありがち</link>なストーリーだわ。
+……这可是<br>
+连B级恐怖片<br>
+都懒得演的<link="Objection_02_05_11_01">老套</link>剧情啊。
+
+# 0205Trial11_Nanoka007
+; > @printDebate pos:30,50 roll:-4 |#0205Trial11_Nanoka007|
+; あなたもその大魔女とやらに<br><link="Objection_02_05_11_02">操られている</link>だけ<br>じゃないの？
+你也不过是受那个所谓的大魔女<br>
+<link="Objection_02_05_11_02">操控</link>的提线木偶罢了，<br>
+不是吗？
+
+# 0205Trial11_Hiro008
+; > @printDebate pos:70,50 roll:4 |#0205Trial11_Hiro008|
+; ……たしかに、<br>大魔女は<br>人類への復讐を<br>目論んでいる。
+……大魔女<br>
+的确图谋着<br>
+向人类<br>
+复仇。
+
+# 0205Trial11_Hiro009
+; > @printDebate pos:70,50 roll:4 |#0205Trial11_Hiro009|
+; それでも、<br>私たちが救われるには<br>この道しかないんだ……！
+即便如此，<br>
+我们想要得救的话，<br>
+也只能选这条路了……！
+
+# 0205Trial11_Nanoka008
+; > @printDebate pos:30,50 roll:-4 |#0205Trial11_Nanoka008|
+; 大魔女を復活させて、<br><link="Objection_02_05_11_03">お願い</link>でもするのかしら？
+那复活了大魔女又怎样？<br>
+难道你打算<link="Objection_02_05_11_03">求</link>她发慈悲吗？
+
+# 0205Trial11_Nanoka009
+; > @printDebate pos:30,50 roll:-4 |#0205Trial11_Nanoka009|
+; あなたの示す道は……<br>タチの悪い幻覚だわ。
+你所指引的道路……<br>
+只是性质恶劣的幻觉。
+
+# 0205Trial11_Hiro010
+; > Hiro: |#0205Trial11_Hiro010|
+; （ナノカは疑り深い……）
+（奈叶香疑心很重……）
+
+# 0205Trial11_Hiro011
+; > Hiro: |#0205Trial11_Hiro011|
+; （だが彼女も、<br>　このままでは希望がないことに<br>　気付いているはずだ……）
+（但是她也<br>
+　应该注意到了，<br>
+　这么下去是不会有希望的……）
+
+# 0205Trial11_Hiro012
+; > Hiro: |#0205Trial11_Hiro012|
+; （……ナノカを説得する）
+（……我得说服奈叶香）
+
+# 0205Trial11_Hiro013
+; > Hiro: |#0205Trial11_Hiro013|
+; （そのための、正しい道……<br>　みんなが救われる方法を考えるんだ……！）
+（我得找出，说服她的正确道路……<br>
+　思考能让大家得救的方法……！）
+
+# 0205Trial11_Choice001
+; > @choice |#0205Trial11_Choice001| button:ChoiceButtons/Trial/Objection handler:TrialHiro
+; だからこそ信憑性がある
+正因如此才有可信度
+
+# Common_Return
+; > @choice |#Common_Return| button:ChoiceButtons/Trial/Cancel handler:TrialHiro
+; 戻る
+返回
+
+# 0205Trial11_Choice002
+; > @choice |#0205Trial11_Choice002| button:ChoiceButtons/Trial/Objection handler:TrialHiro
+; 自分の意志だ
+我的行动出于我自己的意志
+
+# 0205Trial11_Choice003
+; > @choice |#0205Trial11_Choice003| button:ChoiceButtons/Trial/Objection handler:TrialHiro
+; 大魔女を倒す
+我要打倒大魔女
+
+# 0205Trial11_Hiro014
+; > Hiro: |#0205Trial11_Hiro014|
+; だからこそ<br>信憑性があるんだ。
+正因如此，<br>
+才有可信度。
+
+# 0205Trial11_Hiro015
+; > Hiro: |#0205Trial11_Hiro015|
+; 語り継がれる物語には、原型がある……。
+流传下来的故事，都有其原型……
+
+# 0205Trial11_Hiro016
+; > Hiro: |#0205Trial11_Hiro016|
+; なら【ありがち】で広く親しまれる類型の物語の形は、<br>それだけ事実に沿っているということじゃないかな。
+那么【老套】且广为人知的故事类型，<br>
+难道不是更贴近事实吗？
+
+# 0205Trial11_Hiro017
+; > Hiro: |#0205Trial11_Hiro017|
+; 試してみる価値はある。
+我认为值得一试。
+
+# 0205Trial11_Nanoka010
+; > Nanoka: |#0205Trial11_Nanoka010|
+; ……仮に、儀式が成功したとして。
+……假设仪式真的成功了。
+
+# 0205Trial11_Nanoka011
+; > Nanoka: |#0205Trial11_Nanoka011|
+; ありがちな展開が続くとしたら、<br>私たちは生贄にでもされて<br>死んでしまうんじゃないかしら。
+按照老套的剧情展开，<br>
+接下来我们就会被当作祭品<br>
+丢掉小命了，难道不是吗？
+
+# 0205Trial11_Nanoka012
+; > Nanoka: |#0205Trial11_Nanoka012|
+; ……希望と楽観は違うわ。
+……希望和乐观根本是两码事。
+
+# 0205Trial11_Hiro018
+; > Hiro: |#0205Trial11_Hiro018|
+; （希望を示すことはできなかったか）
+（看来我没能向她展现出希望）
+
+# 0205Trial11_Hiro019
+; > Hiro: |#0205Trial11_Hiro019|
+; （まずはナノカを説得し、<br>　心を開いてもらうんだ）
+（我得首先说服奈叶香，<br>
+　让她敞开心扉）
+
+# 0205Trial11_Hiro020
+; > Hiro: |#0205Trial11_Hiro020|
+; （そのために示す希望……<br>　それは彼女の目的とも合致する、あれしかない！）
+（为此我需要展示的希望……<br>
+　只能是与她目的一致的那件事了！）
+
+# 0205Trial11_Hiro021
+; > Hiro: |#0205Trial11_Hiro021|
+; ……全て自分で決めたことだ。<br>みんなを救い出すために。
+……一切都是我自己作出的决定。<br>
+都是为了拯救大家。
+
+# 0205Trial11_Hiro022
+; > Hiro: |#0205Trial11_Hiro022|
+; 操られているわけがない。
+我并没有受操纵。
+
+# 0205Trial11_Nanoka013
+; > Nanoka: |#0205Trial11_Nanoka013|
+; ……私たちには<br>大魔女の因子が宿っているんでしょう？
+……我们身上<br>
+携带着大魔女的因子，没错吧？
+
+# 0205Trial11_Nanoka014
+; > Nanoka: |#0205Trial11_Nanoka014|
+; だとすれば……<br>どこまでが自分の意志か、なんて判断し切れないわ。
+既然如此……<br>
+我们根本无从判断，到底有哪些部分是出于自己的意志。
+
+# 0205Trial11_Nanoka015
+; > Nanoka: |#0205Trial11_Nanoka015|
+; 大魔女が戯れに<br>私たちを泳がせているだけかもしれない。
+说不定大魔女只是玩心大发，<br>
+放任我们自由行动而已。
+
+# 0205Trial11_Nanoka016
+; > Nanoka: |#0205Trial11_Nanoka016|
+; あなたの意志を利用して<br>復活を企てている可能性もある。
+同样，她也有可能利用你的意志，<br>
+图谋着自己的复活。
+
+# 0205Trial11_Nanoka017
+; > Nanoka: |#0205Trial11_Nanoka017|
+; あなたの正気は、<br>いったい誰が保証してくれるのかしらね。
+有谁能保证<br>
+你现在还拥有着理智呢？
+
+# 0205Trial11_Hiro023
+; > Hiro: |#0205Trial11_Hiro023|
+; （……【我思う、ゆえに我あり】なんて言葉は、<br>　気休めにもならないか）
+（……看来就算我主张【我思故我在】，<br>
+　她也不会善罢甘休了）
+
+# 0205Trial11_Hiro024
+; > Hiro: |#0205Trial11_Hiro024|
+; （まずはナノカを説得し、<br>　心を開いてもらうんだ）
+（我得首先说服奈叶香，<br>
+　让她敞开心扉）
+
+# 0205Trial11_Hiro025
+; > Hiro: |#0205Trial11_Hiro025|
+; （そのために示す希望……<br>　それは彼女の目的とも合致する、あれしかない！）
+（为此我需要展示的希望……<br>
+　只能是与她目的一致的那件事了！）
+
+# 0205Trial11_Hiro026
+; > Hiro: |#0205Trial11_Hiro026|
+; 大魔女は……私が倒す。
+大魔女……由我来打倒。
+
+# 0205Trial11_Nanoka018
+; > Nanoka: |#0205Trial11_Nanoka018|
+; ……！
+……！
+
+# 0205Trial11_Nanoka019
+; > Nanoka: |#0205Trial11_Nanoka019|
+; 何を言うかと思えば……。
+还以为你有什么高招呢……
+
+# 0205Trial11_Nanoka020
+; > Nanoka: |#0205Trial11_Nanoka020|
+; あなたの魔法は【死に戻り】<br>……だったわね。
+记得你的魔法是【死亡回溯】<br>
+……没错吧。
+
+# 0205Trial11_Nanoka021
+; > Nanoka: |#0205Trial11_Nanoka021|
+; それでどうやって大魔女を倒すというの？
+那你打算怎么用它打倒大魔女？
+
+# 0205Trial11_Hiro027
+; > Hiro: |#0205Trial11_Hiro027|
+; ……わからない。
+……不知道。
+
+# 0205Trial11_Hiro028
+; > Hiro: |#0205Trial11_Hiro028|
+; だが……知は力だ。<br>私は死を乗り越え、情報を集める事ができる……。
+但是……知识就是力量。<br>
+我可以跨越死亡，收集情报……
+
+# 0205Trial11_Hiro029
+; > Hiro: |#0205Trial11_Hiro029|
+; 【本来知ることができない情報を得る】のは、<br>君の魔法と同じだ。
+【获取本不可能知道的情报】——<br>
+这一点跟你的魔法是一样的。
+
+# 0205Trial11_Hiro030
+; > Hiro: |#0205Trial11_Hiro030|
+; なら、君だってわかるだろう。<br>それが戦いにおいて、どれだけ有利なことかを。
+那么，我想你也应该明白，<br>
+在战斗中，这究竟能带来多大的优势。
+
+# 0205Trial11_Nanoka022
+; > Nanoka: |#0205Trial11_Nanoka022|
+; …………。
+…………
+
+# 0205Trial11_Hiro031
+; > Hiro: |#0205Trial11_Hiro031|
+; 私は必ず大魔女を倒す。
+我一定会打倒大魔女。
+
+# 0205Trial11_Hiro032
+; > Hiro: |#0205Trial11_Hiro032|
+; そして君の姉を救ってみせる。
+并且让你的姐姐得救。
+
+# 0205Trial11_Hiro033
+; > Hiro: |#0205Trial11_Hiro033|
+; 私は決して諦めない。
+我绝不放弃。
+
+# 0205Trial11_Hiro034
+; > Hiro: |#0205Trial11_Hiro034|
+; だから君も……私を信じて欲しい。
+所以我希望……你也能够相信我。
+
+# 0205Trial11_Nanoka023
+; > Nanoka: |#0205Trial11_Nanoka023|
+; …………。
+…………
+
+# 0205Trial11_Nanoka024
+; > Nanoka: |#0205Trial11_Nanoka024|
+; ……あなたでは、無理よ。
+……你是做不到的。
+
+# 0205Trial11_Hiro035
+; > Hiro: |#0205Trial11_Hiro035|
+; ………！
+………！
+
+# 0205Trial11_Nanoka025
+; > Nanoka: |#0205Trial11_Nanoka025|
+; ……私は、幻視したのだから。
+……因为我，用幻视看到了。
+
+# 0205Trial11_Nanoka026
+; > Nanoka: |#0205Trial11_Nanoka026|
+; 大魔女の、力を。
+我看到了，大魔女的力量。

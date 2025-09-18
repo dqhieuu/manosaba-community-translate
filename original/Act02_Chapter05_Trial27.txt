@@ -1,0 +1,186 @@
+; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter05/Act02_Chapter05_Trial27' Naninovel scenario script
+
+# 0205Trial27_Ema001
+; > @printDebate pos:70,50 roll:4 |#0205Trial27_Ema001|
+; ヒロちゃんとボクは……<br>幼馴染だった。
+希罗和我……<br>
+从小就是好朋友。
+
+# 0205Trial27_Ema002
+; > @printDebate pos:70,50 roll:4 |#0205Trial27_Ema002|
+; それは中学に入ってからも<br>変わらなかった……。
+这一点就算上了初中<br>
+也没有改变……
+
+# 0205Trial27_Ema003
+; > @printDebate pos:70,50 roll:4 |#0205Trial27_Ema003|
+; いつも<link="Objection_02_05_27_01">２人</link>で<br>一緒にいて……。
+一直都是<br>
+<link="Objection_02_05_27_01">两个人</link>在一起……
+
+# 0205Trial27_Ema004
+; > @printDebate pos:70,50 roll:4 |#0205Trial27_Ema004|
+; けど、<br>ヒロちゃんは<br>留学で<link="Objection_02_05_27_02">いなく</link><br>なっちゃって……。
+可是，<br>
+希罗<br>
+因为留学<br>
+<link="Objection_02_05_27_02">离开了</link>……
+
+# 0205Trial27_Ema005
+; > @printDebate pos:70,50 roll:4 |#0205Trial27_Ema005|
+; ボクは１人きりになった。
+而我变成了孤单一人。
+
+# 0205Trial27_Ema006
+; > @printDebate pos:70,50 roll:4 |#0205Trial27_Ema006|
+; だから……<br>苦しかったんだ。
+所以……<br>
+我很痛苦。
+
+# 0205Trial27_Ema007
+; > @printDebate pos:70,50 roll:4 |#0205Trial27_Ema007|
+; <link="Objection_02_05_27_03">辛かった</link>んだよ、<br>ヒロちゃん……。
+<link="Objection_02_05_27_03">我很难受</link>呀，<br>
+希罗……
+
+# 0205Trial27_Hiro001
+; > Hiro: |#0205Trial27_Hiro001|
+; （……………）
+（……………）
+
+# 0205Trial27_Hiro002
+; > Hiro: |#0205Trial27_Hiro002|
+; （……断ち切ろう。<br>　この呪いを）
+（……让我斩断<br>
+　这个诅咒吧）
+
+# 0205Trial27_Choice001
+; > @choice |#0205Trial27_Choice001| button:ChoiceButtons/Trial/Objection handler:TrialHiro
+; ３人いた
+有第三个人
+
+# Common_Return
+; > @choice |#Common_Return| button:ChoiceButtons/Trial/Cancel handler:TrialHiro
+; 戻る
+返回
+
+# 0205Trial27_Choice002
+; > @choice |#0205Trial27_Choice002| button:ChoiceButtons/Trial/Objection handler:TrialHiro
+; 私は戻ってきた
+我回来了
+
+# 0205Trial27_Choice003
+; > @choice |#0205Trial27_Choice003| button:ChoiceButtons/Trial/Approval handler:TrialHiro
+; すまなかった
+抱歉
+
+# 0205Trial27_Hiro003
+; > Hiro: |#0205Trial27_Hiro003|
+; だが私は留学から帰ってきた。
+但是我留学完就回来了。
+
+# 0205Trial27_Hiro004
+; > Hiro: |#0205Trial27_Hiro004|
+; ……君はそれを覚えていないのか。
+……你不记得了吗？
+
+# 0205Trial27_Ema008
+; > Ema: |#0205Trial27_Ema008|
+; もちろん、覚えてるよ。
+我当然记得啊。
+
+# 0205Trial27_Ema009
+; > Ema: |#0205Trial27_Ema009|
+; ……そのあと、ヒロちゃんはボクに冷たくなった……。
+……从那之后，希罗对我的态度就变冷淡了……
+
+# 0205Trial27_Hiro005
+; > Hiro: |#0205Trial27_Hiro005|
+; ……そうだ。
+……是的。
+
+# 0205Trial27_Hiro006
+; > Hiro: |#0205Trial27_Hiro006|
+; （間違いはない）
+（说得没错）
+
+# 0205Trial27_Hiro007
+; > Hiro: |#0205Trial27_Hiro007|
+; 辛かったろうな、エマ。
+你很难受吧，艾玛。
+
+# 0205Trial27_Hiro008
+; > Hiro: |#0205Trial27_Hiro008|
+; すまなかった。
+对不起。
+
+# 0205Trial27_Ema010
+; > Ema: |#0205Trial27_Ema010|
+; ……ううん。
+……没事的。
+
+# 0205Trial27_Ema011
+; > Ema: |#0205Trial27_Ema011|
+; こうしてわかってくれたなら……いいよ。
+你能理解的话……就好了。
+
+# 0205Trial27_Hiro009
+; > Hiro: |#0205Trial27_Hiro009|
+; （……謝る機会ができたのは、よかったな……）
+（……能有机会道歉，真是太好了……）
+
+# 0205Trial27_Hiro010
+; > Hiro: |#0205Trial27_Hiro010|
+; （だが……真実は突きつけなくてはいけない）
+（但是……我必须揭露真相）
+
+# 0205Trial27_Hiro011
+; > Hiro: |#0205Trial27_Hiro011|
+; ……違う。
+……不对。
+
+# 0205Trial27_Hiro012
+; > Hiro: |#0205Trial27_Hiro012|
+; 私たちは……【３人】だった。
+我们……是【三个人】。
+
+# 0205Trial27_Ema012
+; > Ema: |#0205Trial27_Ema012|
+; ……っ！
+……！
+
+# 0205Trial27_Hiro013
+; > Hiro: |#0205Trial27_Hiro013|
+; 私と君と彼女は……<br>ずっと３人でいた。
+我和你和她……<br>
+一直是三个人在一起。
+
+# 0205Trial27_Hiro014
+; > Hiro: |#0205Trial27_Hiro014|
+; そのあと私がいなくなって……。
+之后我离开了……
+
+# 0205Trial27_Hiro015
+; > Hiro: |#0205Trial27_Hiro015|
+; そして、帰ってきた時には。
+然后，等我回来的时候。
+
+# 0205Trial27_Hiro016
+; > Hiro: |#0205Trial27_Hiro016|
+; ……すでに彼女は亡くなっていた。
+……她已经过世了。
+
+# 0205Trial27_Ema013
+; > Ema: |#0205Trial27_Ema013|
+; そんな……そんな！
+怎么会……怎么会！
+
+# 0205Trial27_Ema014
+; > Ema: |#0205Trial27_Ema014|
+; そんなわけない、そんなわけないよヒロちゃん……！
+不可能的，不可能的啊希罗……！
+
+# 0205Trial27_Ema015
+; > Ema: |#0205Trial27_Ema015|
+; ボク……は……！！
+我……！！

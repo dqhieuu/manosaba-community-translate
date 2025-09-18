@@ -1,0 +1,36 @@
+We are reading through the localization files of a visual novel to create a user-friendly xlsx database for our custom translation work.
+Write a script to do the following:
+
+Function 1: Parse text files in original folder to translate.xlsx, for each file:
+- Line starting with ";" is a comment line
+- Going through lines, the first non-comment line starting with # means it's file type 1, where:
+  + Value after "# " is the ID of the dialog
+  + Comment line(s) below that line is the <Original value>
+  + Non-comment line(s) below is the <Localized value>
+- Going through lines, the first non-comment line starting with an alphanumeric character means it's file type 2, where:
+  + That line has the structure <ID>: <Localized value>
+  + The line above, if is a comment line, is the <Original value>
+
+We want to parse both file types, each file to its own sheet in the spreadsheet, to contain 4 columns:
+ID: parsed from the data above
+Original value: parsed from the data above
+Translated value: parsed from the data above. Remember to trim blank lines
+My translated value: this is a blank column
+
+The first line should be decorated like a header line, and frozen.
+
+Additionally, we want a Metadata sheet to contain these columns for the next function:
+Sheet name
+Mapped file name
+File type
+
+If translate.xlsx already exists, skip this function, and log that it already exists.
+
+
+Function 2: Construct the "translated" folder with the data from translate.xlsx to have the output files with the same structure as "original"
+Construct by going from the Metadata sheet.
+For all file types:
+For each ID, we want a new comment with the structure:
+<Original value> comment
+"; **Localized**"
+<Localized value> comment

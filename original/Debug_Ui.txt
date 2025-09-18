@@ -1,0 +1,160 @@
+; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Debug/Debug_Ui' Naninovel scenario script
+
+# ~54c82df6
+; Debug_Ui # Options
+
+
+# ~c7d5aee0
+; Debug_Ui # Log
+
+
+# ~73174a9
+; > @print |#~73174a9| !waitInput
+; エマたち一行は、<br>何より証拠を得られそうな殺害現場へと向かった。
+
+
+# ~d42ae7d6
+; > @print |#~d42ae7d6| !waitInput
+; 足取りは重たい。<br>ノアの死体を直視したくない、という気持ちが大きい。
+
+
+# ~3563838
+; > @print |#~3563838| !waitInput
+; そんな中、シェリーはスキップしている。
+
+
+# ~916e99d2
+; > @print "|#~916e99d2|" author:Hanna !waitInput
+; 「ちょっとあなた、神経どうにかしてるんじゃありません？<br>　よくスキップなんかできますわね」
+
+
+# ~9fd5abf2
+; > @print "|#~9fd5abf2|" author:Sherry !waitInput
+; 「ええっ、私気遣いの子ですよぉ？<br>　学校でも、みんなが避けてるの察知して距離あけてましたもん」
+
+
+# ~e0c9abb4
+; > @print |#~e0c9abb4| author:Hanna !waitInput
+; 「ナチュラルにハブられてません？」
+
+
+# ~5b121a55
+; > @print "|#~5b121a55|" author:Sherry !waitInput
+; 「そんなことないですって！<br>　みんな【妖精さん】って親しみを込めて呼んでくれてました！」
+
+
+# ~854aba99
+; > @print |#~854aba99| author:Hanna !waitInput
+; 「それ絶対良い意味じゃないですわ」
+
+
+# ~3cff067f
+; > @print "|#~3cff067f|" author:Ema !waitInput
+; （こんな時だけど……<br>　ハンナちゃんが少し元気を取り戻してくれて良かった）
+
+
+# ~3510ea53
+; > @print |#~3510ea53| !waitInput
+; ２人のやり取りを横に、エマはホッとする。<br>とはいえ、ノアの房が近づけば近づくほど気が重くなる。
+
+
+# ~69884ff3
+; Debug_Ui # SaveLoad
+
+
+# ~e2151db6
+; Debug_Ui # Gallery
+
+
+# ~a0cf4b35
+; ギャラリー画面表示
+
+
+# ~c3dfc7e8
+; Debug_Ui # Gallery ends.
+
+
+# ~7713e3e6
+; Debug_Ui # Toast
+
+
+# Toast_001
+; > @toast "|#Toast_001|"
+; 魔女図鑑 更新…
+
+
+# ~5a1cbe83
+; トースト表示
+
+
+# ~e6326509
+; Debug_Ui # Toast ends.
+
+
+# ~292e2552
+; Debug_Ui # Loading
+
+
+# ~9d470ddb
+; Now loading . (Long)
+
+
+# ~8c210ba9
+; Now loading .. (Long)
+
+
+# ~e7dcff1a
+; Now loading ... (Long)
+
+
+# ~c22ab9a5
+; Now loading . (Short)
+
+
+# ~4a23720c
+; Now loading .. (Short)
+
+
+# ~dbe3e1fb
+; Now loading ... (Short)
+
+
+# ~9cb5049a
+; Now loading . (Subtle)
+
+
+# ~4a85e696
+; Now loading .. (Subtle)
+
+
+# ~ba75c31d
+; Now loading ... (Subtle)
+
+
+# ~fab8fd9f
+; Debug_Ui # Loading ends.
+
+
+# ~32a488c
+; Debug_Ui # BlockInteraction
+
+
+# ~4c2a774e
+; Interaction blocked.
+
+
+# ~ae253f1
+; Interaction blocked 2.
+
+
+# ~af495ba
+; Debug_Ui # BlockInteraction ends.
+
+
+# ~47db1d3
+; Debug_Ui # ExecutionButton
+
+
+# ~2a3e0091
+; Debug_Ui # ExecutionButton ends.
+

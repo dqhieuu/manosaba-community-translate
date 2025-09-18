@@ -1,0 +1,122 @@
+; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Common/CommonBad06' Naninovel scenario script
+
+# CommonBad06_Narrative001
+; ――結論が出ないまま、時間は流れた。
+——大家至今一直没有得出结论，时间徒然流逝。
+
+# CommonBad06_Narrative002
+; 少女たちは自身のスマホを操作し、<br>投票をしていく。
+少女们各自按着自己的手机，<br>
+进行投票。
+
+# CommonBad06_Narrative003
+; そして。
+然后。
+
+# CommonBad06_Narrative004
+; まるでそぐわない間抜けなファンファーレ音と共に、<br>スマホに映し出されたのは――
+随着一声与现场气氛格格不入的滑稽庆祝音效响起，<br>
+手机上出现的——
+
+# CommonBad06_Narrative005
+; エマの画像だった。
+是艾玛的照片。
+
+# CommonBad06_Ema001
+; > Ema: |#CommonBad06_Ema001|
+; そん、な……。
+怎么、会……
+
+# CommonBad06_Narrative006
+; 画面に映った自分自身を目にして、<br>エマは声を震わせる。
+看到手机上自己的照片，<br>
+艾玛用颤抖的声音说道。
+
+# CommonBad06_Ema002
+; > Ema: |#CommonBad06_Ema002|
+; どうして……ねえ！？<br>なんでボクに投票したの！？
+我说……为什么！？<br>
+为什么要投票给我！？
+
+# CommonBad06_Margo001
+; > Margo: |#CommonBad06_Margo001|
+; …………。
+…………
+
+# CommonBad06_Coco001
+; > Coco: |#CommonBad06_Coco001|
+; …………。
+…………
+
+# CommonBad06_Ema003
+; > Ema: |#CommonBad06_Ema003|
+; なんとか言ってよ！<br>ボクはアリサちゃんを殺してない！！
+你们快说些什么啊！<br>
+我没有杀死亚里沙！！
+
+# CommonBad06_Meruru001
+; > Meruru: |#CommonBad06_Meruru001|
+; エマさん、私は……。
+艾玛小姐，我……
+
+# CommonBad06_Warden001
+; > Warden: |#CommonBad06_Warden001|
+; まあ、決定は決定なんで。<br>残念ですけど、諦めてもらうしかないかと。<br>さっさと閉廷したいですし……進行しちゃっていいですかね？
+哎，这已经是最终决定了。<br>
+虽然很遗憾，但只能请你接受这个结果了。<br>
+我想早点闭庭……能让我继续下一个环节了吗？
+
+# CommonBad06_Narrative007
+; 涙を浮かべて無実を訴えるエマだが、<br>ゴクチョーには取り付く島もなかった。
+尽管艾玛声泪俱下地哭诉自己的无辜，<br>
+但典狱长却不为所动。
+
+# CommonBad06_Ema004
+; > Ema: |#CommonBad06_Ema004|
+; うううう……ボクは……ボクは……。
+呜呜呜……我……我没有……
+
+# CommonBad06_Warden002
+; > Warden: |#CommonBad06_Warden002|
+; さてと、それでは処刑装置を入れ替えて……。
+好，接下来让我更换处刑装置……
+
+# CommonBad06_Ema005
+; > Ema: |#CommonBad06_Ema005|
+; わあああああああ！！
+呜哇啊啊啊啊啊啊！！
+
+# CommonBad06_Narrative008
+; 突然エマが声を荒げ、駆け出した。
+艾玛突然惊恐地大叫起来，撒腿就跑。
+
+# CommonBad06_Ema006
+; > Ema: |#CommonBad06_Ema006|
+; 違う！ ボクじゃない！<br>ボクは殺してない！！
+不！不是我！<br>
+我没有杀人！！
+
+# CommonBad06_Ema007
+; > Ema: |#CommonBad06_Ema007|
+; こんなのおかしい！<br>助けて！ お父さん……お母さん……！<br>誰か助けてよ！！
+这太奇怪了！<br>
+救命！爸爸……妈妈……！<br>
+谁来救救我！！
+
+# CommonBad06_Warden003
+; > Warden: |#CommonBad06_Warden003|
+; やれやれ……駄目ですよ、逃げたりしたら。<br>まあ、無駄なんですけどね。
+哎呀呀……不可以逃跑哦。<br>
+不过，逃跑也是白费力气。
+
+# CommonBad06_Narrative009
+; 泣き叫ぶエマの前に看守が立ち塞がり――
+在哭嚎着的艾玛面前，看守堵住了她的去路——
+
+# CommonBad06_Warden004
+; > @char Warden.9 pos:50
+; > Warden: |#CommonBad06_Warden004|
+; あちゃ～……床と壁、掃除しないと……<br>余計な手間を増やさないでいただけると<br>ありがたいんですけどねぇ……。
+唉呀～……地板和墙壁，都得打扫……<br>
+真希望不要再给我增加<br>
+无谓的工作了……

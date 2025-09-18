@@ -1,0 +1,433 @@
+; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter05/Act02_Chapter05_Trial10' Naninovel scenario script
+
+# 0205Trial10_Nanoka001
+; > @printDebate pos:70,50 roll:4 |#0205Trial10_Nanoka001|
+; 単刀直入に聞くわ。
+我就开门见山地问了。
+
+# 0205Trial10_Nanoka002
+; > @printDebate pos:70,50 roll:4 |#0205Trial10_Nanoka002|
+; この事件の<br>【黒幕】である大魔女……<br>あなたに殺せるの？
+这起事件的<br>
+【幕后黑手】大魔女……<br>
+你有办法杀了她吗？
+
+# 0205Trial10_Hiro001
+; > @printDebate pos:30,50 roll:-4 |#0205Trial10_Hiro001|
+; ……私が持っているのは<br>死ぬ前に<br>見聞きした情報だけで、<br>全ての情報を<br>知っているわけではない。
+……我拥有的，<br>
+只是死前<br>
+所见所闻的情报，<br>
+并没有到<br>
+知晓一切的程度。
+
+# 0205Trial10_Hiro002
+; > @printDebate pos:30,50 roll:-4 |#0205Trial10_Hiro002|
+; だから確実な情報は……<br>ない。
+所以我……<br>
+没有确切的情报。
+
+# 0205Trial10_Nanoka003
+; > @printDebate pos:70,50 roll:4 |#0205Trial10_Nanoka003|
+; ……論外ね。
+……开什么玩笑。
+
+# 0205Trial10_Nanoka004
+; > @printDebate pos:70,50 roll:4 |#0205Trial10_Nanoka004|
+; ……なら、私はべつに<br>あなたに協力する<br><link="Objection_02_05_10_01">理由</link>がないわ。
+……那么，我就没有<br>
+非得协助你的<br>
+<link="Objection_02_05_10_01">理由</link>了。
+
+# 0205Trial10_Nanoka005
+; > @printDebate pos:70,50 roll:4 |#0205Trial10_Nanoka005|
+; あなたの邪魔をするつもりも<br>ないけれど……。
+尽管我没打算<br>
+妨碍你……
+
+# 0205Trial10_Nanoka006
+; > @printDebate pos:70,50 roll:4 |#0205Trial10_Nanoka006|
+; ……でも、<br>私の邪魔をするなら<br>容赦はしない。
+……但是，<br>
+如果你要妨碍我的话，<br>
+我不会手下留情。
+
+# 0205Trial10_Hiro003
+; > Hiro: |#0205Trial10_Hiro003|
+; （ナノカは警戒心が強い）
+（奈叶香的警惕心很强）
+
+# 0205Trial10_Hiro004
+; > Hiro: |#0205Trial10_Hiro004|
+; （まずは警戒を解かなくては、<br>　話すら聞いてもらえないか……）
+（看来不先解除她的警惕，<br>
+　她会连话都不愿意听我讲……）
+
+# 0205Trial10_Choice001
+; > @choice |#0205Trial10_Choice001| button:ChoiceButtons/Trial/Objection handler:TrialHiro
+; 家に帰れる
+能回家
+
+# 0205Trial10_Choice002
+; > @choice |#0205Trial10_Choice002| button:ChoiceButtons/Trial/Objection handler:TrialHiro
+; みんなから魔女因子を取り除く
+会消除大家的魔女因子
+
+# 0205Trial10_Choice003
+; > @choice |#0205Trial10_Choice003| button:ChoiceButtons/Trial/Perjury handler:TrialHiro
+; 君の家族も救える
+你的家人也能得救
+
+# Common_Return
+; > @choice |#Common_Return| button:ChoiceButtons/Trial/Cancel handler:TrialHiro
+; 戻る
+返回
+
+# 0205Trial10_Hiro005
+; > Hiro: |#0205Trial10_Hiro005|
+; ずっと<br>こんなところにいるつもりか？
+你打算一直<br>
+待在这种地方吗？
+
+# 0205Trial10_Hiro006
+; > Hiro: |#0205Trial10_Hiro006|
+; 私に協力してくれれば、<br>みんなをこの牢屋敷から解放してみせる……。
+只要跟我联手，<br>
+我就能把大家从这座监牢中解救出来……
+
+# 0205Trial10_Hiro007
+; > Hiro: |#0205Trial10_Hiro007|
+; 君も家に帰れるんだ。
+之后你也能回家了。
+
+# 0205Trial10_Nanoka007
+; > Nanoka: |#0205Trial10_Nanoka007|
+; ……あなたたちは、<br>勝手に帰ればいいわ。
+……你们想回去的<br>
+就回去好了。
+
+# 0205Trial10_Hiro008
+; > Hiro: |#0205Trial10_Hiro008|
+; 家が恋しくはないのか。
+你不想家吗？
+
+# 0205Trial10_Nanoka008
+; > Nanoka: |#0205Trial10_Nanoka008|
+; 私ひとりで帰ったところで、なんになると言うの？
+就算我一个人回去，又有什么意义呢？
+
+# 0205Trial10_Nanoka009
+; > Nanoka: |#0205Trial10_Nanoka009|
+; むしろ……<br>無理矢理この屋敷から連れ出されるほうが迷惑よ。
+倒不如说……<br>
+被人强行带离这座宅邸，会让我感到更麻烦。
+
+# 0205Trial10_Hiro009
+; > Hiro: |#0205Trial10_Hiro009|
+; （外に興味はないようだ……）
+（看来她对外面的世界不感兴趣……）
+
+# 0205Trial10_Hiro010
+; > Hiro: |#0205Trial10_Hiro010|
+; （……ナノカはこちらを警戒している。<br>　まだ本音を口にしてはくれなそうだ）
+（……奈叶香还在警惕着我这边。<br>
+　她看来还不打算说出真心话）
+
+# 0205Trial10_Hiro011
+; > Hiro: |#0205Trial10_Hiro011|
+; （思い出そう……<br>　ナノカがどんな目的を持っていたのか）
+（我得回想起来……<br>
+　奈叶香她到底有什么目的）
+
+# 0205Trial10_Hiro012
+; > Hiro: |#0205Trial10_Hiro012|
+; だったら……私に協力してくれないか。
+既然如此……你要不要来协助我？
+
+# 0205Trial10_Hiro013
+; > Hiro: |#0205Trial10_Hiro013|
+; 私はみんなから魔女因子を取り除こうとしている。
+我正打算消除大家身上的魔女因子。
+
+# 0205Trial10_Hiro014
+; > Hiro: |#0205Trial10_Hiro014|
+; そうすれば私たちが<br>ここに閉じ込められることもなくなる。
+这样我们就<br>
+不会再被囚禁在这里了。
+
+# 0205Trial10_Hiro015
+; > Hiro: |#0205Trial10_Hiro015|
+; みんなが救われるんだ！
+大家都能得救！
+
+# 0205Trial10_Nanoka010
+; > Nanoka: |#0205Trial10_Nanoka010|
+; ……救う？
+……救？
+
+# 0205Trial10_Nanoka011
+; > Nanoka: |#0205Trial10_Nanoka011|
+; 誰もそんなこと頼んでいないわ。
+没人拜托你做那种事。
+
+# 0205Trial10_Nanoka012
+; > Nanoka: |#0205Trial10_Nanoka012|
+; あなたの邪魔はしないけれど、協力もしない。
+我不会妨碍你，但也不会协助你。
+
+# 0205Trial10_Nanoka013
+; > Nanoka: |#0205Trial10_Nanoka013|
+; 私は私で<br>すべきことをするだけよ。
+我只会<br>
+做我该做的事。
+
+# 0205Trial10_Hiro016
+; > Hiro: |#0205Trial10_Hiro016|
+; （興味ないか……）
+（看来她并不感兴趣……）
+
+# 0205Trial10_Hiro017
+; > Hiro: |#0205Trial10_Hiro017|
+; （……ナノカはこちらを警戒している。<br>　まだ本音を口にしてはくれなそうだ）
+（……奈叶香还在警惕着我这边。<br>
+　她看来还不打算说出真心话）
+
+# 0205Trial10_Hiro018
+; > Hiro: |#0205Trial10_Hiro018|
+; （思い出そう……<br>　ナノカがどんな目的を持っていたのか）
+（我得回想起来……<br>
+　奈叶香她到底有什么目的）
+
+# 0205Trial10_Hiro019
+; > Hiro: |#0205Trial10_Hiro019|
+; （……正直に言えば）
+（……老实说）
+
+# 0205Trial10_Hiro020
+; > Hiro: |#0205Trial10_Hiro020|
+; （今の私に、何も確証はない）
+（现在的我，没有任何确切的把握）
+
+# 0205Trial10_Hiro021
+; > Hiro: |#0205Trial10_Hiro021|
+; （しかし、それでも私は<br>　歩みを止めるわけにはいかない……！）
+（但是，即便如此，<br>
+　我也不能停下脚步……！）
+
+# 0205Trial10_Hiro022
+; > Hiro: |#0205Trial10_Hiro022|
+; （たとえそれが……彼女を騙すことになっても）
+（哪怕……我最终得欺骗她）
+
+# 0205Trial10_Hiro023
+; > Hiro: |#0205Trial10_Hiro023|
+; ……ナノカ。<br>私であれば……。
+……奈叶香。<br>
+只要交给我的话……
+
+# 0205Trial10_Hiro024
+; > Hiro: |#0205Trial10_Hiro024|
+; 君の家族も、救うことができる。
+我能让你的家人也能得救。
+
+# 0205Trial10_Nanoka014
+; > Nanoka: |#0205Trial10_Nanoka014|
+; ……！
+……！
+
+# 0205Trial10_Hiro025
+; > Hiro: |#0205Trial10_Hiro025|
+; もちろん、<br>この牢屋敷にて【看守】となってしまった<br>君の【姉】もだ……。
+当然，<br>
+也包括成为了这座监牢的【看守】的，<br>
+你的【姐姐】……
+
+# 0205Trial10_Nanoka015
+; > Nanoka: |#0205Trial10_Nanoka015|
+; 二階堂……ヒロ……！
+二阶堂……希罗……！
+
+# 0205Trial10_Nanoka016
+; > Nanoka: |#0205Trial10_Nanoka016|
+; そこまで言うからには、<br>あなたは救う方法に<br>何か心当たりがあるのね？
+既然你都这么说了，<br>
+那你对于拯救的方法，<br>
+应该有什么头绪了吧？
+
+# 0205Trial10_Hiro026
+; > Hiro: |#0205Trial10_Hiro026|
+; ……【なれはて】となった魔女を治す方法。<br>それについての心当たりは――。
+……对于治好<br>
+变成【残骸】的魔女的方法——
+
+# 0205Trial10_Choice004
+; > @choice |#0205Trial10_Choice004|
+; ない
+我没有头绪
+
+# 0205Trial10_Choice005
+; > @choice |#0205Trial10_Choice005|
+; ある
+我有头绪
+
+# 0205Trial10_Hiro027
+; > Hiro: |#0205Trial10_Hiro027|
+; それは……<br>今はない。
+这个……<br>
+目前我没有头绪。
+
+# 0205Trial10_Hiro028
+; > Hiro: |#0205Trial10_Hiro028|
+; だが不可能だと諦めるつもりはない。
+即使看起来希望渺茫，但我并不打算放弃。
+
+# 0205Trial10_Nanoka017
+; > Nanoka: |#0205Trial10_Nanoka017|
+; ……精神論ね。
+……就是所谓的靠信念咯。
+
+# 0205Trial10_Hiro029
+; > Hiro: |#0205Trial10_Hiro029|
+; 君だってそうだ。
+你不也一样。
+
+# 0205Trial10_Nanoka018
+; > Nanoka: |#0205Trial10_Nanoka018|
+; ………！
+………！
+
+# 0205Trial10_Hiro030
+; > Hiro: |#0205Trial10_Hiro030|
+; 君は黒幕へ復讐するために<br>ここへきたんだろう。
+你是为了向幕后黑手复仇<br>
+才来到这里的吧。
+
+# 0205Trial10_Nanoka019
+; > Nanoka: |#0205Trial10_Nanoka019|
+; ……それは……。
+……这个……
+
+# 0205Trial10_Hiro031
+; > Hiro: |#0205Trial10_Hiro031|
+; ……なら、私たちが向かう道は繋がっている。
+……那么，我们前进的道路是相通的。
+
+# 0205Trial10_Hiro032
+; > Hiro: |#0205Trial10_Hiro032|
+; それに、まるっきり見当がついていないという<br>わけでもない。
+而且，我也并非<br>
+完全没有头绪。
+
+# 0205Trial10_Hiro033
+; > Hiro: |#0205Trial10_Hiro033|
+; ……ある。
+……我有头绪。
+
+# 0205Trial10_Nanoka020
+; > Nanoka: |#0205Trial10_Nanoka020|
+; ……本当かしら。
+……真的吗。
+
+# 0205Trial10_Nanoka021
+; > Nanoka: |#0205Trial10_Nanoka021|
+; 氷上メルルは【なれはて】を<br>魔女の抜け殻と言っていた……。
+冰上梅露露说过，<br>
+【残骸】是魔女的空壳……
+
+# 0205Trial10_Nanoka022
+; > Nanoka: |#0205Trial10_Nanoka022|
+; それでも……戻ると言うの？
+即便如此……你还要主张能让她恢复原状吗？
+
+# 0205Trial10_Hiro034
+; > Hiro: |#0205Trial10_Hiro034|
+; たしかに戻らない可能性は否定できない。
+我的确无法否定无法恢复的可能性。
+
+# 0205Trial10_Hiro035
+; > Hiro: |#0205Trial10_Hiro035|
+; けれど……<br>戻る可能性もゼロではない。
+但是……<br>
+恢复的可能性也并非为零。
+
+# 0205Trial10_Hiro036
+; > Hiro: |#0205Trial10_Hiro036|
+; 少なくとも、<br>君が漫然とここにいたとしても<br>解決する問題ではないよ。
+至少，<br>
+你继续这么迷茫下去，<br>
+问题也不会自动解决。
+
+# 0205Trial10_Nanoka023
+; > Nanoka: |#0205Trial10_Nanoka023|
+; ……！
+……！
+
+# 0205Trial10_Hiro037
+; > Hiro: |#0205Trial10_Hiro037|
+; メルルが言っていたが、<br>【なれはて】とは魔女因子により<br>肉体を蝕まれた者だ。
+梅露露说过，<br>
+【残骸】是被魔女因子<br>
+侵蚀了肉体的人。
+
+# 0205Trial10_Hiro038
+; > Hiro: |#0205Trial10_Hiro038|
+; なら、残留した魔女因子という毒を<br>取り除けば……。
+那么，如果能去除<br>
+残留的魔女因子这个毒素……
+
+# 0205Trial10_Hiro039
+; > Hiro: |#0205Trial10_Hiro039|
+; 【なれはて】を治療できる可能性はある。
+就有可能治好【残骸】。
+
+# 0205Trial10_Hiro040
+; > Hiro: |#0205Trial10_Hiro040|
+; だから私と共に来るんだ。
+所以，来助我一臂之力吧。
+
+# 0205Trial10_Hiro041
+; > Hiro: |#0205Trial10_Hiro041|
+; 君の姉も、一緒に救ってみせる。
+我会试着让你的姐姐也一起得救的。
+
+# 0205Trial10_Nanoka024
+; > Nanoka: |#0205Trial10_Nanoka024|
+; …………。
+…………
+
+# 0205Trial10_Nanoka025
+; > Nanoka: |#0205Trial10_Nanoka025|
+; 嘘ね……。
+你在撒谎……
+
+# 0205Trial10_Hiro042
+; > Hiro: |#0205Trial10_Hiro042|
+; ――違う。
+——不对。
+
+# 0205Trial10_Hiro043
+; > Hiro: |#0205Trial10_Hiro043|
+; 嘘じゃない。<br>これは最善の可能性への道……。
+这不是谎言。<br>
+这是通往最佳可能性的道路……
+
+# 0205Trial10_Hiro044
+; > Hiro: |#0205Trial10_Hiro044|
+; 【希望】だ。
+是【希望】。
+
+# 0205Trial10_Nanoka026
+; > Nanoka: |#0205Trial10_Nanoka026|
+; ……っ！
+……！
+
+# 0205Trial10_Hiro045
+; > Hiro: |#0205Trial10_Hiro045|
+; （……ナノカの心は揺らいでいる）
+（……奈叶香的心产生了动摇）
+
+# 0205Trial10_Hiro046
+; > Hiro: |#0205Trial10_Hiro046|
+; （攻め手を止めてはいけない……！<br>　ナノカ自身の為にも！）
+（我不能让我的攻势停下……！<br>
+　这也是为了奈叶香她自己！）

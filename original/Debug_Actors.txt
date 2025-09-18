@@ -1,0 +1,262 @@
+; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Debug/Debug_Actors' Naninovel scenario script
+
+# ~953a1fc1
+; Debug_Actors # Characters
+
+
+# ~dfdaf7fa
+; Yuki.1
+
+
+# ~8e6166
+; Yuki.2
+
+
+# ~d8af7466
+; Yuki.3
+
+
+# ~b00b8e60
+; Yuki.4
+
+
+# ~a9ef9fe9
+; Yuki.5
+
+
+# ~11932301
+; Yuki.6
+
+
+# ~58a33b82
+; Yuki.7
+
+
+# ~e4c78aae
+; Yuki.8
+
+
+# ~de2cf568
+; Yuki.9
+
+
+# ~1367d943
+; Yuki.10
+
+
+# ~831b2071
+; Yuki.11
+
+
+# ~30e6a6a
+; Yuki.12
+
+
+# ~d52b7793
+; Yuki.13
+
+
+# ~38c77a73
+; Yuki.14
+
+
+# ~c2ebff7c
+; Yuki.15
+
+
+# ~4426f40
+; Yuki.16
+
+
+# ~902fdbc9
+; Yuki.17
+
+
+# ~ffdfdf5c
+; Yuki.18
+
+
+# ~ffee8b24
+; Yuki.19
+
+
+# ~3b537943
+; Yuki.20
+
+
+# ~226d4efd
+; Ema
+
+
+# ~fdb56f1e
+; Hiro
+
+
+# ~8792ae4d
+; Meruru
+
+
+# ~dbc9b953
+; Hanna
+
+
+# ~98d75150
+; Sherry
+
+
+# ~c89c4add
+; AnAn
+
+
+# ~5ec7677f
+; Leia
+
+
+# ~a89fd35b
+; Coco
+
+
+# ~fbd84ffe
+; Miria
+
+
+# ~d6d1836b
+; Margo
+
+
+# ~98cc9e99
+; Noah
+
+
+# ~9b709c84
+; Nanoka
+
+
+# ~b51e45eb
+; Alisa
+
+
+# ~4409f513
+; Debug_Actors # LayeredCharacters
+
+
+# ~f3e4186d
+; Hiro.ArmL1,ArmR1,Normal1
+
+
+# ~970d8c10
+; Hiro.ArmL2,ArmR2,Smile1
+
+
+# ~128d1068
+; Hiro.ArmL3,ArmR3,Angry1
+
+
+# ~cb413984
+; Hiro.ArmL4,ArmR4,Pensive1
+
+
+# ~d415a204
+; Hiro.ArmL5,ArmR5,Cry1
+
+
+# ~ff45623f
+; Hiro.ArmL6,ArmR6,Surprised1
+
+
+# ~fe397935
+; Hiro.ArmL7,ArmR7,Flushed1
+
+
+# ~9dad957c
+; Hiro.ArmL8,ArmR8,Fearful1
+
+
+# ~fcd9119d
+; Hiro.ArmL9,ArmR9,Normal2
+
+
+# ~3a25f585
+; Hiro.ArmL10,ArmR10,Smile2
+
+
+# ~baf0d14
+; Hiro.ArmL11,ArmR11,Angry2
+
+
+# ~76c8431f
+; Hiro.ArmL12,ArmR12,Pensive2
+
+
+# ~5b9a2606
+; Hiro.ArmL13,ArmR13,Cry2
+
+
+# ~2d8b3fdf
+; Hiro.Arms3,Surprised2
+
+
+# ~d63b7abb
+; Hiro.Arms4,Flushed2
+
+
+# ~8bad7da4
+; Hiro.ArmL1,ArmR1,Fearful2
+
+
+# ~37027097
+; Debug_Actors # TextPrinter
+
+
+# ~7dffa318
+; > Sherry: |#~7dffa318|
+; 「ああそれは、良い情報ですね！<br>　１分しか浮けないなら、<br>　足跡残さず殺すのは無理だって言えるかも！」
+
+
+# ~ffd685b7
+; -+<sprite name="DashLeft">+<sprite name="DashMiddle">+<sprite name="DashRight">+-
+
+
+# ~db048835
+; 戻る<sprite name="Return">
+
+
+# ~1a7661d5
+; 第一話<sprite name="Sparkles">
+
+
+# ~bfd7fa4f
+; PRESS <sprite name="GamePadButton_A"> Button
+
+
+# ~aafe042a
+; aaa
+
+
+# ~46999340
+; bbb
+
+
+# ~8f6546da
+; ccc
+
+
+# ~7c4417b1
+; ddd
+
+
+# ~1849764
+; eee
+
+
+# ~3a1eb973
+; Debug_Actors # Backgrounds
+
+
+# ~e9bfa10e
+; Ends.
+
+
+# ~499c868
+; Debug_Actors # Tricks
+

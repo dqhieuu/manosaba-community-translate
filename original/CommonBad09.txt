@@ -1,0 +1,180 @@
+; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Common/CommonBad09' Naninovel scenario script
+
+# CommonBad09_Narrative001
+; ――結論が出ないまま、時間は流れた。<br>処刑される魔女を選ぶための投票が行われる。
+——少女们未能得出结论，时间徒然流逝。<br>
+为了选出应受处刑的魔女，投票开始了。
+
+# CommonBad09_Narrative002
+; 失敗だ。
+失败了。
+
+# CommonBad09_Narrative003
+; アンアンの死は事故だった。<br>それが答えだという方向に導きたかったのだが……
+安安的死是事故。<br>
+尽管我想将答案引导至这个方向……
+
+# CommonBad09_Narrative004
+; ここまでの議論で疑いをかけられた人間に、<br>票を入れるしかない。
+但现在只能将票<br>
+投给在至今为止的议论中受到怀疑的人。
+
+# CommonBad09_Hiro001
+; > Hiro: |#CommonBad09_Hiro001|
+; （すまない……）
+（抱歉……）
+
+# CommonBad09_Narrative005
+; 私は<ruby="はが">歯噛</ruby>みしながら、ボタンを押す。
+我咬紧牙关按下按钮。
+
+# CommonBad09_Narrative006
+; そうして選ばれたのは――
+而被选出的人——
+
+# CommonBad09_Alisa001
+; > Alisa: |#CommonBad09_Alisa001|
+; あ？
+啊？
+
+# CommonBad09_Narrative007
+; アリサだった。
+是亚里沙。
+
+# CommonBad09_Alisa002
+; > Alisa: |#CommonBad09_Alisa002|
+; おめぇらふざけんなよ……ウチはやってねえ！
+你们开什么玩笑……我才没动手！
+
+# CommonBad09_Narrative008
+; アリサは私たちを<ruby="にら">睨</ruby>み付ける。<br>震える声には、憎悪と動揺が入り混じっていた。
+亚里沙怒视着我们。<br>
+憎恨和慌乱混杂在她颤抖的声音中。
+
+# CommonBad09_Alisa003
+; > Alisa: |#CommonBad09_Alisa003|
+; おかしいだろ！<br>二階堂が言ってたじゃねえか！<br>自分が殺したって……！
+这很有问题吧！<br>
+二阶堂不是说了吗！<br>
+说是她杀的……！
+
+# CommonBad09_Hiro002
+; > Hiro: |#CommonBad09_Hiro002|
+; …………。
+…………
+
+# CommonBad09_Ema001
+; > Ema: |#CommonBad09_Ema001|
+; …………。
+…………
+
+# CommonBad09_Warden001
+; > Warden: |#CommonBad09_Warden001|
+; まあ、決定は決定なんで。<br>残念ですけど、諦めてもらうしかないかと。<br>さっさと閉廷したいですし……進行しちゃっていいですかね？
+哎，这已经是最终决定了。<br>
+虽然很遗憾，但只能请你接受这个结果了。<br>
+我想早点闭庭……能让我继续下一个环节了吗？
+
+# CommonBad09_Narrative009
+; ゴクチョーが合図を出し、<br>看守がアリサを拘束しようと動き出す。
+典狱长下达了指示，<br>
+看守开始准备绑住亚里沙。
+
+# CommonBad09_Alisa004
+; > Alisa: |#CommonBad09_Alisa004|
+; おい！ ちょっと待てよ！
+喂！给我等下！
+
+# CommonBad09_Alisa005
+; > Alisa: |#CommonBad09_Alisa005|
+; ウチは納得してねえ……<br>理不尽に処刑なんてされてたまるかよ！
+我不接受……<br>
+凭什么我要被无理处死！
+
+# CommonBad09_Narrative010
+; アリサの手に、魔法の火が灯る。
+亚里沙的手上亮起魔法的火焰。
+
+# CommonBad09_Alisa006
+; > Alisa: |#CommonBad09_Alisa006|
+; 近付くんじゃねえ！ 燃やすぞ！
+别靠近我！再靠近就烧了你们！
+
+# CommonBad09_Narrative011
+; アリサの言葉は脅しじゃない。<br>声色でそれはわかる。
+看她的声音和表情就知道，<br>
+亚里沙的话并非恐吓。
+
+# CommonBad09_Narrative012
+; だが、看守にはまるで通じなかった。<br>火など恐れず、アリサに接近する。
+但是，看守根本就不吃这套。<br>
+它不怕火焰，步步逼近亚里沙。
+
+# CommonBad09_Alisa007
+; > Alisa: |#CommonBad09_Alisa007|
+; 来るな！ 来るんじゃねえ……！！
+别过来！不许过来我这……！！
+
+# CommonBad09_Warden002
+; > Warden: |#CommonBad09_Warden002|
+; やれやれ……抵抗はいけませんよ。<br>まあ、無駄なんですけどね。
+哎呀呀……不可以抵抗哦。<br>
+不过，抵抗也是白费力气。
+
+# CommonBad09_Alisa008
+; > Alisa: |#CommonBad09_Alisa008|
+; ！！
+！！
+
+# CommonBad09_Narrative013
+; 少女たちが悲鳴を上げる。<br>看守が鎌を振るい、アリサを切り裂いたのだ。
+少女们发出了惨叫。<br>
+看守挥动镰刀，将亚里沙劈开。
+
+# CommonBad09_Narrative014
+; ２つに分かたれアリサの鮮血が、<br>裁判所を赤く染める。
+亚里沙分成了两半，<br>
+她的鲜血染红了审判庭。
+
+# CommonBad09_Warden003
+; > Warden: |#CommonBad09_Warden003|
+; あちゃ～……床と壁、掃除しないと……<br>余計な手間を増やさないでいただけると<br>ありがたいんですけどねぇ……。
+唉呀～……地板和墙壁，都得打扫……<br>
+真希望不要再给我增加<br>
+无谓的工作了……
+
+# CommonBad09_Narrative015
+; 魔女裁判の後。<br>私はアンアンが死亡した現場にいた。
+魔女审判结束后，<br>
+我来到了安安死亡的现场。
+
+# CommonBad09_Narrative016
+; アリサが魔女として処刑され、<br>私もエマも難を逃れた。
+亚里沙以魔女的身份被处死了。<br>
+我和艾玛都逃过了一劫。
+
+# CommonBad09_Narrative017
+; だが、本当にこれでよかったのだろうか……。
+但是，这真的就好了吗……
+
+# CommonBad09_Narrative018
+; ふと、背後に誰かの気配を感じる。<br>そして、背中に焼けるような痛みが走った。
+忽然，我感到背后有人靠近。<br>
+接着，背上传来一阵灼烧般的剧痛。
+
+# CommonBad09_Narrative019
+; 私は地面に倒れ、空を見上げる。
+我倒在了地上，仰望着天空。
+
+# CommonBad09_Narrative020
+; それが【今回】の記憶の最後――
+那就是【这次】记忆的最后一幕——
+
+# CommonBad09_Narrative021
+; 私は何者かに殺害され、死に戻った。
+我被某人杀害了，然后发动了死亡回溯。
+
+# CommonBad09_Narrative022
+; ある意味、<ruby="ぎょうこう">僥倖</ruby>だったかもしれない。<br>今度こそは、上手くやってみせる――
+某种意义上，这也许算得上是幸运。<br>
+下一次，我一定能做得更好——

@@ -1,0 +1,155 @@
+; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Debug/Debug_Spawn' Naninovel scenario script
+
+# ~f7dafd9b
+; Debug_Spawn # Emoticon
+
+
+# ~bd2095ba
+; Debug_Spawn # Matte
+
+
+# ~4dd3245e
+; Debug_Spawn # Text
+
+
+# ~dbafe420
+; Debug_Spawn # BadEnd
+
+
+# ~b43a883d
+; Debug_Spawn # BadEnd Ends.
+
+
+# ~210e42b1
+; Debug_Spawn # VFX
+
+
+# ~bd0c4ff4
+; エフェクトオフ
+
+
+# ~b739aaa
+; エフェクトオン
+
+
+# ~916e99d2
+; > Hanna: |#~916e99d2|
+; 「ちょっとあなた、神経どうにかしてるんじゃありません？<br>　よくスキップなんかできますわね」
+
+
+# ~8e0dd839
+; > Sherry: |#~8e0dd839|
+; 「ここが獄長の言ってた懲罰房でしょうね。<br>　規則を破った囚人はここに入れられる、と」
+
+
+# ~b4f0244f
+; Debug_Spawn # Front
+
+
+# ~8f9c2d82
+; showMattes_Front
+
+
+# ~1c92ab75
+; hideMattes_Front
+
+
+# ~f93958f4
+; showMattes_Forefront
+
+
+# ~610af01e
+; hideMattes_Forefront
+
+
+# ~65e4397
+; Debug_Spawn # Cancellation
+
+
+# ~b7b40baf
+; Debug_Spawn # Multipliable
+
+
+# ~cafae02c
+; a
+
+
+# ~d726795c
+; b
+
+
+# ~e74489bc
+; c
+
+
+# ~9cf79de
+; d
+
+
+# ~7779945a
+; e
+
+
+# ~6de7f3f5
+; Debug_Spawn # MatchScreenWidth
+
+
+# ~b53b979f
+; Debug_Spawn # Clue
+
+
+# ~741bb7b3
+; 1-13
+
+
+# ~b5312538
+; 1-14
+
+
+# ~c0bf9f8d
+; Debug_Spawn # Clue end.
+
+
+# ~f98d8c92
+; Debug_Spawn # CutIn
+
+
+# ~194318fe
+; ObjectionCutIn_Ema<br>index:0
+
+
+# ~a976a5ae
+; ObjectionCutIn_Ema<br>index:1
+
+
+# ~339fea61
+; ObjectionCutIn_Ema<br>index:2
+
+
+# ~ff3c5507
+; ObjectionCutIn_Hiro<br>index:0
+
+
+# ~7b2e9e45
+; ObjectionCutIn_Hiro<br>index:1
+
+
+# ~f0f2793a
+; ObjectionCutIn_Hiro<br>index:2
+
+
+# ~ee17f5c6
+; ObjectionCutIn_CreatureHiro<br>index:0
+
+
+# ~bb4c8665
+; ObjectionCutIn_CreatureHiro<br>index:1
+
+
+# ~3f6e6891
+; ObjectionCutIn_CreatureHiro<br>index:2
+
+
+# ~1d2ab6e3
+; Debug_Spawn # CutIn end.
+

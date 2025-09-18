@@ -1,0 +1,550 @@
+; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter06/Act02_Chapter06_Trial01' Naninovel scenario script
+
+# 0206Trial01_Yuki001
+; > @printDebate pos:70,50 roll:4 |#0206Trial01_Yuki001|
+; 人は<link="Objection_02_06_01_01">罪</link>を背負っています。
+人生而有<link="Objection_02_06_01_01">罪</link>。
+
+# 0206Trial01_Yuki002
+; > @printDebate pos:70,50 roll:4 |#0206Trial01_Yuki002|
+; よってこれより、<br>刑を執行します。
+因此，<br>
+我将执行刑罚。
+
+# 0206Trial01_Yuki003
+; > @printDebate pos:70,50 roll:4 |#0206Trial01_Yuki003|
+; ……全人類の処刑。
+……处决全人类。
+
+# 0206Trial01_Yuki004
+; > @printDebate pos:70,50 roll:4 |#0206Trial01_Yuki004|
+; これは<link="Objection_02_06_01_02">決定事項</link>なんです。
+这是<link="Objection_02_06_01_02">既定事项</link>。
+
+# 0206Trial01_Alisa001
+; > @printDebate pos:30,50 roll:-4 |#0206Trial01_Alisa001|
+; いきなり出てきたと<br>思ったら……<br>何言ってんだよてめぇ……！
+你这家伙……<br>
+忽然间跑出来<br>
+讲什么疯话……！
+
+# 0206Trial01_Coco001
+; > @printDebate pos:70,50 roll:4 |#0206Trial01_Coco001|
+; 人間全滅させるって<br>言ってる……！？<br>そんなことできんの！？
+她说，要灭绝<br>
+全人类……！？<br>
+这能做到吗！？
+
+# 0206Trial01_Nanoka001
+; > @printDebate pos:30,50 roll:-4 |#0206Trial01_Nanoka001|
+; ……残念だけれど、<br>大魔女にはそれが可能よ。
+……很遗憾，<br>
+大魔女确实能做到。
+
+# 0206Trial01_Nanoka002
+; > @printDebate pos:30,50 roll:-4 |#0206Trial01_Nanoka002|
+; 彼女には<br>それを実行できる<br>力がある……。
+因为她的确拥有<br>
+足以灭绝人类的<br>
+能力……
+
+# 0206Trial01_Yuki005
+; > @printDebate pos:70,50 roll:4 |#0206Trial01_Yuki005|
+; 物わかりが良くて<br>助かりますよ、<br>ナノカ。
+有你这么明事理的人，<br>
+我就不需多费口舌了，<br>
+奈叶香。
+
+# 0206Trial01_Yuki006
+; > @printDebate pos:70,50 roll:4 |#0206Trial01_Yuki006|
+; 大丈夫です。<br>あなたのお姉さんも、<br>ずっと一緒ですからね。
+不用害怕。<br>
+你姐姐会<br>
+永远陪着你的。
+
+# 0206Trial01_Nanoka003
+; > @printDebate pos:30,50 roll:-4 |#0206Trial01_Nanoka003|
+; ………っ！
+………！
+
+# 0206Trial01_Yuki007
+; > @printDebate pos:70,50 roll:4 |#0206Trial01_Yuki007|
+; すでに人類への<link="Objection_02_06_01_03">執行</link>の猶予は<br>十分に与えました。
+我已经给予全人类<br>
+足够长的<link="Objection_02_06_01_03">执行</link>延缓期了。
+
+# 0206Trial01_Yuki008
+; > @printDebate pos:70,50 roll:4 |#0206Trial01_Yuki008|
+; もう……<br><link="Objection_02_06_01_04">十分</link>ですよね？
+已经……<br>
+给你们<link="Objection_02_06_01_04">足够</link>时间了吧？
+
+# 0206Trial01_Yuki009
+; > @printDebate pos:70,50 roll:4 |#0206Trial01_Yuki009|
+; 人類の歴史は<br>今日で終焉を迎えます。
+人类的历史<br>
+将在今天迎来终结。
+
+# 0206Trial01_Yuki010
+; > @printDebate pos:70,50 roll:4 |#0206Trial01_Yuki010|
+; この世界を、<br><link="Objection_02_06_01_05">自然</link>に返しましょう。
+是时候把世界<br>
+归还给<link="Objection_02_06_01_05">自然</link>了。
+
+# 0206Trial01_Hiro001
+; > Hiro: |#0206Trial01_Hiro001|
+; （ユキが何を考えているのか……<br>　私たちはまだ聞き出せていない）
+（小雪到底是怎么打算的……<br>
+　我们还没问出来）
+
+# 0206Trial01_Hiro002
+; > Hiro: |#0206Trial01_Hiro002|
+; （だがこのままでは話を聞く前に<br>　人間が死滅してしまう）
+（但如果不采取行动，这样下去，<br>
+　在听到她的解释之前，人类就会灭亡）
+
+# 0206Trial01_Hiro003
+; > Hiro: |#0206Trial01_Hiro003|
+; （……少しでも彼女の行動を遅らせなくては）
+（……必须设法拖延她的行动）
+
+# 0206Trial01_Choice001
+; > @choice |#0206Trial01_Choice001| button:ChoiceButtons/Trial/Objection handler:TrialHiro
+; 罪など背負っていない
+人是无罪的
+
+# Common_Return
+; > @choice |#Common_Return| button:ChoiceButtons/Trial/Cancel handler:TrialHiro
+; 戻る
+返回
+
+# 0206Trial01_Choice002
+; > @choice |#0206Trial01_Choice002| button:ChoiceButtons/Trial/Objection handler:TrialHiro
+; 誰もそんなことは決めていない
+根本没人决定过这件事
+
+# 0206Trial01_Choice003
+; > @choice |#0206Trial01_Choice003| button:ChoiceButtons/Trial/Objection handler:TrialHiro
+; 裁判が行われていない
+刑罚未经审判
+
+# 0206Trial01_Choice004
+; > @choice |#0206Trial01_Choice004| button:ChoiceButtons/Trial/Objection handler:TrialHiro
+; 不十分だ
+还不够
+
+# 0206Trial01_Choice005
+; > @choice |#0206Trial01_Choice005| button:ChoiceButtons/Trial/Objection handler:TrialHiro
+; 自然なものだ
+世界本就是属于自然的
+
+# 0206Trial01_Hiro004
+; > Hiro: |#0206Trial01_Hiro004|
+; ……何の話だ。
+……你在说什么？
+
+# 0206Trial01_Hiro005
+; > Hiro: |#0206Trial01_Hiro005|
+; 人が生まれながらに罪を背負っているだと？
+人类生而有罪？
+
+# 0206Trial01_Hiro006
+; > Hiro: |#0206Trial01_Hiro006|
+; そんなこと、あるはずがない！
+无稽之谈！
+
+# 0206Trial01_Yuki011
+; > Yuki: |#0206Trial01_Yuki011|
+; あなたは知らないだけ……。
+只是你不知道而已……
+
+# 0206Trial01_Yuki012
+; > Yuki: |#0206Trial01_Yuki012|
+; いいえ、それとも知っているのに<br>知らないふりをしているだけ？
+还是说，你明明很清楚，<br>
+却在装傻？
+
+# 0206Trial01_Yuki013
+; > Yuki: |#0206Trial01_Yuki013|
+; どちらにせよ……。<br>あなたの反論に意味はありません。
+无论是哪一种……<br>
+你的反驳都没有任何意义。
+
+# 0206Trial01_Yuki014
+; > Yuki: |#0206Trial01_Yuki014|
+; 無駄な時間を使うのであれば……<br>お話は終わりです。
+再这样浪费时间……<br>
+谈话就到此为止了。
+
+# 0206Trial01_Yuki015
+; > Yuki: |#0206Trial01_Yuki015|
+; 刑を執行しましょう。
+我将执行刑罚。
+
+# 0206Trial01_Hiro007
+; > Hiro: |#0206Trial01_Hiro007|
+; （くっ……！<br>　闇雲に反論をしても、話を打ち切られるだけか……！）
+（可恶……！<br>
+　胡乱反驳只会使谈话结束……！）
+
+# 0206Trial01_Hiro008
+; > Hiro: |#0206Trial01_Hiro008|
+; （圧倒的な力を持つ大魔女……<br>　この場ではある意味、裁判官に等しい力を持つ）
+（拥有压倒性力量的大魔女……<br>
+　在现在的情况下，某种意义上相当于审判官）
+
+# 0206Trial01_Hiro009
+; > Hiro: |#0206Trial01_Hiro009|
+; （心証を損ねるわけにはいかない……か）
+（得小心，不要损害我在她心里的印象……）
+
+# 0206Trial01_Hiro010
+; > Hiro: |#0206Trial01_Hiro010|
+; （彼女を納得させるには、<br>　彼女の世界のルールに従う必要があるな）
+（要让她信服，<br>
+　就必须遵守她那个世界的规则）
+
+# 0206Trial01_Hiro011
+; > Hiro: |#0206Trial01_Hiro011|
+; 人類の処刑が決定事項……？
+处决人类是既定事项……？
+
+# 0206Trial01_Hiro012
+; > Hiro: |#0206Trial01_Hiro012|
+; 誰もそんなことは決めていない！
+根本没人决定过这件事！
+
+# 0206Trial01_Yuki016
+; > Yuki: |#0206Trial01_Yuki016|
+; 私が決めました。
+是我决定的。
+
+# 0206Trial01_Yuki017
+; > Yuki: |#0206Trial01_Yuki017|
+; 処刑を行うのも私です。
+行刑官也是我。
+
+# 0206Trial01_Yuki018
+; > Yuki: |#0206Trial01_Yuki018|
+; それに反抗するというのであれば……。
+如果要反抗这一点……
+
+# 0206Trial01_Yuki019
+; > Yuki: |#0206Trial01_Yuki019|
+; まずはあなた方から、処刑を実施しましょうか。
+首先处决的就是在座各位。
+
+# 0206Trial01_Hiro013
+; > Hiro: |#0206Trial01_Hiro013|
+; （くっ……！<br>　闇雲に反論をしても、話を打ち切られるだけか……！）
+（可恶……！<br>
+　胡乱反驳只会使谈话结束……！）
+
+# 0206Trial01_Hiro014
+; > Hiro: |#0206Trial01_Hiro014|
+; （圧倒的な力を持つ大魔女……<br>　この場ではある意味、裁判官に等しい力を持つ）
+（拥有压倒性力量的大魔女……<br>
+　在现在的情况下，某种意义上相当于审判官）
+
+# 0206Trial01_Hiro015
+; > Hiro: |#0206Trial01_Hiro015|
+; （心証を損ねるわけにはいかない……か）
+（得小心，不要损害我在她心里的印象……）
+
+# 0206Trial01_Hiro016
+; > Hiro: |#0206Trial01_Hiro016|
+; （彼女を納得させるには、<br>　彼女の世界のルールに従う必要があるな）
+（要让她信服，<br>
+　就必须遵守她那个世界的规则）
+
+# 0206Trial01_Hiro017
+; > Hiro: |#0206Trial01_Hiro017|
+; いいや、不十分だ。
+不，缓刑期还不够。
+
+# 0206Trial01_Hiro018
+; > Hiro: |#0206Trial01_Hiro018|
+; 人を殺すのであれば、<br>もっと慎重に検討すべきだ！
+这可是杀人，<br>
+应该更慎重地考虑！
+
+# 0206Trial01_Yuki020
+; > Yuki: |#0206Trial01_Yuki020|
+; そうでしょうか？
+是吗？
+
+# 0206Trial01_Yuki021
+; > Yuki: |#0206Trial01_Yuki021|
+; 人間の世界であっても死刑はありますし、<br>こんなに時間があったのですから<br>十分な猶予を与えたと言ってもいいでしょう。
+我看人类世界也有死刑，<br>
+而且已经过了这么长时间，<br>
+可以说给予了足够的缓刑期了吧。
+
+# 0206Trial01_Yuki022
+; > Yuki: |#0206Trial01_Yuki022|
+; そしてべつに長い期間の猶予を与えたからといって、<br>罪が無くなるわけでもありません。
+而且，就算我给予了这么长时间的缓刑期，<br>
+人类的罪孽也不会就此消失。
+
+# 0206Trial01_Yuki023
+; > Yuki: |#0206Trial01_Yuki023|
+; 愚かな虐殺者には……相応の罰を与えましょう。
+对于愚蠢的屠杀者……就该给予相应的刑罚。
+
+# 0206Trial01_Hiro019
+; > Hiro: |#0206Trial01_Hiro019|
+; （くっ……！<br>　闇雲に反論をしても、話を打ち切られるだけか……！）
+（可恶……！<br>
+　胡乱反驳只会使谈话结束……！）
+
+# 0206Trial01_Hiro020
+; > Hiro: |#0206Trial01_Hiro020|
+; （圧倒的な力を持つ大魔女……<br>　この場ではある意味、裁判官に等しい力を持つ）
+（拥有压倒性力量的大魔女……<br>
+　在现在的情况下，某种意义上相当于审判官）
+
+# 0206Trial01_Hiro021
+; > Hiro: |#0206Trial01_Hiro021|
+; （心証を損ねるわけにはいかない……か）
+（得小心，不要损害我在她心里的印象……）
+
+# 0206Trial01_Hiro022
+; > Hiro: |#0206Trial01_Hiro022|
+; （彼女を納得させるには、<br>　彼女の世界のルールに従う必要があるな）
+（要让她信服，<br>
+　就必须遵守她那个世界的规则）
+
+# 0206Trial01_Hiro023
+; > Hiro: |#0206Trial01_Hiro023|
+; ……自然に返す？
+……归还自然？
+
+# 0206Trial01_Hiro024
+; > Hiro: |#0206Trial01_Hiro024|
+; すでに世界は自然な在り方で存在している……。
+世界本就以自然的方式存在……
+
+# 0206Trial01_Hiro025
+; > Hiro: |#0206Trial01_Hiro025|
+; なぜなら人間もまた、自然から発生したものだからだ！
+就连人类也是从自然中产生的！
+
+# 0206Trial01_Yuki024
+; > Yuki: |#0206Trial01_Yuki024|
+; そんな詭弁に付き合う気はありません。
+我没兴趣和你玩这种诡辩。
+
+# 0206Trial01_Yuki025
+; > Yuki: |#0206Trial01_Yuki025|
+; 自然に返すのが嫌というなら……。
+要是不愿意回归自然……
+
+# 0206Trial01_Yuki026
+; > Yuki: |#0206Trial01_Yuki026|
+; 無に還してさしあげましょう。<br>……あなた方から。
+那就让人类归于虚无吧。<br>
+……就从在座各位开始。
+
+# 0206Trial01_Hiro026
+; > Hiro: |#0206Trial01_Hiro026|
+; （……べつに自然環境を守ろうとしているわけでは<br>　なさそうだ）
+（……看来她并不是想要保护自然环境）<br>
+
+
+# 0206Trial01_Hiro027
+; > Hiro: |#0206Trial01_Hiro027|
+; （圧倒的な力を持つ大魔女……<br>　この場ではある意味、裁判官に等しい力を持つ）
+（拥有压倒性力量的大魔女……<br>
+　在现在的情况下，某种意义上相当于审判官）
+
+# 0206Trial01_Hiro028
+; > Hiro: |#0206Trial01_Hiro028|
+; （心証を損ねるわけにはいかない……か）
+（得小心，不要损害我在她心里的印象……）
+
+# 0206Trial01_Hiro029
+; > Hiro: |#0206Trial01_Hiro029|
+; （彼女を納得させるには、<br>　彼女の世界のルールに従う必要があるな）
+（要让她信服，<br>
+　就必须遵守她那个世界的规则）
+
+# 0206Trial01_Miria001
+; > Miria: |#0206Trial01_Miria001|
+; そ、その刑の執行……<br>もうちょっと待ってもらえないかな！
+等、等一下……<br>
+处刑能不能再推迟一些！
+
+# 0206Trial01_Yuki027
+; > Yuki: |#0206Trial01_Yuki027|
+; それは、どうしてですか？
+那是为什么呢？
+
+# 0206Trial01_Hiro030
+; > Hiro: |#0206Trial01_Hiro030|
+; ……ユキ。
+……小雪。
+
+# 0206Trial01_Hiro031
+; > Hiro: |#0206Trial01_Hiro031|
+; 君は今、人類に執行の猶予期間を与えたと言った……。
+你刚刚说，已经给予了人类缓刑期……
+
+# 0206Trial01_Hiro032
+; > Hiro: |#0206Trial01_Hiro032|
+; だがそもそも、その判決に正当性はあるのかな。
+但说到底，你的判决究竟有没有正当性呢。
+
+# 0206Trial01_Yuki028
+; > Yuki: |#0206Trial01_Yuki028|
+; ………。
+………
+
+# 0206Trial01_Miria002
+; > Miria: |#0206Trial01_Miria002|
+; し、執行猶予が与えられたってことは……<br>判決が下されたってことだと思うんだけど……！
+既、既然给予了缓刑期……<br>
+就意味着已经下达了判决吧……！
+
+# 0206Trial01_Miria003
+; > Miria: |#0206Trial01_Miria003|
+; その裁判、不当判決じゃないかな！？
+那么，那次审判，有没有可能判决不当呢！？
+
+# 0206Trial01_Alisa002
+; > Alisa: |#0206Trial01_Alisa002|
+; ……お前ら、何言ってんだ……？
+……你们到底在讲什么啊……？
+
+# 0206Trial01_Alisa003
+; > Alisa: |#0206Trial01_Alisa003|
+; バケモンの親玉に、<br>そんな理屈通じるわけねぇだろ……。
+跟怪物头子讲道理，<br>
+怎么可能讲得通……
+
+# 0206Trial01_Miria004
+; > Miria: |#0206Trial01_Miria004|
+; そ、それでも！
+即、即使如此！
+
+# 0206Trial01_Miria005
+; > Miria: |#0206Trial01_Miria005|
+; 理屈は……通すべきだと思うよ！！
+我觉得……还是应该讲道理才对！！
+
+# 0206Trial01_Miria006
+; > Miria: |#0206Trial01_Miria006|
+; だって、君は【人に罪がある】と言った……。
+你说，【人生而有罪】……
+
+# 0206Trial01_Miria007
+; > Miria: |#0206Trial01_Miria007|
+; しかもそれは、人間全員が極刑に値するほどの罪だ。
+而且还是，足以对全人类处以极刑的罪。
+
+# 0206Trial01_Miria008
+; > Miria: |#0206Trial01_Miria008|
+; なら君は、<br>その判断に正当性があると主張しているんだよね……！
+那么你现在是<br>
+主张该判决具有正当性，对不对……！
+
+# 0206Trial01_Miria009
+; > Miria: |#0206Trial01_Miria009|
+; つまり、君は【自分の意見が正しい】と思ってるはずだ。
+也就是说，你认为【自己的意见是正确的】。
+
+# 0206Trial01_Miria010
+; > Miria: |#0206Trial01_Miria010|
+; 罰を与えるというなら……<br>被告である人間にその理由を知らせて、<br>反省を促す必要もあるんじゃないかな……！？
+既然要给予刑罚……<br>
+那就有必要向作为被告的人类告知判决的理由，<br>
+并促使其反省罪行才对，不是吗……！？
+
+# 0206Trial01_Yuki029
+; > Yuki: |#0206Trial01_Yuki029|
+; ………。
+………
+
+# 0206Trial01_Hiro033
+; > Hiro: |#0206Trial01_Hiro033|
+; （ミリアの理屈は……<br>　正直言ってめちゃくちゃだ）
+（米莉亚讲的道理……<br>
+　说实话太乱来了）
+
+# 0206Trial01_Hiro034
+; > Hiro: |#0206Trial01_Hiro034|
+; （この場は、裁判とは名ばかりの真似事のような場……。<br>　法が厳格に適用されるような【法廷】とは言えない）
+（这里只有审判之名，而无审判之实，仅仅只是一种过家家……<br>
+　并不是严格适用法律的【法庭】）
+
+# 0206Trial01_Hiro035
+; > Hiro: |#0206Trial01_Hiro035|
+; （だが相手が圧倒的な力を持っている以上、<br>　暴力で対抗しても意味がないのもたしかだ）
+（但既然对方拥有压倒性的力量，<br>
+　暴力对抗也没有意义）
+
+# 0206Trial01_Hiro036
+; > Hiro: |#0206Trial01_Hiro036|
+; （まずは彼女との対話に持ち込む……）
+（首先要和她建立对话……）
+
+# 0206Trial01_Hiro037
+; > Hiro: |#0206Trial01_Hiro037|
+; （反撃はそれからだ……！）
+（然后才能谈得上反击……！）
+
+# 0206Trial01_Hiro038
+; > Hiro: |#0206Trial01_Hiro038|
+; ……裁判だ。
+……开始审判吧。
+
+# 0206Trial01_Hiro039
+; > Hiro: |#0206Trial01_Hiro039|
+; ――魔女裁判の開廷を要求する！
+——我要求开庭进行魔女审判！
+
+# 0206Trial01_Yuki030
+; > Yuki: |#0206Trial01_Yuki030|
+; ……魔女裁判？
+……魔女审判？
+
+# 0206Trial01_Hiro040
+; > Hiro: |#0206Trial01_Hiro040|
+; そうだ。
+对了。
+
+# 0206Trial01_Hiro041
+; > Hiro: |#0206Trial01_Hiro041|
+; 人間が、<br>処刑されるべき【魔女】であるかどうか……。
+人类究竟是不是<br>
+应当被处决的【魔女】……
+
+# 0206Trial01_Hiro042
+; > Hiro: |#0206Trial01_Hiro042|
+; この島のルールに則って、<br>それを決めるんだ……！
+就让我们按照这座岛的规则，<br>
+讨论出最终答案……！
+
+# 0206Trial01_Yuki031
+; > Yuki: |#0206Trial01_Yuki031|
+; …………。
+…………
+
+# 0206Trial01_Yuki032
+; > Yuki: |#0206Trial01_Yuki032|
+; いいですよ。
+可以啊。
+
+# 0206Trial01_Hiro043
+; > Hiro: |#0206Trial01_Hiro043|
+; ……！
+……！
+
+# 0206Trial01_Yuki033
+; > Yuki: |#0206Trial01_Yuki033|
+; それであなたたちの気が済むのなら……。
+如果这样就能让你们服气的话……
+
+# 0206Trial01_Yuki034
+; > Yuki: |#0206Trial01_Yuki034|
+; 少しだけ、お付き合いしましょうか？
+那我就稍微陪你们玩玩吧？

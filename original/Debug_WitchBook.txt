@@ -1,0 +1,89 @@
+; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Debug/Debug_WitchBook' Naninovel scenario script
+
+# ~843ebade
+; Debug_WitchBook # Screen
+
+
+# ~f9412bb9
+; Screen presented.
+
+
+# ~c3d4ca71
+; 2
+
+
+# ~2ab5cbf2
+; Debug_WitchBook # Screen ends.
+
+
+# ~28b2305c
+; Debug_WitchBook # Update
+
+
+# ~ed345ab3
+; 証拠品 更新<br>ID：1-1<br>Version：1
+
+
+# ~c71d3260
+; 証拠品 更新<br>ID：1-2<br>Version：1
+
+
+# ~48cb26c
+; 証拠品 更新<br>ID：1-1<br>Version：0（消失）
+
+
+# ~d9ce6544
+; 証拠品 更新<br>ID：1-11<br>Version：1
+
+
+# ~841968e3
+; 証拠品 更新<br>ID：1-10<br>Version：1
+
+
+# ~c27262ee
+; 人物 更新<br>ID：Noah<br>Version：1
+
+
+# ~7b83b884
+; 人物 更新<br>ID：Ema<br>Version：1
+
+
+# ~4c8f74f7
+; 人物 更新<br>ID：AnAn<br>Version：1
+
+
+# ~1606220f
+; Debug_WitchBook # Update ends.
+
+
+# ~fb78f3c6
+; Debug_WitchBook # Evidence
+
+
+# ~865c4488
+; 魔女図鑑画面/証拠品を開きます。
+
+
+# ~cb821912
+; 不正解（証拠品）
+
+
+# ~a967d3d6
+; 正解（証拠品）
+
+
+# ~3cc522e9
+; 魔女図鑑画面/人物を開きます。
+
+
+# ~94830d32
+; 不正解（人物）
+
+
+# ~ea52ae0b
+; 正解（人物）
+
+
+# ~3df9ef24
+; Debug_WitchBook # Evidence ends.
+

@@ -1,0 +1,670 @@
+; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter05/Act02_Chapter05_Trial25' Naninovel scenario script
+
+# 0205Trial25_Sherry001
+; > @printDebate pos:70,50 roll:4 |#0205Trial25_Sherry001|
+; 実際<br>私は処刑を前にしても<br>魔女化することは<br>ありませんでした。
+我在实际<br>
+面临处刑时，<br>
+也并没有<br>
+产生魔女化。
+
+# 0205Trial25_Sherry002
+; > @printDebate pos:70,50 roll:4 |#0205Trial25_Sherry002|
+; 【痛みへの恐怖がないのだから、<br>死の恐怖も感じることはない】<br>……。
+【既然感觉不到对痛苦的恐惧，<br>
+自然也感觉不到对死亡的恐惧】……<br>
+
+
+# 0205Trial25_Sherry003
+; > @printDebate pos:70,50 roll:4 |#0205Trial25_Sherry003|
+; ヒロさんの推理通りなら<br>納得ですよね。
+希罗你推断得没错的话，<br>
+这个结论就很合理了。
+
+# 0205Trial25_Sherry004
+; > @printDebate pos:70,50 roll:4 |#0205Trial25_Sherry004|
+; ……でも、<br>だとしたらどうするんです？
+……不过，<br>
+这么一来，你要怎么办？
+
+# 0205Trial25_Sherry005
+; > @printDebate pos:70,50 roll:4 |#0205Trial25_Sherry005|
+; 痛みを苦痛と感じるまで、<br>拷問でもしてみますか？
+要不要试试拷问我，<br>
+直到我把痛苦当作苦难为止？
+
+# 0205Trial25_Hiro001
+; > @printDebate pos:30,50 roll:-4 |#0205Trial25_Hiro001|
+; ……そんなことをしても<br>無駄だ。
+……这么做<br>
+也是白费力气。
+
+# 0205Trial25_Hiro002
+; > @printDebate pos:30,50 roll:-4 |#0205Trial25_Hiro002|
+; 君は痛みの信号を<br>不快と思わないのだから。
+因为你不会对<br>
+疼痛的信号感受到不快。
+
+# 0205Trial25_Sherry006
+; > @printDebate pos:70,50 roll:4 |#0205Trial25_Sherry006|
+; それは良かったです。<br>無意味に痛めつけられても、<br>時間の無駄ですしね。
+那真是太好了。<br>
+被无意义地折磨，<br>
+也只是浪费时间呢。
+
+# 0205Trial25_Sherry007
+; > @printDebate pos:70,50 roll:4 |#0205Trial25_Sherry007|
+; ……きっと、<br>私の体は苦しみを感じても<br>意味がないと<br>学んでしまったんです。
+……大概，<br>
+我的身体<br>
+已经学会了<br>
+感受痛苦也没有意义。
+
+# 0205Trial25_Sherry008
+; > @printDebate pos:70,50 roll:4 |#0205Trial25_Sherry008|
+; 痛みは肉体の危機を<br>避けるための<br>警報器ですから。
+因为痛觉是一道警报器，<br>
+提醒我们远离<br>
+肉体的危险。
+
+# 0205Trial25_Sherry009
+; > @printDebate pos:70,50 roll:4 |#0205Trial25_Sherry009|
+; ……ずっと<br>鳴りっぱなしの警報は、<br>うるさいだけで<br>存在する意味が<link="Objection_02_05_25_01">ありません</link>。
+……而一直<br>
+响个不停的警报，<br>
+只是单纯的吵闹而已，<br>
+<link="Objection_02_05_25_01">没有</link>存在的意义。
+
+# 0205Trial25_Sherry010
+; > @printDebate pos:70,50 roll:4 |#0205Trial25_Sherry010|
+; なので私は<br>いくらこの牢屋敷で暮らそうと、<br><link="Objection_02_05_25_02">魔女になることはない</link><br>でしょうね。
+所以我想，<br>
+不管在这座监牢生活多久，<br>
+我都<br>
+<link="Objection_02_05_25_02">不会变成魔女</link>了。
+
+# 0205Trial25_Sherry011
+; > @printDebate pos:70,50 roll:4 |#0205Trial25_Sherry011|
+; 私は人として<br><link="Objection_02_05_25_03">感情が欠落している</link>んです。
+以人类的标准来看，<br>
+我的<link="Objection_02_05_25_03">感情是有缺陷</link>的。
+
+# 0205Trial25_Sherry012
+; > @printDebate pos:70,50 roll:4 |#0205Trial25_Sherry012|
+; ……おかしいですよね。<br><link="Objection_02_05_25_04">人から離れれば</link><br>離れるほど<br>魔女になりにくいなんて。
+……很奇怪吧。<br>
+<link="Objection_02_05_25_04">越是不像人类</link>，<br>
+反而越难<br>
+变成魔女。
+
+# 0205Trial25_Hiro003
+; > Hiro: |#0205Trial25_Hiro003|
+; （シェリーに苦痛を与えても魔女化することはない……）
+（就算对雪莉施加痛苦也不会让她魔女化……）
+
+# 0205Trial25_Hiro004
+; > Hiro: |#0205Trial25_Hiro004|
+; （痛み、悲しみ、恐怖、不安……<br>　これらの負の感情では、<br>　シェリーが魔女化することはないだろう）
+（痛苦、悲伤、恐惧、不安……<br>
+　我想，这些负面情绪<br>
+　大概都无法让雪莉魔女化）
+
+# 0205Trial25_Hiro005
+; > Hiro: |#0205Trial25_Hiro005|
+; （可能性があるとすれば――【怒り】だろうか）
+（那么有可能的选项——会不会是【愤怒】呢？）
+
+# 0205Trial25_Hiro006
+; > Hiro: |#0205Trial25_Hiro006|
+; （これまでの魔女化で言えば<br>　マーゴのような【怒り】を誘発することができれば、<br>　あるいは……？）
+（参考之前的魔女化，<br>
+　如果能激发出像玛格那样的【愤怒】，<br>
+　说不定……？）
+
+# 0205Trial25_Choice001
+; > @choice |#0205Trial25_Choice001| button:ChoiceButtons/Trial/Objection handler:TrialHiro
+; 存在する意味はある
+有存在的意义
+
+# Common_Return
+; > @choice |#Common_Return| button:ChoiceButtons/Trial/Cancel handler:TrialHiro
+; 戻る
+返回
+
+# 0205Trial25_Choice002
+; > @choice |#0205Trial25_Choice002| button:ChoiceButtons/Trial/Objection handler:TrialHiro
+; 諦めなければきっとなれる
+只要不放弃就一定能行
+
+# 0205Trial25_Choice003
+; > @choice |#0205Trial25_Choice003| button:ChoiceButtons/Trial/Objection handler:TrialHiro
+; 君は感情豊かだ
+你的感情很丰富
+
+# 0205Trial25_Choice004
+; > @choice |#0205Trial25_Choice004| button:ChoiceButtons/Trial/Objection handler:TrialHiro
+; 君は人間だ
+你是人类
+
+# 0205Trial25_Hiro007
+; > Hiro: |#0205Trial25_Hiro007|
+; 警報が鳴っているなら、それは存在する意味がある。
+警报在响，就说明它有存在的意义。
+
+# 0205Trial25_Hiro008
+; > Hiro: |#0205Trial25_Hiro008|
+; 君が過去の自分を否定してはいけない。
+你不能否定过去的自己。
+
+# 0205Trial25_Hiro009
+; > Hiro: |#0205Trial25_Hiro009|
+; そして痛みを取り戻すんだ……！
+接下来，你要取回自己的痛苦……！
+
+# 0205Trial25_Sherry013
+; > Sherry: |#0205Trial25_Sherry013|
+; １度壊れたものは容易には戻りません。
+曾经坏掉的东西是很难恢复的。
+
+# 0205Trial25_Sherry014
+; > Sherry: |#0205Trial25_Sherry014|
+; それは体だって、心だって同じです。
+无论是身体，还是心灵都一样。
+
+# 0205Trial25_Sherry015
+; > Sherry: |#0205Trial25_Sherry015|
+; つまり私が言いたいことは……。
+也就是说，我想表达的是……
+
+# 0205Trial25_Sherry016
+; > Sherry: |#0205Trial25_Sherry016|
+; 【無茶言わないでください】、<br>ってことですね！
+【请不要强人所难了】，<br>
+就是这样！
+
+# 0205Trial25_Hiro010
+; > Hiro: |#0205Trial25_Hiro010|
+; （……言い返す言葉もない）
+（……我无言以对）
+
+# 0205Trial25_Hiro011
+; > Hiro: |#0205Trial25_Hiro011|
+; （彼女は自身の生い立ちをなんでもないように語るが……）
+（尽管她讲述自己的过往时，表现出若无其事的样子……）
+
+# 0205Trial25_Hiro012
+; > Hiro: |#0205Trial25_Hiro012|
+; （彼女自身、自らの不幸に<br>　自身のアイデンティティを依存してないだろうか）
+（但她自己，是否也将自身的身份认同，<br>
+　依附于自身的不幸呢？）
+
+# 0205Trial25_Hiro013
+; > Hiro: |#0205Trial25_Hiro013|
+; （だとしたら……それを否定する必要があるかもしれない）
+（如果是这样的话……说不定我必须对这一点作出否定）
+
+# 0205Trial25_Hiro014
+; > Hiro: |#0205Trial25_Hiro014|
+; ……諦めるな！
+……不要放弃！
+
+# 0205Trial25_Hiro015
+; > Hiro: |#0205Trial25_Hiro015|
+; 頑張ればきっと魔女化もできる！
+只要付出努力，一定也能魔女化的！
+
+# 0205Trial25_Sherry017
+; > Sherry: |#0205Trial25_Sherry017|
+; そうですよね！
+你说得对！
+
+# 0205Trial25_Sherry018
+; > Sherry: |#0205Trial25_Sherry018|
+; うおおー！ ファイト～！
+唔哦哦～！加油～！
+
+# 0205Trial25_Sherry019
+; > Sherry: |#0205Trial25_Sherry019|
+; ……それで、どうやって魔女化しましょう？
+……所以呢，我要怎么实现魔女化呢？
+
+# 0205Trial25_Hiro016
+; > Hiro: |#0205Trial25_Hiro016|
+; （……魔女化が遠のいた気がする）
+（……感觉离魔女化的目标更远了）
+
+# 0205Trial25_Hiro017
+; > Hiro: |#0205Trial25_Hiro017|
+; （彼女は自身の生い立ちをなんでもないように語るが……）
+（尽管她讲述自己的过往时，表现出若无其事的样子……）
+
+# 0205Trial25_Hiro018
+; > Hiro: |#0205Trial25_Hiro018|
+; （彼女自身、自らの不幸に<br>　自身のアイデンティティを依存してないだろうか）
+（但她自己，是否也将自身的身份认同，<br>
+　依附于自身的不幸呢？）
+
+# 0205Trial25_Hiro019
+; > Hiro: |#0205Trial25_Hiro019|
+; （だとしたら……それを否定する必要があるかもしれない）
+（如果是这样的话……说不定我必须对这一点作出否定）
+
+# 0205Trial25_Hiro020
+; > Hiro: |#0205Trial25_Hiro020|
+; 君は十分に感情豊かだ。
+你的感情已经足够丰富了。
+
+# 0205Trial25_Hiro021
+; > Hiro: |#0205Trial25_Hiro021|
+; それ以上感情を増やす必要はないんじゃないかな。
+我觉得你没必要再增加更多感情了。
+
+# 0205Trial25_Sherry020
+; > Sherry: |#0205Trial25_Sherry020|
+; そうですか？<br>こう見えて、頑張ってるんですけどね～？
+是吗？<br>
+别看我这样，我也付出了很多努力哦～？
+
+# 0205Trial25_Sherry021
+; > Sherry: |#0205Trial25_Sherry021|
+; なんにせよ、お褒めいただき光栄です！
+不管怎样，承蒙夸奖，非常荣幸！
+
+# 0205Trial25_Sherry022
+; > Sherry: |#0205Trial25_Sherry022|
+; ……それで、どうやって魔女化しましょう？
+……所以呢，我要怎么实现魔女化呢？
+
+# 0205Trial25_Hiro022
+; > Hiro: |#0205Trial25_Hiro022|
+; （……話がズレてしまった）
+（……话题跑偏了）
+
+# 0205Trial25_Hiro023
+; > Hiro: |#0205Trial25_Hiro023|
+; （彼女は自身の生い立ちをなんでもないように語るが……）
+（尽管她讲述自己的过往时，表现出若无其事的样子……）
+
+# 0205Trial25_Hiro024
+; > Hiro: |#0205Trial25_Hiro024|
+; （彼女自身、自らの不幸に<br>　自身のアイデンティティを依存してないだろうか）
+（但她自己，是否也将自身的身份认同，<br>
+　依附于自身的不幸呢？）
+
+# 0205Trial25_Hiro025
+; > Hiro: |#0205Trial25_Hiro025|
+; （だとしたら……それを否定する必要があるかもしれない）
+（如果是这样的话……说不定我必须对这一点作出否定）
+
+# 0205Trial25_Hiro026
+; > Hiro: |#0205Trial25_Hiro026|
+; ……君は人間だよ。
+……你是人类哦。
+
+# 0205Trial25_Sherry023
+; > Sherry: |#0205Trial25_Sherry023|
+; そうでしょうか？
+是吗？
+
+# 0205Trial25_Sherry024
+; > Sherry: |#0205Trial25_Sherry024|
+; 痛みを感じず人にも共感できない……。
+既感觉不到痛苦，也无法共情他人……
+
+# 0205Trial25_Sherry025
+; > Sherry: |#0205Trial25_Sherry025|
+; そんな存在が人を名乗っていいんですかね？
+这样的事物，也有资格自称是人类吗？
+
+# 0205Trial25_Hiro027
+; > Hiro: |#0205Trial25_Hiro027|
+; ……君が人である証拠がある。<br>それは――。
+……有证据证明你就是人类。<br>
+那就是——
+
+# 0205Trial25_Hiro028
+; > Hiro: |#0205Trial25_Hiro028|
+; （……いや、これはシェリーの人格には関係ないな）
+（……不，这和雪莉的人格无关）
+
+# 0205Trial25_Hiro029
+; > Hiro: |#0205Trial25_Hiro029|
+; （シェリーの心の形を知るのに、<br>　一番ふさわしいもの……）
+（最适合去探究<br>
+　雪莉真实内心的事物……）
+
+# 0205Trial25_Hiro030
+; > Hiro: |#0205Trial25_Hiro030|
+; （それはもちろん、<br>　彼女がしでかしたあの事件だ……！）.
+（那当然就是，<br>
+　她谋划的那起事件……！）
+
+# 0205Trial25_Hiro031
+; > Hiro: |#0205Trial25_Hiro031|
+; ……君が人である証拠、それは――。
+……证明你是人类的证据就是——
+
+# 0205Trial25_Hiro032
+; > Hiro: |#0205Trial25_Hiro032|
+; 君が、遠野ハンナを殺した事件だ。
+你，杀害了远野汉娜的那起案件。
+
+# 0205Trial25_Sherry026
+; > Sherry: |#0205Trial25_Sherry026|
+; ……それこそ、<br>私がまともな人間じゃない証拠じゃないですか。
+……那不正是<br>
+我并非正常人的证据吗？
+
+# 0205Trial25_Sherry027
+; > Sherry: |#0205Trial25_Sherry027|
+; 友人を殺すなんて、<br>人のすることじゃないですし――。
+杀害朋友<br>
+根本就不是人会做的事——
+
+# 0205Trial25_Hiro033
+; > Hiro: |#0205Trial25_Hiro033|
+; ――違う。
+——不对。
+
+# 0205Trial25_Hanna001
+; > Hanna: |#0205Trial25_Hanna001|
+; でもわたくし、魔女になりたくありませんの。
+但我真的不想变成魔女。
+
+# 0205Trial25_Hanna002
+; > Hanna: |#0205Trial25_Hanna002|
+; 魔女になって、誰かを憎んだり、<br>殺意を抱いたりしたくないんですの。
+我不想变成魔女，<br>
+去憎恨他人，心怀杀意。
+
+# 0205Trial25_Hanna003
+; > Hanna: |#0205Trial25_Hanna003|
+; この監獄の決められた流れに、<br>組み込まれたくない。
+我不想心甘情愿地接受<br>
+这座监牢为我们编排的既定命运。
+
+# 0205Trial25_Hanna004
+; > Hanna: |#0205Trial25_Hanna004|
+; 魔女になるのが避けられないのなら、<br>せめて抗いたい。
+如果躲不开成为魔女的宿命，<br>
+至少我想要反抗一下。
+
+# 0205Trial25_Hiro034
+; > Hiro: |#0205Trial25_Hiro034|
+; 君はハンナの願いを叶えたと語った……。
+你说，你实现了汉娜的愿望……
+
+# 0205Trial25_Sherry028
+; > Sherry: |#0205Trial25_Sherry028|
+; ……<ruby="しょくたく">嘱託</ruby>殺人。
+……自杀委托。
+
+# 0205Trial25_Sherry029
+; > Sherry: |#0205Trial25_Sherry029|
+; 普通の人なら、<br>他人に頼まれたところで人殺しなんてしませんよ？
+正常人的话，<br>
+就算被别人拜托也不会去杀人哦？
+
+# 0205Trial25_Hiro035
+; > Hiro: |#0205Trial25_Hiro035|
+; ……殺人自体を肯定するつもりはない。
+……我无意认同杀人的行为本身。
+
+# 0205Trial25_Hiro036
+; > Hiro: |#0205Trial25_Hiro036|
+; けれど君なりに<ruby="ひと">他人</ruby>の気持ちを想像して、<br>他者のために動いた結果だ。
+但那是你以专属于你的方式，去想像了他人的心情，<br>
+为了他人而行动的结果。
+
+# 0205Trial25_Hiro037
+; > Hiro: |#0205Trial25_Hiro037|
+; それは君が人間である、何よりの証拠だよ。
+那就是证明你是人类的，最重要的证据哦。
+
+# 0205Trial25_Sherry030
+; > Sherry: |#0205Trial25_Sherry030|
+; ……私は。
+……我。
+
+# 0205Trial25_Sherry031
+; > Sherry: |#0205Trial25_Sherry031|
+; そんなふうに言われるのは、嫌です。
+讨厌，被别人这么说。
+
+# 0205Trial25_Hiro038
+; > Hiro: |#0205Trial25_Hiro038|
+; ………！
+………！
+
+# 0205Trial25_Sherry032
+; > Sherry: |#0205Trial25_Sherry032|
+; ……そうです。<br>思い出しました。
+……没错。<br>
+我想起来了。
+
+# 0205Trial25_Sherry033
+; > Sherry: |#0205Trial25_Sherry033|
+; 私は……嫌だったんですよ。
+我……很讨厌。
+
+# 0205Trial25_Sherry034
+; > Sherry: |#0205Trial25_Sherry034|
+; ハンナさんが変わっていくのも。
+不想看到汉娜改变。
+
+# 0205Trial25_Sherry035
+; > Sherry: |#0205Trial25_Sherry035|
+; ハンナさんがいなくなってしまうのも。
+不想看到汉娜消失。
+
+# 0205Trial25_Sherry036
+; > Sherry: |#0205Trial25_Sherry036|
+; ハンナさんが悩み苦しむ姿を見るのも……。
+不想看到汉娜烦恼痛苦的样子……
+
+# 0205Trial25_Sherry037
+; > Sherry: |#0205Trial25_Sherry037|
+; 全部全部……。
+一切的一切……
+
+# 0205Trial25_Sherry038
+; > Sherry: |#0205Trial25_Sherry038|
+; とっっても嫌でした。
+都令我感到非常非常讨厌。
+
+# 0205Trial25_Sherry039
+; > Sherry: |#0205Trial25_Sherry039|
+; ……だから。
+……所以。
+
+# 0205Trial25_Sherry040
+; > Sherry: |#0205Trial25_Sherry040|
+; 私は、自分も嫌いです。
+我，也讨厌我自己。
+
+# 0205Trial25_Sherry041
+; > Sherry: |#0205Trial25_Sherry041|
+; あの選択をしてしまったことも。
+讨厌作出了那个选择的自己。
+
+# 0205Trial25_Sherry042
+; > Sherry: |#0205Trial25_Sherry042|
+; それを選択せざるを得なかったことも。
+讨厌不得不作出那个选择的自己。
+
+# 0205Trial25_Sherry043
+; > Sherry: |#0205Trial25_Sherry043|
+; そして……少しでもそのときの自分を肯定したい、<br>今の自分も……。
+还有……想要稍微肯定一下当时自己的，<br>
+现在的我自己……
+
+# 0205Trial25_Sherry044
+; > Sherry: |#0205Trial25_Sherry044|
+; みんなみんな……大っ嫌いなんです。
+所有的一切……都最最讨厌了。
+
+# 0205Trial25_Hiro039
+; > Hiro: |#0205Trial25_Hiro039|
+; ……シェリー、でも君は――。
+……雪莉，可是你——
+
+# 0205Trial25_Sherry045
+; > Sherry: |#0205Trial25_Sherry045|
+; ――だから！
+——所以说！
+
+# 0205Trial25_Sherry046
+; > Sherry: |#0205Trial25_Sherry046|
+; そんな私を……<br>わかった気になって、肯定しないでください……。
+不要装出一副很懂的样子……<br>
+来认同那样的我……
+
+# 0205Trial25_Hiro040
+; > Hiro: |#0205Trial25_Hiro040|
+; ………！
+………！
+
+# 0205Trial25_Sherry047
+; > Sherry: |#0205Trial25_Sherry047|
+; 私はやっぱり、生まれたときから人の心がわからない、<br>身も心も醜悪な化け物――。
+我果然，是从出生起就不识人心，<br>
+身心都丑陋不堪的怪物——
+
+# 0205Trial25_Sherry048
+; > Sherry: |#0205Trial25_Sherry048|
+; ――【魔女】だったんですよ。
+——是【魔女】啊。
+
+# 0205Trial25_Hiro041
+; > Hiro: |#0205Trial25_Hiro041|
+; ……シェリー……！
+……雪莉……！
+
+# 0205Trial25_Sherry049
+; > Sherry: |#0205Trial25_Sherry049|
+; これは……。
+这是……
+
+# 0205Trial25_Sherry050
+; > Sherry: |#0205Trial25_Sherry050|
+; なるほど……<br>魔女化って、【こう】なんですね。
+原来如此……<br>
+魔女化，是【这样子】的啊。
+
+# 0205Trial25_Sherry051
+; > Sherry: |#0205Trial25_Sherry051|
+; なら……こうすれば……。
+那么……我就试一下……
+
+# 0205Trial25_Sherry052
+; > Sherry: |#0205Trial25_Sherry052|
+; ……できちゃいました。
+……做到了耶。
+
+# 0205Trial25_Sherry053
+; > Sherry: |#0205Trial25_Sherry053|
+; こんなことできちゃうなんて……<br>やっぱり人間離れしてますね、私。
+竟然能做到这种事……<br>
+我果然很不像人耶。
+
+# 0205Trial25_Hiro042
+; > Hiro: |#0205Trial25_Hiro042|
+; …………。
+…………
+
+# 0205Trial25_Hiro043
+; > Hiro: |#0205Trial25_Hiro043|
+; ……それでも、君は人間だ。
+……即便如此，你也是人类。
+
+# 0205Trial25_Sherry054
+; > Sherry: |#0205Trial25_Sherry054|
+; …………。
+…………
+
+# 0205Trial25_Sherry055
+; > Sherry: |#0205Trial25_Sherry055|
+; ……強情な人ですね。
+……你真是固执呀。
+
+# 0205Trial25_Hiro044
+; > Hiro: |#0205Trial25_Hiro044|
+; …………。
+…………
+
+# Toast_001
+; > @toast "|#Toast_001|"
+; 魔女図鑑 更新…
+魔女图鉴 更新…
+
+# 0205Trial25_Hiro045
+; > Hiro: |#0205Trial25_Hiro045|
+; （……シェリーも無事に魔女化させた）
+（……雪莉的魔女化也成功完成了）
+
+# 0205Trial25_Hiro046
+; > Hiro: |#0205Trial25_Hiro046|
+; （私に立ち止まっている時間はない）
+（我没有时间驻足不前）
+
+# 0205Trial25_Hiro047
+; > Hiro: |#0205Trial25_Hiro047|
+; （だから……進むんだ）
+（所以……我必须前进）
+
+# 0205Trial25_Hiro048
+; > Hiro: |#0205Trial25_Hiro048|
+; （……これで１２人の魔女が揃った。<br>　残すは――）
+（……现在已经凑到12位魔女了。<br>
+　只剩下——）
+
+# 0205Trial25_Hiro049
+; > Hiro: |#0205Trial25_Hiro049|
+; ――エマ。
+——艾玛。
+
+# 0205Trial25_Ema001
+; > Ema: |#0205Trial25_Ema001|
+; ……ヒロちゃん。
+……希罗。
+
+# 0205Trial25_Hiro050
+; > Hiro: |#0205Trial25_Hiro050|
+; ……話をしよう。
+……我们聊聊吧。
+
+# 0205Trial25_Ema002
+; > Ema: |#0205Trial25_Ema002|
+; うん……。
+嗯……
+
+# 0205Trial25_Ema003
+; > Ema: |#0205Trial25_Ema003|
+; まさか、ヒロちゃんからそんなこと<br>言われるなんて思わなかった。
+真没想到，希罗的嘴里竟然<br>
+能说出来这样的话。
+
+# 0205Trial25_Hiro051
+; > Hiro: |#0205Trial25_Hiro051|
+; ……すまなかった。
+……对不起。
+
+# 0205Trial25_Ema004
+; > Ema: |#0205Trial25_Ema004|
+; ううん、いいんだ……。
+不，没关系的……
+
+# 0205Trial25_Hiro052
+; > Hiro: |#0205Trial25_Hiro052|
+; ……エマ。
+……艾玛。
+
+# 0205Trial25_Hiro053
+; > Hiro: |#0205Trial25_Hiro053|
+; それでは、追求するとしようか。
+那么，开始追究吧。
+
+# 0205Trial25_Hiro054
+; > Hiro: |#0205Trial25_Hiro054|
+; ――私たちの、真実を。
+——追究我们的，真相。

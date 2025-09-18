@@ -1,0 +1,274 @@
+; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter05/Act02_Chapter05_Trial06' Naninovel scenario script
+
+# 0205Trial06_Noah001
+; > @printDebate pos:70,50 roll:4 |#0205Trial06_Noah001|
+; の、のあは何も<br>隠してないよっ……！<br>全然、なんにも……<br>まったく！
+诺、诺亚什么都<br>
+没隐瞒哦……！<br>
+完全，什么都没……<br>
+一点都没有！
+
+# 0205Trial06_Hiro001
+; > @printDebate pos:30,50 roll:-4 |#0205Trial06_Hiro001|
+; ……まず、君の正体は<br>正体不明の<br>ストリート・アーティスト、<br>【バルーン】だ。
+……首先，你的真实身份是<br>
+身份不明的<br>
+街头艺术家，<br>
+【气球】。
+
+# 0205Trial06_Noah002
+; > @printDebate pos:70,50 roll:4 |#0205Trial06_Noah002|
+; ひゃあっ！？
+呀啊！？
+
+# 0205Trial06_Coco001
+; > @printDebate pos:30,50 roll:-4 |#0205Trial06_Coco001|
+; マ、マジ！？<br>あの……！？
+真、真的假的！？<br>
+是那个……！？
+
+# 0205Trial06_Noah003
+; > @printDebate pos:70,50 roll:4 |#0205Trial06_Noah003|
+; そ、それは……<br>その、その……。
+那、那是……<br>
+那个、那个……
+
+# 0205Trial06_Hiro002
+; > @printDebate pos:30,50 roll:-4 |#0205Trial06_Hiro002|
+; ……そして<br>世間に評価されたその絵は<br>魔法で描かれたものだ。
+……然后，<br>
+那些被世人称赞的画作，<br>
+是用魔法画出来的。
+
+# 0205Trial06_Noah004
+; > @printDebate pos:70,50 roll:4 |#0205Trial06_Noah004|
+; ううー！？
+呜呜——！？
+
+# 0205Trial06_Hiro003
+; > @printDebate pos:30,50 roll:-4 |#0205Trial06_Hiro003|
+; 君が描いた絵とは言えない……<br>違うかな。
+这些画不能说是你画的……<br>
+我说得没错吧。
+
+# 0205Trial06_Noah005
+; > @printDebate pos:70,50 roll:4 |#0205Trial06_Noah005|
+; そ、それは……。
+这、这……
+
+# 0205Trial06_Noah006
+; > @printDebate pos:70,50 roll:4 |#0205Trial06_Noah006|
+; ち、違うよ！？<br>のあ、<br><link="Objection_02_05_06_01">お絵描き大好き</link>だもん！！
+不、不对哦！？<br>
+诺亚，<br>
+<link="Objection_02_05_06_01">超喜欢画画</link>的！！
+
+# 0205Trial06_Noah007
+; > @printDebate pos:70,50 roll:4 |#0205Trial06_Noah007|
+; ヒロちゃん……<br>なんでそんなこと言うの……！
+希罗……<br>
+你为什么要说这么过分的话……！
+
+# 0205Trial06_Hiro004
+; > Hiro: |#0205Trial06_Hiro004|
+; （ノアはああ見えて、なかなかに役者だ）
+（诺亚看似天然，其实相当会演戏）
+
+# 0205Trial06_Hiro005
+; > Hiro: |#0205Trial06_Hiro005|
+; （だが……それは覚悟を決めた殺人を済ませた後の話）
+（但……那是在下定决心动手杀了人之后的事了）
+
+# 0205Trial06_Hiro006
+; > Hiro: |#0205Trial06_Hiro006|
+; （冷静になっていない今のうちに、<br>　その感情を揺さぶって心を打ち崩すんだ……！）
+（趁她现在并不冷静，<br>
+　我要撼动她的感情，击垮她的内心……！）
+
+# 0205Trial06_Choice001
+; > @choice |#0205Trial06_Choice001| button:ChoiceButtons/Trial/Objection handler:TrialHiro
+; ノアは絵を描けない
+诺亚不会画画
+
+# 0205Trial06_Choice002
+; > @choice |#0205Trial06_Choice002| button:ChoiceButtons/Trial/Approval handler:TrialHiro
+; ノアは絵を描くのが好きだ
+诺亚喜欢画画
+
+# 0205Trial06_Choice003
+; > @choice |#0205Trial06_Choice003| button:ChoiceButtons/Trial/Objection handler:TrialHiro
+; ノアは絵を描いたことがない
+诺亚从没画过画
+
+# Common_Return
+; > @choice |#Common_Return| button:ChoiceButtons/Trial/Cancel handler:TrialHiro
+; 戻る
+返回
+
+# 0205Trial06_Hiro007
+; > Hiro: |#0205Trial06_Hiro007|
+; それはどうだろう？
+未必吧？
+
+# 0205Trial06_Noah008
+; > Noah: |#0205Trial06_Noah008|
+; え……？
+欸……？
+
+# 0205Trial06_Hiro008
+; > Hiro: |#0205Trial06_Hiro008|
+; 私は別の流れの世界で見て知っているよ。
+我在另一个发展不同的世界亲眼见到过，所以我知道哦。
+
+# 0205Trial06_Hiro009
+; > Hiro: |#0205Trial06_Hiro009|
+; ノア……実は君が、<br>【絵を描けない】ということを。
+诺亚……其实你，<br>
+并【不会画画】。
+
+# 0205Trial06_Noah009
+; > Noah: |#0205Trial06_Noah009|
+; ふぇっ……！？
+欸……！？
+
+# 0205Trial06_Hiro010
+; > Hiro: |#0205Trial06_Hiro010|
+; 自分では描けないから、魔法に頼っていたんだ。
+因为自己画不出来，所以才依赖魔法。
+
+# 0205Trial06_Noah010
+; > Noah: |#0205Trial06_Noah010|
+; そ、そんなことないよ！<br>のあ自分で描けるもん！
+才、才没有！<br>
+诺亚自己能画的！
+
+# 0205Trial06_Noah011
+; > Noah: |#0205Trial06_Noah011|
+; ヒロちゃんは嘘をついてるんだ！<br>のあを罠にハメようとしてるんだよ！
+希罗在撒谎！<br>
+你想给诺亚设圈套！
+
+# 0205Trial06_Noah012
+; > Noah: |#0205Trial06_Noah012|
+; のあ、その手には乗らないから……！
+诺亚，才不会上当呢……！
+
+# 0205Trial06_Hiro011
+; > Hiro: |#0205Trial06_Hiro011|
+; （このままでは話は平行線か……）
+（这么下去大概只是对牛弹琴……）
+
+# 0205Trial06_Hiro012
+; > Hiro: |#0205Trial06_Hiro012|
+; （ノアの感情を揺さぶるには、<br>　一瞬でも彼女の心に踏み込む必要がありそうだ）
+（为了动摇诺亚的感情，<br>
+　看来有必要进入她的内心世界，哪怕只是一瞬间）
+
+# 0205Trial06_Hiro013
+; > Hiro: |#0205Trial06_Hiro013|
+; （なら、否定して拒絶されてもよくないな……）
+（那么，否定她遭她拒绝就不太好了……）
+
+# 0205Trial06_Hiro014
+; > Hiro: |#0205Trial06_Hiro014|
+; いいやノア。<br>君は一度も絵なんて描いたことないはずだ。
+不，诺亚。<br>
+你应该从没画过画才对。
+
+# 0205Trial06_Hiro015
+; > Hiro: |#0205Trial06_Hiro015|
+; 嘘はよくないな。
+撒谎可不好啊。
+
+# 0205Trial06_Noah013
+; > Noah: |#0205Trial06_Noah013|
+; むー、あるもん！
+唔，诺亚画过！
+
+# 0205Trial06_Noah014
+; > Noah: |#0205Trial06_Noah014|
+; みんなのあの絵はすごいって褒めてくれてたし。
+大家都夸诺亚的画很厉害。
+
+# 0205Trial06_Noah015
+; > Noah: |#0205Trial06_Noah015|
+; 嘘ついてるのはヒロちゃんの方でしょ？
+撒谎的是希罗你才对吧？
+
+# 0205Trial06_Noah016
+; > Noah: |#0205Trial06_Noah016|
+; そういうの、のあよくないと思う！
+诺亚觉得，你这样很不好！
+
+# 0205Trial06_Hiro016
+; > Hiro: |#0205Trial06_Hiro016|
+; （実際、まったく描いてないというわけではないか……）
+（好像事实并不是完全没画过……）
+
+# 0205Trial06_Hiro017
+; > Hiro: |#0205Trial06_Hiro017|
+; （ノアの感情を揺さぶるには、<br>　一瞬でも彼女の心に踏み込む必要がありそうだ）
+（为了动摇诺亚的感情，<br>
+　看来有必要进入她的内心世界，哪怕只是一瞬间）
+
+# 0205Trial06_Hiro018
+; > Hiro: |#0205Trial06_Hiro018|
+; （なら、否定して拒絶されてもよくないな……）
+（那么，否定她遭她拒绝就不太好了……）
+
+# 0205Trial06_Hiro019
+; > Hiro: |#0205Trial06_Hiro019|
+; ……その通り。<br>君は絵を描くのが大好きだったね。
+……没错。<br>
+你非常喜欢画画呢。
+
+# 0205Trial06_Noah017
+; > Noah: |#0205Trial06_Noah017|
+; え……？
+欸……？
+
+# 0205Trial06_Hiro020
+; > Hiro: |#0205Trial06_Hiro020|
+; というわけで、ここで描いてみてくれないかな。
+那么，能不能现场画给我看看呢？
+
+# 0205Trial06_Noah018
+; > Noah: |#0205Trial06_Noah018|
+; ！
+！
+
+# 0205Trial06_Hiro021
+; > Hiro: |#0205Trial06_Hiro021|
+; 大好きな絵なんだ。<br>描けるだろう？
+你最喜欢画画了。<br>
+应该能画出来吧？
+
+# 0205Trial06_Hiro022
+; > Hiro: |#0205Trial06_Hiro022|
+; もちろん、出来栄えは気にしなくていい。
+当然，不用在意画得好不好。
+
+# 0205Trial06_Hiro023
+; > Hiro: |#0205Trial06_Hiro023|
+; ただ君の手で描いてもらえれば、それでいいんだ。
+只要是你亲手画的，那就行了。
+
+# 0205Trial06_Noah019
+; > Noah: |#0205Trial06_Noah019|
+; そ、それは…………。
+这、这个…………
+
+# 0205Trial06_Noah020
+; > Noah: |#0205Trial06_Noah020|
+; ……そんなの、しない！
+……诺亚，不干！
+
+# 0205Trial06_Hiro024
+; > Hiro: |#0205Trial06_Hiro024|
+; ………！
+………！
+
+# 0205Trial06_Noah021
+; > Noah: |#0205Trial06_Noah021|
+; 絵を描くのは……のあの、勝手だもん……！
+画画是……诺亚的，自由嘛……！

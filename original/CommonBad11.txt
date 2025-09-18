@@ -1,0 +1,73 @@
+; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Common/CommonBad11' Naninovel scenario script
+
+# CommonBad11_Narrative001
+; ――監獄島全体がアリサの魔法で炎に包まれ、<br>ハンナの魔法によって空高くへと浮上していく。
+——整座监狱岛都被亚里沙的魔法火焰吞噬，<br>
+并在汉娜的魔法作用下，飞向高空。
+
+# CommonBad11_Narrative002
+; 振動と地響きの音が激しい。
+剧烈的震动和地鸣声响彻四周。
+
+# CommonBad11_Narrative003
+; 空に浮かび上がった監獄島は、<br>自重に耐え切れず崩壊を始めていた。
+飘浮到空中的监狱岛，<br>
+因无法承受自身重量而开始崩溃。
+
+# CommonBad11_Ema001
+; > Ema: |#CommonBad11_Ema001|
+; ヒロちゃん……。
+希罗……
+
+# CommonBad11_Narrative004
+; 不安そうにこちらを見つめるエマの手を、<br>私は無言でそっと握る。
+艾玛一脸不安地看着我，<br>
+我无言地轻轻握住了她的手。
+
+# CommonBad11_Narrative005
+; 魔女に堕ち、<br>暴走した少女を止めることは<ruby="かな">叶</ruby>わなかった――
+我最终还是没能阻止堕落为魔女、<br>
+失去控制的少女——
+
+# CommonBad11_Hiro001
+; > Hiro: |#CommonBad11_Hiro001|
+; すまない……。
+对不起……
+
+# CommonBad11_Narrative006
+; 私はただ、そう口にすることしかできなかった。
+我再也做不到任何事，只能说出这样的话。
+
+# CommonBad11_Narrative007
+; やがて裁判所が崩れ、浮遊感に襲われる。<br>そこで、私の意識は途絶えた――
+不久，审判庭崩塌了，强烈的失重感向我袭来。<br>
+紧接着，我失去了意识——
+
+# CommonBad11_Narrative008
+; 監獄島は崩壊し、<br>巻き込まれた少女たちの行方はわからなくなった。
+监狱岛崩溃了，<br>
+被牵涉其中的少女们下落不明。
+
+# CommonBad11_Warden001
+; > @char Warden.9 pos:50
+; > Warden: |#CommonBad11_Warden001|
+; これはちょっと面倒なことになりましたねえ。
+这下有点麻烦了啊。
+
+# CommonBad11_Warden002
+; > @char Warden.1 pos:50
+; > Warden: |#CommonBad11_Warden002|
+; まあ、生きていても死んでいても、<br>どっちでもいいんですけど……。
+唉，不过是死是活，<br>
+倒也无所谓了……
+
+# CommonBad11_Narrative009
+; 魔女因子を持つ者も、<br>すでに魔女と化した者も、<br>外の世界で野放しにするわけにはいかない。
+无论是拥有魔女因子的人，<br>
+还是已经化为魔女的人，<br>
+都不能放任其在外界自由行动。
+
+# CommonBad11_Narrative010
+; 見つけ出し、適切に処理する。<br>ただそれだけだ。
+必须找到她们，对其施加适当的处置。<br>
+仅此而已。

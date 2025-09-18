@@ -1,0 +1,532 @@
+; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter05/Act02_Chapter05_Trial16' Naninovel scenario script
+
+# 0205Trial16_AnAn001
+; > @printDebate pos:70,50 roll:4 |#0205Trial16_AnAn001|
+; どうせ外に出ても<br><link="Objection_02_05_16_01">何も変わりはしない</link>。
+反正就算出去了，<br>
+<link="Objection_02_05_16_01">也不会有任何改变</link>。
+
+# 0205Trial16_AnAn002
+; > @printDebate pos:70,50 roll:4 |#0205Trial16_AnAn002|
+; お前たちだって<br>魔法を使えるというだけで<br>迫害にあったことも<br>あるはずだ！
+你们也一样吧！<br>
+仅仅因为能使用魔法<br>
+就曾遭受过<br>
+压迫和歧视！
+
+# 0205Trial16_AnAn003
+; > @printDebate pos:70,50 roll:4 |#0205Trial16_AnAn003|
+; ただ人より少しだけ<br><link="Objection_02_05_16_02">優れていた</link>だけなのに、<br>どうしてわがはいたちが<br>虐げられなければならない！
+明明只是比别人<br>
+稍微<link="Objection_02_05_16_02">优秀</link>一点而已，<br>
+为什么我们就<br>
+必须受到迫害！
+
+# 0205Trial16_AnAn004
+; > @printDebate pos:70,50 roll:4 |#0205Trial16_AnAn004|
+; ならばそんな<br>愚かな奴らの目がない分、<br>監獄の中の方が<br>幾分か<link="Objection_02_05_16_03">マシ</link>なのではないか？
+既然如此，<br>
+在那些愚蠢家伙的目光<br>
+看不到的监狱里待着<br>
+反而会<link="Objection_02_05_16_03">更好</link>，不是吗？
+
+# 0205Trial16_AnAn005
+; > @printDebate pos:70,50 roll:4 |#0205Trial16_AnAn005|
+; 外への未練など<br><link="Objection_02_05_16_04">過去</link>に縛られている者の<br>妄言に過ぎない！
+对外面的留恋<br>
+只不过是被<link="Objection_02_05_16_04">过去</link>束缚之人的<br>
+妄言罢了！
+
+# 0205Trial16_AnAn006
+; > @printDebate pos:70,50 roll:4 |#0205Trial16_AnAn006|
+; すべて<link="Objection_02_05_16_05">忘れて</link>しまえばいいんだ！<br>外の世界など<link="Objection_02_05_16_06">見る</link>必要はない！<br>わがはいはここにいる！
+只要<link="Objection_02_05_16_05">忘掉</link>一切就好！<br>
+没必要<link="Objection_02_05_16_06">看</link>外面的世界！<br>
+吾辈就在这里！
+
+# 0205Trial16_Hiro001
+; > Hiro: |#0205Trial16_Hiro001|
+; （アンアンの言葉はまるで自分に言い聞かせているかのようだ）
+（安安的话，听起来更像是在对她自己说的）
+
+# 0205Trial16_Hiro002
+; > Hiro: |#0205Trial16_Hiro002|
+; （彼女の言葉の裏に潜む心の闇……）
+（她话语的背后潜藏着内心的黑暗……）
+
+# 0205Trial16_Hiro003
+; > Hiro: |#0205Trial16_Hiro003|
+; （……魔女化のために心の傷を抉るなら、<br>　それを暴くのが一番の近道か）
+（……如果要为魔女化而撕开她心灵的创伤，<br>
+　那揭穿这个就是最快的捷径了）
+
+# 0205Trial16_Choice001
+; > @choice |#0205Trial16_Choice001| button:ChoiceButtons/Trial/Objection handler:TrialHiro
+; 未来は変えられる
+未来是可以改变的
+
+# Common_Return
+; > @choice |#Common_Return| button:ChoiceButtons/Trial/Cancel handler:TrialHiro
+; 戻る
+返回
+
+# 0205Trial16_Choice002
+; > @choice |#0205Trial16_Choice002| button:ChoiceButtons/Trial/Objection handler:TrialHiro
+; 他の人も同じ
+其他人也一样
+
+# 0205Trial16_Choice003
+; > @choice |#0205Trial16_Choice003| button:ChoiceButtons/Trial/Objection handler:TrialHiro
+; 外の方がマシ
+外面更好
+
+# 0205Trial16_Choice004
+; > @choice |#0205Trial16_Choice004| button:ChoiceButtons/Trial/MagicNanoka handler:TrialHiro
+; 【幻視】
+【幻视】
+
+# 0205Trial16_Choice005
+; > @choice |#0205Trial16_Choice005| button:ChoiceButtons/Trial/Objection handler:TrialHiro
+; 忘れてはいけない
+不可以忘记
+
+# 0205Trial16_Choice006
+; > @choice |#0205Trial16_Choice006| button:ChoiceButtons/Trial/MagicLeia handler:TrialHiro
+; 【視線誘導】
+【视线诱导】
+
+# 0205Trial16_Hiro004
+; > Hiro: |#0205Trial16_Hiro004|
+; そんなことはない。
+你不必自责。
+
+# 0205Trial16_Hiro005
+; > Hiro: |#0205Trial16_Hiro005|
+; 外に出て自分の足で踏み出せば、<br>未来を変えることはできる。
+只要走出去，用自己的双脚迈出步伐，<br>
+未来就能改变。
+
+# 0205Trial16_Hiro006
+; > Hiro: |#0205Trial16_Hiro006|
+; だがここにいては停滞してしまうんだ！
+但是待在这里只会停滞不前！
+
+# 0205Trial16_AnAn007
+; > AnAn: |#0205Trial16_AnAn007|
+; ……貴様らには未来があるかもしれない。
+……你们或许有未来。
+
+# 0205Trial16_AnAn008
+; > AnAn: |#0205Trial16_AnAn008|
+; だがわがはいには<br>幸福など存在しない！
+但吾辈<br>
+不存在幸福！
+
+# 0205Trial16_AnAn009
+; > AnAn: |#0205Trial16_AnAn009|
+; 未来にはただ絶望が口を開けて<br>待っているに過ぎない……。
+未来只有张开大口的绝望<br>
+在前方等待……
+
+# 0205Trial16_AnAn010
+; > AnAn: |#0205Trial16_AnAn010|
+; だからわがはいがそれまでに何をしても<br>無駄でしかないんだ！
+所以在绝望到来前，吾辈无论做什么<br>
+都只是徒劳！
+
+# 0205Trial16_AnAn011
+; > AnAn: |#0205Trial16_AnAn011|
+; 貴様には……わからんだろう……。
+你……是不会懂的吧……
+
+# 0205Trial16_AnAn012
+; > AnAn: |#0205Trial16_AnAn012|
+; ――恵まれた貴様には！！
+——被上天眷顾的你，怎么会懂！！
+
+# 0205Trial16_Hiro007
+; > Hiro: |#0205Trial16_Hiro007|
+; （くっ……！<br>　アンアンは将来を悲観しているのか）
+（唔……！<br>
+　看来安安正悲观地看待将来）
+
+# 0205Trial16_Hiro008
+; > Hiro: |#0205Trial16_Hiro008|
+; （今のアンアンは、<br>　強固な妄想に囚われていると言ってもいい）
+（现在的安安，<br>
+　可以说是被顽固的妄想束缚住了）
+
+# 0205Trial16_Hiro009
+; > Hiro: |#0205Trial16_Hiro009|
+; （彼女を説得するには……<br>　無理やりにでも【前を向かせる】必要があるか）
+（为了说服她……<br>
+　就算硬来，也有必要让她【向前看】吗）
+
+# 0205Trial16_Hiro010
+; > Hiro: |#0205Trial16_Hiro010|
+; それは他の人間だって同じだ。
+其他人也一样。
+
+# 0205Trial16_Hiro011
+; > Hiro: |#0205Trial16_Hiro011|
+; 私たちのような魔女候補だけが特別なんじゃない。
+不是只有我们这些预备魔女才是特别。
+
+# 0205Trial16_Hiro012
+; > Hiro: |#0205Trial16_Hiro012|
+; それにそんな他人を排斥する人間なんて<br>相手にしなくていい……。
+再说了，根本不用理会<br>
+那些排挤他人的人……
+
+# 0205Trial16_Hiro013
+; > Hiro: |#0205Trial16_Hiro013|
+; 自分のことを大事にしてくれる人間にこそ<br>目を向けるべきなんだ！
+应该关注的<br>
+是那些珍视自己的人才对！
+
+# 0205Trial16_AnAn013
+; > AnAn: |#0205Trial16_AnAn013|
+; わがはいの魔法は……<br>そんな人間から意思を奪ってしまう魔法なのだ。
+吾辈的魔法……<br>
+是最终连珍视自己的人的意志也会剥夺的魔法。
+
+# 0205Trial16_Hiro014
+; > Hiro: |#0205Trial16_Hiro014|
+; ……！
+……！
+
+# 0205Trial16_AnAn014
+; > AnAn: |#0205Trial16_AnAn014|
+; 貴様もまた、<br>わがはいの苦悩などわからない者の１人だ。
+你也一样，<br>
+是无法理解吾辈苦恼的人之一。
+
+# 0205Trial16_AnAn015
+; > AnAn: |#0205Trial16_AnAn015|
+; わがはいの前から<color=#9c8eff><b>【去れ】</b></color>！<br>貴様の話など聞きたくない！
+从吾辈面前<color=#9c8eff><b>【消失】</b></color>！<br>
+吾辈不想听你的话！
+
+# 0205Trial16_Hiro015
+; > Hiro: |#0205Trial16_Hiro015|
+; （くっ……！<br>　このままでは話を打ち切られてしまう……！）
+（唔……！<br>
+　这样下去对话也会中断……！）
+
+# 0205Trial16_Hiro016
+; > Hiro: |#0205Trial16_Hiro016|
+; （今のアンアンは、<br>　強固な妄想に囚われていると言ってもいい）
+（现在的安安，<br>
+　可以说是被顽固的妄想束缚住了）
+
+# 0205Trial16_Hiro017
+; > Hiro: |#0205Trial16_Hiro017|
+; （彼女を説得するには……<br>　無理やりにでも【前を向かせる】必要があるか）
+（为了说服她……<br>
+　就算硬来，也有必要让她【向前看】吗）
+
+# 0205Trial16_Hiro018
+; > Hiro: |#0205Trial16_Hiro018|
+; いいや、外の方がマシだ。
+不，外面会更好。
+
+# 0205Trial16_Hiro019
+; > Hiro: |#0205Trial16_Hiro019|
+; こんなところにいては精神も衰弱してしまう。
+待在这种地方，精神也会变衰弱的。
+
+# 0205Trial16_Hiro020
+; > Hiro: |#0205Trial16_Hiro020|
+; 外に出るんだ！
+去外面的世界吧！
+
+# 0205Trial16_AnAn016
+; > AnAn: |#0205Trial16_AnAn016|
+; ……この屋敷にだって空はある。
+……这座宅邸里也有天空。
+
+# 0205Trial16_AnAn017
+; > AnAn: |#0205Trial16_AnAn017|
+; 太陽の光だって浴びることができるし、<br>世界は繋がっている……！
+同样能沐浴到阳光，<br>
+世界是相连的……！
+
+# 0205Trial16_AnAn018
+; > AnAn: |#0205Trial16_AnAn018|
+; ……それでいいじゃないか……。
+……这样不就足够了吗……
+
+# 0205Trial16_AnAn019
+; > AnAn: |#0205Trial16_AnAn019|
+; わがはいには外の世界など必要ない。<br>……ここで十分なんだ！
+吾辈不需要外面的世界。<br>
+……待在这里就足够了！
+
+# 0205Trial16_Hiro021
+; > Hiro: |#0205Trial16_Hiro021|
+; （くっ……！<br>　自分の殻に閉じこもっているな……）
+（唔……！<br>
+　她正缩在自己的壳里……）
+
+# 0205Trial16_Hiro022
+; > Hiro: |#0205Trial16_Hiro022|
+; （今のアンアンは、<br>　強固な妄想に囚われていると言ってもいい）
+（现在的安安，<br>
+　可以说是被顽固的妄想束缚住了）
+
+# 0205Trial16_Hiro023
+; > Hiro: |#0205Trial16_Hiro023|
+; （彼女を説得するには……<br>　無理やりにでも【前を向かせる】必要があるか）
+（为了说服她……<br>
+　就算硬来，也有必要让她【向前看】吗）
+
+# 0205Trial16_Hiro024
+; > Hiro: |#0205Trial16_Hiro024|
+; 今の君を作っているのは、<br>過去の出来事だ……。
+过去发生的事，<br>
+正是组成如今的你的一部分……
+
+# 0205Trial16_Hiro025
+; > Hiro: |#0205Trial16_Hiro025|
+; 過去を忘れて、<br>なかったことにしてはいけない！
+不能忘记过去，<br>
+不能当作没发生过！
+
+# 0205Trial16_AnAn020
+; > AnAn: |#0205Trial16_AnAn020|
+; このわがはいを作ったのが過去であるというなら、<br>そんな過去は焼却し忘却すべきだ！
+如果说组成吾辈的就是过去，<br>
+那这些过去就应该烧毁忘却！
+
+# 0205Trial16_AnAn021
+; > AnAn: |#0205Trial16_AnAn021|
+; わがはいにはこんな失敗作を構成する過去など、<br>必要ない！
+吾辈不需要<br>
+组成这种失败品的过去！
+
+# 0205Trial16_Hiro026
+; > Hiro: |#0205Trial16_Hiro026|
+; （過去の自分を否定するか、アンアン……！）
+（要否定过去的自己吗，安安……！）
+
+# 0205Trial16_Hiro027
+; > Hiro: |#0205Trial16_Hiro027|
+; （今のアンアンは、<br>　強固な妄想に囚われていると言ってもいい）
+（现在的安安，<br>
+　可以说是被顽固的妄想束缚住了）
+
+# 0205Trial16_Hiro028
+; > Hiro: |#0205Trial16_Hiro028|
+; （彼女を説得するには……<br>　無理やりにでも【前を向かせる】必要があるか）
+（为了说服她……<br>
+　就算硬来，也有必要让她【向前看】吗）
+
+# 0205Trial16_Hiro029
+; > Hiro: |#0205Trial16_Hiro029|
+; （……アンアンがこの牢屋敷にこだわる理由）
+（……安安之所以执着于这座监牢）
+
+# 0205Trial16_Hiro030
+; > Hiro: |#0205Trial16_Hiro030|
+; （それは何らかの過去に<br>　縛られているからだろう）
+（大概是因为<br>
+　某种过去正束缚着她）
+
+# 0205Trial16_Hiro031
+; > Hiro: |#0205Trial16_Hiro031|
+; （なら……それを知る手段は）
+（那么……我能了解她过去的方法就是——）
+
+# 0205Trial16_Hiro032
+; > Hiro: |#0205Trial16_Hiro032|
+; ……ナノカ、頼みがある。
+……奈叶香，我有事拜托你。
+
+# 0205Trial16_Nanoka001
+; > Nanoka: |#0205Trial16_Nanoka001|
+; …………。
+…………
+
+# 0205Trial16_Hiro033
+; > Hiro: |#0205Trial16_Hiro033|
+; アンアンの過去を幻視できないだろうか。
+能不能幻视一下安安的过去？
+
+# 0205Trial16_Nanoka002
+; > Nanoka: |#0205Trial16_Nanoka002|
+; ……できるわ。
+……可以。
+
+# 0205Trial16_Nanoka003
+; > Nanoka: |#0205Trial16_Nanoka003|
+; この姿になったことで、<br>魔法をある程度自由に<br>扱えるようになった感覚がある……。
+我变成这副样子后，<br>
+感觉能某种程度上自由地<br>
+使用魔法了……
+
+# 0205Trial16_Nanoka004
+; > Nanoka: |#0205Trial16_Nanoka004|
+; 他人の過去を覗き見るなんて趣味の悪い魔法だけど。
+虽然用魔法窥视他人的过去很没品。
+
+# 0205Trial16_Nanoka005
+; > Nanoka: |#0205Trial16_Nanoka005|
+; でも……これが大魔女を倒すために、<br>必要なことなら……。
+但是……如果为了打倒大魔女<br>
+有必要这么做的话……
+
+# 0205Trial16_AnAn022
+; > AnAn: |#0205Trial16_AnAn022|
+; 貴様……やめろっ！ 何をするつもりだ……！
+你这家伙……住手！你想干什么……！
+
+# 0205Trial16_Nanoka006
+; > Nanoka: |#0205Trial16_Nanoka006|
+; ……！
+……！
+
+# 0205Trial16_AnAn023
+; > AnAn: |#0205Trial16_AnAn023|
+; ぐっ……！？
+唔……！？
+
+# 0205Trial16_Nanoka007
+; > Nanoka: |#0205Trial16_Nanoka007|
+; ……【魔法の暴走】ね。
+……是【魔法的失控】。
+
+# 0205Trial16_AnAn024
+; > AnAn: |#0205Trial16_AnAn024|
+; ぐっ……！？
+唔……！？
+
+# 0205Trial16_Nanoka008
+; > Nanoka: |#0205Trial16_Nanoka008|
+; あなたは……恐れているのね。
+你……很害怕。
+
+# 0205Trial16_AnAn025
+; > AnAn: |#0205Trial16_AnAn025|
+; ……違う。
+……不对。
+
+# 0205Trial16_Nanoka009
+; > Nanoka: |#0205Trial16_Nanoka009|
+; 洗脳の魔法に常時晒され続けてきたあなたの家族は、<br>みんな自我を失い操り人形と化してしまった……。
+你的家人一直持续暴露在洗脑魔法下，<br>
+全都失去了自我，变成了提线木偶……
+
+# 0205Trial16_AnAn026
+; > AnAn: |#0205Trial16_AnAn026|
+; 違う！ わがはいは望んで<ruby="かいらい">傀儡</ruby>とした！<br>それがみんなにとっての幸せだったんだ！
+不对！吾辈是自愿将他们变成傀儡的！<br>
+那对大家来说才是幸福！
+
+# 0205Trial16_Nanoka010
+; > Nanoka: |#0205Trial16_Nanoka010|
+; 意思のない人形となった両親を見て、<br>あなたは人と関わりを持つことをやめた。
+看到双亲变成了没有意志的人偶，<br>
+你放弃了与人来往。
+
+# 0205Trial16_Nanoka011
+; > Nanoka: |#0205Trial16_Nanoka011|
+; たしかに……賢明な判断と言えるわね。
+的确……可以说是明智的判断。
+
+# 0205Trial16_AnAn027
+; > AnAn: |#0205Trial16_AnAn027|
+; うるさい……！ 黙れ！
+吵死了……！闭嘴！
+
+# 0205Trial16_AnAn028
+; > AnAn: |#0205Trial16_AnAn028|
+; わがはいのことを……<br>知ったような気になるな！！
+别装出一副……<br>
+很了解吾辈的样子！！
+
+# Toast_001
+; > @toast "|#Toast_001|"
+; 魔女図鑑 更新…
+魔女图鉴 更新…
+
+# Toast_002
+; > @toast |#Toast_002|
+; 議論発展…
+讨论前进…
+
+# 0205Trial16_Hiro034
+; > Hiro: |#0205Trial16_Hiro034|
+; ……罪は消えない。
+……罪孽是无法消除的。
+
+# 0205Trial16_Hiro035
+; > Hiro: |#0205Trial16_Hiro035|
+; 君は忘れたいのかもしれないが、<br>君が両親を壊した事実は残り続ける。
+你或许想忘记，<br>
+但你毁掉了双亲的事实会一直存在。
+
+# 0205Trial16_AnAn029
+; > AnAn: |#0205Trial16_AnAn029|
+; うるさい！<br>そんなことなど……<br>わがはいは知らない……！
+吵死了！<br>
+那种事……<br>
+吾辈才不管……！
+
+# 0205Trial16_Hiro036
+; > Hiro: |#0205Trial16_Hiro036|
+; 向き合わなくてはいけないんだ。<br>自分の罪と……。
+你必须去面对。<br>
+去面对自己的罪孽……
+
+# 0205Trial16_Hiro037
+; > Hiro: |#0205Trial16_Hiro037|
+; ……己の罪から目を逸らすな！ アンアン。
+……不要逃避自己的罪孽！安安！
+
+# 0205Trial16_AnAn030
+; > AnAn: |#0205Trial16_AnAn030|
+; ぐっ……！？
+唔……！？
+
+# 0205Trial16_Leia001
+; > Leia: |#0205Trial16_Leia001|
+; ……その通りだ。
+……说得对。
+
+# 0205Trial16_Leia002
+; > Leia: |#0205Trial16_Leia002|
+; 君は１度、自身の心を【直視】すべきだね！
+你就应该好好【直视】一下自己的内心啊！
+
+# 0205Trial16_AnAn031
+; > AnAn: |#0205Trial16_AnAn031|
+; ぐっ……！？
+唔……！？
+
+# 0205Trial16_Hiro038
+; > Hiro: |#0205Trial16_Hiro038|
+; （……何も言わずとも、合わせてくれたか。<br>　レイア）
+（……不用我说，你也会来配合啊。<br>
+　蕾雅）
+
+# 0205Trial16_Leia003
+; > Leia: |#0205Trial16_Leia003|
+; ……ふふ。
+……呵呵。
+
+# 0205Trial16_Hiro039
+; > Hiro: |#0205Trial16_Hiro039|
+; （…………。<br>　感謝はしておこう）
+（…………<br>
+　我还是表达一下感谢吧）
+
+# 0205Trial16_AnAn032
+; > AnAn: |#0205Trial16_AnAn032|
+; う……うう………！
+呜……呜呜………！
+
+# 0205Trial16_AnAn033
+; > AnAn: |#0205Trial16_AnAn033|
+; 違う……！<br>わがはいは……わがはい、は……！！
+不对……！<br>
+吾辈……吾辈，只是……！！

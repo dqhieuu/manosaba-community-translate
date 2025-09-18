@@ -1,0 +1,467 @@
+; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Debug/Debug_Trial' Naninovel scenario script
+
+# ~5953b207
+; Debug_Trial # PerspectiveStage
+
+
+# ~1329db74
+; Camera modified.
+
+
+# ~e0acffca
+; Enable fire vfx.
+
+
+# ~c311adc6
+; Disable fire vfx.
+
+
+# ~cb27861c
+; Punch camera X.
+
+
+# ~5cbe264b
+; Punch camera Y.
+
+
+# ~1fa3cae6
+; Punch camera XY.
+
+
+# ~9f92547b
+; Shake camera X.
+
+
+# ~aec01c83
+; Shake camera Y.
+
+
+# ~98e845ec
+; Shake camera XY.
+
+
+# ~bd8d1647
+; Another camera enabled.
+
+
+# ~d9137eca
+; Another camera disabled.
+
+
+# ~1f67eca2
+; Another screen split and shown.
+
+
+# ~ffc1ada0
+; Hide another screen.
+
+
+# ~3ad482dc
+; Ccharacters hidden.
+
+
+# ~3c4aa79c
+; Stage unloaded.
+
+
+# ~48fdb008
+; Debug_Trial # PerspectiveStage ends.
+
+
+# ~fcdf6ce5
+; Debug_Trial # PresentEvidence
+
+
+# ~31d4b619
+; Debug_Trial # PresentEvidence ends.
+
+
+# ~4bc159d4
+; Debug_Trial # Map
+
+
+# ~73bcd946
+; Debug_Trial # Map ends.
+
+
+# ~c651365d|~66fea5a2|~fc2a4de5
+; > @print "|#~c651365d|{map}|#~66fea5a2|{timelineIdx}|#~fc2a4de5|{message}" !waitInput
+; @spawn | params:|<br>
+
+
+# ~ec6915dc
+; > @print "|#~ec6915dc|{map}" !waitInput
+; @despawn 
+
+
+# ~6b4b9830
+; Debug_Trial # Reenact101
+
+
+# ~d29e126a
+; Reenact_Ch01_E01_S01
+
+
+# ~c8278717
+; Reenact_Ch01_E01_S02
+
+
+# ~4e51fe0a
+; Reenact_Ch01_E01_S03
+
+
+# ~f8d0e4fa
+; Reenact_Ch01_E01_S04
+
+
+# ~b1d372f4
+; Reenact_Ch01_E01_S05
+
+
+# ~a17367a9
+; Reenact_Ch01_E01_S06
+
+
+# ~5b0544ac
+; Debug_Trial # Reenact101 ends.
+
+
+# ~20e195db
+; Debug_Trial # Reenact102
+
+
+# ~ddc80486
+; Reenact_Ch01_E02_S01
+
+
+# ~5bd83fb3
+; Reenact_Ch01_E02_S02
+
+
+# ~908aef9a
+; Reenact_Ch01_E02_S03
+
+
+# ~cce04553
+; Reenact_Ch01_E02_S04
+
+
+# ~87b9f717
+; Reenact_Ch01_E02_S05
+
+
+# ~2fcc5760
+; Debug_Trial # Reenact102 ends.
+
+
+# ~45882f8f
+; Debug_Trial # Reenact103
+
+
+# ~c9546a18
+; Reenact_Ch01_E03_S01
+
+
+# ~75f6c626
+; Reenact_Ch01_E03_S02
+
+
+# ~bd0a93c4
+; Reenact_Ch01_E03_S03
+
+
+# ~9cdcd62e
+; Reenact_Ch01_E03_S04
+
+
+# ~314154b0
+; Reenact_Ch01_E03_S05
+
+
+# ~fa21d4f8
+; Reenact_Ch01_E03_S06
+
+
+# ~798b9a2b
+; Debug_Trial # Reenact103 ends.
+
+
+# ~d7cc6a80
+; Debug_Trial # Reenact104
+
+
+# ~c907cf4f
+; Reenact_Ch01_E04_S01
+
+
+# ~c6c7bd24
+; Reenact_Ch01_E04_S02
+
+
+# ~a267ddb0
+; Reenact_Ch01_E04_S03
+
+
+# ~b2703eec
+; Reenact_Ch01_E04_S04
+
+
+# ~ccb4e9d2
+; Debug_Trial # Reenact104 ends.
+
+
+# ~f83efe94
+; Debug_Trial # Reenact105
+
+
+# ~143e6b3f
+; Reenact_Ch01_E05_S01
+
+
+# ~1b11dcf9
+; Reenact_Ch01_E05_S02
+
+
+# ~6847b751
+; Reenact_Ch01_E05_S03
+
+
+# ~a27bc48c
+; Reenact_Ch01_E05_S04
+
+
+# ~103ce9c7
+; Reenact_Ch01_E05_S05
+
+
+# ~32abbc9e
+; Reenact_Ch01_E05_S06
+
+
+# ~a8790b39
+; Reenact_Ch01_E05_S07
+
+
+# ~45a0b6c8
+; Reenact_Ch01_E05_S08
+
+
+# ~dbc68dfc
+; Debug_Trial # Reenact105 ends.
+
+
+# ~a42987a8
+; Debug_Trial # Reenact201
+
+
+# ~68818d68
+; Reenact_Ch02_E01_S01
+
+
+# ~f8e71480
+; Reenact_Ch02_E01_S02
+
+
+# ~70d3bf9e
+; Reenact_Ch02_E01_S03
+
+
+# ~8b1ad5cc
+; Reenact_Ch02_E01_S04
+
+
+# ~174adf34
+; Reenact_Ch02_E01_S05
+
+
+# ~8bc3ef47
+; Debug_Trial # Reenact201 ends.
+
+
+# ~591d9324
+; Debug_Trial # Reenact202
+
+
+# ~f87801d4
+; Reenact_Ch02_E02_S01
+
+
+# ~f47cacbc
+; Reenact_Ch02_E02_S02
+
+
+# ~a547a6df
+; Reenact_Ch02_E02_S03
+
+
+# ~e22d29b1
+; Reenact_Ch02_E02_S04
+
+
+# ~355ce429
+; Reenact_Ch02_E02_S05
+
+
+# ~251bc443
+; Reenact_Ch02_E02_S06
+
+
+# ~6a9342df
+; Debug_Trial # Reenact202 ends.
+
+
+# ~306a62cc
+; Debug_Trial # Reenact203
+
+
+# ~4164a062
+; Reenact_Ch02_E03_S01
+
+
+# ~1cd88f08
+; Reenact_Ch02_E03_S02
+
+
+# ~2b14850d
+; Reenact_Ch02_E03_S03
+
+
+# ~a2cf79e5
+; Reenact_Ch02_E03_S04
+
+
+# ~3f4cdbe3
+; Reenact_Ch02_E03_S05
+
+
+# ~ad01078a
+; Reenact_Ch02_E03_S06
+
+
+# ~5e1f202b
+; Debug_Trial # Reenact203 ends.
+
+
+# ~5f1e6dff
+; Debug_Trial # Reenact204
+
+
+# ~2b343c73
+; Reenact_Ch02_E04_S01
+
+
+# ~98a28d1a
+; Reenact_Ch02_E04_S02
+
+
+# ~2efc8c9b
+; Reenact_Ch02_E04_S03
+
+
+# ~7e901ea8
+; Reenact_Ch02_E04_S04
+
+
+# ~10dceb42
+; Reenact_Ch02_E04_S05
+
+
+# ~92728c1
+; Debug_Trial # Reenact204 ends.
+
+
+# ~8396484a
+; Debug_Trial # Reenact206
+
+
+# ~4ba8dddf
+; Reenact_Ch02_E06_S01
+
+
+# ~487305c
+; Reenact_Ch02_E06_S02
+
+
+# ~b33e2b13
+; Reenact_Ch02_E06_S03
+
+
+# ~bd7b63e
+; Reenact_Ch02_E06_S04
+
+
+# ~9e1a218d
+; Reenact_Ch02_E06_S05
+
+
+# ~7a2d3868
+; Debug_Trial # Reenact206 ends.
+
+
+# ~feb389a8
+; Debug_Trial # DebateText
+
+
+# 0101Trial01_Sherry006
+; > @printDebate |#0101Trial01_Sherry006|
+; 死体の後ろ、そして周囲……<br>そこに<link="Objection_90_01_01_01">血で描かれた</link>蝶の絵が<br>描かれているんです！
+
+
+# Trial1001_Sherry0019
+; > @printDebate |#Trial1001_Sherry0019|
+; そう……つまりあの絵は<br><link="Objection_90_01_01_02">ノアさん</link>が<link="Objection_90_01_01_02">死に際</link>、<br><link="Objection_90_01_01_02">犯人</link>であるマーゴさんを告発した<br>メッセージだったんですよ！
+
+
+# Trial1001_Sherry0020
+; > @printDebate |#Trial1001_Sherry0020|
+; 犯人は宝生マーゴさん！<br>あなたで決まりです！
+
+
+# Trial1001_Margo0009
+; > @printDebate |#Trial1001_Margo0009|
+; あら、そうだったのね。<br>知らなかったわ♪
+
+
+# ~2bcf6941
+; Debug_Trial # DebateText ends.
+
+
+# Common_Return
+; > @choice |#Common_Return| button:ChoiceButtons/Trial/Cancel handler:Trial
+; 戻る
+
+
+# ~c863b5f3
+; > @choice |#~c863b5f3| button:ChoiceButtons/Trial/Objection handler:Trial
+; 絵はノアの描いたものではない
+
+
+# ~dca6737d
+; > @choice |#~dca6737d| button:ChoiceButtons/Trial/Objection handler:Trial
+; 絵が描かれたのは死に際ではない
+
+
+# ~89ad5912
+; > @choice |#~89ad5912| button:ChoiceButtons/Trial/Objection handler:Trial
+; 絵は犯人を示した物ではない
+
+
+# ~6c220e8f
+; 不正解：JudgeDebug1-2
+
+
+# ~5f12cc2e
+; 不正解：JudgeDebug1-3
+
+
+# ~54c16ee2
+; 正解：JudgeDebug1-4
+
+
+# ~52374a49
+; Debug_Trial # Timer
+
+
+# ~77dff30b
+; Debug_Trial # Timer ends.
+

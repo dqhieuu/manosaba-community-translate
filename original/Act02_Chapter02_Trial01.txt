@@ -1,0 +1,350 @@
+; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter02/Act02_Chapter02_Trial01' Naninovel scenario script
+
+# 0202Trial01_Alisa001
+; > @printDebate pos:70,50 roll:4 |#0202Trial01_Alisa001|
+; 犯人は黒部だろ。
+凶手是黑部吧。
+
+# 0202Trial01_Alisa002
+; > @printDebate pos:70,50 roll:4 |#0202Trial01_Alisa002|
+; 沢渡は脳天を<br>銃で吹っ飛ばされてんだ。
+泽渡的头顶<br>
+都被枪给炸穿了。
+
+# 0202Trial01_Alisa003
+; > @printDebate pos:70,50 roll:4 |#0202Trial01_Alisa003|
+; なら、犯人は<br><link="Objection_02_02_01_01">銃を持ってる黒部</link><br>しかいねー。
+那，凶手就是<br>
+<link="Objection_02_02_01_01">拿着枪的黑部了</link>。<br>
+没别的可能。
+
+# 0202Trial01_Alisa004
+; > @printDebate pos:70,50 roll:4 |#0202Trial01_Alisa004|
+; 何か反論あるかよ。
+你有什么要反驳的吗。
+
+# 0202Trial01_Nanoka001
+; > @printDebate pos:30,50 roll:-4 |#0202Trial01_Nanoka001|
+; ……ないわね。
+……没有。
+
+# 0202Trial01_Nanoka002
+; > @printDebate pos:30,50 roll:-4 |#0202Trial01_Nanoka002|
+; <link="Objection_02_02_01_02">私だけ</link>が<br>銃を持っていたことは<br>否定できないわ。
+手里有枪的<br>
+的确<link="Objection_02_02_01_02">只有我</link>一个。<br>
+这点我无法否定。
+
+# 0202Trial01_Sherry001
+; > @printDebate pos:70,50 roll:4 |#0202Trial01_Sherry001|
+; <link="Objection_02_02_01_03">謎は全て</link><br>解けちゃいましたね！<br>さすがアリサさんです！
+<link="Objection_02_02_01_03">谜题全都</link><br>
+解开了呢！<br>
+真不愧是亚里沙！
+
+# 0202Trial01_Hiro001
+; > Hiro: |#0202Trial01_Hiro001|
+; （……どうやらアリサはナノカを疑っているらしい）
+（……看样子亚里沙在怀疑奈叶香）
+
+# 0202Trial01_Hiro002
+; > Hiro: |#0202Trial01_Hiro002|
+; （人は一度思考がロックされてしまうと、<br>　既存の考えに囚われてしまいがちだ……）
+（人一旦陷入思维定式，<br>
+　就会被禁锢在现有的思路里……）
+
+# 0202Trial01_Hiro003
+; > Hiro: |#0202Trial01_Hiro003|
+; （間違った情報を指摘して、<br>　彼女の先入観を否定してみるとしよう）
+（试着指出其中的错误信息，<br>
+　反驳她先入为主的观点吧）
+
+# 0202Trial01_Choice001
+; > @choice |#0202Trial01_Choice001| button:ChoiceButtons/Trial/Objection handler:TrialHiro
+; ナノカは現場にいなかった
+奈叶香当时不在现场
+
+# Common_Return
+; > @choice |#Common_Return| button:ChoiceButtons/Trial/Cancel handler:TrialHiro
+; 戻る
+返回
+
+# 0202Trial01_Choice002
+; > @choice |#0202Trial01_Choice002| button:ChoiceButtons/Trial/Objection handler:TrialHiro
+; 他にも銃があった
+还有其他枪
+
+# 0202Trial01_Choice003
+; > @choice |#0202Trial01_Choice003| button:ChoiceButtons/Trial/Objection handler:TrialHiro
+; 謎はまだある
+还有其他谜题
+
+# 0202Trial01_Hiro004
+; > Hiro: |#0202Trial01_Hiro004|
+; いや、ナノカが犯人だとは考えにくい。
+不，凶手不太可能是奈叶香。
+
+# 0202Trial01_Hiro005
+; > Hiro: |#0202Trial01_Hiro005|
+; 死亡推定時刻が死体発見の直近なことから、<br>犯人は死体近くにいた人物から疑っていくべきだ。
+推定死亡时间和发现尸体的时间离得很近，<br>
+更应当怀疑尸体边上的人才对。
+
+# 0202Trial01_Alisa005
+; > Alisa: |#0202Trial01_Alisa005|
+; でもよ、現場にいなくてもヤれんじゃねーのか？
+可是，就算不在现场她也能下手吧？
+
+# 0202Trial01_Alisa006
+; > Alisa: |#0202Trial01_Alisa006|
+; 遠くから銃弾を撃ち込む方法だってあんだろ。
+肯定有办法从远处射击的。
+
+# 0202Trial01_Sherry002
+; > Sherry: |#0202Trial01_Sherry002|
+; ですね！ 狙撃とか！
+对啊！比如说狙击！
+
+# 0202Trial01_Alisa007
+; > Alisa: |#0202Trial01_Alisa007|
+; そんな芸当、<br>ドデカイ銃担いでる黒部ぐらいにしかできねーだろ。
+这种绝招<br>
+只有天天扛着把大枪的黑部才能干得了吧。
+
+# 0202Trial01_Alisa008
+; > Alisa: |#0202Trial01_Alisa008|
+; いい加減なこと言ってんじゃねーぞ。
+你可别胡说八道敷衍人啊。
+
+# 0202Trial01_Hiro006
+; > Hiro: |#0202Trial01_Hiro006|
+; （もっと直接的な証拠にもとづいた推理をしないと<br>　取り合ってはくれないか……）
+（得根据更加直接的证据进行推理<br>
+　才能讨论下去……）
+
+# 0202Trial01_Hiro007
+; > Hiro: |#0202Trial01_Hiro007|
+; （……だが、凶器はナノカの銃とは限らない）
+（……但凶器不一定是奈叶香的枪）
+
+# 0202Trial01_Hiro008
+; > Hiro: |#0202Trial01_Hiro008|
+; （現場の状況を思い出そう。<br>　他にも凶器となりうるものはあったはずだ）
+（回想一下案发现场的情况吧。<br>
+　应该还有其他能当凶器的东西才对）
+
+# 0202Trial01_Hiro009
+; > Hiro: |#0202Trial01_Hiro009|
+; いいや、謎はまだある。
+不，谜题还未完全解开。
+
+# 0202Trial01_Hiro010
+; > Hiro: |#0202Trial01_Hiro010|
+; ココがどこで殺されたのか……<br>彼女の配信についてなど――。
+现阶段还有许多事情<br>
+未经验证。
+
+# 0202Trial01_Hiro011
+; > Hiro: |#0202Trial01_Hiro011|
+; 検証すべきことが残っている段階で<br>結論を出すのは早計じゃないか？
+比如可可的死亡地点……还有她的直播等等，<br>
+现在就得出结论未免太早吧？
+
+# 0202Trial01_Alisa009
+; > Alisa: |#0202Trial01_Alisa009|
+; んな細けーことはいいんだよ！
+那些小事都无所谓！
+
+# 0202Trial01_Alisa010
+; > Alisa: |#0202Trial01_Alisa010|
+; こんな裁判、早く終わるに越したことねーじゃねーか……！
+最要紧的是赶紧搞完这破烂审判……！
+
+# 0202Trial01_Hanna001
+; > Hanna: |#0202Trial01_Hanna001|
+; そ、それはそうですわね……。
+那、那倒也是……
+
+# 0202Trial01_Alisa011
+; > Alisa: |#0202Trial01_Alisa011|
+; 探偵の真似事してーなら、あとで勝手にやれよ。
+想扮侦探的话，待会随你怎么扮。
+
+# 0202Trial01_Sherry003
+; > Sherry: |#0202Trial01_Sherry003|
+; はい！ じゃあそうしますね！
+好！那我就照做啦！
+
+# 0202Trial01_Alisa012
+; > Alisa: |#0202Trial01_Alisa012|
+; 二階堂に言ってんだよ！
+我在跟二阶堂说！
+
+# 0202Trial01_Hiro012
+; > Hiro: |#0202Trial01_Hiro012|
+; （もっと直接的な証拠にもとづいた推理をしないと<br>　取り合ってはくれないか……）
+（得根据更加直接的证据进行推理<br>
+　才能讨论下去……）
+
+# 0202Trial01_Hiro013
+; > Hiro: |#0202Trial01_Hiro013|
+; （……だが、凶器はナノカの銃とは限らない）
+（……但凶器不一定是奈叶香的枪）
+
+# 0202Trial01_Hiro014
+; > Hiro: |#0202Trial01_Hiro014|
+; （現場の状況を思い出そう。<br>　他にも凶器となりうるものはあったはずだ）
+（回想一下案发现场的情况吧。<br>
+　应该还有其他能当凶器的东西才对）
+
+# 0202Trial01_Hiro015
+; > Hiro: |#0202Trial01_Hiro015|
+; ……どうやらアリサ、<br>君は知らないようだ。
+……看来，<br>
+亚里沙你不知道啊。
+
+# 0202Trial01_Alisa013
+; > Alisa: |#0202Trial01_Alisa013|
+; ……あ？<br>何がだ？
+……啊？<br>
+不知道什么？
+
+# 0202Trial01_Hiro016
+; > Hiro: |#0202Trial01_Hiro016|
+; もちろん、【もう１丁の銃】の存在だよ。
+那当然就是，【另一把枪】。
+
+# 0202Trial01_Alisa014
+; > Alisa: |#0202Trial01_Alisa014|
+; もう１丁の銃だと……？
+还有另一把枪……？
+
+# 0202Trial01_Hiro017
+; > Hiro: |#0202Trial01_Hiro017|
+; そう。<br>現場にはそれが残されていた。
+没错。<br>
+有把枪留在了现场。
+
+# 0202Trial01_Hiro018
+; > Hiro: |#0202Trial01_Hiro018|
+; もしくは……<br>発見者は、わざと君たちに伝えなかったのかな？
+难道说……<br>
+发现人故意瞒着没告诉你们？
+
+# 0202Trial01_Ema001
+; > Ema: |#0202Trial01_Ema001|
+; ――そんなことないよ。
+——我没有。
+
+# 0202Trial01_Ema002
+; > Ema: |#0202Trial01_Ema002|
+; ボクは現場で拳銃を拾った……<br>ただそれだけだよ。
+我只是在案发现场捡到了一把手枪……<br>
+仅此而已。
+
+# 0202Trial01_Alisa015
+; > Alisa: |#0202Trial01_Alisa015|
+; ……拳銃だと？
+……居然是手枪？
+
+# 0202Trial01_Alisa016
+; > Alisa: |#0202Trial01_Alisa016|
+; なら、銃は黒部の銃以外にもあったってことかよ……！
+那就是说，除了黑部的枪以外还有别的枪吗……！
+
+# 0202Trial01_Hiro019
+; > Hiro: |#0202Trial01_Hiro019|
+; そういうことになるね。
+正是如此。
+
+# 0202Trial01_Hiro020
+; > Hiro: |#0202Trial01_Hiro020|
+; つまり、死因が銃殺だからと言って<br>ナノカの銃によるものとは限らない。
+换句话说，虽然死因是枪杀，<br>
+但凶器不一定是奈叶香的枪。
+
+# 0202Trial01_Alisa017
+; > Alisa: |#0202Trial01_Alisa017|
+; ……チッ。
+……啧。
+
+# 0202Trial01_Alisa018
+; > Alisa: |#0202Trial01_Alisa018|
+; ……わかったよ。ウチが間違ってた。
+……行吧。是我搞错了。
+
+# 0202Trial01_Alisa019
+; > Alisa: |#0202Trial01_Alisa019|
+; 今回もまた、話し合いは必要ってことだな。
+就是说，这次还是逃不过啊。
+
+# 0202Trial01_Alisa020
+; > Alisa: |#0202Trial01_Alisa020|
+; ……こんなクソみてーな話し合いがよ。
+……又要开始这狗屁讨论了。
+
+# 0202Trial01_Hiro021
+; > Hiro: |#0202Trial01_Hiro021|
+; そうだ。
+是啊。
+
+# 0202Trial01_Hiro022
+; > Hiro: |#0202Trial01_Hiro022|
+; けれど安心していい。<br>今回は犯人がわかっているのだから。
+不过你们大可以放心。<br>
+因为我已经知道这次的凶手是谁了。
+
+# 0202Trial01_Ema003
+; > Ema: |#0202Trial01_Ema003|
+; ……っ！
+……！
+
+# 0202Trial01_Hiro023
+; > Hiro: |#0202Trial01_Hiro023|
+; 現場で銃を手に取っていた犯人……。
+凶手就是现场拿着手枪的……
+
+# 0202Trial01_Hiro024
+; > Hiro: |#0202Trial01_Hiro024|
+; それはエマだ。
+艾玛。
+
+# 0202Trial01_Ema004
+; > Ema: |#0202Trial01_Ema004|
+; ……そう、ヒロちゃん。<br>それがキミの意見なんだね。
+……是吗，希罗。<br>
+这就是你的观点啊。
+
+# 0202Trial01_Ema005
+; > Ema: |#0202Trial01_Ema005|
+; なら……<br>ボクとしてもヒロちゃんが犯人の可能性が高いと<br>言わざるを得ないかな。
+那么……<br>
+站在我的角度，我只能说<br>
+你是凶手的可能性也很高。
+
+# 0202Trial01_Hiro025
+; > Hiro: |#0202Trial01_Hiro025|
+; なら、私から説明させてもらおうか。
+那我来解释一下吧。
+
+# 0202Trial01_Hiro026
+; > Hiro: |#0202Trial01_Hiro026|
+; エマしか犯行ができない……<br>その理由を！
+为什么……<br>
+凶手只能是你！
+
+# 0202Trial01_Ema006
+; > Ema: |#0202Trial01_Ema006|
+; ボクだって……<br>反論させてもらうよ！
+那我……<br>
+也会反驳你的！
+
+# 0202Trial01_Hiro027
+; > Hiro: |#0202Trial01_Hiro027|
+; （どちらの主張が正しいのか……）
+（手握真相的究竟是谁……）
+
+# 0202Trial01_Hiro028
+; > Hiro: |#0202Trial01_Hiro028|
+; （勝負だ、エマ！）
+（让我们一决高下吧，艾玛！）

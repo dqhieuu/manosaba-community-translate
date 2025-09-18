@@ -1,0 +1,17 @@
+; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Common/CommonBad12' Naninovel scenario script
+
+# CommonBad12_Yuki001
+; > Yuki: |#CommonBad12_Yuki001|
+; もうお話は結構です。人類の運命は変わりません。<br>処刑を執行します。
+已经不需多言了，人类的命运绝不会改变。<br>
+接下来将执行刑罚。
+
+# CommonBad12_Hiro001
+; > Hiro: |#CommonBad12_Hiro001|
+; 待てっ――！
+等下——！
+
+# CommonBad12_Yuki002
+; > Yuki: |#CommonBad12_Yuki002|
+; ……さようなら。
+……永别了。

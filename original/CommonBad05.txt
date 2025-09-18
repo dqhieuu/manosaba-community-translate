@@ -1,0 +1,410 @@
+; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Common/CommonBad05' Naninovel scenario script
+
+# CommonBad05_Warden001
+; > Warden: |#CommonBad05_Warden001|
+; あの皆さん、そろそろ投票に移っていただけると。
+那个，各位，是时候请大家开始投票了。
+
+# CommonBad05_Narrative001
+; 明確な答えが出ないまま、<br>ゴクチョーによって議論の終わりが告げられた。
+讨论尚未得出明确答案，<br>
+但典狱长已经宣告了议论的结束。
+
+# CommonBad05_Coco001
+; > Coco: |#CommonBad05_Coco001|
+; 異議なーし。<br>あてぃしは誰に入れるか決まってるし～。
+我没意见。<br>
+我已经决定好要投票给谁了～
+
+# CommonBad05_Narrative002
+; ココが含みのある視線をアリサに向ける。
+可可向亚里沙投去别有深意的视线。
+
+# CommonBad05_Alisa001
+; > Alisa: |#CommonBad05_Alisa001|
+; …………。
+…………
+
+# CommonBad05_Narrative003
+; 今回は誰が【魔女】として処刑されるのか――<br>全員がスマホを操作し、投票していく。
+这次会是谁以【魔女】的身份接受处刑——<br>
+所有人都按着手机，进行投票。
+
+# CommonBad05_Narrative004
+; そして。
+然后。
+
+# CommonBad05_Narrative005
+; 間抜けなファンファーレ音と共に、<br>アリサの画像がスマホに映し出された。
+随着一声滑稽的庆祝音效响起，<br>
+手机上出现了亚里沙的照片。
+
+# CommonBad05_Warden002
+; > Warden: |#CommonBad05_Warden002|
+; えー、というわけで……<br>得票数のもっとも多い、紫藤アリサの処刑が決定！
+呃，根据结果……<br>
+决定对得票最多的紫藤亚里沙实施刑罚咯！
+
+# CommonBad05_Alisa002
+; > Alisa: |#CommonBad05_Alisa002|
+; くそっ、くそっ……ふざけんなよ！<br>なんでウチなんだよ……！！
+该死，该死……开什么玩笑！<br>
+为什么是我……！！
+
+# CommonBad05_Narrative006
+; 吐き捨てながら、アリサが<br>自分のスマホを床に<ruby="たた">叩</ruby>きつける。
+亚里沙一边恶狠狠地说道，<br>
+一边将自己的手机用力摔在地上。
+
+# CommonBad05_Coco002
+; > Coco: |#CommonBad05_Coco002|
+; なんでも何も妥当でしょ。<br>放火とか状況的にも犯人に決まってるじゃん。
+还用问为什么，这不是很合理吗。<br>
+从放火等等现场情况来看，明显你就是凶手啊。
+
+# CommonBad05_Alisa003
+; > Alisa: |#CommonBad05_Alisa003|
+; ざけんなよ……ウチはやってねえ！<br>あいつを殺す動機なんかねえだろうが！！
+开什么玩笑……我才没干！<br>
+我没杀那家伙的动机好吗！！
+
+# CommonBad05_Coco003
+; > Coco: |#CommonBad05_Coco003|
+; 動機とか知らんって。<br>魔女の殺人衝動ってやつなんじゃねーの。<br>普段から『ぶっ殺す』とかイキってたし。
+我管你什么动机。<br>
+不是魔女会有杀人冲动吗。<br>
+毕竟你平时就在那里喊打喊杀的，狠得要命。
+
+# CommonBad05_Alisa004
+; > Alisa: |#CommonBad05_Alisa004|
+; ち、違う……ウチは、ウチは……！
+不、不对……我、我其实……！
+
+# CommonBad05_Coco004
+; > Coco: |#CommonBad05_Coco004|
+; 諦めろって！ みんなが怪しいと思って、<br>おめぇに票入れてんだよ！<br>だから選ばれてんだろーが！！
+放弃吧！大家就是觉得你可疑，<br>
+才投票给你的啊！<br>
+所以你才会高票通过啊！！
+
+# CommonBad05_Narrative007
+; アリサが他の少女たちに目を向ける。<br>怒りと絶望に<ruby="ゆが">歪</ruby>んだ瞳が、<br>やがて諦観したように伏せられた。
+亚里沙向其他少女们投去视线。<br>
+那双因愤怒与绝望而扭曲的眼睛，<br>
+最终又像是死了心似的垂了下去。
+
+# CommonBad05_Alisa005
+; > Alisa: |#CommonBad05_Alisa005|
+; そうかよ……わかったよ。<br>ウチが死ねば、それで満足なんだろ。
+是啊……我早知道了。<br>
+只要我死了，大家就会满足了，对吧。
+
+# CommonBad05_Alisa006
+; > Alisa: |#CommonBad05_Alisa006|
+; はっ……遅いか早いかだけだしな。<br>おめえら全員、どうせ同じように死ぬんだし。
+哈……反正是迟早的事。<br>
+反正你们所有人，都一样会死。
+
+# CommonBad05_Warden003
+; > Warden: |#CommonBad05_Warden003|
+; あのー、なんか納得もされたみたいですし、<br>とりあえず進行してもいいですかね？<br>まあ、納得されなくても進めるんですけど……。
+呃，感觉当事人好像也没异议了，<br>
+那我就继续咯？<br>
+不过，就算有意见也会继续啦……
+
+# CommonBad05_Alisa007
+; > Alisa: |#CommonBad05_Alisa007|
+; 勝手にしろよ……。
+随便你……
+
+# CommonBad05_Warden004
+; > Warden: |#CommonBad05_Warden004|
+; では皆さん、処刑執行のボタンを押してください。
+那么各位，请按下处刑执行的按钮吧。
+
+# CommonBad05_Warden005
+; > Warden: |#CommonBad05_Warden005|
+; はい！ ではこれより、<br>魔女の処刑を執行します～。
+好了！那么，<br>
+现在开始执行对魔女的刑罚～
+
+# CommonBad05_Narrative008
+; 仕掛けが作動し、装置が姿を現す。
+机关开始启动，装置显出了身形。
+
+# CommonBad05_Ema001
+; > Ema: |#CommonBad05_Ema001|
+; 椅子……？ あれって……。
+椅子……？那是……
+
+# CommonBad05_Margo001
+; > Margo: |#CommonBad05_Margo001|
+; 電気椅子、かしら。
+电椅，吧。
+
+# CommonBad05_Narrative009
+; 高電圧で囚人を感電死させるための<br>処刑執行装置――
+那是放出高电压，令囚犯触电致死的<br>
+处刑执行装置——
+
+# CommonBad05_Alisa008
+; > Alisa: |#CommonBad05_Alisa008|
+; …………。
+…………
+
+# CommonBad05_Ema002
+; > Ema: |#CommonBad05_Ema002|
+; アリサちゃん……。
+亚里沙……
+
+# CommonBad05_Narrative010
+; 装置を目にして身を震わせるアリサに、<br>エマが声をかける。
+亚里沙看见电椅，不禁颤抖了起来。<br>
+这时艾玛向她搭话了。
+
+# CommonBad05_Alisa009
+; > Alisa: |#CommonBad05_Alisa009|
+; うるせえな……もうウチに構うなよ。<br>どうせお前も、ウチに投票したんだろ。
+你好烦……不要再管我了。<br>
+反正你也投票给我了吧。
+
+# CommonBad05_Ema003
+; > Ema: |#CommonBad05_Ema003|
+; ボ、ボクは……！
+我、我……！
+
+# CommonBad05_Narrative011
+; 返ってきた拒絶に、エマはたじろぐ。
+接收到拒绝的回应后，艾玛不禁退缩了。
+
+# CommonBad05_Alisa010
+; > Alisa: |#CommonBad05_Alisa010|
+; ……もういいって。ウチだけじゃない。<br>どうせおめえら全員、助からねえんだよ。
+……算了吧。反正不止是我，<br>
+你们所有人都没救了。
+
+# CommonBad05_Narrative012
+; 投げやりな口調で、<br>アリサは自ら装置の方へと歩いていく。
+亚里沙自暴自弃地说道，<br>
+接着自行走到装置面前。
+
+# CommonBad05_Narrative013
+; どこか禍々しい雰囲気が漂う椅子に、<br>アリサが腰を下ろす。
+椅子似乎正散发着某种邪气。<br>
+而亚里沙在椅子上坐了下来。
+
+# CommonBad05_Narrative014
+; 看守がアリサの体を椅子に拘束した。
+看守将亚里沙的身体绑在了电椅上。
+
+# CommonBad05_Alisa011
+; > Alisa: |#CommonBad05_Alisa011|
+; はは……一足先におさらばできて、<br>むしろいいのかもな……。
+哈哈……能先走一步，<br>
+说不定还更好……
+
+# CommonBad05_Narrative015
+; 震える声で、アリサは言葉を紡ぐ。
+亚里沙用颤抖的声音编织着话语。
+
+# CommonBad05_Alisa012
+; > Alisa: |#CommonBad05_Alisa012|
+; ウチも、おめえらも、どうせこのまま全員、<br>魔女になって果てるだけ……。
+不管是我，还是你们，反正所有人，<br>
+接下来只会变成魔女，纯粹等死……
+
+# CommonBad05_Alisa013
+; > Alisa: |#CommonBad05_Alisa013|
+; ここに集められた時点で、あがいても無駄なんだよ。<br>だったら……さっさと抜けた方が楽だろ。
+从被抓来这个地方的那一刻起，就算反抗也没用。<br>
+既然这样……那还是走了会更轻松。
+
+# CommonBad05_Alisa014
+; > Alisa: |#CommonBad05_Alisa014|
+; 探偵ごっこに裁判ごっこ……全部くだらねえ。<br>続けたいやつは、続ければいいさ。
+什么侦探游戏审判游戏……全都无聊死了。<br>
+谁想继续的，随便她继续。
+
+# CommonBad05_Coco005
+; > Coco: |#CommonBad05_Coco005|
+; な、何ごちゃごちゃ言ってんだし！<br>悟った顔して、きっしょく悪いな！<br>ちょっとさあ、早く処刑しちまってよ！！
+叽、叽里咕噜的说什么呢！<br>
+摆一副大彻大悟的嘴脸，真是恶心到爆！<br>
+喂我说，能不能赶紧送她归西啊！！
+
+# CommonBad05_Warden006
+; > Warden: |#CommonBad05_Warden006|
+; はいはい、言われなくても……<br>では、お願いします～。
+好啦好啦，不用你说……<br>
+那么，拜托你了～
+
+# CommonBad05_Narrative016
+; ゴクチョーの合図と共に、看守が位置につく。<br>装置を起動するためであろうレバーに手をかけた。
+随着典狱长一声令下，看守也已就位。<br>
+它将手放在似乎是用去启动装置的拉杆上。
+
+# CommonBad05_Narrative017
+; 諦観しきった様子のアリサだったが、<br>迫りくる死への恐怖は抑えられないらしい。
+尽管亚里沙摆出一副认命的样子，<br>
+但面对即将来临的死亡，还是压抑不住内心的恐惧。
+
+# CommonBad05_Narrative018
+; 体を震わせながら、<br>引き<ruby="つ">攣</ruby>るような呼吸を漏らしている。
+她颤抖着身体，<br>
+发出抽搐般的呼吸声。
+
+# CommonBad05_Narrative019
+; ゴクチョーが看守に翼を広げる。<br>すると、看守がゆっくりとレバーを下げた。
+典狱长对着看守张了张翅膀。<br>
+紧接着，看守缓慢拉下了拉杆。
+
+# CommonBad05_Narrative020
+; 装置が作動して、電気が流れる。<br>椅子に拘束されたアリサの全身がガクガクと震えた。
+装置启动，电流导通。<br>
+被绑在椅子上的亚里沙全身颤抖起来。
+
+# CommonBad05_Sherry001
+; > @char Sherry.Default,ArmR4,ArmL14,Angle01/Facial/Eyes>Eyes_Fearful_Open03,Angle01/Facial/Mouth>Mouth_Neutral_Closed,Angle01/Facial/Sweat>Sweat02 pos:30
+; > Sherry: |#CommonBad05_Sherry001|
+; えげつないですね。<br>そのまま電気を流すなんて……。
+真狠啊，<br>
+竟然直接通电……
+
+# CommonBad05_Ema004
+; > @char Ema.Default,Angle01/Head01/Facial01/Eyes01>Eyes01_Fearful_Open01,Angle01/Head01/Facial01/Mouth01>Mouth01_Cry_Open,Angle01/Head01/Facial01/Sweat01>Sweat01_01 pos:70
+; > Ema: |#CommonBad05_Ema004|
+; え、どういうこと？
+欸，什么意思？
+
+# CommonBad05_Sherry002
+; > @char Sherry.Default,ArmR4,ArmL4,Angle01/Facial/Eyes>Eyes_Pensive_Open02,Angle01/Facial/Mouth>Mouth_Pensive_Middle pos:30
+; > Sherry: |#CommonBad05_Sherry002|
+; 本で読んだんですけど……電気椅子での処刑って、<br>囚人の体を水で<ruby="ぬ">濡</ruby>らすんだそうです。
+虽然是书上看来的……电椅处刑一般是<br>
+要往囚犯身上泼水的。
+
+# CommonBad05_Sherry003
+; > @char Sherry.Default,ArmR4,ArmL4,Angle01/Facial/Eyes>Eyes_Surprised_Open02,Angle01/Facial/Mouth>Mouth_Neutral_Closed,Angle01/Facial/Sweat>Sweat02 pos:30
+; > Sherry: |#CommonBad05_Sherry003|
+; 水は電気を通しやすいですから、<br>そのほうが楽に感電死させられるとかで。
+因为泼水会比较容易导电，<br>
+能更容易把人电死。
+
+# CommonBad05_Narrative021
+; つまり、その手順を踏んでいないアリサは――
+也就是说，没经过这道步骤的亚里沙她——
+
+# CommonBad05_Narrative022
+; 苦しげにもがくアリサの体から、<br>煙と青白い火花が上がる。
+从痛苦挣扎着的亚里沙的身体上<br>
+冒出了烟和蓝白色的火花。
+
+# CommonBad05_Narrative023
+; やがて全身が炎に包まれ、<br>紫藤アリサは異形と化した――
+不久后紫藤亚里沙全身被火焰吞噬，<br>
+化作了异形——
+
+# CommonBad05_Narrative024
+; アリサの処刑が執行された後。<br>エマはひとり、監房で膝を抱えて泣いていた。
+亚里沙的处刑执行完毕后，<br>
+艾玛独自一人在牢房内抱膝抽泣。
+
+# CommonBad05_Ema005
+; > Ema: |#CommonBad05_Ema005|
+; うううう……ハンナちゃん……。
+呜呜呜呜……汉娜……
+
+# CommonBad05_Ema006
+; > Ema: |#CommonBad05_Ema006|
+; （また、殺人事件が起こるのかな……）
+（凶杀案还会发生的吧……）
+
+# CommonBad05_Ema007
+; > Ema: |#CommonBad05_Ema007|
+; （そのたびに誰かが殺されて……<br>　誰かが魔女として処刑されて……）
+（到时候又会有人被杀……<br>
+　又会有人被当作魔女处刑……）
+
+# CommonBad05_Ema008
+; > Ema: |#CommonBad05_Ema008|
+; アリサちゃんの言う通りなのかも……<br>ボクたちは、もう……。
+也许亚里沙说得没错……<br>
+我们，已经……
+
+# CommonBad05_Ema009
+; > Ema: |#CommonBad05_Ema009|
+; ……？
+……？
+
+# CommonBad05_Narrative025
+; ふと、異臭がするような気がしてエマは鼻を鳴らした。
+忽然，艾玛感觉到一股异味，不禁吸了吸鼻子。
+
+# CommonBad05_Ema010
+; > Ema: |#CommonBad05_Ema010|
+; なんだろ……焦げ臭いような……？<br>それに、なんだか暑い気もする……。
+怎么回事……好像有股焦臭味……？<br>
+而且，感觉还有点闷热……
+
+# CommonBad05_Ema011
+; > Ema: |#CommonBad05_Ema011|
+; うーん……何か燃えてたりはしてない、よね？<br>……もしかして、さっきの匂いがまだ……。
+唔……应该不是有东西着火，吧？<br>
+……难道，刚刚的味道还没散……
+
+# CommonBad05_Narrative026
+; アリサの体が焦げる匂いを思い出して、<br>エマは顔を青くする。
+艾玛想起亚里沙的身体烧焦的味道，<br>
+瞬时脸色煞白。
+
+# CommonBad05_Ema012
+; > Ema: |#CommonBad05_Ema012|
+; なんの音だろ……？
+这是什么声音……？
+
+# CommonBad05_Narrative027
+; 不意に響いてきた音の正体を確かめようと、<br>エマは格子から通路の様子をうかがって――
+艾玛想要确认这道突如其来的声音的来源，<br>
+便从铁栅栏内往过道方向探望——
+
+# CommonBad05_Narrative028
+; 何者かによって致命傷を負わされたエマが、<br>床に倒れ伏す。
+被某人袭击的艾玛受了致命伤，<br>
+趴倒在地上。
+
+# CommonBad05_Narrative029
+; 格子の向こうに見えた人影に、エマは目を見開いた。
+看见铁栅栏对面的人影，艾玛瞪大了双眼。
+
+# CommonBad05_Ema013
+; > Ema: |#CommonBad05_Ema013|
+; （そんな……どうして……？）
+（怎么会，为什么……？）
+
+# CommonBad05_Ema014
+; > Ema: |#CommonBad05_Ema014|
+; …………。
+…………
+
+# CommonBad05_Narrative030
+; 問いかけようとした言葉は声にならず――<br>エマは息絶えた。
+疑问未能成声——<br>
+艾玛便断了气。
+
+# CommonBad05_Narrative031
+; エマの命が奪われた。<br>次の犠牲者となった彼女を殺した犯人は誰なのか。
+艾玛被人杀死了。<br>
+她成了下一位牺牲者，而杀死她的又会是谁。
+
+# CommonBad05_Narrative032
+; 新たな殺人者か。<br>あるいは、ハンナを殺した真犯人は他にいたのか――
+是出现了新的凶手？<br>
+还是杀死汉娜的真凶另有其人——
+
+# CommonBad05_Narrative033
+; また、魔女裁判が開かれる。
+魔女审判又将再次开庭。
+
+# CommonBad05_Narrative034
+; 真実が明らかになる保証はどこにもない――
+而真相是否能水落石出，谁也无法保证——

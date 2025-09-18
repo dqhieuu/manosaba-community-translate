@@ -1,0 +1,81 @@
+; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Debug/Debug_Audio' Naninovel scenario script
+
+# ~df6772e8
+; Debug_Audio # Bgm
+
+
+# ~bea49960
+; Bgm_1_1 を再生します。
+
+
+# ~688c9bfd
+; Bgm_1_1 を再生中です。
+
+
+# ~2086e717
+; Bgm_1_1 を停止しました。
+
+
+# ~9c6d9f3
+; Bgm_2_1 を再生します。
+
+
+# ~8e5bb0ac
+; Bgm_2_1 を再生中です。
+
+
+# ~69c45abe
+; Bgm_2_1 を停止しました。
+
+
+# ~fe53aeb9
+; Debug_Audio # Voice
+
+
+# ~26c31ec8
+; CommonTrial_Ema05117 + CommonTrial_Hiro00024
+
+
+# ~23a86855
+; CommonTrial_Meruru00921 + CommonTrial_Hanna00568
+
+
+# ~b4fb2f11
+; CommonTrial_Sherry01051
+
+
+# ~80b19e10
+; CommonTrial_AnAn00385
+
+
+# ~75afdaf
+; CommonTrial_Leia00424
+
+
+# ~41605256
+; CommonTrial_Coco00921
+
+
+# ~c8ed9804
+; CommonTrial_Miria00282
+
+
+# ~165ed8a3
+; CommonTrial_Margo01190
+
+
+# ~e516de98
+; CommonTrial_Noah00035
+
+
+# ~1c34018b
+; CommonTrial_Nanoka00525
+
+
+# ~3fa03ed2
+; CommonTrial_Alisa00564
+
+
+# ~d6c486d6
+; CommonTrial_Yuki00600
+

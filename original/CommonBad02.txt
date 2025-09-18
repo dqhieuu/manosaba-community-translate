@@ -1,0 +1,146 @@
+; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Common/CommonBad02' Naninovel scenario script
+
+# CommonBad02_Narrative001
+; ――確たる結論が出ないまま、時間は流れた。
+——大家至今一直没有得出明确的结论，时间徒然流逝。
+
+# CommonBad02_Warden001
+; > Warden: |#CommonBad02_Warden001|
+; 議論はここまでということで、<br>投票に移ってもらっていいですかね？
+讨论到此为止，<br>
+可以请各位进入投票环节了吗？
+
+# CommonBad02_Narrative002
+; もしかしたら、自分に投票されるのではないか――
+下一个被投票选中的，会不会就是自己——
+
+# CommonBad02_Narrative003
+; 少女たちの間に漂う恐れや緊張といった空気が、<br>濃度を増していく。
+萦绕在少女身边的恐惧和紧张的气氛<br>
+愈发浓重。
+
+# CommonBad02_Hanna001
+; > Hanna: |#CommonBad02_Hanna001|
+; …………。
+…………
+
+# CommonBad02_Narrative004
+; レイアに真正面から疑われたハンナは、<br>真っ青な顔で爪を<ruby="か">噛</ruby>んでいる。
+被蕾雅指名道姓怀疑的汉娜，<br>
+正脸色苍白的咬着手指甲。
+
+# CommonBad02_Narrative005
+; ハンナだけじゃない。<br>その場にいる誰もが震え、青ざめていた。
+不只是汉娜，<br>
+在场的所有人都脸色苍白地颤抖着。
+
+# CommonBad02_Narrative006
+; だが、容赦なく投票の時間はやってくる。
+然而，投票时间无情地降临了。
+
+# CommonBad02_Narrative007
+; 少女たちは自身のスマホを操作し、<br>投票をしていく。
+少女们各自按着自己的手机，<br>
+进行投票。
+
+# CommonBad02_Narrative008
+; そして。
+然后。
+
+# CommonBad02_Narrative009
+; まるでそぐわない間抜けなファンファーレ音と共に、<br>スマホに映し出されたのは――
+随着一声与现场气氛格格不入的滑稽庆祝音效响起，<br>
+手机上出现的——
+
+# CommonBad02_Narrative010
+; ハンナの画像だった。
+是汉娜的照片。
+
+# CommonBad02_Warden002
+; > Warden: |#CommonBad02_Warden002|
+; はい、遠野ハンナの処刑が決定～！
+好了，决定执行对远野汉娜的刑罚～！
+
+# CommonBad02_Hanna002
+; > Hanna: |#CommonBad02_Hanna002|
+; じょ、冗談じゃねーですわ！<br>わたくしの他にも怪しい人はいたでしょう……！？
+别、别开玩笑了！<br>
+明明还有比我更可疑的人吧……！？
+
+# CommonBad02_Warden003
+; > Warden: |#CommonBad02_Warden003|
+; まあ、投票で決まったことですので。
+唉，毕竟这事已经通过投票决定了。
+
+# CommonBad02_Hanna003
+; > Hanna: |#CommonBad02_Hanna003|
+; 違う！ わたくしはやってない！<br>無実ですわ！！ やり直しを求めます！
+不对！人不是我杀的！<br>
+我是无辜的！！我要求重新审判！
+
+# CommonBad02_Narrative011
+; ハンナの訴えが聞き入れられることはなく、<br>処刑が執行された――
+汉娜的诉求不被采纳，<br>
+她的死刑得到了执行——
+
+# CommonBad02_Narrative012
+; 魔女裁判の後。<br>エマは１人、ノアの殺害現場に立っていた。
+魔女审判结束后，<br>
+艾玛独自站在诺亚的杀害现场前。
+
+# CommonBad02_Ema001
+; > Ema: |#CommonBad02_Ema001|
+; （本当に、ハンナちゃんが犯人だったのかな……？）
+（汉娜她真的是凶手吗……？）
+
+# CommonBad02_Ema002
+; > Ema: |#CommonBad02_Ema002|
+; （……やっぱり、納得いかない。<br>　他に犯人がいる気がする）
+（……我还是没法接受。<br>
+　我感觉凶手另有其人）
+
+# CommonBad02_Ema003
+; > Ema: |#CommonBad02_Ema003|
+; （もう遅いけど……でもボクは、<br>　今度こそハンナちゃんの無実を証明したい……！）
+（虽然已经来不及了……但是我，<br>
+　这次一定要证明汉娜的清白……！）
+
+# CommonBad02_Narrative013
+; 不意に背後から衝撃を感じて、<br>エマはそのままうつ伏せに倒れ込んだ。
+忽然艾玛感受到了来自身后的冲击，<br>
+直接以卧姿倒在了地上。
+
+# CommonBad02_Ema004
+; > Ema: |#CommonBad02_Ema004|
+; （あ、あれ……？ なに、が……？）
+（哎、哎呀……？怎、么回事……？）
+
+# CommonBad02_Narrative014
+; 倒れ伏したエマの背には、<br>刃物が深々と刺さっていた。
+卧倒在地上的艾玛，<br>
+背上深深地插着一把刀具。
+
+# CommonBad02_Narrative015
+; 事態の把握と共にやってきた痛みを堪えながら、<br>エマはなんとか背後を振り返る。
+艾玛总算反应过来她遇上了什么事。她强忍着痛苦，<br>
+拼尽力气往身后看去。
+
+# CommonBad02_Narrative016
+; 視線の先に立っていたのは――
+只见在她眼前站着的是——
+
+# CommonBad02_Ema005
+; > Ema: |#CommonBad02_Ema005|
+; ！？
+！？
+
+# CommonBad02_Ema006
+; > Ema: |#CommonBad02_Ema006|
+; （なんで、この子が……<br>　もしかしてノアちゃんを殺したのも……？）
+（为什么她会……<br>
+　难道杀死诺亚的也是她……？）
+
+# CommonBad02_Narrative017
+; 問いただす暇もなく、<br>【彼女】は凶器を手にエマを――
+未等艾玛开口询问，<br>
+【她】再次向艾玛挥下了凶器——

@@ -1,0 +1,475 @@
+; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter05/Act02_Chapter05_Trial01' Naninovel scenario script
+
+# 0205Trial01_Meruru001
+; > @printDebate pos:70,50 roll:4 |#0205Trial01_Meruru001|
+; ま、魔女化とは……<br>大魔女様に付与された<br>【魔女因子】が<br>覚醒することです。
+魔、魔女化是指……<br>
+大魔女大人所赋予的<br>
+【魔女因子】<br>
+激活的过程。
+
+# 0205Trial01_Meruru002
+; > @printDebate pos:70,50 roll:4 |#0205Trial01_Meruru002|
+; 魔女因子を持って<br>生まれた少女は<br>体質が合えば<br>魔法が使えるようになります。
+天生携带<br>
+魔女因子的少女，<br>
+只要体质匹配，<br>
+就能使出魔法。
+
+# 0205Trial01_Meruru003
+; > @printDebate pos:70,50 roll:4 |#0205Trial01_Meruru003|
+; そして少女の<br><link="Objection_02_05_01_01">精神が魔女化</link>することで、<br><link="Objection_02_05_01_02">肉体もまた魔女と化す</link><br>のです。
+随着少女的<br>
+<link="Objection_02_05_01_01">精神产生魔女化</link>，<br>
+<link="Objection_02_05_01_02">肉体也会随之转化为魔女</link>。<br>
+
+
+# 0205Trial01_Meruru004
+; > @printDebate pos:70,50 roll:4 |#0205Trial01_Meruru004|
+; その行き着く先は<br>【なれはて】……。
+其最终结果就是<br>
+转变成【残骸】……
+
+# 0205Trial01_Meruru005
+; > @printDebate pos:70,50 roll:4 |#0205Trial01_Meruru005|
+; 【なれはて】とは、<br>魔女因子が魂を食い尽くした<br>魔女の抜け殻のようなものです。
+【残骸】是指，<br>
+魔女因子将灵魂吞噬殆尽后，<br>
+遗留下的魔女的空壳。
+
+# 0205Trial01_Meruru006
+; > @printDebate pos:70,50 roll:4 |#0205Trial01_Meruru006|
+; 魔法も使えない、<br>ただのお人形……。
+残骸不能使用魔法，<br>
+纯粹只是个空洞的人偶……
+
+# 0205Trial01_Meruru007
+; > @printDebate pos:70,50 roll:4 |#0205Trial01_Meruru007|
+; 魔女因子が魂を喰らい尽くすと<br>魔女化して定着した<br>一部の因子を残して<br>その肉体を離れます。
+魔女因子将灵魂吞噬殆尽后，<br>
+会主动剥离因魔女化<br>
+固定下来的一部分因子，<br>
+离开那个肉体。
+
+# 0205Trial01_Meruru008
+; > @printDebate pos:70,50 roll:4 |#0205Trial01_Meruru008|
+; そして離れた魔女因子は<br>輪廻転生のように<br>新たな少女へと<br>移っていくんです。
+而离开的魔女因子<br>
+会像轮回转世一样，<br>
+转移到<br>
+新的少女身上。
+
+# 0205Trial01_Meruru009
+; > @printDebate pos:70,50 roll:4 |#0205Trial01_Meruru009|
+; ……で、でも私は……<br>そんな魔女化してできた<br>魔女とは<br>違う存在で――。
+……但、但是，我……<br>
+和那种因魔女化<br>
+转化而成的魔女，<br>
+是不同的造物——
+
+# 0205Trial01_Meruru010
+; > @printDebate pos:70,50 roll:4 |#0205Trial01_Meruru010|
+; ――最後に残った<br><link="Objection_02_05_01_03">【原初の魔女】</link>なんです。
+——我是仅存的<br>
+<link="Objection_02_05_01_03">【原初的魔女】</link>。
+
+# 0205Trial01_Hiro001
+; > @printDebate pos:30,50 roll:-4 |#0205Trial01_Hiro001|
+; 【原初の魔女】……？
+【原初的魔女】……？
+
+# 0205Trial01_Meruru011
+; > @printDebate pos:70,50 roll:4 |#0205Trial01_Meruru011|
+; この島にはその昔、<br>大魔女さまと共に<br>【原初の魔女】たる<br>大勢の魔女が住んでいました。
+很久以前，<br>
+有许多所谓的【原初的魔女】<br>
+和大魔女大人一起<br>
+共同住在这座岛上。
+
+# 0205Trial01_Meruru012
+; > @printDebate pos:70,50 roll:4 |#0205Trial01_Meruru012|
+; 【原初の魔女】とは、<br>元からこの島に<br><link="Objection_02_05_01_04">住んでいた者</link>たち……。
+【原初的魔女】就是指，<br>
+这座岛的<br>
+原<link="Objection_02_05_01_04">住民</link>……
+
+# 0205Trial01_Meruru013
+; > @printDebate pos:70,50 roll:4 |#0205Trial01_Meruru013|
+; 魔法を操る、<br><link="Objection_02_05_01_05">上位の存在</link>なんです……。
+是能够施展魔法的，<br>
+<link="Objection_02_05_01_05">高等的造物</link>……
+
+# 0205Trial01_Hiro002
+; > Hiro: |#0205Trial01_Hiro002|
+; （……まるで神話のような話だ。<br>　固有名詞ばかりで理解に労する部分もあるが……）
+（……简直像神话一样。<br>
+　专有名词太多，有些地方难以理解……）
+
+# 0205Trial01_Hiro003
+; > Hiro: |#0205Trial01_Hiro003|
+; （これまで私が見聞きした情報と合わせれば、<br>　彼女が言っていることは真実だ）
+（但结合我至今为止的所见所闻来判断，<br>
+　她说的话是真实的）
+
+# 0205Trial01_Hiro004
+; > Hiro: |#0205Trial01_Hiro004|
+; （……一部を除けば、だが）
+（……除了其中一部分）
+
+# 0205Trial01_Hiro005
+; > Hiro: |#0205Trial01_Hiro005|
+; （突きつけてみよう。<br>　彼女の語る言葉と私の持つ情報の相違点を……！）
+（就让我来当面指出吧。<br>
+　她说的话与我所知信息之间存在的差异……！）
+
+# 0205Trial01_Choice001
+; > @choice |#0205Trial01_Choice001| button:ChoiceButtons/Trial/Question handler:TrialHiro
+; 精神の魔女化とは？
+精神的魔女化是指？
+
+# Common_Return
+; > @choice |#Common_Return| button:ChoiceButtons/Trial/Cancel handler:TrialHiro
+; 戻る
+返回
+
+# 0205Trial01_Choice002
+; > @choice |#0205Trial01_Choice002| button:ChoiceButtons/Trial/Question handler:TrialHiro
+; 肉体の魔女化とは？
+肉体的魔女化是指？
+
+# 0205Trial01_Choice003
+; > @choice |#0205Trial01_Choice003| button:ChoiceButtons/Trial/Objection handler:TrialHiro
+; メルルは人間だ
+梅露露是人类
+
+# 0205Trial01_Choice004
+; > @choice |#0205Trial01_Choice004| button:ChoiceButtons/Trial/Objection handler:TrialHiro
+; 自然発生できない
+无法自然出现
+
+# 0205Trial01_Choice005
+; > @choice |#0205Trial01_Choice005| button:ChoiceButtons/Trial/Objection handler:TrialHiro
+; 私たちも魔法を使える
+我们也能用魔法
+
+# 0205Trial01_Hiro006
+; > Hiro: |#0205Trial01_Hiro006|
+; 精神の魔女化……。
+精神的魔女化……
+
+# 0205Trial01_Hiro007
+; > Hiro: |#0205Trial01_Hiro007|
+; 具体的にそれは何を指すのかな？
+具体来说是指什么呢？
+
+# 0205Trial01_Meruru014
+; > Meruru: |#0205Trial01_Meruru014|
+; えっと……<br>それは、精神の凶暴化ですね。
+呃……<br>
+那是指，精神的凶暴化。
+
+# 0205Trial01_Meruru015
+; > Meruru: |#0205Trial01_Meruru015|
+; 魔女化すると、<br>殺人衝動を抱いちゃうんです……。
+一旦开始魔女化，<br>
+就会产生杀人冲动……
+
+# 0205Trial01_Meruru016
+; > Meruru: |#0205Trial01_Meruru016|
+; それが大魔女様の残した呪いです……。
+这就是大魔女大人留下的诅咒……
+
+# 0205Trial01_Hiro008
+; > Hiro: |#0205Trial01_Hiro008|
+; （殺人衝動の増加……）
+（杀人冲动的增加……）
+
+# 0205Trial01_Hiro009
+; > Hiro: |#0205Trial01_Hiro009|
+; （私に残された時間も少ないか……）
+（看来我剩下的时间也不多了……）
+
+# 0205Trial01_Hiro010
+; > Hiro: |#0205Trial01_Hiro010|
+; 肉体の魔女化……<br>それは具体的に、どういうことが起こるのかな。
+肉体的魔女化……<br>
+具体来说，会发生什么事呢？
+
+# 0205Trial01_Meruru017
+; > Meruru: |#0205Trial01_Meruru017|
+; 最初は爪が伸びたりする程度ですが……。
+一开始程度不深，只会出现手指甲变长一类的情况……
+
+# 0205Trial01_Meruru018
+; > Meruru: |#0205Trial01_Meruru018|
+; 一定のラインを越えると、<br>不老不死になって……。
+但只要超过某个程度，<br>
+就会变得长生不死……
+
+# 0205Trial01_Meruru019
+; > Meruru: |#0205Trial01_Meruru019|
+; そうなったら大きな傷を負ったとしても、<br>時間が経てば治ってしまいます……。
+这时候就算受了重伤，<br>
+也能随着时间流逝而痊愈……
+
+# 0205Trial01_Meruru020
+; > Meruru: |#0205Trial01_Meruru020|
+; それは過去、<br>人間たちが噂した<br>【醜悪な化け物としての魔女】……。
+过去，<br>
+【貌似丑陋怪物的魔女形象】<br>
+在人类之间口耳相传……
+
+# 0205Trial01_Meruru021
+; > Meruru: |#0205Trial01_Meruru021|
+; その虚像としての怪物を再現しているんです。
+而魔女化正是重现了那虚构形象中的怪物。
+
+# 0205Trial01_Meruru022
+; > Meruru: |#0205Trial01_Meruru022|
+; とっても皮肉……ですよね……。<br>可哀想……。
+非常讽刺……对吧……<br>
+真可怜……
+
+# 0205Trial01_Hiro011
+; > Hiro: |#0205Trial01_Hiro011|
+; （……そうだ。<br>　それが魔女化だ）
+（……没错。<br>
+　这就是魔女化）
+
+# 0205Trial01_Hiro012
+; > Hiro: |#0205Trial01_Hiro012|
+; （今現在私に起きている現象……）
+（这就是目前正发生在我身上的现象……）
+
+# 0205Trial01_Hiro013
+; > Hiro: |#0205Trial01_Hiro013|
+; （他のみんなに<br>　【私のような化け物になってくれ】と言っても、<br>　承諾してくれるはずはないか……）
+（就算我去求别人说<br>
+　【请变成像我这样的怪物吧】，<br>
+　她们也绝不可能答应……）
+
+# 0205Trial01_Hiro014
+; > Hiro: |#0205Trial01_Hiro014|
+; ……それはおかしいな。
+……这很奇怪啊。
+
+# 0205Trial01_Hiro015
+; > Hiro: |#0205Trial01_Hiro015|
+; ここは絶海の孤島だ。
+这里是与世隔绝的孤岛。
+
+# 0205Trial01_Hiro016
+; > Hiro: |#0205Trial01_Hiro016|
+; 魔女が無から発生したとでも言うのかな？
+难不成你想说，魔女是无中生有自然产生的吗？
+
+# 0205Trial01_Meruru023
+; > Meruru: |#0205Trial01_Meruru023|
+; 魔女たちの出現については<br>私も詳細は知らないんです……。
+说到魔女究竟是怎么来的，<br>
+详情我也不是很清楚……
+
+# 0205Trial01_Meruru024
+; > Meruru: |#0205Trial01_Meruru024|
+; でもたしかに、<br>この島で発生したとは考えにくいですね……？
+不过，的确难以想像<br>
+她们是在岛上自然产生的呢……？
+
+# 0205Trial01_Meruru025
+; > Meruru: |#0205Trial01_Meruru025|
+; きっと、他の場所から移住してきたんじゃ……ないかと……。
+我想……她们大概是从其他地方移居过来的……吧……
+
+# 0205Trial01_Hiro017
+; > Hiro: |#0205Trial01_Hiro017|
+; ……そうか。
+……是这样啊。
+
+# 0205Trial01_Meruru026
+; > Meruru: |#0205Trial01_Meruru026|
+; あの……説明を再開させてもらっても<br>いいでしょうか……？
+那个……<br>
+我可以继续说明了吗……？
+
+# 0205Trial01_Meruru027
+; > Meruru: |#0205Trial01_Meruru027|
+; 魔女についての考察なら、<br>あとからたくさんお話しましょう……！
+想深入探讨魔女的话题的话，<br>
+我可以之后再陪你聊个够……！
+
+# 0205Trial01_Hiro018
+; > Hiro: |#0205Trial01_Hiro018|
+; （魔女オタク扱いされてしまった……）
+（被人当成魔女宅了……）
+
+# 0205Trial01_Hiro019
+; > Hiro: |#0205Trial01_Hiro019|
+; （今私がすべきは全員の魔女化だ）
+（我现在该完成的任务是所有人的魔女化）
+
+# 0205Trial01_Hiro020
+; > Hiro: |#0205Trial01_Hiro020|
+; （しかしどうしてメルルは<br>　私のように魔女化が進んでいないのだろうか。<br>　数百年生きているはずなのに……）
+（但为什么梅露露<br>
+　并没有像我一样出现明显的魔女化特征？<br>
+　明明她应该活了有几百年了……）
+
+# 0205Trial01_Hiro021
+; > Hiro: |#0205Trial01_Hiro021|
+; （それを突き止めるためには、<br>　まず彼女自身の情報を集める必要があるな……）
+（为了查明这一点，<br>
+　首先得收集有关她本人的情报……）
+
+# 0205Trial01_Hiro022
+; > Hiro: |#0205Trial01_Hiro022|
+; ……いいや。<br>私たちだって魔法を使える。
+……不。<br>
+我们也能使用魔法。
+
+# 0205Trial01_Hiro023
+; > Hiro: |#0205Trial01_Hiro023|
+; 島の魔女が人間の上位種であるとは限らない！
+岛上的魔女未必就比人类更高等！
+
+# 0205Trial01_Meruru028
+; > Meruru: |#0205Trial01_Meruru028|
+; そ、そもそも……！<br>みなさんの魔法は、<br>大魔女様が授けたものなんです……！
+说、说到底……！<br>
+各位的魔法，<br>
+都是大魔女大人赐予的……！
+
+# 0205Trial01_Meruru029
+; > Meruru: |#0205Trial01_Meruru029|
+; なので、大魔女様と人間が同列だなんて<br>間違っても言わないでください……！
+所以，不要再说什么<br>
+大魔女大人和人类是平等的了……！
+
+# 0205Trial01_Hiro024
+; > Hiro: |#0205Trial01_Hiro024|
+; （……メルルの機嫌を損ねてしまった気がする）
+（……好像惹梅露露不高兴了）
+
+# 0205Trial01_Hiro025
+; > Hiro: |#0205Trial01_Hiro025|
+; （魔女化はさせなくてはいけないが、<br>　途中で議論を打ち切られないようにしないと<br>　いけないな……）
+（虽然我必须促进她们的魔女化，<br>
+　但也得注意<br>
+　不能害讨论中途打断……）
+
+# 0205Trial01_Hiro026
+; > Hiro: |#0205Trial01_Hiro026|
+; （今私がすべきは全員の魔女化だ）
+（我现在该完成的任务是所有人的魔女化）
+
+# 0205Trial01_Hiro027
+; > Hiro: |#0205Trial01_Hiro027|
+; （しかしどうしてメルルは<br>　私のように魔女化が進んでいないのだろうか。<br>　数百年生きているはずなのに……）
+（但为什么梅露露<br>
+　并没有像我一样出现明显的魔女化特征？<br>
+　明明她应该活了有几百年了……）
+
+# 0205Trial01_Hiro028
+; > Hiro: |#0205Trial01_Hiro028|
+; （それを突き止めるためには、<br>　まず彼女自身の情報を集める必要があるな……）
+（为了查明这一点，<br>
+　首先得收集有关她本人的情报……）
+
+# 0205Trial01_Hiro029
+; > Hiro: |#0205Trial01_Hiro029|
+; ……それはどうかな。
+……那可未必。
+
+# 0205Trial01_Meruru030
+; > Meruru: |#0205Trial01_Meruru030|
+; えっ……！？
+欸……！？
+
+# 0205Trial01_Hiro030
+; > Hiro: |#0205Trial01_Hiro030|
+; 私は１つの事実を知っている。
+我知道某个事实。
+
+# 0205Trial01_Hiro031
+; > Hiro: |#0205Trial01_Hiro031|
+; それは、とある場所で見つけた手紙に書かれていたことだ。
+那是写在一封信上的。我在某个地方找到了这封信。
+
+# 0205Trial01_Hiro032
+; > Hiro: |#0205Trial01_Hiro032|
+; この書き手は、この島の住人……。
+写这封信的人，就是这座岛的居民……
+
+# 0205Trial01_Hiro033
+; > Hiro: |#0205Trial01_Hiro033|
+; 君が【原初の魔女】と呼ぶ人たちのようだ。
+也就是你称为【原初的魔女】的那些人。
+
+# 0205Trial01_Meruru031
+; > Meruru: |#0205Trial01_Meruru031|
+; ……それは…！
+……那是……！
+
+# 0205Trial01_Hiro034
+; > Hiro: |#0205Trial01_Hiro034|
+; その中に興味深い記述があった……。
+信里面有一段很有趣的表述……
+
+# 0205Trial01_Hiro035
+; > Hiro: |#0205Trial01_Hiro035|
+; 大魔女が、人間の少女を拾って育てたという話だ。
+上面说，大魔女曾经收养了一位人类少女。
+
+# 0205Trial01_Hiro036
+; > Hiro: |#0205Trial01_Hiro036|
+; 島の魔女たちが捕まっていく中、<br>最後に残されたのは大魔女と、<br>そしてもう１人……。
+在岛上的魔女们相继被抓走后，<br>
+最后剩下的便是大魔女，<br>
+以及另外一位……
+
+# 0205Trial01_Hiro037
+; > Hiro: |#0205Trial01_Hiro037|
+; ……【人間の少女】。
+……【人类少女】。
+
+# 0205Trial01_Meruru032
+; > Meruru: |#0205Trial01_Meruru032|
+; ………！
+………！
+
+# 0205Trial01_Hiro038
+; > Hiro: |#0205Trial01_Hiro038|
+; 君は自分のことを最後に残った原初の魔女だと言った。
+你说你自己是最后仅存的原初的魔女。
+
+# 0205Trial01_Hiro039
+; > Hiro: |#0205Trial01_Hiro039|
+; けれど、その手紙によれば最後に残ったのは<br>原初の魔女ではなく、<br>大魔女が育てた普通の人間だった……。
+但是，按那封信的内容来看，最后仅存的<br>
+并非原初的魔女，<br>
+而是大魔女抚养的普通人类……
+
+# 0205Trial01_Hiro040
+; > Hiro: |#0205Trial01_Hiro040|
+; ……メルル、これは君の証言と矛盾している記述だ。
+……梅露露，这份描述与你的证词存在矛盾。
+
+# 0205Trial01_Hiro041
+; > Hiro: |#0205Trial01_Hiro041|
+; 君はいったい、何者なのかな。
+那么你到底，是什么人呢？
+
+# 0205Trial01_Meruru033
+; > Meruru: |#0205Trial01_Meruru033|
+; ……そ、それは……その……！
+……那、那个……我……！
+
+# 0205Trial01_Meruru034
+; > Meruru: |#0205Trial01_Meruru034|
+; ……私は大魔女様に認められ、<br>そして力を与えられた魔女なんです……！
+……我是被大魔女大人认可，<br>
+且被赋予了力量的魔女……！
+
+# 0205Trial01_Meruru035
+; > Meruru: |#0205Trial01_Meruru035|
+; べつになにも……おかしなことなんてありませんっ！
+并没有什么……奇怪的地方！

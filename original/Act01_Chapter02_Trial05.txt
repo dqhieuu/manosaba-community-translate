@@ -1,0 +1,560 @@
+; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act01_Chapter02/Act01_Chapter02_Trial05' Naninovel scenario script
+
+# 0102Trial05_Nanoka001
+; > @printDebate pos:70,50 roll:4 |#0102Trial05_Nanoka001|
+; もう一度<br>お互いの言い分を<br>確認することに<br>しましょうか。
+我们再<br>
+核对一遍<br>
+彼此的<br>
+证词吧。
+
+# 0102Trial05_Nanoka002
+; > @printDebate pos:70,50 roll:4 |#0102Trial05_Nanoka002|
+; 私は<br>【遠野ハンナと<br>夏目アンアンが<br>出ていくのを見て】、<br>懲罰房へ向かった。
+我是<br>
+【看到远野汉娜<br>
+和夏目安安<br>
+离开以后】，<br>
+去了惩罚室。
+
+# 0102Trial05_Nanoka003
+; > @printDebate pos:70,50 roll:4 |#0102Trial05_Nanoka003|
+; そうしたら<br>中では佐伯ミリアが<br>【死んでいた】。
+然后就看见<br>
+房间里的佐伯米莉亚<br>
+【死了】。
+
+# 0102Trial05_Nanoka004
+; > @printDebate pos:70,50 roll:4 |#0102Trial05_Nanoka004|
+; 扉の鍵は開いていて、<br>鍵は部屋の中に<br>落ちていたわ。
+门没有上锁，<br>
+钥匙丢在<br>
+房间里。
+
+# 0102Trial05_Hanna001
+; > @printDebate pos:30,50 roll:-4 |#0102Trial05_Hanna001|
+; そ、そんなの<br>嘘ですわ！？<br>だって……！
+那、<br>
+那不可能呀！？<br>
+因为……！
+
+# 0102Trial05_Hanna002
+; > @printDebate pos:30,50 roll:-4 |#0102Trial05_Hanna002|
+; わたくしと<br>アンアンさんは、<br>２人でミリアさんの声を<br>聞きましたもの！
+我和安安<br>
+两个人都听到了<br>
+米莉亚的声音！<br>
+
+
+# 0102Trial05_Hanna003
+; > @printDebate pos:30,50 roll:-4 |#0102Trial05_Hanna003|
+; あの時、<br>ミリアさんは<br>【生きていた】んですの！
+那时候，<br>
+米莉亚还<br>
+【活着】呢！
+
+# 0102Trial05_AnAn001
+; > @printDebate pos:70,50 roll:4 |#0102Trial05_AnAn001|
+; 『異論はない』
+『没有异议』
+
+# 0102Trial05_Meruru001
+; > @printDebate pos:30,50 roll:-4 |#0102Trial05_Meruru001|
+; けれど<br>懲罰房の前の廊下は<br>一本道です……。<br>もしナノカさんの<br>言ってる事が<br>本当なら……。
+可是<br>
+惩罚室前面<br>
+只有走廊这一条路，<br>
+如果<br>
+奈叶香小姐<br>
+说的是真的……
+
+# 0102Trial05_Sherry001
+; > @printDebate pos:70,50 roll:4 |#0102Trial05_Sherry001|
+; ミリアさんは<br>悲鳴をあげてすぐに<br>殺された……。
+那她就是<br>
+发出惨叫后<br>
+立即遇害了……
+
+# 0102Trial05_Margo001
+; > @printDebate pos:30,50 roll:-4 |#0102Trial05_Margo001|
+; むしろその悲鳴こそが<br>【断末魔】だったのかも<br>しれないわね？
+那声惨叫<br>
+说不定就是<br>
+【临终前的惨叫】呢？
+
+# 0102Trial05_Nanoka005
+; > @printDebate pos:70,50 roll:4 |#0102Trial05_Nanoka005|
+; ……だとしても<br>おかしいわ。<br>中には誰も<br>いなかったもの。
+……就算是<br>
+也很奇怪，<br>
+因为房间里<br>
+没有人。
+
+# 0102Trial05_Alisa001
+; > @printDebate pos:30,50 roll:-4 |#0102Trial05_Alisa001|
+; ならやっぱり<br>お前が嘘ついてんじゃ<br>ねーのか……！？
+那说到底<br>
+还是你在<br>
+说谎吧……！？
+
+# 0102Trial05_Nanoka006
+; > @printDebate pos:70,50 roll:4 |#0102Trial05_Nanoka006|
+; ……私としては<br>その意見を<br>否定するしかないわね。
+……从我个人的<br>
+角度出发，<br>
+只能否定你的判断。
+
+# 0102Trial05_Sherry002
+; > @printDebate pos:30,50 roll:-4 |#0102Trial05_Sherry002|
+; なら、<br>犯人はまだ部屋に<br>隠れていたんじゃ<br>ないんですか？
+那，<br>
+凶手会不会<br>
+还藏在房间里？<br>
+
+
+# 0102Trial05_Sherry003
+; > @printDebate pos:30,50 roll:-4 |#0102Trial05_Sherry003|
+; <link="Objection_01_02_05_01">廊下</link>とか、<br><link="Objection_01_02_05_02">部屋の中</link>とか！<br><link="Objection_01_02_05_03">秘密の抜け道</link>とか<br>あったりして！
+可能在<link="Objection_01_02_05_01">走廊</link>，<br>
+可能在<link="Objection_01_02_05_02">房间里</link>！<br>
+说不定还有<br>
+<link="Objection_01_02_05_03">秘密通道</link>呢！
+
+# 0102Trial05_Nanoka007
+; > @printDebate pos:70,50 roll:4 |#0102Trial05_Nanoka007|
+; 仮にそうだったとしても、<br>犯人はタイミングよく<br>隠れた事になるわね。
+就算真是这样，<br>
+凶手藏身的时机<br>
+未免把握得太好了。
+
+# 0102Trial05_Nanoka008
+; > @printDebate pos:70,50 roll:4 |#0102Trial05_Nanoka008|
+; ……何かを<br>私たちが勘違いしている<br>可能性もあると思うわ。
+……我觉得<br>
+我们可能<br>
+误会了什么。
+
+# 0102Trial05_Sherry004
+; > @printDebate pos:30,50 roll:-4 |#0102Trial05_Sherry004|
+; そうですね～……。
+是啊～……
+
+# 0102Trial05_Sherry005
+; > @printDebate pos:30,50 roll:-4 |#0102Trial05_Sherry005|
+; 実は<link="Objection_01_02_05_04">勘違い</link>だったとか、<br>それとも<br>３人のうちの誰かが<br><link="Objection_01_02_05_05">嘘をついている</link><br>とか……。
+要么是<link="Objection_01_02_05_04">误会</link>，<br>
+要么是<br>
+三个人当中<br>
+有人在<link="Objection_01_02_05_05">说谎</link>……<br>
+
+
+# 0102Trial05_Sherry006
+; > @printDebate pos:30,50 roll:-4 |#0102Trial05_Sherry006|
+; いろんな可能性が<br>考えられて<br>ワクワクしますね！
+有好多的<br>
+可能性，<br>
+真是让人激动！
+
+# 0102Trial05_Margo002
+; > @printDebate pos:70,50 roll:4 |#0102Trial05_Margo002|
+; あらあら、<br>考えすぎもよくない事よ。<br>……真相なんて、<br>案外シンプルだったり<br>するんだから。
+哎呀呀，<br>
+想太多也不好哦。<br>
+……真相这种东西，<br>
+有时候其实<br>
+很简单。
+
+# 0102Trial05_Ema001
+; > Ema: |#0102Trial05_Ema001|
+; （いったいその時、何が起こってたんだろう……）
+（那时究竟发生了什么事……）
+
+# 0102Trial05_Ema002
+; > Ema: |#0102Trial05_Ema002|
+; （みんなの声に耳を傾けてみよう……。<br>　検証するんだ……可能性の１つ１つを！）
+（我要仔细倾听大家的发言……<br>
+　去检验每一种可能性……！）
+
+# 0102Trial05_Choice001
+; > @choice |#0102Trial05_Choice001| button:ChoiceButtons/Trial/Approval handler:Trial
+; 犯人は廊下にいた
+凶手在走廊上
+
+# Common_Return
+; > @choice |#Common_Return| button:ChoiceButtons/Trial/Cancel handler:Trial
+; 戻る
+返回
+
+# 0102Trial05_Choice002
+; > @choice |#0102Trial05_Choice002| button:ChoiceButtons/Trial/Approval handler:Trial
+; 犯人は懲罰房にいた
+凶手在惩罚室里
+
+# 0102Trial05_Choice003
+; > @choice |#0102Trial05_Choice003| button:ChoiceButtons/Trial/Approval handler:Trial
+; 犯人は抜け道を使った
+凶手从秘密通道逃走了
+
+# 0102Trial05_Choice004
+; > @choice |#0102Trial05_Choice004| button:ChoiceButtons/Trial/Approval handler:Trial
+; ２人の勘違い
+是她们两个误会了
+
+# 0102Trial05_Choice005
+; > @choice |#0102Trial05_Choice005| button:ChoiceButtons/Trial/Approval handler:Trial
+; ２人が嘘をついている
+是她们两个都在说谎
+
+# 0102Trial05_Choice006
+; > @choice |#0102Trial05_Choice006| button:ChoiceButtons/Trial/Approval handler:Trial
+; ナノカが嘘をついている
+是奈叶香在说谎
+
+# 0102Trial05_Ema003
+; > Ema: |#0102Trial05_Ema003|
+; ナノカちゃんがミリアちゃんを見つけた時<br>犯人がまだ懲罰房にいた可能性はないかな？
+奈叶香，你发现米莉亚的时候<br>
+凶手有可能还留在惩罚室里吗？
+
+# 0102Trial05_Nanoka009
+; > Nanoka: |#0102Trial05_Nanoka009|
+; ……ありえない、<br>とは言い切れないわね。
+……我也没法一口咬定<br>
+说不可能。
+
+# 0102Trial05_Nanoka010
+; > Nanoka: |#0102Trial05_Nanoka010|
+; あの時……死体を見た自分が、<br>完全に冷静だったとは言い難いし……<br>視野が狭まっていた可能性もあるわ。
+那时候……我目击了尸体，<br>
+很难说没有一丝慌乱……<br>
+有可能没顾上看其他地方。
+
+# 0102Trial05_Coco001
+; > Coco: |#0102Trial05_Coco001|
+; でも、ナノカは死体を確認した後、<br>【懲罰房の鍵を閉めて】出て行ったんっしょ？
+但你在检查完尸体以后，<br>
+【锁上惩罚室的门】就走了，不是吗？
+
+# 0102Trial05_Coco002
+; > Coco: |#0102Trial05_Coco002|
+; そうなると……<br>犯人は閉じ込められているはずじゃね？
+这么一来……<br>
+凶手不就被关在里面了吗？
+
+# 0102Trial05_Hanna004
+; > Hanna: |#0102Trial05_Hanna004|
+; ……ですが、わたくしたちが懲罰房についた時には<br>犯人の姿はなかったですわ……？
+……可是，我们到惩罚室的时候<br>
+并没有看见凶手啊……？
+
+# 0102Trial05_Margo003
+; > Margo: |#0102Trial05_Margo003|
+; 懲罰房の闇に紛れ、みんなの視野に入らず、<br>脱出できる犯人……。
+能躲在惩罚室的暗处，<br>
+并且在众目睽睽之下逃脱的凶手……
+
+# 0102Trial05_Margo004
+; > Margo: |#0102Trial05_Margo004|
+; 犯人は忍者かカメレオンだったりするのかしらね？
+难道凶手是忍者，或者是变色龙？
+
+# 0102Trial05_Alisa002
+; > Alisa: |#0102Trial05_Alisa002|
+; 何言ってんだ桜羽。<br>んなわけねえだろ。
+你在说什么樱羽。<br>
+这怎么可能啊。
+
+# 0102Trial05_Ema004
+; > Ema: |#0102Trial05_Ema004|
+; （ボクが怒られるの……！？）
+（我被骂了……！？）
+
+# 0102Trial05_Ema005
+; > Ema: |#0102Trial05_Ema005|
+; （みんなの言い分を真実と考えると、<br>　やっぱり矛盾が生まれちゃうみたいだ……）
+（如果大家的证词都是真的，<br>
+　好像就必定会产生矛盾之处……）
+
+# 0102Trial05_Ema006
+; > Ema: |#0102Trial05_Ema006|
+; （もう一度みんなの言葉を検証してみよう……！）
+（再检验一遍大家的发言吧……！）
+
+# 0102Trial05_Ema007
+; > Ema: |#0102Trial05_Ema007|
+; （誰かが嘘を言ってるのかな……？<br>　それとも――）
+（是有人在说谎吗……？<br>
+　还是说——）
+
+# 0102Trial05_Ema008
+; > Ema: |#0102Trial05_Ema008|
+; シェリーちゃんが言うように、<br>犯人は廊下に隠れていたのかも……！
+也许正如雪莉所说的那样，<br>
+凶手躲在走廊里……！
+
+# 0102Trial05_Hanna005
+; > Hanna: |#0102Trial05_Hanna005|
+; わ、わたくしたちが帰って、<br>ナノカさんが懲罰房につく間に……？
+就、就从我们回去<br>
+到奈叶香抵达惩罚室的这短短时间里……？
+
+# 0102Trial05_Margo005
+; > Margo: |#0102Trial05_Margo005|
+; 犯人は、その１分足らずで<br>懲罰房から出て、廊下のどこかに隠れた……？
+凶手在这不足一分钟的时间里<br>
+离开惩罚室躲到了走廊里……？
+
+# 0102Trial05_Margo006
+; > Margo: |#0102Trial05_Margo006|
+; 廊下に隠れる場所なんてないわ。
+但走廊里没有藏身之处。
+
+# 0102Trial05_Margo007
+; > Margo: |#0102Trial05_Margo007|
+; 他の懲罰房も鍵がかかっているし、<br>やり過ごすなんてできないんじゃないかしら？
+其他惩罚室都上了锁，<br>
+凶手也不可能暂时躲在其他房间里吧？
+
+# 0102Trial05_Coco003
+; > Coco: |#0102Trial05_Coco003|
+; さすがにあてぃしらの目は節穴じゃねーっての！<br>エマっちと違って！
+我们的眼睛可不是白长的啊！<br>
+和艾玛亲你不一样！
+
+# 0102Trial05_Ema009
+; > Ema: |#0102Trial05_Ema009|
+; （怒らせちゃった……！）
+（惹她生气了……！）
+
+# 0102Trial05_Ema010
+; > Ema: |#0102Trial05_Ema010|
+; （みんなの言い分を真実と考えると、<br>　やっぱり矛盾が生まれちゃうみたいだ……）
+（如果大家的证词都是真的，<br>
+　好像就必定会产生矛盾之处……）
+
+# 0102Trial05_Ema011
+; > Ema: |#0102Trial05_Ema011|
+; （もう一度みんなの言葉を検証してみよう……！）
+（再检验一遍大家的发言吧……！）
+
+# 0102Trial05_Ema012
+; > Ema: |#0102Trial05_Ema012|
+; （誰かが嘘を言ってるのかな……？<br>　それとも――）
+（是有人在说谎吗……？<br>
+　还是说——）
+
+# 0102Trial05_Ema013
+; > Ema: |#0102Trial05_Ema013|
+; そっか……！<br>きっと懲罰房には秘密の抜け道があって――。
+对哦……！<br>
+惩罚室里肯定有秘密通道——
+
+# 0102Trial05_Coco004
+; > Coco: |#0102Trial05_Coco004|
+; 拷問する部屋に抜け道作る必要ある？
+有必要在用来拷问的房间里造秘密通道吗？
+
+# 0102Trial05_Alisa003
+; > Alisa: |#0102Trial05_Alisa003|
+; むしろ作っちゃダメだろ。<br>脱出されたら困るし。
+应该说根本不能造吧。<br>
+要是把人放跑就麻烦了。
+
+# 0102Trial05_Margo008
+; > Margo: |#0102Trial05_Margo008|
+; 閉鎖的な空間だからこそイイのよねえ♡
+就是封闭空间才好呢♡
+
+# 0102Trial05_Alisa004
+; > Alisa: |#0102Trial05_Alisa004|
+; 意味わかんねーよ。
+搞不懂你在说什么。
+
+# 0102Trial05_Sherry007
+; > Sherry: |#0102Trial05_Sherry007|
+; やっぱりそれは違うみたいですね！<br>エマさん！
+这个好像不太对呀！<br>
+艾玛！
+
+# 0102Trial05_Ema014
+; > Ema: |#0102Trial05_Ema014|
+; （シェリーちゃんが言ったことなのに……！？）
+（不是你自己提出来的吗……！？）
+
+# 0102Trial05_Ema015
+; > Ema: |#0102Trial05_Ema015|
+; （……現場に抜け道は見当たらなかった。<br>　他の可能性を考えるべきかも……）
+（……现场没有发现秘密通道。<br>
+　也许该考虑下其他的可能性……）
+
+# 0102Trial05_Ema016
+; > Ema: |#0102Trial05_Ema016|
+; （もう一度みんなの言葉を検証してみよう……！）
+（再检验一遍大家的发言吧……！）
+
+# 0102Trial05_Ema017
+; > Ema: |#0102Trial05_Ema017|
+; （誰かが嘘を言ってるのかな……？<br>　それとも――）
+（是有人在说谎吗……？<br>
+　还是说——）
+
+# 0102Trial05_Ema018
+; > Ema: |#0102Trial05_Ema018|
+; ハンナちゃんとナノカちゃん、<br>２人とも嘘をついてる……とか？
+汉娜和奈叶香，<br>
+也许……你们都在说谎？
+
+# 0102Trial05_Hanna006
+; > Hanna: |#0102Trial05_Hanna006|
+; わ、わたくしがどんな嘘をついてるっていうんですの！？！
+那、那你倒说说看我说了什么谎！？！
+
+# 0102Trial05_Ema019
+; > Ema: |#0102Trial05_Ema019|
+; それは……全部嘘だったらナノカちゃんの言葉と<br>矛盾しないんじゃないかな……？
+这个嘛……如果你说的都是谎话，<br>
+就不会和奈叶香的话有矛盾了吧……？
+
+# 0102Trial05_Margo009
+; > Margo: |#0102Trial05_Margo009|
+; その場合、ハンナちゃんとアンアンちゃんが共犯になるわね。
+如果是这样，汉娜和安安就成了共犯呢。
+
+# 0102Trial05_AnAn002
+; > AnAn: |#0102Trial05_AnAn002|
+; 『証拠もないのに共犯扱いとは』
+『竟敢没有证据就污蔑别人是共犯』
+
+# 0102Trial05_AnAn003
+; > AnAn: |#0102Trial05_AnAn003|
+; 『万死に値する』
+『罪该万死』
+
+# 0102Trial05_Meruru002
+; > Meruru: |#0102Trial05_Meruru002|
+; エ、エマさん……！<br>それは言いがかりと呼ばれるものかもしれません……！
+艾、艾玛小姐……！<br>
+你这样做可能有点无理取闹……！
+
+# 0102Trial05_Ema020
+; > Ema: |#0102Trial05_Ema020|
+; （メルルちゃんにまでたしなめられちゃった……）
+（连梅露露都来责备我了……）
+
+# 0102Trial05_Ema021
+; > Ema: |#0102Trial05_Ema021|
+; （……２人の共犯を裏付けられるような材料はないのかも……）
+（……我好像没有能证明她们是共犯的材料……）
+
+# 0102Trial05_Ema022
+; > Ema: |#0102Trial05_Ema022|
+; （他の可能性を検証してみよう……！）
+（检验一下其他的可能性吧……！）
+
+# 0102Trial05_Ema023
+; > Ema: |#0102Trial05_Ema023|
+; ……ナノカちゃんが嘘をついてるんじゃないかな？<br>ナノカちゃんが嘘を言ってるとしたら全部説明がつくよ！
+……是奈叶香你在说谎吧？<br>
+如果是这样那一切都能说得通了！
+
+# 0102Trial05_Nanoka011
+; > Nanoka: |#0102Trial05_Nanoka011|
+; ……そうね。
+……是啊。
+
+# 0102Trial05_Nanoka012
+; > Nanoka: |#0102Trial05_Nanoka012|
+; でも、だとしたらどうして私は自分から<br>懲罰房の鍵なんて提出したのかしら？
+但如果是这样，为什么我要主动出示<br>
+惩罚室的钥匙？
+
+# 0102Trial05_Nanoka013
+; > Nanoka: |#0102Trial05_Nanoka013|
+; 自分からわざわざ死体現場にいたのだと<br>証言する必要はないでしょう。
+按理说我没有必要主动提出<br>
+自己在案发现场的证词吧。
+
+# 0102Trial05_Margo010
+; > Margo: |#0102Trial05_Margo010|
+; たしかに一理あると思うわ。<br>嘘と決めつけるのは早計かもね？
+她说得倒也在理。<br>
+现在就断定她在说谎未免太早吧？
+
+# 0102Trial05_Ema024
+; > Ema: |#0102Trial05_Ema024|
+; （ナノカちゃんが嘘をついているとしたら<br>　たしかに筋は通るけど……）
+（要是奈叶香在说谎的话<br>
+　的确就能说得通了，但是……）
+
+# 0102Trial05_Ema025
+; > Ema: |#0102Trial05_Ema025|
+; （他に考えられる可能性はないか……<br>　もう一度検討してみよう……！）
+（会不会有其他可能性呢……<br>
+　再探讨一下吧……！）
+
+# 0102Trial05_Ema026
+; > Ema: |#0102Trial05_Ema026|
+; ……ボクもそう思うよ、シェリーちゃん。
+……我也这么认为，雪莉。
+
+# 0102Trial05_Sherry008
+; > Sherry: |#0102Trial05_Sherry008|
+; え？ 何がですか？
+欸？认为什么？
+
+# 0102Trial05_Ema027
+; > Ema: |#0102Trial05_Ema027|
+; ３人の話が本当だとしたら……<br>【声を聞いた】という状況が<br>間違いだったんだと思う。
+如果她们三人都说的是实话……<br>
+那就不可能出现<br>
+【听见叫声】的情况。
+
+# 0102Trial05_Hanna007
+; > Hanna: |#0102Trial05_Hanna007|
+; そ、そんなことありませんわ！？<br>だってわたくしたち、聞きましたもの！
+怎、怎么不可能！？<br>
+我们可是听得一清二楚！
+
+# 0102Trial05_Hanna008
+; > Hanna: |#0102Trial05_Hanna008|
+; ここに録音したデータだってありますわ！
+录音文件都在这里！
+
+# 0102Trial05_Ema028
+; > Ema: |#0102Trial05_Ema028|
+; それは……。
+这是……
+
+# 0102Trial05_Sherry009
+; > Sherry: |#0102Trial05_Sherry009|
+; なるほど！<br>わかりましたよエマさん！
+原来如此！<br>
+我明白了艾玛！
+
+# 0102Trial05_Ema029
+; > Ema: |#0102Trial05_Ema029|
+; ……え？
+……欸？
+
+# 0102Trial05_Sherry010
+; > Sherry: |#0102Trial05_Sherry010|
+; 犯人は……<br>宝生マーゴさん、<br>あなただったんです！！
+凶手是……<br>
+宝生玛格，<br>
+就是你！！
+
+# 0102Trial05_Margo011
+; > Margo: |#0102Trial05_Margo011|
+; ……あら？ 私が犯人なの？
+……哦？我是凶手？
+
+# 0102Trial05_Margo012
+; > Margo: |#0102Trial05_Margo012|
+; どういう推理なのかしら？<br>ぜひ聞かせて欲しいわ♪
+你是如何推理出来的？<br>
+请说来听听♪
+
+# 0102Trial05_Sherry011
+; > Sherry: |#0102Trial05_Sherry011|
+; ええ！ もちろん！
+当然！没问题！
