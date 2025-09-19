@@ -510,6 +510,8 @@ def generate_file_summary(client, sheet_name: str, rows: List[Tuple[str, str, st
             instructions=sys_prompt,
             input=user_prompt
         )
+        # print(f"Summary Input: ")
+        # print(sys_prompt + "\n" + user_prompt)
         return (resp.output_text or "").strip()
     except Exception as e:
         print(f"Error generating summary for {sheet_name}: {e}")
@@ -549,27 +551,9 @@ def translate_ai(num_lines: int) -> None:
             print(f"Warning: Sheet {sheet_name} has invalid headers. Skipping.")
             continue
 
-        rows = []
-        for r in range(2, ws.max_row + 1):
-            row_id = (ws.cell(row=r, column=col_id).value or "").strip()
-            if not row_id:
-                continue
-            original = ws.cell(row=r, column=col_orig).value or ""
-            chinese = ws.cell(row=r, column=col_chinese).value or ""
-            rows.append((row_id, original, chinese))
-
-        summary = ""
-        if sum_ws:
-            for row in sum_ws.iter_rows(min_row=2, values_only=True):
-                if row and row[0] == sheet_name:
-                    summary = row[1] or ""
-                    break
-        if not summary:
-            summary = generate_file_summary(client, sheet_name, rows)
-            if summary and sum_ws:
-                sum_ws.append([sheet_name, summary])
-                print(f"Summary for {sheet_name}: {summary}")
-
+        # Thu thập các dòng cần dịch
+        rows_to_translate = []
+        row_indices = []
         for r in range(2, ws.max_row + 1):
             if processed >= num_lines:
                 break
@@ -583,35 +567,98 @@ def translate_ai(num_lines: int) -> None:
             chinese = ws.cell(row=r, column=col_chinese).value or ""
             if not original and not chinese:
                 continue
+            rows_to_translate.append((row_id, original, chinese))
+            row_indices.append(r)
+            processed += 1
 
-            sys_prompt = (
-                f"Knowledge base (user-provided notes):\n{knowledge_text or '<empty>'}\n\n"
-                f"File summary:\n{summary or '<no summary>'}\n\n"
+        if not rows_to_translate:
+            continue
+
+        # Tạo tóm tắt nếu cần
+        summary = ""
+        if sum_ws:
+            for row in sum_ws.iter_rows(min_row=2, values_only=True):
+                if row and row[0] == sheet_name:
+                    summary = row[1] or ""
+                    break
+        if not summary:
+            summary = generate_file_summary(client, sheet_name, rows_to_translate)
+            if summary and sum_ws:
+                sum_ws.append([sheet_name, summary])
+                print(f"Summary for {sheet_name}: {summary}")
+
+        # Tạo prompt duy nhất cho toàn bộ sheet
+        prompt_lines = []
+        for idx, (row_id, original, chinese) in enumerate(rows_to_translate, 1):
+            prompt_lines.append(
+                f"Line {idx}:\n"
+                f"ID: {row_id}\n"
+                f"Original value (source 1): {original or '<empty>'}\n"
+                f"Chinese value (source 2): {chinese or '<empty>'}\n"
             )
-            user_prompt = (
-                f"Sheet: {sheet_name}\n"
-                f"ID: {row_id}\n\n"
-                f"Original value (source 1):\n{original or '<empty>'}\n\n"
-                f"Chinese value (source 2):\n{chinese or '<empty>'}\n\n"
-                "Dịch ra Tiếng Việt. Không giải thích gì thêm, chỉ cung cấp bản dịch."
+        content = "\n".join(prompt_lines)
+        sys_prompt = (
+            f"Knowledge base (user-provided notes):\n{knowledge_text or '<empty>'}\n\n"
+            f"File summary:\n{summary or '<no summary>'}\n\n"
+            "You are a translator for a visual novel. Translate the following lines into Vietnamese. "
+            "Return the translations in a numbered list corresponding to each line's index. "
+            "Preserve placeholders, variables, control codes, line breaks, speaker tone, honorifics where appropriate, and context. "
+            "Do not provide explanations, only the translations in the format:\n"
+            "1. <translation>\n2. <translation>\n..."
+        )
+        user_prompt = f"Sheet: {sheet_name}\n\nContent:\n{content}\n\nTranslate into Vietnamese as a numbered list."
+
+        try:
+            resp = client.responses.create(
+                model=model,
+                reasoning=Reasoning(effort="low"),
+                instructions=sys_prompt,
+                input=user_prompt
             )
-            try:
-                resp = client.responses.create(
-                    model=model,
-                    reasoning=Reasoning(effort="minimal"),
-                    instructions=sys_prompt,
-                    input=user_prompt
-                )
-                ai_text = (resp.output_text or "").strip()
-                if ai_text.lower().startswith("tóm tắt") or "summary" in ai_text.lower():
-                    print(f"Warning: AI output for {sheet_name} | ID {row_id} contains summary: {ai_text}")
+            # print(f"Translate Input: ")
+            # print(sys_prompt + "\n" + user_prompt)
+            ai_text = (resp.output_text or "").strip()
+            if not ai_text:
+                print(f"Warning: Empty response for {sheet_name}")
+                continue
+
+            print(ai_text)
+
+            # Phân tích phản hồi thành danh sách các bản dịch
+            translations = []
+            current_translation = []
+            current_num = None
+            for line in ai_text.split('\n'):
+                line = line.strip()
+                if not line:
                     continue
-                if ai_text:
-                    ws.cell(row=r, column=col_mtl).value = ai_text
-                    processed += 1
-                    print(f"Translated: {sheet_name} | ID {row_id}. Result: {ai_text}")
-            except Exception as e:
-                print(f"OpenAI API error on {sheet_name} row {r}: {e}")
+                match = re.match(r'^(\d+)\.\s*(.*)$', line)
+                if match:
+                    if current_translation and current_num is not None:
+                        translations.append((current_num, '\n'.join(current_translation).strip()))
+                    current_num = int(match.group(1))
+                    current_translation = [match.group(2).strip()]
+                else:
+                    if current_num is not None:
+                        current_translation.append(line)
+            if current_translation and current_num is not None:
+                translations.append((current_num, '\n'.join(current_translation).strip()))
+
+            # Gán bản dịch vào các ô tương ứng
+            for num, translation in translations:
+                if num > len(rows_to_translate):
+                    print(f"Warning: Translation index {num} exceeds number of rows in {sheet_name}")
+                    continue
+                row_idx = row_indices[num - 1]
+                if translation.lower().startswith("tóm tắt") or "summary" in translation.lower():
+                    print(f"Warning: AI output for {sheet_name} | Line {num} contains summary: {translation}")
+                    continue
+                if translation:
+                    ws.cell(row=row_idx, column=col_mtl).value = translation
+                    print(f"Translated: {sheet_name} | ID {rows_to_translate[num - 1][0]}. Result: {translation}")
+
+        except Exception as e:
+            print(f"OpenAI API error on {sheet_name}: {e}")
 
         if processed >= num_lines:
             break
