@@ -670,6 +670,35 @@ def translate_ai(num_lines: int) -> None:
     else:
         print("No rows required translation or already filled.")
 
+def unpack_bundle(folder_path: str) -> None:
+    folder = Path(folder_path)
+    bundle_paths = list(folder.rglob("*.bundle"))
+
+    if not bundle_paths:
+        print(f"No .bundle files found in {folder_path}")
+        return
+
+    os.makedirs(ORIGINAL_DIR, exist_ok=True)
+
+    print(f"Found {len(bundle_paths)} .bundle files to unpack:")
+
+    for bundle_path in bundle_paths:
+        try:
+            bundle = UnityPy.load(str(bundle_path))
+            for obj in bundle.objects:
+                if obj.type.name == "TextAsset":
+                    data = obj.read()
+                    file_name = obj.container.split('/')[-1]
+                    if not file_name.endswith(".txt"):
+                        file_name += ".txt"
+                    out_path = os.path.join(ORIGINAL_DIR, file_name)
+                    os.makedirs(os.path.dirname(out_path), exist_ok=True)
+                    with open(out_path, "w", encoding="utf-8-sig", newline="") as f:
+                        f.write(data.m_Script)
+                    print(f"Extracted {file_name} from {bundle_path}")
+        except Exception as e:
+            print(f"Error unpacking {bundle_path}: {e}")
+
 def rebuild_translated_files() -> None:
     if not os.path.exists(XLSX_PATH):
         print(f"translate.xlsx not found at {XLSX_PATH}. Run parse first.")
@@ -814,9 +843,65 @@ def refresh():
         sys.exit(1)
 
     wb = load_workbook(XLSX_PATH)
+
+    # --- Kiểm tra file .txt mới trong ORIGINAL_DIR ---
+    existing_sheets = set(wb.sheetnames)
+    existing_meta = set()
+    if "Metadata" in wb.sheetnames:
+        for r in wb["Metadata"].iter_rows(min_row=2, values_only=True):
+            if r and r[0]:
+                existing_meta.add(str(r[0]))
+
+    new_metadata_rows = []
+    for fname in sorted(os.listdir(ORIGINAL_DIR)):
+        if not fname.lower().endswith(".txt"):
+            continue
+        base_sheet_name = os.path.splitext(fname)[0]
+        sheet_name = sanitize_sheet_name(base_sheet_name)
+
+        if sheet_name in existing_sheets or sheet_name in existing_meta:
+            continue  # đã có
+
+        path = os.path.join(ORIGINAL_DIR, fname)
+        try:
+            with open(path, "r", encoding="utf-8") as f:
+                lines = f.readlines()
+        except UnicodeDecodeError:
+            with open(path, "r", encoding="cp932", errors="replace") as f:
+                lines = f.readlines()
+
+        ftype = detect_file_type(lines)
+        if ftype is None:
+            print(f"Warning: Could not detect file type for {fname}. Skipping.")
+            continue
+
+        data = parse_type1(lines) if ftype == 1 else parse_type2(lines)
+
+        # tạo sheet mới
+        ws = wb.create_sheet(title=sheet_name)
+        ws.append(HEADER)
+        style_and_freeze(ws)
+        for _id, original, localized in data:
+            ws.append([_id, original, trim_blank_lines(localized), "", ""])
+        apply_wrap_to_all_cells(ws)
+
+        new_metadata_rows.append([sheet_name, fname, ftype])
+        print(f"Added new sheet for {fname} -> {sheet_name}")
+
+    # --- Cập nhật Metadata ---
+    if new_metadata_rows:
+        if "Metadata" not in wb.sheetnames:
+            meta_ws = wb.create_sheet(title="Metadata")
+            meta_ws.append(META_HEADER)
+        else:
+            meta_ws = wb["Metadata"]
+        for row in new_metadata_rows:
+            meta_ws.append(row)
+
+    # --- Update lại Overview ---
     update_overview(wb)
     wb.save(XLSX_PATH)
-    print(f"Refreshed Overview sheet in {XLSX_PATH}")
+    print(f"Refreshed {XLSX_PATH}. Added {len(new_metadata_rows)} new sheet(s).")
 
 def main():
     if len(sys.argv) < 2:
@@ -825,6 +910,8 @@ def main():
     cmd = sys.argv[1].lower()
     if cmd == 'parse':
         parse_original_files()
+    elif cmd == 'unpack' and len(sys.argv) >= 3:
+        unpack_bundle(sys.argv[2])
     elif cmd == 'build':
         rebuild_translated_files()
     elif cmd == 'pack' and len(sys.argv) >= 3:
@@ -850,4 +937,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
