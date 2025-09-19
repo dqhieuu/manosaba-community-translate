@@ -506,7 +506,7 @@ def generate_file_summary(client, sheet_name: str, rows: List[Tuple[str, str, st
     try:
         resp = client.responses.create(
             model=os.environ.get("OPENAI_MODEL", "gpt-5-mini"),
-            reasoning=Reasoning(effort="low"),
+            reasoning=Reasoning(effort="medium"),
             instructions=sys_prompt,
             input=user_prompt
         )
@@ -611,7 +611,7 @@ def translate_ai(num_lines: int) -> None:
         try:
             resp = client.responses.create(
                 model=model,
-                reasoning=Reasoning(effort="low"),
+                reasoning=Reasoning(effort="medium"),
                 instructions=sys_prompt,
                 input=user_prompt
             )
@@ -622,7 +622,7 @@ def translate_ai(num_lines: int) -> None:
                 print(f"Warning: Empty response for {sheet_name}")
                 continue
 
-            print(ai_text)
+            # print(ai_text)
 
             # Phân tích phản hồi thành danh sách các bản dịch
             translations = []
@@ -808,9 +808,19 @@ def pack_translated_files(folder_path: str) -> None:
         except Exception as e:
             print(f"Error processing {bundle_path}: {e}")
 
+def refresh():
+    if not os.path.exists(XLSX_PATH):
+        print(f"translate.xlsx not found at {XLSX_PATH}.")
+        sys.exit(1)
+
+    wb = load_workbook(XLSX_PATH)
+    update_overview(wb)
+    wb.save(XLSX_PATH)
+    print(f"Refreshed Overview sheet in {XLSX_PATH}")
+
 def main():
     if len(sys.argv) < 2:
-        print("Usage: python translate_tool.py [parse|build|pack <folder>|build+pack <folder>|translate <num>]")
+        print("Usage: python translate_tool.py [parse|build|pack <folder>|build+pack <folder>|translate <num>|refresh]")
         sys.exit(1)
     cmd = sys.argv[1].lower()
     if cmd == 'parse':
@@ -832,8 +842,10 @@ def main():
             print("Number of lines must be positive.")
             sys.exit(1)
         translate_ai(n)
+    elif cmd == 'refresh':
+        refresh()
     else:
-        print("Unknown command. Use 'parse' or 'build' or 'pack <folder>' or 'build+pack <folder>' or 'translate <num>'.")
+        print("Unknown command. Use 'parse', 'build', 'pack <folder>', 'build+pack <folder>', 'translate <num>', or 'refresh'.")
         sys.exit(1)
 
 if __name__ == '__main__':
