@@ -4,6 +4,7 @@ import shutil
 import sys
 from typing import List, Tuple, Optional
 from pathlib import Path
+from collections import defaultdict
 
 from openai import OpenAI
 from openai.types.shared_params import Reasoning
@@ -17,7 +18,7 @@ ORIGINAL_DIR = os.path.join(ROOT, "original")
 TRANSLATED_DIR = os.path.join(ROOT, "translated")
 XLSX_PATH = os.path.join(ROOT, "translate.xlsx")
 
-HEADER = ["ID", "Original value", "Translated value", "My translated value"]
+HEADER = ["ID", "Original", "Chinese", "MTL", "Edited"]
 META_HEADER = ["Sheet name", "Mapped file name", "File type"]
 
 # Knowledge base
@@ -32,16 +33,13 @@ INITIAL_PROJECT_HEADER = [
 
 SHEETNAME_MAXLEN = 31
 
-
 def sanitize_sheet_name(name: str) -> str:
     # Excel sheet name restrictions
     invalid = set('[]:*?/\\')
     cleaned = ''.join(c if c not in invalid else '_' for c in name)
     if len(cleaned) > SHEETNAME_MAXLEN:
         cleaned = cleaned[:SHEETNAME_MAXLEN]
-    # Avoid empty or duplicate names handling will be done by caller when adding
     return cleaned or "Sheet"
-
 
 def style_and_freeze(ws):
     # Header styling
@@ -58,7 +56,7 @@ def style_and_freeze(ws):
     ws.column_dimensions['B'].width = 60
     ws.column_dimensions['C'].width = 60
     ws.column_dimensions['D'].width = 60
-
+    ws.column_dimensions['E'].width = 60
 
 def apply_wrap_to_all_cells(ws):
     """Ensure wrap_text and top vertical alignment on all cells in the worksheet."""
@@ -70,11 +68,9 @@ def apply_wrap_to_all_cells(ws):
             horiz = getattr(cell.alignment, 'horizontal', None) if cell.alignment else None
             cell.alignment = Alignment(wrap_text=True, vertical="top", horizontal=horiz)
 
-
 def is_alnum_start(s: str) -> bool:
     s = s.lstrip()
     return bool(s) and bool(re.match(r"^[A-Za-z0-9]", s))
-
 
 def trim_blank_lines(text: str) -> str:
     # Normalize newlines, trim leading/trailing blank lines
@@ -89,7 +85,6 @@ def trim_blank_lines(text: str) -> str:
         lines.pop()
     return "\n".join(lines)
 
-
 def parse_type2(lines: List[str]) -> List[Tuple[str, str, str]]:
     """Return list of (ID, original, localized)"""
     results = []
@@ -98,16 +93,13 @@ def parse_type2(lines: List[str]) -> List[Tuple[str, str, str]]:
     for raw in lines:
         line = raw.rstrip('\n')
         if not line.strip():
-            # blank resets nothing but separates comment blocks visually
             continue
         if line.lstrip().startswith(';'):
-            # Accumulate contiguous comment lines; strip first ';' and one optional space
             comment = line.lstrip()[1:]
             if comment.startswith(' '):
                 comment = comment[1:]
             last_comment_block.append(comment)
             continue
-        # Non-comment: expect ID: value
         m = re.match(r"^\s*([^:]+):\s*(.*)$", line)
         if m:
             _id = m.group(1).strip()
@@ -117,12 +109,10 @@ def parse_type2(lines: List[str]) -> List[Tuple[str, str, str]]:
             results.append((_id, original, localized))
             last_comment_block = []
         else:
-            # Line doesn't match expected pattern; treat whole line as ID with empty value
             _id = line.strip()
             results.append((_id, "\n".join(last_comment_block).strip(), ""))
             last_comment_block = []
     return results
-
 
 def parse_type1(lines: List[str]) -> List[Tuple[str, str, str]]:
     """Parse blocks of:
@@ -140,13 +130,11 @@ def parse_type1(lines: List[str]) -> List[Tuple[str, str, str]]:
             i += 1
             continue
         if s.lstrip().startswith('#'):
-            # ID line
             id_part = s.lstrip()[1:]
             if id_part.startswith(' '):
                 id_part = id_part[1:]
             _id = id_part.strip()
             i += 1
-            # Collect comment lines as original
             orig_lines: List[str] = []
             while i < n:
                 t = lines[i].rstrip('\n')
@@ -158,27 +146,22 @@ def parse_type1(lines: List[str]) -> List[Tuple[str, str, str]]:
                     i += 1
                 else:
                     break
-            # Collect localized lines until next '#' or EOF
             loc_lines: List[str] = []
             while i < n:
                 t = lines[i].rstrip('\n')
                 if t.lstrip().startswith('#'):
                     break
-                # Only treat non-comment as localized lines, but keep blank lines
                 if not t.lstrip().startswith(';'):
                     loc_lines.append(t)
                 i += 1
             original = trim_blank_lines("\n".join(orig_lines))
             localized = trim_blank_lines("\n".join(loc_lines))
             results.append((_id, original, localized))
-            # Do not increment i here; loop will handle based on while conditions
             continue
         else:
-            # Unexpected line before first '#': skip
             i += 1
             continue
     return results
-
 
 def detect_file_type(lines: List[str]) -> Optional[int]:
     for raw in lines:
@@ -191,9 +174,214 @@ def detect_file_type(lines: List[str]) -> Optional[int]:
             return 1
         if is_alnum_start(s):
             return 2
-        # Otherwise keep scanning
     return None
 
+def get_content_sheets(wb):
+    special_sheets = {"Overview", "Metadata", KNOWLEDGE_SHEET, "Summaries"}
+    return [s for s in wb.sheetnames if s not in special_sheets]
+
+def update_overview(wb):
+    if "Overview" not in wb.sheetnames:
+        ov_ws = wb.create_sheet(title="Overview", index=0)
+        ov_ws.append(["Act", "Chapter", "File", "Total Lines", "MTL %", "Edited %"])
+        header_font = Font(bold=True)
+        fill = PatternFill("solid", fgColor="DDDDDD")
+        for col_idx in range(1, 7):
+            cell = ov_ws.cell(row=1, column=col_idx)
+            cell.font = header_font
+            cell.fill = fill
+        ov_ws.freeze_panes = "A2"
+        ov_ws.column_dimensions['A'].width = 20
+        ov_ws.column_dimensions['B'].width = 20
+        ov_ws.column_dimensions['C'].width = 40
+        ov_ws.column_dimensions['D'].width = 20
+        ov_ws.column_dimensions['E'].width = 20
+        ov_ws.column_dimensions['F'].width = 20
+        apply_wrap_to_all_cells(ov_ws)
+    else:
+        ov_ws = wb["Overview"]
+        for row in range(ov_ws.max_row, 1, -1):
+            ov_ws.delete_rows(row)
+
+    content_sheets = get_content_sheets(wb)
+    structure = defaultdict(lambda: defaultdict(list))
+    for sheet_name in content_sheets:
+        if sheet_name.lower().startswith('common'):
+            structure['Common']['Common'].append(sheet_name)
+        else:
+            match = re.match(r"^(Act\d+)_Chapter(\d+)_(.+)$", sheet_name)
+            if not match:
+                continue
+            act, chapter, file_type = match.groups()
+            structure[act][chapter].append(sheet_name)
+
+    total_all_lines = 0
+    total_all_mtl = 0
+    total_all_edited = 0
+
+    last_act = None
+    last_chapter = None
+    for act in sorted(structure.keys()):
+        act_total_lines = 0
+        act_mtl_completed = 0
+        act_edited_completed = 0
+        for chapter in sorted(structure[act].keys()):
+            chapter_total_lines = 0
+            chapter_mtl_completed = 0
+            chapter_edited_completed = 0
+            adv_total = trial_total = bad_total = common_total = 0
+            adv_mtl = trial_mtl = bad_mtl = common_mtl = 0
+            adv_edited = trial_edited = bad_edited = common_edited = 0
+
+            for sheet_name in sorted(structure[act][chapter]):
+                ws = wb[sheet_name]
+                headers = [(ws.cell(row=1, column=c).value or "").strip() for c in range(1, ws.max_column + 1)]
+                try:
+                    col_id = headers.index("ID") + 1
+                    col_mtl = headers.index("MTL") + 1
+                    col_edited = headers.index("Edited") + 1
+                except ValueError:
+                    continue
+                total_lines = 0
+                mtl_completed = 0
+                edited_completed = 0
+                for r in range(2, ws.max_row + 1):
+                    row_id = (ws.cell(row=r, column=col_id).value or "").strip()
+                    if not row_id:
+                        continue
+                    total_lines += 1
+                    mtl = (ws.cell(row=r, column=col_mtl).value or "").strip()
+                    edited = (ws.cell(row=r, column=col_edited).value or "").strip()
+                    if mtl:
+                        mtl_completed += 1
+                    if edited:
+                        edited_completed += 1
+                chapter_total_lines += total_lines
+                chapter_mtl_completed += mtl_completed
+                chapter_edited_completed += edited_completed
+                act_total_lines += total_lines
+                act_mtl_completed += mtl_completed
+                act_edited_completed += edited_completed
+                total_all_lines += total_lines
+                total_all_mtl += mtl_completed
+                total_all_edited += edited_completed
+
+                if 'adv' in sheet_name.lower():
+                    adv_total += total_lines
+                    adv_mtl += mtl_completed
+                    adv_edited += edited_completed
+                elif 'trial' in sheet_name.lower():
+                    trial_total += total_lines
+                    trial_mtl += mtl_completed
+                    trial_edited += edited_completed
+                elif 'bad' in sheet_name.lower():
+                    bad_total += total_lines
+                    bad_mtl += mtl_completed
+                    bad_edited += edited_completed
+                elif 'common' in sheet_name.lower():
+                    common_total += total_lines
+                    common_mtl += mtl_completed
+                    common_edited += edited_completed
+
+                act_display = act if act != last_act else ""
+                chapter_display = f"Chapter{chapter}" if chapter != last_chapter or act != last_act else ""
+                mtl_perc = (mtl_completed / total_lines * 100) if total_lines > 0 else 0
+                edited_perc = (edited_completed / total_lines * 100) if total_lines > 0 else 0
+                ov_ws.append([
+                    act_display,
+                    chapter_display,
+                    sheet_name,
+                    total_lines,
+                    f"{mtl_perc:.2f}%",
+                    f"{edited_perc:.2f}%"
+                ])
+                last_act = act
+                last_chapter = chapter
+
+            # Add per-file-type totals for the chapter
+            if adv_total > 0:
+                adv_mtl_perc = (adv_mtl / adv_total * 100) if adv_total > 0 else 0
+                adv_edited_perc = (adv_edited / adv_total * 100) if adv_total > 0 else 0
+                ov_ws.append([
+                    "" if act == last_act else act,
+                    "" if chapter == last_chapter and act == last_act else f"Chapter{chapter}",
+                    "Adv Total",
+                    adv_total,
+                    f"{adv_mtl_perc:.2f}%",
+                    f"{adv_edited_perc:.2f}%"
+                ])
+            if trial_total > 0:
+                trial_mtl_perc = (trial_mtl / trial_total * 100) if trial_total > 0 else 0
+                trial_edited_perc = (trial_edited / trial_total * 100) if trial_total > 0 else 0
+                ov_ws.append([
+                    "" if act == last_act else act,
+                    "" if chapter == last_chapter and act == last_act else f"Chapter{chapter}",
+                    "Trial Total",
+                    trial_total,
+                    f"{trial_mtl_perc:.2f}%",
+                    f"{trial_edited_perc:.2f}%"
+                ])
+            if bad_total > 0:
+                bad_mtl_perc = (bad_mtl / bad_total * 100) if bad_total > 0 else 0
+                bad_edited_perc = (bad_edited / bad_total * 100) if bad_total > 0 else 0
+                ov_ws.append([
+                    "" if act == last_act else act,
+                    "" if chapter == last_chapter and act == last_act else f"Chapter{chapter}",
+                    "Bad Total",
+                    bad_total,
+                    f"{bad_mtl_perc:.2f}%",
+                    f"{bad_edited_perc:.2f}%"
+                ])
+            if common_total > 0:
+                common_mtl_perc = (common_mtl / common_total * 100) if common_total > 0 else 0
+                common_edited_perc = (common_edited / common_total * 100) if common_total > 0 else 0
+                ov_ws.append([
+                    "" if act == last_act else act,
+                    "" if chapter == last_chapter and act == last_act else f"Chapter{chapter}",
+                    "Common Total",
+                    common_total,
+                    f"{common_mtl_perc:.2f}%",
+                    f"{common_edited_perc:.2f}%"
+                ])
+
+            # Add chapter total
+            if chapter_total_lines > 0:
+                chapter_mtl_perc = (chapter_mtl_completed / chapter_total_lines * 100) if chapter_total_lines > 0 else 0
+                chapter_edited_perc = (chapter_edited_completed / chapter_total_lines * 100) if chapter_total_lines > 0 else 0
+                ov_ws.append([
+                    "" if act == last_act else act,
+                    f"Chapter{chapter} Total",
+                    "",
+                    chapter_total_lines,
+                    f"{chapter_mtl_perc:.2f}%",
+                    f"{chapter_edited_perc:.2f}%"
+                ])
+
+        # Add act total
+        if act_total_lines > 0:
+            act_mtl_perc = (act_mtl_completed / act_total_lines * 100) if act_total_lines > 0 else 0
+            act_edited_perc = (act_edited_completed / act_total_lines * 100) if act_total_lines > 0 else 0
+            ov_ws.append([
+                f"{act} Total",
+                "",
+                "",
+                act_total_lines,
+                f"{act_mtl_perc:.2f}%",
+                f"{act_edited_perc:.2f}%"
+            ])
+
+    # Add grand total including Common
+    if total_all_lines > 0:
+        total_mtl_perc = (total_all_mtl / total_all_lines * 100) if total_all_lines > 0 else 0
+        total_edited_perc = (total_all_edited / total_all_lines * 100) if total_all_lines > 0 else 0
+        ov_ws.append([
+            "Grand Total",
+            "",
+            "",
+            total_all_lines,
+            f"{total_mtl_perc:.2f}%",
+            f"{total_edited_perc:.2f}%"
+        ])
 
 def parse_original_files() -> None:
     if os.path.exists(XLSX_PATH):
@@ -205,7 +393,6 @@ def parse_original_files() -> None:
         sys.exit(1)
 
     wb = Workbook()
-    # Remove the default sheet; we'll add our own
     wb.remove(wb.active)
 
     metadata_rows = []
@@ -218,7 +405,6 @@ def parse_original_files() -> None:
             with open(path, 'r', encoding='utf-8') as f:
                 lines = f.readlines()
         except UnicodeDecodeError:
-            # Fallback to cp932 (Shift-JIS) commonly used in JP assets
             with open(path, 'r', encoding='cp932', errors='replace') as f:
                 lines = f.readlines()
 
@@ -229,10 +415,8 @@ def parse_original_files() -> None:
 
         data = parse_type1(lines) if ftype == 1 else parse_type2(lines)
 
-        # Create worksheet with sanitized, unique name
         base_sheet_name = os.path.splitext(fname)[0]
         sheet_name = sanitize_sheet_name(base_sheet_name)
-        # Ensure uniqueness
         existing = set(wb.sheetnames)
         if sheet_name in existing:
             suffix = 1
@@ -241,22 +425,18 @@ def parse_original_files() -> None:
             sheet_name = sanitize_sheet_name(f"{sheet_name}_{suffix}")
         ws = wb.create_sheet(title=sheet_name)
 
-        # Write header
         ws.append(HEADER)
         style_and_freeze(ws)
 
         for _id, original, localized in data:
-            ws.append([_id, original, trim_blank_lines(localized), ""])  # My translated value blank
+            ws.append([_id, original, trim_blank_lines(localized), "", ""])
 
-        # Ensure wrapping for all cells in this sheet
         apply_wrap_to_all_cells(ws)
 
         metadata_rows.append([sheet_name, fname, ftype])
 
-    # Metadata sheet
     meta_ws = wb.create_sheet(title="Metadata")
     meta_ws.append(META_HEADER)
-    # style
     header_font = Font(bold=True)
     fill = PatternFill("solid", fgColor="DDDDDD")
     for col_idx, _ in enumerate(META_HEADER, start=1):
@@ -271,30 +451,36 @@ def parse_original_files() -> None:
     for row in metadata_rows:
         meta_ws.append(row)
 
-    # Ensure wrapping for all cells in Metadata sheet
     apply_wrap_to_all_cells(meta_ws)
 
-    # Knowledge base sheet (single column for user-provided context)
     kb_ws = wb.create_sheet(title=KNOWLEDGE_SHEET)
     kb_ws.append(KNOWLEDGE_HEADER)
-    # style knowledge header
     kb_ws.cell(row=1, column=1).font = header_font
     kb_ws.cell(row=1, column=1).fill = fill
     kb_ws.freeze_panes = "A2"
     kb_ws.column_dimensions['A'].width = 100
-    # Place initial project header as the first lines to guide the translator/AI
     for line in INITIAL_PROJECT_HEADER:
         kb_ws.append([line])
     apply_wrap_to_all_cells(kb_ws)
 
+    sum_ws = wb.create_sheet(title="Summaries")
+    sum_ws.append(["Sheet name", "Summary"])
+    for col_idx in range(1, 3):
+        cell = sum_ws.cell(row=1, column=col_idx)
+        cell.font = header_font
+        cell.fill = fill
+    sum_ws.column_dimensions['A'].width = 32
+    sum_ws.column_dimensions['B'].width = 100
+    apply_wrap_to_all_cells(sum_ws)
+
+    update_overview(wb)
+
     wb.save(XLSX_PATH)
     print(f"translate.xlsx created at {XLSX_PATH}")
-
 
 def get_knowledge_text(wb) -> str:
     if KNOWLEDGE_SHEET in wb.sheetnames:
         ws = wb[KNOWLEDGE_SHEET]
-        # Concatenate non-empty cells in first column excluding header
         parts = []
         for r in ws.iter_rows(min_row=2, max_col=1, values_only=True):
             if not r:
@@ -305,6 +491,29 @@ def get_knowledge_text(wb) -> str:
         return "\n\n".join(parts).strip()
     return "\n\n".join(INITIAL_PROJECT_HEADER)
 
+def generate_file_summary(client, sheet_name: str, rows: List[Tuple[str, str, str]]) -> str:
+    context = "\n\n".join(
+        f"ID: {row[0]}\nOriginal: {row[1] or '<empty>'}\nChinese: {row[2] or '<empty>'}"
+        for row in rows
+    )
+    sys_prompt = (
+        "You are a translator for a visual novel. Summarize the content of the following file in 2-3 concise lines, "
+        "specifying the main context, key characters, and primary events. The summary must guide the tone and style of the translation "
+        "(e.g., somber, emotional). Do not translate individual lines, only provide the summary in Vietnamese.\n\n"
+        "Knowledge base (user-provided notes):\n" + get_knowledge_text(load_workbook(XLSX_PATH))
+    )
+    user_prompt = f"Sheet: {sheet_name}\n\nContent:\n{context}\n\nSummarize in 2-3 lines in Vietnamese."
+    try:
+        resp = client.responses.create(
+            model=os.environ.get("OPENAI_MODEL", "gpt-5-mini"),
+            reasoning=Reasoning(effort="low"),
+            instructions=sys_prompt,
+            input=user_prompt
+        )
+        return (resp.output_text or "").strip()
+    except Exception as e:
+        print(f"Error generating summary for {sheet_name}: {e}")
+        return ""
 
 def translate_ai(num_lines: int) -> None:
     if not os.path.exists(XLSX_PATH):
@@ -321,55 +530,71 @@ def translate_ai(num_lines: int) -> None:
 
     wb = load_workbook(XLSX_PATH)
     knowledge_text = get_knowledge_text(wb)
-
     processed = 0
 
-    def make_messages(sheet_name: str, row_id: str, original: str, translated: str):
-        sys_prompt = "\n\nKnowledge base (user-provided notes):\n" + (knowledge_text or "<empty>")
-        user_prompt = (
-            f"Sheet: {sheet_name}\n"
-            f"ID: {row_id}\n\n"
-            f"Original value (source 1):\n{original or '<empty>'}\n\n"
-            f"Translated value (source 2):\n{translated or '<empty>'}\n\n"
-            "Task: Produce the final localized line(s) for 'My translated value' in Tiếng Việt (Vietnamese). Should use both of Original value and Translated value for the best result\n"
-            "Rules: Keep placeholders, tags, and control codes intact. Translate the text inside XML tag pairs, not the tag itself. Preserve line breaks. Return ONLY the final text, no explanations."
-        )
-        return (sys_prompt, user_prompt)
+    sum_ws = wb["Summaries"] if "Summaries" in wb.sheetnames else None
 
-    # Iterate sheets in workbook order, skipping special sheets
-    special = {"Metadata", KNOWLEDGE_SHEET}
     for sheet_name in wb.sheetnames:
-        if sheet_name in special:
+        if sheet_name in {"Overview", "Metadata", KNOWLEDGE_SHEET, "Summaries"}:
             continue
         ws = wb[sheet_name]
-        # Identify columns by header row 1
-        headers = [ (ws.cell(row=1, column=c).value or "").strip() for c in range(1, 10) ]
+        headers = [(ws.cell(row=1, column=c).value or "").strip() for c in range(1, 10)]
         try:
             col_id = headers.index("ID") + 1
-            col_orig = headers.index("Original value") + 1
-            col_trans = headers.index("Translated value") + 1
-            col_my = headers.index("My translated value") + 1
+            col_orig = headers.index("Original") + 1
+            col_chinese = headers.index("Chinese") + 1
+            col_mtl = headers.index("MTL") + 1
+            col_edited = headers.index("Edited") + 1
         except ValueError:
-            # Unexpected sheet format
+            print(f"Warning: Sheet {sheet_name} has invalid headers. Skipping.")
             continue
-        # Iterate rows starting at 2
+
+        rows = []
+        for r in range(2, ws.max_row + 1):
+            row_id = (ws.cell(row=r, column=col_id).value or "").strip()
+            if not row_id:
+                continue
+            original = ws.cell(row=r, column=col_orig).value or ""
+            chinese = ws.cell(row=r, column=col_chinese).value or ""
+            rows.append((row_id, original, chinese))
+
+        summary = ""
+        if sum_ws:
+            for row in sum_ws.iter_rows(min_row=2, values_only=True):
+                if row and row[0] == sheet_name:
+                    summary = row[1] or ""
+                    break
+        if not summary:
+            summary = generate_file_summary(client, sheet_name, rows)
+            if summary and sum_ws:
+                sum_ws.append([sheet_name, summary])
+                print(f"Summary for {sheet_name}: {summary}")
+
         for r in range(2, ws.max_row + 1):
             if processed >= num_lines:
                 break
             row_id = (ws.cell(row=r, column=col_id).value or "").strip()
             if not row_id:
                 continue
-            my_val = (ws.cell(row=r, column=col_my).value or "").strip()
-            if my_val != "":
+            mtl_val = (ws.cell(row=r, column=col_mtl).value or "").strip()
+            if mtl_val:
                 continue
             original = ws.cell(row=r, column=col_orig).value or ""
-            translated = ws.cell(row=r, column=col_trans).value or ""
-
-            # Skip if there is nothing to translate
-            if not original and not translated:
+            chinese = ws.cell(row=r, column=col_chinese).value or ""
+            if not original and not chinese:
                 continue
 
-            (sys_prompt, user_prompt) = make_messages(sheet_name, row_id, original, translated)
+            sys_prompt = (
+                f"Knowledge base (user-provided notes):\n{knowledge_text or '<empty>'}\n\n"
+                f"File summary:\n{summary or '<no summary>'}\n\n"
+            )
+            user_prompt = (
+                f"Sheet: {sheet_name}\n"
+                f"ID: {row_id}\n\n"
+                f"Original value (source 1):\n{original or '<empty>'}\n\n"
+                f"Chinese value (source 2):\n{chinese or '<empty>'}\n\n"
+                "Dịch ra Tiếng Việt. Không giải thích gì thêm, chỉ cung cấp bản dịch."
+            )
             try:
                 resp = client.responses.create(
                     model=model,
@@ -378,24 +603,25 @@ def translate_ai(num_lines: int) -> None:
                     input=user_prompt
                 )
                 ai_text = (resp.output_text or "").strip()
+                if ai_text.lower().startswith("tóm tắt") or "summary" in ai_text.lower():
+                    print(f"Warning: AI output for {sheet_name} | ID {row_id} contains summary: {ai_text}")
+                    continue
+                if ai_text:
+                    ws.cell(row=r, column=col_mtl).value = ai_text
+                    processed += 1
+                    print(f"Translated: {sheet_name} | ID {row_id}. Result: {ai_text}")
             except Exception as e:
                 print(f"OpenAI API error on {sheet_name} row {r}: {e}")
-                ai_text = ""
-
-            if ai_text:
-                ws.cell(row=r, column=col_my).value = ai_text
-                processed += 1
-                print(f"Translated: {sheet_name} | ID {row_id}. Result: {ai_text}")
 
         if processed >= num_lines:
             break
 
-    if processed > 0:
+    if processed > 0 or (sum_ws and sum_ws.max_row > 1):
+        update_overview(wb)
         wb.save(XLSX_PATH)
-        print(f"Saved {processed} AI translations to {XLSX_PATH}")
+        print(f"Saved {processed} AI translations and summaries to {XLSX_PATH}")
     else:
         print("No rows required translation or already filled.")
-
 
 def rebuild_translated_files() -> None:
     if not os.path.exists(XLSX_PATH):
@@ -408,7 +634,6 @@ def rebuild_translated_files() -> None:
         sys.exit(1)
 
     meta_ws = wb["Metadata"]
-    # Read metadata rows, skip header
     mappings: List[Tuple[str, str, int]] = []
     for r in meta_ws.iter_rows(min_row=2, values_only=True):
         if not r or all(v is None for v in r):
@@ -427,7 +652,6 @@ def rebuild_translated_files() -> None:
             print(f"Warning: Sheet '{sheet_name}' not found. Skipping {mapped_file}.")
             continue
         ws = wb[sheet_name]
-        # Build a dictionary ID -> (original, translated, my_translated)
         id_rows = []
         for row in ws.iter_rows(min_row=2, values_only=True):
             if not row:
@@ -436,56 +660,49 @@ def rebuild_translated_files() -> None:
             if not _id:
                 continue
             original = (row[1] or "")
-            translated = trim_blank_lines(row[2] or "")
-            my_translated = trim_blank_lines(row[3] or "")
-            id_rows.append((_id, original, translated, my_translated))
+            chinese = trim_blank_lines(row[2] or "")
+            mtl = trim_blank_lines(row[3] or "")
+            edited = trim_blank_lines(row[4] or "")
+            id_rows.append((_id, original, chinese, mtl, edited))
 
         out_path = os.path.join(TRANSLATED_DIR, mapped_file)
         os.makedirs(os.path.dirname(out_path), exist_ok=True)
 
         lines_out: List[str] = []
 
-        def add_comment_block(original_text: str, localized_text: str):
-            # Original comment
+        def add_comment_block(original_text: str, chinese_text: str, mtl_text: str):
             for ln in (original_text or "").replace('\r\n', '\n').replace('\r', '\n').split('\n'):
                 lines_out.append("; " + ln if ln.strip() != "" else ";")
-            # Localized header
-            lines_out.append("; **Localized**")
-            # Localized comment
-            for ln in (localized_text or "").replace('\r\n', '\n').replace('\r', '\n').split('\n'):
+            lines_out.append("; **Chinese**")
+            for ln in (chinese_text or "").replace('\r\n', '\n').replace('\r', '\n').split('\n'):
+                lines_out.append("; " + ln if ln.strip() != "" else ";")
+            lines_out.append("; **MTL**")
+            for ln in (mtl_text or "").replace('\r\n', '\n').replace('\r', '\n').split('\n'):
                 lines_out.append("; " + ln if ln.strip() != "" else ";")
 
         if ftype == 2:
-            # Each row becomes: comments + "ID: value"
-            for _id, original, translated, my_translated in id_rows:
-                used_value = my_translated.strip() if my_translated.strip() != "" else translated
+            for _id, original, chinese, mtl, edited in id_rows:
+                used_value = edited.strip() if edited.strip() != "" else mtl.strip() if mtl.strip() != "" else chinese
                 used_value = trim_blank_lines(used_value)
-                add_comment_block(original, translated)
-                # Add the actual line
+                add_comment_block(original, chinese, mtl)
                 lines_out.append(f"{_id}: {used_value}")
-                # Blank line between entries for readability
                 lines_out.append("")
         elif ftype == 1:
-            # Blocks: "# ID" then comments then localized lines, separated until next block
-            for _id, original, translated, my_translated in id_rows:
-                used_value = my_translated.strip() if my_translated.strip() != "" else translated
+            for _id, original, chinese, mtl, edited in id_rows:
+                used_value = edited.strip() if edited.strip() != "" else mtl.strip() if mtl.strip() != "" else chinese
                 used_value = trim_blank_lines(used_value)
                 lines_out.append(f"# {_id}")
-                add_comment_block(original, translated)
-                # Localized content lines
+                add_comment_block(original, chinese, mtl)
                 if used_value == "":
-                    # Keep at least a blank line to separate blocks
                     lines_out.append("")
                 else:
                     for ln in used_value.split('\n'):
                         lines_out.append(ln)
-                # Extra blank line between blocks
                 lines_out.append("")
         else:
             print(f"Warning: Unknown file type {ftype} for {mapped_file}. Skipping.")
             continue
 
-        # Write out with UTF-8 BOM to be safe for some VN engines
         with open(out_path, 'w', encoding='utf-8-sig', newline='') as f:
             f.write("\n".join(lines_out).rstrip() + "\n")
         print(f"Wrote {out_path}")
@@ -498,7 +715,6 @@ def pack_translated_files(folder_path: str) -> None:
         print(f"No .bundle files found in {folder_path}")
         return
 
-    # Prepare backup folder (only back up modified bundles)
     backup_folder = Path(folder_path + "_backup")
     backup_folder.mkdir(parents=True, exist_ok=True)
     print(f"Using backup folder: {backup_folder}")
@@ -529,7 +745,6 @@ def pack_translated_files(folder_path: str) -> None:
                     print(f"Replaced {name} in {bundle_path_str}")
                     bundle_modified = True
             if bundle_modified:
-                # Back up the original bundle into backup folder, preserving relative path
                 try:
                     rel_path = bundle_path.relative_to(folder)
                 except ValueError:
@@ -540,15 +755,11 @@ def pack_translated_files(folder_path: str) -> None:
                     shutil.copy2(bundle_path, backup_path)
                     print(f"Backed up original: {backup_path}")
 
-                # Save modified bundle back to its original location
                 bundle.save(pack="lz4", out_path=os.path.dirname(bundle_path))
                 print(f"Saved {bundle_path_str}")
 
-
         except Exception as e:
             print(f"Error processing {bundle_path}: {e}")
-
-
 
 def main():
     if len(sys.argv) < 2:
@@ -578,6 +789,6 @@ def main():
         print("Unknown command. Use 'parse' or 'build' or 'pack <folder>' or 'build+pack <folder>' or 'translate <num>'.")
         sys.exit(1)
 
-
 if __name__ == '__main__':
     main()
+
