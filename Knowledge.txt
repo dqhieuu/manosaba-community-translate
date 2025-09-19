@@ -1,0 +1,160 @@
+Knowledge
+Project: Localization of the Magical Girl Visual Novel
+Goal: Create a complete, engaging, and faithful Vietnamese translation that preserves the tone, context, and character personalities of the original work.
+Translation Guidelines
+
+Content Preparation:
+Remove all tags (including ruby tags and <br> tags) and concatenate them seamlessly before starting translation.
+Completely eliminate lines starting with ">" (e.g., "> Ema: |#0101Adv02_Ema001|", "> Unknown: |#0101Adv02_Unknown001|").
+Retain only the main content (Japanese dialogue or descriptions, including <br> for line breaks).
+"Example input:
+""> Ema: |#0101Adv02_Ema001|
+何を考えていますの！？<br>わたくしをこんなところに閉じ込めるなんて！""
+After cleaning: 何を考えていますの！？<br>わたくしをこんなところに閉じ込めるなんて！"
+
+Comparison of Original and Intermediate Translation:
+Compare the Chinese translation (Translated Value) with the original Japanese (Original Value) to ensure consistency in meaning and context.
+The final Vietnamese translation must not contain any XML tags. Punctuation must use Vietnamese conventions (e.g., ".", ","), except for retaining "――".
+The final Vietnamese translation (My translated value) must not contain any Chinese or Japanese words or characters, nor lines starting with ">". If detected, review and revise to ensure a pure Vietnamese translation containing only the main content.
+Personal Pronouns: Do not retain Japanese pronouns (e.g., boku, watashi, atashi, uchi, wagahai, watakushi). Instead, use Vietnamese pronouns (e.g., tôi, mình, tao, ta, chị) as specified in the pronoun section.
+Lines containing ">", e.g., "> Ema: |#0101Adv03_Ema004|", indicate dialogue spoken by that character. Keep track to ensure the dialogue reflects the correct speaker.
+
+Preserving Structure and Tone:
+Retain placeholders, variables, control codes, and line breaks (e.g., <br>).
+Maintain the tone, voice, and Japanese honorifics (-kun, -san, -chan) for each character. Honorifics may be kept as is or adapted (e.g., translated as "cậu" [boy], "chị" [sister], or omitted depending on context, such as for older or superior characters).
+
+Quality Notes:
+Ensure the Vietnamese translation is smooth and natural, as if it were a published novel, preserving content but allowing adjustments for fluency. Absolutely do not omit details, but the text must flow naturally, avoiding overly literal translations.
+The Vietnamese translation must convey full meaning, with sentences long enough to avoid awkwardness and without cutting or truncating the intended meaning.
+Check the meaning of Kanji in the original text. If a Sino-Vietnamese word enhances the sentence, use it. For example, 悲 can be translated as "bi thương" (sorrow) depending on context.
+Perform a thorough final review to eliminate errors and ensure translation quality, particularly ensuring no lines with ">" or XML tags, Chinese/Japanese characters, or words remain.
+Character Names and Terminology: Translate strictly according to the provided list of names and terms, without altering or creating new ones.
+
+Character Names and Terminology
+桜羽 エマ: Sakuraba Ema (Surname: Sakuraba, Given Name: Ema)
+蓮見 レイア: Hasumi Leia (Surname: Hasumi, Given Name: Leia)
+氷上 メルル: Hikami Meruru (Surname: Hikami, Given Name: Meruru)
+宝生 マーゴ: Houshou Margo (Surname: Houshou, Given Name: Margo)
+城ケ崎 ノア: Jougasaki Noah (Surname: Jougasaki, Given Name: Noah)
+黒部 ナノカ: Kurobe Nanoka (Surname: Kurobe, Given Name: Nanoka)
+夏目 アンアン: Natsume An-An (Surname: Natsume, Given Name: An-An)
+二階堂 ヒロ: Nikaidou Hiro (Surname: Nikaidou, Given Name: Hiro)
+佐伯 ミリア: Saeki Miria (Surname: Saeki, Given Name: Miria)
+沢渡 ココ: Sawatari Coco (Surname: Sawatari, Given Name: Coco)
+紫藤 アリサ: Shitou Alisa (Surname: Shitou, Given Name: Alisa)
+橘 シェリー: Tachibana Sherry (Surname: Tachibana, Given Name: Sherry)
+遠野 ハンナ: Toono Hanna (Surname: Toono, Given Name: Hanna)
+ゴクチョー: Gokuchou
+看守: quản ngục
+なれはて: Narehate
+魔女: ma nữ
+魔女図鑑: bách khoa ma nữ
+魔女因子: nhân tố ma nữ
+魔女化: ma nữ hóa
+処刑: tử hình
+牢屋: nhà tù
+火精の間: phòng hỏa tinh
+地精の間 : phòng địa tinh
+塀 : hàng rào
+倉庫 : nhà kho
+医務室 : phòng y tế
+サンルーム : phòng tắm nắng
+物置 : phòng chứa đồ
+水精の間 : phòng thủy tinh
+ゲストハウス前 : trước nhà khách
+WWC : nhà vệ sinh
+厨房 : nhà bếp
+ラウンジ : phòng chờ
+シャワールーム : phòng tắm
+中庭 : sân trong
+食堂 : phòng ăn
+裁判所 : tòa án
+湖方面 : khu vực hồ
+応接間 : phòng khách
+玄関ホール : lối đi vào
+裁判所前通路 : hành lang trước tòa án
+花畑方面 : khu vực vườn hoa
+牢屋敷前 : trước nhà tù
+2Fホール : sảnh tầng 2
+娯楽室 : phòng giải trí
+図書室 : thư viện
+監房 : phòng giam
+焼却炉 : lò thiêu
+懲罰房 : phòng xử phạt
+
+
+
+Character Descriptions
+Sakuraba Ema (15 years old)
+Personality: Altruistic, cheerful, clumsy, energetic, friendly, hardworking, honest, kind, optimistic, intelligent.
+Description: Sakuraba Ema is a friendly girl with a unique, approachable vibe. Despite her intelligence and excellent reasoning skills, Ema often deliberately makes mistakes out of fear of being disliked. Her clumsiness makes her someone others tend to look after, but behind her radiant smile lies a lonely heart yearning for warmth and connection. Ema strives to help others with persistence and selflessness, unafraid to face challenges. Her fear of isolation drives her to maintain an optimistic facade, but her sincerity and relentless effort win the hearts of those around her.
+Hasumi Leia (16 years old)
+Personality: Cheerful, confident, friendly, hardworking, kind, mature, perceptive, protective, resilient, tomboy.
+Description: Hasumi Leia is a renowned actress, particularly adored by female fans for her captivating androgynous charm. With a strong tomboy style, she stands out in any crowd, but beneath her confident exterior is a warm heart always ready to protect those around her. Leia works diligently, carrying a deep sense of responsibility and maturity beyond her years. Her keen observation skills allow her to notice subtle details, and her resilience helps her overcome any challenge. Leia is not just a star on screen but also a reliable pillar for those she cares about.
+Hikami Meruru (15 years old)
+Personality: Gentle, emotional, kind, lonely, insecure, pessimistic, sensitive, shy, stammering, reserved, timid.
+Description: Hikami Meruru is an extremely shy and anxious girl who quietly observes others from the shadows. With a sensitive heart, she easily picks up on others’ emotions but hides her own thoughts. Meruru is deeply insecure, often thinking negatively about herself and feeling unworthy. Her eyes always seem on the verge of tears, easily triggered by the smallest things. Despite this, her quiet kindness and concern for others are a faint light waiting for someone to notice and draw her out of her lonely shell.
+Houshou Margo (15 years old)
+Personality: "Ara ara," cautious, curious, dishonest, suspicious, friendly, fond of female-female romance, money-loving, mysterious, relaxed, romantic, secretive.
+Description: Houshou Margo is a mysterious girl who appears with a friendly smile and a seductive "ara ara" tone, easily captivating those around her. However, behind her kind and romantic facade, Margo trusts no one, keeping her thoughts and motives hidden. She never takes things too seriously, maintaining a relaxed and carefree attitude in any situation. With a particular fondness for money and female-female romance, paired with an insatiable curiosity, Margo is like an elusive breeze, hiding many secrets waiting to be uncovered.
+Jougasaki Noah (15 years old)
+Personality: Absent-minded, cheerful, eccentric, friendly, kind, moody, secretive, mysterious, refers to self in third person.
+Description: Jougasaki Noah is a talented street artist whose eccentric and dreamy demeanor makes her impossible to ignore. Her artworks are famous worldwide, yet no one knows Noah is their creator. With her mesmerizing ability to manipulate liquids, she delivers vibrant art performances that mirror her unpredictable personality. Though friendly and kind, Noah keeps her distance, hiding her true emotions and identity behind a carefree smile. Her mood swings make her an enigmatic figure, like an unfinished painting full of allure.
+Kurobe Nanoka (17 years old)
+Personality: Mysterious, distant, cold, vengeful, wise, independent, reserved.
+Description: Kurobe Nanoka is a mysterious girl harboring deep resentment toward the prison where she is confined. Silent and aloof, she rarely speaks, choosing to push others away to conceal her inner thoughts. Nanoka seems to know more than anyone about the prison’s secret rules and structure but keeps this knowledge to herself, always acting alone. Her independence and cold gaze make her a puzzling enigma, but beneath her tough exterior may lie secrets and wounds waiting to be revealed.
+Natsume An-An (15 years old)
+Personality: Blunt, loves cinema, moody, shy, reserved, lonely.
+Description: Natsume An-An is a reclusive girl who rarely speaks, often communicating through handwritten notes in her sketchbook. When writing, she uses a classical style, reflecting her unique personality and attachment to old-fashioned values. Though shy and reserved, An-An has surprising moments of bluntness, especially when discussing her passion for cinema. Her mood swings make her like a character from a film—both relatable and elusive. Her sketchbook is not just a means of communication but a window into her mysterious inner world.
+Nikaidou Hiro (15 years old)
+Personality: Arrogant, confident, honorable, perfectionist, perceptive, serious, hot-tempered, cunning, strict, holds grudges.
+Description: Nikaidou Hiro embodies perfection, a girl with outstanding achievements and no apparent flaws. With the elegant and serious demeanor of a "Yamato Nadeshiko," she maintains a refined and impeccable image. However, behind her traditional beauty lies a strong will and unwavering belief in justice. Hiro is unforgiving toward what she deems "wrong," quick to show her temper and determination to correct injustices. Though confident and sometimes arrogant, her cunning and sense of honor make her irresistibly captivating. For Hiro, everything must be perfect—from herself to the world around her.
+Saeki Miria (15 years old)
+Personality: Blunt, loves cinema, timid, melancholic, kind, insecure, old-fashioned, reserved, eccentric, shy.
+Description: Saeki Miria has a striking gyaru appearance with pale skin, but her shy and melancholic personality starkly contrasts her bold look. Despite her eye-catching style, Miria is quiet, easily frightened, and rarely speaks. Her soft, sorrowful tone carries a gloominess unusual for her age, as if she stepped out of an old film. Though sometimes impolite, Miria has a kind heart, quietly caring for others. Her love for cinema and old-fashioned ways make her an eccentric figure—both familiar and puzzling, like a painting with contrasting colors.
+Sawatari Coco (15 years old)
+Personality: Fake cheerfulness, cold, cruel, selfish, arrogant, sharp-tongued, hot-tempered, cowardly, lazy, moody.
+Description: Sawatari Coco is a vibrant streamer with a radiant on-screen persona, captivating audiences with her fake smile and energy. Off-screen, however, Coco is cold, venomous, and harbors deep resentment toward the world. She doesn’t hesitate to use her sharp tongue to attack others, except for herself and her beloved "oshi" (idol). Her mood swings and selfish nature make her an emotional storm, both alluring and terrifying. Despite her laziness and cowardice, her overconfidence and acting talent keep people captivated by the secrets she hides.
+Shitou Alisa (15 years old)
+Personality: Antisocial, suspicious, hot-tempered, insecure, rude, passionate.
+Description: Shitou Alisa is a rebellious runaway with a troubled past. Her intimidating appearance and rude demeanor make others wary, and she’s quick to fight over the slightest provocation. Alisa resents the world but hates herself most of all. Despite her tough and distrustful exterior, her passionate spirit simmers beneath, waiting for a chance to shine positively. Alisa’s contradictory nature makes her a complex puzzle—both intimidating and intriguing, with hidden pain waiting to be understood.
+Tachibana Sherry (15 years old)
+Personality: Carefree, cheerful, confident, curious, friendly, perceptive, stubborn, amoral, eccentric.
+Description: Tachibana Sherry calls herself a "great detective," always appearing with a bright smile and an unstoppable free spirit. She dives into any adventure that piques her interest, without hesitation or worry. Her boundless curiosity draws her to everything unusual, from minor mysteries to complex puzzles. Though friendly and adept at recognizing familiar tropes from films or books, Sherry lacks a moral compass, acting on whims without regard for consequences. Her charming speech and stubbornness make her a colorful whirlwind, both captivating and unpredictable, like a character from an eccentric detective novel.
+Toono Hanna (15 years old)
+Personality: Arrogant, assertive, modern tsundere, fake, perceptive, overconfident.
+Description: Toono Hanna carries the air of a refined lady, speaking with a haughty tone and aristocratic vocabulary. She acts as if she hails from a prestigious family, exuding unshakable confidence and arrogance. However, beneath this perfect facade lies a secret: Hanna comes from a poor background. With a modern tsundere charm, she hides her warm heart and vulnerabilities behind a lofty exterior. Her sharp observational skills let her notice details others miss, but can her noble mask conceal her true self forever?
+Gokuchou
+Personality: Cruel, calm, mysterious.
+Description: Gokuchou is a mysterious owl serving as the prison’s warden. With cold, piercing eyes and a calm demeanor, it oversees everything—from trials and prisoners to the prison itself—with unrelenting cruelty. No one knows Gokuchou’s past or motives, only that this owl holds absolute power in the shadows. Every word and action exudes authority and fear, like a looming specter silently watching everything.
+
+Character Pronoun Guidelines
+Based on personality and age (Ema, Meruru, Margo, Noah, An-An, Hiro, Miria, Coco, Alisa, Sherry, Hanna: 15 years old; Leia: 16 years old; Nanoka: 17 years old), the pronouns for each character are as follows:
+Gokuchou (Warden):
+Self-reference: I (to reflect its authoritative, powerful, and neutral tone as a mysterious owl).
+Sakuraba Ema (Friendly, clumsy):
+Self-reference: Mình (replacing "boku," reflecting a friendly, gentle tone).
+Hasumi Leia (Tomboy, mature):
+Self-reference: I (replacing "watashi," fitting her strong, mature demeanor).
+Hikami Meruru (Shy, stammering):
+Self-reference: Mình (replacing "watashi," suitable for her timid personality).
+Houshou Margo (Ara ara, mysterious):
+Self-reference: I (replacing "watashi," emphasizing her seductive, ara ara charm).
+Jougasaki Noah (Third-person, eccentric):
+Self-reference: Noah (replacing third-person self-reference, e.g., "Noah thinks...").
+Kurobe Nanoka (Reserved, independent):
+Self-reference: I (replacing minimal pronoun use, fitting her cold, aloof nature).
+Natsume An-An (Wagahai, shy):
+Self-reference: Ta (replacing "wagahai," reflecting her classical, old-fashioned style, especially in writing).
+Nikaidou Hiro (Arrogant):
+Self-reference: I (replacing "watashi," reflecting her serious, elegant demeanor).
+Saeki Miria (Third-person or watashi, melancholic):
+Self-reference: Mình or Miria (replacing "watashi" or third-person, depending on mood).
+Sawatari Coco (Sharp-tongued):
+Self-reference: I (replacing "atashi," reflecting her confident, sharp persona).
+Shitou Alisa (Rude):
+Self-reference: Tao, sometimes I (replacing "uchi," reflecting her rebellious nature, with "I" in more serious contexts).
+Tachibana Sherry (Carefree):
+Self-reference: Tớ (replacing "watashi," paired with "desu" to maintain her cute tone).
+Toono Hanna (Haughty):
+Self-reference: I (replacing "watakushi," reflecting her aristocratic demeanor).
