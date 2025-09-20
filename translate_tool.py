@@ -75,26 +75,70 @@ def load_patches_json() -> dict:
         print(f"Warning: Failed to read {ADDRESSES_PATH}: {e}")
         return {}
 
-def populate_patch_sheet_from_file(wb, only_if_empty: bool = True) -> None:
+def populate_patch_sheet_from_file(wb, update_instead_of_overwrite: bool = True) -> None:
     ws = ensure_patch_sheet(wb)
     has_rows = ws.max_row and ws.max_row > 1
-    if only_if_empty and has_rows:
-        return
     data = load_patches_json()
+    if not data:
+        return
+
     # Clear existing rows if not only_if_empty
-    if not only_if_empty and has_rows:
+    if not update_instead_of_overwrite and has_rows:
         for row in range(ws.max_row, 1, -1):
             ws.delete_rows(row)
-    # Populate rows
-    for bundle_suffix, id_map in data.items():
-        for path_id, entries in id_map.items():
-            pid_str = str(path_id)
-            for ent in entries:
-                selector = ent.get('object_selector', '')
-                val = ent.get('patched_value', '')
-                ws.append([bundle_suffix, pid_str, selector, val, ""])  # put value into Original, Translated empty
+        has_rows = False
+
+    if not has_rows:
+        # Sheet empty -> populate all entries from file (original behavior)
+        for bundle_suffix, id_map in data.items():
+            for path_id, entries in id_map.items():
+                pid_str = str(path_id)
+                for ent in entries:
+                    selector = ent.get('object_selector', '')
+                    val = ent.get('patched_value', '')
+                    ws.append([bundle_suffix, pid_str, selector, val, ""])  # Original=val, Translated empty
+    else:
+        # Sheet has existing rows and only_if_empty=True -> merge: add missing and fill blanks
+        # Build index of existing rows: key -> row number
+        headers = [(ws.cell(row=1, column=c).value or "").strip() for c in range(1, ws.max_column + 1)]
+        try:
+            col_suffix = headers.index("Bundle path suffix") + 1
+            col_pathid = headers.index("PathID") + 1
+            col_selector = headers.index("Object selector") + 1
+            col_original = headers.index("Original") + 1
+            col_translated = headers.index("Translated") + 1
+        except ValueError:
+            print("Unmatched headers in Patch sheet. Skipping updating sheet from file.")
+        else:
+            index = {}
+            for r in range(2, ws.max_row + 1):
+                suffix = (ws.cell(row=r, column=col_suffix).value or "").strip()
+                pid = str((ws.cell(row=r, column=col_pathid).value or "").strip())
+                selector = (ws.cell(row=r, column=col_selector).value or "").strip()
+                if suffix and pid and selector:
+                    index[(suffix, pid, selector)] = r
+
+            # Merge from JSON
+            for bundle_suffix, id_map in data.items():
+                for path_id, entries in id_map.items():
+                    pid_str = str(path_id)
+                    for ent in entries:
+                        selector = ent.get('object_selector', '')
+                        val = ent.get('patched_value', '')
+                        key = (bundle_suffix, pid_str, selector)
+                        r = index.get(key)
+                        if r is None:
+                            ws.append([bundle_suffix, pid_str, selector, val, ""])  # New line
+                        else:
+                            # Update cells if empty
+                            orig_cell = ws.cell(row=r, column=col_original)
+                            trans_cell = ws.cell(row=r, column=col_translated)
+                            if (orig_cell.value is None) or (str(orig_cell.value).strip() == ""):
+                                orig_cell.value = val
+                            if (trans_cell.value is None) or (str(trans_cell.value).strip() == ""):
+                                trans_cell.value = val
     apply_wrap_to_all_cells(ws)
-    # Enforce PathID text format after population
+    # Enforce PathID text format after population/merge
     enforce_patch_pathid_text(ws)
 
 def write_patches_from_sheet() -> None:
@@ -694,7 +738,7 @@ def parse_original_files() -> None:
     # Create Patch addresses sheet and populate from existing file if available
     ensure_patch_sheet(wb)
     if os.path.exists(ADDRESSES_PATH):
-        populate_patch_sheet_from_file(wb, only_if_empty=True)
+        populate_patch_sheet_from_file(wb)
 
     update_overview(wb)
 
@@ -1183,7 +1227,7 @@ def refresh():
     # Ensure Patch addresses sheet exists and populate from file if empty
     ensure_patch_sheet(wb)
     if os.path.exists(ADDRESSES_PATH):
-        populate_patch_sheet_from_file(wb, only_if_empty=True)
+        populate_patch_sheet_from_file(wb)
 
     # Reupdate overview sheet
     update_overview(wb)
