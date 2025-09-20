@@ -10,21 +10,37 @@ from openai import OpenAI
 from openai.types.shared_params import Reasoning
 from openpyxl import Workbook, load_workbook
 from openpyxl.styles import Font, PatternFill, Alignment
-
+from openpyxl.utils import get_column_letter
 import UnityPy
+import json
+
+IGNORED_BUNDLE_SUFFIXES = ['general-managedtext_assets_all.bundle']
+
+SHEETNAME_MAXLEN = 31
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 ORIGINAL_DIR = os.path.join(ROOT, "original")
 TRANSLATED_DIR = os.path.join(ROOT, "translated")
+PATCHES_DIR = os.path.join(ROOT, "patches")
+
 XLSX_PATH = os.path.join(ROOT, "translate.xlsx")
-IGNORED_BUNDLE_SUFFIXES = ['general-managedtext_assets_all.bundle']
+ADDRESSES_PATH = os.path.join(PATCHES_DIR, "addresses.txt")
 
-HEADER = ["ID", "Original", "Chinese", "MTL", "Edited"]
-META_HEADER = ["Sheet name", "Mapped file name", "File type"]
+KNOWLEDGE_SHEETNAME = "Knowledge base"
+METADATA_SHEETNAME = "Metadata"
+OVERVIEW_SHEETNAME = "Overview"
+SUMMARIES_SHEETNAME = "Summaries"
+PATCH_SHEETNAME = "Patch addresses"
 
-# Knowledge base
-KNOWLEDGE_SHEET = "Knowledge base"
+SPECIAL_SHEETS = {OVERVIEW_SHEETNAME, METADATA_SHEETNAME, KNOWLEDGE_SHEETNAME, SUMMARIES_SHEETNAME, PATCH_SHEETNAME}
+
+COMMON_TRANSLATE_HEADER = ["ID", "Original", "Chinese", "MTL", "Edited"]
+METADATA_HEADER = ["Sheet name", "Mapped file name", "File type"]
 KNOWLEDGE_HEADER = ["Knowledge"]
+OVERVIEW_HEADER = ["Act", "Chapter", "File", "Total Lines", "MTL %", "Edited %"]
+SUMMARIES_HEADER = ["Sheet name", "Summary"]
+PATCH_HEADER = ["Bundle path suffix", "PathID", "Object selector", "Original", "Translated"]
+
 INITIAL_PROJECT_HEADER = [
     "Project type: Visual Novel translation.",
     "Goal: Produce high‑quality, natural translations suitable for a visual novel UI/dialogue.",
@@ -32,14 +48,175 @@ INITIAL_PROJECT_HEADER = [
     "Text between <ruby> should be converted to Romaji"
 ]
 
-SHEETNAME_MAXLEN = 31
+
+def ensure_patch_sheet(wb):
+    if PATCH_SHEETNAME not in wb.sheetnames:
+        ws = wb.create_sheet(title=PATCH_SHEETNAME)
+        ws.append(PATCH_HEADER)
+        # Style, freeze, and set column widths via common helper
+        apply_header_and_column_widths(ws, PATCH_HEADER, "A2", [50, 16, 60, 60, 60])
+        apply_wrap_to_all_cells(ws)
+    else:
+        ws = wb[PATCH_SHEETNAME]
+    # Enforce PathID column (B) as plain text
+    enforce_patch_pathid_text(ws)
+    return ws
+
+def load_patches_json() -> dict:
+    if not os.path.exists(ADDRESSES_PATH):
+        return {}
+    try:
+        with open(ADDRESSES_PATH, 'r', encoding='utf-8') as f:
+            content = f.read().strip()
+            if not content:
+                return {}
+            return json.loads(content)
+    except Exception as e:
+        print(f"Warning: Failed to read {ADDRESSES_PATH}: {e}")
+        return {}
+
+def populate_patch_sheet_from_file(wb, only_if_empty: bool = True) -> None:
+    ws = ensure_patch_sheet(wb)
+    has_rows = ws.max_row and ws.max_row > 1
+    if only_if_empty and has_rows:
+        return
+    data = load_patches_json()
+    # Clear existing rows if not only_if_empty
+    if not only_if_empty and has_rows:
+        for row in range(ws.max_row, 1, -1):
+            ws.delete_rows(row)
+    # Populate rows
+    for bundle_suffix, id_map in data.items():
+        for path_id, entries in id_map.items():
+            pid_str = str(path_id)
+            for ent in entries:
+                selector = ent.get('object_selector', '')
+                val = ent.get('patched_value', '')
+                ws.append([bundle_suffix, pid_str, selector, val, ""])  # put value into Original, Translated empty
+    apply_wrap_to_all_cells(ws)
+    # Enforce PathID text format after population
+    enforce_patch_pathid_text(ws)
+
+def write_patches_from_sheet() -> None:
+    if not os.path.exists(XLSX_PATH):
+        print(f"translate.xlsx not found at {XLSX_PATH}. Run parse first.")
+        return
+    wb = load_workbook(XLSX_PATH)
+    if PATCH_SHEETNAME not in wb.sheetnames:
+        print("No Patch addresses sheet found. Skipping patches build.")
+        return
+    ws = wb[PATCH_SHEETNAME]
+    # Verify headers
+    headers = [(ws.cell(row=1, column=c).value or "").strip() for c in range(1, 10)]
+    try:
+        col_suffix = headers.index("Bundle path suffix") + 1
+        col_pathid = headers.index("PathID") + 1
+        col_selector = headers.index("Object selector") + 1
+        col_original = headers.index("Original") + 1
+        col_translated = headers.index("Translated") + 1
+    except ValueError:
+        print("Patch addresses sheet has invalid headers. Skipping.")
+        return
+
+    out: dict = {}
+    for r in range(2, ws.max_row + 1):
+        suffix = (ws.cell(row=r, column=col_suffix).value or "").strip()
+        if not suffix:
+            continue
+        pathid_val = ws.cell(row=r, column=col_pathid).value
+        if pathid_val is None or str(pathid_val).strip() == "":
+            continue
+        try:
+            pid_key = str(int(pathid_val))
+        except Exception:
+            pid_key = str(pathid_val).strip()
+        selector = (ws.cell(row=r, column=col_selector).value or "").strip()
+        if not selector:
+            continue
+        translated = (ws.cell(row=r, column=col_translated).value or "").strip()
+        original = (ws.cell(row=r, column=col_original).value or "").strip()
+        patched_value = translated if translated != "" else original
+        if patched_value == "":
+            continue
+        out.setdefault(suffix, {}).setdefault(pid_key, []).append({
+            "object_selector": selector,
+            "patched_value": patched_value
+        })
+
+    os.makedirs(PATCHES_DIR, exist_ok=True)
+    try:
+        with open(ADDRESSES_PATH, 'w', encoding='utf-8') as f:
+            json.dump(out, f, ensure_ascii=False, indent=2)
+        print(f"Wrote patches to {ADDRESSES_PATH}")
+    except Exception as e:
+        print(f"Error writing {ADDRESSES_PATH}: {e}")
+
+def _parse_selector(selector: str):
+    # Support consecutive indices, e.g., a[1][2].b[3]
+    parts = selector.split('.') if selector else []
+    tokens = []  # list of (name: str, indices: List[int])
+    for part in parts:
+        m = re.match(r"^(\w+)((\[\d+])*)$", part)
+        if not m:
+            tokens.append((part, []))
+        else:
+            name = m.group(1)
+            idxs_str = m.group(2) or ""
+            idxs = [int(mm.group(1)) for mm in re.finditer(r"\[(\d+)]", idxs_str)]
+            tokens.append((name, idxs))
+    return tokens
+
+def _set_by_selector(root, selector: str, value):
+    tokens = _parse_selector(selector)
+    if not tokens:
+        return False
+    cur = root
+    parent = None
+    parent_is_list = False
+    key_or_index = None
+    for (name, idxs) in tokens:
+        # Access dict field by name
+        if not isinstance(cur, dict) or name not in cur:
+            return False
+        parent = cur
+        parent_is_list = False
+        key_or_index = name
+        cur = cur[name]
+        # Apply consecutive indices, if any
+        if idxs:
+            for idx in idxs:
+                if not isinstance(cur, list):
+                    return False
+                if idx < 0 or idx >= len(cur):
+                    return False
+                parent = cur
+                parent_is_list = True
+                key_or_index = idx
+                cur = cur[idx]
+    # Set value at the last resolved location
+    if parent is None:
+        return False
+    if parent_is_list:
+        if not isinstance(parent, list):
+            return False
+        idx = key_or_index
+        if idx < 0 or idx >= len(parent):
+            return False
+        parent[idx] = value
+        return True
+    else:
+        if not isinstance(parent, dict):
+            return False
+        parent[key_or_index] = value
+        return True
 
 def is_file_editable(path: str) -> bool:
+    """https://stackoverflow.com/a/37256114"""
     if not os.path.exists(path): return False
     try:
         os.rename(path, path)
         return True
-    except OSError as e:
+    except OSError:
         return False
 
 def sanitize_sheet_name(name: str) -> str:
@@ -50,22 +227,48 @@ def sanitize_sheet_name(name: str) -> str:
         cleaned = cleaned[:SHEETNAME_MAXLEN]
     return cleaned or "Sheet"
 
-def style_and_freeze(ws):
-    # Header styling
+def apply_frozen_header(ws, headers, freeze_panes_cell: Optional[str] = "A2"):
+    """Apply bold + gray header styling to row 1 across the given number of headers
+    and optionally freeze panes at the specified cell (default A2).
+    """
     header_font = Font(bold=True)
     fill = PatternFill("solid", fgColor="DDDDDD")
-    for col_idx, _ in enumerate(HEADER, start=1):
+    for col_idx, _ in enumerate(headers, start=1):
         cell = ws.cell(row=1, column=col_idx)
         cell.font = header_font
         cell.fill = fill
         cell.alignment = Alignment(vertical="top", wrap_text=True)
-    ws.freeze_panes = "A2"
-    # Column widths (rough defaults)
-    ws.column_dimensions['A'].width = 32
-    ws.column_dimensions['B'].width = 60
-    ws.column_dimensions['C'].width = 60
-    ws.column_dimensions['D'].width = 60
-    ws.column_dimensions['E'].width = 60
+    if freeze_panes_cell:
+        ws.freeze_panes = freeze_panes_cell
+
+
+def apply_header_and_column_widths(ws, headers, freeze_panes_cell: Optional[str] = "A2", column_widths=None):
+    """Common helper to style header (row 1), freeze panes, and set column widths.
+    - headers: list of header titles (used to know how many columns to style)
+    - freeze_panes_cell: e.g., "A2" to freeze top row
+    - column_widths: either a list/tuple matching headers length, or a dict mapping
+      column letters (e.g., 'A') to widths.
+    """
+    # Apply header style and optional freeze
+    apply_frozen_header(ws, headers, freeze_panes_cell)
+
+    # Apply column widths, if provided
+    if column_widths:
+        if isinstance(column_widths, (list, tuple)):
+            for idx, width in enumerate(column_widths, start=1):
+                try:
+                    if width is not None:
+                        col_letter = get_column_letter(idx)
+                        ws.column_dimensions[col_letter].width = width
+                except Exception:
+                    pass
+        elif isinstance(column_widths, dict):
+            for col_letter, width in column_widths.items():
+                try:
+                    if width is not None:
+                        ws.column_dimensions[str(col_letter)].width = width
+                except Exception:
+                    pass
 
 def apply_wrap_to_all_cells(ws):
     """Ensure wrap_text and top vertical alignment on all cells in the worksheet."""
@@ -77,9 +280,26 @@ def apply_wrap_to_all_cells(ws):
             horiz = getattr(cell.alignment, 'horizontal', None) if cell.alignment else None
             cell.alignment = Alignment(wrap_text=True, vertical="top", horizontal=horiz)
 
+
+def enforce_patch_pathid_text(ws):
+    """Ensure PathID column (B) is plain text in Excel and values are stored as strings."""
+    try:
+        max_row = ws.max_row or 1
+    except Exception:
+        return
+    for r in range(1, max_row + 1):
+        cell = ws.cell(row=r, column=2)  # Column B
+        # Always set number format to text
+        cell.number_format = "@"
+        # Convert data rows to string values (leave header as-is)
+        if r == 1:
+            continue
+        if cell.value is not None:
+            cell.value = str(cell.value).strip()
+
 def is_alnum_start(s: str) -> bool:
     s = s.lstrip()
-    return bool(s) and bool(re.match(r"^[A-Za-z0-9]", s))
+    return bool(re.match(r"^\w", s))
 
 def trim_blank_lines(text: str) -> str:
     # Normalize newlines, trim leading/trailing blank lines
@@ -187,29 +407,17 @@ def detect_file_type(lines: List[str]) -> Optional[int]:
     return None
 
 def get_content_sheets(wb):
-    special_sheets = {"Overview", "Metadata", KNOWLEDGE_SHEET, "Summaries"}
-    return [s for s in wb.sheetnames if s not in special_sheets]
+    return [s for s in wb.sheetnames if s not in SPECIAL_SHEETS]
 
 def update_overview(wb):
-    if "Overview" not in wb.sheetnames:
-        ov_ws = wb.create_sheet(title="Overview", index=0)
-        ov_ws.append(["Act", "Chapter", "File", "Total Lines", "MTL %", "Edited %"])
-        header_font = Font(bold=True)
-        fill = PatternFill("solid", fgColor="DDDDDD")
-        for col_idx in range(1, 7):
-            cell = ov_ws.cell(row=1, column=col_idx)
-            cell.font = header_font
-            cell.fill = fill
-        ov_ws.freeze_panes = "A2"
-        ov_ws.column_dimensions['A'].width = 20
-        ov_ws.column_dimensions['B'].width = 20
-        ov_ws.column_dimensions['C'].width = 40
-        ov_ws.column_dimensions['D'].width = 20
-        ov_ws.column_dimensions['E'].width = 20
-        ov_ws.column_dimensions['F'].width = 20
+    if OVERVIEW_SHEETNAME not in wb.sheetnames:
+        ov_ws = wb.create_sheet(title=OVERVIEW_SHEETNAME, index=0)
+        header = OVERVIEW_HEADER
+        ov_ws.append(header)
+        apply_header_and_column_widths(ov_ws, header, "A2", [20, 20, 40, 20, 20, 20])
         apply_wrap_to_all_cells(ov_ws)
     else:
-        ov_ws = wb["Overview"]
+        ov_ws = wb[OVERVIEW_SHEETNAME]
         for row in range(ov_ws.max_row, 1, -1):
             ov_ws.delete_rows(row)
 
@@ -393,6 +601,49 @@ def update_overview(wb):
             f"{total_edited_perc:.2f}%"
         ])
 
+def _load_and_parse_original_txt(path: str):
+    """Load a .txt file with utf-8.
+    Returns tuple (ftype, data) where data is a list of (ID, Original, Localized).
+    Returns (None, None) if type cannot be detected.
+    """
+    try:
+        with open(path, 'r', encoding='utf-8') as f:
+            lines = f.readlines()
+    except UnicodeDecodeError:
+        print(f"File {path} cannot be decoded.")
+        return None, None
+
+    ftype = detect_file_type(lines)
+    if ftype is None:
+        return None, None
+
+    if ftype == 1:
+        data = parse_type1(lines)
+    elif ftype == 2:
+        data = parse_type2(lines)
+    else:
+        data = None
+    return ftype, data
+
+def _add_sheet_with_parsed_data(wb, base_sheet_name: str, data: List[Tuple[str, str, str]]):
+    """Create a new sheet for the given data, avoiding name collisions.
+    Returns the final sheet name used.
+    """
+    sheet_name = sanitize_sheet_name(base_sheet_name)
+    existing = set(wb.sheetnames)
+    if sheet_name in existing:
+        suffix = 1
+        while f"{sheet_name}_{suffix}" in existing:
+            suffix += 1
+        sheet_name = sanitize_sheet_name(f"{sheet_name}_{suffix}")
+    ws = wb.create_sheet(title=sheet_name)
+    ws.append(COMMON_TRANSLATE_HEADER)
+    apply_header_and_column_widths(ws, COMMON_TRANSLATE_HEADER, "A2", [32, 60, 60, 60, 60])
+    for _id, original, localized in data:
+        ws.append([_id, original, trim_blank_lines(localized), "", ""])
+    apply_wrap_to_all_cells(ws)
+    return sheet_name
+
 def parse_original_files() -> None:
     if os.path.exists(XLSX_PATH):
         print(f"translate.xlsx already exists at {XLSX_PATH}. Skipping parse.")
@@ -403,85 +654,47 @@ def parse_original_files() -> None:
         sys.exit(1)
 
     wb = Workbook()
-    wb.remove(wb.active)
 
     metadata_rows = []
-
     for fname in sorted(os.listdir(ORIGINAL_DIR)):
         if not fname.lower().endswith('.txt'):
             continue
         path = os.path.join(ORIGINAL_DIR, fname)
-        try:
-            with open(path, 'r', encoding='utf-8') as f:
-                lines = f.readlines()
-        except UnicodeDecodeError:
-            with open(path, 'r', encoding='cp932', errors='replace') as f:
-                lines = f.readlines()
-
-        ftype = detect_file_type(lines)
+        ftype, data = _load_and_parse_original_txt(path)
         if ftype is None:
             print(f"Warning: Could not detect file type for {fname}. Skipping.")
             continue
-
-        data = parse_type1(lines) if ftype == 1 else parse_type2(lines)
-
         base_sheet_name = os.path.splitext(fname)[0]
-        sheet_name = sanitize_sheet_name(base_sheet_name)
-        existing = set(wb.sheetnames)
-        if sheet_name in existing:
-            suffix = 1
-            while f"{sheet_name}_{suffix}" in existing:
-                suffix += 1
-            sheet_name = sanitize_sheet_name(f"{sheet_name}_{suffix}")
-        ws = wb.create_sheet(title=sheet_name)
-
-        ws.append(HEADER)
-        style_and_freeze(ws)
-
-        for _id, original, localized in data:
-            ws.append([_id, original, trim_blank_lines(localized), "", ""])
-
-        apply_wrap_to_all_cells(ws)
-
+        sheet_name = _add_sheet_with_parsed_data(wb, base_sheet_name, data)
         metadata_rows.append([sheet_name, fname, ftype])
 
-    meta_ws = wb.create_sheet(title="Metadata")
-    meta_ws.append(META_HEADER)
-    header_font = Font(bold=True)
-    fill = PatternFill("solid", fgColor="DDDDDD")
-    for col_idx, _ in enumerate(META_HEADER, start=1):
-        cell = meta_ws.cell(row=1, column=col_idx)
-        cell.font = header_font
-        cell.fill = fill
-    meta_ws.freeze_panes = "A2"
-    meta_ws.column_dimensions['A'].width = 32
-    meta_ws.column_dimensions['B'].width = 60
-    meta_ws.column_dimensions['C'].width = 12
+    meta_ws = wb.create_sheet(title=METADATA_SHEETNAME)
+    meta_ws.append(METADATA_HEADER)
+    apply_header_and_column_widths(meta_ws, METADATA_HEADER, "A2", [32, 60, 12])
 
     for row in metadata_rows:
         meta_ws.append(row)
 
     apply_wrap_to_all_cells(meta_ws)
 
-    kb_ws = wb.create_sheet(title=KNOWLEDGE_SHEET)
+    kb_ws = wb.create_sheet(title=KNOWLEDGE_SHEETNAME)
     kb_ws.append(KNOWLEDGE_HEADER)
-    kb_ws.cell(row=1, column=1).font = header_font
-    kb_ws.cell(row=1, column=1).fill = fill
-    kb_ws.freeze_panes = "A2"
-    kb_ws.column_dimensions['A'].width = 100
+    apply_header_and_column_widths(kb_ws, KNOWLEDGE_HEADER, "A2", [100])
     for line in INITIAL_PROJECT_HEADER:
         kb_ws.append([line])
     apply_wrap_to_all_cells(kb_ws)
 
-    sum_ws = wb.create_sheet(title="Summaries")
-    sum_ws.append(["Sheet name", "Summary"])
-    for col_idx in range(1, 3):
-        cell = sum_ws.cell(row=1, column=col_idx)
-        cell.font = header_font
-        cell.fill = fill
-    sum_ws.column_dimensions['A'].width = 32
-    sum_ws.column_dimensions['B'].width = 100
+    sum_ws = wb.create_sheet(title=SUMMARIES_SHEETNAME)
+    _sum_headers = SUMMARIES_HEADER
+    sum_ws.append(_sum_headers)
+    # Keep Summaries unfrozen as before
+    apply_header_and_column_widths(sum_ws, _sum_headers, "A2", [32, 100])
     apply_wrap_to_all_cells(sum_ws)
+
+    # Create Patch addresses sheet and populate from existing file if available
+    ensure_patch_sheet(wb)
+    if os.path.exists(ADDRESSES_PATH):
+        populate_patch_sheet_from_file(wb, only_if_empty=True)
 
     update_overview(wb)
 
@@ -489,8 +702,8 @@ def parse_original_files() -> None:
     print(f"translate.xlsx created at {XLSX_PATH}")
 
 def get_knowledge_text(wb) -> str:
-    if KNOWLEDGE_SHEET in wb.sheetnames:
-        ws = wb[KNOWLEDGE_SHEET]
+    if KNOWLEDGE_SHEETNAME in wb.sheetnames:
+        ws = wb[KNOWLEDGE_SHEETNAME]
         parts = []
         for r in ws.iter_rows(min_row=2, max_col=1, values_only=True):
             if not r:
@@ -548,10 +761,10 @@ def translate_ai(num_lines: int) -> None:
     knowledge_text = get_knowledge_text(wb)
     processed = 0
 
-    sum_ws = wb["Summaries"] if "Summaries" in wb.sheetnames else None
+    sum_ws = wb[SUMMARIES_SHEETNAME] if SUMMARIES_SHEETNAME in wb.sheetnames else None
 
     for sheet_name in wb.sheetnames:
-        if sheet_name in {"Overview", "Metadata", KNOWLEDGE_SHEET, "Summaries"}:
+        if sheet_name in SPECIAL_SHEETS:
             continue
         ws = wb[sheet_name]
         headers = [(ws.cell(row=1, column=c).value or "").strip() for c in range(1, 10)]
@@ -684,11 +897,17 @@ def translate_ai(num_lines: int) -> None:
     else:
         print("No rows required translation or already filled.")
 
-def unpack_bundle(folder_path: str) -> None:
+def _list_bundles(folder_path: str) -> List[Path]:
+    """Return filtered list of bundle paths under folder_path, excluding ignored suffixes."""
     folder = Path(folder_path)
     bundle_paths = list(folder.rglob("*.bundle"))
-    bundle_paths = [p for p in bundle_paths if not any(p.name.endswith(suf) for suf in IGNORED_BUNDLE_SUFFIXES)]
+    return [p for p in bundle_paths if not any(p.name.endswith(suf) for suf in IGNORED_BUNDLE_SUFFIXES)]
 
+def _textasset_filename(obj) -> str:
+    return obj.container.split('/')[-1]
+
+def unpack_bundle(folder_path: str) -> None:
+    bundle_paths = _list_bundles(folder_path)
     if not bundle_paths:
         print(f"No .bundle files found in {folder_path}")
         return
@@ -703,9 +922,7 @@ def unpack_bundle(folder_path: str) -> None:
             for obj in bundle.objects:
                 if obj.type.name == "TextAsset":
                     data = obj.read()
-                    file_name = obj.container.split('/')[-1]
-                    if not file_name.endswith(".txt"):
-                        file_name += ".txt"
+                    file_name = _textasset_filename(obj)
                     out_path = os.path.join(ORIGINAL_DIR, file_name)
                     os.makedirs(os.path.dirname(out_path), exist_ok=True)
                     with open(out_path, "w", encoding="utf-8", newline="") as f:
@@ -720,11 +937,11 @@ def rebuild_translated_files() -> None:
         sys.exit(1)
 
     wb = load_workbook(XLSX_PATH)
-    if "Metadata" not in wb.sheetnames:
+    if METADATA_SHEETNAME not in wb.sheetnames:
         print("Metadata sheet not found in translate.xlsx")
         sys.exit(1)
 
-    meta_ws = wb["Metadata"]
+    meta_ws = wb[METADATA_SHEETNAME]
     mappings: List[Tuple[str, str, int]] = []
     for r in meta_ws.iter_rows(min_row=2, values_only=True):
         if not r or all(v is None for v in r):
@@ -803,8 +1020,7 @@ def rebuild_translated_files() -> None:
 
 def pack_translated_files(folder_path: str) -> None:
     folder = Path(folder_path)
-    bundle_paths = list(folder.rglob("*.bundle"))
-    bundle_paths = [p for p in bundle_paths if not any(p.name.endswith(suf) for suf in IGNORED_BUNDLE_SUFFIXES)]
+    bundle_paths = _list_bundles(folder_path)
 
     if not bundle_paths:
         print(f"No .bundle files found in {folder_path}")
@@ -820,15 +1036,33 @@ def pack_translated_files(folder_path: str) -> None:
     for file in Path(TRANSLATED_DIR).rglob("*.txt"):
         translated_file_dict[file.name] = file
 
+    # Load patches once
+    patches = load_patches_json()
+    # Build a global set of all patch entries to track unpatched across bundles
+    all_patch_entries = set()
+    if patches:
+        for _suf, _id_map in patches.items():
+            for _pid, _entries in _id_map.items():
+                for _ent in _entries:
+                    _sel = _ent.get('object_selector')
+                    if _sel is not None:
+                        all_patch_entries.add((_suf, _pid, _sel))
+
     for bundle_path in bundle_paths:
         try:
             bundle_path_str = str(bundle_path)
             bundle = UnityPy.load(bundle_path_str)
             bundle_modified = False
+
+            # Determine relevant patch keys (suffixes) for this bundle
+            applicable_suffixes = [suf for suf in patches.keys() if bundle_path_str.endswith(suf)] if patches else []
+            patched_count = 0
+
             for obj in bundle.objects:
                 if obj.type.name == "TextAsset":
-                    name = obj.container.split('/')[-1]
-                    if name not in translated_file_dict: continue
+                    name = _textasset_filename(obj)
+                    if name not in translated_file_dict:
+                        continue
 
                     translated_file = translated_file_dict[name]
                     with open(translated_file, 'r', encoding='utf-8') as f:
@@ -837,8 +1071,44 @@ def pack_translated_files(folder_path: str) -> None:
                     data = obj.read()
                     data.m_Script = translated_text
                     data.save()
-                    print(f"Replaced {name} in {bundle_path_str}")
+                    print(f"    Replaced {name} in {bundle_path_str}")
                     bundle_modified = True
+                elif obj.type.name == "MonoBehaviour" and applicable_suffixes:
+                    pid_key = str(obj.path_id)
+                    todo_entries = []  # list of (suffix, entry)
+                    for suf in applicable_suffixes:
+                        id_map = patches.get(suf, {})
+                        for _ent in id_map.get(pid_key, []):
+                            todo_entries.append((suf, _ent))
+                    if not todo_entries:
+                        continue
+
+                    try:
+                        tree = obj.read_typetree()
+                    except Exception as e:
+                        print(f"Failed to parse MonoBehaviour {bundle_path.name}. Error: {e}")
+                        continue
+                    # Apply patches
+                    any_patched_this_obj = False
+                    for suf, ent in todo_entries:
+                        selector = ent.get('object_selector')
+                        value = ent.get('patched_value')
+                        if selector is None:
+                            continue
+                        ok = _set_by_selector(tree, selector, value)
+                        if ok:
+                            any_patched_this_obj = True
+                            patched_count += 1
+                            all_patch_entries.discard((suf, pid_key, selector))
+
+                    if any_patched_this_obj:
+                        try:
+                            obj.save_typetree(tree)
+                            bundle_modified = True
+                            print(f"    Patched {patched_count} in {bundle_path.name}")
+                        except Exception as e:
+                            print(f"Failed to save typetree for {bundle_path.name} pid {pid_key}: {e}")
+
             if bundle_modified:
                 try:
                     rel_path = bundle_path.relative_to(folder)
@@ -856,6 +1126,11 @@ def pack_translated_files(folder_path: str) -> None:
         except Exception as e:
             print(f"Error processing {bundle_path}: {e}")
 
+    # Global report of unpatched patch entries across all bundles
+    print(f"Unpatched entries across all bundles: {len(all_patch_entries)}")
+    for suf, pid, sel in sorted(all_patch_entries):
+        print(f" - Suffix {suf} | PathID {pid} | selector {sel}")
+
 def refresh():
     if not os.path.exists(XLSX_PATH):
         print(f"translate.xlsx not found at {XLSX_PATH}.")
@@ -867,11 +1142,11 @@ def refresh():
 
     wb = load_workbook(XLSX_PATH)
 
-    # --- Kiểm tra file .txt mới trong ORIGINAL_DIR ---
+    # Check new .txt files in ORIGINAL_DIR
     existing_sheets = set(wb.sheetnames)
     existing_meta = set()
-    if "Metadata" in wb.sheetnames:
-        for r in wb["Metadata"].iter_rows(min_row=2, values_only=True):
+    if METADATA_SHEETNAME in wb.sheetnames:
+        for r in wb[METADATA_SHEETNAME].iter_rows(min_row=2, values_only=True):
             if r and r[0]:
                 existing_meta.add(str(r[0]))
 
@@ -883,52 +1158,42 @@ def refresh():
         sheet_name = sanitize_sheet_name(base_sheet_name)
 
         if sheet_name in existing_sheets or sheet_name in existing_meta:
-            continue  # đã có
+            continue  # already exists
 
         path = os.path.join(ORIGINAL_DIR, fname)
-        try:
-            with open(path, "r", encoding="utf-8") as f:
-                lines = f.readlines()
-        except UnicodeDecodeError:
-            with open(path, "r", encoding="cp932", errors="replace") as f:
-                lines = f.readlines()
-
-        ftype = detect_file_type(lines)
+        ftype, data = _load_and_parse_original_txt(path)
         if ftype is None:
             print(f"Warning: Could not detect file type for {fname}. Skipping.")
             continue
 
-        data = parse_type1(lines) if ftype == 1 else parse_type2(lines)
+        final_sheet_name = _add_sheet_with_parsed_data(wb, base_sheet_name, data)
+        new_metadata_rows.append([final_sheet_name, fname, ftype])
+        print(f"Added new sheet for {fname} -> {final_sheet_name}")
 
-        # tạo sheet mới
-        ws = wb.create_sheet(title=sheet_name)
-        ws.append(HEADER)
-        style_and_freeze(ws)
-        for _id, original, localized in data:
-            ws.append([_id, original, trim_blank_lines(localized), "", ""])
-        apply_wrap_to_all_cells(ws)
-
-        new_metadata_rows.append([sheet_name, fname, ftype])
-        print(f"Added new sheet for {fname} -> {sheet_name}")
-
-    # --- Cập nhật Metadata ---
+    # Update metadata sheet
     if new_metadata_rows:
-        if "Metadata" not in wb.sheetnames:
-            meta_ws = wb.create_sheet(title="Metadata")
-            meta_ws.append(META_HEADER)
+        if METADATA_SHEETNAME not in wb.sheetnames:
+            meta_ws = wb.create_sheet(title=METADATA_SHEETNAME)
+            meta_ws.append(METADATA_HEADER)
         else:
-            meta_ws = wb["Metadata"]
+            meta_ws = wb[METADATA_SHEETNAME]
         for row in new_metadata_rows:
             meta_ws.append(row)
 
-    # --- Update lại Overview ---
+    # Ensure Patch addresses sheet exists and populate from file if empty
+    ensure_patch_sheet(wb)
+    if os.path.exists(ADDRESSES_PATH):
+        populate_patch_sheet_from_file(wb, only_if_empty=True)
+
+    # Reupdate overview sheet
     update_overview(wb)
     wb.save(XLSX_PATH)
     print(f"Refreshed {XLSX_PATH}. Added {len(new_metadata_rows)} new sheet(s).")
 
 def main():
+    command_usage = "python translate_tool.py [unpack <folder>|parse|refresh|translate <num>|build|pack <folder>|build+pack <folder>]"
     if len(sys.argv) < 2:
-        print("Usage: python translate_tool.py [parse|build|pack <folder>|build+pack <folder>|translate <num>|refresh|unpack <folder>]")
+        print(f"Usage: {command_usage}")
         sys.exit(1)
     cmd = sys.argv[1].lower()
     if cmd == 'parse':
@@ -937,10 +1202,12 @@ def main():
         unpack_bundle(sys.argv[2])
     elif cmd == 'build':
         rebuild_translated_files()
+        write_patches_from_sheet()
     elif cmd == 'pack' and len(sys.argv) >= 3:
         pack_translated_files(sys.argv[2])
     elif cmd == 'build+pack' and len(sys.argv) >= 3:
         rebuild_translated_files()
+        write_patches_from_sheet()
         pack_translated_files(sys.argv[2])
     elif cmd == 'translate' and len(sys.argv) >= 3:
         try:
@@ -955,7 +1222,7 @@ def main():
     elif cmd == 'refresh':
         refresh()
     else:
-        print("Unknown command. Use 'parse', 'build', 'pack <folder>', 'build+pack <folder>', 'translate <num>', 'unpack <folder>', or 'refresh'.")
+        print(f"Unknown command. Use {command_usage}.")
         sys.exit(1)
 
 if __name__ == '__main__':
