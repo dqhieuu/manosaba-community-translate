@@ -12,7 +12,7 @@ from openpyxl import Workbook, load_workbook
 from openpyxl.styles import Font, PatternFill, Alignment
 from openpyxl.utils import get_column_letter
 import UnityPy
-import json
+import yaml
 
 IGNORED_BUNDLE_SUFFIXES = ['general-managedtext_assets_all.bundle']
 
@@ -62,7 +62,7 @@ def ensure_patch_sheet(wb):
     enforce_patch_pathid_text(ws)
     return ws
 
-def load_patches_json() -> dict:
+def load_patches_from_file() -> dict:
     if not os.path.exists(ADDRESSES_PATH):
         return {}
     try:
@@ -70,7 +70,8 @@ def load_patches_json() -> dict:
             content = f.read().strip()
             if not content:
                 return {}
-            return json.loads(content)
+            data = yaml.safe_load(content)
+            return data or {}
     except Exception as e:
         print(f"Warning: Failed to read {ADDRESSES_PATH}: {e}")
         return {}
@@ -78,7 +79,7 @@ def load_patches_json() -> dict:
 def populate_patch_sheet_from_file(wb, update_instead_of_overwrite: bool = True) -> None:
     ws = ensure_patch_sheet(wb)
     has_rows = ws.max_row and ws.max_row > 1
-    data = load_patches_json()
+    data = load_patches_from_file()
     if not data:
         return
 
@@ -190,7 +191,7 @@ def write_patches_from_sheet() -> None:
     os.makedirs(PATCHES_DIR, exist_ok=True)
     try:
         with open(ADDRESSES_PATH, 'w', encoding='utf-8') as f:
-            json.dump(out, f, ensure_ascii=False, indent=2)
+            yaml.safe_dump(out, f, allow_unicode=True, sort_keys=True)
         print(f"Wrote patches to {ADDRESSES_PATH}")
     except Exception as e:
         print(f"Error writing {ADDRESSES_PATH}: {e}")
@@ -1081,7 +1082,7 @@ def pack_translated_files(folder_path: str) -> None:
         translated_file_dict[file.name] = file
 
     # Load patches once
-    patches = load_patches_json()
+    patches = load_patches_from_file()
     # Build a global set of all patch entries to track unpatched across bundles
     all_patch_entries = set()
     if patches:
