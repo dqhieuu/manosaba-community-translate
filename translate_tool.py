@@ -34,6 +34,14 @@ INITIAL_PROJECT_HEADER = [
 
 SHEETNAME_MAXLEN = 31
 
+def is_file_editable(path: str) -> bool:
+    if not os.path.exists(path): return False
+    try:
+        os.rename(path, path)
+        return True
+    except OSError as e:
+        return False
+
 def sanitize_sheet_name(name: str) -> str:
     # Excel sheet name restrictions
     invalid = set('[]:*?/\\')
@@ -520,6 +528,10 @@ def generate_file_summary(client, sheet_name: str, rows: List[Tuple[str, str, st
         return ""
 
 def translate_ai(num_lines: int) -> None:
+    if not is_file_editable(XLSX_PATH):
+        print(f"Excel sheet {XLSX_PATH} is not editable. Skipping.")
+        sys.exit(1)
+
     if not os.path.exists(XLSX_PATH):
         print(f"translate.xlsx not found at {XLSX_PATH}. Run parse first.")
         sys.exit(1)
@@ -702,7 +714,7 @@ def unpack_bundle(folder_path: str) -> None:
         except Exception as e:
             print(f"Error unpacking {bundle_path}: {e}")
 
-def  rebuild_translated_files() -> None:
+def rebuild_translated_files() -> None:
     if not os.path.exists(XLSX_PATH):
         print(f"translate.xlsx not found at {XLSX_PATH}. Run parse first.")
         sys.exit(1)
@@ -847,6 +859,10 @@ def pack_translated_files(folder_path: str) -> None:
 def refresh():
     if not os.path.exists(XLSX_PATH):
         print(f"translate.xlsx not found at {XLSX_PATH}.")
+        sys.exit(1)
+
+    if not is_file_editable(XLSX_PATH):
+        print(f"Excel sheet {XLSX_PATH} is not editable. Skipping.")
         sys.exit(1)
 
     wb = load_workbook(XLSX_PATH)
