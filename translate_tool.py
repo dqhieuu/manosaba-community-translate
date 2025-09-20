@@ -17,6 +17,7 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 ORIGINAL_DIR = os.path.join(ROOT, "original")
 TRANSLATED_DIR = os.path.join(ROOT, "translated")
 XLSX_PATH = os.path.join(ROOT, "translate.xlsx")
+IGNORED_BUNDLE_SUFFIXES = ['general-managedtext_assets_all.bundle']
 
 HEADER = ["ID", "Original", "Chinese", "MTL", "Edited"]
 META_HEADER = ["Sheet name", "Mapped file name", "File type"]
@@ -90,11 +91,12 @@ def parse_type2(lines: List[str]) -> List[Tuple[str, str, str]]:
     results = []
     last_comment_block: List[str] = []
 
-    for raw in lines:
+    for idx, raw in enumerate(lines):
         line = raw.rstrip('\n')
         if not line.strip():
             continue
         if line.lstrip().startswith(';'):
+            if idx == 0: continue # Ignore the first metadata line
             comment = line.lstrip()[1:]
             if comment.startswith(' '):
                 comment = comment[1:]
@@ -673,6 +675,7 @@ def translate_ai(num_lines: int) -> None:
 def unpack_bundle(folder_path: str) -> None:
     folder = Path(folder_path)
     bundle_paths = list(folder.rglob("*.bundle"))
+    bundle_paths = [p for p in bundle_paths if not any(p.name.endswith(suf) for suf in IGNORED_BUNDLE_SUFFIXES)]
 
     if not bundle_paths:
         print(f"No .bundle files found in {folder_path}")
@@ -693,13 +696,13 @@ def unpack_bundle(folder_path: str) -> None:
                         file_name += ".txt"
                     out_path = os.path.join(ORIGINAL_DIR, file_name)
                     os.makedirs(os.path.dirname(out_path), exist_ok=True)
-                    with open(out_path, "w", encoding="utf-8-sig", newline="") as f:
+                    with open(out_path, "w", encoding="utf-8", newline="") as f:
                         f.write(data.m_Script)
                     print(f"Extracted {file_name} from {bundle_path}")
         except Exception as e:
             print(f"Error unpacking {bundle_path}: {e}")
 
-def rebuild_translated_files() -> None:
+def  rebuild_translated_files() -> None:
     if not os.path.exists(XLSX_PATH):
         print(f"translate.xlsx not found at {XLSX_PATH}. Run parse first.")
         sys.exit(1)
@@ -747,14 +750,17 @@ def rebuild_translated_files() -> None:
         lines_out: List[str] = []
 
         def add_comment_block(original_text: str, chinese_text: str, mtl_text: str):
-            for ln in (original_text or "").replace('\r\n', '\n').replace('\r', '\n').split('\n'):
-                lines_out.append("; " + ln if ln.strip() != "" else ";")
-            lines_out.append("; **Chinese**")
-            for ln in (chinese_text or "").replace('\r\n', '\n').replace('\r', '\n').split('\n'):
-                lines_out.append("; " + ln if ln.strip() != "" else ";")
-            lines_out.append("; **MTL**")
-            for ln in (mtl_text or "").replace('\r\n', '\n').replace('\r', '\n').split('\n'):
-                lines_out.append("; " + ln if ln.strip() != "" else ";")
+            if original_text.strip() != "":
+                for ln in (original_text or "").replace('\r\n', '\n').replace('\r', '\n').split('\n'):
+                    lines_out.append("; " + ln if ln.strip() != "" else ";")
+            if chinese_text.strip() != "":
+                lines_out.append("; **Chinese**")
+                for ln in (chinese_text or "").replace('\r\n', '\n').replace('\r', '\n').split('\n'):
+                    lines_out.append("; " + ln if ln.strip() != "" else ";")
+            if mtl_text.strip() != "":
+                lines_out.append("; **MTL**")
+                for ln in (mtl_text or "").replace('\r\n', '\n').replace('\r', '\n').split('\n'):
+                    lines_out.append("; " + ln if ln.strip() != "" else ";")
 
         if ftype == 2:
             for _id, original, chinese, mtl, edited in id_rows:
@@ -779,13 +785,14 @@ def rebuild_translated_files() -> None:
             print(f"Warning: Unknown file type {ftype} for {mapped_file}. Skipping.")
             continue
 
-        with open(out_path, 'w', encoding='utf-8-sig', newline='') as f:
-            f.write("\n".join(lines_out).rstrip() + "\n")
+        with open(out_path, 'w', encoding='utf-8', newline='') as f:
+            f.write("\n".join(lines_out) + "\n")
         print(f"Wrote {out_path}")
 
 def pack_translated_files(folder_path: str) -> None:
     folder = Path(folder_path)
     bundle_paths = list(folder.rglob("*.bundle"))
+    bundle_paths = [p for p in bundle_paths if not any(p.name.endswith(suf) for suf in IGNORED_BUNDLE_SUFFIXES)]
 
     if not bundle_paths:
         print(f"No .bundle files found in {folder_path}")
@@ -905,7 +912,7 @@ def refresh():
 
 def main():
     if len(sys.argv) < 2:
-        print("Usage: python translate_tool.py [parse|build|pack <folder>|build+pack <folder>|translate <num>|refresh]")
+        print("Usage: python translate_tool.py [parse|build|pack <folder>|build+pack <folder>|translate <num>|refresh|unpack <folder>]")
         sys.exit(1)
     cmd = sys.argv[1].lower()
     if cmd == 'parse':
@@ -932,7 +939,7 @@ def main():
     elif cmd == 'refresh':
         refresh()
     else:
-        print("Unknown command. Use 'parse', 'build', 'pack <folder>', 'build+pack <folder>', 'translate <num>', or 'refresh'.")
+        print("Unknown command. Use 'parse', 'build', 'pack <folder>', 'build+pack <folder>', 'translate <num>', 'unpack <folder>', or 'refresh'.")
         sys.exit(1)
 
 if __name__ == '__main__':

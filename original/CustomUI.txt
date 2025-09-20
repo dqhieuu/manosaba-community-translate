@@ -1,0 +1,133 @@
+; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'CustomUI' managed text document
+
+; <cspace=-0.125em>アリサ
+WitchBook.Map.Alisa: 亚里沙
+
+; <cspace=-0.125em>アンアン
+WitchBook.Map.AnAn: 安安
+
+; 監房
+WitchBook.Map.BasementHallway: 牢房
+
+; 地<cspace=-0.1em>精<size=0.8em>の</size>間</cspace>
+WitchBook.Map.ChamberGnome: 地<cspace=-0.1em>精之室</cspace>
+
+; 火<cspace=-0.1em>精<size=0.8em>の</size>間</cspace>
+WitchBook.Map.ChamberSalamander: 火<cspace=-0.1em>精之室</cspace>
+
+; 水<cspace=-0.1em>精<size=0.8em>の</size>間</cspace>
+WitchBook.Map.ChamberUndine: 水<cspace=-0.1em>精之室</cspace>
+
+; <cspace=-0.125em>ココ
+WitchBook.Map.Coco: 可可
+
+; 裁判所
+WitchBook.Map.Courtroom: 审判庭
+
+; 裁判所前通路
+WitchBook.Map.CourtroomHallway: 审判庭入口过道
+
+; 中庭
+WitchBook.Map.Courtyard: 中庭
+
+; <cspace=-0.125em>エマ
+WitchBook.Map.Ema: 艾玛
+
+; 玄関<cspace=-0.1em>ホール
+WitchBook.Map.EntranceHall: 玄关大厅
+
+; 花畑方面
+WitchBook.Map.FlowerFields: 往花田方向
+
+; <cspace=-0.1em>ゲストハウス</cspace>前
+WitchBook.Map.FrontGuesthouse: 招待所
+
+; <cspace=-0.125em>ハンナ
+WitchBook.Map.Hanna: 汉娜
+
+; <cspace=-0.125em>ヒロ
+WitchBook.Map.Hiro: 希罗
+
+; 焼却炉
+WitchBook.Map.Incinerator: 焚烧炉
+
+; 医務室
+WitchBook.Map.Infirmary: 医务室
+
+; 厨房
+WitchBook.Map.Kitchen: 厨房
+
+; 湖方面
+WitchBook.Map.Lake: 往湖方向
+
+; <cspace=-0.125em>レイア
+WitchBook.Map.Leia: 蕾雅
+
+; 図書室
+WitchBook.Map.Library: 图书室
+
+; <cspace=-0.1em>ラウンジ
+WitchBook.Map.Lounge: 会客厅
+
+; <cspace=-0.125em>マーゴ
+WitchBook.Map.Margo: 玛格
+
+; <cspace=-0.125em>メルル
+WitchBook.Map.Meruru: 梅露露
+
+; 食堂
+WitchBook.Map.MessHall: 食堂
+
+; <cspace=-0.125em>ミリア
+WitchBook.Map.Miria: 米莉亚
+
+; <cspace=-0.125em>ナノカ
+WitchBook.Map.Nanoka: 奈叶香
+
+; <cspace=-0.125em>ノア
+WitchBook.Map.Noah: 诺亚
+
+; <cspace=-0.1em>ノア<size=0.8em>の</size>スタジオ
+WitchBook.Map.NoahStudio: 诺亚的工作室
+
+; 応接間
+WitchBook.Map.Parlor: 接客室
+
+; 牢屋敷前
+WitchBook.Map.PrisonEntrance: 监牢入口
+
+; 娯楽室
+WitchBook.Map.RecreationRoom: 娱乐室
+
+; WWC 
+WitchBook.Map.Restroom: 女厕
+
+; 2F<cspace=-0.1em>ホール
+WitchBook.Map.SecondFloorHallway: 2F大厅
+
+; <cspace=-0.125em>シェ<space=-0.2em>リー
+WitchBook.Map.Sherry: 雪莉
+
+; <cspace=-0.1em>シャワールーム
+WitchBook.Map.Showers: 淋浴房
+
+; 懲罰房
+WitchBook.Map.SolitaryConfinement: 惩罚室
+
+; 物置
+WitchBook.Map.StorageRoom: 杂物处
+
+; <cspace=-0.1em>サンルーム
+WitchBook.Map.Sunroom: 日光房
+
+; <cspace=-0.2em>？？？
+WitchBook.Map.UnknownArea: <cspace=-0.2em>？？？
+
+; 塀
+WitchBook.Map.Wall: 围墙
+
+; 倉庫
+WitchBook.Map.Warehouse: 仓库
+
+; 規則
+WitchBook.Rule.Rule: 规定
