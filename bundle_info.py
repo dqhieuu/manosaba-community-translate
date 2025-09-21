@@ -1,6 +1,7 @@
 import os
 import sys
 from pathlib import Path
+import xml.etree.ElementTree as ET
 import UnityPy
 from UnityPy.files import ObjectReader
 from openpyxl import Workbook
@@ -16,6 +17,10 @@ OUTPUT_XLSX = "bundle_info.xlsx"
 ADDRESSES_PATH = os.path.join("patches", "addresses.txt")
 IGNORED_BUNDLE_SUFFIXES = ['general-managedtext_assets_all.bundle']
 IGNORED_CONTAINERS = ['Assets/#WitchTrials/Data/ScriptableObjects/SpecialThanksData.asset']
+
+# Container lookup configuration
+ROOT = os.path.dirname(os.path.abspath(__file__))
+CONTAINER_LOOKUP_DIR = os.path.join(ROOT, "container_lookup")
 
 # Excel sheet constants
 SHEET_NAME = "Bundle Info"
@@ -91,6 +96,42 @@ def get_extracted_texts(obj, bundle_suffix=""):
             return []
     return []
 
+def _load_container_lookup_map(dir_path: str = CONTAINER_LOOKUP_DIR) -> dict:
+    """Aggregate PathID->Container mapping from XML files in the given folder.
+    The XML schema is:
+      <Assets>
+        <Asset>
+          <Container>...</Container>
+          <PathID>...</PathID>
+        </Asset>
+      </Assets>
+    The folder may be empty or not exist.
+    Returns a dict mapping str(PathID) -> Container.
+    """
+    mapping = {}
+    if not os.path.isdir(dir_path):
+        return mapping
+    try:
+        for fname in os.listdir(dir_path):
+            if not fname.lower().endswith('.xml'):
+                continue
+            fpath = os.path.join(dir_path, fname)
+            try:
+                tree = ET.parse(fpath)
+                root = tree.getroot()
+                for asset in root.findall('./Asset'):
+                    pid_el = asset.find('PathID')
+                    cont_el = asset.find('Container')
+                    pid = pid_el.text.strip() if pid_el is not None and pid_el.text else None
+                    cont = cont_el.text.strip() if cont_el is not None and cont_el.text else None
+                    if pid and cont and pid not in mapping:
+                        mapping[pid] = cont
+            except Exception as e:
+                print(f"Warning: Failed to parse container lookup file {fpath}: {e}")
+    except Exception as e:
+        print(f"Warning: Could not read container lookup dir {dir_path}: {e}")
+    return mapping
+
 def generate_bundle_info(folder_path: str):
     """Generate an Excel file with bundle asset information, grouping by container."""
     folder = Path(folder_path)
@@ -103,6 +144,9 @@ def generate_bundle_info(folder_path: str):
 
     # Load patches
     patches = load_patches_from_file()
+
+    # Load container lookup map (optional)
+    container_map = _load_container_lookup_map()
 
     # Create Excel workbook
     wb = Workbook()
@@ -124,13 +168,14 @@ def generate_bundle_info(folder_path: str):
                 if obj.type.name not in ["MonoBehaviour"]:
                     continue
 
-                if obj.container in IGNORED_CONTAINERS:
+                resolved_container = obj.container or container_map.get(str(obj.path_id))
+                if resolved_container in IGNORED_CONTAINERS:
                     continue
 
                 extracted = get_extracted_texts(obj, bundle_suffix)
                 for orig_selector, original, cn_selector, chinese in extracted:
                     bundle_data[bundle_suffix].append({
-                        "container": obj.container,
+                        "container": resolved_container,
                         "name": obj.name,
                         "type": obj.type.name,
                         "path_id": str(obj.path_id),
@@ -148,7 +193,7 @@ def generate_bundle_info(folder_path: str):
                             selector = entry.get('object_selector', '')
                             if selector:
                                 patched_entry = {
-                                    "container": obj.container,
+                                    "container": resolved_container,
                                     "name": obj.name,
                                     "type": obj.type.name,
                                     "path_id": pid_str,

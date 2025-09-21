@@ -1,4 +1,4 @@
 translated
-translate.xlsx
+*.xlsx
 .venv
 *.env
