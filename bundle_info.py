@@ -172,11 +172,13 @@ def generate_bundle_info(folder_path: str):
                 if resolved_container in IGNORED_CONTAINERS:
                     continue
 
+                name = obj.read_typetree()['m_Name']
+
                 extracted = get_extracted_texts(obj, bundle_suffix)
                 for orig_selector, original, cn_selector, chinese in extracted:
                     bundle_data[bundle_suffix].append({
                         "container": resolved_container,
-                        "name": obj.name,
+                        "name": name,
                         "type": obj.type.name,
                         "path_id": str(obj.path_id),
                         "original_selector": orig_selector,
@@ -194,7 +196,7 @@ def generate_bundle_info(folder_path: str):
                             if selector:
                                 patched_entry = {
                                     "container": resolved_container,
-                                    "name": obj.name,
+                                    "name": name,
                                     "type": obj.type.name,
                                     "path_id": pid_str,
                                     "original_selector": selector,
