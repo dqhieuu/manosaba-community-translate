@@ -274,6 +274,8 @@ from translate_tool import (
 )
 
 def main():
+    import sys  # thêm dòng này
+
     command_usage = "python bundle_info.py [info <folder>|pack <folder>]"
     if len(sys.argv) < 3:
         print(f"Usage: {command_usage}")
@@ -295,7 +297,6 @@ def main():
     else:
         print(f"Unknown command. Use {command_usage}.")
         sys.exit(1)
-
 
 if __name__ == "__main__":
     main()
