@@ -62,24 +62,110 @@ def ensure_patch_sheet(wb):
     enforce_patch_pathid_text(ws)
     return ws
 
-def load_patches_from_file() -> dict:
-    if not os.path.exists(ADDRESSES_PATH):
-        return {}
-    try:
-        with open(ADDRESSES_PATH, 'r', encoding='utf-8') as f:
-            content = f.read().strip()
-            if not content:
-                return {}
-            data = yaml.safe_load(content)
-            return data or {}
-    except Exception as e:
-        print(f"Warning: Failed to read {ADDRESSES_PATH}: {e}")
-        return {}
+def load_patches_from_files() -> dict:
+    """Load patch addresses from multiple sources and merge them.
+    Priority (last one wins on duplicates):
+      1) patches/addresses.txt (YAML)
+      2) translate.xlsx -> "Patch addresses" sheet
+      3) bundle_info.xlsx -> "Patch Addresses" sheet
+    Schema returned: { suffix: { path_id(str): [ {object_selector: str, patched_value: any}, ... ] } }
+    """
+    merged: dict = {}
+
+    def _merge_entry(store: dict, suffix: str, pid: str, selector: str, value):
+        if not suffix or not pid or not selector:
+            return
+        id_map = store.setdefault(suffix, {})
+        entries = id_map.setdefault(str(pid), [])
+        # Replace if selector already exists, else append
+        for ent in entries:
+            if ent.get('object_selector') == selector:
+                ent['patched_value'] = value
+                return
+        entries.append({'object_selector': selector, 'patched_value': value})
+
+    # 1) YAML file
+    if os.path.exists(ADDRESSES_PATH):
+        try:
+            with open(ADDRESSES_PATH, 'r', encoding='utf-8') as f:
+                content = f.read().strip()
+                if content:
+                    data = yaml.safe_load(content) or {}
+                    # normalize into merged
+                    if isinstance(data, dict):
+                        for suf, id_map in data.items():
+                            if not isinstance(id_map, dict):
+                                continue
+                            for pid, entries in id_map.items():
+                                try:
+                                    pid_str = str(pid)
+                                except Exception:
+                                    pid_str = str(pid)
+                                if isinstance(entries, list):
+                                    for ent in entries:
+                                        if not isinstance(ent, dict):
+                                            continue
+                                        selector = ent.get('object_selector')
+                                        value = ent.get('patched_value')
+                                        if selector is not None:
+                                            _merge_entry(merged, suf, pid_str, selector, value)
+        except Exception as e:
+            print(f"Warning: Failed to read {ADDRESSES_PATH}: {e}")
+
+    # Helper to read a patch sheet from a workbook path
+    def _gather_from_workbook(xlsx_path: str):
+        if not os.path.exists(xlsx_path):
+            return
+        try:
+            wb = load_workbook(xlsx_path)
+        except Exception:
+            return
+        # Find a sheet whose name matches 'Patch addresses' (case-insensitive, with or without capital A)
+        target_ws = None
+        for s in wb.sheetnames:
+            if s.lower().strip() in { 'patch addresses' }:
+                target_ws = wb[s]
+                break
+        if target_ws is None:
+            return
+        # Map headers
+        headers = [ (target_ws.cell(row=1, column=c).value or '').strip() for c in range(1, target_ws.max_column + 1) ]
+        name_to_idx = { (h or '').strip().lower(): i+1 for i, h in enumerate(headers) }
+        needed = ['bundle path suffix', 'pathid', 'object selector']
+        if not all(col in name_to_idx for col in needed):
+            return
+        col_suffix = name_to_idx['bundle path suffix']
+        col_pathid = name_to_idx['pathid']
+        col_selector = name_to_idx['object selector']
+        col_original = name_to_idx.get('original')
+        col_translated = name_to_idx.get('translated')
+        max_row = target_ws.max_row or 1
+        for r in range(2, max_row + 1):
+            suf = (target_ws.cell(row=r, column=col_suffix).value or '').strip()
+            pid = str((target_ws.cell(row=r, column=col_pathid).value or '').strip())
+            selector = (target_ws.cell(row=r, column=col_selector).value or '').strip()
+            if not suf or not pid or not selector:
+                continue
+            val_t = (target_ws.cell(row=r, column=col_translated).value if col_translated else None)
+            val_o = (target_ws.cell(row=r, column=col_original).value if col_original else None)
+            val_t = (str(val_t) if val_t is not None else '').strip()
+            val_o = (str(val_o) if val_o is not None else '').strip()
+            value = val_t if val_t != '' else val_o
+            if value == '':
+                continue
+            _merge_entry(merged, suf, pid, selector, value)
+
+    # 2) translate.xlsx
+    _gather_from_workbook(XLSX_PATH)
+    # 3) bundle_info.xlsx (same ROOT)
+    _gather_from_workbook(os.path.join(ROOT, 'bundle_info.xlsx'))
+
+    return merged
 
 def populate_patch_sheet_from_file(wb, update_instead_of_overwrite: bool = True) -> None:
     ws = ensure_patch_sheet(wb)
     has_rows = ws.max_row and ws.max_row > 1
-    data = load_patches_from_file()
+    data = load_patches_from_files()
     if not data:
         return
 
@@ -142,57 +228,16 @@ def populate_patch_sheet_from_file(wb, update_instead_of_overwrite: bool = True)
     # Enforce PathID text format after population/merge
     enforce_patch_pathid_text(ws)
 
-def write_patches_from_sheet() -> None:
-    if not os.path.exists(XLSX_PATH):
-        print(f"translate.xlsx not found at {XLSX_PATH}. Run parse first.")
-        return
-    wb = load_workbook(XLSX_PATH)
-    if PATCH_SHEETNAME not in wb.sheetnames:
-        print("No Patch addresses sheet found. Skipping patches build.")
-        return
-    ws = wb[PATCH_SHEETNAME]
-    # Verify headers
-    headers = [(ws.cell(row=1, column=c).value or "").strip() for c in range(1, 10)]
-    try:
-        col_suffix = headers.index("Bundle path suffix") + 1
-        col_pathid = headers.index("PathID") + 1
-        col_selector = headers.index("Object selector") + 1
-        col_original = headers.index("Original") + 1
-        col_translated = headers.index("Translated") + 1
-    except ValueError:
-        print("Patch addresses sheet has invalid headers. Skipping.")
-        return
-
-    out: dict = {}
-    for r in range(2, ws.max_row + 1):
-        suffix = (ws.cell(row=r, column=col_suffix).value or "").strip()
-        if not suffix:
-            continue
-        pathid_val = ws.cell(row=r, column=col_pathid).value
-        if pathid_val is None or str(pathid_val).strip() == "":
-            continue
-        try:
-            pid_key = str(int(pathid_val))
-        except Exception:
-            pid_key = str(pathid_val).strip()
-        selector = (ws.cell(row=r, column=col_selector).value or "").strip()
-        if not selector:
-            continue
-        translated = (ws.cell(row=r, column=col_translated).value or "").strip()
-        original = (ws.cell(row=r, column=col_original).value or "").strip()
-        patched_value = translated if translated != "" else original
-        if patched_value == "":
-            continue
-        out.setdefault(suffix, {}).setdefault(pid_key, []).append({
-            "object_selector": selector,
-            "patched_value": patched_value
-        })
-
+def dump_patches_from_files() -> None:
+    """Dump merged patches from all sources into patches/addresses.txt.
+    Uses load_patches_from_files to aggregate from YAML + translate.xlsx + bundle_info.xlsx.
+    """
+    merged = load_patches_from_files() or {}
     os.makedirs(PATCHES_DIR, exist_ok=True)
     try:
         with open(ADDRESSES_PATH, 'w', encoding='utf-8') as f:
-            yaml.safe_dump(out, f, allow_unicode=True, sort_keys=True)
-        print(f"Wrote patches to {ADDRESSES_PATH}")
+            yaml.safe_dump(merged, f, allow_unicode=True, sort_keys=True)
+        print(f"Wrote merged patches to {ADDRESSES_PATH} ({sum(len(v) for v in merged.values())} path groups)")
     except Exception as e:
         print(f"Error writing {ADDRESSES_PATH}: {e}")
 
@@ -738,8 +783,6 @@ def parse_original_files() -> None:
 
     # Create Patch addresses sheet and populate from existing file if available
     ensure_patch_sheet(wb)
-    if os.path.exists(ADDRESSES_PATH):
-        populate_patch_sheet_from_file(wb)
 
     update_overview(wb)
 
@@ -1082,7 +1125,7 @@ def pack_translated_files(folder_path: str) -> None:
         translated_file_dict[file.name] = file
 
     # Load patches once
-    patches = load_patches_from_file()
+    patches = load_patches_from_files()
     # Build a global set of all patch entries to track unpatched across bundles
     all_patch_entries = set()
     if patches:
@@ -1227,8 +1270,6 @@ def refresh():
 
     # Ensure Patch addresses sheet exists and populate from file if empty
     ensure_patch_sheet(wb)
-    if os.path.exists(ADDRESSES_PATH):
-        populate_patch_sheet_from_file(wb)
 
     # Reupdate overview sheet
     update_overview(wb)
@@ -1247,12 +1288,12 @@ def main():
         unpack_bundle(sys.argv[2])
     elif cmd == 'build':
         rebuild_translated_files()
-        write_patches_from_sheet()
+        dump_patches_from_files()
     elif cmd == 'pack' and len(sys.argv) >= 3:
         pack_translated_files(sys.argv[2])
     elif cmd == 'build+pack' and len(sys.argv) >= 3:
         rebuild_translated_files()
-        write_patches_from_sheet()
+        dump_patches_from_files()
         pack_translated_files(sys.argv[2])
     elif cmd == 'translate' and len(sys.argv) >= 3:
         try:

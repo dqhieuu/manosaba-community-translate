@@ -3,13 +3,14 @@ import sys
 from pathlib import Path
 import xml.etree.ElementTree as ET
 import UnityPy
-from UnityPy.files import ObjectReader
-from openpyxl import Workbook
+from openpyxl import Workbook, load_workbook
 
 from translate_tool import (
     apply_header_and_column_widths,
     apply_wrap_to_all_cells,
-    load_patches_from_file
+    load_patches_from_files,
+    ensure_patch_sheet,
+    populate_patch_sheet_from_file
 )
 
 # Configuration
@@ -143,17 +144,37 @@ def generate_bundle_info(folder_path: str):
         return
 
     # Load patches
-    patches = load_patches_from_file()
+    patches = load_patches_from_files()
 
     # Load container lookup map (optional)
     container_map = _load_container_lookup_map()
 
-    # Create Excel workbook
-    wb = Workbook()
-    ws = wb.active
-    ws.title = SHEET_NAME
-    ws.append(HEADER)
-    apply_header_and_column_widths(ws, HEADER, [40, 60, 30, 15, 16, 30, 60, 30, 60])
+    # Create or load Excel workbook (avoid overwriting existing file)
+    if os.path.exists(OUTPUT_XLSX):
+        try:
+            wb = load_workbook(OUTPUT_XLSX)
+        except Exception:
+            wb = Workbook()
+    else:
+        wb = Workbook()
+
+    # Ensure/Create main info sheet
+    if SHEET_NAME in wb.sheetnames:
+        ws = wb[SHEET_NAME]
+        # Clear existing data rows, keep header if present
+        if ws.max_row and ws.max_row > 1:
+            ws.delete_rows(2, ws.max_row - 1)
+        # Ensure header exists and widths applied
+        if (ws.cell(row=1, column=1).value or "").strip() != HEADER[0]:
+            ws.delete_rows(1, ws.max_row)
+            ws.append(HEADER)
+            apply_header_and_column_widths(ws, HEADER, [40, 60, 30, 15, 16, 30, 60, 30, 60])
+        else:
+            apply_header_and_column_widths(ws, HEADER, [40, 60, 30, 15, 16, 30, 60, 30, 60])
+    else:
+        ws = wb.create_sheet(title=SHEET_NAME)
+        ws.append(HEADER)
+        apply_header_and_column_widths(ws, HEADER, [40, 60, 30, 15, 16, 30, 60, 30, 60])
 
     # Collect all asset data grouped by bundle
     bundle_data = {}
@@ -254,12 +275,54 @@ def generate_bundle_info(folder_path: str):
 
     apply_wrap_to_all_cells(ws)
 
-    # Tạo sheet Patch Addresses
-    ws_patch = wb.create_sheet(PATCH_SHEET_NAME)
-    ws_patch.append(PATCH_HEADER)
-    apply_header_and_column_widths(ws_patch, PATCH_HEADER, [40, 16, 40, 60, 60, 60])
+    # Merge into Patch Addresses sheet without overwriting existing data
+    ws_patch = ensure_patch_sheet(wb)
+    # Map headers and build index
+    headers = [(ws_patch.cell(row=1, column=c).value or "").strip() for c in range(1, ws_patch.max_column + 1)]
+    try:
+        col_suffix = headers.index("Bundle path suffix") + 1
+        col_pathid = headers.index("PathID") + 1
+        col_selector = headers.index("Object selector") + 1
+        col_original = headers.index("Original") + 1
+        col_translated = headers.index("Translated") + 1
+        col_notes = headers.index("Notes") + 1
+    except ValueError:
+        # Recreate header if mismatched
+        ws_patch.delete_rows(1, ws_patch.max_row)
+        ws_patch.append(PATCH_HEADER)
+        apply_header_and_column_widths(ws_patch, PATCH_HEADER, [40, 16, 40, 60, 60, 60])
+        col_suffix, col_pathid, col_selector, col_original, col_translated, col_notes = 1, 2, 3, 4, 5, 6
+
+    index = {}
+    for r in range(2, ws_patch.max_row + 1):
+        suf = (ws_patch.cell(row=r, column=col_suffix).value or "").strip()
+        pid = str((ws_patch.cell(row=r, column=col_pathid).value or "").strip())
+        sel = (ws_patch.cell(row=r, column=col_selector).value or "").strip()
+        if suf and pid and sel:
+            index[(suf, pid, sel)] = r
+
+    # Add/merge rows from this run
     for row in all_rows_for_patch:
-        ws_patch.append(row)
+        suf, pid, sel, original, translated, notes = row
+        key = (str(suf).strip(), str(pid).strip(), str(sel).strip())
+        if not key[0] or not key[1] or not key[2]:
+            continue
+        r = index.get(key)
+        if r is None:
+            ws_patch.append([key[0], key[1], key[2], original, translated, notes])
+            index[key] = ws_patch.max_row
+        else:
+            # Fill Original/Notes if empty; leave Translated to user/patch
+            o_cell = ws_patch.cell(row=r, column=col_original)
+            if (o_cell.value is None) or (str(o_cell.value).strip() == ""):
+                o_cell.value = original
+            n_cell = ws_patch.cell(row=r, column=col_notes)
+            if (n_cell.value is None) or (str(n_cell.value).strip() == ""):
+                n_cell.value = notes
+
+    # Now append any missing data from files without overwriting existing rows
+    populate_patch_sheet_from_file(wb, update_instead_of_overwrite=True)
+
     apply_wrap_to_all_cells(ws_patch)
 
     wb.save(OUTPUT_XLSX)
