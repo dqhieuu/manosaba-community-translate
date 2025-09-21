@@ -6,6 +6,7 @@ from typing import List, Tuple, Optional
 from pathlib import Path
 from collections import defaultdict
 
+from PIL import Image
 from openai import OpenAI
 from openai.types.shared_params import Reasoning
 from openpyxl import Workbook, load_workbook
@@ -991,7 +992,8 @@ def _list_bundles(folder_path: str) -> List[Path]:
     bundle_paths = list(folder.rglob("*.bundle"))
     return [p for p in bundle_paths if not any(p.name.endswith(suf) for suf in IGNORED_BUNDLE_SUFFIXES)]
 
-def _textasset_filename(obj) -> str:
+def _asset_filename(obj) -> str|None:
+    if not obj.container: return None
     return obj.container.split('/')[-1]
 
 def unpack_bundle(folder_path: str) -> None:
@@ -1010,7 +1012,7 @@ def unpack_bundle(folder_path: str) -> None:
             for obj in bundle.objects:
                 if obj.type.name == "TextAsset":
                     data = obj.read()
-                    file_name = _textasset_filename(obj)
+                    file_name = _asset_filename(obj)
                     out_path = os.path.join(ORIGINAL_DIR, file_name)
                     os.makedirs(os.path.dirname(out_path), exist_ok=True)
                     with open(out_path, "w", encoding="utf-8", newline="") as f:
@@ -1120,9 +1122,14 @@ def pack_translated_files(folder_path: str) -> None:
 
     print(f"Found {len(bundle_paths)} .bundle files:")
 
-    translated_file_dict = {}
+    translated_text_file_dict = {}
     for file in Path(TRANSLATED_DIR).rglob("*.txt"):
-        translated_file_dict[file.name] = file
+        translated_text_file_dict[file.name] = file
+
+    patched_asset_file_dict = {}
+    for ext in ["png", "jpg"]:
+        for file in Path(PATCHES_DIR).rglob(f"*.{ext}"):
+            patched_asset_file_dict[file.stem] = file
 
     # Load patches once
     patches = load_patches_from_files()
@@ -1146,21 +1153,53 @@ def pack_translated_files(folder_path: str) -> None:
             applicable_suffixes = [suf for suf in patches.keys() if bundle_path_str.endswith(suf)] if patches else []
             patched_count = 0
 
+            opened_objects_by_type = {}
+
             for obj in bundle.objects:
                 if obj.type.name == "TextAsset":
-                    name = _textasset_filename(obj)
-                    if name not in translated_file_dict:
+                    name = _asset_filename(obj)
+                    if name not in translated_text_file_dict:
                         continue
 
-                    translated_file = translated_file_dict[name]
-                    with open(translated_file, 'r', encoding='utf-8') as f:
+                    with open(translated_text_file_dict[name], 'r', encoding='utf-8') as f:
                         translated_text = f.read()
 
                     data = obj.read()
                     data.m_Script = translated_text
                     data.save()
-                    print(f"    Replaced {name} in {bundle_path_str}")
                     bundle_modified = True
+                    print(f"    Replaced {name} in {bundle_path_str}")
+                elif obj.type.name == "SpriteAtlas":
+                    data = obj.read()
+
+                    if not "Texture2D" in opened_objects_by_type:
+                        opened_objects_by_type["Texture2D"] = []
+                        for obj in bundle.objects:
+                            if obj.type.name == "Texture2D":
+                                opened_objects_by_type["Texture2D"].append(obj.read())
+
+                    # Find Texture2D, whose name includes data.name
+                    matching_texture = None
+                    for tex in opened_objects_by_type["Texture2D"]:
+                        if data.m_Name in tex.m_Name:
+                            matching_texture = tex
+                    if matching_texture is None:
+                        print(f"Warning: Could not find texture for {data.m_Name} in {bundle_path_str}")
+                        continue
+                    atlas_image = matching_texture.image # PIL
+                    for idx, sprite_name in enumerate(data.m_PackedSpriteNamesToIndex):
+                        if sprite_name in patched_asset_file_dict:
+                            sprite_image = Image.open(patched_asset_file_dict[sprite_name])
+                            coords = data.m_RenderDataMap[idx][1].textureRect
+                            atlas_image.paste(sprite_image,
+                                              (int(coords.x), int(atlas_image.height - coords.y - sprite_image.height), int(coords.x + coords.width), int(atlas_image.height - coords.y)))
+                            bundle_modified = True
+                            print(f"    Patched sprite {sprite_name} in {matching_texture.m_Name} in {bundle_path_str}")
+                            patched_count += 1
+                    if bundle_modified:
+                        matching_texture.image = atlas_image
+                        matching_texture.save()
+
                 elif obj.type.name == "MonoBehaviour" and applicable_suffixes:
                     pid_key = str(obj.path_id)
                     todo_entries = []  # list of (suffix, entry)
@@ -1193,7 +1232,6 @@ def pack_translated_files(folder_path: str) -> None:
                         try:
                             obj.save_typetree(tree)
                             bundle_modified = True
-                            print(f"    Patched {patched_count} in {bundle_path.name}")
                         except Exception as e:
                             print(f"Failed to save typetree for {bundle_path.name} pid {pid_key}: {e}")
 
@@ -1209,6 +1247,8 @@ def pack_translated_files(folder_path: str) -> None:
                     print(f"Backed up original: {backup_path}")
 
                 bundle.save(pack="lz4", out_path=os.path.dirname(bundle_path))
+                if patched_count > 0:
+                    print(f"    Patched {patched_count} in {bundle_path.name}")
                 print(f"Saved {bundle_path_str}")
 
         except Exception as e:
