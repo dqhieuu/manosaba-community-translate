@@ -2,6 +2,7 @@ import os
 import sys
 from pathlib import Path
 import UnityPy
+from UnityPy.files import ObjectReader
 from openpyxl import Workbook
 
 from translate_tool import (
@@ -24,36 +25,56 @@ HEADER = ["Bundle Path Suffix", "Container", "Name", "Type", "PathID", "Original
 PATCH_SHEET_NAME = "Patch Addresses"
 PATCH_HEADER = ["Bundle path suffix", "PathID", "Object selector", "Original", "Translated", "Notes"]
 
-def extract_localized_texts(tree, base_path="", bundle_suffix=""):
-    """Recursively extract localized texts, pairing locale 0 and 2 for the same item index."""
+def extract_localized_texts(tree, base_path="", bundle_suffix="", parent_stack=None):
+    """Recursively extract localized texts, pairing locale 0 and 2 for the same item index.
+    Additionally, maintain a parent path stack (list) that holds the ancestry while traversing.
+    This can be useful for future context-aware processing. The return format remains unchanged.
+    """
+    if parent_stack is None:
+        parent_stack = []
     texts = []
     if isinstance(tree, dict):
         for key, value in tree.items():
             new_path = f"{base_path}.{key}" if base_path else key
+            # push current key into parent stack
+            parent_stack.append(value)
             if isinstance(value, list) and value:
                 if isinstance(value[0], dict) and "_locale" in value[0] and "_text" in value[0]:
                     locale_texts = {}
                     for idx, item in enumerate(value):
                         selector = f"{new_path}[{idx}]._text"
-                        locale = item["_locale"]
-                        text = item["_text"]
+                        locale = item.get("_locale")
+                        text = item.get("_text")
                         locale_texts[locale] = (selector, text)
                     orig_selector = locale_texts.get(0, ("", ""))[0]
                     orig_text = locale_texts.get(0, ("", ""))[1]
                     cn_selector = locale_texts.get(2, ("", ""))[0]
                     cn_text = locale_texts.get(2, ("", ""))[1]
+                    # If original text is missing, check parent for a _defaultText fallback
+                    if (not orig_text) and cn_text and len(parent_stack) >= 2:
+                        parent_obj = parent_stack[-2]
+                        if isinstance(parent_obj, dict) and "_defaultText" in parent_obj:
+                            orig_text = parent_obj.get("_defaultText")
+                            orig_selector = f"{base_path}._defaultText" if base_path else "_defaultText"
                     if orig_text or cn_text:
                         texts.append((orig_selector, orig_text, cn_selector, cn_text))
                 else:
                     for idx, item in enumerate(value):
                         item_path = f"{new_path}[{idx}]"
-                        texts.extend(extract_localized_texts(item, item_path, bundle_suffix))
+                        # push index context
+                        parent_stack.append(idx)
+                        texts.extend(extract_localized_texts(item, item_path, bundle_suffix, parent_stack))
+                        parent_stack.pop()
             else:
-                texts.extend(extract_localized_texts(value, new_path, bundle_suffix))
+                texts.extend(extract_localized_texts(value, new_path, bundle_suffix, parent_stack))
+            # pop current key
+            parent_stack.pop()
     elif isinstance(tree, list):
         for idx, item in enumerate(tree):
             new_path = f"{base_path}[{idx}]"
-            texts.extend(extract_localized_texts(item, new_path, bundle_suffix))
+            parent_stack.append(idx)
+            texts.extend(extract_localized_texts(item, new_path, bundle_suffix, parent_stack))
+            parent_stack.pop()
     return texts
 
 def get_extracted_texts(obj, bundle_suffix=""):
@@ -64,8 +85,8 @@ def get_extracted_texts(obj, bundle_suffix=""):
             extracted = extract_localized_texts(tree, bundle_suffix=bundle_suffix)
             if extracted:
                 return extracted
-            if 'm_text' in tree:
-                return [("m_text", tree['m_text'], "m_text", tree['m_text'])]
+            # if 'm_text' in tree:
+            #     return [("m_text", tree['m_text'], "m_text", tree['m_text'])]
         except:
             return []
     return []
