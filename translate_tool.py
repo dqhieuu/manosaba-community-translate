@@ -39,7 +39,7 @@ METADATA_HEADER = ["Sheet name", "Mapped file name", "File type"]
 KNOWLEDGE_HEADER = ["Knowledge"]
 OVERVIEW_HEADER = ["Act", "Chapter", "File", "Total Lines", "MTL %", "Edited %"]
 SUMMARIES_HEADER = ["Sheet name", "Summary"]
-PATCH_HEADER = ["Bundle path suffix", "PathID", "Object selector", "Original", "Translated"]
+PATCH_HEADER = ["Bundle path suffix", "PathID", "Object selector", "Original", "Translated", "Notes"]
 
 INITIAL_PROJECT_HEADER = [
     "Project type: Visual Novel translation.",
@@ -54,7 +54,7 @@ def ensure_patch_sheet(wb):
         ws = wb.create_sheet(title=PATCH_SHEETNAME)
         ws.append(PATCH_HEADER)
         # Style, freeze, and set column widths via common helper
-        apply_header_and_column_widths(ws, PATCH_HEADER, "A2", [50, 16, 60, 60, 60])
+        apply_header_and_column_widths(ws, PATCH_HEADER, [50, 16, 60, 60, 60, 60])
         apply_wrap_to_all_cells(ws)
     else:
         ws = wb[PATCH_SHEETNAME]
@@ -97,7 +97,7 @@ def populate_patch_sheet_from_file(wb, update_instead_of_overwrite: bool = True)
                 for ent in entries:
                     selector = ent.get('object_selector', '')
                     val = ent.get('patched_value', '')
-                    ws.append([bundle_suffix, pid_str, selector, val, ""])  # Original=val, Translated empty
+                    ws.append([bundle_suffix, pid_str, selector, val, "", ""])  # Original=val, Translated empty; Notes empty
     else:
         # Sheet has existing rows and only_if_empty=True -> merge: add missing and fill blanks
         # Build index of existing rows: key -> row number
@@ -287,12 +287,12 @@ def apply_frozen_header(ws, headers, freeze_panes_cell: Optional[str] = "A2"):
         ws.freeze_panes = freeze_panes_cell
 
 
-def apply_header_and_column_widths(ws, headers, freeze_panes_cell: Optional[str] = "A2", column_widths=None):
+def apply_header_and_column_widths(ws, headers, column_widths=None, freeze_panes_cell: Optional[str] = "A2"):
     """Common helper to style header (row 1), freeze panes, and set column widths.
     - headers: list of header titles (used to know how many columns to style)
-    - freeze_panes_cell: e.g., "A2" to freeze top row
     - column_widths: either a list/tuple matching headers length, or a dict mapping
       column letters (e.g., 'A') to widths.
+    - freeze_panes_cell: e.g., "A2" to freeze top row
     """
     # Apply header style and optional freeze
     apply_frozen_header(ws, headers, freeze_panes_cell)
@@ -459,7 +459,7 @@ def update_overview(wb):
         ov_ws = wb.create_sheet(title=OVERVIEW_SHEETNAME, index=0)
         header = OVERVIEW_HEADER
         ov_ws.append(header)
-        apply_header_and_column_widths(ov_ws, header, "A2", [20, 20, 40, 20, 20, 20])
+        apply_header_and_column_widths(ov_ws, header, [20, 20, 40, 20, 20, 20])
         apply_wrap_to_all_cells(ov_ws)
     else:
         ov_ws = wb[OVERVIEW_SHEETNAME]
@@ -683,7 +683,7 @@ def _add_sheet_with_parsed_data(wb, base_sheet_name: str, data: List[Tuple[str, 
         sheet_name = sanitize_sheet_name(f"{sheet_name}_{suffix}")
     ws = wb.create_sheet(title=sheet_name)
     ws.append(COMMON_TRANSLATE_HEADER)
-    apply_header_and_column_widths(ws, COMMON_TRANSLATE_HEADER, "A2", [32, 60, 60, 60, 60])
+    apply_header_and_column_widths(ws, COMMON_TRANSLATE_HEADER, [32, 60, 60, 60, 60])
     for _id, original, localized in data:
         ws.append([_id, original, trim_blank_lines(localized), "", ""])
     apply_wrap_to_all_cells(ws)
@@ -715,7 +715,7 @@ def parse_original_files() -> None:
 
     meta_ws = wb.create_sheet(title=METADATA_SHEETNAME)
     meta_ws.append(METADATA_HEADER)
-    apply_header_and_column_widths(meta_ws, METADATA_HEADER, "A2", [32, 60, 12])
+    apply_header_and_column_widths(meta_ws, METADATA_HEADER, [32, 60, 12])
 
     for row in metadata_rows:
         meta_ws.append(row)
@@ -724,7 +724,7 @@ def parse_original_files() -> None:
 
     kb_ws = wb.create_sheet(title=KNOWLEDGE_SHEETNAME)
     kb_ws.append(KNOWLEDGE_HEADER)
-    apply_header_and_column_widths(kb_ws, KNOWLEDGE_HEADER, "A2", [100])
+    apply_header_and_column_widths(kb_ws, KNOWLEDGE_HEADER, [100])
     for line in INITIAL_PROJECT_HEADER:
         kb_ws.append([line])
     apply_wrap_to_all_cells(kb_ws)
@@ -733,7 +733,7 @@ def parse_original_files() -> None:
     _sum_headers = SUMMARIES_HEADER
     sum_ws.append(_sum_headers)
     # Keep Summaries unfrozen as before
-    apply_header_and_column_widths(sum_ws, _sum_headers, "A2", [32, 100])
+    apply_header_and_column_widths(sum_ws, _sum_headers, [32, 100])
     apply_wrap_to_all_cells(sum_ws)
 
     # Create Patch addresses sheet and populate from existing file if available

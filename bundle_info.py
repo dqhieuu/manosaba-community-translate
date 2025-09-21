@@ -2,11 +2,13 @@ import os
 import sys
 from pathlib import Path
 import UnityPy
-import yaml
-import json
 from openpyxl import Workbook
-from openpyxl.styles import Font, PatternFill, Alignment
-from openpyxl.utils import get_column_letter
+
+from translate_tool import (
+    apply_header_and_column_widths,
+    apply_wrap_to_all_cells,
+    load_patches_from_file
+)
 
 # Configuration
 OUTPUT_XLSX = "bundle_info.xlsx"
@@ -17,66 +19,15 @@ IGNORED_CONTAINERS = ['Assets/#WitchTrials/Data/ScriptableObjects/SpecialThanksD
 # Excel sheet constants
 SHEET_NAME = "Bundle Info"
 HEADER = ["Bundle Path Suffix", "Container", "Name", "Type", "PathID", "Original Object Selector", "Original",
-          "Chinese Object Selector", "Chinese", "Translated"]
+          "Chinese Object Selector", "Chinese"]
 
 PATCH_SHEET_NAME = "Patch Addresses"
-PATCH_HEADER = ["Bundle path suffix", "PathID", "Object selector", "Original", "Translated"]
-
-
-def apply_header_and_column_widths(ws, headers, column_widths=None, freeze_panes_cell="A2"):
-    """Apply bold + gray header styling and set column widths."""
-    header_font = Font(bold=True)
-    fill = PatternFill("solid", fgColor="DDDDDD")
-    for col_idx, _ in enumerate(headers, start=1):
-        cell = ws.cell(row=1, column=col_idx)
-        cell.font = header_font
-        cell.fill = fill
-        cell.alignment = Alignment(vertical="top", wrap_text=True)
-    if freeze_panes_cell:
-        ws.freeze_panes = freeze_panes_cell
-
-    if column_widths:
-        for idx, width in enumerate(column_widths, start=1):
-            col_letter = get_column_letter(idx)
-            ws.column_dimensions[col_letter].width = width
-
-
-def apply_wrap_to_all_cells(ws):
-    """Ensure wrap_text and top vertical alignment on all cells."""
-    max_row = ws.max_row or 1
-    max_col = ws.max_column or 1
-    for row in ws.iter_rows(min_row=1, max_row=max_row, min_col=1, max_col=max_col):
-        for cell in row:
-            horiz = getattr(cell.alignment, 'horizontal', None) if cell.alignment else None
-            cell.alignment = Alignment(wrap_text=True, vertical="top", horizontal=horiz)
-
-
-def load_patches_from_file() -> dict:
-    """Load patch data from addresses.txt if it exists."""
-    if not os.path.exists(ADDRESSES_PATH):
-        return {}
-    try:
-        with open(ADDRESSES_PATH, 'r', encoding='utf-8') as f:
-            content = f.read().strip()
-            if not content:
-                return {}
-            data = yaml.safe_load(content)
-            return data or {}
-    except Exception as e:
-        print(f"Warning: Failed to read {ADDRESSES_PATH}: {e}")
-        return {}
-
+PATCH_HEADER = ["Bundle path suffix", "PathID", "Object selector", "Original", "Translated", "Notes"]
 
 def extract_localized_texts(tree, base_path="", bundle_suffix=""):
     """Recursively extract localized texts, pairing locale 0 and 2 for the same item index."""
     texts = []
     if isinstance(tree, dict):
-        if "_locale" in tree and "_text" in tree:
-            selector = f"{base_path}._text" if base_path else "_text"
-            locale = tree["_locale"]
-            text = tree["_text"]
-            return [(selector, text, locale)]
-
         for key, value in tree.items():
             new_path = f"{base_path}.{key}" if base_path else key
             if isinstance(value, list) and value:
@@ -105,33 +56,19 @@ def extract_localized_texts(tree, base_path="", bundle_suffix=""):
             texts.extend(extract_localized_texts(item, new_path, bundle_suffix))
     return texts
 
-
 def get_extracted_texts(obj, bundle_suffix=""):
     """Extract object selectors and texts for original (locale 0) and Chinese (locale 2)."""
-    if obj.type.name == "TextAsset":
-        data = obj.read()
-        try:
-            text = data.script.decode('utf-8')
-        except:
-            text = ""
-        try:
-            tree = json.loads(text)
-            return extract_localized_texts(tree, bundle_suffix=bundle_suffix)
-        except:
-            return [("", text, "", "")]
-    elif obj.type.name == "MonoBehaviour":
+    if obj.type.name == "MonoBehaviour":
         try:
             tree = obj.read_typetree()
             extracted = extract_localized_texts(tree, bundle_suffix=bundle_suffix)
             if extracted:
                 return extracted
-            if 'm_Text' in tree:
-                return [("m_Text", tree['m_Text'], "", "")]
-            return [("", "", "", "")]
+            if 'm_text' in tree:
+                return [("m_text", tree['m_text'], "m_text", tree['m_text'])]
         except:
-            return [("", "", "", "")]
-    return [("", "", "", "")]
-
+            return []
+    return []
 
 def generate_bundle_info(folder_path: str):
     """Generate an Excel file with bundle asset information, grouping by container."""
@@ -151,7 +88,7 @@ def generate_bundle_info(folder_path: str):
     ws = wb.active
     ws.title = SHEET_NAME
     ws.append(HEADER)
-    apply_header_and_column_widths(ws, HEADER, [50, 60, 40, 20, 16, 60, 60, 60, 60, 60])
+    apply_header_and_column_widths(ws, HEADER, [40, 60, 30, 15, 16, 30, 60, 30, 60])
 
     # Collect all asset data grouped by bundle
     bundle_data = {}
@@ -163,35 +100,23 @@ def generate_bundle_info(folder_path: str):
             bundle = UnityPy.load(str(bundle_path))
 
             for obj in bundle.objects:
-                if obj.type.name not in ["AssetBundle"]:
-                    continue
-                ab = obj.read_typetree()
-                break
-
-            for obj in bundle.objects:
-                if obj.type.name not in ["TextAsset", "MonoBehaviour", "Texture2D"]:
+                if obj.type.name not in ["MonoBehaviour"]:
                     continue
 
-                name = obj.name or f"Unnamed_{obj.type.name}_{obj.path_id}"
-                container = next((x[0] for x in ab['m_Container'] if x[1]['asset']['m_PathID'] == obj.path_id),
-                                 None) if 'ab' in locals() else ""
-
-                if container in IGNORED_CONTAINERS:
+                if obj.container in IGNORED_CONTAINERS:
                     continue
 
                 extracted = get_extracted_texts(obj, bundle_suffix)
                 for orig_selector, original, cn_selector, chinese in extracted:
                     bundle_data[bundle_suffix].append({
-                        "container": container,
-                        "name": name,
+                        "container": obj.container,
+                        "name": obj.name,
                         "type": obj.type.name,
                         "path_id": str(obj.path_id),
                         "original_selector": orig_selector,
                         "original": original,
                         "chinese_selector": cn_selector,
                         "chinese": chinese,
-                        "translated": "",
-                        "patch_entries": []
                     })
 
                 if obj.type.name == "MonoBehaviour" and bundle_suffix in patches:
@@ -202,19 +127,16 @@ def generate_bundle_info(folder_path: str):
                             selector = entry.get('object_selector', '')
                             if selector:
                                 patched_entry = {
-                                    "container": container,
-                                    "name": name,
+                                    "container": obj.container,
+                                    "name": obj.name,
                                     "type": obj.type.name,
                                     "path_id": pid_str,
                                     "original_selector": selector,
                                     "original": entry.get('patched_value', ''),
                                     "chinese_selector": selector,
                                     "chinese": entry.get('patched_value', ''),
-                                    "translated": "",
-                                    "patch_entries": []
                                 }
-                                if container not in IGNORED_CONTAINERS:
-                                    bundle_data[bundle_suffix].append(patched_entry)
+                                bundle_data[bundle_suffix].append(patched_entry)
 
             print(f"Processed {bundle_path}")
 
@@ -240,16 +162,26 @@ def generate_bundle_info(folder_path: str):
                 asset["original_selector"],
                 asset["original"],
                 asset["chinese_selector"],
-                asset["chinese"],
-                asset["translated"]
+                asset["chinese"]
             ])
+
+            # Build Notes: Name, Container, and Original value (with line break after ':') if they exist
+            notes_lines = []
+            if asset.get("name"):
+                notes_lines.append(f"Name: {asset['name']}")
+            if asset.get("container"):
+                notes_lines.append(f"Container: {asset['container']}")
+            if asset.get("original"):
+                notes_lines.append("Original value:\n" + str(asset["original"]))
+            notes_text = "\n".join(notes_lines)
 
             all_rows_for_patch.append([
                 bundle_suffix,
                 asset["path_id"],
                 asset["chinese_selector"],
                 asset["chinese"],
-                asset["translated"]
+                asset.get("translated", ""),
+                notes_text
             ])
 
     apply_wrap_to_all_cells(ws)
@@ -257,7 +189,7 @@ def generate_bundle_info(folder_path: str):
     # Tạo sheet Patch Addresses
     ws_patch = wb.create_sheet(PATCH_SHEET_NAME)
     ws_patch.append(PATCH_HEADER)
-    apply_header_and_column_widths(ws_patch, PATCH_HEADER, [50, 16, 60, 60, 60])
+    apply_header_and_column_widths(ws_patch, PATCH_HEADER, [40, 16, 40, 60, 60, 60])
     for row in all_rows_for_patch:
         ws_patch.append(row)
     apply_wrap_to_all_cells(ws_patch)
@@ -265,16 +197,8 @@ def generate_bundle_info(folder_path: str):
     wb.save(OUTPUT_XLSX)
     print(f"Saved bundle information to {OUTPUT_XLSX}")
 
-
-# ====================== PACK FUNCTION IMPORT ======================
-from translate_tool import (
-    rebuild_translated_files,
-    write_patches_from_sheet,
-    pack_translated_files
-)
-
 def main():
-    command_usage = "python bundle_info.py [info <folder>|pack <folder>]"
+    command_usage = "python bundle_info.py [info <folder>]"
     if len(sys.argv) < 3:
         print(f"Usage: {command_usage}")
         sys.exit(1)
@@ -288,10 +212,6 @@ def main():
 
     if cmd == 'info':
         generate_bundle_info(folder_path)
-    elif cmd == 'pack':
-        rebuild_translated_files()
-        write_patches_from_sheet()
-        pack_translated_files(folder_path)
     else:
         print(f"Unknown command. Use {command_usage}.")
         sys.exit(1)
