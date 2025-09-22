@@ -1321,7 +1321,8 @@ def refresh():
 # Hard-coded mapping of source hex -> destination hex. Ensure same length for each pair.
 # Use uppercase or lowercase hex; spaces are ignored. Example entry shown below.
 BIN_PATCH_MAP = {
-    "e7ae80e4bd93e4b8ade69687": "5669e1bb8774204e67e1bbaf"
+    "6a 61 00 00 09 00 00 00 e6 97 a5 e6 9c ac e8 aa 9e 00 00 00 07 00 00 00 7a 68 2d 48 61 6e 73 00 0c 00 00 00 e7 ae 80 e4 bd 93 e4 b8 ad e6 96 87 07 00 00 00 7a 68 2d 48 61 6e 74 00 0c 00 00 00 e7 b9 81 e9 ab 94 e4 b8 ad e6 96 87 05"
+    : "6a 61 00 00 09 00 00 00 e6 97 a5 e6 9c ac e8 aa 9e 00 00 00 07 00 00 00 7a 68 2d 48 61 6e 73 00 0E 00 00 00 54 69 E1 BA BF 6E 67 20 56 69 E1 BB 87 74 00 00 07 00 00 00 7a 68 2d 48 61 6e 74 00 06 00 00 00 e9 ab 94 e4 b8 ad 00 00 05"
 }
 
 
