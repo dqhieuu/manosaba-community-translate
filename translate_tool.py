@@ -1316,8 +1316,95 @@ def refresh():
     wb.save(XLSX_PATH)
     print(f"Refreshed {XLSX_PATH}. Added {len(new_metadata_rows)} new sheet(s).")
 
+
+# --- Binary patching support ---
+# Hard-coded mapping of source hex -> destination hex. Ensure same length for each pair.
+# Use uppercase or lowercase hex; spaces are ignored. Example entry shown below.
+BIN_PATCH_MAP = {
+    "e7ae80e4bd93e4b8ade69687": "5669e1bb8774204e67e1bbaf"
+}
+
+
+def _normalize_hex_to_bytes(hex_str: str) -> bytes:
+    """Convert a hex string to bytes, ignoring spaces and underscores."""
+    cleaned = hex_str.replace(" ", "").replace("_", "").strip()
+    return bytes.fromhex(cleaned)
+
+
+def _validate_bin_patch_map(mapping: dict) -> dict:
+    """Validate that mapping has equal-length pairs and return a dict[bytes, bytes]."""
+    byte_map = {}
+    for k, v in mapping.items():
+        try:
+            kb = _normalize_hex_to_bytes(str(k))
+            vb = _normalize_hex_to_bytes(str(v))
+        except ValueError:
+            print(f"Invalid hex in mapping: {k} -> {v}")
+            sys.exit(1)
+        if len(kb) != len(vb):
+            print(
+                f"Source and destination hex must be the same length: {k} ({len(kb)} bytes) vs {v} ({len(vb)} bytes)"
+            )
+            sys.exit(1)
+        if kb in byte_map:
+            print(f"Duplicate source pattern detected in mapping: {k}")
+            sys.exit(1)
+        byte_map[kb] = vb
+    return byte_map
+
+
+def perform_binary_patch(file_path: str, mapping: dict | None = None):
+    """Perform hex-based binary patching on a file.
+
+    Steps:
+    - Validate mapping pairs have equal length.
+    - Read file bytes.
+    - Replace all occurrences of each source pattern with its destination bytes.
+    - Create a .bak backup before writing any changes.
+    """
+    if mapping is None:
+        mapping = BIN_PATCH_MAP
+
+    if not os.path.isfile(file_path):
+        print(f"File not found: {file_path}")
+        sys.exit(1)
+
+    byte_map = _validate_bin_patch_map(mapping)
+
+    with open(file_path, 'rb') as f:
+        data = f.read()
+
+    total_replacements = 0
+    details: list[tuple[str, str, int]] = []
+
+    for src_bytes, dst_bytes in byte_map.items():
+        count = data.count(src_bytes)
+        if count > 0:
+            data = data.replace(src_bytes, dst_bytes)
+            details.append((src_bytes.hex().upper(), dst_bytes.hex().upper(), count))
+            total_replacements += count
+
+    if total_replacements == 0:
+        print("No occurrences found; no changes made.")
+        return
+
+    backup_path = file_path + ".bak"
+    if not os.path.exists(backup_path):
+        shutil.copy2(file_path, backup_path)
+        print(f"Backup created: {backup_path}")
+    else:
+        print(f"Backup already exists: {backup_path}")
+
+    with open(file_path, 'wb') as f:
+        f.write(data)
+
+    print(f"Patched {file_path}: {total_replacements} replacement(s).")
+    for s_hex, d_hex, c in details:
+        print(f" - {c}x {s_hex} -> {d_hex}")
+
+
 def main():
-    command_usage = "python translate_tool.py [unpack <folder>|parse|refresh|translate <num>|build|pack <folder>|build+pack <folder>]"
+    command_usage = "python translate_tool.py [unpack <folder>|parse|refresh|translate <num>|build|pack <folder>|build+pack <folder>|binpatch <file>]"
     if len(sys.argv) < 2:
         print(f"Usage: {command_usage}")
         sys.exit(1)
@@ -1347,6 +1434,8 @@ def main():
         translate_ai(n)
     elif cmd == 'refresh':
         refresh()
+    elif cmd == 'binpatch' and len(sys.argv) >= 3:
+        perform_binary_patch(sys.argv[2])
     else:
         print(f"Unknown command. Use {command_usage}.")
         sys.exit(1)
