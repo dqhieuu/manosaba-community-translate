@@ -2,6 +2,7 @@ import os
 import re
 import shutil
 import sys
+import traceback
 from typing import List, Tuple, Optional
 from pathlib import Path
 from collections import defaultdict
@@ -1010,9 +1011,8 @@ def pack_translated_files(folder_path: str) -> None:
             applicable_suffixes = [suf for suf in patches.keys() if bundle_path_str.endswith(suf)] if patches else []
             patched_count = 0
 
-            opened_objects_by_type = {}
+            opened_objects_by_type = {"Texture2D": []}
 
-            opened_objects_by_type["Texture2D"] = []
             for obj in bundle.objects:
                 if obj.type.name == "Texture2D":
                     opened_objects_by_type["Texture2D"].append(obj.read())
@@ -1118,7 +1118,7 @@ def pack_translated_files(folder_path: str) -> None:
                 print(f"Saved {bundle_path_str}")
 
         except Exception as e:
-            print(f"Error processing {bundle_path}: {e}")
+            print(f"Error processing {bundle_path}: {e} \n{traceback.print_stack()}")
 
     # Global report of unpatched patch entries across all bundles
     print(f"Unpatched entries across all bundles: {len(all_patch_entries)}")
@@ -1326,7 +1326,6 @@ def gui():
             res_assets = os.path.join(exe_dir, "manosaba_Data", "resources.assets")
             try:
                 self.set_status("Đang patch game...")
-                self.update_idletasks()
                 pack_translated_files(aa_dir)
                 perform_binary_patch(res_assets)
                 self.set_status("Xong! Các file đã được patch thành công!", 'success')
