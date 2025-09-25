@@ -4,3 +4,4 @@ openpyxl
 openai
 pyyaml
 customtkinter
+vdf

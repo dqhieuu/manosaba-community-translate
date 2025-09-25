@@ -1,6 +1,6 @@
 import os
 import winreg
-import vdf  # You might need to install this: pip install vdf
+import vdf
 
 
 def get_steam_install_path():
