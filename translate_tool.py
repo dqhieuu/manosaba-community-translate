@@ -1041,13 +1041,21 @@ def pack_translated_files(folder_path: str) -> None:
                     if matching_texture is None:
                         print(f"Warning: Could not find texture for {data.m_Name} in {bundle_path_str}")
                         continue
-                    atlas_image = matching_texture.image # PIL
+                    atlas_image = matching_texture.image  # PIL Image
+                    # Ensure atlas is in RGBA for alpha compositing
+                    if atlas_image.mode != "RGBA":
+                        atlas_image = atlas_image.convert("RGBA")
                     for idx, sprite_name in enumerate(data.m_PackedSpriteNamesToIndex):
                         if sprite_name in patched_asset_file_dict:
-                            sprite_image = Image.open(patched_asset_file_dict[sprite_name])
+                            sprite_image = Image.open(patched_asset_file_dict[sprite_name]).convert("RGBA")
                             coords = data.m_RenderDataMap[idx][1].textureRect
-                            atlas_image.paste(sprite_image,
-                                              (int(coords.x), int(atlas_image.height - coords.y - sprite_image.height), int(coords.x + coords.width), int(atlas_image.height - coords.y)))
+                            x0 = round(coords.x)
+                            y0 = round(atlas_image.height - coords.y - sprite_image.height)
+                            # 1) Erase destination area first (make fully transparent)
+                            transparent_patch = Image.new("RGBA", (sprite_image.width, sprite_image.height), (0, 0, 0, 0))
+                            atlas_image.paste(transparent_patch, (x0, y0))
+                            # 2) Alpha composite the sprite over the atlas at the destination
+                            atlas_image.alpha_composite(sprite_image, dest=(x0, y0))
                             bundle_modified = True
                             print(f"    Patched sprite {sprite_name} in Texture2D {matching_texture.m_Name} in {bundle_path_str}")
                             patched_count += 1
