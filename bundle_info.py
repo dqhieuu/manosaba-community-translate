@@ -6,12 +6,11 @@ import UnityPy
 from openpyxl import Workbook, load_workbook
 
 from translate_tool import (
-    apply_header_and_column_widths,
-    apply_wrap_to_all_cells,
     load_patches_from_files,
     ensure_patch_sheet,
     populate_patch_sheet_from_file
 )
+from lib.sheet import apply_header_and_column_widths, apply_wrap_to_all_cells
 
 # Configuration
 OUTPUT_XLSX = "bundle_info.xlsx"

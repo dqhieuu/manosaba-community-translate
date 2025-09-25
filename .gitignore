@@ -1,4 +1,7 @@
 translated
+dist
+build
 *.xlsx
-.venv
 *.env
+*.spec
+.venv

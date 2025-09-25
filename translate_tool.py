@@ -10,16 +10,19 @@ from PIL import Image
 from openai import OpenAI
 from openai.types.shared_params import Reasoning
 from openpyxl import Workbook, load_workbook
-from openpyxl.styles import Font, PatternFill, Alignment
-from openpyxl.utils import get_column_letter
 import UnityPy
 import yaml
 
+from lib.bin import validate_bin_patch_map
+from lib.steam import get_steam_game_path
+from lib.tree_traversal import set_by_selector
+from lib.utils import is_file_editable, is_running_in_exe
+from lib.text import is_alnum_start, trim_blank_lines
+from lib.sheet import sanitize_sheet_name, apply_header_and_column_widths, apply_wrap_to_all_cells
+
 IGNORED_BUNDLE_SUFFIXES = ['general-managedtext_assets_all.bundle']
 
-SHEETNAME_MAXLEN = 31
-
-ROOT = os.path.dirname(os.path.abspath(__file__))
+ROOT = sys._MEIPASS if is_running_in_exe() else os.path.dirname(os.path.abspath(__file__))
 ORIGINAL_DIR = os.path.join(ROOT, "original")
 TRANSLATED_DIR = os.path.join(ROOT, "translated")
 PATCHES_DIR = os.path.join(ROOT, "patches")
@@ -242,136 +245,6 @@ def dump_patches_from_files() -> None:
     except Exception as e:
         print(f"Error writing {ADDRESSES_PATH}: {e}")
 
-def _parse_selector(selector: str):
-    # Support consecutive indices, e.g., a[1][2].b[3]
-    parts = selector.split('.') if selector else []
-    tokens = []  # list of (name: str, indices: List[int])
-    for part in parts:
-        m = re.match(r"^(\w+)((\[\d+])*)$", part)
-        if not m:
-            tokens.append((part, []))
-        else:
-            name = m.group(1)
-            idxs_str = m.group(2) or ""
-            idxs = [int(mm.group(1)) for mm in re.finditer(r"\[(\d+)]", idxs_str)]
-            tokens.append((name, idxs))
-    return tokens
-
-def _set_by_selector(root, selector: str, value):
-    tokens = _parse_selector(selector)
-    if not tokens:
-        return False
-    cur = root
-    parent = None
-    parent_is_list = False
-    key_or_index = None
-    for (name, idxs) in tokens:
-        # Access dict field by name
-        if not isinstance(cur, dict) or name not in cur:
-            return False
-        parent = cur
-        parent_is_list = False
-        key_or_index = name
-        cur = cur[name]
-        # Apply consecutive indices, if any
-        if idxs:
-            for idx in idxs:
-                if not isinstance(cur, list):
-                    return False
-                if idx < 0 or idx >= len(cur):
-                    return False
-                parent = cur
-                parent_is_list = True
-                key_or_index = idx
-                cur = cur[idx]
-    # Set value at the last resolved location
-    if parent is None:
-        return False
-    if parent_is_list:
-        if not isinstance(parent, list):
-            return False
-        idx = key_or_index
-        if idx < 0 or idx >= len(parent):
-            return False
-        parent[idx] = value
-        return True
-    else:
-        if not isinstance(parent, dict):
-            return False
-        parent[key_or_index] = value
-        return True
-
-def is_file_editable(path: str) -> bool:
-    """https://stackoverflow.com/a/37256114"""
-    if not os.path.exists(path): return False
-    try:
-        os.rename(path, path)
-        return True
-    except OSError:
-        return False
-
-def sanitize_sheet_name(name: str) -> str:
-    # Excel sheet name restrictions
-    invalid = set('[]:*?/\\')
-    cleaned = ''.join(c if c not in invalid else '_' for c in name)
-    if len(cleaned) > SHEETNAME_MAXLEN:
-        cleaned = cleaned[:SHEETNAME_MAXLEN]
-    return cleaned or "Sheet"
-
-def apply_frozen_header(ws, headers, freeze_panes_cell: Optional[str] = "A2"):
-    """Apply bold + gray header styling to row 1 across the given number of headers
-    and optionally freeze panes at the specified cell (default A2).
-    """
-    header_font = Font(bold=True)
-    fill = PatternFill("solid", fgColor="DDDDDD")
-    for col_idx, _ in enumerate(headers, start=1):
-        cell = ws.cell(row=1, column=col_idx)
-        cell.font = header_font
-        cell.fill = fill
-        cell.alignment = Alignment(vertical="top", wrap_text=True)
-    if freeze_panes_cell:
-        ws.freeze_panes = freeze_panes_cell
-
-
-def apply_header_and_column_widths(ws, headers, column_widths=None, freeze_panes_cell: Optional[str] = "A2"):
-    """Common helper to style header (row 1), freeze panes, and set column widths.
-    - headers: list of header titles (used to know how many columns to style)
-    - column_widths: either a list/tuple matching headers length, or a dict mapping
-      column letters (e.g., 'A') to widths.
-    - freeze_panes_cell: e.g., "A2" to freeze top row
-    """
-    # Apply header style and optional freeze
-    apply_frozen_header(ws, headers, freeze_panes_cell)
-
-    # Apply column widths, if provided
-    if column_widths:
-        if isinstance(column_widths, (list, tuple)):
-            for idx, width in enumerate(column_widths, start=1):
-                try:
-                    if width is not None:
-                        col_letter = get_column_letter(idx)
-                        ws.column_dimensions[col_letter].width = width
-                except Exception:
-                    pass
-        elif isinstance(column_widths, dict):
-            for col_letter, width in column_widths.items():
-                try:
-                    if width is not None:
-                        ws.column_dimensions[str(col_letter)].width = width
-                except Exception:
-                    pass
-
-def apply_wrap_to_all_cells(ws):
-    """Ensure wrap_text and top vertical alignment on all cells in the worksheet."""
-    max_row = ws.max_row or 1
-    max_col = ws.max_column or 1
-    for row in ws.iter_rows(min_row=1, max_row=max_row, min_col=1, max_col=max_col):
-        for cell in row:
-            # Preserve existing horizontal alignment if set
-            horiz = getattr(cell.alignment, 'horizontal', None) if cell.alignment else None
-            cell.alignment = Alignment(wrap_text=True, vertical="top", horizontal=horiz)
-
-
 def enforce_patch_pathid_text(ws):
     """Ensure PathID column (B) is plain text in Excel and values are stored as strings."""
     try:
@@ -388,22 +261,6 @@ def enforce_patch_pathid_text(ws):
         if cell.value is not None:
             cell.value = str(cell.value).strip()
 
-def is_alnum_start(s: str) -> bool:
-    s = s.lstrip()
-    return bool(re.match(r"^\w", s))
-
-def trim_blank_lines(text: str) -> str:
-    # Normalize newlines, trim leading/trailing blank lines
-    lines = text.replace('\r\n', '\n').replace('\r', '\n').split('\n')
-    # Strip trailing spaces on each line but preserve internal blank lines
-    lines = [ln.rstrip() for ln in lines]
-    # Remove leading blank lines
-    while lines and lines[0].strip() == "":
-        lines.pop(0)
-    # Remove trailing blank lines
-    while lines and lines[-1].strip() == "":
-        lines.pop()
-    return "\n".join(lines)
 
 def parse_type2(lines: List[str]) -> List[Tuple[str, str, str]]:
     """Return list of (ID, original, localized)"""
@@ -1155,6 +1012,11 @@ def pack_translated_files(folder_path: str) -> None:
 
             opened_objects_by_type = {}
 
+            opened_objects_by_type["Texture2D"] = []
+            for obj in bundle.objects:
+                if obj.type.name == "Texture2D":
+                    opened_objects_by_type["Texture2D"].append(obj.read())
+
             for obj in bundle.objects:
                 if obj.type.name == "TextAsset":
                     name = _asset_filename(obj)
@@ -1171,13 +1033,6 @@ def pack_translated_files(folder_path: str) -> None:
                     print(f"    Replaced {name} in {bundle_path_str}")
                 elif obj.type.name == "SpriteAtlas":
                     data = obj.read()
-
-                    if not "Texture2D" in opened_objects_by_type:
-                        opened_objects_by_type["Texture2D"] = []
-                        for obj in bundle.objects:
-                            if obj.type.name == "Texture2D":
-                                opened_objects_by_type["Texture2D"].append(obj.read())
-
                     # Find Texture2D, whose name includes data.name
                     matching_texture = None
                     for tex in opened_objects_by_type["Texture2D"]:
@@ -1194,11 +1049,22 @@ def pack_translated_files(folder_path: str) -> None:
                             atlas_image.paste(sprite_image,
                                               (int(coords.x), int(atlas_image.height - coords.y - sprite_image.height), int(coords.x + coords.width), int(atlas_image.height - coords.y)))
                             bundle_modified = True
-                            print(f"    Patched sprite {sprite_name} in {matching_texture.m_Name} in {bundle_path_str}")
+                            print(f"    Patched sprite {sprite_name} in Texture2D {matching_texture.m_Name} in {bundle_path_str}")
                             patched_count += 1
                     if bundle_modified:
                         matching_texture.image = atlas_image
                         matching_texture.save()
+
+                elif obj.type.name == "Texture2D":
+                    data = obj.read()
+                    if data.m_Name not in patched_asset_file_dict:
+                        continue
+                    sprite_image = Image.open(patched_asset_file_dict[data.m_Name])
+                    data.image = sprite_image
+                    data.save()
+                    bundle_modified = True
+                    print(f"    Patched Texture2D {data.m_Name} in {bundle_path_str}")
+                    patched_count += 1
 
                 elif obj.type.name == "MonoBehaviour" and applicable_suffixes:
                     pid_key = str(obj.path_id)
@@ -1222,7 +1088,7 @@ def pack_translated_files(folder_path: str) -> None:
                         value = ent.get('patched_value')
                         if selector is None:
                             continue
-                        ok = _set_by_selector(tree, selector, value)
+                        ok = set_by_selector(tree, selector, value)
                         if ok:
                             any_patched_this_obj = True
                             patched_count += 1
@@ -1321,37 +1187,9 @@ def refresh():
 # Hard-coded mapping of source hex -> destination hex. Ensure same length for each pair.
 # Use uppercase or lowercase hex; spaces are ignored. Example entry shown below.
 BIN_PATCH_MAP = {
-    "6a 61 00 00 09 00 00 00 e6 97 a5 e6 9c ac e8 aa 9e 00 00 00 07 00 00 00 7a 68 2d 48 61 6e 73 00 0c 00 00 00 e7 ae 80 e4 bd 93 e4 b8 ad e6 96 87 07 00 00 00 7a 68 2d 48 61 6e 74 00 0c 00 00 00 e7 b9 81 e9 ab 94 e4 b8 ad e6 96 87 05"
-    : "6a 61 00 00 09 00 00 00 e6 97 a5 e6 9c ac e8 aa 9e 00 00 00 07 00 00 00 7a 68 2d 48 61 6e 73 00 0E 00 00 00 54 69 E1 BA BF 6E 67 20 56 69 E1 BB 87 74 00 00 07 00 00 00 7a 68 2d 48 61 6e 74 00 06 00 00 00 e9 ab 94 e4 b8 ad 00 00 05"
+    "0c 00 00 00 e7 ae 80 e4 bd 93 e4 b8 ad e6 96 87 07 00 00 00 7a 68 2d 48 61 6e 74 00 0c 00 00 00 e7 b9 81 e9 ab 94 e4 b8 ad e6 96 87"
+    : "0E 00 00 00 54 69 E1 BA BF 6E 67 20 56 69 E1 BB 87 74 00 00 07 00 00 00 7a 68 2d 48 61 6e 74 00 06 00 00 00 e9 ab 94 e4 b8 ad 00 00"
 }
-
-
-def _normalize_hex_to_bytes(hex_str: str) -> bytes:
-    """Convert a hex string to bytes, ignoring spaces and underscores."""
-    cleaned = hex_str.replace(" ", "").replace("_", "").strip()
-    return bytes.fromhex(cleaned)
-
-
-def _validate_bin_patch_map(mapping: dict) -> dict:
-    """Validate that mapping has equal-length pairs and return a dict[bytes, bytes]."""
-    byte_map = {}
-    for k, v in mapping.items():
-        try:
-            kb = _normalize_hex_to_bytes(str(k))
-            vb = _normalize_hex_to_bytes(str(v))
-        except ValueError:
-            print(f"Invalid hex in mapping: {k} -> {v}")
-            sys.exit(1)
-        if len(kb) != len(vb):
-            print(
-                f"Source and destination hex must be the same length: {k} ({len(kb)} bytes) vs {v} ({len(vb)} bytes)"
-            )
-            sys.exit(1)
-        if kb in byte_map:
-            print(f"Duplicate source pattern detected in mapping: {k}")
-            sys.exit(1)
-        byte_map[kb] = vb
-    return byte_map
 
 
 def perform_binary_patch(file_path: str, mapping: dict | None = None):
@@ -1370,7 +1208,7 @@ def perform_binary_patch(file_path: str, mapping: dict | None = None):
         print(f"File not found: {file_path}")
         sys.exit(1)
 
-    byte_map = _validate_bin_patch_map(mapping)
+    byte_map = validate_bin_patch_map(mapping)
 
     with open(file_path, 'rb') as f:
         data = f.read()
@@ -1386,15 +1224,13 @@ def perform_binary_patch(file_path: str, mapping: dict | None = None):
             total_replacements += count
 
     if total_replacements == 0:
-        print("No occurrences found; no changes made.")
+        print("Bin patch was not performed; no changes made.")
         return
 
     backup_path = file_path + ".bak"
     if not os.path.exists(backup_path):
         shutil.copy2(file_path, backup_path)
         print(f"Backup created: {backup_path}")
-    else:
-        print(f"Backup already exists: {backup_path}")
 
     with open(file_path, 'wb') as f:
         f.write(data)
@@ -1403,12 +1239,112 @@ def perform_binary_patch(file_path: str, mapping: dict | None = None):
     for s_hex, d_hex, c in details:
         print(f" - {c}x {s_hex} -> {d_hex}")
 
+def gui():
+    try:
+        import customtkinter as ctk
+        import tkinter as tk
+        from tkinter import filedialog
+    except Exception as e:
+        print("customtkinter is required for the GUI. Please install it with: pip install customtkinter")
+        print(f"Import error: {e}")
+        sys.exit(1)
+
+    # Configure appearance
+    ctk.set_appearance_mode("Dark")  # or "Dark", "Light"
+    ctk.set_default_color_theme("dark-blue")
+
+    def is_valid_exe(path: str) -> bool:
+        if not path:
+            return False
+        try:
+            return os.path.isfile(path) and os.path.basename(path).lower() == "manosaba.exe"
+        except Exception:
+            return False
+
+    class App(ctk.CTk):
+        def __init__(self):
+            super().__init__()
+            self.title("Magical Girl Witch Trials Patcher")
+            self.geometry("700x220")
+            self.resizable(False, False)
+
+            # Grid config
+            self.grid_columnconfigure(1, weight=1)
+
+            # Title/Instruction
+            self.label_info = ctk.CTkLabel(self, text="Hãy tìm đến file manosaba.exe trong máy và nhấn Patch")
+            self.label_info.grid(row=0, column=0, columnspan=3, padx=12, pady=(16, 8), sticky="w")
+
+            # Path entry + Browse
+            self.entry_path = ctk.CTkEntry(self, placeholder_text="Đường dẫn manosaba.exe")
+            self.entry_path.grid(row=1, column=0, columnspan=2, padx=(12, 6), pady=6, sticky="ew")
+            self.entry_path.bind("<KeyRelease>", self.on_path_change)
+
+            self.path = get_steam_game_path('manosaba_game/manosaba.exe')
+            if self.path:
+                self.entry_path.insert(0, self.path)
+
+            self.btn_browse = ctk.CTkButton(self, text="Browse", command=self.on_browse)
+            self.btn_browse.grid(row=1, column=2, padx=(6, 12), pady=6)
+
+            # Patch button
+            self.btn_patch = ctk.CTkButton(self, text="Patch", state="disabled", command=self.do_patch)
+            self.btn_patch.grid(row=2, column=0, padx=12, pady=(6, 6), sticky="w")
+
+            # Status label
+            self.status_var = tk.StringVar(value="")
+            self.label_status = ctk.CTkLabel(self, textvariable=self.status_var)
+            self.label_status.grid(row=3, column=0, columnspan=3, padx=12, pady=(6, 12), sticky="w")
+
+
+        def set_status(self, message: str, status: str | None = None):
+            self.status_var.set(message)
+            if status == 'success':
+                self.label_status.configure(text_color='#17e841')
+            elif status == 'error':
+                self.label_status.configure(text_color='#e82817')
+            else:
+                self.label_status.configure(text_color='#ffffff')
+
+        def on_path_change(self, _):
+            self.path = self.entry_path.get()
+            self.btn_patch.configure(state=("normal" if is_valid_exe(self.path) else "disabled"))
+
+        def on_browse(self):
+            file_path = filedialog.askopenfilename(title="Mở manosaba.exe", filetypes=[("Executable", "manosaba.exe")])
+            if file_path:
+                self.entry_path.delete(0, tk.END)
+                self.entry_path.insert(0, file_path)
+                self.on_path_change(None)
+
+        def do_patch(self):
+            if not is_valid_exe(self.path):
+                self.set_status("File manosaba.exe không hợp lệ!", 'error')
+                return
+            exe_dir = os.path.dirname(self.path)
+            aa_dir = os.path.join(exe_dir, "manosaba_Data", "StreamingAssets", "aa", "StandaloneWindows64")
+            res_assets = os.path.join(exe_dir, "manosaba_Data", "resources.assets")
+            try:
+                self.set_status("Đang patch game...")
+                self.update_idletasks()
+                pack_translated_files(aa_dir)
+                perform_binary_patch(res_assets)
+                self.set_status("Xong! Các file đã được patch thành công!", 'success')
+            except Exception as e:
+                self.set_status(f"Đã có lỗi xảy ra: {e}", 'error')
+
+    app = App()
+    app.mainloop()
 
 def main():
     command_usage = "python translate_tool.py [unpack <folder>|parse|refresh|translate <num>|build|pack <folder>|build+pack <folder>|binpatch <file>]"
     if len(sys.argv) < 2:
-        print(f"Usage: {command_usage}")
-        sys.exit(1)
+        if is_running_in_exe():
+            gui()
+        else:
+            print(f"Usage: {command_usage}")
+            sys.exit(1)
+
     cmd = sys.argv[1].lower()
     if cmd == 'parse':
         parse_original_files()
@@ -1437,6 +1373,8 @@ def main():
         refresh()
     elif cmd == 'binpatch' and len(sys.argv) >= 3:
         perform_binary_patch(sys.argv[2])
+    elif cmd == 'gui':
+        gui()
     else:
         print(f"Unknown command. Use {command_usage}.")
         sys.exit(1)

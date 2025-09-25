@@ -1,0 +1,1 @@
+pyinstaller --clean --onefile --collect-all UnityPy --add-data="patches:patches"  --add-data="translated:translated" ./translate_tool.py
