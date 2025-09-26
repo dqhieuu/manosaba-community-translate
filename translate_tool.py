@@ -1252,6 +1252,7 @@ def gui():
         import customtkinter as ctk
         import tkinter as tk
         from tkinter import filedialog
+        import os
     except Exception as e:
         print("customtkinter is required for the GUI. Please install it with: pip install customtkinter")
         print(f"Import error: {e}")
@@ -1265,7 +1266,17 @@ def gui():
         if not path:
             return False
         try:
-            return os.path.isfile(path) and os.path.basename(path).lower() == "manosaba.exe"
+            # Check if the file exists and is named manosaba.exe (case-insensitive)
+            if not (os.path.isfile(path) and os.path.basename(path).lower() == "manosaba.exe"):
+                return False
+            # Check for game directory structure to verify legitimate copy
+            exe_dir = os.path.dirname(path)
+            required_paths = [
+                os.path.join(exe_dir, "manosaba_Data"),
+                os.path.join(exe_dir, "manosaba_Data", "StreamingAssets"),
+                os.path.join(exe_dir, "manosaba_Data", "resources.assets")
+            ]
+            return all(os.path.exists(p) for p in required_paths)
         except Exception:
             return False
 
@@ -1289,7 +1300,7 @@ def gui():
             self.entry_path.bind("<KeyRelease>", self.on_path_change)
 
             self.path = get_steam_game_path('manosaba_game/manosaba.exe')
-            if self.path:
+            if self.path and is_valid_exe(self.path):
                 self.entry_path.insert(0, self.path)
 
             self.btn_browse = ctk.CTkButton(self, text="Browse", command=self.on_browse)
@@ -1304,7 +1315,6 @@ def gui():
             self.label_status = ctk.CTkLabel(self, textvariable=self.status_var)
             self.label_status.grid(row=3, column=0, columnspan=3, padx=12, pady=(6, 12), sticky="w")
 
-
         def set_status(self, message: str, status: str | None = None):
             self.status_var.set(message)
             if status == 'success':
@@ -1315,11 +1325,19 @@ def gui():
                 self.label_status.configure(text_color='#ffffff')
 
         def on_path_change(self, _):
-            self.path = self.entry_path.get()
-            self.btn_patch.configure(state=("normal" if is_valid_exe(self.path) else "disabled"))
+            self.path = self.entry_path.get().strip()  # Strip whitespace
+            if is_valid_exe(self.path):
+                self.btn_patch.configure(state="normal")
+                self.set_status("Đường dẫn hợp lệ, sẵn sàng patch!", 'success')
+            else:
+                self.btn_patch.configure(state="disabled")
+                self.set_status("Patch chỉ hỗ trợ bản quyền", 'error')
 
         def on_browse(self):
-            file_path = filedialog.askopenfilename(title="Mở manosaba.exe", filetypes=[("Executable", "manosaba.exe")])
+            file_path = filedialog.askopenfilename(
+                title="Mở manosaba.exe",
+                filetypes=[("Executable", "*.exe")]
+            )
             if file_path:
                 self.entry_path.delete(0, tk.END)
                 self.entry_path.insert(0, file_path)
@@ -1327,7 +1345,7 @@ def gui():
 
         def do_patch(self):
             if not is_valid_exe(self.path):
-                self.set_status("File manosaba.exe không hợp lệ!", 'error')
+                self.set_status("Patch chỉ hỗ trợ bản quyền", 'error')
                 return
             exe_dir = os.path.dirname(self.path)
             aa_dir = os.path.join(exe_dir, "manosaba_Data", "StreamingAssets", "aa", "StandaloneWindows64")
