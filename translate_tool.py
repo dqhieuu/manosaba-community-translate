@@ -1248,6 +1248,9 @@ def perform_binary_patch(file_path: str, mapping: dict | None = None):
     for s_hex, d_hex, c in details:
         print(f" - {c}x {s_hex} -> {d_hex}")
 
+import os
+import sys
+
 def gui():
     try:
         import customtkinter as ctk
@@ -1259,7 +1262,7 @@ def gui():
         sys.exit(1)
 
     # Configure appearance
-    ctk.set_appearance_mode("Dark")  # or "Dark", "Light"
+    ctk.set_appearance_mode("Dark")
     ctk.set_default_color_theme("dark-blue")
 
     def is_valid_exe(path: str) -> bool:
@@ -1271,9 +1274,7 @@ def gui():
         except Exception:
             return False
 
-    STEAM_EXE_PATH = os.path.normpath(
-        r"C:\Program Files (x86)\Steam\steamapps\common\manosaba_game\manosaba.exe"
-    )
+    STEAM_SUFFIX = os.path.normpath(r"Steam\steamapps\common\manosaba_game\manosaba.exe").lower()
 
     class App(ctk.CTk):
         def __init__(self):
@@ -1339,7 +1340,7 @@ def gui():
                 self.set_status("File manosaba.exe không hợp lệ!", 'error')
                 return
 
-            if os.path.normpath(self.path) != STEAM_EXE_PATH:
+            if not self.path.lower().endswith(STEAM_SUFFIX):
                 self.set_status("Patch chỉ hỗ trợ bản quyền!", 'error')
                 return
 
