@@ -8,6 +8,7 @@ from pathlib import Path
 from collections import defaultdict
 
 from PIL import Image
+from UnityPy.classes import Texture2D
 from openai import OpenAI
 from openai.types.shared_params import Reasoning
 from openpyxl import Workbook, load_workbook
@@ -966,6 +967,32 @@ def rebuild_translated_files() -> None:
             f.write("\n".join(lines_out) + "\n")
         print(f"Wrote {out_path}")
 
+def patched_set_image(
+    self: Texture2D,
+    img: "Image.Image",
+    target_format: Optional[int] = None,
+):
+    """Hard code to target_format = 4 to bypass buggy compression"""
+    from UnityPy.export import Texture2DConverter
+
+    if not target_format:
+        target_format = 4
+        # target_format = self.m_TextureFormat
+
+    platform = self.object_reader.platform if self.object_reader is not None else 0
+    img_data, tex_format = Texture2DConverter.image_to_texture2d(img, target_format, platform, self.m_PlatformBlob)
+    self.m_Width = img.width
+    self.m_Height = img.height
+
+    self.image_data = img_data
+    self.m_CompleteImageSize = len(img_data)
+    self.m_TextureFormat = tex_format
+
+    if self.m_StreamData is not None:
+        self.m_StreamData.path = ""
+        self.m_StreamData.offset = 0
+        self.m_StreamData.size = 0
+
 def pack_translated_files(folder_path: str) -> None:
     folder = Path(folder_path)
     bundle_paths = _list_bundles(folder_path)
@@ -1041,26 +1068,22 @@ def pack_translated_files(folder_path: str) -> None:
                     if matching_texture is None:
                         print(f"Warning: Could not find texture for {data.m_Name} in {bundle_path_str}")
                         continue
-                    atlas_image = matching_texture.image  # PIL Image
-                    # Ensure atlas is in RGBA for alpha compositing
-                    if atlas_image.mode != "RGBA":
-                        atlas_image = atlas_image.convert("RGBA")
+                    atlas_image = matching_texture.image # PIL
                     for idx, sprite_name in enumerate(data.m_PackedSpriteNamesToIndex):
                         if sprite_name in patched_asset_file_dict:
-                            sprite_image = Image.open(patched_asset_file_dict[sprite_name]).convert("RGBA")
+                            sprite_image = Image.open(patched_asset_file_dict[sprite_name])
                             coords = data.m_RenderDataMap[idx][1].textureRect
-                            x0 = round(coords.x)
-                            y0 = round(atlas_image.height - coords.y - sprite_image.height)
-                            # 1) Erase destination area first (make fully transparent)
-                            transparent_patch = Image.new("RGBA", (sprite_image.width, sprite_image.height), (0, 0, 0, 0))
-                            atlas_image.paste(transparent_patch, (x0, y0))
-                            # 2) Alpha composite the sprite over the atlas at the destination
-                            atlas_image.alpha_composite(sprite_image, dest=(x0, y0))
+                            atlas_image.paste(sprite_image,
+                                              (round(coords.x),
+                                               round(atlas_image.height - coords.y - sprite_image.height),
+                                               round(coords.x + coords.width),
+                                               round(atlas_image.height - coords.y)))
                             bundle_modified = True
                             print(f"    Patched sprite {sprite_name} in Texture2D {matching_texture.m_Name} in {bundle_path_str}")
                             patched_count += 1
                     if bundle_modified:
-                        matching_texture.image = atlas_image
+                        patched_set_image(matching_texture, atlas_image)
+                        # matching_texture.image = atlas_image
                         matching_texture.save()
 
                 elif obj.type.name == "Texture2D":
@@ -1068,7 +1091,8 @@ def pack_translated_files(folder_path: str) -> None:
                     if data.m_Name not in patched_asset_file_dict:
                         continue
                     sprite_image = Image.open(patched_asset_file_dict[data.m_Name])
-                    data.image = sprite_image
+                    # data.image = sprite_image
+                    patched_set_image(data, sprite_image)
                     data.save()
                     bundle_modified = True
                     print(f"    Patched Texture2D {data.m_Name} in {bundle_path_str}")
