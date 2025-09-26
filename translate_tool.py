@@ -1404,6 +1404,7 @@ def main():
     if len(sys.argv) < 2:
         if is_running_in_exe():
             gui()
+            sys.exit(0)
         else:
             print(f"Usage: {command_usage}")
             sys.exit(1)

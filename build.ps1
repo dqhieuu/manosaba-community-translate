@@ -1,1 +1,1 @@
-pyinstaller --clean --onefile --name PATCH --collect-all UnityPy --collect-all archspec --add-data="patches:patches" --add-data="translated:translated" ./translate_tool.py
+pyinstaller --clean --onefile --noconsole --name PATCH --collect-all UnityPy --collect-all archspec --add-data="patches:patches" --add-data="translated:translated" ./translate_tool.py
