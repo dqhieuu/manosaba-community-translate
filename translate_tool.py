@@ -1057,6 +1057,7 @@ def pack_translated_files(folder_path: str) -> None:
                             # 2) Alpha composite the sprite over the atlas at the destination
                             atlas_image.alpha_composite(sprite_image, dest=(x0, y0))
                             bundle_modified = True
+
                             print(f"    Patched sprite {sprite_name} in Texture2D {matching_texture.m_Name} in {bundle_path_str}")
                             patched_count += 1
                     if bundle_modified:
@@ -1265,9 +1266,14 @@ def gui():
         if not path:
             return False
         try:
+            path = os.path.normpath(path)
             return os.path.isfile(path) and os.path.basename(path).lower() == "manosaba.exe"
         except Exception:
             return False
+
+    STEAM_EXE_PATH = os.path.normpath(
+        r"C:\Program Files (x86)\Steam\steamapps\common\manosaba_game\manosaba.exe"
+    )
 
     class App(ctk.CTk):
         def __init__(self):
@@ -1290,6 +1296,7 @@ def gui():
 
             self.path = get_steam_game_path('manosaba_game/manosaba.exe')
             if self.path:
+                self.path = os.path.normpath(self.path)
                 self.entry_path.insert(0, self.path)
 
             self.btn_browse = ctk.CTkButton(self, text="Browse", command=self.on_browse)
@@ -1304,7 +1311,6 @@ def gui():
             self.label_status = ctk.CTkLabel(self, textvariable=self.status_var)
             self.label_status.grid(row=3, column=0, columnspan=3, padx=12, pady=(6, 12), sticky="w")
 
-
         def set_status(self, message: str, status: str | None = None):
             self.status_var.set(message)
             if status == 'success':
@@ -1315,12 +1321,15 @@ def gui():
                 self.label_status.configure(text_color='#ffffff')
 
         def on_path_change(self, _):
-            self.path = self.entry_path.get()
+            self.path = os.path.normpath(self.entry_path.get())
             self.btn_patch.configure(state=("normal" if is_valid_exe(self.path) else "disabled"))
 
         def on_browse(self):
-            file_path = filedialog.askopenfilename(title="Mở manosaba.exe", filetypes=[("Executable", "manosaba.exe")])
+            file_path = filedialog.askopenfilename(
+                title="Mở manosaba.exe", filetypes=[("Executable", "manosaba.exe")]
+            )
             if file_path:
+                file_path = os.path.normpath(file_path)
                 self.entry_path.delete(0, tk.END)
                 self.entry_path.insert(0, file_path)
                 self.on_path_change(None)
@@ -1329,6 +1338,11 @@ def gui():
             if not is_valid_exe(self.path):
                 self.set_status("File manosaba.exe không hợp lệ!", 'error')
                 return
+
+            if os.path.normpath(self.path) != STEAM_EXE_PATH:
+                self.set_status("Patch chỉ hỗ trợ bản quyền!", 'error')
+                return
+
             exe_dir = os.path.dirname(self.path)
             aa_dir = os.path.join(exe_dir, "manosaba_Data", "StreamingAssets", "aa", "StandaloneWindows64")
             res_assets = os.path.join(exe_dir, "manosaba_Data", "resources.assets")
