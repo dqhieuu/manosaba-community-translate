@@ -1252,14 +1252,14 @@ def gui():
         import customtkinter as ctk
         import tkinter as tk
         from tkinter import filedialog
-        import os
+        from io import StringIO
     except Exception as e:
         print("customtkinter is required for the GUI. Please install it with: pip install customtkinter")
         print(f"Import error: {e}")
         sys.exit(1)
 
     # Configure appearance
-    ctk.set_appearance_mode("Dark")  # or "Dark", "Light"
+    ctk.set_appearance_mode("Dark")
     ctk.set_default_color_theme("dark-blue")
 
     def is_valid_exe(path: str) -> bool:
@@ -1280,15 +1280,31 @@ def gui():
         except Exception:
             return False
 
+    class TextboxStream(StringIO):
+        def __init__(self, textbox):
+            super().__init__()
+            self.textbox = textbox
+
+        def write(self, text):
+            self.textbox.configure(state="normal")
+            self.textbox.insert(tk.END, text)
+            self.textbox.see(tk.END)  # Auto-scroll to the bottom
+            self.textbox.configure(state="disabled")
+            self.textbox.update()  # Ensure immediate update
+
+        def flush(self):
+            pass
+
     class App(ctk.CTk):
         def __init__(self):
             super().__init__()
             self.title("Magical Girl Witch Trials Patcher")
-            self.geometry("700x220")
+            self.geometry("700x400")  # Increased height for log box
             self.resizable(False, False)
 
             # Grid config
-            self.grid_columnconfigure(1, weight=1)
+            self.grid_columnconfigure(0, weight=1)
+            self.grid_rowconfigure(4, weight=1)  # Make log row expandable
 
             # Title/Instruction
             self.label_info = ctk.CTkLabel(self, text="Hãy tìm đến file manosaba.exe trong máy và nhấn Patch")
@@ -1313,7 +1329,15 @@ def gui():
             # Status label
             self.status_var = tk.StringVar(value="")
             self.label_status = ctk.CTkLabel(self, textvariable=self.status_var)
-            self.label_status.grid(row=3, column=0, columnspan=3, padx=12, pady=(6, 12), sticky="w")
+            self.label_status.grid(row=3, column=0, columnspan=3, padx=12, pady=(6, 6), sticky="w")
+
+            # Log text box
+            self.log_textbox = ctk.CTkTextbox(self, height=100, state="disabled")
+            self.log_textbox.grid(row=4, column=0, columnspan=3, padx=12, pady=(6, 12), sticky="nsew")
+
+            # Redirect print output to log text box
+            self.log_stream = TextboxStream(self.log_textbox)
+            sys.stdout = self.log_stream
 
         def set_status(self, message: str, status: str | None = None):
             self.status_var.set(message)
@@ -1325,7 +1349,7 @@ def gui():
                 self.label_status.configure(text_color='#ffffff')
 
         def on_path_change(self, _):
-            self.path = self.entry_path.get().strip()  # Strip whitespace
+            self.path = self.entry_path.get().strip()
             if is_valid_exe(self.path):
                 self.btn_patch.configure(state="normal")
                 self.set_status("Đường dẫn hợp lệ, sẵn sàng patch!", 'success')
@@ -1352,11 +1376,25 @@ def gui():
             res_assets = os.path.join(exe_dir, "manosaba_Data", "resources.assets")
             try:
                 self.set_status("Đang patch game...")
+                self.log_textbox.configure(state="normal")
+                self.log_textbox.delete("1.0", tk.END)  # Clear previous logs
+                self.log_textbox.configure(state="disabled")
+                print("Bắt đầu quá trình patch...")
+                print(f"Đường dẫn game: {self.path}")
+                print(f"Đang xử lý thư mục StreamingAssets: {aa_dir}")
                 pack_translated_files(aa_dir)
+                print(f"Đang patch file resources.assets: {res_assets}")
                 perform_binary_patch(res_assets)
+                print("Hoàn tất quá trình patch!")
                 self.set_status("Xong! Các file đã được patch thành công!", 'success')
             except Exception as e:
+                print(f"Lỗi: {str(e)}")
                 self.set_status(f"Đã có lỗi xảy ra: {e}", 'error')
+
+        def destroy(self):
+            # Restore stdout before closing
+            sys.stdout = sys.__stdout__
+            super().destroy()
 
     app = App()
     app.mainloop()
