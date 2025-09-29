@@ -12,6 +12,9 @@ from UnityPy.classes import Texture2D
 from openai import OpenAI
 from openai.types.shared_params import Reasoning
 from openpyxl import Workbook, load_workbook
+from openpyxl.formatting.rule import FormulaRule
+from openpyxl.styles import PatternFill
+from openpyxl.utils import get_column_letter
 import UnityPy
 import yaml
 
@@ -40,7 +43,7 @@ PATCH_SHEETNAME = "Patch addresses"
 
 SPECIAL_SHEETS = {OVERVIEW_SHEETNAME, METADATA_SHEETNAME, KNOWLEDGE_SHEETNAME, SUMMARIES_SHEETNAME, PATCH_SHEETNAME}
 
-COMMON_TRANSLATE_HEADER = ["ID", "Original", "Chinese", "MTL", "Edited"]
+COMMON_TRANSLATE_HEADER = ["ID", "Original", "Chinese", "MTL", "Edited", "QA 1", "QA 2", "QA 3"]
 METADATA_HEADER = ["Sheet name", "Mapped file name", "File type"]
 KNOWLEDGE_HEADER = ["Knowledge"]
 OVERVIEW_HEADER = ["Act", "Chapter", "File", "Total Lines", "MTL %", "Edited %"]
@@ -575,6 +578,32 @@ def _load_and_parse_original_txt(path: str):
         data = None
     return ftype, data
 
+def _apply_qa_conditional_formatting(ws) -> None:
+    try:
+        # Find QA columns by header names
+        headers = [(ws.cell(row=1, column=c).value or "").strip() for c in range(1, ws.max_column + 1)]
+        qa_cols = []
+        for name in ("QA 1", "QA 2", "QA 3"):
+            if name in headers:
+                qa_cols.append(headers.index(name) + 1)
+        if not qa_cols:
+            return
+        max_row = ws.max_row or 1
+        fill = PatternFill(fill_type="solid", start_color="F8CBAD", end_color="F8CBAD")  # Light pinkish red
+        for col_idx in qa_cols:
+            col_letter = get_column_letter(col_idx)
+            cell_start = f"{col_letter}2"
+            cell_end = f"{col_letter}{max_row if max_row >= 2 else 2}"
+            cell_range = f"{cell_start}:{cell_end}"
+            # Use relative formula referencing the first cell in the range
+            formula = f"LEN(TRIM({cell_start}))>0"
+            rule = FormulaRule(formula=[formula], fill=fill, stopIfTrue=False)
+            ws.conditional_formatting.add(cell_range, rule)
+    except Exception:
+        # Avoid breaking main flow if CF fails
+        pass
+
+
 def _add_sheet_with_parsed_data(wb, base_sheet_name: str, data: List[Tuple[str, str, str]]):
     """Create a new sheet for the given data, avoiding name collisions.
     Returns the final sheet name used.
@@ -588,10 +617,11 @@ def _add_sheet_with_parsed_data(wb, base_sheet_name: str, data: List[Tuple[str, 
         sheet_name = sanitize_sheet_name(f"{sheet_name}_{suffix}")
     ws = wb.create_sheet(title=sheet_name)
     ws.append(COMMON_TRANSLATE_HEADER)
-    apply_header_and_column_widths(ws, COMMON_TRANSLATE_HEADER, [32, 60, 60, 60, 60])
+    apply_header_and_column_widths(ws, COMMON_TRANSLATE_HEADER, [32, 60, 60, 60, 60, 14, 14, 14])
     for _id, original, localized in data:
-        ws.append([_id, original, trim_blank_lines(localized), "", ""])
+        ws.append([_id, original, trim_blank_lines(localized), "", "", "", "", ""])
     apply_wrap_to_all_cells(ws)
+    _apply_qa_conditional_formatting(ws)
     return sheet_name
 
 def parse_original_files() -> None:
@@ -1208,6 +1238,34 @@ def refresh():
 
     # Ensure Patch addresses sheet exists and populate from file if empty
     ensure_patch_sheet(wb)
+
+    # Ensure existing content sheets have QA columns and conditional formatting
+    for sheet_name in get_content_sheets(wb):
+        ws = wb[sheet_name]
+        headers = [(ws.cell(row=1, column=c).value or "").strip() for c in range(1, ws.max_column + 1)]
+        missing = [h for h in ("QA 1", "QA 2", "QA 3") if h not in headers]
+        if missing:
+            # Append missing QA columns to the end
+            for name in missing:
+                new_col = ws.max_column + 1
+                ws.cell(row=1, column=new_col).value = name
+                # Fill data rows with empty values
+                for r in range(2, (ws.max_row or 1) + 1):
+                    ws.cell(row=r, column=new_col).value = ""
+                # Set a reasonable width
+                col_letter = get_column_letter(new_col)
+                try:
+                    ws.column_dimensions[col_letter].width = 14
+                except Exception:
+                    pass
+            # Restyle header row (bold/gray) and freeze top row
+            headers_now = [(ws.cell(row=1, column=c).value or "").strip() for c in range(1, ws.max_column + 1)]
+            apply_header_and_column_widths(ws, headers_now)
+            apply_wrap_to_all_cells(ws)
+            _apply_qa_conditional_formatting(ws)
+        else:
+            # Even if QA present, ensure formatting exists
+            _apply_qa_conditional_formatting(ws)
 
     # Reupdate overview sheet
     update_overview(wb)
