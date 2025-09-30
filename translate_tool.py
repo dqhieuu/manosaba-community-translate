@@ -57,7 +57,6 @@ INITIAL_PROJECT_HEADER = [
     "Text between <ruby> should be converted to Romaji"
 ]
 
-
 def ensure_patch_sheet(wb):
     if PATCH_SHEETNAME not in wb.sheetnames:
         ws = wb.create_sheet(title=PATCH_SHEETNAME)
@@ -965,8 +964,12 @@ def rebuild_translated_files() -> None:
                 lines_out.append("; **Chinese**")
                 for ln in (chinese_text or "").replace('\r\n', '\n').replace('\r', '\n').split('\n'):
                     lines_out.append("; " + ln if ln.strip() != "" else ";")
-            if mtl_text.strip() != "":
-                lines_out.append("; **MTL**")
+            if edited and edited.strip():
+                lines_out.append("; **Edited**")
+                for ln in (edited or "").replace('\r\n', '\n').replace('\r', '\n').split('\n'):
+                    lines_out.append("; " + ln if ln.strip() != "" else ";")
+            elif mtl_text.strip() != "":
+                lines_out.append("; **Translated**")
                 for ln in (mtl_text or "").replace('\r\n', '\n').replace('\r', '\n').split('\n'):
                     lines_out.append("; " + ln if ln.strip() != "" else ";")
 
