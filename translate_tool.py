@@ -1284,7 +1284,6 @@ BIN_PATCH_MAP = {
     : "0E 00 00 00 54 69 E1 BA BF 6E 67 20 56 69 E1 BB 87 74 00 00 07 00 00 00 7a 68 2d 48 61 6e 74 00 06 00 00 00 e9 ab 94 e4 b8 ad 00 00"
 }
 
-
 def perform_binary_patch(file_path: str, mapping: dict | None = None):
     """Perform hex-based binary patching on a file.
 
