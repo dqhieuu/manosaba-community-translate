@@ -956,7 +956,7 @@ def rebuild_translated_files() -> None:
 
         lines_out: List[str] = []
 
-        def add_comment_block(original_text: str, chinese_text: str, mtl_text: str):
+        def add_comment_block(original_text: str, chinese_text: str, mtl_text: str, edited_text: str):
             if original_text.strip() != "":
                 for ln in (original_text or "").replace('\r\n', '\n').replace('\r', '\n').split('\n'):
                     lines_out.append("; " + ln if ln.strip() != "" else ";")
@@ -964,9 +964,9 @@ def rebuild_translated_files() -> None:
                 lines_out.append("; **Chinese**")
                 for ln in (chinese_text or "").replace('\r\n', '\n').replace('\r', '\n').split('\n'):
                     lines_out.append("; " + ln if ln.strip() != "" else ";")
-            if edited and edited.strip():
+            if edited_text.strip() != "":
                 lines_out.append("; **Edited**")
-                for ln in (edited or "").replace('\r\n', '\n').replace('\r', '\n').split('\n'):
+                for ln in (edited_text or "").replace('\r\n', '\n').replace('\r', '\n').split('\n'):
                     lines_out.append("; " + ln if ln.strip() != "" else ";")
             elif mtl_text.strip() != "":
                 lines_out.append("; **Translated**")
@@ -977,7 +977,7 @@ def rebuild_translated_files() -> None:
             for _id, original, chinese, mtl, edited in id_rows:
                 used_value = edited.strip() if edited.strip() != "" else mtl.strip() if mtl.strip() != "" else chinese
                 used_value = trim_blank_lines(used_value)
-                add_comment_block(original, chinese, mtl)
+                add_comment_block(original, chinese, mtl, edited)
                 lines_out.append(f"{_id}: {used_value}")
                 lines_out.append("")
         elif ftype == 1:
@@ -985,7 +985,7 @@ def rebuild_translated_files() -> None:
                 used_value = edited.strip() if edited.strip() != "" else mtl.strip() if mtl.strip() != "" else chinese
                 used_value = trim_blank_lines(used_value)
                 lines_out.append(f"# {_id}")
-                add_comment_block(original, chinese, mtl)
+                add_comment_block(original, chinese, mtl, edited)
                 if used_value == "":
                     lines_out.append("")
                 else:
