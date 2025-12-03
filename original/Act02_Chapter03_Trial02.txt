@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter03/Act02_Chapter03_Trial02' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act02_Chapter03/Act02_Chapter03_Trial02' Naninovel scenario script
 
 # 0203Trial02_Sherry001
 ; > @printDebate pos:70,50 roll:4 |#0203Trial02_Sherry001|
@@ -40,7 +40,7 @@
 # 0203Trial02_Sherry006
 ; > @printDebate pos:70,50 roll:4 |#0203Trial02_Sherry006|
 ; ……そう<br>言いたかったんですよね！<br>ミリアさん！
-……你想说的<br>
+……妳想说的<br>
 是这个意思对不对！<br>
 米莉亚！
 
@@ -129,7 +129,7 @@
 ; > Alisa: |#0203Trial02_Alisa001|
 ; ……つーかよ。<br>いちゃもんつけんなら、その根拠を示すべきじゃねーか？
 ……话说回来啊。<br>
-你要是想挑刺那总得说说有什么证据才对吧？
+妳要是想挑刺那总得说说有什么证据才对吧？
 
 # 0203Trial02_Miria003
 ; > Miria: |#0203Trial02_Miria003|
@@ -139,7 +139,7 @@
 # 0203Trial02_Miria004
 ; > Miria: |#0203Trial02_Miria004|
 ; こんな明確な写真の証拠能力を疑うなら、<br>その立証責任は疑いを向けた側にあるんじゃないかな……！？
-照片拍得这么清楚，你却怀疑它当不了证据，<br>
+照片拍得这么清楚，妳却怀疑它当不了证据，<br>
 那身为质疑一方，就应该负起举证责任才对吧……！？
 
 # 0203Trial02_Alisa002
@@ -156,7 +156,7 @@
 # 0203Trial02_Sherry008
 ; > Sherry: |#0203Trial02_Sherry008|
 ; ヒロさんは、根拠を提示すべきですね！
-希罗你才应该向我们出示证据呢！
+希罗妳才应该向我们出示证据呢！
 
 # 0203Trial02_Hiro009
 ; > Hiro: |#0203Trial02_Hiro009|
@@ -183,7 +183,7 @@
 # 0203Trial02_Sherry009
 ; > Sherry: |#0203Trial02_Sherry009|
 ; ……というと、どういうことですか？
-……那你的意思是？
+……那妳的意思是？
 
 # 0203Trial02_Hiro013
 ; > Hiro: |#0203Trial02_Hiro013|
@@ -196,7 +196,7 @@
 ; > Alisa: |#0203Trial02_Alisa004|
 ; 別の影って……<br>具体的になんの影だよ。
 其他东西的影子……<br>
-那你说说看，是什么东西的影子。
+那妳说说看，是什么东西的影子。
 
 # 0203Trial02_Sherry010
 ; > Sherry: |#0203Trial02_Sherry010|
@@ -211,7 +211,7 @@
 # 0203Trial02_Noah001
 ; > Noah: |#0203Trial02_Noah001|
 ; ……のあは知らないよ？
-……诺亚不知道有这种东西哦？
+……诺亚不知道有这种东西喔？
 
 # 0203Trial02_Miria005
 ; > Miria: |#0203Trial02_Miria005|
@@ -253,7 +253,7 @@
 # 0203Trial02_Sherry012
 ; > Sherry: |#0203Trial02_Sherry012|
 ; と、言いますと？
-你的意思是？
+妳的意思是？
 
 # 0203Trial02_Hiro018
 ; > Hiro: |#0203Trial02_Hiro018|
@@ -277,7 +277,7 @@
 # 0203Trial02_Alisa006
 ; > Alisa: |#0203Trial02_Alisa006|
 ; それについてはどう説明するんだよ。
-这一点你要怎样解释。
+这一点妳要怎样解释。
 
 # 0203Trial02_Hiro020
 ; > Hiro: |#0203Trial02_Hiro020|
@@ -288,7 +288,7 @@
 # 0203Trial02_Alisa007
 ; > Alisa: |#0203Trial02_Alisa007|
 ; んだと……？
-你说什么……？
+妳说什么……？
 
 # 0203Trial02_Hiro021
 ; > Hiro: |#0203Trial02_Hiro021|

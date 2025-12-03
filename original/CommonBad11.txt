@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Common/CommonBad11' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Common/CommonBad11' Naninovel scenario script
 
 # CommonBad11_Narrative001
 ; ――監獄島全体がアリサの魔法で炎に包まれ、<br>ハンナの魔法によって空高くへと浮上していく。

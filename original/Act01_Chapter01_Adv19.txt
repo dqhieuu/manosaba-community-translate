@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act01_Chapter01/Act01_Chapter01_Adv19' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act01_Chapter01/Act01_Chapter01_Adv19' Naninovel scenario script
 
 # 0101Adv19_Narrative001
 ; 本日の大半を、<br>エマらは看守との鬼ごっこに<ruby="つい">費</ruby>やしてしまった。
@@ -19,8 +19,8 @@
 # 0101Adv19_Meruru001
 ; > Meruru: |#0101Adv19_Meruru001|
 ; エマさん、大丈夫ですか？<br>か、看守さんに追いかけられたって聞いて……。
-艾玛小姐，你没事吧？<br>
-我、我听说你刚刚被看守追赶……
+艾玛小姐，妳没事吧？<br>
+我、我听说妳刚刚被看守追赶……
 
 # 0101Adv19_Ema002
 ; > Ema: |#0101Adv19_Ema002|
@@ -31,7 +31,7 @@
 # 0101Adv19_Meruru002
 ; > Meruru: |#0101Adv19_Meruru002|
 ; ほっぺた汚れちゃってます。
-你的脸弄脏了。
+妳的脸弄脏了。
 
 # 0101Adv19_Narrative003
 ; メルルは心配そうに眉を下げ、<br>エマの<ruby="ほお">頬</ruby>をハンカチで拭いた。
@@ -117,7 +117,7 @@
 ; > Ema: |#0101Adv19_Ema007|
 ; あ、でもそうだ。<br>ちょっと待って。
 啊，我想起一件事。<br>
-你等我一下哦。
+妳等我一下喔。
 
 # 0101Adv19_Narrative013
 ; エマは――
@@ -145,13 +145,13 @@
 # 0101Adv19_Ema008
 ; > Ema: |#0101Adv19_Ema008|
 ; ノアちゃん、今日もごはん行かないの？
-诺亚，今天你还是不去用餐吗？
+诺亚，今天妳还是不去用餐吗？
 
 # 0101Adv19_Noah001
 ; > Noah: |#0101Adv19_Noah001|
 ; あ、エマちゃん、メルルちゃん。<br>のあはへーきだよ？ みんな優しいんだあ。
 啊，艾玛，梅露露。<br>
-诺亚没事哦？大家都对诺亚很好。
+诺亚没事喔？大家都对诺亚很好。
 
 # 0101Adv19_Ema009
 ; > Ema: |#0101Adv19_Ema009|

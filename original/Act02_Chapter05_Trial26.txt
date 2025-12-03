@@ -1,10 +1,10 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter05/Act02_Chapter05_Trial26' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act02_Chapter05/Act02_Chapter05_Trial26' Naninovel scenario script
 
 # 0205Trial26_Hiro001
 ; > @printDebate pos:70,50 roll:4 |#0205Trial26_Hiro001|
 ; ……君の過去を、<br>教えてくれ。
 ……告诉我<br>
-你的过去吧。
+妳的过去吧。
 
 # 0205Trial26_Ema001
 ; > @printDebate pos:30,50 roll:-4 |#0205Trial26_Ema001|
@@ -63,7 +63,7 @@
 # 0205Trial26_Choice001
 ; > @choice |#0205Trial26_Choice001| button:ChoiceButtons/Trial/Objection handler:TrialHiro
 ; 君は知っている
-你是知道的
+妳是知道的
 
 # Common_Return
 ; > @choice |#Common_Return| button:ChoiceButtons/Trial/Cancel handler:TrialHiro
@@ -109,7 +109,7 @@
 # 0205Trial26_Hiro007
 ; > Hiro: |#0205Trial26_Hiro007|
 ; 君が恨む必要なんてない……。
-你没必要恨……
+妳没必要恨……
 
 # 0205Trial26_Hiro008
 ; > Hiro: |#0205Trial26_Hiro008|
@@ -119,7 +119,7 @@
 # 0205Trial26_Ema010
 ; > Ema: |#0205Trial26_Ema010|
 ; そんなこと……言われても。
-你说这个……也没意义。
+妳说这个……也没意义。
 
 # 0205Trial26_Ema011
 ; > Ema: |#0205Trial26_Ema011|
@@ -145,18 +145,18 @@
 # 0205Trial26_Hiro012
 ; > Hiro: |#0205Trial26_Hiro012|
 ; 君は知っている。
-你是知道的。
+妳是知道的。
 
 # 0205Trial26_Hiro013
 ; > Hiro: |#0205Trial26_Hiro013|
 ; どうして君が、<br>ターゲットになったのかを。
-为什么你，<br>
+为什么妳，<br>
 会成为目标。
 
 # 0205Trial26_Ema012
 ; > Ema: |#0205Trial26_Ema012|
 ; そんなこと言われても……わからないよ。
-不管你再怎么说……我也搞不明白啊。
+不管妳再怎么说……我也搞不明白啊。
 
 # 0205Trial26_Ema013
 ; > Ema: |#0205Trial26_Ema013|
@@ -171,7 +171,7 @@
 # 0205Trial26_Hiro015
 ; > Hiro: |#0205Trial26_Hiro015|
 ; ……なら、次は私のことを話してくれないか。
-……那么，接下来能请你谈谈我的事吗？
+……那么，接下来能请妳谈谈我的事吗？
 
 # 0205Trial26_Ema014
 ; > Ema: |#0205Trial26_Ema014|
@@ -181,7 +181,7 @@
 # 0205Trial26_Hiro016
 ; > Hiro: |#0205Trial26_Hiro016|
 ; たのむ、エマ。
-拜托你了，艾玛。
+拜托妳了，艾玛。
 
 # 0205Trial26_Ema015
 ; > Ema: |#0205Trial26_Ema015|

@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter03/Act02_Chapter03_Trial08' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act02_Chapter03/Act02_Chapter03_Trial08' Naninovel scenario script
 
 # 0203Trial08_Hiro001
 ; > @printDebate pos:70,50 roll:4 |#0203Trial08_Hiro001|
@@ -42,7 +42,7 @@
 而且<br>
 插进安安胸口的铁栅是<br>
 【在中间位置断掉】的<br>
-没错吧。
+没错吧。**确认adv
 
 # 0203Trial08_Ema003
 ; > @printDebate pos:70,50 roll:4 |#0203Trial08_Ema003|
@@ -137,7 +137,7 @@
 # 0203Trial08_Noah001
 ; > @printDebate pos:30,50 roll:-4 |#0203Trial08_Noah001|
 ; アンアンちゃんが<br>偶然落ちたときに<br>偶然赤い液体を持ってて、<br>偶然血まみれっぽくなった<br>……ってこと？
-你是想说……<br>
+妳是想说……<br>
 安安意外坠楼，<br>
 刚好她带着某种红色液体，<br>
 然后偶然把自己弄成<br>
@@ -299,7 +299,7 @@
 ; > Miria: |#0203Trial08_Miria007|
 ; えっと……<br>それがアンアンちゃんの服についてたってこと……？
 呃……<br>
-你是说，那东西一直沾在安安的衣服上……？
+妳是说，那东西一直沾在安安的衣服上……？
 
 # 0203Trial08_Alisa004
 ; > Alisa: |#0203Trial08_Alisa004|
@@ -340,7 +340,7 @@
 # 0203Trial08_Hiro020
 ; > Hiro: |#0203Trial08_Hiro020|
 ; ……違うね。<br>アンアンは、自ら飛び降りたんだ。
-……你错了。<br>
+……妳错了。<br>
 安安她是自己跳下去的。
 
 # 0203Trial08_Leia008
@@ -351,7 +351,7 @@
 # 0203Trial08_Leia009
 ; > Leia: |#0203Trial08_Leia009|
 ; アンアンくんが自殺したっていうなら、<br>いったいどうして……。
-你说安安是自杀的，<br>
+妳说安安是自杀的，<br>
 那就给我们说明理由……
 
 # 0203Trial08_Hiro021
@@ -396,7 +396,7 @@
 ; ……しかしヒロくん。<br>アンアンくんの死体には、<br>おかしなところは見られなかったよ。
 ……希罗，<br>
 可是我在安安的尸体上没有发现<br>
-任何奇怪的地方哦。
+任何奇怪的地方喔。
 
 # 0203Trial08_Leia011
 ; > Leia: |#0203Trial08_Leia011|
@@ -475,7 +475,7 @@
 # 0203Trial08_Alisa005
 ; > Alisa: |#0203Trial08_Alisa005|
 ; 二階堂、ふざけてるわけじゃねーよな？
-二阶堂，你没在开玩笑对吧？
+二阶堂，妳没在开玩笑对吧？
 
 # 0203Trial08_Hiro031
 ; > Hiro: |#0203Trial08_Hiro031|
@@ -723,7 +723,7 @@
 # 0203Trial08_Alisa011
 ; > Alisa: |#0203Trial08_Alisa011|
 ; ……ふざけてんのか？
-……你在开什么玩笑？
+……妳在开什么玩笑？
 
 # 0203Trial08_Hiro056
 ; > Hiro: |#0203Trial08_Hiro056|
@@ -762,7 +762,7 @@
 # 0203Trial08_Alisa012
 ; > Alisa: |#0203Trial08_Alisa012|
 ; 死んだフリするだけで逃げられるっていうんなら、<br>そっから逃げる具体的な方法を教えてくれよ。
-如果只要装死就逃得出去，那我还想你仔细说说，<br>
+如果只要装死就逃得出去，那我还想妳仔细说说，<br>
 装死后要怎样做才能跑得了。
 
 # 0203Trial08_Hanna005
@@ -823,7 +823,7 @@
 # 0203Trial08_Hiro069
 ; > Hiro: |#0203Trial08_Hiro069|
 ; ……立派な【死体】の完成だよ。
-……于是，一具完美的【尸体】就炮制成功了。
+……这就做出了一具完美的【尸体】。
 
 # 0203Trial08_Leia019
 ; > Leia: |#0203Trial08_Leia019|
@@ -838,7 +838,7 @@
 # 0203Trial08_Alisa014
 ; > Alisa: |#0203Trial08_Alisa014|
 ; その説にはいくつか問題があんだろうよ。
-你这说法有几个漏洞吧。
+妳这说法有几个漏洞吧。
 
 # 0203Trial08_Hiro070
 ; > Hiro: |#0203Trial08_Hiro070|

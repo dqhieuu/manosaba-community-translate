@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter04/Act02_Chapter04_Trial07' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act02_Chapter04/Act02_Chapter04_Trial07' Naninovel scenario script
 
 # 0204Trial07_Hiro001
 ; > @printDebate pos:70,50 roll:4 |#0204Trial07_Hiro001|
@@ -54,7 +54,7 @@
 让艾玛的尸体<br>
 <link="Objection_02_04_07_02">悬在空中</link>，<br>
 不然的话，<br>
-你的假设也太难实现了。
+妳的假设也太难实现了。
 
 # 0204Trial07_Hanna001
 ; > @printDebate pos:30,50 roll:-4 |#0204Trial07_Hanna001|
@@ -78,13 +78,13 @@
 ; > @printDebate pos:70,50 roll:4 |#0204Trial07_Sherry003|
 ; 面白い発想ですね！<br>主張の意味は<br>よくわかりませんけど！
 真是个有趣的假设！<br>
-虽然完全听不懂你<br>
+虽然完全听不懂妳<br>
 为什么要这样主张就是了！
 
 # 0204Trial07_Alisa001
 ; > @printDebate pos:30,50 roll:-4 |#0204Trial07_Alisa001|
 ; 橘が死体で<br><link="Objection_02_04_07_04">お手玉</link>でもしてたってのか？<br>そりゃすげーな。
-你意思是橘在用尸体<br>
+妳意思是橘在用尸体<br>
 玩<link="Objection_02_04_07_04">抛接球</link>？<br>
 那是真有两下子。
 
@@ -101,7 +101,7 @@
 不过，<br>
 假如尸体真的<br>
 像希罗说的那样，<br>
-亚里沙你也<br>
+亚里沙妳也<br>
 有嫌疑哦？<br>
 
 
@@ -109,13 +109,13 @@
 ; > @printDebate pos:30,50 roll:-4 |#0204Trial07_Alisa002|
 ; ああ？<br>んだと？
 哈？<br>
-你想怎样？
+妳想怎样？
 
 # 0204Trial07_Sherry006
 ; > @printDebate pos:70,50 roll:4 |#0204Trial07_Sherry006|
 ; たとえば<br>炎を使って<br><link="Objection_02_04_07_05">浮かび上がるもの</link><br>なんかを作ったのかも<br>しれません！
 比如说，<br>
-你利用火焰制作出了某种<br>
+妳利用火焰制作出了某种<br>
 <br>
 <link="Objection_02_04_07_05">会飘浮的装置</link><br>
 之类的！
@@ -130,8 +130,8 @@
 # 0204Trial07_Alisa003
 ; > @printDebate pos:30,50 roll:-4 |#0204Trial07_Alisa003|
 ; いい加減なこと<br>言ってんじゃねーぞ……！<br>ウチを疑うってなら<br>証拠でも見せてみな！
-你在乱讲什么……！<br>
-你要是怀疑我，<br>
+妳在乱讲什么……！<br>
+妳要是怀疑我，<br>
 就拿出证据来啊！<br>
 
 
@@ -161,7 +161,7 @@
 ; > @printDebate pos:30,50 roll:-4 |#0204Trial07_Alisa006|
 ; おめえたしか、<br>【入れ替わり】が<br>できるんだろ。<br>佐伯よう……。
 说到身体【互换】，<br>
-这种魔法只有你<br>
+这种魔法只有妳<br>
 能做到吧，<br>
 佐伯？
 
@@ -370,7 +370,7 @@
 # 0204Trial07_Hanna006
 ; > Hanna: |#0204Trial07_Hanna006|
 ; いいがかりをつけるのもいい加減にしてくださいましー！
-你们诬陷我也要适可而止一点——！
+妳们诬陷我也要适可而止一点——！
 
 # 0204Trial07_Hiro021
 ; > Hiro: |#0204Trial07_Hiro021|
@@ -417,7 +417,7 @@
 # 0204Trial07_Miria006
 ; > Miria: |#0204Trial07_Miria006|
 ; ど、どういうこと……！？
-你、你的意思是……！？
+妳、妳的意思是……！？
 
 # 0204Trial07_Alisa010
 ; > Alisa: |#0204Trial07_Alisa010|
@@ -430,7 +430,7 @@
 ; > Alisa: |#0204Trial07_Alisa011|
 ; だが二階堂……<br>重力が変わるまで圧縮するって<br>何億トンの質量が必要だと思ってんだ……？
 但是二阶堂……<br>
-你知道要想质量压缩到能改变重力的程度，<br>
+妳知道要想质量压缩到能改变重力的程度，<br>
 需要多少亿吨吗……？
 
 # 0204Trial07_Alisa012
@@ -441,7 +441,7 @@
 # 0204Trial07_Hanna007
 ; > Hanna: |#0204Trial07_Hanna007|
 ; 何を言ってるのかさっぱりわかりませんわー！？
-你们在说什么，我完全听不懂哇！？
+妳们在说什么，我完全听不懂哇！？
 
 # 0204Trial07_Alisa013
 ; > Alisa: |#0204Trial07_Alisa013|
@@ -642,7 +642,7 @@
 ; > Sherry: |#0204Trial07_Sherry013|
 ; どうやって乗ったのかを証明しないと<br>意味がありませんね！
 不证明是怎么乘坐上去的，<br>
-你的假设就毫无意义！
+妳的假设就毫无意义！
 
 # 0204Trial07_Miria010
 ; > Miria: |#0204Trial07_Miria010|
@@ -739,7 +739,7 @@
 # 0204Trial07_Hanna010
 ; > Hanna: |#0204Trial07_Hanna010|
 ; それって……<br>わたくしがやったって言うんですの！？
-你这不就……<br>
+妳这不就……<br>
 相当于说是我干的吗！？
 
 # 0204Trial07_Hanna011

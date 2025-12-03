@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Common/CommonBad04' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Common/CommonBad04' Naninovel scenario script
 
 # CommonBad04_Narrative001
 ; ――犯人を突き止められないまま、<br>議論の時間は終わりを迎えた。
@@ -67,7 +67,7 @@
 # CommonBad04_Coco002
 ; > Coco: |#CommonBad04_Coco002|
 ; ちゃんとよく考えろって！<br>あてぃしが殺したワケないじゃんよぉ！！
-你们认真点思考好不好！<br>
+妳们认真点思考好不好！<br>
 人怎么可能是我杀的啊！！
 
 # CommonBad04_Coco003
@@ -87,8 +87,8 @@
 ; > Coco: |#CommonBad04_Coco004|
 ; お、おい、やめろって……<br>ホント、頼むから押さないでください……<br>なあ、やめてくれって……！！
 喂、喂，住手啊……<br>
-求你们，真的别按下去啦……<br>
-我说，你们住手啊……！！
+求妳们，真的别按下去啦……<br>
+我说，妳们住手啊……！！
 
 # CommonBad04_Narrative010
 ; ココの訴えもむなしく、<br>少女たちは手元のボタンを押していく。
@@ -203,7 +203,7 @@
 ; > Coco: |#CommonBad04_Coco009|
 ; うっせえ、ふざけんなよ……！<br>おい、おめえら見てないで助けろってぇ！！
 吵死了，开什么玩笑……！<br>
-喂，你们别光看啊快帮帮我！！
+喂，妳们别光看啊快帮帮我！！
 
 # CommonBad04_Ema004
 ; > Ema: |#CommonBad04_Ema004|
@@ -219,7 +219,7 @@
 ; > Coco: |#CommonBad04_Coco010|
 ; キモキモキモキモキモキモキモっ！<br>おめえら恨んでやるからなっ！<br>全員死ね！ 死ね死ね死ね死ねえ！
 恶心恶心恶心恶心恶心恶心恶心！<br>
-我要诅咒你们！<br>
+我要诅咒妳们！<br>
 所有人去死！去死去死去死去死！
 
 # CommonBad04_Narrative023

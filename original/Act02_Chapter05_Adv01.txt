@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter05/Act02_Chapter05_Adv01' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act02_Chapter05/Act02_Chapter05_Adv01' Naninovel scenario script
 
 # 0205Adv01_Unknown001
 ; > ＠島の大魔女

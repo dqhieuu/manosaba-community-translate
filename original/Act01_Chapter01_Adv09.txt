@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act01_Chapter01/Act01_Chapter01_Adv09' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act01_Chapter01/Act01_Chapter01_Adv09' Naninovel scenario script
 
 # 0101Adv09_Narrative001
 ; 夕食の後は、長めの自由時間となっていた。
@@ -114,7 +114,7 @@
 # 0101Adv09_Ema007
 ; > Ema: |#0101Adv09_Ema007|
 ; えっと……キミは、夏目、アンアンちゃんだよね。
-呃……记得你叫夏目安安，对吗。
+呃……记得妳叫夏目安安，对吗。
 
 # 0101Adv09_AnAn001
 ; > AnAn: |#0101Adv09_AnAn001|
@@ -139,7 +139,7 @@
 # 0101Adv09_Ema009
 ; > Ema: |#0101Adv09_Ema009|
 ; えーと、ボクに何か用？
-呃，你找我有什么事？
+呃，妳找我有什么事？
 
 # 0101Adv09_AnAn002
 ; > AnAn: |#0101Adv09_AnAn002|
@@ -190,7 +190,7 @@
 # 0101Adv09_AnAn003
 ; > AnAn: |#0101Adv09_AnAn003|
 ; 『どけ。わがはいの邪魔である』
-『滚开。你挡吾辈的路了』
+『滚开。妳挡吾辈的路了』
 
 # 0101Adv09_Ema012
 ; > Ema: |#0101Adv09_Ema012|
@@ -206,7 +206,7 @@
 # 0101Adv09_Ema013
 ; > Ema: |#0101Adv09_Ema013|
 ; ノアちゃんと同室だったんだね。<br>知らなくて、ほんとごめん。
-原来你和诺亚是同一间房。<br>
+原来妳和诺亚是同一间房。<br>
 对不起，我才知道。
 
 # 0101Adv09_AnAn004
@@ -247,7 +247,7 @@
 ; > Noah: |#0101Adv09_Noah005|
 ; あ、アンアンちゃんだぁ。<br>おかえりぃ。
 啊，是安安。<br>
-你回来啦。
+妳回来啦。
 
 # 0101Adv09_Narrative026
 ; 悪びれた様子もなく、<br>ノアは満面の笑みを浮かべた。
@@ -266,7 +266,7 @@
 # 0101Adv09_Ema014
 ; > Ema: |#0101Adv09_Ema014|
 ; わぁっ、アンアンちゃん、大丈夫！？
-哇，安安，你没事吧！？
+哇，安安，妳没事吧！？
 
 # 0101Adv09_Narrative029
 ; <ruby="とっさ">咄嗟</ruby>にエマの伸ばした手は、<br>アンアンにはねつけられる。<br>かろうじて意識が残っているらしい。

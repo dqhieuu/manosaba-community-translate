@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act01_Chapter01/Act01_Chapter01_Adv36' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act01_Chapter01/Act01_Chapter01_Adv36' Naninovel scenario script
 
 # 0101Adv36_Narrative001
 ; ――私を見て、と心が叫んだ。
@@ -37,7 +37,7 @@
 
 # 0101Adv36_Narrative009
 ; ――だから、だから……ねえ、レイアを見て！
-——所以，所以……求你，看一看蕾雅吧！
+——所以，所以……求妳，看一看蕾雅吧！
 
 # 0101Adv36_Narrative010
 ; 一度だけ、母が病室でテレビを見ていたことがある。<br>それは偶然テレビで放映されていた、舞台の演劇だった。
@@ -114,7 +114,7 @@
 
 # 0101Adv36_Narrative025
 ; 目立っている彼女を殺さないと、一番になれないよ？<br>かわいそうに。
-不除掉引人注目的她，你就没法成为全场焦点哦？<br>
+不除掉引人注目的她，妳就没法成为全场焦点喔？<br>
 真可怜啊。
 
 # 0101Adv36_Narrative026
@@ -310,7 +310,7 @@
 
 # 0101Adv36_Narrative056
 ; 一発で完全に仕留められたのか、<br>床に落ちたゴクチョーは沈黙し、ぴくりとも動かない。
-看来那一发子弹已完全要了它的命，<br>
+看来那一发子弹已完全要了牠的命，<br>
 落在地板上的典狱长陷入了沉默，一动也不动。
 
 # 0101Adv36_Ema004
@@ -330,7 +330,7 @@
 # 0101Adv36_Nanoka001
 ; > Nanoka: |#0101Adv36_Nanoka001|
 ; この茶番をいつまで続けるつもり？
-这出闹剧究竟要演到什么时候？
+这出闹剧究竟要演到什么时候？**繁齣
 
 # 0101Adv36_Nanoka002
 ; > Nanoka: |#0101Adv36_Nanoka002|

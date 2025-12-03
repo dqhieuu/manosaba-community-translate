@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act01_Chapter03/Act01_Chapter03_Trial00' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act01_Chapter03/Act01_Chapter03_Trial00' Naninovel scenario script
 
 # 0103Trial00_Ema001
 ; > Ema: |#0103Trial00_Ema001|
@@ -25,18 +25,18 @@
 # 0103Trial00_Alisa001
 ; > Alisa: |#0103Trial00_Alisa001|
 ; んなこたわかってんだよ……。
-还用你说吗……
+还用妳说吗……
 
 # 0103Trial00_Margo001
 ; > Margo: |#0103Trial00_Margo001|
 ; 【自白してくれる人はいないのか】……<br>そう言いたいのね？
 【难道就没有人愿意坦白吗】……<br>
-你是想这么说吧？
+妳是想这么说吧？
 
 # 0103Trial00_Nanoka001
 ; > Nanoka: |#0103Trial00_Nanoka001|
 ; 犯人がいたとして、すると思うのかしら。
-就算真的有凶手，你觉得会有人承认吗？
+就算真的有凶手，妳觉得会有人承认吗？
 
 # 0103Trial00_Meruru001
 ; > Meruru: |#0103Trial00_Meruru001|

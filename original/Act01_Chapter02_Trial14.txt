@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act01_Chapter02/Act01_Chapter02_Trial14' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act01_Chapter02/Act01_Chapter02_Trial14' Naninovel scenario script
 
 # 0102Trial14_Ema001
 ; > @printDebate pos:65,50 roll:4 |#0102Trial14_Ema001|
@@ -75,7 +75,7 @@
 ; > @printDebate pos:30,50 roll:-4 |#0102Trial14_Coco001|
 ; でも実際、<br>ナノカ以外<br>できねーじゃん？
 可是，实际上<br>
-只有你能<br>
+只有妳能<br>
 做到啊？
 
 # 0102Trial14_Nanoka002
@@ -133,7 +133,7 @@
 # 0102Trial14_Choice001
 ; > @choice |#0102Trial14_Choice001| button:ChoiceButtons/Trial/Objection handler:Trial
 ; すぐ消せた
-你很快就删掉了
+妳很快就删掉了
 
 # Common_Return
 ; > @choice |#Common_Return| button:ChoiceButtons/Trial/Cancel handler:Trial
@@ -168,13 +168,13 @@
 # 0102Trial14_Ema010
 ; > Ema: |#0102Trial14_Ema010|
 ; ……アンアンちゃんが<br>データを消すことはできたはずだよ！
-……安安你<br>
+……安安妳<br>
 应该清除掉了数据！
 
 # 0102Trial14_AnAn005
 ; > AnAn: |#0102Trial14_AnAn005|
 ; どうやって消すというのだ？
-那你说说看我是怎么做到的？
+那妳说说看我是怎么做到的？
 
 # 0102Trial14_AnAn006
 ; > AnAn: |#0102Trial14_AnAn006|
@@ -201,8 +201,8 @@
 # 0102Trial14_AnAn009
 ; > AnAn: |#0102Trial14_AnAn009|
 ; ならばそれを示すがいい！<br>それができないなら……。
-那你展示便是！<br>
-如果你做不到的话……
+那妳展示便是！<br>
+如果妳做不到的话……
 
 # 0102Trial14_AnAn010
 ; > AnAn: |#0102Trial14_AnAn010|
@@ -241,14 +241,14 @@
 
 # 0102Trial14_AnAn012
 ; > AnAn: |#0102Trial14_AnAn012|
-; あのスマホは初期化されている】！<br>スマホから悲鳴を流したという証拠はない！
+; あのスマホは初期化されている！<br>スマホから悲鳴を流したという証拠はない！
 那个手机被恢复出厂设置了！<br>
 没有证据能证明惨叫声是手机播放的！
 
 # 0102Trial14_AnAn013
 ; > AnAn: |#0102Trial14_AnAn013|
 ; エマは<color=#9c8eff><b>【口をとざせ】</b></color>！！<br><color=#9c8eff><b>【議論は終わりだ】</b></color>！！
-艾玛你给我<color=#9c8eff><b>【闭嘴】</b></color>！！<br>
+艾玛妳给我<color=#9c8eff><b>【闭嘴】</b></color>！！<br>
 <color=#9c8eff><b>【这场讨论结束了】</b></color>！！
 
 # 0102Trial14_Ema016
@@ -340,7 +340,7 @@
 # 0102Trial14_Coco002
 ; > Coco: |#0102Trial14_Coco002|
 ; なにそれどゆこと！？
-你说什么，怎么回事！？
+妳说什么，怎么回事！？
 
 # 0102Trial14_Meruru002
 ; > Meruru: |#0102Trial14_Meruru002|
@@ -366,7 +366,7 @@
 ; > Hanna: |#0102Trial14_Hanna001|
 ; ぜ、前提がガラガラと崩れていきますわ～～！？<br>混乱させるようなことを言わねーでくださいまし！！
 前、前提都要站不住脚了哦～～！？<br>
-请你不要作出扰乱讨论的发言可以吗！！
+请妳不要作出扰乱讨论的发言可以吗！！
 
 # 0102Trial14_Ema025
 ; > Ema: |#0102Trial14_Ema025|
@@ -407,7 +407,7 @@
 ; > Nanoka: |#0102Trial14_Nanoka007|
 ; それを疑うなら桜羽エマ……<br>あなたもまた怪しいわ。
 如果要怀疑这点，樱羽艾玛……<br>
-你也挺可疑的。
+妳也挺可疑的。
 
 # 0102Trial14_Ema029
 ; > Ema: |#0102Trial14_Ema029|
@@ -491,7 +491,7 @@
 # 0102Trial14_AnAn017
 ; > AnAn: |#0102Trial14_AnAn017|
 ; な、何を……。
-你、你说什么……
+妳、妳说什么……
 
 # 0102Trial14_Margo007
 ; > Margo: |#0102Trial14_Margo007|
@@ -536,7 +536,7 @@
 ; > AnAn: |#0102Trial14_AnAn021|
 ; ――言いがかりだ！！<br>すり替えた証拠なんて……どこにもない！！
 ——简直无理取闹！！<br>
-你们没有证据……能证明吾辈掉包了手机！！
+妳们没有证据……能证明吾辈掉包了手机！！
 
 # 0102Trial14_Ema035
 ; > Ema: |#0102Trial14_Ema035|
@@ -605,7 +605,7 @@
 ; > AnAn: |#0102Trial14_AnAn026|
 ; 全員が現場を調べたはずだ。<br>どこにどんな証拠があるというのだ？
 所有人都调查过现场。<br>
-哪里有你口中的证据？
+哪里有妳口中的证据？
 
 # 0102Trial14_Ema040
 ; > Ema: |#0102Trial14_Ema040|
@@ -615,7 +615,7 @@
 # 0102Trial14_AnAn027
 ; > AnAn: |#0102Trial14_AnAn027|
 ; エマ、貴様は証拠もなく<br>わがはいを疑い続けているな？
-艾玛，你连证据都没有<br>
+艾玛，妳连证据都没有<br>
 就一直怀疑吾辈？
 
 # 0102Trial14_AnAn028
@@ -671,7 +671,7 @@
 ; > Ema: |#0102Trial14_Ema047|
 ; そう、ボクに電話をかければ、<br>その答えを教えるよ！
 没错，给我打个电话<br>
-我就告诉你答案！
+我就告诉妳答案！
 
 # 0102Trial14_Alisa001
 ; > Alisa: |#0102Trial14_Alisa001|
@@ -726,7 +726,7 @@
 # 0102Trial14_Nanoka013
 ; > Nanoka: |#0102Trial14_Nanoka013|
 ; 桜羽エマ……わかっているはずでしょう。<br>……本当は誰に電話をかければいいのかを。
-樱羽艾玛……其实你是知道的吧。<br>
+樱羽艾玛……其实妳是知道的吧。<br>
 ……到底应该打电话给谁。
 
 # 0102Trial14_Nanoka014
@@ -737,7 +737,7 @@
 # 0102Trial14_AnAn031
 ; > AnAn: |#0102Trial14_AnAn031|
 ; な、何をごちゃごちゃと<br>さえずっているのだ！！
-你、你们嘀嘀咕咕的<br>
+妳、妳们嘀嘀咕咕的<br>
 在说什么呢！！
 
 # 0102Trial14_AnAn032
@@ -798,7 +798,7 @@
 # 0102Trial14_Miria003
 ; > Miria: |#0102Trial14_Miria003|
 ; ……って録音してない！？<br>も～、恥ずかしいなぁ。<br>そんなのわざわざ送らなくてもいいって、アンアンちゃ――。
-……呃，你在录音吗！？<br>
+……呃，妳在录音吗！？<br>
 哎呀～好丢人。<br>
 不用特意把这种东西发给我啦，安安——
 
@@ -822,7 +822,7 @@
 # 0102Trial14_Ema057
 ; > Ema: |#0102Trial14_Ema057|
 ; ……佐伯ミリアちゃんを殺した犯人は、キミだ――。
-……杀害佐伯米莉亚的凶手，就是你——
+……杀害佐伯米莉亚的凶手，就是妳——
 
 # 0102Trial14_Ema058
 ; > Ema: |#0102Trial14_Ema058|
@@ -838,7 +838,7 @@
 ; > Margo: |#0102Trial14_Margo010|
 ; ……あらあら。<br>意外と詰めが甘いのね？
 ……哎呀呀。<br>
-没想到你会在关键时刻掉链子呢？
+没想到妳会在关键时刻掉链子呢？
 
 # 0102Trial14_Margo011
 ; > Margo: |#0102Trial14_Margo011|
@@ -866,7 +866,7 @@
 # 0102Trial14_Margo012
 ; > Margo: |#0102Trial14_Margo012|
 ; それでも……データを消しておけば、<br>言いわけぐらいはできたと思うけどね？
-不过……只要你把数据删掉，<br>
+不过……只要妳把数据删掉，<br>
 总能找到借口蒙混过关吧？
 
 # 0102Trial14_AnAn039

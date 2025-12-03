@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter05/Act02_Chapter05_Trial17' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act02_Chapter05/Act02_Chapter05_Trial17' Naninovel scenario script
 
 # 0205Trial17_AnAn001
 ; > @printDebate pos:70,50 roll:4 |#0205Trial17_AnAn001|
@@ -37,7 +37,7 @@
 # 0205Trial17_AnAn006
 ; > @printDebate pos:70,50 roll:4 |#0205Trial17_AnAn006|
 ; よって貴様に協力はしない！
-因此吾辈不会协助你！
+因此吾辈不会协助妳！
 
 # 0205Trial17_AnAn007
 ; > @printDebate pos:70,50 roll:4 |#0205Trial17_AnAn007|
@@ -69,7 +69,7 @@
 # 0205Trial17_Choice001
 ; > @choice |#0205Trial17_Choice001| button:ChoiceButtons/Trial/Objection handler:TrialHiro
 ; 理解を求めている
-你寻求着理解
+妳寻求着理解
 
 # Common_Return
 ; > @choice |#Common_Return| button:ChoiceButtons/Trial/Cancel handler:TrialHiro
@@ -89,18 +89,18 @@
 # 0205Trial17_Hiro005
 ; > Hiro: |#0205Trial17_Hiro005|
 ; いいや、君は理解を求めている……。
-不，你寻求着理解……
+不，妳寻求着理解……
 
 # 0205Trial17_Hiro006
 ; > Hiro: |#0205Trial17_Hiro006|
 ; 君はお話を書くのが得意だったはずだ。
-你不是擅长写故事吗。
+妳不是擅长写故事吗。
 
 # 0205Trial17_Hiro007
 ; > Hiro: |#0205Trial17_Hiro007|
 ; それは大衆に向けたメッセージ……<br>君の興味は常に、外へと向けられている！
 那是向大众传递的讯息……<br>
-你的兴趣，是始终朝向外界的！
+妳的兴趣，是始终朝向外界的！
 
 # 0205Trial17_AnAn008
 ; > AnAn: |#0205Trial17_AnAn008|
@@ -164,7 +164,7 @@
 ; > Hiro: |#0205Trial17_Hiro015|
 ; この牢屋敷で過ごしたとしても、<br>君はすぐに音を上げてしまうだろう。
 就算在这座监牢里度日，<br>
-你也很快就会受不了吧。
+妳也很快就会受不了吧。
 
 # 0205Trial17_AnAn012
 ; > AnAn: |#0205Trial17_AnAn012|
@@ -211,18 +211,18 @@
 # 0205Trial17_Hiro020
 ; > Hiro: |#0205Trial17_Hiro020|
 ; ……いいや、それは嘘だ。
-……不，你在说谎。
+……不，妳在说谎。
 
 # 0205Trial17_Hiro021
 ; > Hiro: |#0205Trial17_Hiro021|
 ; 君は価値があるとわかっている。
-你知道那是有价值的。
+妳知道那是有价值的。
 
 # 0205Trial17_Hiro022
 ; > Hiro: |#0205Trial17_Hiro022|
 ; ……私の経験した世界で、<br>君には仲の良い友人ができていた。
 ……在我经历的世界里，<br>
-你交到了关系很好的朋友。
+妳交到了关系很好的朋友。
 
 # 0205Trial17_AnAn018
 ; > AnAn: |#0205Trial17_AnAn018|
@@ -232,13 +232,13 @@
 # 0205Trial17_Hiro023
 ; > Hiro: |#0205Trial17_Hiro023|
 ; 君は人との触れ合いを無価値と思っているわけでも、<br>コミュニケーション能力が欠如しているわけでもない――。
-你并非认为与人交往毫无价值，<br>
+妳并非认为与人交往毫无价值，<br>
 也并非缺乏沟通能力——
 
 # 0205Trial17_Hiro024
 ; > Hiro: |#0205Trial17_Hiro024|
 ; ――ただ、怖いんだ。
-——你只是，害怕而已。
+——妳只是，害怕而已。
 
 # 0205Trial17_AnAn019
 ; > AnAn: |#0205Trial17_AnAn019|
@@ -248,8 +248,8 @@
 # 0205Trial17_Hiro025
 ; > Hiro: |#0205Trial17_Hiro025|
 ; ……一度得たものを失う恐怖。<br>君はその痛みに怯えている。
-……你害怕失去一度拥有的东西。<br>
-你畏惧着那种痛苦。
+……妳害怕失去一度拥有的东西。<br>
+妳畏惧着那种痛苦。
 
 # 0205Trial17_AnAn020
 ; > AnAn: |#0205Trial17_AnAn020|
@@ -259,13 +259,13 @@
 # 0205Trial17_Hiro026
 ; > Hiro: |#0205Trial17_Hiro026|
 ; 両親との幸せな家庭。<br>それを自らの手で破壊してしまった罪悪感。
-你亲手破坏了与双亲的幸福家庭。<br>
-你对这件事怀抱着罪恶感。
+妳亲手破坏了与双亲的幸福家庭。<br>
+妳对这件事怀抱着罪恶感。
 
 # 0205Trial17_Hiro027
 ; > Hiro: |#0205Trial17_Hiro027|
 ; 君はもう一度、<br>自分の手で幸せを壊してしまうことを恐れているんだ。
-你害怕再一次，<br>
+妳害怕再一次，<br>
 亲手毁掉幸福。
 
 # 0205Trial17_AnAn021
@@ -277,7 +277,7 @@
 ; > Hiro: |#0205Trial17_Hiro028|
 ; ……違うのであれば、<br>どうして殻にこもろうとする！
 ……如果不是的话，<br>
-你为何要缩回壳里！
+妳为何要缩回壳里！
 
 # 0205Trial17_Hiro029
 ; > Hiro: |#0205Trial17_Hiro029|
@@ -289,7 +289,7 @@
 # 0205Trial17_Hiro030
 ; > Hiro: |#0205Trial17_Hiro030|
 ; それが今の君だ。<br>……違うかな。
-那就是现在的你。<br>
+那就是现在的妳。<br>
 ……我没说错吧。
 
 # 0205Trial17_AnAn022
@@ -300,18 +300,18 @@
 # 0205Trial17_Hiro031
 ; > Hiro: |#0205Trial17_Hiro031|
 ; 君がそれでいいなら、構わない。
-如果你觉得维持现状就好，那也没关系。
+如果妳觉得维持现状就好，那也没关系。
 
 # 0205Trial17_Hiro032
 ; > Hiro: |#0205Trial17_Hiro032|
 ; 君が幸福を拒絶し続ける限り、<br>ずっとそのままだ。
-只要你继续拒绝幸福，<br>
+只要妳继续拒绝幸福，<br>
 就永远不会迎来改变。
 
 # 0205Trial17_Hiro033
 ; > Hiro: |#0205Trial17_Hiro033|
 ; 永遠に不幸に包まれながら……<br>孤独の中で、独り眠り続けるといい！
-你就永远在不幸的包裹下……<br>
+妳就永远在不幸的包裹下……<br>
 在孤独当中，独自沉睡下去吧！
 
 # 0205Trial17_AnAn023
@@ -350,12 +350,12 @@
 # 0205Trial17_Hiro034
 ; > Hiro: |#0205Trial17_Hiro034|
 ; なら……私についてくるんだ。
-那么……你也随我一起来吧。
+那么……妳也随我一起来吧。
 
 # 0205Trial17_Hiro035
 ; > Hiro: |#0205Trial17_Hiro035|
 ; ナノカの姉と同じく……<br>君の魔女因子も取り除いてやる。
-我也会帮你去除魔女因子。<br>
+我也会帮妳去除魔女因子。<br>
 就和奈叶香的姐姐一样……
 
 # 0205Trial17_Hiro036
@@ -376,8 +376,8 @@
 # 0205Trial17_Alisa001
 ; > Alisa: |#0205Trial17_Alisa001|
 ; ……な、なんなんだよ……！<br>お前は……！
-……你、你到底是什么东西……！<br>
-你这家伙……！
+……妳、妳到底是什么东西……！<br>
+妳这家伙……！
 
 # 0205Trial17_Alisa002
 ; > Alisa: |#0205Trial17_Alisa002|
@@ -414,7 +414,7 @@
 # 0205Trial17_Hiro042
 ; > Hiro: |#0205Trial17_Hiro042|
 ; （やはり……そもそも説得なんて無理だったのか？）
-（果然……说到底靠说服是不可能成事的吗？）
+（果然……说到底靠说服是不可能成事的吗？）*
 
 # 0205Trial17_Hiro043
 ; > Hiro: |#0205Trial17_Hiro043|
@@ -474,7 +474,7 @@
 # 0205Trial17_Alisa006
 ; > Alisa: |#0205Trial17_Alisa006|
 ; おめーもバケモンの肩持つってのかよ！
-你也要替怪物撑腰吗！
+妳也要替怪物撑腰吗！
 
 # 0205Trial17_Miria005
 ; > Miria: |#0205Trial17_Miria005|
@@ -514,7 +514,7 @@
 # 0205Trial17_Hiro051
 ; > Hiro: |#0205Trial17_Hiro051|
 ; ……なら、君はどちらにつくのかな。
-……那么，你要站在哪一边呢？
+……那么，妳要站在哪一边呢？
 
 # 0205Trial17_Miria008
 ; > Miria: |#0205Trial17_Miria008|

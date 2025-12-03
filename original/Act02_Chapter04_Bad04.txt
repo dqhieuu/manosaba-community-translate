@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter04/Act02_Chapter04_Bad04' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act02_Chapter04/Act02_Chapter04_Bad04' Naninovel scenario script
 
 # 0204Bad04_Hiro001
 ; > Hiro: |#0204Bad04_Hiro001|
@@ -14,7 +14,7 @@
 ; > Yuki: |#0204Bad04_Yuki001|
 ; エマはね？<br>いずれ禍をもたらす魔女になるんですよ。
 艾玛她啊，<br>
-总有一天会成为带来灾祸的魔女哦。
+总有一天会成为带来灾祸的魔女喔。
 
 # 0204Bad04_Yuki002
 ; > Yuki: |#0204Bad04_Yuki002|
@@ -80,7 +80,7 @@
 
 # 0204Bad04_Narrative012
 ; ――ユキとエマと私。<br>３人で過ごした日々。
-——小雪、艾玛，还有我。<br>
+——小雪、艾玛、还有我。<br>
 三人一起度过的日子。
 
 # 0204Bad04_Narrative013
@@ -289,7 +289,7 @@
 # 0204Bad04_Hiro008
 ; > Hiro: |#0204Bad04_Hiro008|
 ; なんの話だ……？
-你在说什么……？
+妳在说什么……？
 
 # 0204Bad04_Narrative045
 ; エマの視線は定まらず、<br>あちこち忙しなく泳いでいる。
@@ -314,12 +314,12 @@
 # 0204Bad04_Ema010
 ; > Ema: |#0204Bad04_Ema010|
 ; ヒロちゃんも死んで？
-希罗你也去死吧？
+希罗妳也去死吧？
 
 # 0204Bad04_Hiro009
 ; > Hiro: |#0204Bad04_Hiro009|
 ; 何を――。
-你说什——
+妳说什——
 
 # 0204Bad04_Narrative047
 ; 糸が切れた人形のように、<br>ヒロがその場に崩れ落ちる。
@@ -342,4 +342,4 @@
 
 # 0204Bad04_Narrative051
 ; ――たくさん、殺しましょうね、エマ。
-——我们还要杀很多很多人哦，艾玛。
+——我们还要杀很多很多人喔，艾玛。

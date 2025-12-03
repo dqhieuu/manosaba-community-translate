@@ -1,11 +1,11 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter05/Act02_Chapter05_Trial28' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act02_Chapter05/Act02_Chapter05_Trial28' Naninovel scenario script
 
 # 0205Trial28_Ema001
 ; > @printDebate pos:70,50 roll:4 |#0205Trial28_Ema001|
 ; ボクは……<br>ヒロちゃんが留学するまで、<br>ずっと一緒だった……！
 我……<br>
 在希罗出国留学之前，<br>
-一直都和你在一起……！
+一直都和妳在一起……！
 
 # 0205Trial28_Hiro001
 ; > @printDebate pos:30,50 roll:-4 |#0205Trial28_Hiro001|
@@ -15,7 +15,7 @@
 # 0205Trial28_Hiro002
 ; > @printDebate pos:30,50 roll:-4 |#0205Trial28_Hiro002|
 ; 私と君は<br>しばらく疎遠になっていた。
-我和你<br>
+我和妳<br>
 曾一度疏远了。
 
 # 0205Trial28_Hiro003
@@ -70,7 +70,7 @@
 # 0205Trial28_Ema006
 ; > @printDebate pos:70,50 roll:4 |#0205Trial28_Ema006|
 ; ヒロちゃんが<br>何を言ってるのか……<br><link="Objection_02_05_28_03">わからない</link>よ……！
-希罗你<br>
+希罗妳<br>
 在说什么……<br>
 我完全<link="Objection_02_05_28_03">听不懂</link>……！
 
@@ -102,7 +102,7 @@
 # 0205Trial28_Choice003
 ; > @choice |#0205Trial28_Choice003| button:ChoiceButtons/Trial/Objection handler:TrialHiro
 ; 落ち着くんだ
-你冷静点
+妳冷静点
 
 # 0205Trial28_Hiro009
 ; > Hiro: |#0205Trial28_Hiro009|
@@ -112,7 +112,7 @@
 # 0205Trial28_Hiro010
 ; > Hiro: |#0205Trial28_Hiro010|
 ; 君は目撃したんだ。
-你也看到了。
+妳也看到了。
 
 # 0205Trial28_Ema007
 ; > Ema: |#0205Trial28_Ema007|
@@ -163,7 +163,7 @@
 # 0205Trial28_Hiro017
 ; > Hiro: |#0205Trial28_Hiro017|
 ; 君の記憶……。
-你的记忆……
+妳的记忆……
 
 # 0205Trial28_Hiro018
 ; > Hiro: |#0205Trial28_Hiro018|
@@ -183,18 +183,18 @@
 # 0205Trial28_Hiro021
 ; > Hiro: |#0205Trial28_Hiro021|
 ; 君が記憶している、過去にいじめられていた姿。
-你脑海中的，过去遭受霸凌的记忆。
+妳脑海中的，过去遭受霸凌的记忆。
 
 # 0205Trial28_Hiro022
 ; > Hiro: |#0205Trial28_Hiro022|
 ; それは君が無意識に改変した記憶であって、<br>真実ではない！
-那是你无意识中篡改的记忆，<br>
+那是妳无意识中篡改的记忆，<br>
 并不是真相！
 
 # 0205Trial28_Hiro023
 ; > Hiro: |#0205Trial28_Hiro023|
 ; 思い出せ！ そこにいた、本当の人物の名を！
-快想起来！在你真实记忆中存在的，那个人的名字！
+快想起来！在妳真实记忆中存在的，那个人的名字！
 
 # 0205Trial28_Ema010
 ; > Ema: |#0205Trial28_Ema010|
@@ -234,7 +234,7 @@
 # 0205Trial28_Hiro028
 ; > Hiro: |#0205Trial28_Hiro028|
 ; 君はいじめの被害者ではなかった――。
-你并不是霸凌的受害者——
+妳并不是霸凌的受害者——
 
 # 0205Trial28_Ema013
 ; > Ema: |#0205Trial28_Ema013|
@@ -336,8 +336,8 @@
 # 0205Trial28_Hiro032
 ; > Hiro: |#0205Trial28_Hiro032|
 ; 君を魔女にするため……<br>ずっとそばにいたんだ。
-为了让你变成魔女……<br>
-她一直待在你身边。
+为了让妳变成魔女……<br>
+她一直待在妳身边。
 
 # 0205Trial28_Ema023
 ; > Ema: |#0205Trial28_Ema023|

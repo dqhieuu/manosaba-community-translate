@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter03/Act02_Chapter03_Trial14' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act02_Chapter03/Act02_Chapter03_Trial14' Naninovel scenario script
 
 # 0203Trial14_Noah001
 ; > Noah: |#0203Trial14_Noah001|
@@ -100,7 +100,7 @@
 ; > Noah: |#0203Trial14_Noah017|
 ; ……すごいよね、アンアンちゃん。<br>これ全部１人で考えたんだよ。
 ……安安她真厉害啊。<br>
-这全都是她自己一个人想出来的哦。
+这全都是她自己一个人想出来的喔。
 
 # 0203Trial14_Noah018
 ; > Noah: |#0203Trial14_Noah018|
@@ -152,7 +152,7 @@
 ; > Noah: |#0203Trial14_Noah026|
 ; だから噴水の水で地面を洗い流したの。<br>魔法を使って。
 所以诺亚用喷泉里的水把地面冲洗了一下。<br>
-就是用魔法哦。
+就是用魔法喔。
 
 # 0203Trial14_Noah027
 ; > Noah: |#0203Trial14_Noah027|
@@ -173,7 +173,7 @@
 ; > Noah: |#0203Trial14_Noah030|
 ; のあはね、<br>アンアンちゃんを手伝っただけなんだよ？
 诺亚啊，<br>
-只是帮了安安一把哦？
+只是帮了安安一把喔？
 
 # 0203Trial14_Noah031
 ; > Noah: |#0203Trial14_Noah031|
@@ -206,10 +206,10 @@
 # 0203Trial14_Noah036
 ; > Noah: |#0203Trial14_Noah036|
 ; みんな……ごめんね？
-大家……对不起哦？
+大家……对不起喔？
 
 # 0203Trial14_Noah037
 ; > Noah: |#0203Trial14_Noah037|
 ; こんな酷くて醜い絵……<br>見せられても、困っちゃうよね……。
 这幅不堪入目的丑陋画作……<br>
-你们看到了，也只会觉得为难吧……
+妳们看到了，也只会觉得为难吧……

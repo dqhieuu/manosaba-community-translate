@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act01_Chapter04/Act01_Chapter04_Adv09' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act01_Chapter04/Act01_Chapter04_Adv09' Naninovel scenario script
 
 # 0104Adv09_Narrative001
 ; ともかく現場を調べなくては始まらない。<br>エマはまず裁判所の死体現場を調べることにした。
@@ -85,7 +85,7 @@
 # 0104Adv09_Meruru003
 ; > Meruru: |#0104Adv09_Meruru003|
 ; エマさん、これ……！
-艾玛小姐，你看……！
+艾玛小姐，妳看……！
 
 # 0104Adv09_Narrative008
 ; メルルが指さしたのは、アリサの顔に残った、<br>模様だった。<br>エマは息を<ruby="の">呑</ruby>む。
@@ -106,7 +106,7 @@
 # 0104Adv09_Narrative009
 ; アリサの姿はすでに通常の人間とは<br>かけ離れた姿になりかけているようだった。
 亚里沙的外表可以说已经面目全非，<br>
-完全不像普通人类了。
+完全不像普通人类了。*
 
 # 0104Adv09_Ema009
 ; > Ema: |#0104Adv09_Ema009|
@@ -212,7 +212,7 @@
 # 0104Adv09_Meruru006
 ; > Meruru: |#0104Adv09_Meruru006|
 ; エマさん、大丈夫ですか……？
-艾玛小姐，你还好吗……？
+艾玛小姐，妳还好吗……？
 
 # 0104Adv09_Narrative018
 ; メルルがそっと肩に手を置いたので、<br>エマは袖口で涙を強引に拭う。
@@ -227,12 +227,12 @@
 # 0104Adv09_Meruru007
 ; > Meruru: |#0104Adv09_Meruru007|
 ; わかりました……無理はしないでくださいね。
-好的……请你千万不要勉强自己。
+好的……请妳千万不要勉强自己。
 
 # 0104Adv09_Ema020
 ; > Ema: |#0104Adv09_Ema020|
 ; うん、ありがとうメルルちゃん。
-嗯，梅露露，谢谢你。
+嗯，梅露露，谢谢妳。
 
 # 0104Adv09_Narrative019
 ; エマは裁判所を後にした。

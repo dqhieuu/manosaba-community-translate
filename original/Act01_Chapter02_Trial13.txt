@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act01_Chapter02/Act01_Chapter02_Trial13' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act01_Chapter02/Act01_Chapter02_Trial13' Naninovel scenario script
 
 # 0102Trial13_Warden001
 ; > @printDebate pos:70,50 roll:4 |#0102Trial13_Warden001|
@@ -47,7 +47,7 @@
 # 0102Trial13_Warden004
 ; > @printDebate pos:70,50 roll:4 |#0102Trial13_Warden004|
 ; そんなこと<br>私に言われましても……。
-你有再大的意见，<br>
+妳有再大的意见，<br>
 我也只能给这个回答……
 
 # 0102Trial13_Sherry001
@@ -190,7 +190,7 @@ ID（识别号码），<br>
 “只有某人的手机有<br>
 <link="Objection_01_02_13_08">特殊功能</link>”……<br>
 这种情况是不存在的，请放心。<br>
-还是说你们的手机<br>
+还是说妳们的手机<br>
 <link="Objection_01_02_13_09">出问题</link>了？
 
 # 0102Trial13_Margo004
@@ -433,7 +433,7 @@ ID（识别号码），<br>
 ; > Warden: |#0102Trial13_Warden016|
 ; 看守が鍵をかけ忘れる……<br>なんてことは考えづらいですが。
 难道说看守忘记上锁了……<br>
-但很难想像它会做出这种事。
+但很难想像牠会做出这种事。
 
 # 0102Trial13_Nanoka005
 ; > Nanoka: |#0102Trial13_Nanoka005|
@@ -451,13 +451,13 @@ ID（识别号码），<br>
 # 0102Trial13_AnAn002
 ; > AnAn: |#0102Trial13_AnAn002|
 ; 裁判まで姿を消していたナノカが<br>鍵を盗むことだって出来るのではないか？
-反而是你直到开庭才出现，<br>
+反而是妳直到开庭才出现，<br>
 偷个钥匙也不是不可能吧？
 
 # 0102Trial13_Nanoka006
 ; > Nanoka: |#0102Trial13_Nanoka006|
 ; ……いいがかりね。
-……你是在挑事吗。
+……妳是在挑事吗。
 
 # 0102Trial13_Ema019
 ; > Ema: |#0102Trial13_Ema019|
@@ -610,7 +610,7 @@ ID（识别号码），<br>
 ; > Nanoka: |#0102Trial13_Nanoka009|
 ; 桜羽エマ……<br>あなたは何を言いたいの？
 樱羽艾玛……<br>
-你究竟想说什么？
+妳究竟想说什么？
 
 # 0102Trial13_Ema034
 ; > Ema: |#0102Trial13_Ema034|
@@ -638,7 +638,7 @@ ID（识别号码），<br>
 # 0102Trial13_Coco007
 ; > Coco: |#0102Trial13_Coco007|
 ; 証拠でもあんの？
-你有证据吗？
+妳有证据吗？
 
 # 0102Trial13_Ema038
 ; > Ema: |#0102Trial13_Ema038|
@@ -655,13 +655,13 @@ ID（识别号码），<br>
 ; > Warden: |#0102Trial13_Warden020|
 ; 『元気ですよ。やれやれ……<br>　何度も問題を起こされると、私の仕事が増えるので<br>　勘弁してほしいです……』
 『她好着呢。哎呀呀……<br>
-　你们不停地闹出问题，害得我的工作量都增加了，<br>
-　求你们放过我吧……』
+　妳们不停地闹出问题，害得我的工作量都增加了，<br>
+　求妳们放过我吧……』
 
 # 0102Trial13_Warden021
 ; > Warden: |#0102Trial13_Warden021|
 ; 『いずれ見せしめも必要かもしれませんね。それでは』
-『也许我得挑个日子杀鸡儆猴了。再见』
+『也许我得挑个日子杀鸡儆猴了。再见』**
 
 # 0102Trial13_Warden022
 ; > Warden: |#0102Trial13_Warden022|
@@ -677,7 +677,7 @@ ID（识别号码），<br>
 # 0102Trial13_Coco008
 ; > Coco: |#0102Trial13_Coco008|
 ; べつに書いた証拠はなくね？
-也没证据证明是它写的啊？
+也没证据证明是牠写的啊？
 
 # 0102Trial13_AnAn003
 ; > AnAn: |#0102Trial13_AnAn003|
@@ -716,7 +716,7 @@ ID（识别号码），<br>
 ; > Sherry: |#0102Trial13_Sherry003|
 ; ではその予定とはなんなんでしょう？<br>エマさんには予想がついているんですか？
 那到底是什么事情呢？<br>
-你有什么想法吗？
+妳有什么想法吗？
 
 # 0102Trial13_Ema045
 ; > Ema: |#0102Trial13_Ema045|
@@ -799,7 +799,7 @@ ID（识别号码），<br>
 ; > Alisa: |#0102Trial13_Alisa004|
 ; でもショーの案内を書いたのは<br>ゴクチョーたちじゃねえんだろ？
 但是写邀请文的<br>
-又不是典狱长它们吧？
+又不是典狱长牠们吧？
 
 # 0102Trial13_Alisa005
 ; > Alisa: |#0102Trial13_Alisa005|
@@ -948,7 +948,7 @@ ID（识别号码），<br>
 # 0102Trial13_Ema070
 ; > Ema: |#0102Trial13_Ema070|
 ; ……ナノカちゃんも気づいたみたいだね。
-……看来奈叶香你也注意到了。
+……看来奈叶香妳也注意到了。
 
 # 0102Trial13_Ema071
 ; > Ema: |#0102Trial13_Ema071|
@@ -965,7 +965,7 @@ ID（识别号码），<br>
 # 0102Trial13_Nanoka012
 ; > Nanoka: |#0102Trial13_Nanoka012|
 ; あなたたちが錠前を壊して<br>佐伯ミリアの死体を確認したとき……。
-在你们破坏完门锁<br>
+在妳们破坏完门锁<br>
 检查佐伯米莉亚的尸体时……
 
 # 0102Trial13_Nanoka013

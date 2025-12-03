@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter04/Act02_Chapter04_Adv02' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act02_Chapter04/Act02_Chapter04_Adv02' Naninovel scenario script
 
 # 0204Adv02_Narrative001
 ; 翌日も、静かに穏やかに時間が過ぎていた。
@@ -12,7 +12,7 @@
 # 0204Adv02_Leia001
 ; > Leia: |#0204Adv02_Leia001|
 ; やあ、ヒロくん。
-你好呀，希罗。
+妳好呀，希罗。
 
 # 0204Adv02_Narrative003
 ; 昨日よりレイアはずいぶん顔色が良くなっている。
@@ -55,7 +55,7 @@
 # 0204Adv02_Leia005
 ; > Leia: |#0204Adv02_Leia005|
 ; もう一度裁判制度をやめる説得がしたいんだ。
-我想再去游说一次，让它取消魔女审判制度。
+我想再去游说一次，让牠取消魔女审判制度。
 
 # 0204Adv02_Leia006
 ; > Leia: |#0204Adv02_Leia006|
@@ -73,7 +73,7 @@
 # 0204Adv02_Hiro003
 ; > Hiro: |#0204Adv02_Hiro003|
 ; 言い分は理解できるが……。
-倒是能理解你的想法……
+倒是能理解妳的想法……
 
 # 0204Adv02_Hiro004
 ; > Hiro: |#0204Adv02_Hiro004|
@@ -112,7 +112,7 @@
 ; > Leia: |#0204Adv02_Leia008|
 ; ヒロくん、<br>どうか私と一緒に来てほしい。
 希罗，<br>
-请你跟我一起去吧。
+请妳跟我一起去吧。
 
 # 0204Adv02_Narrative008
 ; 何かスイッチが入ったのか、<br>唐突にレイアは片膝をつき、<br><ruby="うやうや">恭</ruby>しく手を差し出してくる。
@@ -142,7 +142,7 @@
 # 0204Adv02_Hiro007
 ; > Hiro: |#0204Adv02_Hiro007|
 ; わかった。探しに行こう。
-好。一起去找它吧。
+好。一起去找牠吧。
 
 # 0204Adv02_Narrative011
 ; いちいちレイアにのってやる必要はない。

@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter04/Act02_Chapter04_Adv05' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act02_Chapter04/Act02_Chapter04_Adv05' Naninovel scenario script
 
 # 0204Adv05_Narrative001
 ; 私とレイアはゴクチョーの姿を求め、<br>森を抜け、湖方面へと足を運んでいた。
@@ -44,7 +44,7 @@
 # 0204Adv05_Hiro002
 ; > Hiro: |#0204Adv05_Hiro002|
 ; 服を着たまま入っていたのなら、<br>隠れる必要はないと思うが……。
-既然你是穿着衣服下水的，<br>
+既然妳是穿着衣服下水的，<br>
 我是觉得没有必要躲起来……
 
 # 0204Adv05_Miria003
@@ -56,7 +56,7 @@
 # 0204Adv05_Hiro003
 ; > Hiro: |#0204Adv05_Hiro003|
 ; おじさんではないんだろう？
-你可不是大叔吧？
+妳可不是大叔吧？
 
 # 0204Adv05_Miria004
 ; > Miria: |#0204Adv05_Miria004|

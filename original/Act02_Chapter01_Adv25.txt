@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter01/Act02_Chapter01_Adv25' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act02_Chapter01/Act02_Chapter01_Adv25' Naninovel scenario script
 
 # 0201Adv25_Narrative001
 ; 牢屋敷の<ruby="すみずみ">隅々</ruby>まで届くような、<br>深く響く鐘の音を何度も聞いた。
@@ -64,7 +64,7 @@
 ; > Warden: |#0201Adv25_Warden002|
 ; １時間の議論の後、<br>犯人と思われる人物に各自の端末で投票してもらいます。
 经过1小时的辩论之后，<br>
-我会请各位用你们的手机投票，选出你们心中认定的凶手。
+我会请各位用妳们的手机投票，选出妳们心中认定的凶手。
 
 # 0201Adv25_Warden003
 ; > Warden: |#0201Adv25_Warden003|
@@ -105,7 +105,7 @@
 # 0201Adv25_Hiro006
 ; > Hiro: |#0201Adv25_Hiro006|
 ; （私を<ruby="おとし">貶</ruby>めたこと、後悔するがいい……！！）
-（你会为陷害过我而后悔的……！！）
+（妳会为陷害过我而后悔的……！！）
 
 # 0201Adv25_Warden004
 ; > Warden: |#0201Adv25_Warden004|

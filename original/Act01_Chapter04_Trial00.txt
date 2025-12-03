@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act01_Chapter04/Act01_Chapter04_Trial00' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act01_Chapter04/Act01_Chapter04_Trial00' Naninovel scenario script
 
 # 0104Trial00_Ema001
 ; > Ema: |#0104Trial00_Ema001|
@@ -32,7 +32,7 @@
 # 0104Trial00_Meruru001
 ; > Meruru: |#0104Trial00_Meruru001|
 ; ナノカさん無しで始めて……いいんですよね……？
-你们都同意……在奈叶香小姐缺席的情况下开始审判吗……？
+妳们都同意……在奈叶香小姐缺席的情况下开始审判吗……？
 
 # 0104Trial00_Ema006
 ; > Ema: |#0104Trial00_Ema006|

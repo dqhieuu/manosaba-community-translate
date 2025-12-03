@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter05/Act02_Chapter05_Trial18' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act02_Chapter05/Act02_Chapter05_Trial18' Naninovel scenario script
 
 # 0205Trial18_Miria001
 ; > @printDebate pos:70,50 roll:4 |#0205Trial18_Miria001|
@@ -10,7 +10,7 @@
 # 0205Trial18_Alisa001
 ; > @printDebate pos:30,50 roll:-4 |#0205Trial18_Alisa001|
 ; なら、<br>おめえはバケモンの方に<br>つくってのか？
-那你<br>
+那妳<br>
 是要站怪物<br>
 那边吗？
 
@@ -30,20 +30,20 @@
 # 0205Trial18_Hiro001
 ; > @printDebate pos:30,50 roll:-4 |#0205Trial18_Hiro001|
 ; ……八方美人とも<br>言える態度だな。
-……就是说你<br>
-谁都不想得罪咯。
+……就是说妳<br>
+谁都不想得罪啰。
 
 # 0205Trial18_Hiro002
 ; > @printDebate pos:30,50 roll:-4 |#0205Trial18_Hiro002|
 ; 私は<br>君の意思を確認したい。
 我想确认<br>
-你的真实意愿。
+妳的真实意愿。
 
 # 0205Trial18_Miria004
 ; > @printDebate pos:70,50 roll:4 |#0205Trial18_Miria004|
 ; えっと……<br>そんなこと<br>言われても……。
 呃……<br>
-就算你突然<br>
+就算妳突然<br>
 这么问……
 
 # 0205Trial18_Miria005
@@ -128,7 +128,7 @@
 ; > ここの選択肢は、10-18-3追求を通過済みで表示される
 ; > @choice |#0205Trial18_Choice003| button:ChoiceButtons/Trial/Objection handler:TrialHiro
 ; 残してきたものがある
-你还有要守护的东西
+妳还有要守护的东西
 
 # 0205Trial18_Choice004
 ; > @choice |#0205Trial18_Choice004| button:ChoiceButtons/Trial/Objection handler:TrialHiro
@@ -138,7 +138,7 @@
 # 0205Trial18_Hiro007
 ; > Hiro: |#0205Trial18_Hiro007|
 ; その<ruby="こころざし">志</ruby>は……立派だ。
-你的这份胸怀……很了不起。
+妳的这份胸怀……很了不起。
 
 # 0205Trial18_Miria010
 ; > Miria: |#0205Trial18_Miria010|
@@ -154,7 +154,7 @@
 # 0205Trial18_Hiro009
 ; > Hiro: |#0205Trial18_Hiro009|
 ; ……私も、庇われた中にいたよ。
-……我也曾是那个被你庇护的人之一。
+……我也曾是那个被妳庇护的人之一。
 
 # 0205Trial18_Miria011
 ; > Miria: |#0205Trial18_Miria011|
@@ -210,7 +210,7 @@
 ; > Miria: |#0205Trial18_Miria017|
 ; おじさんもその先生みたくなりたくて、<br>真似してるだけだよ。
 大叔我也想变得像那位老师一样，<br>
-单纯是有样学样而已。
+单纯是有样学样而已。*
 
 # 0205Trial18_Hiro013
 ; > Hiro: |#0205Trial18_Hiro013|
@@ -236,13 +236,13 @@
 ; > Hiro: |#0205Trial18_Hiro015|
 ; ミリア。<br>君はさっき、私をアリサから庇おうと<br>話に割り込んできた……。
 米莉亚。<br>
-你刚才，为了袒护我<br>
+妳刚才，为了袒护我<br>
 而出言阻止亚里沙……
 
 # 0205Trial18_Hiro016
 ; > Hiro: |#0205Trial18_Hiro016|
 ; なら、本心は私と同意見なんじゃないか？
-那么，你内心的想法其实是和我一样的吧？
+那么，妳内心的想法其实是和我一样的吧？
 
 # 0205Trial18_Miria018
 ; > Miria: |#0205Trial18_Miria018|
@@ -258,12 +258,12 @@
 # 0205Trial18_Hiro018
 ; > Hiro: |#0205Trial18_Hiro018|
 ; ならどっちつかずの反応になるのも、無理はない。
-那么你模棱两可的反应，也情有可原。
+那么妳模棱两可的反应，也情有可原。
 
 # 0205Trial18_Alisa002
 ; > Alisa: |#0205Trial18_Alisa002|
 ; あぁ！？ ウチが悪いってのかよ！
-啊啊！？怪我咯！
+啊啊！？怪我啰！
 
 # 0205Trial18_Miria019
 ; > Miria: |#0205Trial18_Miria019|
@@ -292,7 +292,7 @@
 ; > Hiro: |#0205Trial18_Hiro020|
 ; （この協調を重んじる精神は<br>　いったいどこから来るのか……）
 （为何她如此在意合群呢？<br>
-　是以前遭遇过什么变故吗……）
+　是以前遭遇过什么变故吗……）*
 
 # 0205Trial18_Hiro021
 ; > Hiro: |#0205Trial18_Hiro021|
@@ -318,7 +318,7 @@
 # 0205Trial18_Hiro024
 ; > Hiro: |#0205Trial18_Hiro024|
 ; それでも君は、<br>そんな死の運命であっても受け入れるのかな？
-即便如此，你也愿意<br>
+即便如此，妳也愿意<br>
 接受死亡的命运吗？
 
 # 0205Trial18_Miria023
@@ -351,7 +351,7 @@
 ; > Hiro: |#0205Trial18_Hiro027|
 ; （この協調を重んじる精神は<br>　いったいどこから来るのか……）
 （为何她如此在意合群呢？<br>
-　是以前遭遇过什么变故吗……）
+　是以前遭遇过什么变故吗……）*
 
 # 0205Trial18_Hiro028
 ; > Hiro: |#0205Trial18_Hiro028|
@@ -361,7 +361,7 @@
 # 0205Trial18_Hiro029
 ; > Hiro: |#0205Trial18_Hiro029|
 ; 君はどうして嘘をつくんだ。
-你为什么要撒谎？
+妳为什么要撒谎？
 
 # 0205Trial18_Miria026
 ; > Miria: |#0205Trial18_Miria026|
@@ -377,7 +377,7 @@
 # 0205Trial18_Hiro031
 ; > Hiro: |#0205Trial18_Hiro031|
 ; 君は未練がないと言ったが……。
-你说没有留恋……
+妳说没有留恋……
 
 # 0205Trial18_Hiro032
 ; > Hiro: |#0205Trial18_Hiro032|
@@ -403,7 +403,7 @@
 # 0205Trial18_Hiro034
 ; > Hiro: |#0205Trial18_Hiro034|
 ; 君の行動を【先生】は喜ぶのかな。
-你觉得【老师】会为你的行为高兴吗？
+妳觉得【老师】会为妳的行为高兴吗？
 
 # 0205Trial18_Miria029
 ; > Miria: |#0205Trial18_Miria029|
@@ -413,14 +413,14 @@
 # 0205Trial18_Hiro035
 ; > Hiro: |#0205Trial18_Hiro035|
 ; 君の先生は立派な人で、<br>君の未来のために尽力してくれた……。
-你的老师是个了不起的人，<br>
-为了你的未来而尽心尽力……
+妳的老师是个了不起的人，<br>
+为了妳的未来而尽心尽力……
 
 # 0205Trial18_Hiro036
 ; > Hiro: |#0205Trial18_Hiro036|
 ; なら、先生が守りたかったのは……<br>君の将来なんじゃないかな。
 那么，老师想要守护的……<br>
-不正是你的将来吗？
+不正是妳的将来吗？
 
 # 0205Trial18_Miria030
 ; > Miria: |#0205Trial18_Miria030|
@@ -435,7 +435,7 @@
 # 0205Trial18_Hiro037
 ; > Hiro: |#0205Trial18_Hiro037|
 ; 君自身の手で、<br>先生の守りたかったものを壊していいのか？
-你要亲手毁掉，<br>
+妳要亲手毁掉，<br>
 老师想要守护的东西吗？
 
 # 0205Trial18_Miria032

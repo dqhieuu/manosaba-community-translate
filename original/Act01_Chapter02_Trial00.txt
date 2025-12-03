@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act01_Chapter02/Act01_Chapter02_Trial00' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act01_Chapter02/Act01_Chapter02_Trial00' Naninovel scenario script
 
 # 0102Trial00_Ema001
 ; > Ema: |#0102Trial00_Ema001|
@@ -15,12 +15,12 @@
 # 0102Trial00_Margo001
 ; > Margo: |#0102Trial00_Margo001|
 ; べつに無理に参加しなくてもいいんじゃないかしら？
-那你可以不用逼着自己参加呀？
+那妳可以不用逼着自己参加呀？
 
 # 0102Trial00_Margo002
 ; > Margo: |#0102Trial00_Margo002|
 ; 欠席裁判になっても<br>文句がないなら……ね？
-只要你不介意缺席审判……<br>
+只要妳不介意缺席审判……<br>
 就是了。
 
 # 0102Trial00_Hanna002
@@ -58,20 +58,20 @@
 ; > Alisa: |#0102Trial00_Alisa001|
 ; チッ……。<br>こんな狂ったこと平然と続けようなんて、<br>まともなヤツの方が少ねぇのか……。
 啧……<br>
-这么疯狂的事你们居然还想若无其事地继续下去，<br>
+这么疯狂的事妳们居然还想若无其事地继续下去，<br>
 正常人也剩得不多了……
 
 # 0102Trial00_Coco001
 ; > Coco: |#0102Trial00_Coco001|
 ; 自分だけまともアピールうっざ～。<br>メンタルよわよわで怖がってるだけなの、<br>正当化しないでくれますぅー？
-你这白莲花言论够了没～<br>
+妳这白莲花言论够了没～<br>
 明明只是承压能力差胆子小，<br>
-可以别说得那么冠冕堂皇吗～？
+可以别说得那么冠冕堂皇吗～？*
 
 # 0102Trial00_Alisa002
 ; > Alisa: |#0102Trial00_Alisa002|
 ; んだとてめぇ……。
-你说什么……
+妳说什么……
 
 # 0102Trial00_Meruru001
 ; > Meruru: |#0102Trial00_Meruru001|

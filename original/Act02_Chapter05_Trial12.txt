@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter05/Act02_Chapter05_Trial12' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act02_Chapter05/Act02_Chapter05_Trial12' Naninovel scenario script
 
 # 0205Trial12_Nanoka001
 ; > @printDebate pos:70,50 roll:4 |#0205Trial12_Nanoka001|
@@ -18,7 +18,7 @@
 # 0205Trial12_Nanoka003
 ; > @printDebate pos:70,50 roll:4 |#0205Trial12_Nanoka003|
 ; あなたの話を踏まえれば、<br>それが大魔女の力だった<br>ということがわかるわ。
-但结合你的话来看，<br>
+但结合妳的话来看，<br>
 我明白了<br>
 那就是大魔女的力量。
 
@@ -26,7 +26,7 @@
 ; > @printDebate pos:70,50 roll:4 |#0205Trial12_Nanoka004|
 ; 大魔女の力は強力で、<br>あなたでは<br>到底<link="Objection_02_05_12_01">敵わない</link>……。
 大魔女的力量很强大，<br>
-你根本<br>
+妳根本<br>
 无法<link="Objection_02_05_12_01">战胜</link>……
 
 # 0205Trial12_Nanoka005
@@ -58,7 +58,7 @@
 # 0205Trial12_Nanoka008
 ; > @printDebate pos:70,50 roll:4 |#0205Trial12_Nanoka008|
 ; 大した戦力にも<br>ならないあなたが、<br>大魔女と戦って<br>勝てるわけないでしょう。
-你根本<br>
+妳根本<br>
 没什么战斗力，<br>
 怎么可能<br>
 战胜大魔女。
@@ -78,8 +78,8 @@
 # 0205Trial12_Nanoka011
 ; > @printDebate pos:70,50 roll:4 |#0205Trial12_Nanoka011|
 ; ……あなたの<link="Objection_02_05_12_04">博打</link>に<br>私を巻き込まないで<br>ちょうだい。
-……请你不要<br>
-把我拖进你的<br>
+……请妳不要<br>
+把我拖进妳的<br>
 <link="Objection_02_05_12_04">赌局</link>之中。
 
 # 0205Trial12_Hiro002
@@ -142,7 +142,7 @@
 ; > Nanoka: |#0205Trial12_Nanoka012|
 ; この国の人間は、<br>私たちをこんなところに集めた連中よ。
 这个国家的权势，<br>
-正是把我们抓来监牢的家伙哦。
+正是把我们抓来监牢的家伙喔。
 
 # 0205Trial12_Nanoka013
 ; > Nanoka: |#0205Trial12_Nanoka013|
@@ -215,7 +215,7 @@
 # 0205Trial12_Nanoka017
 ; > Nanoka: |#0205Trial12_Nanoka017|
 ; あなたの言葉には説得力が全くないわ。
-你的主张完全没有说服力。
+妳的主张完全没有说服力。
 
 # 0205Trial12_Hiro015
 ; > Hiro: |#0205Trial12_Hiro015|
@@ -249,7 +249,7 @@
 # 0205Trial12_Hiro020
 ; > Hiro: |#0205Trial12_Hiro020|
 ; どうせ君も大魔女に挑むつもりなんだろう。
-既然你也打算跟大魔女硬碰硬——
+既然妳也打算跟大魔女硬碰硬——
 
 # 0205Trial12_Hiro021
 ; > Hiro: |#0205Trial12_Hiro021|
@@ -259,7 +259,7 @@
 # 0205Trial12_Nanoka018
 ; > Nanoka: |#0205Trial12_Nanoka018|
 ; あなたの計画には<br>具体性がないわ。
-你的计划<br>
+妳的计划<br>
 缺乏具体性。
 
 # 0205Trial12_Nanoka019
@@ -334,7 +334,7 @@
 # 0205Trial12_Hiro031
 ; > Hiro: |#0205Trial12_Hiro031|
 ; 君の姉がしたように……。
-就像你姐姐当初做的那样……
+就像妳姐姐当初做的那样……
 
 # 0205Trial12_Nanoka023
 ; > Nanoka: |#0205Trial12_Nanoka023|
@@ -345,13 +345,13 @@
 ; > Nanoka: |#0205Trial12_Nanoka024|
 ; どうして……<br>どうしてあなたたちはそうなの！？
 为什么……<br>
-为什么你们都喜欢这样！？
+为什么妳们都喜欢这样！？
 
 # 0205Trial12_Nanoka025
 ; > Nanoka: |#0205Trial12_Nanoka025|
 ; 誰が助けて欲しいなんて言ったの！？<br>私がいつ頼んだのよ！？
-谁说过要你们帮了！？<br>
-我什么时候拜托过你们了！？
+谁说过要妳们帮了！？<br>
+我什么时候拜托过妳们了！？
 
 # 0205Trial12_Nanoka026
 ; > Nanoka: |#0205Trial12_Nanoka026|
@@ -405,23 +405,23 @@
 # 0205Trial12_Hiro035
 ; > Hiro: |#0205Trial12_Hiro035|
 ; そんなことはない。
-你不必自责。
+妳不必自责。
 
 # 0205Trial12_Hiro036
 ; > Hiro: |#0205Trial12_Hiro036|
 ; 前の世界で私は……<br>君に遺言を託されたから、ここまで来れたんだ！
 在上一个世界……<br>
-多亏你向我托付了遗言，我才能来到这里！
+多亏妳向我托付了遗言，我才能来到这里！
 
 # 0205Trial12_Hiro037
 ; > Hiro: |#0205Trial12_Hiro037|
 ; 君の力のおかげだ。
-这全都靠你的力量。
+这全都靠妳的力量。
 
 # 0205Trial12_Hiro038
 ; > Hiro: |#0205Trial12_Hiro038|
 ; ……………愛しているよ、ナノカ。
-……………我爱你哦，奈叶香。
+……………我爱妳喔，奈叶香。
 
 # 0205Trial12_Nanoka029
 ; > Nanoka: |#0205Trial12_Nanoka029|
@@ -539,7 +539,7 @@
 # 0205Trial12_Hiro056
 ; > Hiro: |#0205Trial12_Hiro056|
 ; 君の説得は失敗してしまったようだ。
-看来我最终没能说服你。
+看来我最终没能说服妳。
 
 # 0205Trial12_Nanoka033
 ; > Nanoka: |#0205Trial12_Nanoka033|
@@ -554,7 +554,7 @@
 # 0205Trial12_Hiro058
 ; > Hiro: |#0205Trial12_Hiro058|
 ; 君を守るためには――。
-为了保护你——
+为了保护妳——
 
 # 0205Trial12_Hiro059
 ; > Hiro: |#0205Trial12_Hiro059|
@@ -635,13 +635,13 @@
 # 0205Trial12_Hiro067
 ; > Hiro: |#0205Trial12_Hiro067|
 ; 君を魔女化させるため……<br>わざと君のために犠牲になる者の姿を見せた。
-为了促成你的魔女化……<br>
-我是故意让你看到，有人为你牺牲的样子。
+为了促成妳的魔女化……<br>
+我是故意让妳看到，有人为妳牺牲的样子。
 
 # 0205Trial12_Nanoka039
 ; > Nanoka: |#0205Trial12_Nanoka039|
 ; ……卑怯だわ、あなた。
-……你真卑鄙。
+……妳真卑鄙。
 
 # 0205Trial12_Hiro068
 ; > Hiro: |#0205Trial12_Hiro068|
@@ -668,7 +668,7 @@
 ; > Hiro: |#0205Trial12_Hiro070|
 ; ……すまない、メルル。<br>治療を頼む。
 ……不好意思，梅露露。<br>
-拜托你帮忙治疗了。
+拜托妳帮忙治疗了。
 
 # 0205Trial12_Meruru002
 ; > Meruru: |#0205Trial12_Meruru002|
@@ -699,7 +699,7 @@
 # 0205Trial12_Meruru003
 ; > Meruru: |#0205Trial12_Meruru003|
 ; ……ヒロさん、これでどうでしょう……？
-……希罗小姐，你觉得好些了吗……？
+……希罗小姐，妳觉得好些了吗……？
 
 # 0205Trial12_Hiro075
 ; > Hiro: |#0205Trial12_Hiro075|
@@ -757,7 +757,7 @@
 # 0205Trial12_Margo001
 ; > Margo: |#0205Trial12_Margo001|
 ; ……【逃避】ね。
-……她在【逃避】哦。
+……她在【逃避】喔。
 
 # 0205Trial12_Hiro078
 ; > Hiro: |#0205Trial12_Hiro078|
@@ -805,8 +805,8 @@
 # 0205Trial12_Hiro079
 ; > Hiro: |#0205Trial12_Hiro079|
 ; ……助言かな。<br>礼を言っておこうか。
-……你是在给我建议吗。<br>
-那我还是给你道个谢好了。
+……妳是在给我建议吗。<br>
+那我还是给妳道个谢好了。
 
 # 0205Trial12_Margo008
 ; > Margo: |#0205Trial12_Margo008|
@@ -817,7 +817,7 @@
 ; > Margo: |#0205Trial12_Margo009|
 ; ただココちゃんがあなたに泣かされてる姿が<br>見てみたいだけ♡
 我只是想看看<br>
-可可被你弄哭的样子♡
+可可被妳弄哭的样子♡
 
 # 0205Trial12_Hiro080
 ; > Hiro: |#0205Trial12_Hiro080|
@@ -828,13 +828,13 @@
 ; > Margo: |#0205Trial12_Margo010|
 ; それに……<br>ヒロちゃんの計画に乗るにしろ、乗らないにしろ、<br>逃げたら【負け】しか残っていないもの。
 而且……<br>
-不管我们是否配合希罗你的计划，<br>
+不管我们是否配合希罗妳的计划，<br>
 如果逃避的话，等待我们的就只有【失败】了。
 
 # 0205Trial12_Margo011
 ; > Margo: |#0205Trial12_Margo011|
 ; ヒロちゃんはポーカーを知ってるかしら？
-希罗你知道扑克牌吗？
+希罗妳知道扑克牌吗？
 
 # 0205Trial12_Hiro081
 ; > Hiro: |#0205Trial12_Hiro081|
@@ -844,7 +844,7 @@
 # 0205Trial12_Margo012
 ; > Margo: |#0205Trial12_Margo012|
 ; なら、わかってくれると思うけれど。
-那么，我想你应该明白。
+那么，我想妳应该明白。
 
 # 0205Trial12_Margo013
 ; > Margo: |#0205Trial12_Margo013|
@@ -868,7 +868,7 @@
 # 0205Trial12_Hiro083
 ; > Hiro: |#0205Trial12_Hiro083|
 ; 後悔はさせない。
-我保证不会让你后悔。
+我保证不会让妳后悔。
 
 # 0205Trial12_Margo015
 ; > Margo: |#0205Trial12_Margo015|
@@ -878,11 +878,11 @@
 # 0205Trial12_Coco008
 ; > Coco: |#0205Trial12_Coco008|
 ; なにバケモン同士、<br>２人してごちゃごちゃ言ってんのさ！
-你们两个怪物，<br>
+妳们两个怪物，<br>
 凑在一起叽里咕噜讲什么呢！
 
 # 0205Trial12_Coco009
 ; > Coco: |#0205Trial12_Coco009|
 ; とにかくあてぃしはあんたらなんかの話……<br>絶対聞かないからっ！！
 总之……我绝对不会听<br>
-你们这种家伙的话！！
+妳们这种家伙的话！！

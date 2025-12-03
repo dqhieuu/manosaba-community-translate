@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Locales' managed text document
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Locales' managed text document
 
 ; English
 en-US: 

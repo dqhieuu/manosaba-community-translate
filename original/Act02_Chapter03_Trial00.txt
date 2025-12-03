@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter03/Act02_Chapter03_Trial00' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act02_Chapter03/Act02_Chapter03_Trial00' Naninovel scenario script
 
 # 0203Trial00_Hiro001
 ; > Hiro: |#0203Trial00_Hiro001|
@@ -40,7 +40,7 @@
 # 0203Trial00_Alisa001
 ; > Alisa: |#0203Trial00_Alisa001|
 ; ……おめえはいつも変わんねぇな。
-……你这家伙还是跟平常一个样啊。
+……妳这家伙还是跟平常一个样啊。
 
 # 0203Trial00_Sherry002
 ; > Sherry: |#0203Trial00_Sherry002|
@@ -112,7 +112,7 @@
 # 0203Trial00_Alisa005
 ; > Alisa: |#0203Trial00_Alisa005|
 ; どんな感情だそりゃ……。
-你这是什么心态啊……
+妳这是什么心态啊……**
 
 # 0203Trial00_Leia002
 ; > Leia: |#0203Trial00_Leia002|
@@ -156,7 +156,7 @@
 ; > Sherry: |#0203Trial00_Sherry007|
 ; それじゃあ<br>お願いしますっ！
 那就<br>
-麻烦你了！
+麻烦妳了！
 
 # 0203Trial00_Leia007
 ; > Leia: |#0203Trial00_Leia007|

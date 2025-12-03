@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Common/CommonBad05' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Common/CommonBad05' Naninovel scenario script
 
 # CommonBad05_Warden001
 ; > Warden: |#CommonBad05_Warden001|
@@ -43,7 +43,7 @@
 ; > Warden: |#CommonBad05_Warden002|
 ; えー、というわけで……<br>得票数のもっとも多い、紫藤アリサの処刑が決定！
 呃，根据结果……<br>
-决定对得票最多的紫藤亚里沙实施刑罚咯！
+决定对得票最多的紫藤亚里沙实施刑罚啰！
 
 # CommonBad05_Alisa002
 ; > Alisa: |#CommonBad05_Alisa002|
@@ -60,7 +60,7 @@
 ; > Coco: |#CommonBad05_Coco002|
 ; なんでも何も妥当でしょ。<br>放火とか状況的にも犯人に決まってるじゃん。
 还用问为什么，这不是很合理吗。<br>
-从放火等等现场情况来看，明显你就是凶手啊。
+从放火等等现场情况来看，明显妳就是凶手啊。
 
 # CommonBad05_Alisa003
 ; > Alisa: |#CommonBad05_Alisa003|
@@ -73,7 +73,7 @@
 ; 動機とか知らんって。<br>魔女の殺人衝動ってやつなんじゃねーの。<br>普段から『ぶっ殺す』とかイキってたし。
 我管你什么动机。<br>
 不是魔女会有杀人冲动吗。<br>
-毕竟你平时就在那里喊打喊杀的，狠得要命。
+毕竟妳平时就在那里喊打喊杀的，狠得要命。
 
 # CommonBad05_Alisa004
 ; > Alisa: |#CommonBad05_Alisa004|
@@ -83,9 +83,9 @@
 # CommonBad05_Coco004
 ; > Coco: |#CommonBad05_Coco004|
 ; 諦めろって！ みんなが怪しいと思って、<br>おめぇに票入れてんだよ！<br>だから選ばれてんだろーが！！
-放弃吧！大家就是觉得你可疑，<br>
-才投票给你的啊！<br>
-所以你才会高票通过啊！！
+放弃吧！大家就是觉得妳可疑，<br>
+才投票给妳的啊！<br>
+所以妳才会高票通过啊！！
 
 # CommonBad05_Narrative007
 ; アリサが他の少女たちに目を向ける。<br>怒りと絶望に<ruby="ゆが">歪</ruby>んだ瞳が、<br>やがて諦観したように伏せられた。
@@ -103,13 +103,13 @@
 ; > Alisa: |#CommonBad05_Alisa006|
 ; はっ……遅いか早いかだけだしな。<br>おめえら全員、どうせ同じように死ぬんだし。
 哈……反正是迟早的事。<br>
-反正你们所有人，都一样会死。
+反正妳们所有人，都一样会死。
 
 # CommonBad05_Warden003
 ; > Warden: |#CommonBad05_Warden003|
 ; あのー、なんか納得もされたみたいですし、<br>とりあえず進行してもいいですかね？<br>まあ、納得されなくても進めるんですけど……。
 呃，感觉当事人好像也没异议了，<br>
-那我就继续咯？<br>
+那我就继续啰？<br>
 不过，就算有意见也会继续啦……
 
 # CommonBad05_Alisa007
@@ -165,8 +165,8 @@
 # CommonBad05_Alisa009
 ; > Alisa: |#CommonBad05_Alisa009|
 ; うるせえな……もうウチに構うなよ。<br>どうせお前も、ウチに投票したんだろ。
-你好烦……不要再管我了。<br>
-反正你也投票给我了吧。
+妳好烦……不要再管我了。<br>
+反正妳也投票给我了吧。
 
 # CommonBad05_Ema003
 ; > Ema: |#CommonBad05_Ema003|
@@ -181,7 +181,7 @@
 ; > Alisa: |#CommonBad05_Alisa010|
 ; ……もういいって。ウチだけじゃない。<br>どうせおめえら全員、助からねえんだよ。
 ……算了吧。反正不止是我，<br>
-你们所有人都没救了。
+妳们所有人都没救了。
 
 # CommonBad05_Narrative012
 ; 投げやりな口調で、<br>アリサは自ら装置の方へと歩いていく。
@@ -210,7 +210,7 @@
 # CommonBad05_Alisa012
 ; > Alisa: |#CommonBad05_Alisa012|
 ; ウチも、おめえらも、どうせこのまま全員、<br>魔女になって果てるだけ……。
-不管是我，还是你们，反正所有人，<br>
+不管是我，还是妳们，反正所有人，<br>
 接下来只会变成魔女，纯粹等死……
 
 # CommonBad05_Alisa013
@@ -235,13 +235,13 @@
 # CommonBad05_Warden006
 ; > Warden: |#CommonBad05_Warden006|
 ; はいはい、言われなくても……<br>では、お願いします～。
-好啦好啦，不用你说……<br>
+好啦好啦，不用妳说……<br>
 那么，拜托你了～
 
 # CommonBad05_Narrative016
 ; ゴクチョーの合図と共に、看守が位置につく。<br>装置を起動するためであろうレバーに手をかけた。
 随着典狱长一声令下，看守也已就位。<br>
-它将手放在似乎是用去启动装置的拉杆上。
+牠将手放在似乎是用去启动装置的拉杆上。
 
 # CommonBad05_Narrative017
 ; 諦観しきった様子のアリサだったが、<br>迫りくる死への恐怖は抑えられないらしい。

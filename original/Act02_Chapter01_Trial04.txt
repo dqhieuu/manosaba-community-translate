@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter01/Act02_Chapter01_Trial04' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act02_Chapter01/Act02_Chapter01_Trial04' Naninovel scenario script
 
 # 0201Trial04_Miria001
 ; > @printDebate pos:70,50 roll:4 |#0201Trial04_Miria001|
@@ -24,7 +24,7 @@
 ; 良い指示を与えた<br>まとめ役がいたと<br>いうことだね！
 说明当时<br>
 有靠谱的领队<br>
-作出了有效的指示！
+作出了有效的指示！*
 
 # 0201Trial04_Leia002
 ; > @printDebate pos:30,50 roll:-4 |#0201Trial04_Leia002|
@@ -59,7 +59,7 @@
 ; そう……<br>よってヒロくんこそが<br>この事件の<br>犯人だったと<br>いうことさ！
 没错……<br>
 所以，<br>
-希罗你<br>
+希罗妳<br>
 就是这起案件的<br>
 凶手！
 
@@ -150,7 +150,7 @@
 # 0201Trial04_Leia006
 ; > Leia: |#0201Trial04_Leia006|
 ; キミ以外が犯人だとは考えられないんだよ。<br>……今のところはね。
-除了你之外，很难想像还有谁会是凶手。<br>
+除了妳之外，很难想像还有谁会是凶手。<br>
 ……至少目前是这样。
 
 # 0201Trial04_Hiro006
@@ -292,7 +292,7 @@
 # 0201Trial04_Hiro021
 ; > Hiro: |#0201Trial04_Hiro021|
 ; どうやら、気付いたようだね。
-看来你已经意识到了。
+看来妳已经意识到了。
 
 # 0201Trial04_Hiro022
 ; > Hiro: |#0201Trial04_Hiro022|
@@ -308,7 +308,7 @@
 # 0201Trial04_Hanna001
 ; > Hanna: |#0201Trial04_Hanna001|
 ; わ……わたくしですのー！？
-你……你说我吗！？
+妳……妳说我吗！？
 
 # 0201Trial04_Sherry003
 ; > Sherry: |#0201Trial04_Sherry003|
@@ -320,12 +320,12 @@
 ; > Hanna: |#0201Trial04_Hanna002|
 ; ……ちょちょちょ、ちょっと待ちやがりなさい！？<br>あなたまで、何を言ってるんですの！？
 ……等、等、等、等一下！？<br>
-怎么连你也在乱说！？
+怎么连妳也在乱说！？
 
 # 0201Trial04_Hiro024
 ; > Hiro: |#0201Trial04_Hiro024|
 ; 反論があるなら、聞こうか。
-如果你有异议的话，不妨说来听听。
+如果妳有异议的话，不妨说来听听。
 
 # 0201Trial04_Hanna003
 ; > Hanna: |#0201Trial04_Hanna003|
@@ -336,8 +336,8 @@
 # 0201Trial04_Hanna004
 ; > Hanna: |#0201Trial04_Hanna004|
 ; わたくしには、完っ璧なアリバイがあるんですわ！<br>それを今から教えてやりますわー！
-本小姐可是有完美的不在场证明哦！<br>
-现在就来告诉你们！
+本小姐可是有完美的不在场证明喔！<br>
+现在就来告诉妳们！
 
 # 0201Trial04_Hiro025
 ; > Hiro: |#0201Trial04_Hiro025|

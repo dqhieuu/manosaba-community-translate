@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act01_Chapter02/Act01_Chapter02_Trial06' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act01_Chapter02/Act01_Chapter02_Trial06' Naninovel scenario script
 
 # 0102Trial06_Sherry001
 ; > @printDebate pos:70,50 roll:4 |#0102Trial06_Sherry001|
@@ -7,7 +7,7 @@
 弄错了声音的主人……<br>
 也就是说，<br>
 凶手是宝生玛格！<br>
-就是你！
+就是妳！
 
 # 0102Trial06_Margo001
 ; > @printDebate pos:30,50 roll:-4 |#0102Trial06_Margo001|
@@ -20,7 +20,7 @@
 # 0102Trial06_Sherry002
 ; > @printDebate pos:70,50 roll:4 |#0102Trial06_Sherry002|
 ; あなたは<br>佐伯ミリアさんを殺した後、<br>そのまま部屋に<br>残っていたんです。
-你杀死<br>
+妳杀死<br>
 佐伯米莉亚以后<br>
 没有离开房间。<br>
 
@@ -29,7 +29,7 @@
 ; > @printDebate pos:70,50 roll:4 |#0102Trial06_Sherry003|
 ; しかしまずいことに、<br>犯行直後に<br>ハンナさんとアンアンさんが<br>懲罰房に<br>やってきてしまった……。
 然而不凑巧的是，<br>
-就在你刚杀完人后，<br>
+就在妳刚杀完人后，<br>
 汉娜和安安<br>
 来了惩罚室……<br>
 
@@ -37,9 +37,9 @@
 # 0102Trial06_Sherry004
 ; > @printDebate pos:70,50 roll:4 |#0102Trial06_Sherry004|
 ; 慌てたあなたは、<br>【魔法】を使ったんです！<br>あなたの魔法は――。
-陷入恐慌的你<br>
+陷入恐慌的妳<br>
 便使用了【魔法】！<br>
-而你的魔法就是——
+而妳的魔法就是——
 
 # 0102Trial06_Margo002
 ; > @printDebate pos:30,50 roll:-4 |#0102Trial06_Margo002|
@@ -53,7 +53,7 @@
 # 0102Trial06_Margo003
 ; > @printDebate pos:30,50 roll:-4 |#0102Trial06_Margo003|
 ; それでおじさんの声を<br>真似したってわけだね！<br>『きゃああああ！』<br>……ってさ！
-你想说我用这魔法<br>
+妳想说我用这魔法<br>
 模仿了大叔的声音对吗！<br>
 “呀啊啊啊啊！”<br>
 ……就像这样！
@@ -61,7 +61,7 @@
 # 0102Trial06_Alisa001
 ; > @printDebate pos:70,50 roll:4 |#0102Trial06_Alisa001|
 ; こいつ……！<br>死んだヤツ相手だからって<br>好き勝手しやがって……！
-你这家伙……！<br>
+妳这家伙……！<br>
 就算是死人<br>
 也不能这样践踏啊……！
 
@@ -132,7 +132,7 @@
 ; > @printDebate pos:30,50 roll:-4 |#0102Trial06_Margo008|
 ; ふふ、<br>面白い発想ね。
 呵呵呵，<br>
-你的想法很有趣。
+妳的想法很有趣。
 
 # 0102Trial06_Margo009
 ; > @printDebate pos:30,50 roll:-4 |#0102Trial06_Margo009|
@@ -235,12 +235,12 @@
 # 0102Trial06_Coco001
 ; > Coco: |#0102Trial06_Coco001|
 ; 確信ないまま発言するなし！！
-不准作出模棱两可的发言！！
+不准做出模棱两可的发言！！
 
 # 0102Trial06_Alisa002
 ; > Alisa: |#0102Trial06_Alisa002|
 ; 最初の勢いどーしたんだよ！！
-你刚开始的气势去哪了！！
+妳刚开始的气势去哪了！！
 
 # 0102Trial06_Ema008
 ; > Ema: |#0102Trial06_Ema008|
@@ -316,7 +316,7 @@
 # 0102Trial06_Margo012
 ; > Margo: |#0102Trial06_Margo012|
 ; あらあら、ノッてきてくれて嬉しいわ♡<br>でもそれはちょっと難しいかもしれないわね。
-哎呀呀，谢谢你愿意接着我的话往下说♡<br>
+哎呀呀，谢谢妳愿意接着我的话往下说♡<br>
 不过这恐怕有点难哦。
 
 # 0102Trial06_Alisa003
@@ -327,7 +327,7 @@
 # 0102Trial06_Margo013
 ; > Margo: |#0102Trial06_Margo013|
 ; だってあなたたちがミリアちゃんの死体を見つけた後、<br>みんなすぐにラウンジに集合させられたでしょう？
-因为你们在发现米莉亚的尸体以后<br>
+因为妳们在发现米莉亚的尸体以后<br>
 就把大家都召集到会客厅里了对吧？
 
 # 0102Trial06_Margo014
@@ -344,7 +344,7 @@
 # 0102Trial06_Sherry011
 ; > Sherry: |#0102Trial06_Sherry011|
 ; 仮にずっとその場にいたなら、<br>ミリアさんを殺した後の返り血なんかが<br>ついてないとおかしいはずです！
-如果你一直在那里的话，<br>
+如果妳一直在那里的话，<br>
 身上不应该没有沾到<br>
 杀害米莉亚时溅到的血！
 
@@ -362,7 +362,7 @@
 # 0102Trial06_Margo016
 ; > Margo: |#0102Trial06_Margo016|
 ; ふふ、ありがと♡
-呵呵，谢谢你♡
+呵呵，谢谢妳♡
 
 # 0102Trial06_Ema018
 ; > Ema: |#0102Trial06_Ema018|
@@ -428,7 +428,7 @@
 # 0102Trial06_Ema026
 ; > Ema: |#0102Trial06_Ema026|
 ; ……わかるかな、シェリーちゃん。
-……你知道吗，雪莉？
+……妳知道吗，雪莉？
 
 # 0102Trial06_Sherry012
 ; > Sherry: |#0102Trial06_Sherry012|
@@ -536,13 +536,13 @@
 ; 録音データがどうかしました？<br>ミリアさんの声は確かに<br>録音されているようですが……。
 录音文件又怎么了？<br>
 米莉亚的声音<br>
-确实被录进去了啊……
+确实被录进去了啊……*繁繁
 
 # 0102Trial06_Ema039
 ; > Ema: |#0102Trial06_Ema039|
 ; じゃあ、そこに録音されている<br>ミリアちゃんの声も同じく……。
 那么，假如这个录音文件里<br>
-录到的声音……
+录到的声音……*繁繁
 
 # 0102Trial06_Ema040
 ; > Ema: |#0102Trial06_Ema040|
@@ -608,7 +608,7 @@
 ; > Ema: |#0102Trial06_Ema043|
 ; 犯人は、ミリアちゃんの死んだ時刻を誤認させる為に<br>わざと悲鳴を聞かせたのかも……！
 凶手可能是为了让大家弄错米莉亚的死亡时间，<br>
-故意让你们听到惨叫……！
+故意让妳们听到惨叫……！
 
 # 0102Trial06_Nanoka001
 ; > Nanoka: |#0102Trial06_Nanoka001|
@@ -667,7 +667,7 @@
 # 0102Trial06_Nanoka004
 ; > Nanoka: |#0102Trial06_Nanoka004|
 ; ……たしかに、頭ごなしに否定はできない意見ね。<br>実際、私の位置から声は聞こえなかったわ。
-……确实，你的观点值得探讨。<br>
+……确实，妳的观点值得探讨。<br>
 其实，我在所处的位置就没听见声音。
 
 # 0102Trial06_Sherry028

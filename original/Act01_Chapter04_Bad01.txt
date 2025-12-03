@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act01_Chapter04/Act01_Chapter04_Bad01' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act01_Chapter04/Act01_Chapter04_Bad01' Naninovel scenario script
 
 # 0104Bad01_Ema001
 ; > Ema: |#0104Bad01_Ema001|
@@ -14,7 +14,7 @@
 # 0104Bad01_Alisa001
 ; > Alisa: |#0104Bad01_Alisa001|
 ; 抵抗しないのは、自分が死なないってわかってるからか？<br>なぁ、そうなんだろ！？
-你没有反抗，是因为明白自己不会死吗？<br>
+妳没有反抗，是因为明白自己不会死吗？<br>
 快说，是不是这样！？
 
 # 0104Bad01_Ema002
@@ -40,7 +40,7 @@
 # 0104Bad01_Alisa002
 ; > Alisa: |#0104Bad01_Alisa002|
 ; お前……なんで、笑ってるんだ。
-你……为什么在笑。
+妳……为什么在笑。
 
 # 0104Bad01_Narrative004
 ; わずかに<ruby="おび">怯</ruby>えた様子を見せるアリサの手に、<br>そっとエマが触れる。
@@ -62,12 +62,12 @@
 ; > Ema: |#0104Bad01_Ema005|
 ; ぼ、く……が、選、んだ……<br>あり……が、と……。
 是我……自己、做的、选择……<br>
-谢……谢、你……
+谢……谢、妳……
 
 # 0104Bad01_Alisa004
 ; > Alisa: |#0104Bad01_Alisa004|
 ; なん、だよ……それ。
-你这……什么意思。
+妳这……什么意思。
 
 # 0104Bad01_Alisa005
 ; > Alisa: |#0104Bad01_Alisa005|

@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act01_Chapter02/Act01_Chapter02_Adv21' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act01_Chapter02/Act01_Chapter02_Adv21' Naninovel scenario script
 
 # 0102Adv21_Narrative001
 ; エマがラウンジに戻ってみると、<br>ココがそのまま残っていたようだ。
@@ -33,8 +33,8 @@
 # 0102Adv21_Coco001
 ; > Coco: |#0102Adv21_Coco001|
 ; ああ、なんだエマっちか。<br>捜査してんの？ そんなんやって意味ある？
-啊，原来是你啊艾玛亲。<br>
-你在搜查？查来查去有什么意义吗？
+啊，原来是妳啊艾玛亲。<br>
+妳在搜查？查来查去有什么意义吗？
 
 # 0102Adv21_Ema003
 ; > Ema: |#0102Adv21_Ema003|
@@ -81,7 +81,7 @@
 # 0102Adv21_Coco004
 ; > Coco: |#0102Adv21_Coco004|
 ; そうだ、これあげる。
-对了，这个给你。
+对了，这个给妳。
 
 # 0102Adv21_Narrative008
 ; 不意にココが、くしゃくしゃに丸めた紙を差し出してきた。
@@ -135,7 +135,7 @@
 # 0102Adv21_Ema010
 ; > Ema: |#0102Adv21_Ema010|
 ; ねえココちゃん、これを見つけた時の状況って……。
-可可，你当时发现这张纸的时候……
+可可，妳当时发现这张纸的时候……
 
 # 0102Adv21_Coco007
 ; > Coco: |#0102Adv21_Coco007|

@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act01_Chapter02/Act01_Chapter02_Adv20' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act01_Chapter02/Act01_Chapter02_Adv20' Naninovel scenario script
 
 # 0102Adv20_Narrative001
 ; エマが懲罰房の並ぶ通路の方へ行ってみると、<br>シェリーとメルルに遭遇した。
@@ -9,7 +9,7 @@
 ; > Sherry: |#0102Adv20_Sherry001|
 ; あっ、エマさん！<br>やっぱりここを調べに来ますよねえ。<br>捜査の基本ですしね！
 啊，艾玛！<br>
-我就知道你会来这里。<br>
+我就知道妳会来这里。<br>
 毕竟来这里调查可是搜查的基础！
 
 # 0102Adv20_Ema001
@@ -28,7 +28,7 @@
 ; > Ema: |#0102Adv20_Ema003|
 ; シェリーちゃん、メルルちゃんは<br>何か見つけられた？
 雪莉，梅露露，<br>
-你们发现什么了吗？
+妳们发现什么了吗？
 
 # 0102Adv20_Meruru001
 ; > Meruru: |#0102Adv20_Meruru001|
@@ -83,7 +83,7 @@
 # 0102Adv20_Ema008
 ; > Ema: |#0102Adv20_Ema008|
 ; ああ、えっと……密室殺人？
-啊，你是说……密室杀人？
+啊，妳是说……密室杀人？
 
 # 0102Adv20_Sherry005
 ; > Sherry: |#0102Adv20_Sherry005|
@@ -226,7 +226,7 @@
 # 0102Adv20_Sherry011
 ; > Sherry: |#0102Adv20_Sherry011|
 ; 衝動的な殺人だったのですかね……。
-你是说出于冲动杀人吗……
+妳是说出于冲动杀人吗……
 
 # 0102Adv20_Meruru005
 ; > Meruru: |#0102Adv20_Meruru005|
@@ -286,7 +286,7 @@
 # 0102Adv20_Sherry012
 ; > Sherry: |#0102Adv20_Sherry012|
 ; 何か見つけたのでしょうか！？
-你发现了什么吗！？
+妳发现了什么吗！？
 
 # 0102Adv20_Meruru009
 ; > Meruru: |#0102Adv20_Meruru009|
@@ -324,7 +324,7 @@
 # 0102Adv20_Ema021
 ; > Ema: |#0102Adv20_Ema021|
 ; うん……ありがとうメルルちゃん……<br>ボクは他のところを調べてくるね。
-嗯……谢谢你梅露露……<br>
+嗯……谢谢妳梅露露……<br>
 那我去调查一下其他地方。
 
 # 0102Adv20_Narrative015

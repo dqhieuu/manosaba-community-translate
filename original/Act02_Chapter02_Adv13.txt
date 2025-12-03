@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter02/Act02_Chapter02_Adv13' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act02_Chapter02/Act02_Chapter02_Adv13' Naninovel scenario script
 
 # 0202Adv13_Narrative001
 ; 昼食後の自由時間。<br>約束の１４時少し前。
@@ -32,7 +32,7 @@
 # 0202Adv13_Hiro003
 ; > Hiro: |#0202Adv13_Hiro003|
 ; ノア、ここで何を……いや。
-诺亚，你在这里做什……没什么。
+诺亚，妳在这里做什……没什么。
 
 # 0202Adv13_Narrative004
 ; 言いかけてすぐ気付く。
@@ -46,7 +46,7 @@
 # 0202Adv13_Noah002
 ; > Noah: |#0202Adv13_Noah002|
 ; な、なな、なんのことかな？
-你、你你、你在说什么呢？
+妳、妳妳、妳在说什么呢？
 
 # 0202Adv13_Noah003
 ; > Noah: |#0202Adv13_Noah003|

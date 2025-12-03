@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter04/Act02_Chapter04_Trial09' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act02_Chapter04/Act02_Chapter04_Trial09' Naninovel scenario script
 
 # 0204Trial09_Hanna001
 ; > @printDebate pos:70,50 roll:4 |#0204Trial09_Hanna001|
@@ -43,7 +43,7 @@
 ; > @printDebate pos:30,50 roll:-4 |#0204Trial09_Sherry003|
 ; 上にいたときにそんな様子、<br>なかったですけどね～。
 在上层的时候，<br>
-可没有看到她做那样的动作哦～
+可没有看到她做那样的动作喔～
 
 # 0204Trial09_Hiro001
 ; > @printDebate pos:70,50 roll:4 |#0204Trial09_Hiro001|
@@ -216,7 +216,7 @@
 # 0204Trial09_Hiro009
 ; > Hiro: |#0204Trial09_Hiro009|
 ; 君はあの時、<br>一番にエレベーターへ乗り――。
-那时，你<br>
+那时，妳<br>
 第一个乘上电梯——
 
 # 0204Trial09_Hiro010
@@ -297,7 +297,7 @@
 # 0204Trial09_Hiro021
 ; > Hiro: |#0204Trial09_Hiro021|
 ; 本当は……力まずとも魔法が使えたんじゃないか？
-其实……你不用力也能使用魔法吧？
+其实……妳不用力也能使用魔法吧？
 
 # 0204Trial09_Hanna012
 ; > Hanna: |#0204Trial09_Hanna012|
@@ -352,7 +352,7 @@
 # 0204Trial09_Hiro027
 ; > Hiro: |#0204Trial09_Hiro027|
 ; べつに君が取りに行く必要はなかったんだ。
-你没有必要去拿礼服。
+妳没有必要去拿礼服。
 
 # 0204Trial09_Hanna014
 ; > Hanna: |#0204Trial09_Hanna014|
@@ -407,7 +407,7 @@
 # 0204Trial09_Hiro031
 ; > Hiro: |#0204Trial09_Hiro031|
 ; かかっていたシーツか何かを<br>ドレスと見間違えたんだ。
-你把挂着的床单之类的东西<br>
+妳把挂着的床单之类的东西<br>
 错看成了礼服。
 
 # 0204Trial09_Alisa004
@@ -457,7 +457,7 @@
 ; > Alisa: |#0204Trial09_Alisa006|
 ; ドレス見て……そういやおめえら、<br>ずいぶん長い時間出かけてんなと思ってさ。
 看到礼服，我当时在想……说起来，<br>
-你们几个出门的时间也太长了。
+妳们几个出门的时间也太长了。
 
 # 0204Trial09_Alisa007
 ; > Alisa: |#0204Trial09_Alisa007|
@@ -526,7 +526,7 @@
 # 0204Trial09_Hiro047
 ; > Hiro: |#0204Trial09_Hiro047|
 ; ハンナ、君が２人を――。
-汉娜，你将她们两人——
+汉娜，妳将她们两人——
 
 # 0204Trial09_Sherry009
 ; > Sherry: |#0204Trial09_Sherry009|
@@ -554,7 +554,7 @@
 ; > Hanna: |#0204Trial09_Hanna018|
 ; 仮にわたくしが犯人だとしても<br>証拠はありません……！
 就算我是凶手，<br>
-你也没有证据……！
+妳也没有证据……！
 
 # 0204Trial09_Hanna019
 ; > Hanna: |#0204Trial09_Hanna019|
@@ -571,21 +571,21 @@
 # 0204Trial09_Hanna021
 ; > Hanna: |#0204Trial09_Hanna021|
 ; それでも犯人だと言うのなら、<br>やっぱりヒロさんが犯人なんだわ！
-即使如此你还要坚持说我是凶手，<br>
-那果然凶手就是希罗你！
+即使如此妳还要坚持说我是凶手，<br>
+那果然凶手就是希罗妳！
 
 # 0204Trial09_Hanna022
 ; > Hanna: |#0204Trial09_Hanna022|
 ; あなたが……<br>わたくしを犯人にしようとしているのっ！
-是你……<br>
+是妳……<br>
 想把罪名推到我头上！
 
 # 0204Trial09_Hanna023
 ; > Hanna: |#0204Trial09_Hanna023|
 ; あなたが……悪いの……！
-全是……你的错……！
+全是……妳的错……！
 
 # 0204Trial09_Hanna024
 ; > Hanna: |#0204Trial09_Hanna024|
 ; あなたさえ――いなければっ！
-只要——没有你这个人就好了！
+只要——没有妳这个人就好了！

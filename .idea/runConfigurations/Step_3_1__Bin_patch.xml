@@ -15,7 +15,7 @@
     <option name="ADD_SOURCE_ROOTS" value="true" />
     <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
     <option name="SCRIPT_NAME" value="$PROJECT_DIR$/translate_tool.py" />
-    <option name="PARAMETERS" value="binpatch F:\manosaba_game\manosaba_Data\resources.assets" />
+    <option name="PARAMETERS" value="binpatch &quot;C:\Program Files (x86)\Steam\steamapps\common\manosaba_game\manosaba_Data\resources.assets&quot;" />
     <option name="SHOW_COMMAND_LINE" value="false" />
     <option name="EMULATE_TERMINAL" value="false" />
     <option name="MODULE_MODE" value="false" />

@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter03/Act02_Chapter03_Adv10' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act02_Chapter03/Act02_Chapter03_Adv10' Naninovel scenario script
 
 # 0203Adv10_Narrative001
 ; 夕食後の自由時間。
@@ -39,7 +39,7 @@
 # 0203Adv10_Ema001
 ; > Ema: |#0203Adv10_Ema001|
 ; お、落ち着いてよ、アンアンちゃん！
-你、你先冷静下来，安安！
+妳、妳先冷静下来，安安！
 
 # 0203Adv10_AnAn001
 ; > AnAn: |#0203Adv10_AnAn001|
@@ -80,7 +80,7 @@
 ; > Ema: |#0203Adv10_Ema003|
 ; や、やめてよアンアンちゃん！<br>なんでこんなことするの……！？
 住、住手，安安！<br>
-你为什么要这样做……！？
+妳为什么要这样做……！？
 
 # 0203Adv10_AnAn002
 ; > AnAn: |#0203Adv10_AnAn002|
@@ -120,7 +120,7 @@
 # 0203Adv10_Hiro004
 ; > Hiro: |#0203Adv10_Hiro004|
 ; 何をしている！？
-你们在做什么！？
+妳们在做什么！？
 
 # 0203Adv10_Narrative015
 ; <ruby="とっさ">咄嗟</ruby>に割って入ると、<br>アンアンが舌打ちし、ぱっとエマから離れた。
@@ -249,7 +249,7 @@
 # 0203Adv10_Ema006
 ; > Ema: |#0203Adv10_Ema006|
 ; アンアンちゃん、大丈夫……！？
-安安，你没事……！？
+安安，妳没事……！？
 
 # 0203Adv10_Narrative033
 ; エマもベランダの方へと出てきて、<br>私たちは手すりから下を<ruby="のぞ">覗</ruby>き込む。
@@ -462,7 +462,7 @@
 # 0203Adv10_Ema012
 ; > Ema: |#0203Adv10_Ema012|
 ; お願いだから、生きて……！！
-求求你，要活下去……！！
+求求妳，要活下去……！！
 
 # 0203Adv10_Narrative065
 ; いつもなら反感を抱くエマの声が、<br>その時はすっと心に届いた。

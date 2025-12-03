@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter02/Act02_Chapter02_Trial01' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act02_Chapter02/Act02_Chapter02_Trial01' Naninovel scenario script
 
 # 0202Trial01_Alisa001
 ; > @printDebate pos:70,50 roll:4 |#0202Trial01_Alisa001|
@@ -21,7 +21,7 @@
 # 0202Trial01_Alisa004
 ; > @printDebate pos:70,50 roll:4 |#0202Trial01_Alisa004|
 ; 何か反論あるかよ。
-你有什么要反驳的吗。
+妳有什么要反驳的吗。
 
 # 0202Trial01_Nanoka001
 ; > @printDebate pos:30,50 roll:-4 |#0202Trial01_Nanoka001|
@@ -114,7 +114,7 @@
 # 0202Trial01_Alisa008
 ; > Alisa: |#0202Trial01_Alisa008|
 ; いい加減なこと言ってんじゃねーぞ。
-你可别胡说八道敷衍人啊。
+妳可别胡说八道敷衍人啊。
 
 # 0202Trial01_Hiro006
 ; > Hiro: |#0202Trial01_Hiro006|
@@ -168,7 +168,7 @@
 # 0202Trial01_Alisa011
 ; > Alisa: |#0202Trial01_Alisa011|
 ; 探偵の真似事してーなら、あとで勝手にやれよ。
-想扮侦探的话，待会随你怎么扮。
+想扮侦探的话，待会随妳怎么扮。
 
 # 0202Trial01_Sherry003
 ; > Sherry: |#0202Trial01_Sherry003|
@@ -201,7 +201,7 @@
 ; > Hiro: |#0202Trial01_Hiro015|
 ; ……どうやらアリサ、<br>君は知らないようだ。
 ……看来，<br>
-亚里沙你不知道啊。
+亚里沙妳不知道啊。
 
 # 0202Trial01_Alisa013
 ; > Alisa: |#0202Trial01_Alisa013|
@@ -229,7 +229,7 @@
 ; > Hiro: |#0202Trial01_Hiro018|
 ; もしくは……<br>発見者は、わざと君たちに伝えなかったのかな？
 难道说……<br>
-发现人故意瞒着没告诉你们？
+发现人故意瞒着没告诉妳们？
 
 # 0202Trial01_Ema001
 ; > Ema: |#0202Trial01_Ema001|
@@ -291,7 +291,7 @@
 # 0202Trial01_Hiro022
 ; > Hiro: |#0202Trial01_Hiro022|
 ; けれど安心していい。<br>今回は犯人がわかっているのだから。
-不过你们大可以放心。<br>
+不过妳们大可以放心。<br>
 因为我已经知道这次的凶手是谁了。
 
 # 0202Trial01_Ema003
@@ -313,14 +313,14 @@
 ; > Ema: |#0202Trial01_Ema004|
 ; ……そう、ヒロちゃん。<br>それがキミの意見なんだね。
 ……是吗，希罗。<br>
-这就是你的观点啊。
+这就是妳的观点啊。
 
 # 0202Trial01_Ema005
 ; > Ema: |#0202Trial01_Ema005|
 ; なら……<br>ボクとしてもヒロちゃんが犯人の可能性が高いと<br>言わざるを得ないかな。
 那么……<br>
 站在我的角度，我只能说<br>
-你是凶手的可能性也很高。
+妳是凶手的可能性也很高。
 
 # 0202Trial01_Hiro025
 ; > Hiro: |#0202Trial01_Hiro025|
@@ -331,13 +331,13 @@
 ; > Hiro: |#0202Trial01_Hiro026|
 ; エマしか犯行ができない……<br>その理由を！
 为什么……<br>
-凶手只能是你！
+凶手只能是妳！
 
 # 0202Trial01_Ema006
 ; > Ema: |#0202Trial01_Ema006|
 ; ボクだって……<br>反論させてもらうよ！
 那我……<br>
-也会反驳你的！
+也会反驳妳的！
 
 # 0202Trial01_Hiro027
 ; > Hiro: |#0202Trial01_Hiro027|

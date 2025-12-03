@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter03/Act02_Chapter03_Bad01' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act02_Chapter03/Act02_Chapter03_Bad01' Naninovel scenario script
 
 # 0203Bad01_Hiro001
 ; > Hiro: |#0203Bad01_Hiro001|
@@ -28,8 +28,8 @@
 # 0203Bad01_AnAn002
 ; > AnAn: |#0203Bad01_AnAn002|
 ; ……読みたいと言うなら、<br>読ませてやらないこともない……。
-……要是你们想看，<br>
-吾辈也不是不能给你们看……
+……要是妳们想看，<br>
+吾辈也不是不能给妳们看……
 
 # 0203Bad01_Noah002
 ; > Noah: |#0203Bad01_Noah002|
@@ -62,7 +62,7 @@
 # 0203Bad01_Noah005
 ; > Noah: |#0203Bad01_Noah005|
 ; ヒロちゃんも楽しみにしてて。
-希罗也请期待一下哦。
+希罗也请期待一下喔。
 
 # 0203Bad01_Hiro003
 ; > Hiro: |#0203Bad01_Hiro003|
@@ -127,7 +127,7 @@
 # 0203Bad01_Noah007
 ; > Noah: |#0203Bad01_Noah007|
 ; あのね！ アンアンちゃんの小説、<br>すっごく面白いんだよ！
-你听诺亚说！<br>
+妳听诺亚说！<br>
 安安的小说超级有趣哦！
 
 # 0203Bad01_Noah008
@@ -161,7 +161,7 @@
 ; > Noah: |#0203Bad01_Noah009|
 ; ふふ、<ruby="うれ">嬉</ruby>しいなぁ～。<br>でも、これで終わりじゃ無いよ。
 呵呵，好高兴～<br>
-但这还不算成品哦。
+但这还不算成品喔。
 
 # 0203Bad01_Hiro007
 ; > Hiro: |#0203Bad01_Hiro007|
@@ -386,7 +386,7 @@
 # 0203Bad01_Leia004
 ; > Leia: |#0203Bad01_Leia004|
 ; すごいじゃないか！ ノアくん！
-你也太厉害了！诺亚！
+妳也太厉害了！诺亚！
 
 # 0203Bad01_Noah021
 ; > Noah: |#0203Bad01_Noah021|
@@ -589,7 +589,7 @@
 ; > Hiro: |#0203Bad01_Hiro020|
 ; （ああ、君たちは本当に<br>　傑作を作り上げたんだな――）
 （啊啊，<br>
-　你们真的成就了一部杰作啊——）
+　妳们真的成就了一部杰作啊——）
 
 # 0203Bad01_Narrative040
 ; もう防ぎようのない事態に深い絶望を感じながらも、<br>私は満足げな笑みを浮かべ、こと切れた。

@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter04/Act02_Chapter04_Adv08' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act02_Chapter04/Act02_Chapter04_Adv08' Naninovel scenario script
 
 # 0204Adv08_Narrative001
 ; 私とレイアはゲストハウス、<br>【<ruby="ウンディーネ">水精</ruby>の間】にやってきた。
@@ -61,7 +61,7 @@
 
 # 0204Adv08_Narrative004
 ; ――私たちは隠し階段から半地下へと降り、<br>３人でエレベーターに乗り込んだ。
-——我们沿着秘密楼梯，下楼来到半地下层，<br>
+——我们沿着秘密楼梯，下楼来到半地下室，<br>
 三人一同乘上了电梯。
 
 # 0204Adv08_Narrative005
@@ -132,7 +132,7 @@
 ; 不気味な雰囲気ですよねぇ。<br>このまま異世界にでも行ってしまいそうな……<br>知ってます？ エレベーターにまつわる怪談。
 这里的氛围好诡异啊。<br>
 感觉像是会就这么直接通往异世界……<br>
-你听说过吗？关于电梯的都市怪谈。
+妳听说过吗？关于电梯的都市怪谈。
 
 # 0204Adv08_Hiro005
 ; > Hiro: |#0204Adv08_Hiro005|
@@ -143,7 +143,7 @@
 ; > Sherry: |#0204Adv08_Sherry009|
 ; ここは不思議なことばっかりですし、<br>やってみたら案外行けちゃうかもですね！<br>異世界！
 这里全是怪事，<br>
-试试照我说的，说不定真的能行哦！<br>
+试试照我说的，说不定真的能行喔！<br>
 异世界耶！
 
 # 0204Adv08_Hiro006
@@ -197,7 +197,7 @@
 # 0204Adv08_Sherry012
 ; > Sherry: |#0204Adv08_Sherry012|
 ; てへ☆ そうでした！
-嘿嘿☆　说得也是哦！
+嘿嘿☆　说得也是喔！
 
 # 0204Adv08_Hiro009
 ; > Hiro: |#0204Adv08_Hiro009|
@@ -207,7 +207,7 @@
 # 0204Adv08_Sherry013
 ; > Sherry: |#0204Adv08_Sherry013|
 ; やったー！ つきましたよヒロさん！<br>いざ地下探索です！ えいえいおー！
-好耶！我们到了哦，希罗！<br>
+好耶！我们到了喔，希罗！<br>
 地下探索正式开始！加油努力冲！
 
 # 0204Adv08_Narrative013

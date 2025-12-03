@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter04/Act02_Chapter04_Trial02' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act02_Chapter04/Act02_Chapter04_Trial02' Naninovel scenario script
 
 # 0204Trial02_Miria001
 ; > @printDebate pos:73,50 roll:4 |#0204Trial02_Miria001|
@@ -190,7 +190,7 @@
 ; > Hiro: |#0204Trial02_Hiro012|
 ; （だが、状況的におかしな点はある。<br>　可能性を示してみよう）
 （但是，就现场的情况而言，还有可疑之处。<br>
-　试着指出其他的可能性吧）
+　试着指出其他的可能性吧）**
 
 # 0204Trial02_Hiro013
 ; > Hiro: |#0204Trial02_Hiro013|
@@ -272,7 +272,7 @@
 ; > Hiro: |#0204Trial02_Hiro020|
 ; （だが、状況的におかしな点はある。<br>　可能性を示してみよう）
 （但是，就现场的情况而言，还有可疑之处。<br>
-　试着指出其他的可能性吧）
+　试着指出其他的可能性吧）**
 
 # 0204Trial02_Hiro021
 ; > Hiro: |#0204Trial02_Hiro021|
@@ -320,7 +320,7 @@
 # 0204Trial02_Sherry013
 ; > Sherry: |#0204Trial02_Sherry013|
 ; 【よって犯人は同乗していたレイアさん】という推理ですね。
-也就是说你的推理是，【凶手是和艾玛同乘电梯的蕾雅】。
+也就是说妳的推理是，【凶手是和艾玛同乘电梯的蕾雅】。
 
 # 0204Trial02_Hiro026
 ; > Hiro: |#0204Trial02_Hiro026|
@@ -445,5 +445,5 @@
 # 0204Trial02_Miria014
 ; > Miria: |#0204Trial02_Miria014|
 ; 殺人とか処刑とか……<br>これ以上誰か死ぬなんて、もういやなんだ！
-杀人，还有处刑什么的……<br>
+杀人、还有处刑什么的……<br>
 我已经不想再眼睁睁看着任何人死去了！

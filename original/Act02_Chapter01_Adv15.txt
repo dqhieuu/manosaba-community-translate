@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter01/Act02_Chapter01_Adv15' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act02_Chapter01/Act02_Chapter01_Adv15' Naninovel scenario script
 
 # 0201Adv15_Narrative001
 ; 地下の奥まった通路の方へと行ってみると、<br>重厚な扉がずらりと並んでいた。
@@ -78,7 +78,7 @@
 # 0201Adv15_Hiro004
 ; > Hiro: |#0201Adv15_Hiro004|
 ; アリサ、君はもう懲罰房から解放されているはずだが。<br>こんなところに何の用だ？
-亚里沙，你应该已经被放出来了吧。<br>
+亚里沙，妳应该已经被放出来了吧。<br>
 来这里是有什么事？
 
 # 0201Adv15_Alisa002
@@ -119,7 +119,7 @@
 # 0201Adv15_Hiro007
 ; > Hiro: |#0201Adv15_Hiro007|
 ; 君、それをどこで手に入れた？
-你这是在哪里得到的？
+妳这是在哪里得到的？
 
 # 0201Adv15_Alisa003
 ; > Alisa: |#0201Adv15_Alisa003|
@@ -148,7 +148,7 @@
 # 0201Adv15_Alisa005
 ; > Alisa: |#0201Adv15_Alisa005|
 ; ウチはもう何度も読んだから、おめえにやるよ。
-我已经看过好几遍了，给你吧。
+我已经看过好几遍了，给妳吧。
 
 # 0201Adv15_Narrative012
 ; アリサは私に新聞紙を渡してきた。
@@ -229,7 +229,7 @@
 # 0201Adv15_Alisa012
 ; > Alisa: |#0201Adv15_Alisa012|
 ; おめえ調子狂うな……。
-你这家伙真让人摸不着头脑……
+妳这家伙真让人摸不着头脑……
 
 # 0201Adv15_Hiro012
 ; > Hiro: |#0201Adv15_Hiro012|
@@ -245,7 +245,7 @@
 # 0201Adv15_Alisa013
 ; > Alisa: |#0201Adv15_Alisa013|
 ; 勝手にしろ。ウチはもう少し、<br>この辺りを調べるつもりだ。
-随你们便。<br>
+随妳们便。<br>
 我还想再调查一下这附近。
 
 # 0201Adv15_Narrative015

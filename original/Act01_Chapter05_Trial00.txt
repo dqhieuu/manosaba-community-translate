@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act01_Chapter05/Act01_Chapter05_Trial00' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act01_Chapter05/Act01_Chapter05_Trial00' Naninovel scenario script
 
 # 0105Trial00_Ema001
 ; > Ema: |#0105Trial00_Ema001|
@@ -39,7 +39,7 @@
 ; > Ema: |#0105Trial00_Ema006|
 ; ボクが犯人だっていうなら……<br>証明してみてよ、ココちゃん！
 如果要说我是凶手……<br>
-可可，麻烦你作出证明！
+可可，麻烦妳作出证明！
 
 # 0105Trial00_Coco002
 ; > Coco: |#0105Trial00_Coco002|

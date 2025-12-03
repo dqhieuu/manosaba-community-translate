@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter02/Act02_Chapter02_Adv20' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act02_Chapter02/Act02_Chapter02_Adv20' Naninovel scenario script
 
 # 0202Adv20_Narrative001
 ; 裁判の後。<br>ノアとアンアンは監房に戻ってきた。
@@ -136,7 +136,7 @@
 # 0202Adv20_AnAn010
 ; > AnAn: |#0202Adv20_AnAn010|
 ; 『この絵は、ノアが描いたのか？』
-『这张画，是你画的吗？』
+『这张画，是妳画的吗？』
 
 # 0202Adv20_Noah011
 ; > Noah: |#0202Adv20_Noah011|
@@ -180,7 +180,7 @@
 # 0202Adv20_Noah014
 ; > Noah: |#0202Adv20_Noah014|
 ; ……アンアンちゃん、ありがとー！
-……谢谢你，安安！
+……谢谢妳，安安！
 
 # 0202Adv20_Narrative008
 ; ノアがアンアンに抱きつく。
@@ -194,7 +194,7 @@
 # 0202Adv20_AnAn015
 ; > AnAn: |#0202Adv20_AnAn015|
 ; ……笑っているノアの方がいい。
-……你还是笑起来更好看。
+……妳还是笑起来更好看。
 
 # 0202Adv20_AnAn016
 ; > AnAn: |#0202Adv20_AnAn016|

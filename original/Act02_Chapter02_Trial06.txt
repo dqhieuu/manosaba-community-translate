@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter02/Act02_Chapter02_Trial06' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act02_Chapter02/Act02_Chapter02_Trial06' Naninovel scenario script
 
 # 0202Trial06_Sherry001
 ; > @printDebate pos:70,50 roll:4 |#0202Trial06_Sherry001|
@@ -27,7 +27,7 @@
 说不定<br>
 直接就能<br>
 把中庭的绿植<br>
-当背景去掉哦？
+当背景去掉喔？
 
 # 0202Trial06_Hanna001
 ; > @printDebate pos:30,50 roll:-4 |#0202Trial06_Hanna001|
@@ -117,7 +117,7 @@
 # 0202Trial06_Hanna004
 ; > @printDebate pos:70,50 roll:4 |#0202Trial06_Hanna004|
 ; 誰がのろまですの！？<br>うっせーですわー！？
-你骂谁慢吞吞啊！？<br>
+妳骂谁慢吞吞啊！？<br>
 别多嘴好吗！？
 
 # 0202Trial06_Hiro001
@@ -164,7 +164,7 @@
 # 0202Trial06_Hanna005
 ; > Hanna: |#0202Trial06_Hanna005|
 ; 何を根拠に！？
-你有什么根据！？
+妳有什么根据！？
 
 # 0202Trial06_Hiro004
 ; > Hiro: |#0202Trial06_Hiro004|
@@ -180,7 +180,7 @@
 # 0202Trial06_Noah003
 ; > Noah: |#0202Trial06_Noah003|
 ; びゅんびゅん吹いてたね、びゅんびゅん。
-当时风吹得呼呼响哦，呼呼呼。
+当时风吹得呼呼响喔，呼呼呼。
 
 # 0202Trial06_Alisa002
 ; > Alisa: |#0202Trial06_Alisa002|
@@ -280,7 +280,7 @@
 ; > Hanna: |#0202Trial06_Hanna008|
 ; 私の容疑が固まりつつありますわー！！<br>ヒロさん、なんとかしてくださいまし！！
 我的嫌疑怎么越来越重了！！<br>
-希罗，请你想办法帮帮我！！
+希罗，请妳想办法帮帮我！！
 
 # 0202Trial06_Hiro013
 ; > Hiro: |#0202Trial06_Hiro013|
@@ -352,7 +352,7 @@
 # 0202Trial06_Hanna009
 ; > Hanna: |#0202Trial06_Hanna009|
 ; わたくしのどこに翼があるって言うんですのー！？
-你倒是说说我身上哪里长了翅膀！？
+妳倒是说说我身上哪里长了翅膀！？
 
 # 0202Trial06_Noah006
 ; > Noah: |#0202Trial06_Noah006|
@@ -381,7 +381,7 @@
 # 0202Trial06_Hanna011
 ; > Hanna: |#0202Trial06_Hanna011|
 ; どう考えても言いがかりの域を出ませんわー！
-只能说你这个观点实在是牵强了！
+只能说妳这个观点实在是牵强了！
 
 # 0202Trial06_Hiro022
 ; > Hiro: |#0202Trial06_Hiro022|
@@ -431,7 +431,7 @@
 # 0202Trial06_Miria005
 ; > Miria: |#0202Trial06_Miria005|
 ; ヒロちゃんとエマちゃんが<br>中庭を通ったタイミングって<br>そんなに時間差があったの？
-你和小艾<br>
+妳和小艾<br>
 经过中庭的时间差<br>
 有那么久吗？
 
@@ -444,7 +444,7 @@
 ; > Miria: |#0202Trial06_Miria006|
 ; それでも入れるっていうの？<br>ヒロちゃん。
 希罗，<br>
-你真的认为有人能进来？
+妳真的认为有人能进来？
 
 # 0202Trial06_Hiro028
 ; > Hiro: |#0202Trial06_Hiro028|
@@ -493,7 +493,7 @@
 # 0202Trial06_Alisa004
 ; > Alisa: |#0202Trial06_Alisa004|
 ; アニメかなんかの話してんのか？
-你在聊什么动画片吗？
+妳在聊什么动画片吗？
 
 # 0202Trial06_AnAn002
 ; > AnAn: |#0202Trial06_AnAn002|
@@ -602,7 +602,7 @@
 ; > Sherry: |#0202Trial06_Sherry014|
 ; 事前に上空にいて、<br>死体を落としただけなら見つかりようがありません！
 如果事先就在中庭上方等待时机，<br>
-只是抛一下尸体的话很难被发现！
+只是抛一下尸体的话很难被发现！*
 
 # 0202Trial06_Leia003
 ; > Leia: |#0202Trial06_Leia003|
@@ -634,7 +634,7 @@
 ; > Sherry: |#0202Trial06_Sherry016|
 ; それが事件の全容だったんですね！<br>素晴らしいトリックですハンナさん！
 这就是这起案件的全貌了吧！<br>
-你这个诡计真是太棒了，汉娜！
+妳这个诡计真是太棒了，汉娜！
 
 # 0202Trial06_Hanna013
 ; > Hanna: |#0202Trial06_Hanna013|
@@ -645,21 +645,21 @@
 ; > Sherry: |#0202Trial06_Sherry017|
 ; 大丈夫です！<br>ハンナさんが殺人鬼であっても<br>私たちお友だちですからね！
 没关系！<br>
-就算你是杀人魔<br>
+就算妳是杀人魔<br>
 我们也依旧是好朋友！
 
 # 0202Trial06_Hanna014
 ; > Hanna: |#0202Trial06_Hanna014|
 ; 友だちのこと全然信じるつもりねーですわ！<br>こんのクソ女～！
 嘴上说是好朋友，其实根本就不信我！<br>
-你这个臭女人～！
+妳这个臭女人～！
 
 # 0202Trial06_Hanna015
 ; > Hanna: |#0202Trial06_Hanna015|
 ; あんた……じゃない、<br>あなたあとで、ぶっ殺……<br>お殺しになってさしあげますわ～！？
 臭女……不对，<br>
-请你给我听好了，待会我要宰了……<br>
-送你上西天～！？
+请妳给我听好了，待会我要宰了……<br>
+送妳上西天～！？
 
 # 0202Trial06_Miria008
 ; > Miria: |#0202Trial06_Miria008|
@@ -676,4 +676,4 @@
 # 0202Trial06_Hanna016
 ; > Hanna: |#0202Trial06_Hanna016|
 ; 話聞きやがりなさいませー！？
-请你听人说话好吗！？
+请妳听人说话好吗！？

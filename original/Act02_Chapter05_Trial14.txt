@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter05/Act02_Chapter05_Trial14' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act02_Chapter05/Act02_Chapter05_Trial14' Naninovel scenario script
 
 # 0205Trial14_Coco001
 ; > @printDebate pos:70,50 roll:4 |#0205Trial14_Coco001|
@@ -18,10 +18,10 @@
 # 0205Trial14_Coco003
 ; > @printDebate pos:70,50 roll:4 |#0205Trial14_Coco003|
 ; そんなこと<br>いきなり言われても<br>無理だっての！<br>どうやって<br><link="Objection_02_05_14_01">戦え</link>ってのさ！
-你突然跟我说<br>
+妳突然跟我说<br>
 情况就是这样，<br>
 那我又能怎样！<br>
-你说我要<br>
+妳说我要<br>
 怎么<link="Objection_02_05_14_01">战斗</link>啊！
 
 # 0205Trial14_Coco004
@@ -61,7 +61,7 @@
 ; > Hiro: |#0205Trial14_Hiro002|
 ; （そういえばそんな話……<br>　いつかにココ本人から聞いたような気がするな）
 （话说，她刚说的话……<br>
-　我好像之前从可可本人那里听说过）
+　我好像之前从可可本人那里听说过）*
 
 # 0205Trial14_Hiro003
 ; > Hiro: |#0205Trial14_Hiro003|
@@ -98,13 +98,13 @@
 # 0205Trial14_Hiro004
 ; > Hiro: |#0205Trial14_Hiro004|
 ; いや、君が直接戦う必要はない。
-不，你不需要直接战斗。
+不，妳不需要直接战斗。
 
 # 0205Trial14_Hiro005
 ; > Hiro: |#0205Trial14_Hiro005|
 ; 君の魔法は【千里眼】、<br>サポートに回ってくれればそれでいい。
-你的魔法是【千里眼】，<br>
-你只要负责辅助就好了。
+妳的魔法是【千里眼】，<br>
+妳只要负责辅助就好了。
 
 # 0205Trial14_Coco008
 ; > Coco: |#0205Trial14_Coco008|
@@ -119,7 +119,7 @@
 # 0205Trial14_Coco010
 ; > Coco: |#0205Trial14_Coco010|
 ; ……てゆーか、ここにいる奴らだって<br>全然戦うのに向いてると思えないし……！
-……再说了，你们这些人<br>
+……再说了，妳们这些人<br>
 根本就不像是能打的样子……！
 
 # 0205Trial14_Coco011
@@ -163,12 +163,12 @@
 # 0205Trial14_Hiro010
 ; > Hiro: |#0205Trial14_Hiro010|
 ; 怖い気持ちは分かる。
-我明白你害怕的心情。
+我明白妳害怕的心情。
 
 # 0205Trial14_Hiro011
 ; > Hiro: |#0205Trial14_Hiro011|
 ; だから、いざとなれば逃げればいい。
-所以，万一出了什么情况，你只要逃跑就好了。
+所以，万一出了什么情况，妳只要逃跑就好了。
 
 # 0205Trial14_Coco014
 ; > Coco: |#0205Trial14_Coco014|
@@ -178,7 +178,7 @@
 # 0205Trial14_Coco015
 ; > Coco: |#0205Trial14_Coco015|
 ; 現実から逃げるなってそっちが言ったんだろ……。
-不是你让我别逃避现实的吗……
+不是妳让我别逃避现实的吗……
 
 # 0205Trial14_Coco016
 ; > Coco: |#0205Trial14_Coco016|
@@ -216,7 +216,7 @@
 # 0205Trial14_Hiro017
 ; > Hiro: |#0205Trial14_Hiro017|
 ; どうやら君は、過去に理不尽なことにあったようだ。
-看来，你过去遭遇过不公。
+看来，妳过去遭遇过不公。
 
 # 0205Trial14_Hiro018
 ; > Hiro: |#0205Trial14_Hiro018|
@@ -227,12 +227,12 @@
 ; > Coco: |#0205Trial14_Coco017|
 ; はぁ！？<br>なんでんなこと教えなきゃなんねーの！？
 哈啊！？<br>
-为什么非得告诉你不可！？
+为什么非得告诉妳不可！？
 
 # 0205Trial14_Coco018
 ; > Coco: |#0205Trial14_Coco018|
 ; そんなんお前らには関係ないだろ！
-这些事跟你们没关系吧！
+这些事跟妳们没关系吧！
 
 # 0205Trial14_Hiro019
 ; > Hiro: |#0205Trial14_Hiro019|
@@ -286,7 +286,7 @@
 # 0205Trial14_Coco020
 ; > Coco: |#0205Trial14_Coco020|
 ; な、なんで……！
-为、为什么你……！
+为、为什么妳……！
 
 # 0205Trial14_Nanoka007
 ; > Nanoka: |#0205Trial14_Nanoka007|
@@ -297,7 +297,7 @@
 # 0205Trial14_Coco021
 ; > Coco: |#0205Trial14_Coco021|
 ; お前……！
-你这家伙……！
+妳这家伙……！
 
 # 0205Trial14_Hiro020
 ; > Hiro: |#0205Trial14_Hiro020|
@@ -357,7 +357,7 @@
 # 0205Trial14_Hiro026
 ; > Hiro: |#0205Trial14_Hiro026|
 ; ……べつに君が戦う必要なんてない。
-……你根本没必要战斗。
+……妳根本没必要战斗。
 
 # 0205Trial14_Hiro027
 ; > Hiro: |#0205Trial14_Hiro027|
@@ -392,7 +392,7 @@
 # 0205Trial14_Hiro030
 ; > Hiro: |#0205Trial14_Hiro030|
 ; 私たちが殺される姿を……<br>君はただ見ていればいい……。
-你只要看着就好……<br>
+妳只要看着就好……<br>
 看着我们被杀的样子……
 
 # 0205Trial14_Coco027
@@ -456,7 +456,7 @@
 # 0205Trial14_Hiro032
 ; > Hiro: |#0205Trial14_Hiro032|
 ; ……メルル、あとは頼んだ。
-……梅露露，接下来就拜托你了。
+……梅露露，接下来就拜托妳了。
 
 # 0205Trial14_Meruru001
 ; > Meruru: |#0205Trial14_Meruru001|
@@ -467,7 +467,7 @@
 ; > Meruru: |#0205Trial14_Meruru002|
 ; ココさん……大丈夫です。<br>いま治しますから……。
 可可小姐……没事的。<br>
-现在就帮你治好……
+现在就帮妳治好……
 
 # 0205Trial14_Coco037
 ; > Coco: |#0205Trial14_Coco037|
@@ -517,7 +517,7 @@
 ; > Hiro: |#0205Trial14_Hiro040|
 ; あらためてみんな……<br>私に協力して欲しいんだ。
 再次拜托大家……<br>
-我需要你们的帮助。
+我需要妳们的帮助。
 
 # 0205Trial14_AnAn002
 ; > AnAn: |#0205Trial14_AnAn002|

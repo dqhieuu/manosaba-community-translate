@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act01_Chapter04/Act01_Chapter04_Trial09' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act01_Chapter04/Act01_Chapter04_Trial09' Naninovel scenario script
 
 # 0104Trial09_Margo001
 ; > @printDebate pos:70,50 roll:4 |#0104Trial09_Margo001|
@@ -70,7 +70,7 @@
 # 0104Trial09_Coco003
 ; > @printDebate pos:70,50 roll:4 |#0104Trial09_Coco003|
 ; ……もしアリサに<br>自殺をそそのかした<br>やつがいたら、<br>投票するってこと？
-……你是说，<br>
+……妳是说，<br>
 如果有人教唆<br>
 亚里沙自杀，<br>
 那我们就应该投票给那个人？
@@ -336,7 +336,7 @@
 # 0104Trial09_Margo015
 ; > Margo: |#0104Trial09_Margo015|
 ; ……何か心当たりがあるのかしら？
-……你有头绪吗？
+……妳有头绪吗？
 
 # 0104Trial09_Ema019
 ; > Ema: |#0104Trial09_Ema019|
@@ -359,8 +359,8 @@
 # 0104Trial09_Coco012
 ; > Coco: |#0104Trial09_Coco012|
 ; エマっち、さっきまでの記憶なくなった？<br>健忘症ってやつ？
-艾玛亲，你这是失去到刚才为止的记忆了？<br>
-你有健忘症？
+艾玛亲，妳这是失去到刚才为止的记忆了？<br>
+妳有健忘症？
 
 # 0104Trial09_Ema021
 ; > Ema: |#0104Trial09_Ema021|
@@ -382,7 +382,7 @@
 # 0104Trial09_Margo017
 ; > Margo: |#0104Trial09_Margo017|
 ; でもアリサちゃんは反抗してたわよね。
-可亚里沙一直都有反抗哦。
+可亚里沙一直都有反抗喔。
 
 # 0104Trial09_Coco013
 ; > Coco: |#0104Trial09_Coco013|
@@ -408,7 +408,7 @@
 # 0104Trial09_Coco014
 ; > Coco: |#0104Trial09_Coco014|
 ; その証拠が【魔女】と<br>どう関係すんだよ。
-你这证物跟【魔女】<br>
+妳这证物跟【魔女】<br>
 能怎样扯上关系啊。
 
 # 0104Trial09_Margo018
@@ -471,7 +471,7 @@
 ; 急激に魔女化が進んで殺人衝動が高まり、<br>殺意が抑えられなくなるのが<br>いやだったのかもしれません……。
 说不定她其实很抗拒，因为魔女化的程度突然急剧加深，<br>
 导致她产生强烈的杀人冲动，<br>
-压抑不住自己的杀意……
+压抑不住自己的杀意……*
 
 # 0104Trial09_Ema031
 ; > Ema: |#0104Trial09_Ema031|

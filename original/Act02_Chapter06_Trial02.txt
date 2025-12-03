@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter06/Act02_Chapter06_Trial02' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act02_Chapter06/Act02_Chapter06_Trial02' Naninovel scenario script
 
 # 0206Trial02_Yuki001
 ; > @printDebate pos:30,50 roll:-4 |#0206Trial02_Yuki001|
@@ -110,13 +110,13 @@
 # 0206Trial02_Hiro005
 ; > Hiro: |#0206Trial02_Hiro005|
 ; 君たち魔女を放っておけば、<br>世界は危機に陥っていたかもしれない……。
-如果对你们这些魔女坐视不理，<br>
+如果对妳们这些魔女坐视不理，<br>
 说不定会让世界陷入危机……
 
 # 0206Trial02_Hiro006
 ; > Hiro: |#0206Trial02_Hiro006|
 ; こうして人間を滅ぼそうとしていることが、<br>何よりの証拠だ！
-你们现在这样打算灭绝人类，<br>
+妳们现在这样打算灭绝人类，<br>
 就是最有力的证据！
 
 # 0206Trial02_Yuki010
@@ -207,7 +207,7 @@
 # 0206Trial02_Yuki018
 ; > Yuki: |#0206Trial02_Yuki018|
 ; ありません。
-你无权辩护。
+妳无权辩护。
 
 # 0206Trial02_Yuki019
 ; > Yuki: |#0206Trial02_Yuki019|
@@ -234,12 +234,12 @@
 # 0206Trial02_Hiro017
 ; > Hiro: |#0206Trial02_Hiro017|
 ; ……それでは君が人間と同じになってしまう。
-……那你的所作所为和人类有什么区别。
+……那妳的所作所为和人类有什么区别。
 
 # 0206Trial02_Hiro018
 ; > Hiro: |#0206Trial02_Hiro018|
 ; 君が嫌悪する、<br>悪辣で野蛮な人間と一緒の存在に……！
-和你最厌恶的，<br>
+和妳最厌恶的，<br>
 恶毒野蛮的人类，一模一样……！
 
 # 0206Trial02_Yuki021
@@ -256,8 +256,8 @@
 # 0206Trial02_Yuki023
 ; > Yuki: |#0206Trial02_Yuki023|
 ; その責任を取らせてあげるんですよ。<br>感謝してくださいね。
-我是在给你们机会来弥补自己的过错。<br>
-要感谢我哦。
+我是在给妳们机会来弥补自己的过错。<br>
+要感谢我喔。
 
 # 0206Trial02_Hiro019
 ; > Hiro: |#0206Trial02_Hiro019|
@@ -299,7 +299,7 @@
 # 0206Trial02_Hiro024
 ; > Hiro: |#0206Trial02_Hiro024|
 ; ならば君もこの牢屋敷の規則に則って、<br>議論を続けるべきじゃないかな。
-那么，你也应该遵守这座监牢的规定，<br>
+那么，妳也应该遵守这座监牢的规定，<br>
 让讨论继续下去才对。
 
 # 0206Trial02_AnAn003
@@ -311,7 +311,7 @@
 # 0206Trial02_AnAn004
 ; > AnAn: |#0206Trial02_AnAn004|
 ; だが貴様はさきほどこう言った……<br>【裁判を始める】、と。
-你刚才说的是……<br>
+妳刚才说的是……<br>
 【审判现在开庭】。
 
 # 0206Trial02_AnAn005
@@ -323,7 +323,7 @@
 # 0206Trial02_AnAn006
 ; > AnAn: |#0206Trial02_AnAn006|
 ; 自分の言葉には……<color=#9c8eff><b>【責任を持て】</b></color>！
-你要对自己的发言……<color=#9c8eff><b>【负起责任】</b></color>！
+妳要对自己的发言……<color=#9c8eff><b>【负起责任】</b></color>！
 
 # 0206Trial02_Yuki024
 ; > Yuki: |#0206Trial02_Yuki024|
@@ -344,14 +344,14 @@
 # 0206Trial02_Yuki026
 ; > Yuki: |#0206Trial02_Yuki026|
 ; ほんの短い間の最後のひととき……<br>お互いに無益な時間になるとは思いますけれど。
-虽然……这只会让你们人生最后的片刻时光白白浪费，<br>
+虽然……这只会让妳们人生最后的片刻时光白白浪费，<br>
 对彼此都无益。
 
 # 0206Trial02_Yuki027
 ; > Yuki: |#0206Trial02_Yuki027|
 ; それで良ければ、<br>もう少しだけお話しましょうか。
-如果你们非要这样，<br>
-那我就再稍微陪你们聊一会吧。
+如果妳们非要这样，<br>
+那我就再稍微陪妳们聊一会吧。
 
 # 0206Trial02_Hiro026
 ; > Hiro: |#0206Trial02_Hiro026|

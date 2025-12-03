@@ -1,9 +1,9 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter05/Act02_Chapter05_Trial05' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act02_Chapter05/Act02_Chapter05_Trial05' Naninovel scenario script
 
 # 0205Trial05_Hiro001
 ; > @printDebate pos:70,50 roll:4 |#0205Trial05_Hiro001|
 ; 君は人に見られる為に<br>活動を続けていた……。
-你为了受人瞩目，<br>
+妳为了受人瞩目，<br>
 而持续进行着活动……
 
 # 0205Trial05_Hiro002
@@ -28,7 +28,7 @@
 ; > @printDebate pos:70,50 roll:4 |#0205Trial05_Hiro004|
 ; それとも君は、<br>魔法の使用を否定するのかい？
 还是说，<br>
-你要否认你用了魔法吗？
+妳要否认妳用了魔法吗？
 
 # 0205Trial05_Leia002
 ; > @printDebate pos:30,50 roll:-4 |#0205Trial05_Leia002|
@@ -117,7 +117,7 @@
 # 0205Trial05_Choice001
 ; > @choice |#0205Trial05_Choice001| button:ChoiceButtons/Trial/Objection handler:TrialHiro
 ; 本番以外でも使用していた
-你在正式演出之外也用过
+妳在正式演出之外也用过
 
 # Common_Return
 ; > @choice |#Common_Return| button:ChoiceButtons/Trial/Cancel handler:TrialHiro
@@ -127,12 +127,12 @@
 # 0205Trial05_Choice002
 ; > @choice |#0205Trial05_Choice002| button:ChoiceButtons/Trial/Objection handler:TrialHiro
 ; ファンは許さない
-粉丝不会原谅你的做法
+粉丝不会原谅妳的做法
 
 # 0205Trial05_Choice003
 ; > @choice |#0205Trial05_Choice003| button:ChoiceButtons/Trial/Objection handler:TrialHiro
 ; 二度と表舞台に立てない
-你再也无法站在聚光灯下了
+妳再也无法站在聚光灯下了**
 
 # 0205Trial05_Hiro011
 ; > Hiro: |#0205Trial05_Hiro011|
@@ -142,19 +142,19 @@
 # 0205Trial05_Hiro012
 ; > Hiro: |#0205Trial05_Hiro012|
 ; 君は普段から、<br>視線固定の魔法を使用していた……。
-你平时就在使用，<br>
+妳平时就在使用，<br>
 固定视线的魔法……
 
 # 0205Trial05_Hiro013
 ; > Hiro: |#0205Trial05_Hiro013|
 ; 誰もが目を奪われるトップスターだからこそ<br>できる芸当だ。
-正因为你是能夺走所有人目光的顶尖明星，<br>
+正因为妳是能夺走所有人目光的顶尖明星，<br>
 才能做到这种事。
 
 # 0205Trial05_Leia009
 ; > Leia: |#0205Trial05_Leia009|
 ; そ、そんな証拠はないじゃないか……！
-你、你说的根本没证据……！
+妳、妳说的根本没证据……！
 
 # 0205Trial05_Leia010
 ; > Leia: |#0205Trial05_Leia010|
@@ -176,12 +176,12 @@
 # 0205Trial05_Leia013
 ; > Leia: |#0205Trial05_Leia013|
 ; 男女問わず……それはもうモテモテだったんだよ！
-不论男女……受欢迎得不得了！
+不论男女……受欢迎得不得了！**
 
 # 0205Trial05_Leia014
 ; > Leia: |#0205Trial05_Leia014|
 ; だからヒロくん……キミの反論は、間違っているよ！
-所以希罗……你的反驳，是错的！
+所以希罗……妳的反驳，是错的！
 
 # 0205Trial05_Hiro014
 ; > Hiro: |#0205Trial05_Hiro014|
@@ -204,7 +204,7 @@
 # 0205Trial05_Hiro017
 ; > Hiro: |#0205Trial05_Hiro017|
 ; だけど、そんなことをしてファンは許してくれるかな？
-可是，你做出这种事，你觉得粉丝们会原谅你吗？
+可是，妳做出这种事，妳觉得粉丝们会原谅妳吗？
 
 # 0205Trial05_Hiro018
 ; > Hiro: |#0205Trial05_Hiro018|
@@ -282,7 +282,7 @@
 # 0205Trial05_Hiro022
 ; > Hiro: |#0205Trial05_Hiro022|
 ; 何か……勘違いしているんじゃないかな。
-我说你……是不是搞错了什么？
+我说妳……是不是搞错了什么？
 
 # 0205Trial05_Leia024
 ; > Leia: |#0205Trial05_Leia024|
@@ -293,7 +293,7 @@
 ; > Hiro: |#0205Trial05_Hiro023|
 ; 【これからも】……？<br>まさか君に【未来】があるとでも<br>思っているのか？
 【将来】……？<br>
-难道你以为自己<br>
+难道妳以为自己<br>
 还有【未来】吗？
 
 # 0205Trial05_Leia025
@@ -304,8 +304,8 @@
 # 0205Trial05_Hiro024
 ; > Hiro: |#0205Trial05_Hiro024|
 ; ここに囚われたということは<br>君は魔女候補の少女だと認定されたということだ。
-既然你被囚禁在这里，<br>
-就意味着你已被认定为预备魔女。
+既然妳被囚禁在这里，<br>
+就意味着妳已被认定为预备魔女。
 
 # 0205Trial05_Hiro025
 ; > Hiro: |#0205Trial05_Hiro025|
@@ -317,7 +317,7 @@
 ; > Hiro: |#0205Trial05_Hiro026|
 ; たとえここから脱出できたとしても、<br>君が表舞台に立つことは二度とないんだ。
 就算能从这里逃出去，<br>
-你也无法再次站在聚光灯之下了。
+妳也无法再次站在聚光灯之下了。
 
 # 0205Trial05_Leia026
 ; > Leia: |#0205Trial05_Leia026|
@@ -339,7 +339,7 @@
 # 0205Trial05_Hiro029
 ; > Hiro: |#0205Trial05_Hiro029|
 ; 君は仮にここから逃げ出しても一生日陰者として……<br>一切誰の注目も浴びずに生きるしかないんだ。
-就算你从这里逃出去，也只能一辈子活在暗处……<br>
+就算妳从这里逃出去，也只能一辈子活在暗处……<br>
 在完全不被任何人关注的情况下苟活着。
 
 # 0205Trial05_Leia027
@@ -374,7 +374,7 @@
 ; > Hiro: |#0205Trial05_Hiro034|
 ; ここにいる以上、<br>君がたどり着くのは死の運命か――。
 只要身在此处，<br>
-等待你的就只有死亡的命运——
+等待妳的就只有死亡的命运——
 
 # 0205Trial05_Hiro035
 ; > Hiro: |#0205Trial05_Hiro035|
@@ -390,12 +390,12 @@
 # 0205Trial05_Leia028
 ; > Leia: |#0205Trial05_Leia028|
 ; そ、そんなのは……嘘だ……！
-这、这……你骗我……！
+这、这……妳骗我……！
 
 # 0205Trial05_Hiro037
 ; > Hiro: |#0205Trial05_Hiro037|
 ; 嘘じゃないよ。
-我没骗你。
+我没骗妳。
 
 # 0205Trial05_Hiro038
 ; > Hiro: |#0205Trial05_Hiro038|
@@ -433,7 +433,7 @@
 # 0205Trial05_Leia029
 ; > Leia: |#0205Trial05_Leia029|
 ; ――嘘だっ！！！
-——你骗人！！！
+——妳骗人！！！
 
 # 0205Trial05_Leia030
 ; > Leia: |#0205Trial05_Leia030|
@@ -521,7 +521,7 @@
 ; > Meruru: |#0205Trial05_Meruru008|
 ; ……よーしよーし……。<br>落ち着いてください……。
 ……没事的，没事的……<br>
-请你冷静下来……
+请妳冷静下来……
 
 # 0205Trial05_Leia040
 ; > Leia: |#0205Trial05_Leia040|
@@ -552,7 +552,7 @@
 # 0205Trial05_Leia045
 ; > Leia: |#0205Trial05_Leia045|
 ; ……もう落ち着いたから、放してくれないかな。
-……我已经冷静下来了，你能放开我了吗？
+……我已经冷静下来了，妳能放开我了吗？
 
 # 0205Trial05_Meruru009
 ; > Meruru: |#0205Trial05_Meruru009|
@@ -665,7 +665,7 @@
 ; > Hanna: |#0205Trial05_Hanna001|
 ; 魔女になったからって<br>開き直り過ぎですわー！？
 虽说成了魔女，<br>
-你这是不是想得太开了啊！？
+妳这是不是想得太开了啊！？
 
 # 0205Trial05_Leia057
 ; > Leia: |#0205Trial05_Leia057|
@@ -678,7 +678,7 @@
 ; （魔女化した以上、<br>　なれはてとなるまでの時間が<br>　いくら残っているかはわからない……）
 （她已经完成了魔女化，<br>
 　离变成残骸还剩多少时间，<br>
-　连她自己都不清楚……）
+　连她自己都不清楚……）*
 
 # 0205Trial05_Hiro050
 ; > Hiro: |#0205Trial05_Hiro050|
@@ -762,7 +762,7 @@
 # 0205Trial05_Hiro064
 ; > Hiro: |#0205Trial05_Hiro064|
 ; （……一旦、べつの犯行動機を検証してみよう）
-（……目前还是先验证一下其他人的作案动机吧）
+（……目前还是先验证一下其他人的作案动机吧）*
 
 # 0205Trial05_Hiro065
 ; > Hiro: |#0205Trial05_Hiro065|
@@ -791,7 +791,7 @@
 # 0205Trial05_Hiro069
 ; > Hiro: |#0205Trial05_Hiro069|
 ; （……一旦、べつの犯行動機を検証してみよう）
-（……目前还是先验证一下其他人的作案动机吧）
+（……目前还是先验证一下其他人的作案动机吧）*
 
 # 0205Trial05_Hiro070
 ; > Hiro: |#0205Trial05_Hiro070|
@@ -813,7 +813,7 @@
 # 0205Trial05_Hiro073
 ; > Hiro: |#0205Trial05_Hiro073|
 ; （……一旦、べつの犯行動機を検証してみよう）
-（……目前还是先验证一下其他人的作案动机吧）
+（……目前还是先验证一下其他人的作案动机吧）*
 
 # 0205Trial05_Hiro074
 ; > Hiro: |#0205Trial05_Hiro074|
@@ -872,7 +872,7 @@
 # 0205Trial05_Noah005
 ; > Noah: |#0205Trial05_Noah005|
 ; ……の、のあは悪い子じゃないよ……？
-……诺、诺亚不是坏孩子哦……？
+……诺、诺亚不是坏孩子喔……？
 
 # 0205Trial05_Hiro080
 ; > Hiro: |#0205Trial05_Hiro080|
@@ -882,7 +882,7 @@
 # 0205Trial05_Hiro081
 ; > Hiro: |#0205Trial05_Hiro081|
 ; 君には人に言えない秘密がある……そうだろう？
-你有着不能告诉别人的秘密……对吧？
+妳有着不能告诉别人的秘密……对吧？
 
 # 0205Trial05_Noah006
 ; > Noah: |#0205Trial05_Noah006|

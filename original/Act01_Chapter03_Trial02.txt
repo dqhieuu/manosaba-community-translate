@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act01_Chapter03/Act01_Chapter03_Trial02' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act01_Chapter03/Act01_Chapter03_Trial02' Naninovel scenario script
 
 # 0103Trial02_Margo001
 ; > @printDebate pos:70,50 roll:4 |#0103Trial02_Margo001|
@@ -45,7 +45,7 @@
 不过如果汉娜是陷入<br>
 <link="Objection_01_03_02_04">精神错乱</link>而自杀，<br>
 那弄乱了房间的是她<br>
-也没什么好奇怪。
+也没什么好奇怪。*
 
 # 0103Trial02_Margo007
 ; > @printDebate pos:70,50 roll:4 |#0103Trial02_Margo007|
@@ -55,7 +55,7 @@
 来解释……<br>
 我觉得，在招待所里，<br>
 再也没有除此以外的<br>
-任何<link="Objection_01_03_02_05">异常</link>了，你们说呢？
+任何<link="Objection_01_03_02_05">异常</link>了，妳们说呢？
 
 # 0103Trial02_Ema001
 ; > Ema: |#0103Trial02_Ema001|
@@ -81,7 +81,7 @@
 # 0103Trial02_Choice002
 ; > @choice |#0103Trial02_Choice002| button:ChoiceButtons/Trial/Objection handler:Trial
 ; 今は浮けなかった
-当时她已无法使用魔法
+当时她已无法使用魔法**
 
 # 0103Trial02_Choice003
 ; > @choice |#0103Trial02_Choice003| button:ChoiceButtons/Trial/Objection handler:Trial
@@ -102,7 +102,7 @@
 ; > Ema: |#0103Trial02_Ema003|
 ; 【首吊り自殺】……。<br>どうしてマーゴちゃんはそう思うの？
 【上吊自杀】……<br>
-为什么你会得出这个结论？
+为什么妳会得出这个结论？
 
 # 0103Trial02_Margo008
 ; > Margo: |#0103Trial02_Margo008|
@@ -131,7 +131,7 @@
 ; 【首吊り自殺】……とってもわかりやすいやり方よ。<br>私たちじゃなくて人形を連れて行ってくれたなんて、<br>あの子の優しさを感じるわね。
 【上吊自杀】……非常浅显易懂的选择。<br>
 她选择带人偶一起上路，而不是我们，<br>
-这正体现了她的温柔呢。
+这正体现了她的温柔呢。**
 
 # 0103Trial02_Alisa001
 ; > Alisa: |#0103Trial02_Alisa001|
@@ -197,7 +197,7 @@
 # 0103Trial02_Coco001
 ; > Coco: |#0103Trial02_Coco001|
 ; エマっち、マジ、シャラップで。
-艾玛亲，你还是别说话了吧。
+艾玛亲，妳还是别说话了吧。
 
 # 0103Trial02_Ema007
 ; > Ema: |#0103Trial02_Ema007|
@@ -290,17 +290,17 @@
 # 0103Trial02_Coco002
 ; > Coco: |#0103Trial02_Coco002|
 ; そんなの、エマっちの前ではそう振舞ってただけでしょ。
-那说不定只是在你面前装出来的样子而已。
+那说不定只是在妳面前装出来的样子而已。
 
 # 0103Trial02_Alisa005
 ; > Alisa: |#0103Trial02_Alisa005|
 ; なんかアイツ、いつも虚勢張ってるように見えたしな。
-我看那家伙平时就总爱逞强。
+我看那家伙平时就总爱逞强。**
 
 # 0103Trial02_Margo018
 ; > Margo: |#0103Trial02_Margo018|
 ; 意外かもしれないけど、そういう子ほど、<br>内に抱え込もうとするものかもしれないわ。
-也许你们会觉得意外，但正是这样的人，<br>
+也许妳们会觉得意外，但正是这样的人，<br>
 往往更容易把痛苦藏在心里。
 
 # 0103Trial02_Meruru001
@@ -319,7 +319,7 @@
 ; > Sherry: |#0103Trial02_Sherry002|
 ; もう、ダメじゃないですかエマさん。<br>メルルさんを泣かせちゃ！
 不行啊，艾玛，<br>
-你怎么把梅露露弄哭了呢！
+妳怎么把梅露露弄哭了呢！
 
 # 0103Trial02_Ema018
 ; > Ema: |#0103Trial02_Ema018|
@@ -351,7 +351,7 @@
 # 0103Trial02_Ema022
 ; > Ema: |#0103Trial02_Ema022|
 ; 不自然なことはないって言うけど……<br>事件には大きな不自然があったはずだよ。
-你说没有异常，<br>
+妳说没有异常，<br>
 可是案件中明明就存在一个很明显的不自然之处。
 
 # 0103Trial02_Margo019
@@ -362,8 +362,8 @@
 # 0103Trial02_Sherry003
 ; > Sherry: |#0103Trial02_Sherry003|
 ; その【現象】について、説明を<br>お願いしてもいいですか？<br>エマさん。
-能请你说明一下<br>
-你所说的【异常现象】吗？<br>
+能请妳说明一下<br>
+妳所说的【异常现象】吗？<br>
 艾玛。
 
 # 0103Trial02_Ema023
@@ -416,7 +416,7 @@
 # 0103Trial02_Alisa009
 ; > Alisa: |#0103Trial02_Alisa009|
 ; 自然に説明できるじゃねぇか。
-不是都能各自解释得通吗。
+不是都能各自解释得通吗。**要问待问
 
 # 0103Trial02_Ema026
 ; > Ema: |#0103Trial02_Ema026|
@@ -426,13 +426,13 @@
 # 0103Trial02_Alisa010
 ; > Alisa: |#0103Trial02_Alisa010|
 ; 【たしかに】じゃねぇよ！
-知道【没错】你还说！？
+知道【没错】妳还说！？
 
 # 0103Trial02_Ema027
 ; > Ema: |#0103Trial02_Ema027|
 ; （そ、そうだよね……<br>　もう少し冷静にならなきゃ）
 （骂得对……<br>
-　我得冷静一点才行）
+　我得冷静一点才行）**
 
 # 0103Trial02_Ema028
 ; > Ema: |#0103Trial02_Ema028|
@@ -455,7 +455,7 @@
 # 0103Trial02_Margo020
 ; > Margo: |#0103Trial02_Margo020|
 ; 死因は溺死じゃないわよ？
-死因可不是溺死哦？
+死因可不是溺死喔？
 
 # 0103Trial02_Coco003
 ; > Coco: |#0103Trial02_Coco003|
@@ -540,7 +540,7 @@
 # 0103Trial02_Nanoka004
 ; > Nanoka: |#0103Trial02_Nanoka004|
 ; あなたなりの考えがあるんでしょう。<br>聞かせてもらえるかしら。
-既然提出这个，相信你也有你的考量。<br>
+既然提出这个，相信妳也有妳的考量。<br>
 能详细解释一下吗？
 
 # 0103Trial02_Ema039
@@ -551,7 +551,7 @@
 # 0103Trial02_Alisa012
 ; > Alisa: |#0103Trial02_Alisa012|
 ; ……何も考えずに出したんじゃねぇだろうな。
-……你不会是想就没想就随口乱说的吧。
+……妳不会是想就没想就随口乱说的吧。
 
 # 0103Trial02_Ema040
 ; > Ema: |#0103Trial02_Ema040|
@@ -638,7 +638,7 @@
 # 0103Trial02_Margo027
 ; > Margo: |#0103Trial02_Margo027|
 ; 少なくとも、放火犯はハンナちゃんの死体が<br>そこにあると知っていたんでしょうね。
-不知道你们怎么看，但至少我认为，<br>
+不知道妳们怎么看，但至少我认为，<br>
 纵火犯是知道汉娜的尸体在里面的。
 
 # 0103Trial02_Sherry006

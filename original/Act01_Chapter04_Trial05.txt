@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act01_Chapter04/Act01_Chapter04_Trial05' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act01_Chapter04/Act01_Chapter04_Trial05' Naninovel scenario script
 
 # 0104Trial05_Margo001
 ; > @printDebate pos:70,50 roll:4 |#0104Trial05_Margo001|
@@ -19,7 +19,7 @@
 ; あの火傷の模様こそが<br><link="Objection_01_04_05_01">電気を流された証拠</link>ね。<br>たしか電紋と呼ぶはずよ。
 但这个灼伤的形状，正是她的身体<br>
 <link="Objection_01_04_05_01">曾经通过电的证据</link>。<br>
-我记得这种痕迹好像叫做电击纹。
+我记得这种痕迹好像叫做电击纹。**出屏
 
 # 0104Trial05_Margo004
 ; > @printDebate pos:70,50 roll:4 |#0104Trial05_Margo004|
@@ -44,7 +44,7 @@
 ; ……関係ないことは<br>黙ってくれるかしら、<br>ココちゃん。<br>今はナノカちゃんが犯人という<br>議論を進めるんだから。
 ……可可，<br>
 无关的事<br>
-能请你不要提吗。<br>
+能请妳不要提吗。<br>
 我们现在要论证的是，<br>
 奈叶香是凶手这件事。
 
@@ -97,7 +97,7 @@
 # 0104Trial05_Margo006
 ; > Margo: |#0104Trial05_Margo006|
 ; 他になんだと思うの？
-不然你觉得是什么？
+不然妳觉得是什么？
 
 # 0104Trial05_Ema004
 ; > Ema: |#0104Trial05_Ema004|
@@ -203,7 +203,7 @@
 # 0104Trial05_Margo011
 ; > Margo: |#0104Trial05_Margo011|
 ; 具体的に、いったい何がアリサちゃんに<br>火傷をつけたというのかしら？
-你要具体说清楚，<br>
+妳要具体说清楚，<br>
 亚里沙的伤到底是怎样来的？
 
 # 0104Trial05_Ema015
@@ -225,7 +225,7 @@
 # 0104Trial05_Margo012
 ; > Margo: |#0104Trial05_Margo012|
 ; エマちゃん、それは自白と取っていいのかしら？
-艾玛，我可以认为你这是在不打自招吗？
+艾玛，我可以认为妳这是在不打自招吗？
 
 # 0104Trial05_Ema017
 ; > Ema: |#0104Trial05_Ema017|
@@ -257,7 +257,7 @@
 ; > Margo: |#0104Trial05_Margo013|
 ; エマちゃんで試してあげましょうか？<br>ロウソクのロウって、とっても熱いのよ……♡
 要不让艾玛来试试看？<br>
-蜡烛的蜡油可是很烫很烫的哦……♡
+蜡烛的蜡油可是很烫很烫的喔……♡
 
 # 0104Trial05_Ema020
 ; > Ema: |#0104Trial05_Ema020|
@@ -324,7 +324,7 @@
 # 0104Trial05_Ema028
 ; > Ema: |#0104Trial05_Ema028|
 ; メルルちゃん、アリサちゃんに渡したビンのフタには<br>この模様はついてたのかな？
-梅露露，你交给亚里沙的药瓶盖子上<br>
+梅露露，妳交给亚里沙的药瓶盖子上<br>
 也有这个图案对吗？
 
 # 0104Trial05_Meruru004

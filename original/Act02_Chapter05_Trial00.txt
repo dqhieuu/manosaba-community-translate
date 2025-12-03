@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter05/Act02_Chapter05_Trial00' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act02_Chapter05/Act02_Chapter05_Trial00' Naninovel scenario script
 
 # 0205Trial00_Hiro001
 ; > Hiro: |#0205Trial00_Hiro001|
@@ -42,7 +42,7 @@
 # 0205Trial00_Hiro005
 ; > Hiro: |#0205Trial00_Hiro005|
 ; （それによって何が起こるか未知数な部分はある……）
-（虽然我不完全了解，召唤后会引发怎样的情况……）
+（虽然我不完全了解，召唤后会引发怎样的情况……）*
 
 # 0205Trial00_Hiro006
 ; > Hiro: |#0205Trial00_Hiro006|
@@ -66,14 +66,14 @@
 # 0205Trial00_Coco001
 ; > Coco: |#0205Trial00_Coco001|
 ; ……つーかこんなとこ集められてもさ。<br>あてぃしら何したらいいわけ？
-……我说啊，你把我们召集来这种地方，<br>
+……我说啊，妳把我们召集来这种地方，<br>
 到底要我们干嘛？
 
 # 0205Trial00_Leia001
 ; > Leia: |#0205Trial00_Leia001|
 ; その通りだ！<br>私たちに何をさせるつもりだっ！
 没错！<br>
-你到底打算让我们做什么！
+妳到底打算让我们做什么！
 
 # 0205Trial00_Hiro009
 ; > Hiro: |#0205Trial00_Hiro009|
@@ -119,7 +119,7 @@
 # 0205Trial00_Hiro015
 ; > Hiro: |#0205Trial00_Hiro015|
 ; ……協力してくれるね？
-……你会协助我的，对吧？
+……妳会协助我的，对吧？
 
 # 0205Trial00_Meruru002
 ; > Meruru: |#0205Trial00_Meruru002|
@@ -135,7 +135,7 @@
 # 0205Trial00_Alisa002
 ; > Alisa: |#0205Trial00_Alisa002|
 ; この中から魔女でも探そうってのかよ。
-你是想从我们之中找出魔女吗？
+妳是想从我们之中找出魔女吗？
 
 # 0205Trial00_Margo001
 ; > Margo: |#0205Trial00_Margo001|
@@ -151,13 +151,13 @@
 # 0205Trial00_Hiro016
 ; > Hiro: |#0205Trial00_Hiro016|
 ; この際……そう思ってくれて構わない。
-事到如今……你们要这么想也无妨。
+事到如今……妳们要这么想也无妨。
 
 # 0205Trial00_Hiro017
 ; > Hiro: |#0205Trial00_Hiro017|
 ; だが、私だけでなく君たちの中の魔女も<br>見つけさせてもらおうか。
 但是，除了我之外，<br>
-我也要把你们之中的魔女找出来。
+我也要把妳们之中的魔女找出来。
 
 # 0205Trial00_Ema001
 ; > Ema: |#0205Trial00_Ema001|
@@ -210,7 +210,7 @@
 ; > Coco: |#0205Trial00_Coco002|
 ; ……つーかさっき<br>なんか化け物とごちゃごちゃ言ってたじゃん。
 ……话说刚才，<br>
-你不是跟什么怪物叽里咕噜说了一通吗。
+妳不是跟什么怪物叽里咕噜说了一通吗。
 
 # 0205Trial00_Coco003
 ; > Coco: |#0205Trial00_Coco003|
@@ -225,7 +225,7 @@
 # 0205Trial00_Meruru004
 ; > Meruru: |#0205Trial00_Meruru004|
 ; ……その通りです。<br>もう隠す意味はなさそうですが……。
-……你说得没错。<br>
+……妳说得没错。<br>
 事到如今好像也没必要隐瞒了……
 
 # 0205Trial00_Meruru005
@@ -248,17 +248,17 @@
 # 0205Trial00_Hiro024
 ; > Hiro: |#0205Trial00_Hiro024|
 ; ……しかし、１つ聞いてもいいかな。
-……不好意思，我有一个问题想问你一下。
+……不好意思，我有一个问题想问妳一下。
 
 # 0205Trial00_Hiro025
 ; > Hiro: |#0205Trial00_Hiro025|
 ; 君は魔女なのに姿形が通常の人間と変わりない。
-你明明是魔女，外形却和普通人没什么两样。
+妳明明是魔女，外形却和普通人没什么两样。
 
 # 0205Trial00_Hiro026
 ; > Hiro: |#0205Trial00_Hiro026|
 ; ……私のように、【魔女化】はしていないのかな。
-……难道你没有像我一样产生【魔女化】吗？
+……难道妳没有像我一样产生【魔女化】吗？
 
 # 0205Trial00_Meruru007
 ; > Meruru: |#0205Trial00_Meruru007|

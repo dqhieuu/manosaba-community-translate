@@ -1,124 +1,124 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'CharacterNames' managed text document
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'CharacterNames' managed text document
 
 ; 紫藤アリサ
-Alisa: 紫藤亚里沙
+Alisa: 
 
 ; 夏目アンアン
-AnAn: 夏目安安
+AnAn: 
 
 ; 島の大魔女
-BigWitch: 小岛的大魔女
+BigWitch: 
 
 ; 沢渡ココ
-Coco: 泽渡可可
+Coco: 
 
 ; 紫藤アリサ
-CreatureAlisa: 紫藤亚里沙
+CreatureAlisa: 
 
 ; 夏目アンアン
-CreatureAnAn: 夏目安安
+CreatureAnAn: 
 
 ; 沢渡ココ
-CreatureCoco: 泽渡可可
+CreatureCoco: 
 
 ; 桜羽エマ
-CreatureEma: 樱羽艾玛
+CreatureEma: 
 
 ; 遠野ハンナ
-CreatureHanna: 远野汉娜
+CreatureHanna: 
 
 ; 二階堂ヒロ
-CreatureHiro: 二阶堂希罗
+CreatureHiro: 
 
 ; 蓮見レイア
-CreatureLeia: 莲见蕾雅
+CreatureLeia: 
 
 ; 宝生マーゴ
-CreatureMargo: 宝生玛格
+CreatureMargo: 
 
 ; 氷上メルル
-CreatureMeruru: 冰上梅露露
+CreatureMeruru: 
 
 ; 佐伯ミリア
-CreatureMiria: 佐伯米莉亚
+CreatureMiria: 
 
 ; 黒部ナノカ
-CreatureNanoka: 黑部奈叶香
+CreatureNanoka: 
 
 ; 城ケ崎ノア
-CreatureNoah: 城崎诺亚
+CreatureNoah: 
 
 ; 橘シェリー
-CreatureSherry: 橘雪莉
+CreatureSherry: 
 
 ; 桜羽エマ
-Ema: 樱羽艾玛
+Ema: 
 
 ; 桜羽エマ？
-EmaFake: 樱羽艾玛？
+EmaFake: 
 
 ; 少女
-Girl: 少女
+Girl: 
 
 ; 遠野ハンナ
-Hanna: 远野汉娜
+Hanna: 
 
 ; 二階堂ヒロ
-Hiro: 二阶堂希罗
+Hiro: 
 
 ; 看守
-Jailer: 看守
+Jailer: 
 
 ; 看守
-JailerB: 看守
+JailerB: 
 
 ; 看守
-JailerC: 看守
+JailerC: 
 
 ; 蓮見レイア
-Leia: 莲见蕾雅
+Leia: 
 
 ; 宝生マーゴ
-Margo: 宝生玛格
+Margo: 
 
 ; 氷上メルル
-Meruru: 冰上梅露露
+Meruru: 
 
 ; 佐伯ミリア
-Miria: 佐伯米莉亚
+Miria: 
 
 ; 黒部ナノカ
-Nanoka: 黑部奈叶香
+Nanoka: 
 
 ; なれはて
-Narehate: 残骸
+Narehate: 
 
 ; 城ケ崎ノア
-Noah: 城崎诺亚
+Noah: 
 
 ; ウサギ
-Rabbit: 兔子
+Rabbit: 
 
 ; 橘シェリー
-Sherry: 橘雪莉
+Sherry: 
 
 ; 野良のなれはて
-StrayNarehate: 流浪的残骸
+StrayNarehate: 
 
 ; ？？？
-Unknown: ? ? ?
+Unknown: 
 
 ; ゴクチョー
-Warden: 典狱长
+Warden: 
 
-; 魔女候補1
-WitchCandidate1: 预备魔女1
+; 魔女候補１
+WitchCandidate1: 
 
-; 魔女候補2
-WitchCandidate2: 预备魔女2
+; 魔女候補２
+WitchCandidate2: 
 
-; 魔女候補3
-WitchCandidate3: 预备魔女3
+; 魔女候補３
+WitchCandidate3: 
 
 ; 月代ユキ
-Yuki: 月代雪
+Yuki: 

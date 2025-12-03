@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter04/Act02_Chapter04_Adv07' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act02_Chapter04/Act02_Chapter04_Adv07' Naninovel scenario script
 
 # 0204Adv07_Narrative001
 ; 私とレイアは花畑に来ていた。
@@ -28,7 +28,7 @@
 ; > Leia: |#0204Adv07_Leia001|
 ; 天気もいいし、ここは気持ちが良いね。<br>エマくんはここでお花摘みでもしているのかい？
 天气这么好，待在这里确实很舒服。<br>
-艾玛，你是在这里采花吗？
+艾玛，妳是在这里采花吗？
 
 # 0204Adv07_Ema002
 ; > Ema: |#0204Adv07_Ema002|

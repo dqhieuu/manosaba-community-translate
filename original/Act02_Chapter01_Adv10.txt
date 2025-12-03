@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter01/Act02_Chapter01_Adv10' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act02_Chapter01/Act02_Chapter01_Adv10' Naninovel scenario script
 
 # 0201Adv10_Narrative001
 ; ――監獄生活２周目、２日目。<br>マーゴが看守に重傷を負わされた。

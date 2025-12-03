@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter02/Act02_Chapter02_Trial00' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act02_Chapter02/Act02_Chapter02_Trial00' Naninovel scenario script
 
 # 0202Trial00_Hiro001
 ; > Hiro: |#0202Trial00_Hiro001|
@@ -40,8 +40,8 @@
 # 0202Trial00_Alisa001
 ; > Alisa: |#0202Trial00_Alisa001|
 ; ……言うほど悲しんでるようには<br>見えねーけどな。
-……但你看上去<br>
-没你嘴上说得那么难过啊。
+……但妳看上去<br>
+没妳嘴上说得那么难过啊。
 
 # 0202Trial00_Leia003
 ; > Leia: |#0202Trial00_Leia003|
@@ -81,7 +81,7 @@
 # 0202Trial00_Leia005
 ; > Leia: |#0202Trial00_Leia005|
 ; ……うん、キミは人の話を<br>聞かないみたいだね。
-……嗯，看来你<br>
+……嗯，看来妳<br>
 根本听不进别人的话。
 
 # 0202Trial00_Leia006
@@ -173,5 +173,5 @@
 # 0202Trial00_Leia016
 ; > Leia: |#0202Trial00_Leia016|
 ; それでは聞かせてもらおうか、アリサくん。<br>……キミの意見を！
-那亚里沙，你不妨说说看吧。<br>
-……说出你的高见！
+那亚里沙，妳不妨说说看吧。<br>
+……说出妳的高见！

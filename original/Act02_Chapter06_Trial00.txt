@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter06/Act02_Chapter06_Trial00' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act02_Chapter06/Act02_Chapter06_Trial00' Naninovel scenario script
 
 # 0206Trial00_Yuki001
 ; > Yuki: |#0206Trial00_Yuki001|
@@ -18,7 +18,7 @@
 # 0206Trial00_Alisa001
 ; > Alisa: |#0206Trial00_Alisa001|
 ; ……つーか、おめえらの姿……<br>戻ってねぇか。
-……话说，你们的身体……<br>
+……话说，妳们的身体……<br>
 是不是恢复原状了？
 
 # 0206Trial00_Leia001
@@ -30,7 +30,7 @@
 # 0206Trial00_Alisa002
 ; > Alisa: |#0206Trial00_Alisa002|
 ; なんでがっかりしてんだよ。
-为什么你会一脸失望啊。
+为什么妳会一脸失望啊。
 
 # 0206Trial00_Noah001
 ; > Noah: |#0206Trial00_Noah001|
@@ -52,7 +52,7 @@
 # 0206Trial00_Margo001
 ; > Margo: |#0206Trial00_Margo001|
 ; ……たしかにそれなら、<br>魔女化が解除されてもおかしくはないわね？
-……确实，照你这么说，<br>
+……确实，照妳这么说，<br>
 我们的魔女化被解除也是正常的？
 
 # 0206Trial00_Sherry001
@@ -98,7 +98,7 @@
 ; > Yuki: |#0206Trial00_Yuki002|
 ; ……にぎやかですね。<br>あなたのお友だちは。
 ……真喧闹啊。<br>
-——你的朋友们。
+——妳的朋友们。
 
 # 0206Trial00_Ema001
 ; > Ema: |#0206Trial00_Ema001|
@@ -113,7 +113,7 @@
 # 0206Trial00_Ema003
 ; > Ema: |#0206Trial00_Ema003|
 ; どうしてキミなんだ……。
-为什么会是你啊……
+为什么会是妳啊……
 
 # 0206Trial00_Ema004
 ; > Ema: |#0206Trial00_Ema004|
@@ -128,7 +128,7 @@
 # 0206Trial00_Hiro001
 ; > Hiro: |#0206Trial00_Hiro001|
 ; ……聞かせてもらおうか。
-……那就请你说说看吧。
+……那就请妳说说看吧。
 
 # 0206Trial00_Hiro002
 ; > Hiro: |#0206Trial00_Hiro002|

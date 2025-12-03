@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act01_Chapter05/Act01_Chapter05_Bad01' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act01_Chapter05/Act01_Chapter05_Bad01' Naninovel scenario script
 
 # 0105Bad01_Ema001
 ; > Ema: |#0105Bad01_Ema001|
@@ -33,15 +33,15 @@
 
 # 0105Bad01_Ema003
 ; > Ema: |#0105Bad01_Ema003|
-; メルルちゃんは、僕の友だち、だから！<br>こんなの……。
-梅露露你是我的朋友啊！<br>
-所以你根本没必要……
+; メルルちゃんは、ボクの友だち、だから！<br>こんなの……。
+梅露露妳是我的朋友啊！<br>
+所以妳根本没必要……
 
 # 0105Bad01_Meruru002
 ; > Meruru: |#0105Bad01_Meruru002|
 ; エマさん、ありがとうございます。<br>そんな風に言ってくれるなんて、嬉しいです。
-艾玛小姐，谢谢你。<br>
-能听到你这样说，我真是太高兴了。
+艾玛小姐，谢谢妳。<br>
+能听到妳这样说，我真是太高兴了。
 
 # 0105Bad01_Meruru003
 ; > Meruru: |#0105Bad01_Meruru003|
@@ -57,7 +57,7 @@
 # 0105Bad01_Ema004
 ; > Ema: |#0105Bad01_Ema004|
 ; じゃ、じゃあ！ これで――。
-那、那么！你——
+那、那么！妳——
 
 # 0105Bad01_Meruru004
 ; > Meruru: |#0105Bad01_Meruru004|
@@ -83,7 +83,7 @@
 # 0105Bad01_Coco001
 ; > Coco: |#0105Bad01_Coco001|
 ; く、く……クソじゃんお前！<br>なんで！？ 意味不明！ ちょっと待てって助けて！
-可、可恶……你这混蛋！<br>
+可、可恶……妳这混蛋！<br>
 为什么！？莫名其妙！等一下啊，救命！
 
 # 0105Bad01_Meruru005
@@ -96,7 +96,7 @@
 ; > Meruru: |#0105Bad01_Meruru006|
 ; ……ごめんなさい、みなさん。<br>みなさん、とっても良い人たちでした。
 ……对不起，大家。<br>
-你们都是非常好的人。
+妳们都是非常好的人。
 
 # 0105Bad01_Meruru007
 ; > Meruru: |#0105Bad01_Meruru007|
@@ -206,7 +206,7 @@
 # 0105Bad01_Meruru015
 ; > Meruru: |#0105Bad01_Meruru015|
 ; 宝物のような時間をありがとう。
-谢谢你们给予我这宝贵的时光。
+谢谢妳们给予我这宝贵的时光。
 
 # 0105Bad01_Warden005
 ; > Warden: |#0105Bad01_Warden005|
@@ -275,7 +275,7 @@
 # 0105Bad01_Meruru018
 ; > Meruru: |#0105Bad01_Meruru018|
 ; 私は綺麗だから好きですよ。
-我觉得很漂亮，所以蛮喜欢的哦。
+我觉得很漂亮，所以蛮喜欢的喔。
 
 # 0105Bad01_Meruru019
 ; > Meruru: |#0105Bad01_Meruru019|
@@ -294,7 +294,7 @@
 
 # 0105Bad01_Narrative021
 ; いくつもある手で複数の本を持っており、<br>その内の１冊をメルルに差し出す。
-它用身上的多只手拿着好几本书，<br>
+牠用身上的多只手拿着好几本书，<br>
 将其中一本递给了梅露露。
 
 # 0105Bad01_Meruru020

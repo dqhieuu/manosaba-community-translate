@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter05/Act02_Chapter05_Trial21' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act02_Chapter05/Act02_Chapter05_Trial21' Naninovel scenario script
 
 # 0205Trial21_Alisa001
 ; > @printDebate pos:70,50 roll:4 |#0205Trial21_Alisa001|
@@ -15,7 +15,7 @@
 # 0205Trial21_Alisa003
 ; > @printDebate pos:70,50 roll:4 |#0205Trial21_Alisa003|
 ; お前らだって<br>人に言えないことの<br>１つや２つ<br><link="Objection_02_05_21_01">やってきた</link>んだろ……！？
-你们也肯定<br>
+妳们也肯定<br>
 <link="Objection_02_05_21_01">有做过</link>一两件<br>
 不可告人的事吧……！？<br>
 
@@ -44,20 +44,20 @@
 # 0205Trial21_Alisa007
 ; > @printDebate pos:70,50 roll:4 |#0205Trial21_Alisa007|
 ; 骨すら残さねーぐらい、<br>ウチが燃やし尽くしてやる！
-我会把你们<br>
+我会把妳们<br>
 烧得连骨头都不剩！
 
 # 0205Trial21_Alisa008
 ; > @printDebate pos:70,50 roll:4 |#0205Trial21_Alisa008|
 ; 安心しな……<br>ウチだっててめーらと同じ<br><link="Objection_02_05_21_05">罪人</link>の１人だ。
 放心吧……<br>
-我跟你们一样，<br>
+我跟妳们一样，<br>
 我也是个<link="Objection_02_05_21_05">罪人</link>。
 
 # 0205Trial21_Alisa009
 ; > @printDebate pos:70,50 roll:4 |#0205Trial21_Alisa009|
 ; おめえらの後は、<br>すぐに追いかけてやるよ！
-等你们都上路了，<br>
+等妳们都上路了，<br>
 我马上就会跟上来！
 
 # 0205Trial21_Hiro001
@@ -73,7 +73,7 @@
 # 0205Trial21_Hiro003
 ; > Hiro: |#0205Trial21_Hiro003|
 ; （失うわけにはいかないんだ。<br>　私たちの命も……そして、君の命も！）
-（不管是我们，还是你……<br>
+（不管是我们，还是妳……<br>
 　都绝不能丢掉生命！）
 
 # 0205Trial21_Choice001
@@ -90,7 +90,7 @@
 ; > MARK: 10-21-3: ❌ 通過
 ; > @choice |#0205Trial21_Choice002| button:ChoiceButtons/Trial/Objection handler:TrialHiro
 ; 私は許す
-我原谅你
+我原谅妳
 
 # 0205Trial21_Choice003
 ; > @choice |#0205Trial21_Choice003| button:ChoiceButtons/Trial/Objection handler:TrialHiro
@@ -100,7 +100,7 @@
 # 0205Trial21_Choice004
 ; > @choice |#0205Trial21_Choice004| button:ChoiceButtons/Trial/Approval handler:TrialHiro
 ; 力づくで止めてやる
-动手阻止你
+动手阻止妳
 
 # 0205Trial21_Choice005
 ; > @choice |#0205Trial21_Choice005| button:ChoiceButtons/Trial/MagicNanoka handler:TrialHiro
@@ -165,7 +165,7 @@
 ; > Hiro: |#0205Trial21_Hiro006|
 ; ……すまない。<br>休んでいてくれ、ナノカ。
 ……抱歉。<br>
-你好好休息吧，奈叶香。
+妳好好休息吧，奈叶香。
 
 # Toast_001
 ; > @toast "|#Toast_001|"
@@ -240,7 +240,7 @@
 # 0205Trial21_Alisa013
 ; > Alisa: |#0205Trial21_Alisa013|
 ; キレイごと言ってんじゃねぇ！
-别扯你的大道理了！
+别扯妳的大道理了！
 
 # 0205Trial21_Alisa014
 ; > Alisa: |#0205Trial21_Alisa014|
@@ -329,7 +329,7 @@
 # 0205Trial21_Hiro028
 ; > Hiro: |#0205Trial21_Hiro028|
 ; 私は……許すよ、アリサ。
-我……原谅你，亚里沙。
+我……原谅妳，亚里沙。
 
 # 0205Trial21_Alisa016
 ; > Alisa: |#0205Trial21_Alisa016|
@@ -339,18 +339,18 @@
 # 0205Trial21_Hiro029
 ; > Hiro: |#0205Trial21_Hiro029|
 ; 君が過去にしたことも、全て。
-原谅你，过去所做的一切。
+原谅妳，过去所做的一切。
 
 # 0205Trial21_Alisa017
 ; > Alisa: |#0205Trial21_Alisa017|
 ; おめえに……何がわかるってんだ！
-你……懂什么啊！
+妳……懂什么啊！
 
 # 0205Trial21_Hiro030
 ; > Hiro: |#0205Trial21_Hiro030|
 ; わからない。<br>……それでも、許すんだ。
 我不懂。<br>
-……可就算如此，我也原谅你。
+……可就算如此，我也原谅妳。
 
 # 0205Trial21_Alisa018
 ; > Alisa: |#0205Trial21_Alisa018|
@@ -371,38 +371,38 @@
 # 0205Trial21_Hiro032
 ; > Hiro: |#0205Trial21_Hiro032|
 ; ……誰かが君を、許さなくちゃいけないんだ。
-……也必须，有人来原谅你。
+……也必须，有人来原谅妳。
 
 # 0205Trial21_Hiro033
 ; > Hiro: |#0205Trial21_Hiro033|
 ; 人を殺し、周りを殺し……<br>そして最後には自分も殺すか？
-你要杀人，杀身边的人……<br>
+妳要杀人，杀身边的人……<br>
 到最后要把自己也杀了？
 
 # 0205Trial21_Hiro034
 ; > Hiro: |#0205Trial21_Hiro034|
 ; まるで泣きわめく赤ん坊を見ているかのようだ。
-我看你就跟只会一个劲哭的婴孩一样。
+我看妳就跟只会一个劲哭的婴孩一样。
 
 # 0205Trial21_Alisa020
 ; > Alisa: |#0205Trial21_Alisa020|
 ; なっ……！？<br>んだとおめえ……！
 什……！？<br>
-你这家伙在说什么……！
+妳这家伙在说什么……！
 
 # 0205Trial21_Hiro035
 ; > Hiro: |#0205Trial21_Hiro035|
 ; 君がやっていることは、<br>そんな子どもの癇癪と<br>変わらないと言っているんだ。
-我说你正在做的事情，<br>
+我说妳正在做的事情，<br>
 和小孩子发脾气<br>
 没什么两样。
 
 # 0205Trial21_Hiro036
 ; > Hiro: |#0205Trial21_Hiro036|
 ; ……君の行動で人死にが出たと言ったな。<br>だが君が後ろ向きに自罰を続ければ、<br>被害者が生き返るのか？
-……你说你的行为害死了人。<br>
-但你一直消极地自罚下去，<br>
-受害者就会复活吗？
+……妳说妳的行为害死了人。<br>
+但妳一直消极地自罚下去，<br>
+受害者就会复活吗？*
 
 # 0205Trial21_Alisa021
 ; > Alisa: |#0205Trial21_Alisa021|
@@ -413,17 +413,17 @@
 ; > Hiro: |#0205Trial21_Hiro037|
 ; 何があったかは知らない。<br>君の過去を知る気もない。
 我不知道发生了什么。<br>
-也不打算了解你的过去。
+也不打算了解妳的过去。
 
 # 0205Trial21_Hiro038
 ; > Hiro: |#0205Trial21_Hiro038|
 ; だが君がしている自傷や自罰は、償いではない。
-但你的自残和自罚，并非赎罪。
+但妳的自残和自罚，并非赎罪。
 
 # 0205Trial21_Hiro039
 ; > Hiro: |#0205Trial21_Hiro039|
 ; ただの自己満足で、君が楽になるための現実逃避だ！
-只是自我满足，是让自己落得轻松的逃避现实罢了！
+只是自我满足，是让自己落得轻松的逃避现实罢了！*
 
 # 0205Trial21_Alisa022
 ; > Alisa: |#0205Trial21_Alisa022|
@@ -433,17 +433,17 @@
 # 0205Trial21_Hiro040
 ; > Hiro: |#0205Trial21_Hiro040|
 ; ……だから、私は君を許すんだ。
-……所以，我才要原谅你。
+……所以，我才要原谅妳。
 
 # 0205Trial21_Hiro041
 ; > Hiro: |#0205Trial21_Hiro041|
 ; 無関係だからこそ、君を受け入れる。
-正因为非亲非故，我才要接纳你。
+正因为非亲非故，我才要接纳妳。
 
 # 0205Trial21_Hiro042
 ; > Hiro: |#0205Trial21_Hiro042|
 ; 友人として君を支えよう。
-我会以朋友的身份支持你。
+我会以朋友的身份支持妳。
 
 # 0205Trial21_Hiro043
 ; > Hiro: |#0205Trial21_Hiro043|
@@ -458,13 +458,13 @@
 # 0205Trial21_Hiro044
 ; > Hiro: |#0205Trial21_Hiro044|
 ; ……生きるんだよ、アリサ。
-……你要活下去，亚里沙。
+……妳要活下去，亚里沙。
 
 # 0205Trial21_Hiro045
 ; > Hiro: |#0205Trial21_Hiro045|
 ; そして悔いて、罪に向き合い続けるんだ。<br>それが君の――。
 然后去后悔，去背负起罪孽。<br>
-那才是你的——
+那才是妳的——
 
 # 0205Trial21_Hiro046
 ; > Hiro: |#0205Trial21_Hiro046|

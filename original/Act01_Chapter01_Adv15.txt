@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act01_Chapter01/Act01_Chapter01_Adv15' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act01_Chapter01/Act01_Chapter01_Adv15' Naninovel scenario script
 
 # 0101Adv15_Narrative001
 ; エマたちが地下を歩き回っていると、<br>気になる場所にたどりついた。
@@ -39,7 +39,7 @@
 # 0101Adv15_Sherry002
 ; > Sherry: |#0101Adv15_Sherry002|
 ; 大丈夫ですか、エマさん。<br>一体何をそんなに驚いて――。
-你没事吧，艾玛。<br>
+妳没事吧，艾玛。<br>
 究竟有什么这么可怕的——
 
 # 0101Adv15_Narrative005
@@ -116,7 +116,7 @@
 # 0101Adv15_Alisa003
 ; > Alisa: |#0101Adv15_Alisa003|
 ; あ……？ 誰だてめえら……。
-啊……？你们谁啊……
+啊……？妳们谁啊……
 
 # 0101Adv15_Narrative010
 ; アリサは<ruby="たっけいだい">磔刑台</ruby>に拘束されており、<br>ずいぶん消耗している様子だった。
@@ -130,8 +130,8 @@
 # 0101Adv15_Sherry006
 ; > Sherry: |#0101Adv15_Sherry006|
 ; 大丈夫ですか？<br>ひどいことをされたのでしょうか？
-你没事吧？<br>
-你遭了很过分的刑罚吗？
+妳没事吧？<br>
+妳遭了很过分的刑罚吗？
 
 # 0101Adv15_Narrative012
 ; アリサのぎらぎらした瞳が、<br>エマとシェリーを強く<ruby="にら">睨</ruby>む。
@@ -141,19 +141,19 @@
 # 0101Adv15_Alisa004
 ; > Alisa: |#0101Adv15_Alisa004|
 ; てめえらに関係ねーだろ……。
-跟你们没关系吧……
+跟妳们没关系吧……
 
 # 0101Adv15_Alisa005
 ; > Alisa: |#0101Adv15_Alisa005|
 ; ……ああでも、ひとつ忠告しといてやる。<br>屋敷から遠くまで逃げると、<br>監視のバケモンフクロウが大量に飛んでやがったよ。
-……啊，不过我要给你们一个忠告。<br>
+……啊，不过我要给妳们一个忠告。<br>
 之前我往远离宅邸的方向逃跑，<br>
 看到那边有一大堆怪物猫头鹰在监视。
 
 # 0101Adv15_Alisa006
 ; > Alisa: |#0101Adv15_Alisa006|
 ; そいつらに見つかった途端、<br>看守が飛んできた。脱獄は難しいってことだ。
-它们一发现我，<br>
+牠们一发现我，<br>
 马上就有看守赶过来了。越狱太难了。
 
 # 0101Adv15_Alisa007
@@ -178,7 +178,7 @@
 # 0101Adv15_Alisa008
 ; > Alisa: |#0101Adv15_Alisa008|
 ; っ……笑いに来やがったのかてめえ！<br>あっち行けよ！ 消えろ！！
-啧……你是过来取笑我的对吧！<br>
+啧……妳是过来取笑我的对吧！<br>
 滚一边去！滚蛋！！
 
 # 0101Adv15_Narrative013

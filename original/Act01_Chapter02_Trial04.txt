@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act01_Chapter02/Act01_Chapter02_Trial04' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act01_Chapter02/Act01_Chapter02_Trial04' Naninovel scenario script
 
 # 0102Trial04_Nanoka001
 ; > @printDebate pos:70,50 roll:4 |#0102Trial04_Nanoka001|
@@ -25,14 +25,14 @@
 # 0102Trial04_Hanna001
 ; > @printDebate pos:30,50 roll:-4 |#0102Trial04_Hanna001|
 ; わたくしたちの事、<br>見てたんですの……！？
-你看到<br>
+妳看到<br>
 我们了……！？
 
 # 0102Trial04_Nanoka004
 ; > @printDebate pos:70,50 roll:4 |#0102Trial04_Nanoka004|
 ; ええ。<br>何やら騒がしかったのも<br>あってね。
 是啊，<br>
-因为你们<br>
+因为妳们<br>
 太吵了。
 
 # 0102Trial04_Nanoka005
@@ -53,7 +53,7 @@
 # 0102Trial04_Sherry001
 ; > @printDebate pos:30,50 roll:-4 |#0102Trial04_Sherry001|
 ; じゃあナノカさんは<br>【２１時】に発見する<br>よりも前に死体を<br>発見していたって<br>事ですね！
-那就是说，你在<br>
+那就是说，妳在<br>
 【晚9点】之前<br>
 就发现了<br>
 尸体！<br>
@@ -113,7 +113,7 @@
 # 0102Trial04_Coco001
 ; > @printDebate pos:30,50 roll:-4 |#0102Trial04_Coco001|
 ; ただの嘘つきじゃん！<br>……今のも<br>口から出任せかも<br>しんないし！
-你就是在骗我们吧！<br>
+妳就是在骗我们吧！<br>
 ……刚才那番话<br>
 搞不好<br>
 也是现编的！
@@ -135,25 +135,26 @@
 <link="Objection_01_02_04_01">她</link>就已经死了。<br>
 然后我<br>
 <link="Objection_01_02_04_02">捡起钥匙锁上了门</link>。<br>
-……这<link="Objection_01_02_04_03">有什么问题</link>吗？
+……这<link="Objection_01_02_04_03">有什么问题</link>吗？*<br>
+
 
 # 0102Trial04_Coco002
 ; > @printDebate pos:30,50 roll:-4 |#0102Trial04_Coco002|
 ; 大ありだっての！<br>コイツ！<br>その、あの……！
 问题可大了！<br>
-你这家伙！<br>
+妳这家伙！<br>
 那、那什么来着……！
 
 # 0102Trial04_Coco003
 ; > @printDebate pos:30,50 roll:-4 |#0102Trial04_Coco003|
 ; ……嘘つき！！
-……你这个大骗子！！
+……妳这个大骗子！！
 
 # 0102Trial04_Nanoka014
 ; > @printDebate pos:70,50 roll:4 |#0102Trial04_Nanoka014|
 ; ……甘んじて<br>受け入れるわ。<br>ごめんなさい。
 ……那我只能<br>
-接受你的批评了。<br>
+接受妳的批评了。<br>
 对不起。
 
 # 0102Trial04_Ema001
@@ -207,7 +208,7 @@
 # 0102Trial04_Ema004
 ; > Ema: |#0102Trial04_Ema004|
 ; 見間違いではなく？
-你确定没看错？
+妳确定没看错？
 
 # 0102Trial04_Nanoka016
 ; > Nanoka: |#0102Trial04_Nanoka016|
@@ -219,7 +220,7 @@
 # 0102Trial04_Ema005
 ; > Ema: |#0102Trial04_Ema005|
 ; でもナノカちゃんなら、偽装できるんじゃないかな。<br>そこにミリアちゃんがいたかどうかや、<br>彼女の生死なんかも……。
-但是你可以伪造现场吧。<br>
+但是妳可以伪造现场吧。<br>
 至于她当时究竟在不在那里，<br>
 是死是活，谁也说不清……
 
@@ -270,7 +271,7 @@
 # 0102Trial04_Nanoka019
 ; > Nanoka: |#0102Trial04_Nanoka019|
 ; 私に言われても困るわね。
-就算你有再大的意见，我也给不出其他答案。
+就算妳有再大的意见，我也给不出其他答案。
 
 # 0102Trial04_Sherry002
 ; > Sherry: |#0102Trial04_Sherry002|
@@ -318,7 +319,7 @@
 ; > Ema: |#0102Trial04_Ema014|
 ; ……ちょっと待って。<br>その時系列って……おかしくない？
 ……等等。<br>
-你不觉得……事情发生的时间顺序有些奇怪吗？
+妳不觉得……事情发生的时间顺序有些奇怪吗？
 
 # 0102Trial04_Nanoka020
 ; > Nanoka: |#0102Trial04_Nanoka020|
@@ -354,7 +355,7 @@
 # 0102Trial04_Coco005
 ; > Coco: |#0102Trial04_Coco005|
 ; エマっち、それはないわ～。
-艾玛亲，你这样可不行啊～
+艾玛亲，妳这样可不行啊～
 
 # 0102Trial04_Ema017
 ; > Ema: |#0102Trial04_Ema017|
@@ -386,7 +387,7 @@
 # 0102Trial04_Ema019
 ; > Ema: |#0102Trial04_Ema019|
 ; それって、もしかして……！
-你说的难道是……！
+妳说的难道是……！
 
 # 0102Trial04_Hanna004
 ; > Hanna: |#0102Trial04_Hanna004|
@@ -450,7 +451,7 @@
 ; > Meruru: |#0102Trial04_Meruru006|
 ; エマさん……！<br>着眼点は間違っていないかもしれません……！
 艾玛小姐……！<br>
-你的着眼点应该没错……！
+妳的着眼点应该没错……！
 
 # 0102Trial04_Meruru007
 ; > Meruru: |#0102Trial04_Meruru007|
@@ -467,13 +468,13 @@
 # 0102Trial04_Ema022
 ; > Ema: |#0102Trial04_Ema022|
 ; それって、もしかして……！
-你说的难道是……！
+妳说的难道是……！
 
 # 0102Trial04_Ema023
 ; > Ema: |#0102Trial04_Ema023|
 ; 録音にもある通り、<br>ハンナちゃんはミリアちゃんの<br>【悲鳴】を聞いているんだよね？
 就跟录音内容一样，<br>
-汉娜你听见了米莉亚的<br>
+汉娜妳听见了米莉亚的<br>
 【惨叫】，对不对？
 
 # 0102Trial04_Hanna005
@@ -544,7 +545,7 @@
 # 0102Trial04_Nanoka028
 ; > Nanoka: |#0102Trial04_Nanoka028|
 ; ……私と２人の証言には決定的な食い違いが存在する。
-……我和你们的证词之间存在决定性的矛盾。
+……我和妳们的证词之间存在决定性的矛盾。
 
 # 0102Trial04_Nanoka029
 ; > Nanoka: |#0102Trial04_Nanoka029|
@@ -571,13 +572,13 @@
 # 0102Trial04_Meruru010
 ; > Meruru: |#0102Trial04_Meruru010|
 ; エマさんがひとりで全部を背負わなくても大丈夫ですからね。<br>……自分ひとりで推理する必要はありません。
-你不必独自承担一切。<br>
+妳不必独自承担一切。<br>
 ……没必要只靠自己一个人推理。
 
 # 0102Trial04_Meruru011
 ; > Meruru: |#0102Trial04_Meruru011|
 ; 時には、他の人の意見をそのまま取り入れて、<br>【賛成】するのもいいと思います……！
-有时候，你也可以直接听取别人的意见<br>
+有时候，妳也可以直接听取别人的意见<br>
 并表示【赞同】……！
 
 # 0102Trial04_Ema028
@@ -589,4 +590,4 @@
 ; > Meruru: |#0102Trial04_Meruru012|
 ; やり方はこれまでと変わらないので、<br>頑張ってください……！
 做法和之前一样，<br>
-请你加油……！
+请妳加油……！

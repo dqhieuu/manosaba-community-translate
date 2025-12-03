@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter02/Act02_Chapter02_Trial03' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act02_Chapter02/Act02_Chapter02_Trial03' Naninovel scenario script
 
 # 0202Trial03_Ema001
 ; > @printDebate pos:70,50 roll:4 |#0202Trial03_Ema001|
@@ -109,7 +109,7 @@
 # 0202Trial03_Choice001
 ; > @choice |#0202Trial03_Choice001| button:ChoiceButtons/Trial/Question handler:TrialHiro
 ; その間、何をしていた？
-这段时间里，你在做什么？
+这段时间里，妳在做什么？
 
 # Common_Return
 ; > @choice |#Common_Return| button:ChoiceButtons/Trial/Cancel handler:TrialHiro
@@ -134,7 +134,7 @@
 # 0202Trial03_Hiro005
 ; > Hiro: |#0202Trial03_Hiro005|
 ; ……その間、何をしていた？
-……这段时间里，你在做什么？
+……这段时间里，妳在做什么？
 
 # 0202Trial03_Ema012
 ; > Ema: |#0202Trial03_Ema012|
@@ -144,12 +144,12 @@
 # 0202Trial03_Ema013
 ; > Ema: |#0202Trial03_Ema013|
 ; シャワールームでヒロちゃんを待ってただけだよ。
-我只是在淋浴房等你而已。
+我只是在淋浴房等妳而已。
 
 # 0202Trial03_Hiro006
 ; > Hiro: |#0202Trial03_Hiro006|
 ; ただぼーっとしていたというのか？
-你是说一直在那里发呆？
+妳是说一直在那里发呆？
 
 # 0202Trial03_Ema014
 ; > Ema: |#0202Trial03_Ema014|
@@ -160,20 +160,20 @@
 ; > Ema: |#0202Trial03_Ema015|
 ; ……そういえば<br>ヒロちゃんが来る少し前、<br>【小さな破裂音】が聞こえたかな……。
 ……说起来，<br>
-就在你来之前，<br>
+就在妳来之前，<br>
 我好像听到了【轻微的破裂声】……
 
 # 0202Trial03_Ema016
 ; > Ema: |#0202Trial03_Ema016|
 ; 今思い返すと、<br>それはヒロちゃんがココちゃんを撃った<br>【銃声】だったのかもしれない。
 现在想一想，<br>
-那可能就是你<br>
+那可能就是妳<br>
 射杀可可的【枪声】。
 
 # 0202Trial03_Hiro007
 ; > Hiro: |#0202Trial03_Hiro007|
 ; シャワールームで自分が発砲した時の音なんじゃないか。
-难道不是你自己在淋浴房开枪的声音吗。
+难道不是妳自己在淋浴房开枪的声音吗。
 
 # 0202Trial03_Ema017
 ; > Ema: |#0202Trial03_Ema017|
@@ -232,24 +232,24 @@
 ; > Hiro: |#0202Trial03_Hiro010|
 ; 本当はシャワールームのどこかにココがいたんだよ。<br>エマが隠していた可能性も――。
 其实可可就在淋浴房的某个地方。<br>
-也有可能是艾玛你藏起来——
+也有可能是艾玛妳藏起来——
 
 # 0202Trial03_Noah001
 ; > Noah: |#0202Trial03_Noah001|
 ; でもヒロちゃんは<br>ココちゃんの配信を見てシャワールームに探しに行ったんだよね？
-但你看到可可的直播后<br>
+但妳看到可可的直播后<br>
 就来淋浴房找她了对吧？
 
 # 0202Trial03_Noah002
 ; > Noah: |#0202Trial03_Noah002|
 ; だったらもしシャワールームにココちゃんがいたら<br>見逃すはずないんじゃないかな？
 如果她真的在淋浴房里<br>
-你不可能没看到她吧？
+妳不可能没看到她吧？
 
 # 0202Trial03_AnAn001
 ; > AnAn: |#0202Trial03_AnAn001|
 ; ……本当に見逃していたのだとしたら。
-……如果真的是你没发现。
+……如果真的是妳没发现。
 
 # 0202Trial03_AnAn002
 ; > AnAn: |#0202Trial03_AnAn002|
@@ -286,12 +286,12 @@
 # 0202Trial03_Hiro015
 ; > Hiro: |#0202Trial03_Hiro015|
 ; もしかするとただの勘違いじゃ……。
-该不会只是你看错了吧……
+该不会只是妳看错了吧……
 
 # 0202Trial03_Sherry001
 ; > Sherry: |#0202Trial03_Sherry001|
 ; ありましたよ！
-有的哦！
+有的喔！
 
 # 0202Trial03_Miria003
 ; > Miria: |#0202Trial03_Miria003|
@@ -302,7 +302,7 @@
 # 0202Trial03_Leia001
 ; > Leia: |#0202Trial03_Leia001|
 ; ヒロくん、どうしてそんな嘘を……？
-希罗，为什么你要撒这种谎……？
+希罗，为什么妳要撒这种谎……？
 
 # 0202Trial03_Hiro016
 ; > Hiro: |#0202Trial03_Hiro016|
@@ -371,7 +371,7 @@
 ; > Miria: |#0202Trial03_Miria004|
 ; あっ……。<br>それならおじさんも見てるよ。
 啊……<br>
-大叔我也看到了哦。
+大叔我也看到了喔。
 
 # 0202Trial03_Miria005
 ; > Miria: |#0202Trial03_Miria005|
@@ -387,7 +387,7 @@
 # 0202Trial03_Hiro026
 ; > Hiro: |#0202Trial03_Hiro026|
 ; ……詳しく聞かせてもらっていいかな。
-……可以请你详细说说吗。
+……可以请妳详细说说吗。
 
 # 0202Trial03_Miria006
 ; > Miria: |#0202Trial03_Miria006|
@@ -408,7 +408,7 @@
 # 0202Trial03_Ema023
 ; > Ema: |#0202Trial03_Ema023|
 ; ……ヒロちゃんがシャワールームに来たときは<br>慌ててたみたいだし、<br>奥まで確認しなかったけど……。
-……希罗你来淋浴房的时候<br>
+……希罗妳来淋浴房的时候<br>
 看起来很慌张，<br>
 所以没有到房间里面检查……
 
@@ -483,7 +483,7 @@
 ; > Ema: |#0202Trial03_Ema025|
 ; ……そんなことボクはしてないよ。<br>何か証拠でもあるの？
 ……我才没做这种事。<br>
-你有什么证据吗？
+妳有什么证据吗？
 
 # 0202Trial03_Hiro038
 ; > Hiro: |#0202Trial03_Hiro038|
@@ -519,7 +519,7 @@
 # 0202Trial03_Hiro041
 ; > Hiro: |#0202Trial03_Hiro041|
 ; まさかレイア、君……<br>自分が注目されるタイミングまで<br>情報を隠してたんじゃないだろうな……？
-蕾雅，你该不会……<br>
+蕾雅，妳该不会……<br>
 故意瞒着情报不说<br>
 一直等待时机登台亮相吧……？
 
@@ -637,7 +637,7 @@
 ; > Hiro: |#0202Trial03_Hiro044|
 ; ……そうだね。<br>おかげでエマが殺した方法がわかったよ。
 ……是的。<br>
-多亏了你的情报，我知道艾玛的杀人手法了。
+多亏了妳的情报，我知道艾玛的杀人手法了。
 
 # 0202Trial03_Ema026
 ; > Ema: |#0202Trial03_Ema026|

@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act01_Chapter01/Act01_Chapter01_Bad03' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act01_Chapter01/Act01_Chapter01_Bad03' Naninovel scenario script
 
 # 0101Bad03_Narrative001
 ; 賛成した。
@@ -37,7 +37,7 @@
 # 0101Bad03_Sherry001
 ; > Sherry: |#0101Bad03_Sherry001|
 ; エマさん？ どうしました？
-艾玛？你怎么啦？
+艾玛？妳怎么啦？
 
 # 0101Bad03_Ema004
 ; > Ema: |#0101Bad03_Ema004|
@@ -98,7 +98,7 @@
 ; > Sherry: |#0101Bad03_Sherry005|
 ; やっぱり前に捕まってた子が<br>残したものみたいですよ、ほら。
 看来真的是之前被抓来这里的人<br>
-留下的文字。你看。
+留下的文字。妳看。
 
 # 0101Bad03_Narrative009
 ; エマはシェリーが指さした部分に目を向ける。
@@ -203,7 +203,7 @@
 ; <color=#ff0000>許せない。許せない。許せない。</color><br><color=#ff0000>呪ってやる。苦しめばいい。</color><br><color=#ff0000>みんな、苦しめ。</color>
 <color=#ff0000>不可原谅。不可原谅。不可原谅。</color><br>
 <color=#ff0000>我要诅咒。承受痛苦吧。</color><br>
-<color=#ff0000>该承受痛苦的，是你们才对。</color>
+<color=#ff0000>该承受痛苦的，是妳们才对。</color>
 
 # 0101Bad03_Narrative030
 ; <color=#ff0000>苦しんで、死ねばいいんだ。</color>
@@ -217,7 +217,7 @@
 # 0101Bad03_Narrative032
 ; > @print |#0101Bad03_Narrative032| speed:0.05 waitInput! wait!
 ; <color=#ff0000>【今これを読んでいるお前も死ねばいい】</color>
-<color=#ff0000>【现在正看到这行字的你也去死吧】</color>
+<color=#ff0000>【现在正看到这行字的妳也去死吧】</color>
 
 # 0101Bad03_Sherry007
 ; > Sherry: |#0101Bad03_Sherry007|
@@ -260,9 +260,9 @@
 # 0101Bad03_Narrative038
 ; そこには何も書かれておらず、<br>ただ黒く塗りつぶしたような闇が広がっているだけだ。
 上面什么都没写，<br>
-只展露出了如同涂黑页面般的黑暗。
+只展露出了如同涂黑页面般的黑暗。**
 
 # 0101Bad03_Narrative039
 ; 理解の追いつかない状況に、<br>エマは<ruby="ぼうぜん">呆然</ruby>としたまま動けなかった――
 面对超过理解速度的事态发展，<br>
-艾玛只能呆站在原地，一动不动——
+艾玛只能呆站在原地，一动不动——**

@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Common/CommonBad03' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Common/CommonBad03' Naninovel scenario script
 
 # CommonBad03_Narrative001
 ; ――確たる結論が出ないまま、時間は流れた。
@@ -59,14 +59,14 @@
 # CommonBad03_Nanoka001
 ; > Nanoka: |#CommonBad03_Nanoka001|
 ; あなたたちの結論は間違ってる……！<br>私は殺してなんかない……！
-你们的结论错了……！<br>
+妳们的结论错了……！<br>
 我根本没杀她……！
 
 # CommonBad03_Warden003
 ; > Warden: |#CommonBad03_Warden003|
 ; 間違いでも投票で決まったことなので、<br>諦めていただけると……。
 就算错了那也是投票得出的结果，<br>
-请你放弃……
+请妳放弃……
 
 # CommonBad03_Nanoka002
 ; > Nanoka: |#CommonBad03_Nanoka002|

@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act01_Chapter05/Act01_Chapter05_Trial04' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act01_Chapter05/Act01_Chapter05_Trial04' Naninovel scenario script
 
 # 0105Trial04_Margo001
 ; > @printDebate pos:70,50 roll:4 |#0105Trial04_Margo001|
@@ -73,7 +73,7 @@
 但是……<br>
 我们真的<br>
 有路过去吗？<br>
-可可，你怎么看？
+可可，妳怎么看？
 
 # 0105Trial04_Coco001
 ; > @printDebate pos:30,50 roll:-4 |#0105Trial04_Coco001|
@@ -193,12 +193,12 @@
 ; > Coco: |#0105Trial04_Coco004|
 ; ……まー、ゴクチョーと喧嘩したいなら<br>べつに止めねーけど。
 ……哎，想找典狱长吵架<br>
-那随便你。
+那随便妳。
 
 # 0105Trial04_Coco005
 ; > Coco: |#0105Trial04_Coco005|
 ; べつにゴクチョーが<br>嘘ついてる証拠もないと思うけど？
-不过我看你也没有证据<br>
+不过我看妳也没有证据<br>
 证明典狱长在撒谎吧？
 
 # 0105Trial04_Ema009
@@ -247,7 +247,7 @@
 # 0105Trial04_Coco006
 ; > Coco: |#0105Trial04_Coco006|
 ; なんでそうなるんだよ！
-为什么你会想到这个啊！
+为什么妳会想到这个啊！
 
 # 0105Trial04_Ema015
 ; > Ema: |#0105Trial04_Ema015|
@@ -351,7 +351,7 @@
 ; > Coco: |#0105Trial04_Coco009|
 ; ナノカが小さくなったって……<br>どうやって小さくなったってんだよ！！
 奈叶香变小了……<br>
-你说她到底是怎么变小的！！
+妳说她到底是怎么变小的！！
 
 # 0105Trial04_Ema026
 ; > Ema: |#0105Trial04_Ema026|
@@ -467,7 +467,7 @@
 ; ……あの、今のところ<br>魔法の正体がわかっていない人は、<br>エマさんだけなので……。
 ……呃，到目前为止<br>
 具体魔法能力还不明确的人，<br>
-只有艾玛小姐你一个……
+只有艾玛小姐妳一个……
 
 # 0105Trial04_Coco012
 ; > Coco: |#0105Trial04_Coco012|
@@ -517,7 +517,7 @@
 # 0105Trial04_Margo016
 ; > Margo: |#0105Trial04_Margo016|
 ; それで、そのアイテムっていうのはどれ？
-那么，你说的物品具体是哪样？
+那么，妳说的物品具体是哪样？
 
 # 0105Trial04_Ema045
 ; > Ema: |#0105Trial04_Ema045|
@@ -528,9 +528,9 @@
 # 0105Trial04_Margo017
 ; > Margo: |#0105Trial04_Margo017|
 ; それは薬で小さくなった名探偵の話？<br>それとも不思議の国に迷い込んだ<br>女の子のお話かしら？
-你想说这是那个吃药变小的名侦探的故事吗？<br>
+妳想说这是那个吃药变小的名侦探的故事吗？<br>
 还是迷路到奇妙国度的<br>
-女孩的故事？
+女孩的故事？**
 
 # 0105Trial04_Coco013
 ; > Coco: |#0105Trial04_Coco013|

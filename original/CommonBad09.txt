@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Common/CommonBad09' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Common/CommonBad09' Naninovel scenario script
 
 # CommonBad09_Narrative001
 ; ――結論が出ないまま、時間は流れた。<br>処刑される魔女を選ぶための投票が行われる。
@@ -44,7 +44,7 @@
 # CommonBad09_Alisa002
 ; > Alisa: |#CommonBad09_Alisa002|
 ; おめぇらふざけんなよ……ウチはやってねえ！
-你们开什么玩笑……我才没动手！
+妳们开什么玩笑……我才没动手！
 
 # CommonBad09_Narrative008
 ; アリサは私たちを<ruby="にら">睨</ruby>み付ける。<br>震える声には、憎悪と動揺が入り混じっていた。
@@ -72,7 +72,7 @@
 ; > Warden: |#CommonBad09_Warden001|
 ; まあ、決定は決定なんで。<br>残念ですけど、諦めてもらうしかないかと。<br>さっさと閉廷したいですし……進行しちゃっていいですかね？
 哎，这已经是最终决定了。<br>
-虽然很遗憾，但只能请你接受这个结果了。<br>
+虽然很遗憾，但只能请妳接受这个结果了。<br>
 我想早点闭庭……能让我继续下一个环节了吗？
 
 # CommonBad09_Narrative009
@@ -108,7 +108,7 @@
 # CommonBad09_Narrative012
 ; だが、看守にはまるで通じなかった。<br>火など恐れず、アリサに接近する。
 但是，看守根本就不吃这套。<br>
-它不怕火焰，步步逼近亚里沙。
+牠不怕火焰，步步逼近亚里沙。
 
 # CommonBad09_Alisa007
 ; > Alisa: |#CommonBad09_Alisa007|
@@ -118,7 +118,7 @@
 # CommonBad09_Warden002
 ; > Warden: |#CommonBad09_Warden002|
 ; やれやれ……抵抗はいけませんよ。<br>まあ、無駄なんですけどね。
-哎呀呀……不可以抵抗哦。<br>
+哎呀呀……不可以抵抗喔。<br>
 不过，抵抗也是白费力气。
 
 # CommonBad09_Alisa008

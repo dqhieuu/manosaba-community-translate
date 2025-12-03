@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act01_Chapter02/Act01_Chapter02_Trial01' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act01_Chapter02/Act01_Chapter02_Trial01' Naninovel scenario script
 
 # 0102Trial01_Sherry001
 ; > @printDebate pos:65,50 roll:4 |#0102Trial01_Sherry001|
@@ -60,14 +60,14 @@
 # 0102Trial01_Alisa002
 ; > @printDebate pos:70,50 roll:4 |#0102Trial01_Alisa002|
 ; そんな悪趣味なもん<br>見に行ったのか……？
-你们竟然特地去看<br>
+妳们竟然特地去看<br>
 那些恶心人的东西……？
 
 # 0102Trial01_Coco003
 ; > @printDebate pos:30,50 roll:-4 |#0102Trial01_Coco003|
 ; ……べ、べつに<br>あてぃしが何しようが<br>勝手だろ……。
-……你、<br>
-你管我<br>
+……妳、<br>
+妳管我<br>
 看什么呢……
 
 # 0102Trial01_Hanna005
@@ -104,7 +104,7 @@
 # 0102Trial01_Hanna008
 ; > @printDebate pos:70,50 roll:4 |#0102Trial01_Hanna008|
 ; 言いがかりですわー！？
-你是在挑事吗！？
+妳是在挑事吗！？
 
 # 0102Trial01_Hanna009
 ; > @printDebate pos:70,50 roll:4 |#0102Trial01_Hanna009|
@@ -132,7 +132,7 @@
 # 0102Trial01_Sherry003
 ; > @printDebate pos:65,50 roll:4 |#0102Trial01_Sherry003|
 ; そうして<br>私とエマさんが<br>呼ばれたんですね！
-然后你们<br>
+然后妳们<br>
 就把我和艾玛<br>
 喊来了对吧！
 
@@ -166,7 +166,7 @@
 ; > @printDebate pos:65,50 roll:4 |#0102Trial01_Sherry006|
 ; 役に立った時ぐらい<br>素直に褒めてくれたって<br>いいじゃないですか～！<br>ぷんぷんっ！
 我帮上忙的时候<br>
-你就夸一下人家<br>
+妳就夸一下人家<br>
 又能怎样嘛～！<br>
 气鼓鼓！
 
@@ -200,12 +200,12 @@
 # 0102Trial01_Choice002
 ; > @choice |#0102Trial01_Choice002| button:ChoiceButtons/Trial/Objection handler:Trial
 ; ココと会ったのは懲罰房だったはず
-你们应该是在惩罚室遇到的
+妳们应该是在惩罚室遇到的
 
 # 0102Trial01_Choice003
 ; > @choice |#0102Trial01_Choice003| button:ChoiceButtons/Trial/Objection handler:Trial
 ; 他に行った理由があるはず
-你去那里应该还有别的原因
+妳去那里应该还有别的原因
 
 # 0102Trial01_Choice004
 ; > @choice |#0102Trial01_Choice004| button:ChoiceButtons/Trial/Objection handler:Trial
@@ -249,7 +249,7 @@
 # 0102Trial01_Ema004
 ; > Ema: |#0102Trial01_Ema004|
 ; で、でも、そこでばったり会うなんて――。
-可、可是，有可能这么刚刚好就让你们碰上了吗——
+可、可是，有可能这么刚刚好就让妳们碰上了吗——
 
 # 0102Trial01_Margo001
 ; > Margo: |#0102Trial01_Margo001|
@@ -289,7 +289,7 @@
 ; > Ema: |#0102Trial01_Ema009|
 ; 待ってよ、ハンナちゃん……。<br>懲罰房に行った理由、他にもあるんじゃないのかな。
 等等，汉娜……<br>
-你去惩罚室是不是有其他的原因？
+妳去惩罚室是不是有其他的原因？
 
 # 0102Trial01_Hanna012
 ; > Hanna: |#0102Trial01_Hanna012|
@@ -305,7 +305,7 @@
 ; > Hanna: |#0102Trial01_Hanna013|
 ; あ、ありませんわ！？<br>逆に何が目的ですの！？
 真、真的没有啊！？<br>
-倒是你，问这个做什么！？
+倒是妳，问这个做什么！？
 
 # 0102Trial01_Ema011
 ; > Ema: |#0102Trial01_Ema011|
@@ -350,7 +350,7 @@
 ; > Margo: |#0102Trial01_Margo002|
 ; ……エマちゃん。<br>現実を受け入れたくないのはわかるけれど。
 ……艾玛，<br>
-我理解你不愿接受现实的心情。
+我理解妳不愿接受现实的心情。
 
 # 0102Trial01_Meruru002
 ; > Meruru: |#0102Trial01_Meruru002|
@@ -376,7 +376,7 @@
 # 0102Trial01_Ema018
 ; > Ema: |#0102Trial01_Ema018|
 ; ミリアちゃんの死体を一番近くで見たのは<br>メルルちゃんだもんね、ごめん……。
-毕竟梅露露你是检查米莉亚尸体<br>
+毕竟梅露露妳是检查米莉亚尸体<br>
 最仔细的人，我真的很抱歉……
 
 # 0102Trial01_Meruru004
@@ -412,7 +412,7 @@
 # 0102Trial01_Alisa005
 ; > Alisa: |#0102Trial01_Alisa005|
 ; あの拘束が偽装だった……とかか？
-你的意思是……那其实是伪装，她并没有真的被绑住？
+妳的意思是……那其实是伪装，她并没有真的被绑住？
 
 # 0102Trial01_Ema022
 ; > Ema: |#0102Trial01_Ema022|
@@ -457,7 +457,7 @@
 ; > Ema: |#0102Trial01_Ema026|
 ; ちょっと待って！<br>【中には誰もいなかった】ってどうしてわかるのかな？」<br>現場は結構暗かったのに……！
 等一下！<br>
-你们怎么知道【里面没有其他人】？」<br>
+妳们怎么知道【里面没有其他人】？」<br>
 案发现场那么暗……！
 
 # 0102Trial01_Coco009
@@ -480,7 +480,7 @@
 ; > Coco: |#0102Trial01_Coco011|
 ; じゃあ誰もいなかったんだろ！<br>なんなわけ！？
 那不就是没人嘛！<br>
-你搞什么啊！？
+妳搞什么啊！？
 
 # 0102Trial01_Ema028
 ; > Ema: |#0102Trial01_Ema028|
@@ -513,13 +513,13 @@
 # 0102Trial01_Ema032
 ; > Ema: |#0102Trial01_Ema032|
 ; これ、ラウンジに貼ってあった<br>メモなんだけど……。
-你看，这是贴在会客厅墙上的<br>
+妳看，这是贴在会客厅墙上的<br>
 便条……
 
 # 0102Trial01_Ema033
 ; > Ema: |#0102Trial01_Ema033|
 ; ハンナちゃんの言ったことと、<br>違ってないかな？
-这和你的证词<br>
+这和妳的证词<br>
 不太一样吧？
 
 # 0102Trial01_Hanna015
@@ -541,7 +541,7 @@
 # 0102Trial01_Ema035
 ; > Ema: |#0102Trial01_Ema035|
 ; ２人が死体を発見したのは【２１時】なんだよね？
-你们是在【晚上9点】发现了尸体对吧？
+妳们是在【晚上9点】发现了尸体对吧？
 
 # 0102Trial01_Ema036
 ; > Ema: |#0102Trial01_Ema036|
@@ -561,7 +561,7 @@
 # 0102Trial01_Alisa007
 ; > Alisa: |#0102Trial01_Alisa007|
 ; お前ら……嘘ついたのか？
-你们两个……撒谎了吗？
+妳们两个……撒谎了吗？
 
 # 0102Trial01_Coco013
 ; > Coco: |#0102Trial01_Coco013|
@@ -593,7 +593,7 @@
 # 0102Trial01_Coco017
 ; > Coco: |#0102Trial01_Coco017|
 ; だってさぁ……。<br>こんなメモ、どう考えても怪しいじゃん！？
-你想啊……<br>
+妳想啊……<br>
 这便条怎么看都很诡异吧！？
 
 # 0102Trial01_Coco018
@@ -618,8 +618,8 @@
 # 0102Trial01_Coco020
 ; > Coco: |#0102Trial01_Coco020|
 ; ……あてぃしと会って良かったな、マジで。<br>１人だったらお嬢も死体になってたかもよ？
-……幸好你遇到我了，说真的。<br>
-要是就大小姐一个人，说不定连你也成尸体了哦？
+……幸好妳遇到我了，说真的。<br>
+要是就大小姐一个人，说不定连妳也成尸体了哦？
 
 # 0102Trial01_Hanna018
 ; > Hanna: |#0102Trial01_Hanna018|
@@ -636,7 +636,7 @@
 # 0102Trial01_Hanna019
 ; > Hanna: |#0102Trial01_Hanna019|
 ; わたくしのこと、信頼してくれてたんですね……！
-原来你这么信任我啊……！
+原来妳这么信任我啊……！
 
 # 0102Trial01_Coco022
 ; > Coco: |#0102Trial01_Coco022|
@@ -657,7 +657,7 @@
 # 0102Trial01_Margo004
 ; > Margo: |#0102Trial01_Margo004|
 ; じゃあハンナちゃんはどうして遅れたのかしら？
-那汉娜你是为什么晚到的呢？
+那汉娜妳是为什么晚到的呢？
 
 # 0102Trial01_Hanna021
 ; > Hanna: |#0102Trial01_Hanna021|
@@ -756,7 +756,7 @@
 # 0102Trial01_Hanna033
 ; > Hanna: |#0102Trial01_Hanna033|
 ; そうですわね！<br>とにかく行ってみま――。
-你说得对！<br>
+妳说得对！<br>
 总之先去——
 
 # 0102Trial01_Hanna034
@@ -767,7 +767,7 @@
 # 0102Trial01_AnAn006
 ; > AnAn: |#0102Trial01_AnAn006|
 ; ……大丈夫か？
-……你没事吧？
+……妳没事吧？
 
 # 0102Trial01_Hanna035
 ; > Hanna: |#0102Trial01_Hanna035|
@@ -836,7 +836,7 @@
 # 0102Trial01_Hanna043
 ; > Hanna: |#0102Trial01_Hanna043|
 ; ……アンアンさん、顔色が優れませんわ。
-……安安，你的脸色不太好。
+……安安，妳的脸色不太好。
 
 # 0102Trial01_AnAn010
 ; > AnAn: |#0102Trial01_AnAn010|
@@ -852,7 +852,7 @@
 ; > Hanna: |#0102Trial01_Hanna045|
 ; そうそう、これがその時に間違って録音した<br>音声メモのデータですわ。
 对了，这是我那时误触屏幕<br>
-录下的音频文件。
+录下的音频文件。*繁繁
 
 # Toast_001
 ; > @toast "|#Toast_001|"
@@ -868,7 +868,7 @@
 ; > Meruru: |#0102Trial01_Meruru006|
 ; ああ……。<br>それであのとき、顔色が優れなかったんですね。
 啊……<br>
-所以那时你们两位的脸色都不太好啊。
+所以那时妳们两位的脸色都不太好啊。
 
 # 0102Trial01_Hanna046
 ; > Hanna: |#0102Trial01_Hanna046|
@@ -910,7 +910,7 @@
 ; > Margo: |#0102Trial01_Margo006|
 ; あらあら。<br>ミリアちゃんの悲鳴をもっと近くで<br>聞こうとしてたなんて、いい趣味ね♡
 哎呀呀。<br>
-你居然想在更靠近的地方<br>
+妳居然想在更靠近的地方<br>
 听米莉亚的惨叫，真是个不得了的爱好♡
 
 # 0102Trial01_Hanna050
@@ -960,7 +960,7 @@
 # 0102Trial01_Sherry012
 ; > Sherry: |#0102Trial01_Sherry012|
 ; 悲鳴が聞こえた２０時から２１時の間……<br>その間にミリアさんが殺害されたと<br>いうことになりますよね？
-你们是在晚8点到9点之间听到了惨叫……<br>
+妳们是在晚8点到9点之间听到了惨叫……<br>
 那也就是说，米莉亚是在这段时间里<br>
 被杀害的，对吧？
 

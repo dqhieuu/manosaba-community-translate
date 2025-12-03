@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter02/Act02_Chapter02_Trial10' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act02_Chapter02/Act02_Chapter02_Trial10' Naninovel scenario script
 
 # 0202Trial10_Sherry001
 ; > @printDebate pos:30,50 roll:-4 |#0202Trial10_Sherry001|
@@ -212,14 +212,14 @@
 # 0202Trial10_Hanna009
 ; > Hanna: |#0202Trial10_Hanna009|
 ; 無理やり連れて行かれましたわ～！
-然后被你强行带走了～！
+然后被妳强行带走了～！
 
 # 0202Trial10_Leia001
 ; > Leia: |#0202Trial10_Leia001|
 ; ヒロくんがラウンジを通ったタイミングから言っても、<br>そこでぶつかっているハンナくんが<br>どこかに移動していた時間はなさそうだけどね。
 从希罗经过会客厅的时间点来看，<br>
-当时她撞到你以后，<br>
-你应该没什么时间去别的地方。
+当时她撞到妳以后，<br>
+妳应该没什么时间去别的地方。
 
 # 0202Trial10_Hanna010
 ; > Hanna: |#0202Trial10_Hanna010|
@@ -306,12 +306,12 @@
 ; > Hiro: |#0202Trial10_Hiro021|
 ; エマ……<br>やっぱり君がシャワー室から引き上げて殺したんだ！
 艾玛……<br>
-是你把她从淋浴房拉上去杀死的！
+是妳把她从淋浴房拉上去杀死的！
 
 # 0202Trial10_Ema003
 ; > Ema: |#0202Trial10_Ema003|
 ; ヒロちゃん、さっきからどうしたの……？<br>やっぱり何かおかしいよ……！
-希罗，你这是怎么了……？<br>
+希罗，妳这是怎么了……？<br>
 真的很不对劲……！
 
 # 0202Trial10_AnAn002
@@ -327,7 +327,7 @@
 # 0202Trial10_Sherry006
 ; > Sherry: |#0202Trial10_Sherry006|
 ; だとしたら、暴れ出す前に捕まえちゃいましょう！
-如果真是那样，要趁你还没有失控赶紧抓住你！
+如果真是那样，要趁妳还没有失控赶紧抓住妳！
 
 # 0202Trial10_Hiro022
 ; > Hiro: |#0202Trial10_Hiro022|
@@ -377,7 +377,7 @@
 # 0202Trial10_Hiro029
 ; > Hiro: |#0202Trial10_Hiro029|
 ; ……ナノカ。君だ。
-……是你，奈叶香。
+……是妳，奈叶香。
 
 # 0202Trial10_Nanoka002
 ; > Nanoka: |#0202Trial10_Nanoka002|
@@ -387,13 +387,13 @@
 # 0202Trial10_Hiro030
 ; > Hiro: |#0202Trial10_Hiro030|
 ; 君の証言はあくまでも君からの一方的な目撃証言だ。
-你的证词不过是你单方面的目击证词。
+妳的证词不过是妳单方面的目击证词。
 
 # 0202Trial10_Hiro031
 ; > Hiro: |#0202Trial10_Hiro031|
 ; ラウンジにいたレイアとアンアンを見ていたという主張は、<br>君のアリバイを証明するものではない……。
 看到蕾雅和安安在会客厅里的证词<br>
-并不能证明你不在案发现场……
+并不能证明妳不在案发现场……
 
 # 0202Trial10_Hiro032
 ; > Hiro: |#0202Trial10_Hiro032|
@@ -408,8 +408,8 @@
 # 0202Trial10_Hiro034
 ; > Hiro: |#0202Trial10_Hiro034|
 ; ……もしくは、ナノカ。<br>君が嘘をついているか。<br>そのどれかだ。
-……要么是你，奈叶香。<br>
-是你在说谎。<br>
+……要么是妳，奈叶香。<br>
+是妳在说谎。<br>
 只有这两种可能。
 
 # 0202Trial10_Nanoka003
@@ -444,7 +444,7 @@
 ; > Nanoka: |#0202Trial10_Nanoka004|
 ; ……そう。<br>それがあなたの意見なのね。
 ……哦。<br>
-这就是你的观点啊。
+这就是妳的观点啊。
 
 # 0202Trial10_Nanoka005
 ; > Nanoka: |#0202Trial10_Nanoka005|

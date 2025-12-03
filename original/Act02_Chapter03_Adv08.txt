@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter03/Act02_Chapter03_Adv08' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act02_Chapter03/Act02_Chapter03_Adv08' Naninovel scenario script
 
 # 0203Adv08_Narrative001
 ; 牢屋敷から外に出てみると、<br>すぐにハンナとシェリーの姿が目に入った。
@@ -49,8 +49,8 @@
 # 0203Adv08_Hanna002
 ; > Hanna: |#0203Adv08_Hanna002|
 ; てへ、じゃねーですわよ！<br>ほんっとに馬鹿力なんですから！
-你还“欸嘿”！<br>
-你真是个傻大力！
+妳还“欸嘿”！<br>
+妳真是个傻大力！
 
 # 0203Adv08_Sherry004
 ; > Sherry: |#0203Adv08_Sherry004|
@@ -83,7 +83,7 @@
 # 0203Adv08_Hiro001
 ; > Hiro: |#0203Adv08_Hiro001|
 ; ２人ともご苦労。
-你们两个辛苦了。
+妳们两个辛苦了。
 
 # 0203Adv08_Narrative007
 ; 私がねぎらいの声をかけると、<br>２人が振り返ってくる。
@@ -94,7 +94,7 @@
 ; > Sherry: |#0203Adv08_Sherry006|
 ; あっ、ヒロさん！<br>えっへん！ 私たち洗濯をしているんですよ！
 啊，希罗！<br>
-嗯哼！我们在晾衣服哦！
+嗯哼！我们在晾衣服喔！
 
 # 0203Adv08_Hiro002
 ; > Hiro: |#0203Adv08_Hiro002|
@@ -162,7 +162,7 @@
 # 0203Adv08_Hanna007
 ; > Hanna: |#0203Adv08_Hanna007|
 ; うるせーですわね！<br>いいから黙って干しやがれですわ！
-你话真多呢！<br>
+妳话真多呢！<br>
 快闭嘴给我乖乖晾衣服去好吗！
 
 # 0203Adv08_Narrative016

@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act01_Chapter03/Act01_Chapter03_Trial06' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act01_Chapter03/Act01_Chapter03_Trial06' Naninovel scenario script
 
 # 0103Trial06_Sherry001
 ; > @printDebate pos:70,50 roll:4 |#0103Trial06_Sherry001|
@@ -20,7 +20,7 @@
 # 0103Trial06_Nanoka001
 ; > @printDebate pos:30,50 roll:-4 |#0103Trial06_Nanoka001|
 ; あなた、<br>なんて余計な事を……！
-你怎么能这么<br>
+妳怎么能这么<br>
 多管闲事……！
 
 # 0103Trial06_Sherry003
@@ -41,8 +41,8 @@
 ; > @printDebate pos:70,50 roll:4 |#0103Trial06_Meruru001|
 ; ええ……！？<br>だ、大丈夫ですか……！？<br>あとで治療しますね……！
 欸欸……！？<br>
-你、你没事吧……！？<br>
-我待会就帮你治疗……！
+妳、妳没事吧……！？<br>
+我待会就帮妳治疗……！
 
 # 0103Trial06_Sherry004
 ; > @printDebate pos:30,50 roll:-4 |#0103Trial06_Sherry004|
@@ -96,7 +96,7 @@
 可是<br>
 外行人修锁，<br>
 怎么都会<br>
-<link="Objection_01_03_06_03">露出马脚</link>的吧……
+<link="Objection_01_03_06_03">露出马脚</link>的吧……**
 
 # 0103Trial06_Coco004
 ; > @printDebate pos:30,50 roll:-4 |#0103Trial06_Coco004|
@@ -136,7 +136,7 @@
 ; > Ema: |#0103Trial06_Ema001|
 ; （シェリーちゃんが夜にナノカちゃんと争ってたなんて……！<br>　何やってんの！？ シェリーちゃん……！）
 （雪莉居然在深夜和奈叶香发生冲突……！<br>
-　你到底在做什么啊，雪莉……！）
+　妳到底在做什么啊，雪莉……！）
 
 # 0103Trial06_Ema002
 ; > Ema: |#0103Trial06_Ema002|
@@ -289,8 +289,8 @@
 # 0103Trial06_Alisa005
 ; > Alisa: |#0103Trial06_Alisa005|
 ; 適当な因縁付けてきやがって……！<br>喧嘩してぇなら買ってやるぞ桜羽！
-你这完全是在胡乱猜测啊……！<br>
-想打架的话我随时奉陪，樱羽！
+妳这完全是在胡乱猜测啊……！<br>
+想打架的话我随时奉陪，樱羽！*
 
 # 0103Trial06_Ema011
 ; > Ema: |#0103Trial06_Ema011|
@@ -339,7 +339,7 @@
 # 0103Trial06_Margo006
 ; > Margo: |#0103Trial06_Margo006|
 ; でも、火はすぐに消火されたわよね。
-但是，火势很快就被控制住了哦。
+但是，火势很快就被控制住了喔。
 
 # 0103Trial06_Margo007
 ; > Margo: |#0103Trial06_Margo007|
@@ -453,7 +453,7 @@
 # 0103Trial06_Ema029
 ; > Ema: |#0103Trial06_Ema029|
 ; うん、そうだね。<br>【あの部屋】に痕跡はなかったかもしれない……。
-嗯，你说得对。<br>
+嗯，妳说得对。<br>
 也许【那个房间】里确实找不到什么痕迹……
 
 # 0103Trial06_Ema030
@@ -537,7 +537,7 @@
 # 0103Trial06_Margo011
 ; > Margo: |#0103Trial06_Margo011|
 ; それは昨日、魔法の実験に使ったのよ。
-那个人偶是我们昨天用来进行魔法实验的道具哦。
+那个人偶是我们昨天用来进行魔法实验的道具喔。
 
 # 0103Trial06_Margo012
 ; > Margo: |#0103Trial06_Margo012|
@@ -547,7 +547,7 @@
 # 0103Trial06_Nanoka010
 ; > Nanoka: |#0103Trial06_Nanoka010|
 ; ……詳しく聞かせてもらえるかしら。
-……能请你详细说明一下这件事吗。
+……能请妳详细说明一下这件事吗。
 
 # 0103Trial06_Alisa012
 ; > Alisa: |#0103Trial06_Alisa012|

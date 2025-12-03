@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act01_Chapter04/Act01_Chapter04_Trial11' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act01_Chapter04/Act01_Chapter04_Trial11' Naninovel scenario script
 
 # 0104Trial11_Margo001
 ; > @printDebate pos:70,50 roll:4 |#0104Trial11_Margo001|
@@ -50,7 +50,7 @@
 # 0104Trial11_Warden001
 ; > @printDebate pos:70,50 roll:4 |#0104Trial11_Warden001|
 ; 地下にあったパネルを<br>操作したのであれば、<br>間違いないでしょうねぇ。
-如果你操作过<br>
+如果妳操作过<br>
 地下的控制面板的话，<br>
 那应该就是按过了。
 
@@ -93,7 +93,7 @@
 ; > @printDebate pos:70,50 roll:4 |#0104Trial11_Margo006|
 ; <link="Objection_01_04_11_01">桜羽エマちゃん</link><br>……あなたよ。
 <link="Objection_01_04_11_01">樱羽艾玛</link>……<br>
-凶手就是你。
+凶手就是妳。
 
 # 0104Trial11_Ema002
 ; > Ema: |#0104Trial11_Ema002|
@@ -160,7 +160,7 @@
 # 0104Trial11_Warden005
 ; > Warden: |#0104Trial11_Warden005|
 ; あなたたちが決めることですから。
-决定权在你们手里。
+决定权在妳们手里。
 
 # 0104Trial11_Margo009
 ; > Margo: |#0104Trial11_Margo009|
@@ -219,13 +219,13 @@
 # 0104Trial11_Coco003
 ; > Coco: |#0104Trial11_Coco003|
 ; そんなん、１つも証明できないだろ！！
-根本没有任何证据能证明你说的话好吗！！
+根本没有任何证据能证明妳说的话好吗！！
 
 # 0104Trial11_Coco004
 ; > Coco: |#0104Trial11_Coco004|
 ; お前が黒幕で、地下の仕組みも知ってて……<br>狙ってアリサを殺したんじゃねーの！？
-你就是幕后黑手，你早就知道地下的构造……<br>
-你杀死亚里沙都是有预谋的对不对！？
+妳就是幕后黑手，妳早就知道地下的构造……<br>
+妳杀死亚里沙都是有预谋的对不对！？
 
 # 0104Trial11_Ema012
 ; > Ema: |#0104Trial11_Ema012|
@@ -259,7 +259,7 @@
 # 0104Trial11_Meruru004
 ; > Meruru: |#0104Trial11_Meruru004|
 ; で、でも……していない証拠は……ありません。
-可、可是……也没有证据……证明你没有做过。
+可、可是……也没有证据……证明妳没有做过。
 
 # 0104Trial11_Margo013
 ; > Margo: |#0104Trial11_Margo013|
@@ -271,7 +271,7 @@
 ; > Margo: |#0104Trial11_Margo014|
 ; なら【エマちゃんに殺意がなかった】と<br>証明することなんて……<br>できるのかしら？
 那么，<br>
-你能够证明……<br>
+妳能够证明……<br>
 【自己对亚里沙没有杀意】这一点吗？
 
 # 0104Trial11_Ema014
@@ -283,7 +283,7 @@
 ; > Coco: |#0104Trial11_Coco005|
 ; ……なあ。<br>それなら今までの殺しだって……<br>疑わしいもんじゃないの……？
 ……我说啊，<br>
-这么一来……你们不觉得<br>
+这么一来……妳们不觉得<br>
 至今的凶杀案都很可疑吗……？
 
 # 0104Trial11_Coco006
@@ -302,13 +302,13 @@
 # 0104Trial11_Coco007
 ; > Coco: |#0104Trial11_Coco007|
 ; そもそもお前が裏で仕組んでただけなんじゃねーの！？
-会不会这一切都是你在背地里算计我们！？
+会不会这一切都是妳在背地里算计我们！？*
 
 # 0104Trial11_Coco008
 ; > Coco: |#0104Trial11_Coco008|
 ; アンアンとかだって……<br>お前が何もしなきゃ殺しなんてしなかったろ！！
 比如安安……<br>
-如果你什么都没做那她就不会杀人了！！
+如果妳什么都没做那她就不会杀人了！！
 
 # 0104Trial11_Ema016
 ; > Ema: |#0104Trial11_Ema016|
@@ -366,7 +366,7 @@
 # 0104Trial11_Ema022
 ; > Ema: |#0104Trial11_Ema022|
 ; みんな、話を聞いてよ――！
-你们听我解释——！
+妳们听我解释——！
 
 # 0104Trial11_Warden007
 ; > Warden: |#0104Trial11_Warden007|

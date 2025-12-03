@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Debug/Debug_Trial' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Debug/Debug_Trial' Naninovel scenario script
 
 # ~5953b207
 ; Debug_Trial # PerspectiveStage
@@ -8,36 +8,12 @@
 ; Camera modified.
 
 
-# ~e0acffca
-; Enable fire vfx.
+# ~46eff89c
+; Hide warden.
 
 
-# ~c311adc6
-; Disable fire vfx.
-
-
-# ~cb27861c
-; Punch camera X.
-
-
-# ~5cbe264b
-; Punch camera Y.
-
-
-# ~1fa3cae6
-; Punch camera XY.
-
-
-# ~9f92547b
-; Shake camera X.
-
-
-# ~aec01c83
-; Shake camera Y.
-
-
-# ~98e845ec
-; Shake camera XY.
+# ~9402ab3a
+; Re-show Warden.
 
 
 # ~bd8d1647

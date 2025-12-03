@@ -1,4 +1,9 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter05/Act02_Chapter05_Adv05' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act02_Chapter05/Act02_Chapter05_Adv05' Naninovel scenario script
+
+# ~e36addbc
+; > @toast |#~e36addbc|
+; 最終章
+
 
 # 0205Adv05_Narrative001
 ; 私の心は<ruby="な">凪</ruby>いでいた。<br><ruby="かか">掲</ruby>げていた儀礼剣の<ruby="きっさき">切先</ruby>を、裁判所中央に向ける。
@@ -18,8 +23,8 @@
 # 0205Adv05_Hiro003
 ; > Hiro: |#0205Adv05_Hiro003|
 ; （君はずっと私たちの近くにいた。<br>　来るだろう、ユキ……？）
-（你一直都在我们身边。<br>
-　你会来的，对吧，小雪……？）
+（妳一直都在我们身边。<br>
+　妳会来的，对吧，小雪……？）
 
 # 0205Adv05_Narrative002
 ; 張り詰めた空気の中で、数秒の<ruby="とき">刻</ruby>が経過した。
@@ -196,7 +201,7 @@
 ; > Yuki: |#0205Adv05_Yuki001|
 ; 私の復活はすなわち絶望……<br>何を期待していたのですか？
 我的复活，即意味着绝望……<br>
-你们到底在指望什么呢？
+妳们到底在指望什么呢？
 
 # 0205Adv05_Yuki002
 ; > Yuki: |#0205Adv05_Yuki002|

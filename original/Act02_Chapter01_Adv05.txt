@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter01/Act02_Chapter01_Adv05' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act02_Chapter01/Act02_Chapter01_Adv05' Naninovel scenario script
 
 # 0201Adv05_Narrative001
 ; ――ある<ruby="かんぼう">監房</ruby>にて。
@@ -7,13 +7,13 @@
 # 0201Adv05_Coco001
 ; > Coco: |#0201Adv05_Coco001|
 ; やっほ～沢渡ココだよ～！<br>あてぃしのこと、見えてる～？
-呀吼～我是泽渡可可哦～！<br>
-你们能看到我吗～？
+呀吼～我是泽渡可可喔～！<br>
+妳们能看到我吗～？
 
 # 0201Adv05_Hanna001
 ; > Hanna: |#0201Adv05_Hanna001|
 ; ちょっと、何をしていますのあなた……？
-喂，你在做什么啊……？
+喂，妳在做什么啊……？
 
 # 0201Adv05_Coco002
 ; > Coco: |#0201Adv05_Coco002|
@@ -41,7 +41,7 @@
 # 0201Adv05_Hanna003
 ; > Hanna: |#0201Adv05_Hanna003|
 ; あなた、誰と話してますの……？
-你在和谁说话啊……？
+妳在和谁说话啊……？
 
 # 0201Adv05_Coco005
 ; > Coco: |#0201Adv05_Coco005|
@@ -51,8 +51,8 @@
 # 0201Adv05_Hanna004
 ; > Hanna: |#0201Adv05_Hanna004|
 ; あてぃし？ 自分で自分に話しかけているってこと？<br>あなたまさかやべーやつなんですの？
-和自己说话？你是在自言自语吗？<br>
-你该不会是个疯子吧？
+和自己说话？妳是在自言自语吗？<br>
+妳该不会是个疯子吧？
 
 # 0201Adv05_Coco006
 ; > Coco: |#0201Adv05_Coco006|

@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act01_Chapter03/Act01_Chapter03_Trial04' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act01_Chapter03/Act01_Chapter03_Trial04' Naninovel scenario script
 
 # 0103Trial04_Margo001
 ; > @printDebate pos:70,50 roll:4 |#0103Trial04_Margo001|
@@ -69,9 +69,9 @@
 ; > @printDebate pos:30,50 roll:-4 |#0103Trial04_Sherry001|
 ; でもでも、<br>それって証明<br>できないですよね？<br>見落としたのかも<br>しれませんし！
 但是但是，<br>
-你们没法<br>
+妳们没法<br>
 证明这一点吧？<br>
-说不定你们只是<br>
+说不定妳们只是<br>
 没发现她而已！
 
 # 0103Trial04_Sherry002
@@ -82,13 +82,13 @@
 这么一来，之后悄悄<br>
 <link="Objection_01_03_04_03">自杀</link>的可能性<br>
 也是存在的吧？<br>
-又或者说，你们三个人<br>
+又或者说，妳们三个人<br>
 其实是<link="Objection_01_03_04_04">串通好了</link>的？
 
 # 0103Trial04_Alisa004
 ; > @printDebate pos:70,50 roll:4 |#0103Trial04_Alisa004|
 ; ウチら３人が<br>共犯だってのか？<br>ふざけてんじゃ<br>ねーぞ……！
-你想说我们三个<br>
+妳想说我们三个<br>
 是共犯吗？<br>
 开什么<br>
 玩笑……！
@@ -99,12 +99,12 @@
 我只是在探讨<br>
 各种可能性嘛～！<br>
 ……不可以<br>
-生气哦☆
+生气喔☆
 
 # 0103Trial04_Alisa005
 ; > @printDebate pos:70,50 roll:4 |#0103Trial04_Alisa005|
 ; こいつ……！
-你这家伙……！
+妳这家伙……！
 
 # 0103Trial04_Margo004
 ; > @printDebate pos:30,50 roll:-4 |#0103Trial04_Margo004|
@@ -123,7 +123,7 @@
 要出事了……<br>
 但结果无事发生，<br>
 等我们出来后<br>
-它就直接上锁离开了。
+牠就直接上锁离开了。
 
 # 0103Trial04_Ema001
 ; > Ema: |#0103Trial04_Ema001|
@@ -182,7 +182,7 @@
 # 0103Trial04_Coco003
 ; > Coco: |#0103Trial04_Coco003|
 ; いやいやエマっち……死体見た？
-喂喂，艾玛亲……你看过尸体了吗？
+喂喂，艾玛亲……妳看过尸体了吗？
 
 # 0103Trial04_Alisa006
 ; > Alisa: |#0103Trial04_Alisa006|
@@ -299,7 +299,7 @@
 # 0103Trial04_Sherry004
 ; > Sherry: |#0103Trial04_Sherry004|
 ; 証拠はあるんですか？<br>エマさん。
-你有证据吗？<br>
+妳有证据吗？<br>
 艾玛。
 
 # 0103Trial04_Ema014
@@ -340,7 +340,7 @@
 ; > Sherry: |#0103Trial04_Sherry007|
 ; それに、殺人犯とは別に<br>放火犯がいた可能性も考えられます。
 而且，杀人凶手和纵火犯<br>
-完全可能是两个不同的人哦。
+完全可能是两个不同的人喔。
 
 # 0103Trial04_Sherry008
 ; > Sherry: |#0103Trial04_Sherry008|
@@ -380,8 +380,8 @@
 ; > Sherry: |#0103Trial04_Sherry009|
 ; そうでしょうか？<br>そんな断言をするってことは、<br>エマさんにはそれを証明する何かがあるんですか？
 是这样吗？<br>
-既然你这么笃定，<br>
-那你一定掌握了能证明这一点的证据吧？
+既然妳这么笃定，<br>
+那妳一定掌握了能证明这一点的证据吧？
 
 # 0103Trial04_Ema022
 ; > Ema: |#0103Trial04_Ema022|
@@ -408,14 +408,14 @@
 # 0103Trial04_Nanoka007
 ; > Nanoka: |#0103Trial04_Nanoka007|
 ; 桜羽エマ。他人を庇うのは結構だけど、<br>人を疑うのも、この場では必要なことよ。
-樱羽艾玛，我理解你想要袒护他人的心情，<br>
+樱羽艾玛，我理解妳想要袒护他人的心情，<br>
 但在这种场合，适当的怀疑也是必要的。
 
 # 0103Trial04_Nanoka008
 ; > Nanoka: |#0103Trial04_Nanoka008|
 ; それに安易な発言は火種を生む原因になりかねないわ。<br>……慎重に発言しなさい。
 而且轻率的发言很可能会引发更多的矛盾。<br>
-……请你谨慎发言。
+……请妳谨慎发言。
 
 # 0103Trial04_Ema023
 ; > Ema: |#0103Trial04_Ema023|
@@ -459,18 +459,18 @@
 ; いやいやエマさん！<br>それが証拠にならないことくらい<br>誰にだってわかりますよ！
 不行不行，艾玛！<br>
 这种东西根本算不上有效证据，<br>
-这一点谁都清楚吧！
+这一点谁都清楚吧！*
 
 # 0103Trial04_Coco005
 ; > Coco: |#0103Trial04_Coco005|
 ; 適当な証拠出して、<br>あてぃしらを混乱させようって思ってんの？
-你该不会是<br>
+妳该不会是<br>
 想用一些模棱两可的证据来混淆视听吧？
 
 # 0103Trial04_Alisa011
 ; > Alisa: |#0103Trial04_Alisa011|
 ; 真面目にやれ。
-麻烦你正经点。
+麻烦妳正经点。
 
 # 0103Trial04_Ema029
 ; > Ema: |#0103Trial04_Ema029|
@@ -491,7 +491,7 @@
 # 0103Trial04_Sherry013
 ; > Sherry: |#0103Trial04_Sherry013|
 ; それって……看守さんに取り付けられていた<br>カメラですか？
-你是说……安装在看守身上的<br>
+妳是说……安装在看守身上的<br>
 摄像头吗？
 
 # 0103Trial04_Ema032
@@ -520,7 +520,7 @@
 ; > Ema: |#0103Trial04_Ema034|
 ; 信用できないなら、<br>映像を見せてもらおうよ。
 如果不相信的话，<br>
-那就请它们调取录像吧。
+那就请牠们调取录像吧。
 
 # 0103Trial04_Ema035
 ; > Ema: |#0103Trial04_Ema035|
@@ -570,7 +570,7 @@
 # 0103Trial04_Sherry014
 ; > Sherry: |#0103Trial04_Sherry014|
 ; 見てください！<br>部屋の中にはハンナさんの死体はもちろん、<br>ロープもありませんよ！
-你们快看！<br>
+妳们快看！<br>
 房间里不仅没有汉娜的尸体，<br>
 连一根绳子都没有！
 
@@ -702,7 +702,7 @@
 # 0103Trial04_Coco008
 ; > Coco: |#0103Trial04_Coco008|
 ; なにそれ？ 録音とかしてねーの？
-那是什么？你怎么不录下来？
+那是什么？妳怎么不录下来？
 
 # 0103Trial04_Alisa020
 ; > Alisa: |#0103Trial04_Alisa020|
@@ -712,12 +712,12 @@
 # 0103Trial04_Coco009
 ; > Coco: |#0103Trial04_Coco009|
 ; つっかえな。
-要你有什么用。
+要妳有什么用。
 
 # 0103Trial04_Alisa021
 ; > Alisa: |#0103Trial04_Alisa021|
 ; んだとてめえ……。
-你说什么……
+妳说什么……
 
 # 0103Trial04_Sherry017
 ; > Sherry: |#0103Trial04_Sherry017|

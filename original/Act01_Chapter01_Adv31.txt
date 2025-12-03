@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act01_Chapter01/Act01_Chapter01_Adv31' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act01_Chapter01/Act01_Chapter01_Adv31' Naninovel scenario script
 
 # 0101Adv31_Narrative001
 ; エマたちは食堂の調査にやってきた。
@@ -28,13 +28,13 @@
 ; > Sherry: |#0101Adv31_Sherry002|
 ; あの看守が入れ替えてるんですかね。<br>私たちは厨房に入れないですが、やっぱり料理も看守が？
 是那个看守换的饭菜吧。<br>
-我们进不了厨房，所以煮饭也是看守负责的咯？
+我们进不了厨房，所以煮饭也是看守负责的啰？
 
 # 0101Adv31_Hanna002
 ; > Hanna: |#0101Adv31_Hanna002|
 ; あの、あまり想像させないでくれませんこと？<br>これから何も喉を通らなくなりそう。
 我说，可不可以不要勾起别人的想像？<br>
-你害我以后都吃不下饭了欸。
+妳害我以后都吃不下饭了欸。
 
 # 0101Adv31_Narrative003
 ; ３人は散り散りになって、<br>食堂をひととおり見てまわることにする。
@@ -210,7 +210,7 @@
 ; > Sherry: |#0101Adv31_Sherry010|
 ; 短時間しか浮けないのなら、<br>足跡残さず殺すのは無理だって言えるかも！
 如果只能悬空很短的时间，<br>
-应该可以主张自己无法不留足迹杀人哦！
+应该可以主张自己无法不留足迹杀人喔！
 
 # 0101Adv31_Hanna006
 ; > Hanna: |#0101Adv31_Hanna006|
@@ -232,7 +232,7 @@
 # 0101Adv31_Hanna007
 ; > Hanna: |#0101Adv31_Hanna007|
 ; あなたわざと言っているでしょう！？
-你是故意说来气我的对吧！？
+妳是故意说来气我的对吧！？
 
 # 0101Adv31_Ema015
 ; > Ema: |#0101Adv31_Ema015|

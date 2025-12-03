@@ -1,10 +1,10 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter05/Act02_Chapter05_Trial03' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act02_Chapter05/Act02_Chapter05_Trial03' Naninovel scenario script
 
 # 0205Trial03_Leia001
 ; > @printDebate pos:70,50 roll:4 |#0205Trial03_Leia001|
 ; そもそも魔女だのなんだの、<br>いったいなんの話を<br>しているんだ！
 说到底，我根本就没听明白，<br>
-你说的那“魔女”<br>
+妳说的那“魔女”<br>
 究竟是怎么一回事！
 
 # 0205Trial03_Hanna001
@@ -27,12 +27,12 @@
 ; ……とはいえ、<br>この牢屋敷からの脱出などは<br>ヒロくんの一方的な主張だ！
 ……再说了，<br>
 什么逃离这座监牢，<br>
-根本就是希罗你单方面的说法！
+根本就是希罗妳单方面的说法！
 
 # 0205Trial03_Leia004
 ; > @printDebate pos:70,50 roll:4 |#0205Trial03_Leia004|
 ; ヒロくんが<br><link="Objection_02_05_03_01">真の黒幕</link>の可能性だって<br>あるんじゃないか！？
-说不定希罗你才是<br>
+说不定希罗妳才是<br>
 <link="Objection_02_05_03_01">真正的幕后黑手</link>，<br>
 不是吗！？
 
@@ -89,7 +89,7 @@
 # 0205Trial03_Hiro002
 ; > Hiro: |#0205Trial03_Hiro002|
 ; （……相変わらず、レイアの行動原理はブレないな）
-（……蕾雅的行事方式还真是万年不变啊）
+（……蕾雅的行事方式还真是万年不变啊）**
 
 # 0205Trial03_Hiro003
 ; > Hiro: |#0205Trial03_Hiro003|
@@ -119,12 +119,12 @@
 # 0205Trial03_Choice002
 ; > @choice |#0205Trial03_Choice002| button:ChoiceButtons/Trial/Objection handler:TrialHiro
 ; 目立ちたいだけだ
-你只是想出风头罢了
+妳只是想出风头罢了
 
 # 0205Trial03_Choice003
 ; > @choice |#0205Trial03_Choice003| button:ChoiceButtons/Trial/Perjury handler:TrialHiro
 ; 守る気などない
-你根本没打算守护他人
+妳根本没打算守护他人
 
 # 0205Trial03_Hiro006
 ; > Hiro: |#0205Trial03_Hiro006|
@@ -146,7 +146,7 @@
 # 0205Trial03_Hiro009
 ; > Hiro: |#0205Trial03_Hiro009|
 ; 人をいたずらに黒幕扱いして<br>団結の邪魔をするのはやめてくれないかな。
-能不能请你不要随意把人当作幕后黑手，<br>
+能不能请妳不要随意把人当作幕后黑手，<br>
 妨碍大家的团结呢？
 
 # 0205Trial03_Leia009
@@ -157,7 +157,7 @@
 # 0205Trial03_Leia010
 ; > Leia: |#0205Trial03_Leia010|
 ; しかしキミは<br>明らかに異様なんだよ、ヒロくん……！
-可是你<br>
+可是妳<br>
 明显很异常啊，希罗……！
 
 # 0205Trial03_Leia011
@@ -169,7 +169,7 @@
 # 0205Trial03_Leia012
 ; > Leia: |#0205Trial03_Leia012|
 ; 黒幕だと怪しまれて然るべきだ！
-怀疑你是幕后黑手也很正常！
+怀疑妳是幕后黑手也很正常！
 
 # 0205Trial03_Hiro010
 ; > Hiro: |#0205Trial03_Hiro010|
@@ -220,23 +220,23 @@
 # 0205Trial03_Hiro018
 ; > Hiro: |#0205Trial03_Hiro018|
 ; ……レイア、キミは<br>自分のことしか考えていない偽善者だ。
-……蕾雅，你是个<br>
+……蕾雅，妳是个<br>
 只考虑自己的伪善者。
 
 # 0205Trial03_Leia013
 ; > Leia: |#0205Trial03_Leia013|
 ; い、いきなり何を……！？
-你、你突然在说什么……！？
+妳、妳突然在说什么……！？
 
 # 0205Trial03_Hiro019
 ; > Hiro: |#0205Trial03_Hiro019|
 ; 何か問題が起きれば１人で保身に走る……。
-一出现问题，你就只顾着独善其身……
+一出现问题，妳就只顾着独善其身……
 
 # 0205Trial03_Hiro020
 ; > Hiro: |#0205Trial03_Hiro020|
 ; 君に、誰かを守る気なんてないんだよ。
-你根本就没打算守护任何人。
+妳根本就没打算守护任何人。
 
 # 0205Trial03_Leia014
 ; > Leia: |#0205Trial03_Leia014|
@@ -302,34 +302,34 @@
 # 0205Trial03_Hiro026
 ; > Hiro: |#0205Trial03_Hiro026|
 ; その言葉は嘘だ。
-你在说谎。
+妳在说谎。
 
 # 0205Trial03_Hiro027
 ; > Hiro: |#0205Trial03_Hiro027|
 ; 君が仲間を守りたいなんて言っているのは、<br>それらしい理由付けをしているに過ぎない。
 所谓的守护同伴，<br>
-不过是你找来的冠冕堂皇的理由罢了。
+不过是妳找来的冠冕堂皇的理由罢了。
 
 # 0205Trial03_Leia020
 ; > Leia: |#0205Trial03_Leia020|
 ; な、なんだと！？
-你、你说什么！？
+妳、妳说什么！？
 
 # 0205Trial03_Hiro028
 ; > Hiro: |#0205Trial03_Hiro028|
 ; 君が本当に守りたいのは、<br>自分の地位と外面だ。
-你真正想守护的，<br>
+妳真正想守护的，<br>
 是自己的地位和面子。
 
 # 0205Trial03_Hiro029
 ; > Hiro: |#0205Trial03_Hiro029|
 ; 君はただ目立ちたいだけ……。
-你只是单纯想引人注目……
+妳只是单纯想引人注目……
 
 # 0205Trial03_Hiro030
 ; > Hiro: |#0205Trial03_Hiro030|
 ; 承認欲求に飢えたモンスターなんだよ。
-你就是个渴望受认可的怪物。
+妳就是个渴望受认可的怪物。**
 
 # 0205Trial03_Leia021
 ; > Leia: |#0205Trial03_Leia021|
@@ -339,7 +339,7 @@
 # 0205Trial03_Leia022
 ; > Leia: |#0205Trial03_Leia022|
 ; 何を根拠に、そんなことをっ！
-你凭什么，这么说！
+妳凭什么，这么说！
 
 # 0205Trial03_Hiro031
 ; > Hiro: |#0205Trial03_Hiro031|
@@ -351,7 +351,7 @@
 ; > Hiro: |#0205Trial03_Hiro032|
 ; （とはいえ長々と話し込んで<br>　議論を打ち切られるわけにもいかない）
 （只不过我得注意不能过于拖沓，<br>
-　以免打断了讨论）
+　以免打断了讨论）**
 
 # 0205Trial03_Hiro033
 ; > Hiro: |#0205Trial03_Hiro033|
@@ -362,4 +362,4 @@
 ; > Hiro: |#0205Trial03_Hiro034|
 ; （悪いがその虚飾の仮面は、<br>　早急に剥がさせてもらおう）
 （抱歉，就让我尽快剥掉<br>
-　你虚伪的面具吧）
+　妳虚伪的面具吧）

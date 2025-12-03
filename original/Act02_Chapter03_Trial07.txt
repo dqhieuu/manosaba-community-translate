@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter03/Act02_Chapter03_Trial07' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act02_Chapter03/Act02_Chapter03_Trial07' Naninovel scenario script
 
 # 0203Trial07_Ema001
 ; > @printDebate pos:70,50 roll:4 |#0203Trial07_Ema001|
@@ -82,18 +82,18 @@
 ; > Hiro: |#0203Trial07_Hiro001|
 ; （エマ……！<br>　私の代わりに処刑されようとでも言うのか……！？）
 （艾玛……！<br>
-　你这是想代替我受刑吗……！？）
+　妳这是想代替我受刑吗……！？）
 
 # 0203Trial07_Hiro002
 ; > Hiro: |#0203Trial07_Hiro002|
 ; （それで罪滅ぼしをしたつもりなら、<br>　そんなのは間違っている……！）
-（若你想用这种方法赎罪，<br>
+（若妳想用这种方法赎罪，<br>
 　那可是大错特错……！）
 
 # 0203Trial07_Hiro003
 ; > Hiro: |#0203Trial07_Hiro003|
 ; （絶対に……許さないぞエマ……！）
-（艾玛……我绝对，不会让你这样做……！）
+（艾玛……我绝对，不会让妳这样做……！）
 
 # 0203Trial07_Hiro004
 ; > Hiro: |#0203Trial07_Hiro004|
@@ -126,7 +126,7 @@
 # 0203Trial07_Choice001
 ; > @choice |#0203Trial07_Choice001| button:ChoiceButtons/Trial/Perjury handler:TrialHiro
 ; ベランダにはいなかった
-你当时不在阳台
+妳当时不在阳台
 
 # Common_Return
 ; > @choice |#Common_Return| button:ChoiceButtons/Trial/Cancel handler:TrialHiro
@@ -136,7 +136,7 @@
 # 0203Trial07_Choice002
 ; > @choice |#0203Trial07_Choice002| button:ChoiceButtons/Trial/Objection handler:TrialHiro
 ; 見間違いだった
-你看错了
+妳看错了
 
 # 0203Trial07_Choice003
 ; > @choice |#0203Trial07_Choice003| button:ChoiceButtons/Trial/Objection handler:TrialHiro
@@ -146,18 +146,18 @@
 # 0203Trial07_Hiro009
 ; > Hiro: |#0203Trial07_Hiro009|
 ; エマ、ちょっと待ってくれ。
-艾玛，你先等一等。
+艾玛，妳先等一等。
 
 # 0203Trial07_Hiro010
 ; > Hiro: |#0203Trial07_Hiro010|
 ; 【ベランダにいた】……？<br>あの日、エマは私とずっと一緒にいたんじゃなかったかな。
 【就在阳台里】……？<br>
-那天你不是一整天都跟我在一起吗？
+那天妳不是一整天都跟我在一起吗？
 
 # 0203Trial07_Hiro011
 ; > Hiro: |#0203Trial07_Hiro011|
 ; 本当に、事件当時のベランダにいたのか？
-案发当时，你真的在阳台吗？
+案发当时，妳真的在阳台吗？
 
 # 0203Trial07_Ema009
 ; > Ema: |#0203Trial07_Ema009|
@@ -193,7 +193,7 @@
 ; > Hiro: |#0203Trial07_Hiro015|
 ; 議論を中断してすまなかった。<br>……なんでもないよ、続けてくれ。
 打断了讨论真不好意思。<br>
-……没什么问题了，你继续说吧。
+……没什么问题了，妳继续说吧。
 
 # 0203Trial07_Hiro016
 ; > Hiro: |#0203Trial07_Hiro016|
@@ -223,28 +223,28 @@
 # 0203Trial07_Hiro021
 ; > Hiro: |#0203Trial07_Hiro021|
 ; 本当にその時見たのは血だったのかな？
-那时候你看到的真的是血吗？
+那时候妳看到的真的是血吗？
 
 # 0203Trial07_Ema012
 ; > Ema: |#0203Trial07_Ema012|
 ; え？ ヒロちゃん、どういうこと？
-欸？希罗，你的意思是？
+欸？希罗，妳的意思是？
 
 # 0203Trial07_Hiro022
 ; > Hiro: |#0203Trial07_Hiro022|
 ; 暗い中で見たから、よく見えていなかったんだろう？
-当时周围黑乎乎的，你看得不是很清楚对吧？
+当时周围黑乎乎的，妳看得不是很清楚对吧？
 
 # 0203Trial07_Hiro023
 ; > Hiro: |#0203Trial07_Hiro023|
 ; 実は当時血だと思っていたそれは、<br>アンアンの服の模様とか、汚れだったかもしれない。
-那些你以为是血迹的痕迹，<br>
+那些妳以为是血迹的痕迹，<br>
 说不定其实是安安衣服上的花纹或者污迹什么的。
 
 # 0203Trial07_Ema013
 ; > Ema: |#0203Trial07_Ema013|
 ; いや、それはないと思うよ。
-我认为没有这种可能哦。
+我认为没有这种可能喔。
 
 # 0203Trial07_Ema014
 ; > Ema: |#0203Trial07_Ema014|
@@ -435,7 +435,7 @@
 ; > Sherry: |#0203Trial07_Sherry004|
 ; そうなりますね！<br>ヒロさんの考えは間違いです！
 是这样没错！<br>
-是希罗你想错了！
+是希罗妳想错了！
 
 # 0203Trial07_Hiro039
 ; > Hiro: |#0203Trial07_Hiro039|

@@ -1,9 +1,9 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter02/Act02_Chapter02_Trial12' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act02_Chapter02/Act02_Chapter02_Trial12' Naninovel scenario script
 
 # 0202Trial12_Miria001
 ; > @printDebate pos:70,50 roll:4 |#0202Trial12_Miria001|
 ; ヒロちゃんは<br>シャワールームが<br>防音だって<br>言ってたけど……。
-小希你说<br>
+小希妳说<br>
 淋浴房<br>
 是隔音的……<br>
 
@@ -197,7 +197,7 @@
 # 0202Trial12_Miria013
 ; > Miria: |#0202Trial12_Miria013|
 ; そ、それだって単なる憶測だよね……？
-这、这只是你的揣测吧……？
+这、这只是妳的揣测吧……？
 
 # 0202Trial12_Miria014
 ; > Miria: |#0202Trial12_Miria014|
@@ -273,7 +273,7 @@
 # 0202Trial12_AnAn001
 ; > AnAn: |#0202Trial12_AnAn001|
 ; 『事件のことも事前に予言して欲しいものだ』
-『你怎么就没预测到这起案件呢』
+『妳怎么就没预测到这起案件呢』
 
 # 0202Trial12_Hiro021
 ; > Hiro: |#0202Trial12_Hiro021|
@@ -461,7 +461,7 @@
 # 0202Trial12_Nanoka006
 ; > Nanoka: |#0202Trial12_Nanoka006|
 ; 私がやったと……。<br>反論なんて【ない】と。
-你们说是我做的……<br>
+妳们说是我做的……<br>
 我也【没有】反驳。
 
 # 0202Trial12_Alisa001
@@ -472,7 +472,7 @@
 # 0202Trial12_Alisa002
 ; > Alisa: |#0202Trial12_Alisa002|
 ; 何か反論あるかよ。
-你有什么要反驳的吗。
+妳有什么要反驳的吗。
 
 # 0202Trial12_Nanoka007
 ; > Nanoka: |#0202Trial12_Nanoka007|
@@ -482,7 +482,7 @@
 # 0202Trial12_Alisa003
 ; > Alisa: |#0202Trial12_Alisa003|
 ; おめえ……あのとき……！
-你这家伙……原来那时候……！
+妳这家伙……原来那时候……！
 
 # 0202Trial12_Nanoka008
 ; > Nanoka: |#0202Trial12_Nanoka008|
@@ -509,4 +509,4 @@
 ; > Nanoka: |#0202Trial12_Nanoka011|
 ; 迷惑をかけて……<br>ごめんなさい……。
 很抱歉……<br>
-给你们添麻烦了……
+给妳们添麻烦了……

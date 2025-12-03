@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter03/Act02_Chapter03_Adv12' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act02_Chapter03/Act02_Chapter03_Adv12' Naninovel scenario script
 
 # 0203Adv12_Narrative001
 ; ラウンジに集った少女たちは、<br>誰も口を開かない。
@@ -39,7 +39,7 @@
 ; > Warden: |#0203Adv12_Warden002|
 ; ここしばらくは平和だったのに……<br>やっぱり、抗えないんですかねえ。
 最近这阵子明明那么和平……<br>
-果然你们还是无法抵抗那种冲动啊。
+果然妳们还是无法抵抗那种冲动啊。
 
 # 0203Adv12_Warden003
 ; > Warden: |#0203Adv12_Warden003|
@@ -70,7 +70,7 @@
 # 0203Adv12_Hanna001
 ; > Hanna: |#0203Adv12_Hanna001|
 ; どういうことですの！？
-你这话是什么意思！？
+妳这话是什么意思！？
 
 # 0203Adv12_Sherry001
 ; > Sherry: |#0203Adv12_Sherry001|
@@ -98,7 +98,7 @@
 # 0203Adv12_Leia001
 ; > Leia: |#0203Adv12_Leia001|
 ; ヒロくん、キミは……！
-希罗，你……！
+希罗，妳……！
 
 # 0203Adv12_Narrative009
 ; 誰の目も見ることができなかった。<br>私はただ<ruby="うなだ">項垂</ruby>れ、投票結果を待った。

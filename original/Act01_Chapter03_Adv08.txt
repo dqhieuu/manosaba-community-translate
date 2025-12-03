@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act01_Chapter03/Act01_Chapter03_Adv08' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act01_Chapter03/Act01_Chapter03_Adv08' Naninovel scenario script
 
 # 0103Adv08_Narrative001
 ; エマがラウンジに入ると、<br>ソファーに座るアリサを発見した。
@@ -55,12 +55,12 @@
 # 0103Adv08_Ema003
 ; > Ema: |#0103Adv08_Ema003|
 ; 気にしないで。その、体調はどうかな？
-别在意。那个，你的身体状况怎么样？
+别在意。那个，妳的身体状况怎么样？
 
 # 0103Adv08_Alisa004
 ; > Alisa: |#0103Adv08_Alisa004|
 ; 薬のこと、氷上から聞いたんだな。
-冰上告诉你药的事了吧。
+冰上告诉妳药的事了吧。
 
 # 0103Adv08_Ema004
 ; > Ema: |#0103Adv08_Ema004|
@@ -94,7 +94,7 @@
 # 0103Adv08_Ema006
 ; > Ema: |#0103Adv08_Ema006|
 ; そう、だよね。不安になる気持ち、わかるよ。<br>でも、体に悪影響が出るのは良くないよ……。
-是啊，我能理解你的不安。<br>
+是啊，我能理解妳的不安。<br>
 但是，如果对身体有害的话就不好了……
 
 # 0103Adv08_Ema007
@@ -134,7 +134,7 @@
 ; > Ema: |#0103Adv08_Ema011|
 ; ボク、先に行ってるから、<br>良かったら来てね！ 待ってるから！
 我先过去了，<br>
-如果你愿意的话就来吧！我们等你！
+如果妳愿意的话就来吧！我们等妳！
 
 # 0103Adv08_Narrative007
 ; エマは勢い込んでアリサに声をかけ、<br>ラウンジを出ていった。

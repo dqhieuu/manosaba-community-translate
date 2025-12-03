@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act01_Chapter01/Act01_Chapter01_Adv02' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act01_Chapter01/Act01_Chapter01_Adv02' Naninovel scenario script
 
 # 0101Adv02_Ema001
 ; > Ema: |#0101Adv02_Ema001|
@@ -212,7 +212,7 @@
 # 0101Adv02_Hiro001
 ; > Hiro: |#0101Adv02_Hiro001|
 ; 何故、君がここに？
-为什么你会在这里？
+为什么妳会在这里？
 
 # 0101Adv02_Narrative026
 ; ヒロはベッドからひらりと降りて、エマに問いかける。
@@ -398,7 +398,7 @@
 ; > Hiro: |#0101Adv02_Hiro004|
 ; 気安く触れないでほしい。<br>忘れてもらっては困る。私は君が嫌いなんだ。
 不要随便碰我。<br>
-你可别忘了，我讨厌你。
+妳可别忘了，我讨厌妳。
 
 # 0101Adv02_Narrative046
 ; 吐き捨てるヒロの瞳は、<br>根深い嫌悪の色を宿していた。

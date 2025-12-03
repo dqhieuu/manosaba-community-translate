@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter02/Act02_Chapter02_Trial07' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act02_Chapter02/Act02_Chapter02_Trial07' Naninovel scenario script
 
 # 0202Trial07_Sherry001
 ; > @printDebate pos:70,50 roll:4 |#0202Trial07_Sherry001|
@@ -55,7 +55,7 @@
 # 0202Trial07_Hanna002
 ; > @printDebate pos:30,50 roll:-4 |#0202Trial07_Hanna002|
 ; それは……<br>なんか無理じゃ<br>ありませんこと！？<br>わたくしには<br><link="Objection_02_02_07_03">絶対無理</link>ですわ～！
-你……<br>
+妳……<br>
 不觉得<br>
 很牵强吗！？<br>
 我<link="Objection_02_02_07_03">绝对不可能做得到</link>～！<br>
@@ -70,7 +70,7 @@
 # 0202Trial07_Sherry008
 ; > @printDebate pos:70,50 roll:4 |#0202Trial07_Sherry008|
 ; ハンナさんがずっと<br><link="Objection_02_02_07_05">中庭の空</link>で死体を持って<br>待っていたのだとしたら、<br>全然<link="Objection_02_02_07_04">成立する</link>と<br>思いますけどね！
-如果你一直<br>
+如果妳一直<br>
 扛着尸体<br>
 等在<link="Objection_02_02_07_05">中庭上空</link>，<br>
 那我觉得完全可以<br>
@@ -132,7 +132,7 @@
 时间顺序有矛盾
 
 # 0202Trial07_Choice005
-; > @choice |#0202Trial07_Choice005| button:ChoiceButtons/Trial/Question handler:TrialHiro
+; > @choice |#0202Trial07_Choice005| button:ChoiceButtons/Trial/Objection handler:TrialHiro
 ; 空にいたら誰かに見られる
 在空中会被人看见
 
@@ -161,13 +161,13 @@
 # 0202Trial07_Sherry010
 ; > Sherry: |#0202Trial07_Sherry010|
 ; 特に死体発見前後は<br>ヒロさんがバタバタと１階を駆けていたと聞きます……。
-尤其是希罗你，就在尸体被发现的那段时间<br>
-我听见你慌慌张张地跑到了一楼……
+尤其是希罗妳，就在尸体被发现的那段时间<br>
+我听见妳慌慌张张地跑到了一楼……
 
 # 0202Trial07_Sherry011
 ; > Sherry: |#0202Trial07_Sherry011|
 ; つまりヒロさんが目立ってしまっていたということです！
-也就是说当时你非常引人注意！
+也就是说当时妳非常引人注意！
 
 # 0202Trial07_AnAn001
 ; > AnAn: |#0202Trial07_AnAn001|
@@ -291,7 +291,7 @@
 # 0202Trial07_Hanna005
 ; > Hanna: |#0202Trial07_Hanna005|
 ; ヒロさん、もっとちゃんと反論してくださいまし！！
-希罗，请你认真一点反驳！！
+希罗，请妳认真一点反驳！！
 
 # 0202Trial07_Hiro016
 ; > Hiro: |#0202Trial07_Hiro016|
@@ -313,8 +313,8 @@
 # 0202Trial07_Hiro019
 ; > Hiro: |#0202Trial07_Hiro019|
 ; 無理というけど、<br>君にアリバイでもあるのかな。
-你说自己做不到，<br>
-那你是否有不在场证明呢？
+妳说自己做不到，<br>
+那妳是否有不在场证明呢？
 
 # 0202Trial07_Hanna006
 ; > Hanna: |#0202Trial07_Hanna006|
@@ -465,7 +465,7 @@
 # 0202Trial07_Sherry023
 ; > Sherry: |#0202Trial07_Sherry023|
 ; 事前に殺して目撃証言を作り、<br>外に出た可能性はあると思います！
-我觉得她可能先杀了可可，再拿到你的目击证词，<br>
+我觉得她可能先杀了可可，再拿到妳的目击证词，<br>
 然后去了中庭！
 
 # 0202Trial07_Hiro029
@@ -476,7 +476,7 @@
 # 0202Trial07_Ema002
 ; > Ema: |#0202Trial07_Ema002|
 ; ……そっか！ そういえばそうだった……！
-……对哦！这么一说确实是……！
+……对喔！这么一说确实是……！
 
 # 0202Trial07_Ema003
 ; > Ema: |#0202Trial07_Ema003|
@@ -500,7 +500,7 @@
 # 0202Trial07_Hanna014
 ; > Hanna: |#0202Trial07_Hanna014|
 ; ……たしかにその通りですわー！？
-……确实如你所说呢！？
+……确实如妳所说呢！？
 
 # 0202Trial07_Sherry024
 ; > Sherry: |#0202Trial07_Sherry024|
@@ -534,7 +534,7 @@
 ; そうなると、<br>やっぱり空から侵入することは<br>できなかったっていうことですかね？
 那这么说，<br>
 结果还是不可能<br>
-从空中潜入咯？
+从空中潜入啰？
 
 # 0202Trial07_AnAn002
 ; > AnAn: |#0202Trial07_AnAn002|
@@ -598,7 +598,7 @@
 # 0202Trial07_Leia003
 ; > Leia: |#0202Trial07_Leia003|
 ; ……どうしてそう思うんだい？
-……你为什么这么想？
+……妳为什么这么想？
 
 # 0202Trial07_AnAn005
 ; > AnAn: |#0202Trial07_AnAn005|
@@ -670,7 +670,7 @@
 ; > Noah: |#0202Trial07_Noah004|
 ; じゃあエマちゃんを殺す動機なら<br>あるってこと？
 那就是说<br>
-她有杀害你的动机？
+她有杀害妳的动机？
 
 # 0202Trial07_Ema016
 ; > Ema: |#0202Trial07_Ema016|
@@ -709,7 +709,7 @@
 # 0202Trial07_Hiro041
 ; > Hiro: |#0202Trial07_Hiro041|
 ; （……そういう愚かなところが大嫌いだよ、エマ）
-（……我最讨厌你这种愚蠢的行事方式了，艾玛）
+（……我最讨厌妳这种愚蠢的行事方式了，艾玛）
 
 # 0202Trial07_Hiro042
 ; > Hiro: |#0202Trial07_Hiro042|

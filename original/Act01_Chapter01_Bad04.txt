@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act01_Chapter01/Act01_Chapter01_Bad04' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act01_Chapter01/Act01_Chapter01_Bad04' Naninovel scenario script
 
 # 0101Bad04_Ema001
 ; > Ema: |#0101Bad04_Ema001|
@@ -9,7 +9,7 @@
 ; > Sherry: |#0101Bad04_Sherry001|
 ; なるほど！ あそこなら建物の中に隠れて、<br>やり過ごせるかもしれませんね！
 我知道了！我们可以藏建筑物里面，<br>
-躲一阵子等它们走开，对不对！
+躲一阵子等牠们走开，对不对！
 
 # 0101Bad04_Narrative001
 ; エマたちの考えは甘かった。
@@ -179,7 +179,7 @@
 # 0101Bad04_Sherry006
 ; > Sherry: |#0101Bad04_Sherry006|
 ; ハンナさん、助けに来ました！
-汉娜，我们来救你了！
+汉娜，我们来救妳了！
 
 # 0101Bad04_Narrative015
 ; 扉を破壊して室内に現れたシェリーに、<br>ハンナは<ruby="あぜん">唖然</ruby>とする。
@@ -200,7 +200,7 @@
 ; > Hanna: |#0101Bad04_Hanna006|
 ; そうですわ！ わたくしなら大丈夫ですから、<br>バカな真似はおよしなさい！
 对啊！我没事的，<br>
-你别做傻事啊！
+妳别做傻事啊！
 
 # 0101Bad04_Sherry007
 ; > Sherry: |#0101Bad04_Sherry007|
@@ -216,7 +216,7 @@
 ; > Sherry: |#0101Bad04_Sherry008|
 ; 本気の本気でやれば、<br>案外ぶっ殺せるかもしれませんよ？
 只要使出百分之二百的真本事，<br>
-说不定就能轻松杀死它哦？
+说不定就能轻松杀死牠哦？
 
 # 0101Bad04_Sherry009
 ; > Sherry: |#0101Bad04_Sherry009|

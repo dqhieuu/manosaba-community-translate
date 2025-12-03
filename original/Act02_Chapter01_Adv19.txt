@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter01/Act02_Chapter01_Adv19' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act02_Chapter01/Act02_Chapter01_Adv19' Naninovel scenario script
 
 # 0201Adv19_Narrative001
 ; 翌日の夕食後――<br>私とノアはシャワールームに足を運んでいた。
@@ -89,7 +89,7 @@
 ; > Coco: |#0201Adv19_Coco002|
 ; ふっふっふ～、<br>今日のあてぃしは重大発表しちゃいまーす。
 嘿嘿嘿～<br>
-今天我要宣布一件大事哦。
+今天我要宣布一件大事喔。
 
 # 0201Adv19_Coco003
 ; > Coco: |#0201Adv19_Coco003|
@@ -99,7 +99,7 @@
 # 0201Adv19_Coco004
 ; > Coco: |#0201Adv19_Coco004|
 ; 実はこれな、【魔女を殺す薬】なんだよね～。
-其实这个啊，是【杀死魔女的药】哦～
+其实这个啊，是【杀死魔女的药】喔～
 
 # 0201Adv19_Coco005
 ; > Coco: |#0201Adv19_Coco005|
@@ -123,7 +123,7 @@
 # 0201Adv19_Coco008
 ; > Coco: |#0201Adv19_Coco008|
 ; 信じるか信じないかは任せる！<br>とにかく【魔女を殺す薬】を使用しなきゃ<br>確実に魔女は殺せないってコト！
-信不信由你们！<br>
+信不信由妳们！<br>
 总之，如果不使用这种【杀死魔女的药】，<br>
 就绝对无法杀死魔女！
 

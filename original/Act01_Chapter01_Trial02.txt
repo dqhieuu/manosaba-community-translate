@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act01_Chapter01/Act01_Chapter01_Trial02' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act01_Chapter01/Act01_Chapter01_Trial02' Naninovel scenario script
 
 # 0101Trial02_Sherry001
 ; > @printDebate pos:70,50 roll:4 |#0101Trial02_Sherry001|
@@ -37,7 +37,7 @@
 ; > @printDebate pos:70,50 roll:4 |#0101Trial02_Sherry004|
 ; 犯人は宝生マーゴさん！<br>あなたで決まりです！
 宝生玛格！<br>
-凶手就是你！
+凶手就是妳！
 
 # 0101Trial02_Margo002
 ; > @printDebate pos:30,50 roll:-4 |#0101Trial02_Margo002|
@@ -61,7 +61,7 @@
 # 0101Trial02_Meruru002
 ; > Meruru: |#0101Trial02_Meruru002|
 ; もしそうなら……それを教えてあげると、<br>意見を改めてもらえるかもしれませんね。
-如果有的话……你可以把这件事告诉她，<br>
+如果有的话……妳可以把这件事告诉她，<br>
 说不定可以让她修改自己的见解。
 
 # 0101Trial02_Ema002
@@ -233,7 +233,7 @@
 # 0101Trial02_Ema014
 ; > Ema: |#0101Trial02_Ema014|
 ; （問題はあの絵が何なのかだけど……）
-（问题在于那幅画有什么意义……）
+（问题在于那幅画有什么意义……）**
 
 # 0101Trial02_Ema015
 ; > Ema: |#0101Trial02_Ema015|
@@ -265,7 +265,7 @@
 # 0101Trial02_Sherry009
 ; > Sherry: |#0101Trial02_Sherry009|
 ; ほら！ やっぱりです！<br>この蝶はノアさんが描いた<br>ダイイングメッセージなんですよ！
-你们看！果然是这样！<br>
+妳们看！果然是这样！<br>
 这个蝴蝶就是诺亚画的<br>
 死亡讯息！
 
@@ -356,7 +356,7 @@
 # 0101Trial02_Sherry012
 ; > Sherry: |#0101Trial02_Sherry012|
 ; それじゃあ、さっきの発言は撤回しちゃいます！
-那我就撤回刚刚的发言咯！
+那我就撤回刚刚的发言啰！
 
 # 0101Trial02_Leia003
 ; > Leia: |#0101Trial02_Leia003|
@@ -367,13 +367,13 @@
 ; > Leia: |#0101Trial02_Leia004|
 ; 見ようによっては、<br>マーゴくんを犯人に仕立て上げようとした<br>真犯人のようにも見えるよ？
 如果换个角度看，<br>
-也可以把你当作<br>
+也可以把妳当作<br>
 意图陷害玛格的真凶哦？
 
 # 0101Trial02_Leia005
 ; > Leia: |#0101Trial02_Leia005|
 ; 自分が捕まらない為に……ね。
-而目的就是为了脱罪……你说呢？
+而目的就是为了脱罪……妳说呢？
 
 # 0101Trial02_Sherry013
 ; > Sherry: |#0101Trial02_Sherry013|
@@ -429,7 +429,7 @@
 ; > Coco: |#0101Trial02_Coco004|
 ; ああん！？<br>今あてぃしがバカって言ったか！？
 哈啊！？<br>
-你刚说我是笨蛋对不对！？
+妳刚说我是笨蛋对不对！？
 
 # 0101Trial02_Alisa002
 ; > Alisa: |#0101Trial02_Alisa002|
@@ -447,14 +447,14 @@
 ; たとえば……<br>思いついたもんをその場で描いちまっただけの<br>可能性もあるだろ。
 举个例子……<br>
 这有可能只是她现场<br>
-想到什么就画什么而已，你说对不对。
+想到什么就画什么而已，妳说对不对。
 
 # 0101Trial02_Miria003
 ; > Miria: |#0101Trial02_Miria003|
 ; ……あ、でもその可能性は<br>本当にありそうだよね……。<br>ほら、部屋の中って白一色だったでしょ。
 ……啊，或许<br>
 这个可能性还蛮大的……<br>
-你们看，房间里面都是一片白色，对不对。
+妳们看，房间里面都是一片白色，对不对。
 
 # 0101Trial02_Miria004
 ; > Miria: |#0101Trial02_Miria004|
@@ -472,7 +472,7 @@
 ; > Margo: |#0101Trial02_Margo004|
 ; でももしかすると……<br>本当にそれが真相なのかもしれないわ？
 说不定……<br>
-这就是真相哦？
+这就是真相喔？
 
 # 0101Trial02_Sherry015
 ; > Sherry: |#0101Trial02_Sherry015|

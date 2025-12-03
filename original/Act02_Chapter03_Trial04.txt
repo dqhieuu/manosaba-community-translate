@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter03/Act02_Chapter03_Trial04' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act02_Chapter03/Act02_Chapter03_Trial04' Naninovel scenario script
 
 # 0203Trial04_Sherry001
 ; > @printDebate pos:70,50 roll:4 |#0203Trial04_Sherry001|
@@ -141,13 +141,13 @@
 # 0203Trial04_Hiro006
 ; > Hiro: |#0203Trial04_Hiro006|
 ; きちんと整列していたというが、<br>本当にそうだったのかな。
-你刚才说铁栅原本是排列得整整齐齐的，<br>
+妳刚才说铁栅原本是排列得整整齐齐的，<br>
 情况真是这样吗？
 
 # 0203Trial04_Hiro007
 ; > Hiro: |#0203Trial04_Hiro007|
 ; シェリーが勘違いしていただけで、<br>元々不揃いに並んでいた可能性はある。
-会不会只是雪莉你记错了，<br>
+会不会只是雪莉妳记错了，<br>
 铁栅有可能原本就已经七扭八歪的了。
 
 # 0203Trial04_Leia001
@@ -230,7 +230,7 @@
 # 0203Trial04_Hanna002
 ; > Hanna: |#0203Trial04_Hanna002|
 ; まさか、夜な夜なひとりでに歩き始めたとか<br>言うわけではありませんわよね……！
-你不会说什么铁栅每晚都会自己跑出来<br>
+妳不会说什么铁栅每晚都会自己跑出来<br>
 到处走来走去这种话吧……！
 
 # 0203Trial04_Hiro014
@@ -569,7 +569,7 @@
 # 0203Trial04_Miria004
 ; > Miria: |#0203Trial04_Miria004|
 ; そういえばそれで思い出したけど、<br>おじさんが空の写真を撮った時も、<br>それで中庭の方を全然気にしてなかったんだよね……。
-你这么一说我就想起来了，<br>
+妳这么一说我就想起来了，<br>
 大叔我在拍天空的时候也是完全没注意<br>
 看中庭那边……
 
@@ -586,12 +586,12 @@
 # 0203Trial04_Hiro054
 ; > Hiro: |#0203Trial04_Hiro054|
 ; つまり君の論は破綻しているんだ。
-也就是说，你的推理里有漏洞。
+也就是说，妳的推理里有漏洞。
 
 # 0203Trial04_Hiro055
 ; > Hiro: |#0203Trial04_Hiro055|
 ; それとも……反論でもあるかな。
-还是说……你还有反对意见吗？
+还是说……妳还有反对意见吗？
 
 # 0203Trial04_Sherry020
 ; > Sherry: |#0203Trial04_Sherry020|
@@ -644,13 +644,13 @@
 # 0203Trial04_Hiro057
 ; > Hiro: |#0203Trial04_Hiro057|
 ; 何かがあった……そう言いたいのか？
-你是说……现场有东西用作了标记？
+妳是说……现场有东西用作了标记？
 
 # 0203Trial04_Sherry027
 ; > Sherry: |#0203Trial04_Sherry027|
 ; その通りです。<br>そしてそれは現場からも見つかっていますよ。
 没错。<br>
-我已经在现场找到这个标记了哦。
+我已经在现场找到这个标记了喔。
 
 # 0203Trial04_Sherry028
 ; > Sherry: |#0203Trial04_Sherry028|

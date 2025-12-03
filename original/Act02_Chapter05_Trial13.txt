@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter05/Act02_Chapter05_Trial13' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act02_Chapter05/Act02_Chapter05_Trial13' Naninovel scenario script
 
 # 0205Trial13_Coco001
 ; > @printDebate pos:70,50 roll:4 |#0205Trial13_Coco001|
@@ -31,19 +31,19 @@
 ; あてぃしは<br>帰らなきゃダメなの！<br>お前らなんかと<br>遊んでる暇ないんだよ！
 我必须得回家！<br>
 才没空跟<br>
-你们这帮<br>
+妳们这帮<br>
 家伙瞎闹！
 
 # 0205Trial13_Coco005
 ; > @printDebate pos:70,50 roll:4 |#0205Trial13_Coco005|
 ; ドッキリかなんか<br>知らないけどふざけんなよ！
-我才不管你们<br>
+我才不管妳们<br>
 是不是在整蛊，别跟我开玩笑了！
 
 # 0205Trial13_Coco006
 ; > @printDebate pos:70,50 roll:4 |#0205Trial13_Coco006|
 ; マジお前らキモいから！<br>こっち<link="Objection_02_05_13_02">見る</link>んじゃねー！！
-你们真的超恶心！<br>
+妳们真的超恶心！<br>
 别再盯着我<link="Objection_02_05_13_02">看</link>了！！
 
 # 0205Trial13_Coco007
@@ -110,12 +110,12 @@
 # 0205Trial13_Coco008
 ; > Coco: |#0205Trial13_Coco008|
 ; 知ったような口きいてんじゃねーよ！
-别说得你好像很懂的样子！
+别说得妳好像很懂的样子！
 
 # 0205Trial13_Coco009
 ; > Coco: |#0205Trial13_Coco009|
 ; そんなん、あんたがどんくさくて<br>見逃してただけでしょ！？
-只是因为你太迟钝<br>
+只是因为妳太迟钝<br>
 才看漏了而已，不是吗！？
 
 # 0205Trial13_Coco010
@@ -126,7 +126,7 @@
 # 0205Trial13_Coco011
 ; > Coco: |#0205Trial13_Coco011|
 ; なんと言われても、あてぃしは絶対見つけるから……！
-才不管你怎么说，我绝对会找到办法的……！
+才不管妳怎么说，我绝对会找到办法的……！
 
 # 0205Trial13_Coco012
 ; > Coco: |#0205Trial13_Coco012|
@@ -158,7 +158,7 @@
 ; > Hiro: |#0205Trial13_Hiro012|
 ; 泣いたって状況は変わらないし、<br>誰も助けてくれたりなんかしない。
 哭也改变不了状况，<br>
-谁也不会来救你的。
+谁也不会来救妳的。
 
 # 0205Trial13_Hiro013
 ; > Hiro: |#0205Trial13_Hiro013|
@@ -168,7 +168,7 @@
 # 0205Trial13_Coco013
 ; > Coco: |#0205Trial13_Coco013|
 ; ……なんでさっきからそんなに冷静なわけ？
-……为什么你从刚才开始就那么冷静啊？
+……为什么妳从刚才开始就那么冷静啊？
 
 # 0205Trial13_Coco014
 ; > Coco: |#0205Trial13_Coco014|
@@ -179,12 +179,12 @@
 # 0205Trial13_Coco015
 ; > Coco: |#0205Trial13_Coco015|
 ; ――そっか！ あんたが黒幕なんだろ！
-——我知道了！你就是幕后黑手吧！
+——我知道了！妳就是幕后黑手吧！
 
 # 0205Trial13_Hiro014
 ; > Hiro: |#0205Trial13_Hiro014|
 ; 何を言って……。
-你在说什么……
+妳在说什么……
 
 # 0205Trial13_Coco016
 ; > Coco: |#0205Trial13_Coco016|
@@ -229,7 +229,7 @@
 ; > Coco: |#0205Trial13_Coco018|
 ; うっせー！<br>あてぃしが何を見ようが勝手だろ！
 吵死了！<br>
-我看什么关你屁事！
+我看什么关妳屁事！
 
 # 0205Trial13_Coco019
 ; > Coco: |#0205Trial13_Coco019|
@@ -255,7 +255,7 @@
 # 0205Trial13_Leia001
 ; > Leia: |#0205Trial13_Leia001|
 ; ……なら、私が見せてあげようか。
-……那么，让我来帮你看清楚吧。
+……那么，让我来帮妳看清楚吧。
 
 # 0205Trial13_Hiro022
 ; > Hiro: |#0205Trial13_Hiro022|
@@ -300,13 +300,13 @@
 # 0205Trial13_Hiro023
 ; > Hiro: |#0205Trial13_Hiro023|
 ; （……強制的に、前を向かせている……！？）
-（……强制让她向前看了……！？）
+（……强制让她向前看了……！？）*
 
 # 0205Trial13_Coco024
 ; > Coco: |#0205Trial13_Coco024|
 ; ちょ……！<br>な、なんだよお前！<br>キモ！
 喂……！<br>
-你、你这家伙搞什么鬼！<br>
+妳、妳这家伙搞什么鬼！<br>
 恶心！
 
 # 0205Trial13_Coco025
@@ -317,13 +317,13 @@
 # 0205Trial13_Leia006
 ; > Leia: |#0205Trial13_Leia006|
 ; 指図じゃないよ。
-这不是指手画脚哦。
+这不是指手画脚喔。
 
 # 0205Trial13_Leia007
 ; > Leia: |#0205Trial13_Leia007|
 ; ……私ができることは、<br>君を導くことだけだ。
 ……我能做的，<br>
-只是引导你而已。
+只是引导妳而已。
 
 # 0205Trial13_Leia008
 ; > Leia: |#0205Trial13_Leia008|
@@ -339,13 +339,13 @@
 # 0205Trial13_Leia010
 ; > Leia: |#0205Trial13_Leia010|
 ; 君の眼前の視界は、<br>すでに<ruby="ひら">開</ruby>けている……。
-你眼前的视野，<br>
+妳眼前的视野，<br>
 已经为你敞开……
 
 # 0205Trial13_Leia011
 ; > Leia: |#0205Trial13_Leia011|
 ; いつまでも後ろを向いていてはいけないんだ！
-绝不能永远都回头看着过去！
+绝不能永远都回头看着过去！*
 
 # 0205Trial13_Coco026
 ; > Coco: |#0205Trial13_Coco026|
@@ -370,7 +370,7 @@
 # 0205Trial13_Coco029
 ; > Coco: |#0205Trial13_Coco029|
 ; お前らの言うこと……きっと、正しいんだと思う……。
-我也觉得……你们说的话，肯定也都对……
+我也觉得……妳们说的话，肯定也都对……
 
 # 0205Trial13_Coco030
 ; > Coco: |#0205Trial13_Coco030|

@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter02/Act02_Chapter02_Trial05' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act02_Chapter02/Act02_Chapter02_Trial05' Naninovel scenario script
 
 # 0202Trial05_Ema001
 ; > @printDebate pos:30,50 roll:-4 |#0202Trial05_Ema001|
@@ -33,14 +33,14 @@
 ; あれ？<br>ならヒロちゃんが<br>見逃した可能性は<br>あるってこと？
 咦？<br>
 那就是说<br>
-也有可能是希罗你<br>
+也有可能是希罗妳<br>
 没注意到尸体？
 
 # 0202Trial05_Noah002
 ; > @printDebate pos:30,50 roll:-4 |#0202Trial05_Noah002|
 ; ヒロちゃんって、<br>配信でココちゃんが<br>死んだのを見て<br>ココちゃんを<br>探してたんだよね。
 希罗，<br>
-你在直播中<br>
+妳在直播中<br>
 看到可可死了<br>
 就过来<br>
 找她了对吧。
@@ -48,7 +48,7 @@
 # 0202Trial05_Noah003
 ; > @printDebate pos:30,50 roll:-4 |#0202Trial05_Noah003|
 ; だったら急いで<br>探してたって<br>ことだし……。
-所以你<br>
+所以妳<br>
 找人找得<br>
 很匆忙……
 
@@ -81,7 +81,7 @@
 # 0202Trial05_Leia003
 ; > @printDebate pos:70,50 roll:4 |#0202Trial05_Leia003|
 ; ヒロくんはさっき、<br>ココくんが死んだ場所は<br>地下の焼却炉室の<br>可能性が高いと<br>示していたよね。
-希罗，你刚才说<br>
+希罗，妳刚才说<br>
 可可的死亡地点<br>
 很有可能是<br>
 地下的焚烧炉室，<br>
@@ -160,7 +160,7 @@
 那也就是说，<br>
 凶手还是<br>
 艾玛和希罗<br>
-二选一咯！
+二选一啰！
 
 # 0202Trial05_AnAn002
 ; > @printDebate pos:30,50 roll:-4 |#0202Trial05_AnAn002|
@@ -217,7 +217,7 @@
 # 0202Trial05_Choice003
 ; > @choice |#0202Trial05_Choice003| button:ChoiceButtons/Trial/Objection handler:TrialHiro
 ; レイアたちが見落とした
-是你们没注意到
+是妳们没注意到
 
 # 0202Trial05_Choice004
 ; > @choice |#0202Trial05_Choice004| button:ChoiceButtons/Trial/Objection handler:TrialHiro
@@ -237,24 +237,24 @@
 # 0202Trial05_Hanna001
 ; > Hanna: |#0202Trial05_Hanna001|
 ; ウソおっしゃいませですわーッ！！
-你肯定在说谎！！
+妳肯定在说谎！！
 
 # 0202Trial05_Hiro011
 ; > Hiro: |#0202Trial05_Hiro011|
 ; な、なにを根拠に――！
-你、你有什么证据——！
+妳、妳有什么证据——！
 
 # 0202Trial05_Hanna002
 ; > Hanna: |#0202Trial05_Hanna002|
 ; 死体発見直前……２階に上がる階段で<br>ヒロさんはわたくしに激突してきましたの！
-就在尸体被发现的前不久……你在楼梯上<br>
+就在尸体被发现的前不久……妳在楼梯上<br>
 狠狠撞到了我！
 
 # 0202Trial05_Hanna003
 ; > Hanna: |#0202Trial05_Hanna003|
 ; 前方不注意！！<br>ヒロさんが周囲をちゃんと見ていたとは言い切れませんわー！！
 连路都不注意看！！<br>
-你怎么敢肯定自己有仔细观察周围的情况！！
+妳怎么敢肯定自己有仔细观察周围的情况！！
 
 # 0202Trial05_Hiro012
 ; > Hiro: |#0202Trial05_Hiro012|
@@ -296,7 +296,7 @@
 # 0202Trial05_Nanoka001
 ; > Nanoka: |#0202Trial05_Nanoka001|
 ; じゃあ地下の血痕はなんだったのかしら。
-那地下的血迹你要怎么解释。
+那地下的血迹妳要怎么解释。
 
 # 0202Trial05_AnAn004
 ; > AnAn: |#0202Trial05_AnAn004|
@@ -332,7 +332,7 @@
 # 0202Trial05_Hiro023
 ; > Hiro: |#0202Trial05_Hiro023|
 ; レイアたちは雑談に夢中で<br>犯人を見落としたに違いない。
-一定是你们当时沉迷在闲聊之中，<br>
+一定是妳们当时沉迷在闲聊之中，<br>
 没注意到凶手。
 
 # 0202Trial05_Leia006
@@ -398,7 +398,7 @@
 # 0202Trial05_Alisa002
 ; > Alisa: |#0202Trial05_Alisa002|
 ; んだと？<br>じゃあどっから入ったんだ。
-你说什么？<br>
+妳说什么？<br>
 那到底能从哪进去。
 
 # 0202Trial05_Leia009
@@ -410,13 +410,13 @@
 # 0202Trial05_Leia010
 ; > Leia: |#0202Trial05_Leia010|
 ; にも関わらず、ヒロくんは【入れた】と言うんだね。
-然而，你却说凶手【能进去】。
+然而，妳却说凶手【能进去】。
 
 # 0202Trial05_Hiro030
 ; > Hiro: |#0202Trial05_Hiro030|
 ; やれやれ。<br>ここまで説明してもわからないのか？
-服了你们。<br>
-我都说到这份上了，你们还不明白吗？
+服了妳们。<br>
+我都说到这份上了，妳们还不明白吗？
 
 # 0202Trial05_Hiro031
 ; > Hiro: |#0202Trial05_Hiro031|
@@ -452,7 +452,7 @@
 # 0202Trial05_Nanoka002
 ; > Nanoka: |#0202Trial05_Nanoka002|
 ; ……何を根拠にそんなことを？
-……你这话有什么依据？
+……妳这话有什么依据？
 
 # 0202Trial05_AnAn006
 ; > AnAn: |#0202Trial05_AnAn006|
@@ -463,7 +463,7 @@
 ; > Noah: |#0202Trial05_Noah008|
 ; もしかして……<br>ヒロちゃん、隠し通路の証拠とか見つけた？
 还是说……<br>
-希罗你找到了存在秘密通道的证据？
+希罗妳找到了存在秘密通道的证据？
 
 # 0202Trial05_Hiro034
 ; > Hiro: |#0202Trial05_Hiro034|
@@ -526,7 +526,7 @@
 # 0202Trial05_Nanoka004
 ; > Nanoka: |#0202Trial05_Nanoka004|
 ; その可能性は、検討する必要があるのかしら。
-你这个说法真的有必要讨论吗？
+妳这个说法真的有必要讨论吗？
 
 # 0202Trial05_Hiro040
 ; > Hiro: |#0202Trial05_Hiro040|
@@ -586,7 +586,7 @@
 ; > Sherry: |#0202Trial05_Sherry004|
 ; ――空を飛ぶ魔法が使えるハンナさん！<br>あなたが犯人だったんですねー！
 ——能使用飞天魔法的汉娜！<br>
-你就是凶手吧！
+妳就是凶手吧！
 
 # 0202Trial05_Hanna004
 ; > Hanna: |#0202Trial05_Hanna004|
@@ -596,4 +596,4 @@
 # 0202Trial05_Hanna005
 ; > Hanna: |#0202Trial05_Hanna005|
 ; なんですってのーー！？
-你说什么——！？
+妳说什么——！？

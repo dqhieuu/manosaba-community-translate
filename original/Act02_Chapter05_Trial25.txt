@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter05/Act02_Chapter05_Trial25' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act02_Chapter05/Act02_Chapter05_Trial25' Naninovel scenario script
 
 # 0205Trial25_Sherry001
 ; > @printDebate pos:70,50 roll:4 |#0205Trial25_Sherry001|
@@ -18,14 +18,14 @@
 # 0205Trial25_Sherry003
 ; > @printDebate pos:70,50 roll:4 |#0205Trial25_Sherry003|
 ; ヒロさんの推理通りなら<br>納得ですよね。
-希罗你推断得没错的话，<br>
+希罗妳推断得没错的话，<br>
 这个结论就很合理了。
 
 # 0205Trial25_Sherry004
 ; > @printDebate pos:70,50 roll:4 |#0205Trial25_Sherry004|
 ; ……でも、<br>だとしたらどうするんです？
 ……不过，<br>
-这么一来，你要怎么办？
+这么一来，妳要怎么办？
 
 # 0205Trial25_Sherry005
 ; > @printDebate pos:70,50 roll:4 |#0205Trial25_Sherry005|
@@ -42,7 +42,7 @@
 # 0205Trial25_Hiro002
 ; > @printDebate pos:30,50 roll:-4 |#0205Trial25_Hiro002|
 ; 君は痛みの信号を<br>不快と思わないのだから。
-因为你不会对<br>
+因为妳不会对<br>
 疼痛的信号感受到不快。
 
 # 0205Trial25_Sherry006
@@ -139,12 +139,12 @@
 # 0205Trial25_Choice003
 ; > @choice |#0205Trial25_Choice003| button:ChoiceButtons/Trial/Objection handler:TrialHiro
 ; 君は感情豊かだ
-你的感情很丰富
+妳的感情很丰富
 
 # 0205Trial25_Choice004
 ; > @choice |#0205Trial25_Choice004| button:ChoiceButtons/Trial/Objection handler:TrialHiro
 ; 君は人間だ
-你是人类
+妳是人类
 
 # 0205Trial25_Hiro007
 ; > Hiro: |#0205Trial25_Hiro007|
@@ -154,12 +154,12 @@
 # 0205Trial25_Hiro008
 ; > Hiro: |#0205Trial25_Hiro008|
 ; 君が過去の自分を否定してはいけない。
-你不能否定过去的自己。
+妳不能否定过去的自己。
 
 # 0205Trial25_Hiro009
 ; > Hiro: |#0205Trial25_Hiro009|
 ; そして痛みを取り戻すんだ……！
-接下来，你要取回自己的痛苦……！
+接下来，妳要取回自己的痛苦……！
 
 # 0205Trial25_Sherry013
 ; > Sherry: |#0205Trial25_Sherry013|
@@ -216,7 +216,7 @@
 # 0205Trial25_Sherry017
 ; > Sherry: |#0205Trial25_Sherry017|
 ; そうですよね！
-你说得对！
+妳说得对！
 
 # 0205Trial25_Sherry018
 ; > Sherry: |#0205Trial25_Sherry018|
@@ -252,18 +252,18 @@
 # 0205Trial25_Hiro020
 ; > Hiro: |#0205Trial25_Hiro020|
 ; 君は十分に感情豊かだ。
-你的感情已经足够丰富了。
+妳的感情已经足够丰富了。
 
 # 0205Trial25_Hiro021
 ; > Hiro: |#0205Trial25_Hiro021|
 ; それ以上感情を増やす必要はないんじゃないかな。
-我觉得你没必要再增加更多感情了。
+我觉得妳没必要再增加更多感情了。
 
 # 0205Trial25_Sherry020
 ; > Sherry: |#0205Trial25_Sherry020|
 ; そうですか？<br>こう見えて、頑張ってるんですけどね～？
 是吗？<br>
-别看我这样，我也付出了很多努力哦～？
+别看我这样，我也付出了很多努力喔～？
 
 # 0205Trial25_Sherry021
 ; > Sherry: |#0205Trial25_Sherry021|
@@ -299,7 +299,7 @@
 # 0205Trial25_Hiro026
 ; > Hiro: |#0205Trial25_Hiro026|
 ; ……君は人間だよ。
-……你是人类哦。
+……妳是人类喔。
 
 # 0205Trial25_Sherry023
 ; > Sherry: |#0205Trial25_Sherry023|
@@ -319,7 +319,7 @@
 # 0205Trial25_Hiro027
 ; > Hiro: |#0205Trial25_Hiro027|
 ; ……君が人である証拠がある。<br>それは――。
-……有证据证明你就是人类。<br>
+……有证据证明妳就是人类。<br>
 那就是——
 
 # 0205Trial25_Hiro028
@@ -342,12 +342,12 @@
 # 0205Trial25_Hiro031
 ; > Hiro: |#0205Trial25_Hiro031|
 ; ……君が人である証拠、それは――。
-……证明你是人类的证据就是——
+……证明妳是人类的证据就是——
 
 # 0205Trial25_Hiro032
 ; > Hiro: |#0205Trial25_Hiro032|
 ; 君が、遠野ハンナを殺した事件だ。
-你，杀害了远野汉娜的那起案件。
+妳，杀害了远野汉娜的那起案件。
 
 # 0205Trial25_Sherry026
 ; > Sherry: |#0205Trial25_Sherry026|
@@ -392,7 +392,7 @@
 # 0205Trial25_Hiro034
 ; > Hiro: |#0205Trial25_Hiro034|
 ; 君はハンナの願いを叶えたと語った……。
-你说，你实现了汉娜的愿望……
+妳说，妳实现了汉娜的愿望……
 
 # 0205Trial25_Sherry028
 ; > Sherry: |#0205Trial25_Sherry028|
@@ -403,7 +403,7 @@
 ; > Sherry: |#0205Trial25_Sherry029|
 ; 普通の人なら、<br>他人に頼まれたところで人殺しなんてしませんよ？
 正常人的话，<br>
-就算被别人拜托也不会去杀人哦？
+就算被别人拜托也不会去杀人喔？
 
 # 0205Trial25_Hiro035
 ; > Hiro: |#0205Trial25_Hiro035|
@@ -413,13 +413,13 @@
 # 0205Trial25_Hiro036
 ; > Hiro: |#0205Trial25_Hiro036|
 ; けれど君なりに<ruby="ひと">他人</ruby>の気持ちを想像して、<br>他者のために動いた結果だ。
-但那是你以专属于你的方式，去想像了他人的心情，<br>
+但那是妳以专属于妳的方式，去想像了他人的心情，<br>
 为了他人而行动的结果。
 
 # 0205Trial25_Hiro037
 ; > Hiro: |#0205Trial25_Hiro037|
 ; それは君が人間である、何よりの証拠だよ。
-那就是证明你是人类的，最重要的证据哦。
+那就是证明妳是人类的，最重要的证据喔。
 
 # 0205Trial25_Sherry030
 ; > Sherry: |#0205Trial25_Sherry030|
@@ -485,12 +485,12 @@
 # 0205Trial25_Sherry041
 ; > Sherry: |#0205Trial25_Sherry041|
 ; あの選択をしてしまったことも。
-讨厌作出了那个选择的自己。
+讨厌做出了那个选择的自己。
 
 # 0205Trial25_Sherry042
 ; > Sherry: |#0205Trial25_Sherry042|
 ; それを選択せざるを得なかったことも。
-讨厌不得不作出那个选择的自己。
+讨厌不得不做出那个选择的自己。
 
 # 0205Trial25_Sherry043
 ; > Sherry: |#0205Trial25_Sherry043|
@@ -506,7 +506,7 @@
 # 0205Trial25_Hiro039
 ; > Hiro: |#0205Trial25_Hiro039|
 ; ……シェリー、でも君は――。
-……雪莉，可是你——
+……雪莉，可是妳——
 
 # 0205Trial25_Sherry045
 ; > Sherry: |#0205Trial25_Sherry045|
@@ -575,7 +575,7 @@
 # 0205Trial25_Hiro043
 ; > Hiro: |#0205Trial25_Hiro043|
 ; ……それでも、君は人間だ。
-……即便如此，你也是人类。
+……即便如此，妳也是人类。
 
 # 0205Trial25_Sherry054
 ; > Sherry: |#0205Trial25_Sherry054|
@@ -585,7 +585,7 @@
 # 0205Trial25_Sherry055
 ; > Sherry: |#0205Trial25_Sherry055|
 ; ……強情な人ですね。
-……你真是固执呀。
+……妳真是固执呀。
 
 # 0205Trial25_Hiro044
 ; > Hiro: |#0205Trial25_Hiro044|

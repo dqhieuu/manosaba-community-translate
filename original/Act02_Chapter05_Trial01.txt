@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter05/Act02_Chapter05_Trial01' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act02_Chapter05/Act02_Chapter05_Trial01' Naninovel scenario script
 
 # 0205Trial01_Meruru001
 ; > @printDebate pos:70,50 roll:4 |#0205Trial01_Meruru001|
@@ -145,7 +145,7 @@
 # 0205Trial01_Choice004
 ; > @choice |#0205Trial01_Choice004| button:ChoiceButtons/Trial/Objection handler:TrialHiro
 ; 自然発生できない
-无法自然出现
+无法自然出现*
 
 # 0205Trial01_Choice005
 ; > @choice |#0205Trial01_Choice005| button:ChoiceButtons/Trial/Objection handler:TrialHiro
@@ -261,7 +261,7 @@
 # 0205Trial01_Hiro016
 ; > Hiro: |#0205Trial01_Hiro016|
 ; 魔女が無から発生したとでも言うのかな？
-难不成你想说，魔女是无中生有自然产生的吗？
+难不成妳想说，魔女是无中生有自然产生的吗？
 
 # 0205Trial01_Meruru023
 ; > Meruru: |#0205Trial01_Meruru023|
@@ -295,7 +295,7 @@
 ; > Meruru: |#0205Trial01_Meruru027|
 ; 魔女についての考察なら、<br>あとからたくさんお話しましょう……！
 想深入探讨魔女的话题的话，<br>
-我可以之后再陪你聊个够……！
+我可以之后再陪妳聊个够……！
 
 # 0205Trial01_Hiro018
 ; > Hiro: |#0205Trial01_Hiro018|
@@ -402,7 +402,7 @@
 # 0205Trial01_Hiro033
 ; > Hiro: |#0205Trial01_Hiro033|
 ; 君が【原初の魔女】と呼ぶ人たちのようだ。
-也就是你称为【原初的魔女】的那些人。
+也就是妳称为【原初的魔女】的那些人。
 
 # 0205Trial01_Meruru031
 ; > Meruru: |#0205Trial01_Meruru031|
@@ -439,7 +439,7 @@
 # 0205Trial01_Hiro038
 ; > Hiro: |#0205Trial01_Hiro038|
 ; 君は自分のことを最後に残った原初の魔女だと言った。
-你说你自己是最后仅存的原初的魔女。
+妳说妳自己是最后仅存的原初的魔女。
 
 # 0205Trial01_Hiro039
 ; > Hiro: |#0205Trial01_Hiro039|
@@ -451,12 +451,12 @@
 # 0205Trial01_Hiro040
 ; > Hiro: |#0205Trial01_Hiro040|
 ; ……メルル、これは君の証言と矛盾している記述だ。
-……梅露露，这份描述与你的证词存在矛盾。
+……梅露露，这份描述与妳的证词存在矛盾。
 
 # 0205Trial01_Hiro041
 ; > Hiro: |#0205Trial01_Hiro041|
 ; 君はいったい、何者なのかな。
-那么你到底，是什么人呢？
+那么妳到底，是什么人呢？
 
 # 0205Trial01_Meruru033
 ; > Meruru: |#0205Trial01_Meruru033|

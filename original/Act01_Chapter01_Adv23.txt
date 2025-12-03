@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act01_Chapter01/Act01_Chapter01_Adv23' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act01_Chapter01/Act01_Chapter01_Adv23' Naninovel scenario script
 
 # 0101Adv23_Narrative001
 ; ――早朝。<br>エマは昨晩深く眠ったためか、早くに目が覚めていた。
@@ -33,8 +33,8 @@
 # 0101Adv23_Ema002
 ; > Ema: |#0101Adv23_Ema002|
 ; アンアンちゃん、おはよう。<br>早いね！ 具合はもういいの？
-早上好安安。<br>
-你起得好早！身体怎么样了？
+早安安安。<br>
+妳起得好早！身体怎么样了？
 
 # 0101Adv23_Narrative006
 ; エマの姿を見て、<br>アンアンは嫌そうに眉をひそめる。

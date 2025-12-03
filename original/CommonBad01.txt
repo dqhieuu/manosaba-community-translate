@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Common/CommonBad01' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Common/CommonBad01' Naninovel scenario script
 
 # CommonBad01_Narrative001
 ; ――そうしてエマが犯人を突き止めることが<br>できないまま、時間は流れた。
@@ -69,7 +69,7 @@
 ; えー、間違いではありません。<br>というわけで……<br>得票数のもっとも多い、桜羽エマの処刑が決定！
 呃，没搞错啊。<br>
 那么……<br>
-就决定对得票最多的樱羽艾玛实施刑罚咯！
+就决定对得票最多的樱羽艾玛实施刑罚啰！
 
 # CommonBad01_Ema004
 ; > Ema: |#CommonBad01_Ema004|
@@ -94,7 +94,7 @@
 # CommonBad01_Narrative012
 ; エマは他の少女たちに疑問を投げかけるが、<br>誰もが何も答えはしなかった。
 艾玛向其他少女抛去疑问，<br>
-但没有任何人作出回答。
+但没有任何人做出回答。
 
 # CommonBad01_Narrative013
 ; ある者は気まずそうに顔を伏せ、<br>ある者は<ruby="あわ">憐</ruby>れむようにエマを見つめる。
@@ -123,7 +123,7 @@
 ; > Warden: |#CommonBad01_Warden004|
 ; まあ、決定は決定なんで。<br>残念ですけど、諦めてもらうしかないかと。<br>さっさと閉廷したいですし……進行しちゃっていいですかね？
 哎，这已经是最终决定了。<br>
-虽然很遗憾，但只能请你接受这个结果了。<br>
+虽然很遗憾，但只能请妳接受这个结果了。<br>
 我想早点闭庭……能让我继续下一个环节了吗？
 
 # CommonBad01_Narrative015

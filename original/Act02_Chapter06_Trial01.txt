@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter06/Act02_Chapter06_Trial01' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act02_Chapter06/Act02_Chapter06_Trial01' Naninovel scenario script
 
 # 0206Trial01_Yuki001
 ; > @printDebate pos:70,50 roll:4 |#0206Trial01_Yuki001|
@@ -24,7 +24,7 @@
 # 0206Trial01_Alisa001
 ; > @printDebate pos:30,50 roll:-4 |#0206Trial01_Alisa001|
 ; いきなり出てきたと<br>思ったら……<br>何言ってんだよてめぇ……！
-你这家伙……<br>
+妳这家伙……<br>
 忽然间跑出来<br>
 讲什么疯话……！
 
@@ -51,7 +51,7 @@
 # 0206Trial01_Yuki005
 ; > @printDebate pos:70,50 roll:4 |#0206Trial01_Yuki005|
 ; 物わかりが良くて<br>助かりますよ、<br>ナノカ。
-有你这么明事理的人，<br>
+有妳这么明事理的人，<br>
 我就不需多费口舌了，<br>
 奈叶香。
 
@@ -59,8 +59,8 @@
 ; > @printDebate pos:70,50 roll:4 |#0206Trial01_Yuki006|
 ; 大丈夫です。<br>あなたのお姉さんも、<br>ずっと一緒ですからね。
 不用害怕。<br>
-你姐姐会<br>
-永远陪着你的。
+妳姐姐会<br>
+永远陪着妳的。
 
 # 0206Trial01_Nanoka003
 ; > @printDebate pos:30,50 roll:-4 |#0206Trial01_Nanoka003|
@@ -77,7 +77,7 @@
 ; > @printDebate pos:70,50 roll:4 |#0206Trial01_Yuki008|
 ; もう……<br><link="Objection_02_06_01_04">十分</link>ですよね？
 已经……<br>
-给你们<link="Objection_02_06_01_04">足够</link>时间了吧？
+给妳们<link="Objection_02_06_01_04">足够</link>时间了吧？
 
 # 0206Trial01_Yuki009
 ; > @printDebate pos:70,50 roll:4 |#0206Trial01_Yuki009|
@@ -141,7 +141,7 @@
 # 0206Trial01_Hiro004
 ; > Hiro: |#0206Trial01_Hiro004|
 ; ……何の話だ。
-……你在说什么？
+……妳在说什么？
 
 # 0206Trial01_Hiro005
 ; > Hiro: |#0206Trial01_Hiro005|
@@ -156,19 +156,19 @@
 # 0206Trial01_Yuki011
 ; > Yuki: |#0206Trial01_Yuki011|
 ; あなたは知らないだけ……。
-只是你不知道而已……
+只是妳不知道而已……
 
 # 0206Trial01_Yuki012
 ; > Yuki: |#0206Trial01_Yuki012|
 ; いいえ、それとも知っているのに<br>知らないふりをしているだけ？
-还是说，你明明很清楚，<br>
+还是说，妳明明很清楚，<br>
 却在装傻？
 
 # 0206Trial01_Yuki013
 ; > Yuki: |#0206Trial01_Yuki013|
 ; どちらにせよ……。<br>あなたの反論に意味はありません。
 无论是哪一种……<br>
-你的反驳都没有任何意义。
+妳的反驳都没有任何意义。
 
 # 0206Trial01_Yuki014
 ; > Yuki: |#0206Trial01_Yuki014|
@@ -332,7 +332,7 @@
 # 0206Trial01_Yuki024
 ; > Yuki: |#0206Trial01_Yuki024|
 ; そんな詭弁に付き合う気はありません。
-我没兴趣和你玩这种诡辩。
+我没兴趣和妳玩这种诡辩。
 
 # 0206Trial01_Yuki025
 ; > Yuki: |#0206Trial01_Yuki025|
@@ -387,12 +387,12 @@
 # 0206Trial01_Hiro031
 ; > Hiro: |#0206Trial01_Hiro031|
 ; 君は今、人類に執行の猶予期間を与えたと言った……。
-你刚刚说，已经给予了人类缓刑期……
+妳刚刚说，已经给予了人类缓刑期……
 
 # 0206Trial01_Hiro032
 ; > Hiro: |#0206Trial01_Hiro032|
 ; だがそもそも、その判決に正当性はあるのかな。
-但说到底，你的判决究竟有没有正当性呢。
+但说到底，妳的判决究竟有没有正当性呢。
 
 # 0206Trial01_Yuki028
 ; > Yuki: |#0206Trial01_Yuki028|
@@ -413,7 +413,7 @@
 # 0206Trial01_Alisa002
 ; > Alisa: |#0206Trial01_Alisa002|
 ; ……お前ら、何言ってんだ……？
-……你们到底在讲什么啊……？
+……妳们到底在讲什么啊……？
 
 # 0206Trial01_Alisa003
 ; > Alisa: |#0206Trial01_Alisa003|
@@ -434,7 +434,7 @@
 # 0206Trial01_Miria006
 ; > Miria: |#0206Trial01_Miria006|
 ; だって、君は【人に罪がある】と言った……。
-你说，【人生而有罪】……
+妳说，【人生而有罪】……
 
 # 0206Trial01_Miria007
 ; > Miria: |#0206Trial01_Miria007|
@@ -444,13 +444,13 @@
 # 0206Trial01_Miria008
 ; > Miria: |#0206Trial01_Miria008|
 ; なら君は、<br>その判断に正当性があると主張しているんだよね……！
-那么你现在是<br>
+那么妳现在是<br>
 主张该判决具有正当性，对不对……！
 
 # 0206Trial01_Miria009
 ; > Miria: |#0206Trial01_Miria009|
 ; つまり、君は【自分の意見が正しい】と思ってるはずだ。
-也就是说，你认为【自己的意见是正确的】。
+也就是说，妳认为【自己的意见是正确的】。
 
 # 0206Trial01_Miria010
 ; > Miria: |#0206Trial01_Miria010|
@@ -542,9 +542,9 @@
 # 0206Trial01_Yuki033
 ; > Yuki: |#0206Trial01_Yuki033|
 ; それであなたたちの気が済むのなら……。
-如果这样就能让你们服气的话……
+如果这样就能让妳们服气的话……
 
 # 0206Trial01_Yuki034
 ; > Yuki: |#0206Trial01_Yuki034|
 ; 少しだけ、お付き合いしましょうか？
-那我就稍微陪你们玩玩吧？
+那我就稍微陪妳们玩玩吧？

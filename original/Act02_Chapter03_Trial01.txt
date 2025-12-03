@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter03/Act02_Chapter03_Trial01' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act02_Chapter03/Act02_Chapter03_Trial01' Naninovel scenario script
 
 # 0203Trial01_Leia001
 ; > @printDebate pos:70,50 roll:4 |#0203Trial01_Leia001|
@@ -17,7 +17,7 @@
 # 0203Trial01_Sherry001
 ; > @printDebate pos:30,50 roll:-4 |#0203Trial01_Sherry001|
 ; 偶然による事故死……<br>ということですね？
-你是说……<br>
+妳是说……<br>
 这是偶然导致的意外死亡？
 
 # 0203Trial01_Leia003
@@ -127,7 +127,7 @@
 ; > Hiro: |#0203Trial01_Hiro001|
 ; （……エマ。<br>　まさか私のことを庇おうとしているのか……？）
 （……艾玛。<br>
-　你难道是在包庇我……？）
+　妳难道是在包庇我……？）
 
 # 0203Trial01_Hiro002
 ; > Hiro: |#0203Trial01_Hiro002|
@@ -262,7 +262,7 @@
 # 0203Trial01_Hiro015
 ; > Hiro: |#0203Trial01_Hiro015|
 ; ノア、本当にベランダは壊れてなかったのかな？
-诺亚，你确定阳台真的没坏吗？
+诺亚，妳确定阳台真的没坏吗？
 
 # 0203Trial01_Noah003
 ; > Noah: |#0203Trial01_Noah003|
@@ -273,13 +273,13 @@
 # 0203Trial01_Hiro016
 ; > Hiro: |#0203Trial01_Hiro016|
 ; いや、嘘つき呼ばわりしているわけじゃない。
-没有，我的意思并不是你说谎骗人。
+没有，我的意思并不是妳说谎骗人。
 
 # 0203Trial01_Hiro017
 ; > Hiro: |#0203Trial01_Hiro017|
 ; ただ……【勘違い】していたんじゃないかと<br>言いたかったんだ。
 只是……<br>
-我在想你会不会【记错了】。
+我在想妳会不会【记错了】。
 
 # 0203Trial01_Noah004
 ; > Noah: |#0203Trial01_Noah004|
@@ -353,7 +353,7 @@
 ; > Miria: |#0203Trial01_Miria002|
 ; ノアちゃんが言うなら、<br>ヒロちゃんの勘違いなんじゃないかな……。
 既然小诺都这么说了，<br>
-我也觉得应该是小希你记错了……
+我也觉得应该是小希妳记错了……
 
 # 0203Trial01_Hiro022
 ; > Hiro: |#0203Trial01_Hiro022|
@@ -391,7 +391,7 @@
 ; > Noah: |#0203Trial01_Noah012|
 ; のあは今日、<br>アトリエにも中庭にも行ってないよ。
 诺亚今天没进过画室，<br>
-也没去过中庭哦。
+也没去过中庭喔。
 
 # 0203Trial01_Hiro026
 ; > Hiro: |#0203Trial01_Hiro026|
@@ -421,7 +421,7 @@
 # 0203Trial01_Hiro029
 ; > Hiro: |#0203Trial01_Hiro029|
 ; （君が反応するなっ……！）
-（你惊讶什么……！）
+（妳惊讶什么……！）
 
 # 0203Trial01_Hiro030
 ; > Hiro: |#0203Trial01_Hiro030|
@@ -492,7 +492,7 @@
 # 0203Trial01_Hiro041
 ; > Hiro: |#0203Trial01_Hiro041|
 ; （……エマ、君に議論は向いていない）
-（……艾玛，你不适合辩论）
+（……艾玛，妳不适合辩论）
 
 # 0203Trial01_Hiro042
 ; > Hiro: |#0203Trial01_Hiro042|

@@ -1,133 +1,133 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'CustomUI' managed text document
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'CustomUI' managed text document
 
 ; <cspace=-0.125em>アリサ
-WitchBook.Map.Alisa: 亚里沙
+WitchBook.Map.Alisa: 
 
 ; <cspace=-0.125em>アンアン
-WitchBook.Map.AnAn: 安安
+WitchBook.Map.AnAn: 
 
 ; 監房
-WitchBook.Map.BasementHallway: 牢房
+WitchBook.Map.BasementHallway: 
 
 ; 地<cspace=-0.1em>精<size=0.8em>の</size>間</cspace>
-WitchBook.Map.ChamberGnome: 地<cspace=-0.1em>精之室</cspace>
+WitchBook.Map.ChamberGnome: 
 
 ; 火<cspace=-0.1em>精<size=0.8em>の</size>間</cspace>
-WitchBook.Map.ChamberSalamander: 火<cspace=-0.1em>精之室</cspace>
+WitchBook.Map.ChamberSalamander: 
 
 ; 水<cspace=-0.1em>精<size=0.8em>の</size>間</cspace>
-WitchBook.Map.ChamberUndine: 水<cspace=-0.1em>精之室</cspace>
+WitchBook.Map.ChamberUndine: 
 
 ; <cspace=-0.125em>ココ
-WitchBook.Map.Coco: 可可
+WitchBook.Map.Coco: 
 
 ; 裁判所
-WitchBook.Map.Courtroom: 审判庭
+WitchBook.Map.Courtroom: 
 
 ; 裁判所前通路
-WitchBook.Map.CourtroomHallway: 审判庭入口过道
+WitchBook.Map.CourtroomHallway: 
 
 ; 中庭
-WitchBook.Map.Courtyard: 中庭
+WitchBook.Map.Courtyard: 
 
 ; <cspace=-0.125em>エマ
-WitchBook.Map.Ema: 艾玛
+WitchBook.Map.Ema: 
 
 ; 玄関<cspace=-0.1em>ホール
-WitchBook.Map.EntranceHall: 玄关大厅
+WitchBook.Map.EntranceHall: 
 
 ; 花畑方面
-WitchBook.Map.FlowerFields: 往花田方向
+WitchBook.Map.FlowerFields: 
 
 ; <cspace=-0.1em>ゲストハウス</cspace>前
-WitchBook.Map.FrontGuesthouse: 招待所
+WitchBook.Map.FrontGuesthouse: 
 
 ; <cspace=-0.125em>ハンナ
-WitchBook.Map.Hanna: 汉娜
+WitchBook.Map.Hanna: 
 
 ; <cspace=-0.125em>ヒロ
-WitchBook.Map.Hiro: 希罗
+WitchBook.Map.Hiro: 
 
 ; 焼却炉
-WitchBook.Map.Incinerator: 焚烧炉
+WitchBook.Map.Incinerator: 
 
 ; 医務室
-WitchBook.Map.Infirmary: 医务室
+WitchBook.Map.Infirmary: 
 
 ; 厨房
-WitchBook.Map.Kitchen: 厨房
+WitchBook.Map.Kitchen: 
 
 ; 湖方面
-WitchBook.Map.Lake: 往湖方向
+WitchBook.Map.Lake: 
 
 ; <cspace=-0.125em>レイア
-WitchBook.Map.Leia: 蕾雅
+WitchBook.Map.Leia: 
 
 ; 図書室
-WitchBook.Map.Library: 图书室
+WitchBook.Map.Library: 
 
 ; <cspace=-0.1em>ラウンジ
-WitchBook.Map.Lounge: 会客厅
+WitchBook.Map.Lounge: 
 
 ; <cspace=-0.125em>マーゴ
-WitchBook.Map.Margo: 玛格
+WitchBook.Map.Margo: 
 
 ; <cspace=-0.125em>メルル
-WitchBook.Map.Meruru: 梅露露
+WitchBook.Map.Meruru: 
 
 ; 食堂
-WitchBook.Map.MessHall: 食堂
+WitchBook.Map.MessHall: 
 
 ; <cspace=-0.125em>ミリア
-WitchBook.Map.Miria: 米莉亚
+WitchBook.Map.Miria: 
 
 ; <cspace=-0.125em>ナノカ
-WitchBook.Map.Nanoka: 奈叶香
+WitchBook.Map.Nanoka: 
 
 ; <cspace=-0.125em>ノア
-WitchBook.Map.Noah: 诺亚
+WitchBook.Map.Noah: 
 
-; <cspace=-0.1em>ノア<size=0.8em>の</size>スタジオ
-WitchBook.Map.NoahStudio: 诺亚的工作室
+; <cspace=-0.1em>ノア<size=0.8em>の</size>アトリエ
+WitchBook.Map.NoahStudio: 
 
 ; 応接間
-WitchBook.Map.Parlor: 接客室
+WitchBook.Map.Parlor: 
 
 ; 牢屋敷前
-WitchBook.Map.PrisonEntrance: 监牢入口
+WitchBook.Map.PrisonEntrance: 
 
 ; 娯楽室
-WitchBook.Map.RecreationRoom: 娱乐室
+WitchBook.Map.RecreationRoom: 
 
-; WWC 
-WitchBook.Map.Restroom: 女厕
+; WWC
+WitchBook.Map.Restroom: 
 
 ; 2F<cspace=-0.1em>ホール
-WitchBook.Map.SecondFloorHallway: 2F大厅
+WitchBook.Map.SecondFloorHallway: 
 
 ; <cspace=-0.125em>シェ<space=-0.2em>リー
-WitchBook.Map.Sherry: 雪莉
+WitchBook.Map.Sherry: 
 
 ; <cspace=-0.1em>シャワールーム
-WitchBook.Map.Showers: 淋浴房
+WitchBook.Map.Showers: 
 
 ; 懲罰房
-WitchBook.Map.SolitaryConfinement: 惩罚室
+WitchBook.Map.SolitaryConfinement: 
 
 ; 物置
-WitchBook.Map.StorageRoom: 杂物处
+WitchBook.Map.StorageRoom: 
 
 ; <cspace=-0.1em>サンルーム
-WitchBook.Map.Sunroom: 日光房
+WitchBook.Map.Sunroom: 
 
 ; <cspace=-0.2em>？？？
-WitchBook.Map.UnknownArea: <cspace=-0.2em>？？？
+WitchBook.Map.UnknownArea: 
 
 ; 塀
-WitchBook.Map.Wall: 围墙
+WitchBook.Map.Wall: 
 
 ; 倉庫
-WitchBook.Map.Warehouse: 仓库
+WitchBook.Map.Warehouse: 
 
 ; 規則
-WitchBook.Rule.Rule: 规定
+WitchBook.Rule.Rule: 

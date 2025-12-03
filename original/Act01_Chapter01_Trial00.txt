@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act01_Chapter01/Act01_Chapter01_Trial00' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act01_Chapter01/Act01_Chapter01_Trial00' Naninovel scenario script
 
 # 0101Trial00_Leia001
 ; > Leia: |#0101Trial00_Leia001|
@@ -46,8 +46,8 @@
 # 0101Trial00_Leia002
 ; > Leia: |#0101Trial00_Leia002|
 ; ああ、それじゃあ聞かせてくれシェリーくん。<br>キミの見つけた証拠について。
-好，那就拜托雪莉你讲一下，<br>
-你找到的证据是什么。
+好，那就拜托雪莉妳讲一下，<br>
+妳找到的证据是什么。
 
 # 0101Trial00_Sherry003
 ; > Sherry: |#0101Trial00_Sherry003|
@@ -74,7 +74,7 @@
 ; > Ema: |#0101Trial00_Ema003|
 ; あっ……何？<br>メルルちゃん。
 啊……梅露露，<br>
-你喊我有什么事？
+妳喊我有什么事？
 
 # 0101Trial00_Meruru002
 ; > Meruru: |#0101Trial00_Meruru002|
@@ -87,20 +87,20 @@
 ; みんなが話す内容で……<br>【気になるところ】が<br>出てくると思うんです。
 在大家的讲话内容之中……<br>
 应该会出现一些<br>
-你【在意的地方】。
+妳【在意的地方】。
 
 # 0101Trial00_Meruru004
 ; > Meruru: |#0101Trial00_Meruru004|
 ; そんなところがあったら……<br>【指摘】できるかどうか<br>考えてみてください。
 如果出现这样的地方……<br>
-请你思考一下<br>
+请妳思考一下<br>
 可不可以【指出】这些地方。
 
 # 0101Trial00_Meruru005
 ; > Meruru: |#0101Trial00_Meruru005|
 ; 間違っている意見には<br>反論することができるはずです。
 如果是错误的见解，<br>
-你应该可以反驳它们。
+妳应该可以反驳它们。
 
 # 0101Trial00_Meruru006
 ; > Meruru: |#0101Trial00_Meruru006|
@@ -117,7 +117,7 @@
 # 0101Trial00_Meruru008
 ; > Meruru: |#0101Trial00_Meruru008|
 ; エマさんならきっと、<br>みんなの議論を正しい方向に<br>導けると思うんです……！
-但我相信，艾玛小姐你<br>
+但我相信，艾玛小姐妳<br>
 一定可以将大家的讨论<br>
 引导至正确的方向……！
 

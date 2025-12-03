@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act01_Chapter03/Act01_Chapter03_Adv22' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act01_Chapter03/Act01_Chapter03_Adv22' Naninovel scenario script
 
 # 0103Adv22_Narrative001
 ; エマは火事の起こったゲストハウスの並ぶ棟、<br>一番奥手にある【<ruby="ノーム">地精</ruby>の間】へ入った。
@@ -18,7 +18,7 @@
 # 0103Adv22_Ema001
 ; > Ema: |#0103Adv22_Ema001|
 ; ココちゃん、ここで何を……？
-可可，你在这里做什么……？
+可可，妳在这里做什么……？
 
 # 0103Adv22_Coco001
 ; > Coco: |#0103Adv22_Coco001|
@@ -46,7 +46,7 @@
 # 0103Adv22_Coco004
 ; > Coco: |#0103Adv22_Coco004|
 ; でまあ、他の棟を調べようかなーって思ったら、<br>気持ちよさそうなベッドが目に入って。
-然后呢，我本来想调查其他房间的，<br>
+然后呢，我本来想调查其他楼房的，<br>
 结果看到了这张舒服的床。
 
 # 0103Adv22_Ema003
@@ -58,7 +58,7 @@
 ; > Coco: |#0103Adv22_Coco005|
 ; あ、なにその目、ウザッ。<br>別にいーだろ、ほっとけよ！
 啊，什么眼神啊，好烦。<br>
-睡觉又不犯法，你别管我了！
+睡觉又不犯法，妳别管我了！
 
 # 0103Adv22_Narrative004
 ; ココはふてくされた様子で、<br>エマに背を向けて寝に入ってしまった。

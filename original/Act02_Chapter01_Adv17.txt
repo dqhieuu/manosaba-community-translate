@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter01/Act02_Chapter01_Adv17' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act02_Chapter01/Act02_Chapter01_Adv17' Naninovel scenario script
 
 # 0201Adv17_Narrative001
 ; 牢屋敷の２階を見回っていると、<br>不自然な<ruby="かしょ">箇所</ruby>を見つけた。
@@ -49,7 +49,7 @@
 # 0201Adv17_Hiro004
 ; > Hiro: |#0201Adv17_Hiro004|
 ; ノア、何を――。
-诺亚，你要干什——
+诺亚，妳要干什——
 
 # 0201Adv17_Narrative005
 ; 止める間もなく、<br>ノアはあっという間に壁に扉を描いてしまった。
@@ -93,7 +93,7 @@
 # 0201Adv17_Hiro006
 ; > Hiro: |#0201Adv17_Hiro006|
 ; ……君の魔法が、何か牢屋敷の不可思議に干渉し、<br>うまく作用したようだな。
-……看来你的魔法与监牢的某种不可思议力量产生了互动，<br>
+……看来妳的魔法与监牢的某种不可思议力量产生了互动，<br>
 起到了正面作用。
 
 # 0201Adv17_Noah005
@@ -151,7 +151,7 @@
 ; > Hiro: |#0201Adv17_Hiro008|
 ; あ、ああそうだな。<br>ここなら存分に芸術活動が楽しめそうだ。
 啊，当然可以。<br>
-在这里你应该能尽情享受艺术创作了。
+在这里妳应该能尽情享受艺术创作了。
 
 # 0201Adv17_Narrative014
 ; 空気に乾いた絵具の香りと、<br>少し古びた木のにおいが混ざり合う。
@@ -198,7 +198,7 @@
 ; > Leia: |#0201Adv17_Leia001|
 ; やあこれはこれは……<br>ノアくん、いい場所を見つけたね。
 哎呀这是……<br>
-诺亚，你找到了个好地方啊。
+诺亚，妳找到了个好地方啊。
 
 # 0201Adv17_Noah010
 ; > Noah: |#0201Adv17_Noah010|

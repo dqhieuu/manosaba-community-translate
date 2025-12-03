@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter05/Act02_Chapter05_Trial19' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act02_Chapter05/Act02_Chapter05_Trial19' Naninovel scenario script
 
 # 0205Trial19_Miria001
 ; > @printDebate pos:70,50 roll:4 |#0205Trial19_Miria001|
@@ -26,7 +26,7 @@
 # 0205Trial19_Miria004
 ; > @printDebate pos:70,50 roll:4 |#0205Trial19_Miria004|
 ; だからおじさんに<br>そんな難しいこと<br>聞かれたって……<br>わかんないよ！
-所以你问大叔我<br>
+所以妳问大叔我<br>
 那么复杂的<br>
 问题……<br>
 我也搞不明白啊！
@@ -111,7 +111,7 @@
 # 0205Trial19_Choice004
 ; > @choice |#0205Trial19_Choice004| button:ChoiceButtons/Trial/Objection handler:TrialHiro
 ; みんな信頼していた
-大家很信任你
+大家很信任妳
 
 # 0205Trial19_Hiro004
 ; > Hiro: |#0205Trial19_Hiro004|
@@ -121,7 +121,7 @@
 # 0205Trial19_Hiro005
 ; > Hiro: |#0205Trial19_Hiro005|
 ; 君には君自身の魅力があるはずだ。
-你应该有你自身的魅力才对。
+妳应该有妳自身的魅力才对。
 
 # 0205Trial19_Miria011
 ; > Miria: |#0205Trial19_Miria011|
@@ -173,12 +173,12 @@
 # 0205Trial19_Hiro010
 ; > Hiro: |#0205Trial19_Hiro010|
 ; みんな君を信頼していたんだよ。
-大家都很信任你哦。
+大家都很信任妳喔。
 
 # 0205Trial19_Hiro011
 ; > Hiro: |#0205Trial19_Hiro011|
 ; だからみんなが君を頼っていたんだ。
-所以大家才会依赖你。
+所以大家才会依赖妳。
 
 # 0205Trial19_Miria015
 ; > Miria: |#0205Trial19_Miria015|
@@ -282,12 +282,12 @@
 # 0205Trial19_Hiro021
 ; > Hiro: |#0205Trial19_Hiro021|
 ; ミリア、君には酷かもしれないが……。
-米莉亚，这或许对你来说很残酷……
+米莉亚，这或许对妳来说很残酷……
 
 # 0205Trial19_Hiro022
 ; > Hiro: |#0205Trial19_Hiro022|
 ; 君のことを世間は注目していると思うよ。
-但我认为，世间正在关注你哦。
+但我认为，世间正在关注妳喔。
 
 # 0205Trial19_Miria017
 ; > Miria: |#0205Trial19_Miria017|
@@ -314,8 +314,8 @@
 # 0205Trial19_Hiro025
 ; > Hiro: |#0205Trial19_Hiro025|
 ; 君がいなくなったことは、<br>ニュースとして広がることだろう。
-你失踪的事情，<br>
-大概会被写成新闻，传播出去吧。
+妳失踪的事情，<br>
+大概被写成新闻，传播开来吧。
 
 # 0205Trial19_Hiro026
 ; > Hiro: |#0205Trial19_Hiro026|
@@ -331,7 +331,7 @@
 # 0205Trial19_Hiro028
 ; > Hiro: |#0205Trial19_Hiro028|
 ; 君の顔は……どんどん世間に広がるだろうな。
-你的照片……大概会越传越广吧。
+妳的照片……大概会越传越广吧。
 
 # 0205Trial19_Miria019
 ; > Miria: |#0205Trial19_Miria019|
@@ -363,7 +363,7 @@
 # 0205Trial19_Hiro029
 ; > Hiro: |#0205Trial19_Hiro029|
 ; ミリア、君は――。
-米莉亚，你——
+米莉亚，妳——
 
 # 0205Trial19_Miria024
 ; > Miria: |#0205Trial19_Miria024|
@@ -579,7 +579,7 @@
 # 0205Trial19_Hiro053
 ; > Hiro: |#0205Trial19_Hiro053|
 ; ミリアを頼む。<br>……次に暴走したら何が起こるか予想できない。
-米莉亚就拜托你了。<br>
+米莉亚就拜托妳了。<br>
 ……我们没法预测，下次她再失控会发生什么。
 
 # 0205Trial19_Meruru002
@@ -611,17 +611,17 @@
 # 0205Trial19_Hiro057
 ; > Hiro: |#0205Trial19_Hiro057|
 ; アリサ……なんのつもりだ。
-亚里沙……你想干什么。
+亚里沙……妳想干什么。
 
 # 0205Trial19_Alisa002
 ; > Alisa: |#0205Trial19_Alisa002|
 ; それはこっちのセリフだ。
-我才要问你想干什么。
+我才要问妳想干什么。
 
 # 0205Trial19_Alisa003
 ; > Alisa: |#0205Trial19_Alisa003|
 ; てめーらは……<br>ひとり残らず、ここで死ね。
-你们这些家伙……<br>
+妳们这些家伙……<br>
 一个不留地，全都死在这里吧。
 
 # 0205Trial19_Hiro058
@@ -632,7 +632,7 @@
 # 0205Trial19_Alisa004
 ; > Alisa: |#0205Trial19_Alisa004|
 ; ……ウチも地獄まで付き合ってやる。<br>それなら文句ねーだろ。
-……我也会陪你们下地狱。<br>
+……我也会陪妳们下地狱。<br>
 这样就没意见了吧。
 
 # 0205Trial19_Hiro059

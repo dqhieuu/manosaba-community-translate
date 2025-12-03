@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter05/Act02_Chapter05_Trial10' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act02_Chapter05/Act02_Chapter05_Trial10' Naninovel scenario script
 
 # 0205Trial10_Nanoka001
 ; > @printDebate pos:70,50 roll:4 |#0205Trial10_Nanoka001|
@@ -10,7 +10,7 @@
 ; この事件の<br>【黒幕】である大魔女……<br>あなたに殺せるの？
 这起事件的<br>
 【幕后黑手】大魔女……<br>
-你有办法杀了她吗？
+妳有办法杀了她吗？
 
 # 0205Trial10_Hiro001
 ; > @printDebate pos:30,50 roll:-4 |#0205Trial10_Hiro001|
@@ -36,20 +36,20 @@
 ; > @printDebate pos:70,50 roll:4 |#0205Trial10_Nanoka004|
 ; ……なら、私はべつに<br>あなたに協力する<br><link="Objection_02_05_10_01">理由</link>がないわ。
 ……那么，我就没有<br>
-非得协助你的<br>
+非得协助妳的<br>
 <link="Objection_02_05_10_01">理由</link>了。
 
 # 0205Trial10_Nanoka005
 ; > @printDebate pos:70,50 roll:4 |#0205Trial10_Nanoka005|
 ; あなたの邪魔をするつもりも<br>ないけれど……。
 尽管我没打算<br>
-妨碍你……
+妨碍妳……
 
 # 0205Trial10_Nanoka006
 ; > @printDebate pos:70,50 roll:4 |#0205Trial10_Nanoka006|
 ; ……でも、<br>私の邪魔をするなら<br>容赦はしない。
 ……但是，<br>
-如果你要妨碍我的话，<br>
+如果妳要妨碍我的话，<br>
 我不会手下留情。
 
 # 0205Trial10_Hiro003
@@ -76,7 +76,7 @@
 # 0205Trial10_Choice003
 ; > @choice |#0205Trial10_Choice003| button:ChoiceButtons/Trial/Perjury handler:TrialHiro
 ; 君の家族も救える
-你的家人也能得救
+妳的家人也能得救
 
 # Common_Return
 ; > @choice |#Common_Return| button:ChoiceButtons/Trial/Cancel handler:TrialHiro
@@ -86,7 +86,7 @@
 # 0205Trial10_Hiro005
 ; > Hiro: |#0205Trial10_Hiro005|
 ; ずっと<br>こんなところにいるつもりか？
-你打算一直<br>
+妳打算一直<br>
 待在这种地方吗？
 
 # 0205Trial10_Hiro006
@@ -98,18 +98,18 @@
 # 0205Trial10_Hiro007
 ; > Hiro: |#0205Trial10_Hiro007|
 ; 君も家に帰れるんだ。
-之后你也能回家了。
+之后妳也能回家了。
 
 # 0205Trial10_Nanoka007
 ; > Nanoka: |#0205Trial10_Nanoka007|
 ; ……あなたたちは、<br>勝手に帰ればいいわ。
-……你们想回去的<br>
+……妳们想回去的<br>
 就回去好了。
 
 # 0205Trial10_Hiro008
 ; > Hiro: |#0205Trial10_Hiro008|
 ; 家が恋しくはないのか。
-你不想家吗？
+妳不想家吗？
 
 # 0205Trial10_Nanoka008
 ; > Nanoka: |#0205Trial10_Nanoka008|
@@ -142,7 +142,7 @@
 # 0205Trial10_Hiro012
 ; > Hiro: |#0205Trial10_Hiro012|
 ; だったら……私に協力してくれないか。
-既然如此……你要不要来协助我？
+既然如此……妳要不要来协助我？
 
 # 0205Trial10_Hiro013
 ; > Hiro: |#0205Trial10_Hiro013|
@@ -168,12 +168,12 @@
 # 0205Trial10_Nanoka011
 ; > Nanoka: |#0205Trial10_Nanoka011|
 ; 誰もそんなこと頼んでいないわ。
-没人拜托你做那种事。
+没人拜托妳做那种事。
 
 # 0205Trial10_Nanoka012
 ; > Nanoka: |#0205Trial10_Nanoka012|
 ; あなたの邪魔はしないけれど、協力もしない。
-我不会妨碍你，但也不会协助你。
+我不会妨碍妳，但也不会协助妳。
 
 # 0205Trial10_Nanoka013
 ; > Nanoka: |#0205Trial10_Nanoka013|
@@ -228,7 +228,7 @@
 # 0205Trial10_Hiro024
 ; > Hiro: |#0205Trial10_Hiro024|
 ; 君の家族も、救うことができる。
-我能让你的家人也能得救。
+我能让妳的家人也能得救。
 
 # 0205Trial10_Nanoka014
 ; > Nanoka: |#0205Trial10_Nanoka014|
@@ -240,7 +240,7 @@
 ; もちろん、<br>この牢屋敷にて【看守】となってしまった<br>君の【姉】もだ……。
 当然，<br>
 也包括成为了这座监牢的【看守】的，<br>
-你的【姐姐】……
+妳的【姐姐】……
 
 # 0205Trial10_Nanoka015
 ; > Nanoka: |#0205Trial10_Nanoka015|
@@ -250,8 +250,8 @@
 # 0205Trial10_Nanoka016
 ; > Nanoka: |#0205Trial10_Nanoka016|
 ; そこまで言うからには、<br>あなたは救う方法に<br>何か心当たりがあるのね？
-既然你都这么说了，<br>
-那你对于拯救的方法，<br>
+既然妳都这么说了，<br>
+那妳对于拯救的方法，<br>
 应该有什么头绪了吧？
 
 # 0205Trial10_Hiro026
@@ -284,12 +284,12 @@
 # 0205Trial10_Nanoka017
 ; > Nanoka: |#0205Trial10_Nanoka017|
 ; ……精神論ね。
-……就是所谓的靠信念咯。
+……就是所谓的靠信念啰。
 
 # 0205Trial10_Hiro029
 ; > Hiro: |#0205Trial10_Hiro029|
 ; 君だってそうだ。
-你不也一样。
+妳不也一样。
 
 # 0205Trial10_Nanoka018
 ; > Nanoka: |#0205Trial10_Nanoka018|
@@ -299,7 +299,7 @@
 # 0205Trial10_Hiro030
 ; > Hiro: |#0205Trial10_Hiro030|
 ; 君は黒幕へ復讐するために<br>ここへきたんだろう。
-你是为了向幕后黑手复仇<br>
+妳是为了向幕后黑手复仇<br>
 才来到这里的吧。
 
 # 0205Trial10_Nanoka019
@@ -337,7 +337,7 @@
 # 0205Trial10_Nanoka022
 ; > Nanoka: |#0205Trial10_Nanoka022|
 ; それでも……戻ると言うの？
-即便如此……你还要主张能让她恢复原状吗？
+即便如此……妳还要主张能让她恢复原状吗？
 
 # 0205Trial10_Hiro034
 ; > Hiro: |#0205Trial10_Hiro034|
@@ -354,7 +354,7 @@
 ; > Hiro: |#0205Trial10_Hiro036|
 ; 少なくとも、<br>君が漫然とここにいたとしても<br>解決する問題ではないよ。
 至少，<br>
-你继续这么迷茫下去，<br>
+妳继续这么迷茫下去，<br>
 问题也不会自动解决。
 
 # 0205Trial10_Nanoka023
@@ -388,7 +388,7 @@
 # 0205Trial10_Hiro041
 ; > Hiro: |#0205Trial10_Hiro041|
 ; 君の姉も、一緒に救ってみせる。
-我会试着让你的姐姐也一起得救的。
+我会试着让妳的姐姐也一起得救的。
 
 # 0205Trial10_Nanoka024
 ; > Nanoka: |#0205Trial10_Nanoka024|
@@ -398,7 +398,7 @@
 # 0205Trial10_Nanoka025
 ; > Nanoka: |#0205Trial10_Nanoka025|
 ; 嘘ね……。
-你在撒谎……
+妳在撒谎……
 
 # 0205Trial10_Hiro042
 ; > Hiro: |#0205Trial10_Hiro042|

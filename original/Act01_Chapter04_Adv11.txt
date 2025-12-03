@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act01_Chapter04/Act01_Chapter04_Adv11' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act01_Chapter04/Act01_Chapter04_Adv11' Naninovel scenario script
 
 # 0104Adv11_Narrative001
 ; エマが地下監房の並ぶ通路を歩いていると、<br>ふらふらと歩くココを見かけた。
@@ -13,13 +13,13 @@
 # 0104Adv11_Coco001
 ; > Coco: |#0104Adv11_Coco001|
 ; なん？ あてぃし夢見が悪くて、<br>テンション最悪なんだけど。
-你有事？我睡得不好，<br>
+妳有事？我睡得不好，<br>
 现在心情爆差的。
 
 # 0104Adv11_Coco002
 ; > Coco: |#0104Adv11_Coco002|
 ; 楽しく話す気にはなれねーかなー。
-现在没那个心思跟你愉快地聊天。
+现在没那个心思跟妳愉快地聊天。
 
 # 0104Adv11_Ema002
 ; > Ema: |#0104Adv11_Ema002|
@@ -38,7 +38,7 @@
 ; ココちゃんのほうで、<br>アリサちゃんの事件に関して何か気付いたこととか、<br>ないかな……？
 我想问，<br>
 关于亚里沙被杀案，<br>
-可可你有没有发现什么特别的事情……？
+可可妳有没有发现什么特别的事情……？
 
 # 0104Adv11_Coco004
 ; > Coco: |#0104Adv11_Coco004|

@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act01_Chapter04/Act01_Chapter04_Adv13' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act01_Chapter04/Act01_Chapter04_Adv13' Naninovel scenario script
 
 # 0104Adv13_Narrative001
 ; 投票によって【魔女】に選出されたのは、<br>エマだった。
@@ -107,7 +107,7 @@
 # 0104Adv13_Yuki002
 ; > Unknown: |#0104Adv13_Yuki002|
 ; ――あなたならできるはずなのに。
-——你应该能做到才对。
+——妳应该能做到才对。
 
 # 0104Adv13_Narrative010
 ; エマは、ずっと耳元で<ruby="ささや">囁</ruby>かれている。<br>今も、聞こえているはずだ。
@@ -219,13 +219,13 @@
 # 0104Adv13_Nanoka001
 ; > Nanoka: |#0104Adv13_Nanoka001|
 ; ……桜羽エマ。あなたはお人好しね。
-……樱羽艾玛，你人还真好。
+……樱羽艾玛，妳人还真好。
 
 # 0104Adv13_Nanoka002
 ; > Nanoka: |#0104Adv13_Nanoka002|
 ; わかった。あなたに背中を預けるわ。<br>ただ勘違いしないでほしい。これは取引。
-明白了。我的身后就交给你守护了。<br>
-但我希望你不要误会。这是交易。
+明白了。我的身后就交给妳守护了。<br>
+但我希望妳不要误会。这是交易。*
 
 # 0104Adv13_Ema011
 ; > Ema: |#0104Adv13_Ema011|
@@ -235,8 +235,8 @@
 # 0104Adv13_Nanoka003
 ; > Nanoka: |#0104Adv13_Nanoka003|
 ; 私はあなたを利用する。<br>だから何かあったらあなたも私を利用して。
-我是在利用你。<br>
-所以要是发生什么意外你也要利用我。
+我是在利用妳。<br>
+所以要是发生什么意外妳也要利用我。
 
 # 0104Adv13_Narrative025
 ; ナノカを想い、<ruby="ほほ">頬</ruby>を伝う涙が、熱い。

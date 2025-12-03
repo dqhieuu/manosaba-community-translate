@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act01_Chapter02/Act01_Chapter02_Adv12' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act01_Chapter02/Act01_Chapter02_Adv12' Naninovel scenario script
 
 # 0102Adv12_Narrative001
 ; アリサは見当たらない時は大抵、<br>森の中にある湖の畔にいる。
@@ -47,7 +47,7 @@
 # 0102Adv12_Ema003
 ; > Ema: |#0102Adv12_Ema003|
 ; ナノカちゃん！ 今までどこに――。
-奈叶香！你之前都去哪了——
+奈叶香！妳之前都去哪了——
 
 # 0102Adv12_Narrative007
 ; ナノカの姿はすぐに見えなくなる。
@@ -56,7 +56,7 @@
 # 0102Adv12_Ema004
 ; > Ema: |#0102Adv12_Ema004|
 ; ナノカちゃん！ 話を聞いて――！
-奈叶香！你听我说——！
+奈叶香！妳听我说——！
 
 # 0102Adv12_Ema005
 ; > Ema: |#0102Adv12_Ema005|
@@ -79,7 +79,7 @@
 # 0102Adv12_Ema008
 ; > Ema: |#0102Adv12_Ema008|
 ; お願いだからミリアちゃんの命を狙うのは<br>やめてほしい！！
-求求你，不要再盯着米莉亚的性命<br>
+求求妳，不要再盯着米莉亚的性命<br>
 不放了！！
 
 # 0102Adv12_Ema009

@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter04/Act02_Chapter04_Adv04' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act02_Chapter04/Act02_Chapter04_Adv04' Naninovel scenario script
 
 # 0204Adv04_Narrative001
 ; ノアがいなくなってから、<br>ここにはほとんど足を運ばなくなっていた。
@@ -34,7 +34,7 @@
 # 0204Adv04_Hanna001
 ; > Hanna: |#0204Adv04_Hanna001|
 ; あら……あなたたち、<br>なんのご用ですのかしら？
-哎呀……你们，<br>
+哎呀……妳们，<br>
 来这里有什么事吗？
 
 # 0204Adv04_Narrative006
@@ -92,7 +92,7 @@
 ; へえ！ ハンナくんは本当に器用だね。<br>洗濯も毎日してくれるし、私はそういった<br>家事なんかはてんでダメだから羨ましいよ。
 哎呀！汉娜真是心灵手巧。<br>
 每天还会为大家洗衣服，<br>
-我做家务可一点不拿手，真的很羡慕你。
+我做家务可一点不拿手，真的很羡慕妳。
 
 # 0204Adv04_Hanna005
 ; > Hanna: |#0204Adv04_Hanna005|
@@ -125,7 +125,7 @@
 # 0204Adv04_Hanna006
 ; > Hanna: |#0204Adv04_Hanna006|
 ; それはわたくしが作ったものじゃねーですわよ。
-那可不是我做的哦。
+那可不是我做的喔。
 
 # 0204Adv04_Leia006
 ; > Leia: |#0204Adv04_Leia006|
@@ -209,7 +209,7 @@
 ; 主役の衣装も刺繍が素晴らしくて……<br>ああ、ハンナくんは本当にすごいよ。<br>君を心から尊敬しているんだ。
 主角用的舞台服，就连上面的刺绣也是美不胜收……<br>
 啊，汉娜真是太了不起了。<br>
-我发自内心敬佩着你。
+我发自内心敬佩着妳。
 
 # 0204Adv04_Hanna010
 ; > Hanna: |#0204Adv04_Hanna010|
@@ -225,7 +225,7 @@
 ; > Hanna: |#0204Adv04_Hanna011|
 ; わ、わたくし、いっ、忙しいので<br>もう行ってくださいまし……！
 我、我、我很、很忙的，<br>
-你们快点离开吧……！
+妳们快点离开吧……！
 
 # 0204Adv04_Hanna012
 ; > Hanna: |#0204Adv04_Hanna012|

@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter01/Act02_Chapter01_Trial13' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act02_Chapter01/Act02_Chapter01_Trial13' Naninovel scenario script
 
 # 0201Trial13_Margo001
 ; > Margo: |#0201Trial13_Margo001|
@@ -203,7 +203,7 @@
 # 0201Trial13_Margo035
 ; > Margo: |#0201Trial13_Margo035|
 ; 【モノマネ】……の魔法でね。
-……用的就是【模仿】魔法哦。
+……用的就是【模仿】魔法喔。
 
 # 0201Trial13_Margo036
 ; > Margo: |#0201Trial13_Margo036|
@@ -252,10 +252,10 @@
 # 0201Trial13_Margo043
 ; > Margo: |#0201Trial13_Margo043|
 ; こんな<ruby="ざれごと">戯言</ruby>を信じるかどうかは任せるわ。
-你们是否愿意相信这种无稽之谈，就由你们自己判断好了。
+妳们是否愿意相信这种无稽之谈，就由妳们自己判断好了。
 
 # 0201Trial13_Margo044
 ; > Margo: |#0201Trial13_Margo044|
 ; あなたは私の話……<br>本当だと思うかしら？
-你们会觉得，我说的这些话……<br>
+妳们会觉得，我说的这些话……<br>
 是真的吗？

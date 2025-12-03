@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act01_Chapter05/Act01_Chapter05_Trial03' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act01_Chapter05/Act01_Chapter05_Trial03' Naninovel scenario script
 
 # 0105Trial03_Margo001
 ; > @printDebate pos:70,50 roll:4 |#0105Trial03_Margo001|
@@ -67,7 +67,7 @@
 ; > @printDebate pos:33,50 roll:-4 |#0105Trial03_Coco005|
 ; ……エマっちが<br><link="Objection_01_05_03_05">見間違い</link>でもしてたなら<br>別だけどさ。
 ……除非是<br>
-艾玛亲你<br>
+艾玛亲妳<br>
 <link="Objection_01_05_03_05">看错</link>了。
 
 # 0105Trial03_Meruru001
@@ -268,7 +268,7 @@
 ; > Margo: |#0105Trial03_Margo005|
 ; どう？ エマちゃん。<br>……わかってくれた？
 怎么样？艾玛……<br>
-你明白了吗？
+妳明白了吗？
 
 # 0105Trial03_Ema010
 ; > Ema: |#0105Trial03_Ema010|
@@ -286,7 +286,7 @@
 # 0105Trial03_Margo007
 ; > Margo: |#0105Trial03_Margo007|
 ; つまりエマちゃんが言うように、<br>ナノカちゃんが【今朝から冷凍室にいた】としたら――。
-也就是说，如果按照你的说法，<br>
+也就是说，如果按照妳的说法，<br>
 奈叶香【今早起就在冷冻室】的话——
 
 # 0105Trial03_Margo008
@@ -418,7 +418,7 @@
 # 0105Trial03_Coco015
 ; > Coco: |#0105Trial03_Coco015|
 ; ……エマっち、あやしい！
-……艾玛亲，你很可疑！
+……艾玛亲，妳很可疑！
 
 # 0105Trial03_Ema024
 ; > Ema: |#0105Trial03_Ema024|
@@ -448,7 +448,7 @@
 ; > Coco: |#0105Trial03_Coco016|
 ; はぁ？<br>エマっちが【見張ってた】って言ったんじゃん！
 啊？<br>
-你不是说你一直在【把风】吗？
+妳不是说妳一直在【把风】吗？
 
 # 0105Trial03_Ema028
 ; > Ema: |#0105Trial03_Ema028|
@@ -466,7 +466,7 @@
 ; > Coco: |#0105Trial03_Coco017|
 ; エマっちの目をかいくぐってこっそり出てくるとか、<br>ナノカは忍者かっての！
 躲过艾玛亲的视线偷偷溜出去？<br>
-你以为她是忍者啊！
+妳以为她是忍者啊！
 
 # 0105Trial03_Ema029
 ; > Ema: |#0105Trial03_Ema029|
@@ -517,7 +517,7 @@
 ; > Coco: |#0105Trial03_Coco019|
 ; じゃあ犯人は<br>透明人間ってことで。
 那么凶手就是<br>
-隐形人咯。
+隐形人啰。
 
 # 0105Trial03_Margo013
 ; > Margo: |#0105Trial03_Margo013|
@@ -527,7 +527,7 @@
 # 0105Trial03_Ema036
 ; > Ema: |#0105Trial03_Ema036|
 ; ２人とも信じてくれるの！？
-你们两个真的相信吗！？
+妳们两个真的相信吗！？
 
 # 0105Trial03_Coco020
 ; > Coco: |#0105Trial03_Coco020|
@@ -786,7 +786,7 @@
 ; > Coco: |#0105Trial03_Coco026|
 ; もうひとり……<br>あそこに誰かいたっての！？
 另一个人……<br>
-你是说冷冻室还有别人！？
+妳是说冷冻室还有别人！？
 
 # 0105Trial03_Margo017
 ; > Margo: |#0105Trial03_Margo017|
@@ -814,7 +814,7 @@
 # 0105Trial03_Coco027
 ; > Coco: |#0105Trial03_Coco027|
 ; そんなやついるん？
-有这样的人吗？
+有这样的人吗？***
 
 # 0105Trial03_Ema067
 ; > Ema: |#0105Trial03_Ema067|
@@ -844,17 +844,17 @@
 # 0105Trial03_Ema069
 ; > Ema: |#0105Trial03_Ema069|
 ; ゴクチョーなら、入れたはずだよ！
-典狱长它应该能进去！
+典狱长牠应该能进去！
 
 # 0105Trial03_Coco028
 ; > Coco: |#0105Trial03_Coco028|
 ; いやでも銃は撃てないっしょ。
-但是它应该开不了枪吧。
+但是牠应该开不了枪吧。
 
 # 0105Trial03_Meruru002
 ; > Meruru: |#0105Trial03_Meruru002|
 ; あの体格で撃てるんでしょうか……？
-以它的体格能开枪吗……？
+以牠的体格能开枪吗……？
 
 # 0105Trial03_Coco029
 ; > Coco: |#0105Trial03_Coco029|
@@ -983,7 +983,7 @@
 # 0105Trial03_Margo023
 ; > Margo: |#0105Trial03_Margo023|
 ; ……あなたの言いたいことはわかったわ。<br>エマちゃん。
-……我明白你想说什么了，<br>
+……我明白妳想说什么了，<br>
 艾玛。
 
 # 0105Trial03_Ema084
@@ -994,7 +994,7 @@
 # 0105Trial03_Margo024
 ; > Margo: |#0105Trial03_Margo024|
 ; たしかにエマちゃんの言う通り、<br>ナノカちゃんが地下で死んだのだとしたら<br>別の誰かが関わっている可能性が高いと思うわ。
-确实如你所说，<br>
+确实如妳所说，<br>
 如果奈叶香是在地下死的，<br>
 那很可能有其他人参与其中。
 
@@ -1007,7 +1007,7 @@
 # 0105Trial03_Margo026
 ; > Margo: |#0105Trial03_Margo026|
 ; エマちゃんには、その【壁】が壊せるのかしら？
-艾玛，你能打破这层【壁垒】吗？
+艾玛，妳能打破这层【壁垒】吗？
 
 # 0105Trial03_Ema085
 ; > Ema: |#0105Trial03_Ema085|

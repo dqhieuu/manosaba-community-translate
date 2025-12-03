@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act01_Chapter02/Act01_Chapter02_Adv15' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act01_Chapter02/Act01_Chapter02_Adv15' Naninovel scenario script
 
 # 0102Adv15_Narrative001
 ; ラウンジでの話し合いの後――
@@ -57,7 +57,7 @@
 # 0102Adv15_Miria002
 ; > Miria: |#0102Adv15_Miria002|
 ; エマちゃんも眠れないんだ……？
-你也睡不着呀……？
+妳也睡不着呀……？
 
 # 0102Adv15_Ema005
 ; > Ema: |#0102Adv15_Ema005|
@@ -73,7 +73,7 @@
 ; > Ema: |#0102Adv15_Ema006|
 ; ……ねえ、ミリアちゃん。<br>ミリアちゃんには一体何があったの？
 ……我说，米莉亚，<br>
-你到底经历了什么事？
+妳到底经历了什么事？
 
 # 0102Adv15_Ema007
 ; > Ema: |#0102Adv15_Ema007|
@@ -126,8 +126,8 @@
 # 0102Adv15_Miria006
 ; > Miria: |#0102Adv15_Miria006|
 ; エマちゃんはいい子だね。<br>いつも頑張ってて、本当にえらいよ。
-小艾你真是个好孩子。<br>
-你一直那么努力，真的很了不起。
+小艾妳真是个好孩子。<br>
+妳一直那么努力，真的很了不起。
 
 # 0102Adv15_Ema012
 ; > Ema: |#0102Adv15_Ema012|
@@ -142,7 +142,7 @@
 # 0102Adv15_Miria007
 ; > Miria: |#0102Adv15_Miria007|
 ; 帰してあげなくちゃって思う。<br>……正直ね、おじさんは帰りたくない気持ちもあるんだけど。
-大叔我心想，一定要帮你们顺利回家。<br>
+大叔我心想，一定要帮妳们顺利回家。<br>
 ……可说实话，我自己倒有点不想回去。
 
 # 0102Adv15_Ema013

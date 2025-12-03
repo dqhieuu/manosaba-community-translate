@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter05/Act02_Chapter05_Trial08' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act02_Chapter05/Act02_Chapter05_Trial08' Naninovel scenario script
 
 # 0205Trial08_Margo001
 ; > @printDebate pos:70,50 roll:4 |#0205Trial08_Margo001|
@@ -12,7 +12,7 @@
 ; おおよその話は、<br>これまでのお話から<br>推察できるわ？
 大致的情况，<br>
 从之前的对话<br>
-也能推测得出来哦？
+也能推测得出来喔？
 
 # 0205Trial08_Margo003
 ; > @printDebate pos:70,50 roll:4 |#0205Trial08_Margo003|
@@ -24,16 +24,16 @@
 # 0205Trial08_Margo004
 ; > @printDebate pos:70,50 roll:4 |#0205Trial08_Margo004|
 ; あなたは何を持って<br>自分の言葉が真実であると<br><link="Objection_02_05_08_01">保証</link>するのかしら？
-你凭什么<br>
+妳凭什么<br>
 <link="Objection_02_05_08_01">保证</link>自己的话<br>
 是真实的呢？
 
 # 0205Trial08_Hiro001
 ; > @printDebate pos:30,50 roll:-4 |#0205Trial08_Hiro001|
 ; ここまでこの裁判で君が<br>見聞きした事象では、<br>満足できないということかな。
-你的意思是，至今为止<br>
-你在这场审判中的所见所闻，<br>
-还不足以让你满意吗？
+妳的意思是，至今为止<br>
+妳在这场审判中的所见所闻，<br>
+还不足以让妳满意吗？
 
 # 0205Trial08_Margo005
 ; > @printDebate pos:70,50 roll:4 |#0205Trial08_Margo005|
@@ -58,19 +58,19 @@
 说不定<br>
 至今为止的一切<br>
 全都是<br>
-<link="Objection_02_05_08_03">整人节目</link>哦。
+<link="Objection_02_05_08_03">整人节目</link>喔。
 
 # 0205Trial08_Hiro002
 ; > @printDebate pos:30,50 roll:-4 |#0205Trial08_Hiro002|
 ; ……君ならそんなことは<br>ありえないと、<br>理解できると思うけどね。
-……我觉得你<br>
+……我觉得妳<br>
 应该能理解，<br>
 这是不可能的。
 
 # 0205Trial08_Margo008
 ; > @printDebate pos:70,50 roll:4 |#0205Trial08_Margo008|
 ; あなたに<br>私の<link="Objection_02_05_08_04">何がわかる</link>と言うの？
-你又<br>
+妳又<br>
 <link="Objection_02_05_08_04">懂我的什么</link>呢？
 
 # 0205Trial08_Margo009
@@ -81,7 +81,7 @@
 # 0205Trial08_Margo010
 ; > @printDebate pos:70,50 roll:4 |#0205Trial08_Margo010|
 ; あなたにそれができる？<br>ヒロちゃん。
-你能做到吗？<br>
+妳能做到吗？<br>
 希罗。
 
 # 0205Trial08_Hiro003
@@ -124,7 +124,7 @@
 # 0205Trial08_Choice004
 ; > @choice |#0205Trial08_Choice004| button:ChoiceButtons/Trial/Objection handler:TrialHiro
 ; 君は愛ゆえに殺した
-你因爱杀了人
+妳因爱杀了人
 
 # 0205Trial08_Hiro006
 ; > Hiro: |#0205Trial08_Hiro006|
@@ -154,7 +154,7 @@
 # 0205Trial08_Margo013
 ; > Margo: |#0205Trial08_Margo013|
 ; もしかしたらヒロちゃんが<br>【異形化】の魔法を持っていて――。
-说不定，希罗你拥有<br>
+说不定，希罗妳拥有<br>
 【异形化】的魔法——
 
 # 0205Trial08_Margo014
@@ -223,7 +223,7 @@
 # 0205Trial08_Hiro016
 ; > Hiro: |#0205Trial08_Hiro016|
 ; どうか、信じて欲しい……！
-拜托了，请你相信我……！
+拜托了，请妳相信我……！
 
 # 0205Trial08_Margo017
 ; > Margo: |#0205Trial08_Margo017|
@@ -240,7 +240,7 @@
 ; 必死な形相で【今しかない】と持ちかけ、<br>【後で後悔しても遅い】【自分はもう賭けた】<br>【次はあなたの番だ】と言う……。
 用拼命的样子劝说【只有现在】，<br>
 说【之后后悔就晚了】【我已经下注了】<br>
-【接下来轮到你了】……
+【接下来轮到妳了】……
 
 # 0205Trial08_Margo020
 ; > Margo: |#0205Trial08_Margo020|
@@ -296,8 +296,8 @@
 # 0205Trial08_Hiro023
 ; > Hiro: |#0205Trial08_Hiro023|
 ; 視聴者を興ざめさせてしまうから、<br>協力してくれないかな。
-你会让观众扫兴的，<br>
-能否请你配合一下？
+妳会让观众扫兴的，<br>
+能否请妳配合一下？
 
 # 0205Trial08_Margo023
 ; > Margo: |#0205Trial08_Margo023|
@@ -320,7 +320,7 @@
 ; > Margo: |#0205Trial08_Margo026|
 ; 仮にドッキリ番組だったとしても悪趣味過ぎるわ。<br>乗るフリすらお断りよ♡
 就算真的是整人节目，那也太恶趣味了。<br>
-就算是假装配合也请容我拒绝哦♡
+就算是假装配合也请容我拒绝喔♡
 
 # 0205Trial08_Hiro024
 ; > Hiro: |#0205Trial08_Hiro024|
@@ -348,7 +348,7 @@
 # 0205Trial08_Hiro028
 ; > Hiro: |#0205Trial08_Hiro028|
 ; 君は……愛ゆえに殺した。
-你……因爱而杀人。
+妳……因爱而杀人。
 
 # 0205Trial08_Margo027
 ; > Margo: |#0205Trial08_Margo027|
@@ -363,12 +363,12 @@
 # 0205Trial08_Hiro030
 ; > Hiro: |#0205Trial08_Hiro030|
 ; そこで君はとある人物を殺した。
-在那里，你杀了一个人。
+在那里，妳杀了一个人。
 
 # 0205Trial08_Hiro031
 ; > Hiro: |#0205Trial08_Hiro031|
 ; そして君は処刑される寸前、<br>そう答えたんだ。
-然后你在被处刑前，<br>
+然后妳在被处刑前，<br>
 是这么回答的。
 
 # 0205Trial08_Hiro032
@@ -390,7 +390,7 @@
 # 0205Trial08_Margo030
 ; > Margo: |#0205Trial08_Margo030|
 ; でも……そんなの<ruby="コールドリーディング">話術</ruby>の域を出ないわ。
-不过……你的主张还没超出<ruby="Cold reading">冷读法</ruby>的范畴哦。
+不过……妳的主张还没超出<ruby="Cold reading">冷读法</ruby>的范畴喔。
 
 # 0205Trial08_Margo031
 ; > Margo: |#0205Trial08_Margo031|
@@ -406,7 +406,7 @@
 # 0205Trial08_Hiro033
 ; > Hiro: |#0205Trial08_Hiro033|
 ; ……信じてはもらえないか。
-……你还是不肯相信吗。
+……妳还是不肯相信吗。
 
 # 0205Trial08_Margo033
 ; > Margo: |#0205Trial08_Margo033|
@@ -423,12 +423,12 @@
 ; > Margo: |#0205Trial08_Margo035|
 ; だから……ヒロちゃんの話を<br>詳しく聞かせて欲しいのよ。
 所以……我想详细听听看<br>
-希罗怎么说哦。
+希罗怎么说喔。
 
 # 0205Trial08_Margo036
 ; > Margo: |#0205Trial08_Margo036|
 ; あなたの知ってること、<br>もっと私に教えてちょうだい？
-你所知道的事情，<br>
+妳所知道的事情，<br>
 可不可以再多告诉我一些呢？
 
 # 0205Trial08_Hiro034

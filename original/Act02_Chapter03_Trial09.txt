@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter03/Act02_Chapter03_Trial09' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act02_Chapter03/Act02_Chapter03_Trial09' Naninovel scenario script
 
 # 0203Trial09_Alisa001
 ; > @printDebate pos:70,50 roll:4 |#0203Trial09_Alisa001|
@@ -10,7 +10,7 @@
 ; > @printDebate pos:70,50 roll:4 |#0203Trial09_Alisa002|
 ; だとしたら、<br>なんの為に<br>んな七面倒臭いこと<br>したってんだよ！
 要是真的话，<br>
-那你说<br>
+那妳说<br>
 她为什么<br>
 要做这种转弯抹角的事！
 
@@ -130,7 +130,7 @@
 去精心布置<link="Objection_02_03_09_04">假象</link>，<br>
 可到头来她本人<br>
 却没得到半点的<br>
-好处……！
+好处……！***
 
 # 0203Trial09_Hiro001
 ; > Hiro: |#0203Trial09_Hiro001|
@@ -152,7 +152,7 @@
 # 0203Trial09_Hiro004
 ; > Hiro: |#0203Trial09_Hiro004|
 ; （考えるんだ……アンアンの行動の理由を！）
-（我要仔细想想……安安为什么会作出这种行动！）
+（我要仔细想想……安安为什么会做出这种行动！）
 
 # 0203Trial09_Choice001
 ; > @choice |#0203Trial09_Choice001| button:ChoiceButtons/Trial/Objection handler:TrialHiro
@@ -177,7 +177,7 @@
 # 0203Trial09_Choice004
 ; > @choice |#0203Trial09_Choice004| button:ChoiceButtons/Trial/Objection handler:TrialHiro
 ; 仕掛けを準備していない
-她没有参与布置
+她没有参与布置***
 
 # 0203Trial09_Hiro005
 ; > Hiro: |#0203Trial09_Hiro005|
@@ -195,7 +195,7 @@
 ; > Ema: |#0203Trial09_Ema004|
 ; ……でもそれだと、<br>あの血痕の説明がつかなくなっちゃうよ。
 ……可这样的话<br>
-就无法说明血迹是怎么来的哦。
+就无法说明血迹是怎么来的喔。
 
 # 0203Trial09_Ema005
 ; > Ema: |#0203Trial09_Ema005|
@@ -242,7 +242,7 @@
 # 0203Trial09_Sherry004
 ; > Sherry: |#0203Trial09_Sherry004|
 ; どういうことでしょうか？
-你的意思是？
+妳的意思是？
 
 # 0203Trial09_Hiro012
 ; > Hiro: |#0203Trial09_Hiro012|
@@ -254,7 +254,7 @@
 ; > Hiro: |#0203Trial09_Hiro013|
 ; しかし、両者の行動の繋がりは少ない。<br>突飛過ぎる発想じゃないかな？
 可这两者之间的关联性很小。<br>
-难道你不觉得米莉亚的想法很跳跃吗？
+难道妳不觉得米莉亚的想法很跳跃吗？
 
 # 0203Trial09_Hiro014
 ; > Hiro: |#0203Trial09_Hiro014|
@@ -307,7 +307,7 @@
 ; > Miria: |#0203Trial09_Miria008|
 ; そうだよ！<br>酷いよヒロちゃん！
 就是！<br>
-你太过分了，小希！
+妳太过分了，小希！
 
 # 0203Trial09_Hiro015
 ; > Hiro: |#0203Trial09_Hiro015|
@@ -458,7 +458,7 @@
 # 0203Trial09_Hiro036
 ; > Hiro: |#0203Trial09_Hiro036|
 ; ミリア……君だよ。
-米莉亚……就是你。
+米莉亚……就是妳。
 
 # 0203Trial09_Miria010
 ; > Miria: |#0203Trial09_Miria010|
@@ -515,7 +515,7 @@
 # 0203Trial09_Ema009
 ; > Ema: |#0203Trial09_Ema009|
 ; ……ヒロちゃん、もう一度ちゃんと考えてみて。
-……希罗，你再好好想一想。
+……希罗，妳再好好想一想。
 
 # 0203Trial09_Ema010
 ; > Ema: |#0203Trial09_Ema010|
@@ -707,9 +707,9 @@
 # 0203Trial09_Alisa008
 ; > Alisa: |#0203Trial09_Alisa008|
 ; 見捨てたってのかよ……！<br>マジで刺さってたとしても、<br>まだ生きてたかもしんねーのに……！
-你就见死不救吗……！<br>
+妳就见死不救吗……！<br>
 就算真的被铁栅刺中了，<br>
-说不定当时人还活着啊……！
+说不定当然人还活着啊……！
 
 # 0203Trial09_Ema017
 ; > Ema: |#0203Trial09_Ema017|
@@ -764,10 +764,10 @@
 ; > Alisa: |#0203Trial09_Alisa010|
 ; ……ああ？<br>いきなり何を根拠に言ってんだ。
 ……啊啊？<br>
-怎么突然怀疑人？你有什么证据吗？
+怎么突然怀疑人？妳有什么证据吗？
 
 # 0203Trial09_Sherry024
 ; > Sherry: |#0203Trial09_Sherry024|
 ; 根拠ですか？<br>では説明しちゃいますね！
-你问证据吗？<br>
+妳问证据吗？<br>
 那我就来为大家说明！

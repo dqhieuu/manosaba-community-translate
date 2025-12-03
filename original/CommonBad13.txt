@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Common/CommonBad13' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Common/CommonBad13' Naninovel scenario script
 
 # CommonBad13_Yuki001
 ; > Yuki: |#CommonBad13_Yuki001|
@@ -29,7 +29,7 @@
 ; > Yuki: |#CommonBad13_Yuki004|
 ; でもね……ヒロ、エマ。<br>あなたたちには感謝しているんですよ。
 但是呢……希罗，艾玛。<br>
-我很感谢你们。
+我很感谢妳们。
 
 # CommonBad13_Narrative002
 ; ユキは微笑む。
@@ -43,7 +43,7 @@
 # CommonBad13_Yuki005
 ; > Yuki: |#CommonBad13_Yuki005|
 ; あなたたちの魔力が、<br>以前はできなかったことを可能にしてくれました。
-是你们的魔力，<br>
+是妳们的魔力，<br>
 让我有办法做到，以前无法做到的事情。
 
 # CommonBad13_Narrative004

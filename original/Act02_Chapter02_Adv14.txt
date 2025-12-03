@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter02/Act02_Chapter02_Adv14' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act02_Chapter02/Act02_Chapter02_Adv14' Naninovel scenario script
 
 # 0202Adv14_Narrative001
 ; 不満そうなノアを連れて２階へ行く。
@@ -33,7 +33,7 @@
 ; > Miria: |#0202Adv14_Miria001|
 ; あれっ？<br>ヒロちゃんどうしたの？
 咦？<br>
-希罗你怎么了？
+希罗妳怎么了？
 
 # 0202Adv14_Hiro002
 ; > Hiro: |#0202Adv14_Hiro002|
@@ -69,7 +69,7 @@
 # 0202Adv14_Miria005
 ; > Miria: |#0202Adv14_Miria005|
 ; じゃあノアちゃんは、<br>何をしてたの？
-那诺亚你到底做了什么呀？<br>
+那诺亚妳到底做了什么呀？<br>
 
 
 # 0202Adv14_Noah002
@@ -102,7 +102,7 @@
 ; > Miria: |#0202Adv14_Miria008|
 ; うん、そうだね。<br>酷いお仕置きされちゃうかも。
 嗯，是啊。<br>
-可能会狠狠惩罚你哦。
+可能会狠狠惩罚妳哦。
 
 # 0202Adv14_Noah004
 ; > Noah: |#0202Adv14_Noah004|
@@ -112,7 +112,7 @@
 # 0202Adv14_Hiro004
 ; > Hiro: |#0202Adv14_Hiro004|
 ; ……私をなんだと思ってる。
-……你们把我当做什么人了。
+……妳们把我当做什么人了。
 
 # 0202Adv14_Miria009
 ; > Miria: |#0202Adv14_Miria009|
@@ -123,7 +123,7 @@
 # 0202Adv14_Miria010
 ; > Miria: |#0202Adv14_Miria010|
 ; ……お説教ぐらいはされるかもしれないけど。
-……不过她可能会口头教育你一下。
+……不过她可能会口头教育妳一下。
 
 # 0202Adv14_Noah005
 ; > Noah: |#0202Adv14_Noah005|
@@ -166,7 +166,7 @@
 # 0202Adv14_Miria014
 ; > Miria: |#0202Adv14_Miria014|
 ; じゃあヒロちゃんにお説教される？
-那你想被希罗教训？
+那妳想被希罗教训？
 
 # 0202Adv14_Noah008
 ; > Noah: |#0202Adv14_Noah008|
@@ -177,7 +177,7 @@
 ; > Miria: |#0202Adv14_Miria015|
 ; よし、じゃあ見ようか。<br>おじさんが解説してあげるよ。
 好嘞，那我们就去看电影吧。<br>
-大叔我会给你解说的。
+大叔我会给妳解说的。
 
 # 0202Adv14_Narrative008
 ; ミリアはそう言うと、ノアの手を引く。
@@ -491,8 +491,8 @@
 ; > Hanna: |#0202Adv14_Hanna004|
 ; ちょっとー！<br>そっちからぶつかってきたんだから<br>手伝ってくださいましー！
 等等！<br>
-是你先撞上我的，<br>
-你倒是帮帮忙啊！
+是妳先撞上我的，<br>
+妳倒是帮帮忙啊！
 
 # 0202Adv14_Narrative036
 ; 後ろから手を<ruby="つか">掴</ruby>まれてしまったが、<br>本当に今はそれどころではない。

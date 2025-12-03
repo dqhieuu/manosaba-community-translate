@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter03/Act02_Chapter03_Trial05' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act02_Chapter03/Act02_Chapter03_Trial05' Naninovel scenario script
 
 # 0203Trial05_Sherry001
 ; > @printDebate pos:70,50 roll:4 |#0203Trial05_Sherry001|
@@ -12,7 +12,7 @@
 ; > @printDebate pos:70,50 roll:4 |#0203Trial05_Sherry002|
 ; 犯人はあらかじめ、<br>現場に光らせたスマホを<br>置いておいたんですよ。
 凶手事先在预定地点<br>
-放置一部手机，<br>
+放置一台手机，<br>
 并让手机一直发光。
 
 # 0203Trial05_Sherry003
@@ -128,13 +128,13 @@
 ; > Miria: |#0203Trial05_Miria002|
 ; でもおじさんが中庭を見たときは、<br>特に目立った明かりはなかったと思うけどなぁ。
 可是大叔我记得，当时看向中庭的时候<br>
-没看到什么特别显眼的亮光哦。
+没看到什么特别显眼的亮光喔。
 
 # 0203Trial05_Alisa001
 ; > Alisa: |#0203Trial05_Alisa001|
 ; ……ていうか、そもそもおめえが<br>中庭は暗かったって言ったんだろ。
 ……话说回来，<br>
-说案发时中庭一片漆黑的人不就是你吗。
+说案发时中庭一片漆黑的人不就是妳吗。
 
 # 0203Trial05_Alisa002
 ; > Alisa: |#0203Trial05_Alisa002|
@@ -150,7 +150,7 @@
 ; > Hiro: |#0203Trial05_Hiro008|
 ; （シェリーの推理の根拠は、<br>　【現場にスマホが残されていたから】）
 （雪莉是以【现场发现了一部手机】为由<br>
-　作出了推理）
+　做出了推理）
 
 # 0203Trial05_Hiro009
 ; > Hiro: |#0203Trial05_Hiro009|
@@ -216,7 +216,7 @@
 ; > Hiro: |#0203Trial05_Hiro015|
 ; （シェリーの推理の根拠は、<br>　【現場にスマホが残されていたから】）
 （雪莉是以【现场发现了一部手机】为由<br>
-　作出了推理）
+　做出了推理）
 
 # 0203Trial05_Hiro016
 ; > Hiro: |#0203Trial05_Hiro016|
@@ -239,7 +239,7 @@
 ; > Hiro: |#0203Trial05_Hiro019|
 ; ……なるほど。<br>たしかにその通りかもしれないね。
 ……原来是这样。<br>
-你说的的确有可能是事实。
+妳说的的确有可能是事实。
 
 # 0203Trial05_Hiro020
 ; > Hiro: |#0203Trial05_Hiro020|

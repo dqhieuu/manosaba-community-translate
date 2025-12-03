@@ -232,7 +232,7 @@ def populate_patch_sheet_from_file(wb, update_instead_of_overwrite: bool = True)
                                 orig_cell.value = val
                             if (trans_cell.value is None) or (str(trans_cell.value).strip() == ""):
                                 trans_cell.value = val
-    apply_wrap_to_all_cells(ws)
+    apply_wrap_to_all_cells(ws) 
     # Enforce PathID text format after population/merge
     enforce_patch_pathid_text(ws)
 

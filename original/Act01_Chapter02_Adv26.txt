@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act01_Chapter02/Act01_Chapter02_Adv26' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act01_Chapter02/Act01_Chapter02_Adv26' Naninovel scenario script
 
 # 0102Adv26_Narrative001
 ; エマが走り回るうちに<br>予告されていた０時となり――<br>荘厳な鐘の音が牢屋敷に響きわたる。
@@ -57,7 +57,7 @@
 # 0102Adv26_Ema003
 ; > Ema: |#0102Adv26_Ema003|
 ; ナノカちゃん！？ 今までどこに！？
-奈叶香！？你之前都去哪了！？
+奈叶香！？妳之前都去哪了！？
 
 # 0102Adv26_Nanoka002
 ; > Nanoka: |#0102Adv26_Nanoka002|
@@ -98,8 +98,8 @@
 # 0102Adv26_Warden001
 ; > Warden: |#0102Adv26_Warden001|
 ; 黒部ナノカさん、今までどこにいたんですか。<br>ずいぶん探したんですよ。
-黑部奈叶香小姐，你之前去哪里了。<br>
-我们找你找了很久。
+黑部奈叶香小姐，妳之前去哪里了。<br>
+我们找妳找了很久。
 
 # 0102Adv26_Warden002
 ; > Warden: |#0102Adv26_Warden002|

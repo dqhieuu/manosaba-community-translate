@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Common/CommonBad06' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Common/CommonBad06' Naninovel scenario script
 
 # CommonBad06_Narrative001
 ; ――結論が出ないまま、時間は流れた。
@@ -51,7 +51,7 @@
 # CommonBad06_Ema003
 ; > Ema: |#CommonBad06_Ema003|
 ; なんとか言ってよ！<br>ボクはアリサちゃんを殺してない！！
-你们快说些什么啊！<br>
+妳们快说些什么啊！<br>
 我没有杀死亚里沙！！
 
 # CommonBad06_Meruru001
@@ -63,7 +63,7 @@
 ; > Warden: |#CommonBad06_Warden001|
 ; まあ、決定は決定なんで。<br>残念ですけど、諦めてもらうしかないかと。<br>さっさと閉廷したいですし……進行しちゃっていいですかね？
 哎，这已经是最终决定了。<br>
-虽然很遗憾，但只能请你接受这个结果了。<br>
+虽然很遗憾，但只能请妳接受这个结果了。<br>
 我想早点闭庭……能让我继续下一个环节了吗？
 
 # CommonBad06_Narrative007
@@ -106,7 +106,7 @@
 # CommonBad06_Warden003
 ; > Warden: |#CommonBad06_Warden003|
 ; やれやれ……駄目ですよ、逃げたりしたら。<br>まあ、無駄なんですけどね。
-哎呀呀……不可以逃跑哦。<br>
+哎呀呀……不可以逃跑喔。<br>
 不过，逃跑也是白费力气。
 
 # CommonBad06_Narrative009

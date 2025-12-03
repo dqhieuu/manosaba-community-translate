@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter01/Act02_Chapter01_Adv23' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act02_Chapter01/Act02_Chapter01_Adv23' Naninovel scenario script
 
 # 0201Adv23_Narrative001
 ; メルルの死体が見つかってすぐ――<br>スマホにゴクチョーからのメッセージが届いた。
@@ -342,7 +342,7 @@
 # 0201Adv23_Warden017
 ; > Warden: |#0201Adv23_Warden017|
 ; あなたを魔女裁判開廷まで、拘束しますね～。<br>それではみなさん、<br>頑張って犯人を特定してください。
-我们将拘禁你直到魔女审判开庭哦～。<br>
+我们将拘禁妳直到魔女审判开庭哦～。<br>
 那么就请各位<br>
 努力找出凶手吧。
 
@@ -403,7 +403,7 @@
 # 0201Adv23_Hiro009
 ; > Hiro: |#0201Adv23_Hiro009|
 ; （いいだろう……全員敵だ……！！）
-（好啊……你们全都是我的敌人……！！）
+（好啊……妳们全都是我的敌人……！！）
 
 # 0201Adv23_Narrative038
 ; 胸に芽生えかけた<br>情の<ruby="かけら">欠片</ruby>はもはや消え失せた。

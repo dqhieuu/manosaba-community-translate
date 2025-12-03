@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act01_Chapter01/Act01_Chapter01_Trial01' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act01_Chapter01/Act01_Chapter01_Trial01' Naninovel scenario script
 
 # 0101Trial01_Sherry001
 ; > @printDebate pos:70,50 roll:4 |#0101Trial01_Sherry001|
@@ -17,7 +17,7 @@
 # 0101Trial01_Alisa001
 ; > @printDebate pos:70,50 roll:0 |#0101Trial01_Alisa001|
 ; ……そんなの<br>死体の周りに<br>あったかぁ？
-……你说<br>
+……妳说<br>
 尸体旁边留下了<br>
 死亡讯息？
 
@@ -62,7 +62,7 @@
 ; エ、エマさん……！<br>気になったところがあったら、<br>指摘をしてみましょう……！
 艾、艾玛小姐……！<br>
 如果有在意的地方，<br>
-请你指出它吧……！
+请妳指出它吧……！
 
 # 0101Trial01_Ema002
 ; > Ema: |#0101Trial01_Ema002|
@@ -121,7 +121,7 @@
 # 0101Trial01_Alisa002
 ; > Alisa: |#0101Trial01_Alisa002|
 ; ……お前、血も見た事ねーのか？<br>とんだ世間知らずだな……。
-……我说，你连血都没见过吗？<br>
+……我说，妳连血都没见过吗？<br>
 真是无知兼白痴……
 
 # 0101Trial01_Ema005
@@ -139,7 +139,7 @@
 # 0101Trial01_Ema007
 ; > Ema: |#0101Trial01_Ema007|
 ; 【筆で描かれた】って言ったけど……本当にそうかな？
-你说是【用笔画的】……真的是这样吗？
+妳说是【用笔画的】……真的是这样吗？
 
 # 0101Trial01_Sherry007
 ; > Sherry: |#0101Trial01_Sherry007|
@@ -150,7 +150,7 @@
 ; > Margo: |#0101Trial01_Margo003|
 ; たしかにノアちゃんはスプレーアートをメインにした<br>アーティストだったけど……そういう事じゃないのよね？
 我记得诺亚是擅长喷漆画的艺术家……<br>
-不过你要指出的应该不是这一点吧？
+不过妳要指出的应该不是这一点吧？****
 
 # 0101Trial01_Ema008
 ; > Ema: |#0101Trial01_Ema008|
@@ -183,7 +183,7 @@
 ; > Coco: |#0101Trial01_Coco001|
 ; ……なんで？<br>そんな結論になる要素あった？
 ……为什么？<br>
-你这个结论从哪来的？
+妳这个结论从哪来的？
 
 # 0101Trial01_Alisa003
 ; > Alisa: |#0101Trial01_Alisa003|
@@ -251,7 +251,7 @@
 # 0101Trial01_AnAn001
 ; > AnAn: |#0101Trial01_AnAn001|
 ; 『要反省』
-『请你反省』
+『请妳反省』
 
 # 0101Trial01_Ema015
 ; > Ema: |#0101Trial01_Ema015|
@@ -368,7 +368,7 @@
 # 0101Trial01_Sherry013
 ; > Sherry: |#0101Trial01_Sherry013|
 ; 犯人は、マーゴさんです！
-那当然就是，玛格你！
+那当然就是，玛格妳！
 
 # 0101Trial01_Margo006
 ; > Margo: |#0101Trial01_Margo006|
@@ -402,8 +402,8 @@
 ; > Meruru: |#0101Trial01_Meruru004|
 ; ……エマさん。<br>何か確認したいことがあるなら、<br>【魔女図鑑】を見てみてください。
 ……艾玛小姐。<br>
-如果你有什么想确认的，<br>
-请你打开【魔女图鉴】看一下。
+如果妳有什么想确认的，<br>
+请妳打开【魔女图鉴】看一下。
 
 # 0101Trial01_Ema027
 ; > Ema: |#0101Trial01_Ema027|
@@ -421,7 +421,7 @@
 # 0101Trial01_Ema028
 ; > Ema: |#0101Trial01_Ema028|
 ; ありがとう、メルルちゃん……！<br>あとで確認してみるよ！
-谢谢你，梅露露……！<br>
+谢谢妳，梅露露……！<br>
 我等下会看的！
 
 # 0101Trial01_Ema029

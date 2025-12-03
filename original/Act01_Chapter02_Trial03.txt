@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act01_Chapter02/Act01_Chapter02_Trial03' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act01_Chapter02/Act01_Chapter02_Trial03' Naninovel scenario script
 
 # 0102Trial03_Nanoka001
 ; > @printDebate pos:70,50 roll:4 |#0102Trial03_Nanoka001|
@@ -37,7 +37,7 @@
 ; <link="Objection_01_02_03_01">自殺</link>か！？<br><link="Objection_01_02_03_02">事故</link>か！？<br>それとも<link="Objection_01_02_03_03">病死</link>とか言う気！？<br>そんなんありえねーだろ！
 是<link="Objection_01_02_03_01">自杀</link>！？<br>
 还是<link="Objection_01_02_03_02">事故</link>！？<br>
-难不成你想说她是<link="Objection_01_02_03_03">病死</link>的！？<br>
+难不成妳想说她是<link="Objection_01_02_03_03">病死</link>的！？<br>
 怎么可能嘛！
 
 # 0102Trial03_Coco003
@@ -71,7 +71,7 @@
 ; > @printDebate pos:30,50 roll:-4 |#0102Trial03_Alisa001|
 ; ……それで<br>ゴクチョーが殺したって<br>言いたいのか？
 ……所以<br>
-你的意思是<br>
+妳的意思是<br>
 典狱长杀了她？
 
 # 0102Trial03_Nanoka007
@@ -93,7 +93,7 @@
 # 0102Trial03_Nanoka009
 ; > @printDebate pos:70,50 roll:4 |#0102Trial03_Nanoka009|
 ; 拷問中に殺してしまったか……<br>もしくは最初から<br>口封じが目的だったのか。
-它们可能是在拷问时杀了她……<br>
+牠们可能是在拷问时杀了她……<br>
 也有可能一开始就是<br>
 为了封口才把她关进去。
 
@@ -176,7 +176,7 @@
 ; > Hanna: |#0102Trial03_Hanna001|
 ; エマさん……？<br>もしや、どうしても自殺と思い込ませたい<br>理由でもありますの……！？
 艾玛……？<br>
-难道你是出于什么私心，<br>
+难道妳是出于什么私心，<br>
 想让大家以为是自杀吗……！？
 
 # 0102Trial03_Coco004
@@ -237,7 +237,7 @@
 # 0102Trial03_Coco005
 ; > Coco: |#0102Trial03_Coco005|
 ; エマっち、一回黙っててくんない！？
-艾玛亲，可以请你闭一下嘴吗！？
+艾玛亲，可以请妳闭一下嘴吗！？
 
 # 0102Trial03_Ema011
 ; > Ema: |#0102Trial03_Ema011|
@@ -348,7 +348,7 @@
 ; > Nanoka: |#0102Trial03_Nanoka013|
 ; 桜羽エマ。<br>それは誰もが把握していることよ。
 樱羽艾玛，<br>
-你说的这些大家都想到了。
+妳说的这些大家都想到了。
 
 # 0102Trial03_Nanoka014
 ; > Nanoka: |#0102Trial03_Nanoka014|
@@ -386,7 +386,7 @@
 # 0102Trial03_Nanoka015
 ; > Nanoka: |#0102Trial03_Nanoka015|
 ; 城ケ崎ノアの事件のことを<br>言ってるのかしら。
-你是指<br>
+妳是指<br>
 城崎诺亚的案件吗。
 
 # 0102Trial03_Ema026
@@ -413,7 +413,7 @@
 # 0102Trial03_Hanna003
 ; > Hanna: |#0102Trial03_Hanna003|
 ; 現場をよく見て話してくださいまし！
-请你仔细观察一下现场再发言！
+请妳仔细观察一下现场再发言！
 
 # 0102Trial03_Ema028
 ; > Ema: |#0102Trial03_Ema028|
@@ -441,7 +441,7 @@
 ; > Ema: |#0102Trial03_Ema032|
 ; ……たしかに<br>ナノカちゃんの言う事はもっともだけど……。
 ……奈叶香，<br>
-你的话确实很在理……
+妳的话确实很在理……
 
 # 0102Trial03_Ema033
 ; > Ema: |#0102Trial03_Ema033|
@@ -452,7 +452,7 @@
 # 0102Trial03_Nanoka016
 ; > Nanoka: |#0102Trial03_Nanoka016|
 ; ……どういうことかしら。
-……你这是什么意思？
+……妳这是什么意思？
 
 # 0102Trial03_Ema034
 ; > Ema: |#0102Trial03_Ema034|
@@ -494,7 +494,7 @@
 ; > Coco: |#0102Trial03_Coco008|
 ; つーかさ。<br>あいつら拷問ショーしようとしてたんだろ？
 话说啊，<br>
-它们不是想搞拷问秀吗？
+牠们不是想搞拷问秀吗？
 
 # 0102Trial03_Coco009
 ; > Coco: |#0102Trial03_Coco009|
@@ -507,7 +507,7 @@
 ; ……そんなわけない。<br>佐伯ミリアを隔離する為に、<br>奴らは誰も入れないよう鍵をかけていたはず……！
 ……这不可能。<br>
 为了隔离佐伯米莉亚，<br>
-它们应该会锁门，以免其他人进入……！
+牠们应该会锁门，以免其他人进入……！
 
 # 0102Trial03_Nanoka021
 ; > Nanoka: |#0102Trial03_Nanoka021|
@@ -553,7 +553,7 @@
 ; つまり、これを使えば扉の鍵を自由に<br>開け締めできるはずです！<br>ナノカさんの推理は間違いですね！
 也就是说，只要用这把钥匙<br>
 就能随心所欲地开关门了！<br>
-奈叶香你的推理错了哦！
+奈叶香妳的推理错了喔！
 
 # 0102Trial03_Nanoka023
 ; > Nanoka: |#0102Trial03_Nanoka023|
@@ -592,7 +592,7 @@
 # 0102Trial03_Margo004
 ; > Margo: |#0102Trial03_Margo004|
 ; あら？ どうしてそんなことが言い切れるのかしら？
-哦？为什么你如此肯定？
+哦？为什么妳如此肯定？
 
 # 0102Trial03_Margo005
 ; > Margo: |#0102Trial03_Margo005|
@@ -617,8 +617,8 @@
 # 0102Trial03_Sherry010
 ; > Sherry: |#0102Trial03_Sherry010|
 ; それにしてもナノカさん、<br>どうしてこれが懲罰房の鍵じゃないって<br>思ったんですか？
-我倒是想问奈叶香你，<br>
-为什么你觉得它不是<br>
+我倒是想问奈叶香妳，<br>
+为什么妳觉得它不是<br>
 惩罚室的钥匙？
 
 # 0102Trial03_Nanoka026
@@ -680,4 +680,4 @@
 # 0102Trial03_Nanoka032
 ; > Nanoka: |#0102Trial03_Nanoka032|
 ; 信じるかどうかは……あなたたちに任せるけれど。
-至于相不相信……那就随你们了。
+至于相不相信……那就随妳们了。

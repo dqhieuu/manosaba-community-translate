@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter02/Act02_Chapter02_Trial08' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act02_Chapter02/Act02_Chapter02_Trial08' Naninovel scenario script
 
 # 0202Trial08_Ema001
 ; > @printDebate pos:70,50 roll:4 |#0202Trial08_Ema001|
@@ -92,13 +92,13 @@
 # 0202Trial08_Sherry003
 ; > @printDebate pos:70,50 roll:4 |#0202Trial08_Sherry003|
 ; 隠し通路なんかが<br>あったってことですかね！
-你是说<br>
+妳是说<br>
 有秘密通道吗！
 
 # 0202Trial08_Noah001
 ; > @printDebate pos:30,50 roll:-4 |#0202Trial08_Noah001|
 ; でもそんな証拠なんて<br>あるのかな～？
-可是你有证据<br>
+可是妳有证据<br>
 能证明吗？
 
 # 0202Trial08_Ema007
@@ -202,7 +202,7 @@
 # 0202Trial08_Hanna001
 ; > Hanna: |#0202Trial08_Hanna001|
 ; で、でもわたくし、<br>ヒロさんとぶつかったときに落とした洗濯物を<br>階段で拾っていましたが――。
-但、但是我撞到你的时候<br>
+但、但是我撞到妳的时候<br>
 衣服掉到了楼梯上，<br>
 还花了一些时间收拾——
 
@@ -220,7 +220,7 @@
 # 0202Trial08_Alisa004
 ; > Alisa: |#0202Trial08_Alisa004|
 ; 偶然でいいなら、なんとでも言えるだろ。
-要是这也能用碰巧解释，那谁都说不过你了。
+要是这也能用碰巧解释，那谁都说不过妳了。
 
 # 0202Trial08_Hiro006
 ; > Hiro: |#0202Trial08_Hiro006|
@@ -351,7 +351,7 @@
 # 0202Trial08_Noah003
 ; > Noah: |#0202Trial08_Noah003|
 ; なかったって！ ヒロちゃん！
-她说没有哦！希罗！
+她说没有喔！希罗！
 
 # 0202Trial08_Hiro022
 ; > Hiro: |#0202Trial08_Hiro022|
@@ -400,7 +400,7 @@
 # 0202Trial08_Leia005
 ; > Leia: |#0202Trial08_Leia005|
 ; フッ…………私の魔法のことかな？
-呵…………你是说我的魔法？
+呵…………妳是说我的魔法？
 
 # 0202Trial08_Hiro030
 ; > Hiro: |#0202Trial08_Hiro030|
@@ -449,8 +449,8 @@
 # 0202Trial08_Leia007
 ; > Leia: |#0202Trial08_Leia007|
 ; それとも君はかけられた覚えがあるのかな……<br>階段を通ったヒロくん！！
-还是说你有中魔法的印象吗……<br>
-毕竟你也下过楼，希罗！！
+还是说妳有中魔法的印象吗……<br>
+毕竟妳也下过楼，希罗！！
 
 # 0202Trial08_Hiro032
 ; > Hiro: |#0202Trial08_Hiro032|
@@ -549,14 +549,14 @@
 # 0202Trial08_Leia008
 ; > Leia: |#0202Trial08_Leia008|
 ; ……つまりヒロくんは、<br>そこが隠し通路だっていうのかい……？
-……你的意思是，<br>
+……妳的意思是，<br>
 那里就是秘密通道……？
 
 # 0202Trial08_Hanna005
 ; > Hanna: |#0202Trial08_Hanna005|
 ; でも……犯人が焼却炉室からその通路を使ったとしても、<br>１階のシャワールームまでしか行けないことになりますわよ？
 可是……如果凶手从焚烧炉室走那个通道的话，<br>
-也只能到一楼的淋浴房哦？
+也只能到一楼的淋浴房喔？
 
 # 0202Trial08_Alisa006
 ; > Alisa: |#0202Trial08_Alisa006|
@@ -746,12 +746,12 @@
 # 0202Trial08_Hiro072
 ; > Hiro: |#0202Trial08_Hiro072|
 ; アンアン、君だよ。
-安安，就是你。
+安安，就是妳。
 
 # 0202Trial08_Hiro073
 ; > Hiro: |#0202Trial08_Hiro073|
 ; 君がいつも使っているスケッチブックの紙だ。
-这些纸是你平时用的素描本里的。
+这些纸是妳平时用的素描本里的。
 
 # 0202Trial08_AnAn003
 ; > AnAn: |#0202Trial08_AnAn003|
@@ -777,7 +777,7 @@
 # 0202Trial08_Hiro076
 ; > Hiro: |#0202Trial08_Hiro076|
 ; 君だよ、ハンナ。
-是你，汉娜。
+是妳，汉娜。
 
 # 0202Trial08_Hanna006
 ; > Hanna: |#0202Trial08_Hanna006|
@@ -787,8 +787,8 @@
 # 0202Trial08_Hiro077
 ; > Hiro: |#0202Trial08_Hiro077|
 ; ……劇の衣装案を考えていただろう？<br>それをイラストにして描いたり――。
-……你不是在设计舞台剧的服装吗？<br>
-说不定你把想法画了下来——
+……妳不是在设计舞台剧的服装吗？<br>
+说不定妳把想法画了下来——
 
 # 0202Trial08_Hanna007
 ; > Hanna: |#0202Trial08_Hanna007|
@@ -833,7 +833,7 @@
 # 0202Trial08_Alisa009
 ; > Alisa: |#0202Trial08_Alisa009|
 ; いいから結論言えよ。
-好了你快说结论吧。
+好了妳快说结论吧。
 
 # 0202Trial08_Hiro082
 ; > Hiro: |#0202Trial08_Hiro082|
@@ -865,7 +865,7 @@
 # 0202Trial08_Hiro086
 ; > Hiro: |#0202Trial08_Hiro086|
 ; もちろん、ノア。<br>君だ。
-当然就是你。<br>
+当然就是妳。<br>
 诺亚。
 
 # 0202Trial08_Noah005
@@ -892,7 +892,7 @@
 # 0202Trial08_Hiro090
 ; > Hiro: |#0202Trial08_Hiro090|
 ; もう１度聞こう。
-我再问你一遍。
+我再问妳一遍。
 
 # 0202Trial08_Hiro091
 ; > Hiro: |#0202Trial08_Hiro091|
@@ -915,7 +915,7 @@
 ; > Ema: |#0202Trial08_Ema014|
 ; ノアちゃん……！<br>お願い。
 诺亚……！<br>
-求你了。
+求妳了。
 
 # 0202Trial08_Noah007
 ; > Noah: |#0202Trial08_Noah007|

@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter03/Act02_Chapter03_Trial10' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act02_Chapter03/Act02_Chapter03_Trial10' Naninovel scenario script
 
 # 0203Trial10_Sherry001
 ; > @printDebate pos:70,50 roll:4 |#0203Trial10_Sherry001|
@@ -41,13 +41,13 @@
 ; 私、<br>中庭の前を通ったときに<br>降っているのを見たんですよ、<br>雨！
 我经过<br>
 中庭的时候<br>
-有看到在下雨哦。<br>
+有看到在下雨喔。<br>
 下得可大了！
 
 # 0203Trial10_Alisa004
 ; > @printDebate pos:30,50 roll:-4 |#0203Trial10_Alisa004|
 ; んだと……？
-你说什么……？
+妳说什么……？
 
 # 0203Trial10_Ema001
 ; > @printDebate pos:70,50 roll:4 |#0203Trial10_Ema001|
@@ -60,7 +60,7 @@
 # 0203Trial10_Noah001
 ; > @printDebate pos:30,50 roll:-4 |#0203Trial10_Noah001|
 ; のあも見たよー？
-诺亚也看到了哦～？
+诺亚也看到了喔～？
 
 # 0203Trial10_Alisa005
 ; > @printDebate pos:70,50 roll:4 |#0203Trial10_Alisa005|
@@ -118,14 +118,14 @@
 # 0203Trial10_Alisa006
 ; > @printDebate pos:30,50 roll:-4 |#0203Trial10_Alisa006|
 ; んだと……！？<br>んな嘘ついて、<br>なんになるってんだよ！
-你说什么……！？<br>
+妳说什么……！？<br>
 我撒这种谎<br>
 有个屁用啊！
 
 # 0203Trial10_Sherry010
 ; > @printDebate pos:70,50 roll:4 |#0203Trial10_Sherry010|
 ; きっと自分のいた場所を<br>隠したかったんじゃ<br>ないでしょうか！
-你想隐瞒当时<br>
+妳想隐瞒当时<br>
 自己在什么地方，<br>
 肯定是这样！
 
@@ -159,7 +159,7 @@
 # 0203Trial10_Hiro004
 ; > Hiro: |#0203Trial10_Hiro004|
 ; （……どうしてこれだけ多くの証言が食い違うのか）
-（……为什么会有这么多参差不齐的证词）
+（……为什么会有这么多参差不齐的证词）**
 
 # 0203Trial10_Hiro005
 ; > Hiro: |#0203Trial10_Hiro005|
@@ -197,7 +197,7 @@
 # 0203Trial10_Hiro007
 ; > Hiro: |#0203Trial10_Hiro007|
 ; アリサ、君の火の魔法を使ってね。
-亚里沙，使用你的点火魔法就能办到。
+亚里沙，使用妳的点火魔法就能办到。
 
 # 0203Trial10_Alisa007
 ; > Alisa: |#0203Trial10_Alisa007|
@@ -213,7 +213,7 @@
 ; > Hanna: |#0203Trial10_Hanna003|
 ; わたくしはそのとき、<br>雨の音を聞いてすぐに外に出ましたわ？
 当时我听到雨声<br>
-就马上跑到外面去了哦？
+就马上跑到外面去了喔？
 
 # 0203Trial10_Hanna004
 ; > Hanna: |#0203Trial10_Hanna004|
@@ -223,7 +223,7 @@
 # 0203Trial10_Hanna005
 ; > Hanna: |#0203Trial10_Hanna005|
 ; ……ヒロさん、お洗濯したことないんですの！？
-……希罗，你没有洗过衣服吗！？
+……希罗，妳没有洗过衣服吗！？
 
 # 0203Trial10_Hanna006
 ; > Hanna: |#0203Trial10_Hanna006|
@@ -240,7 +240,7 @@
 # 0203Trial10_Hanna007
 ; > Hanna: |#0203Trial10_Hanna007|
 ; それはやめて欲しいですわ～！！
-求你千万住手～！！
+求妳千万住手～！！
 
 # 0203Trial10_Hiro008
 ; > Hiro: |#0203Trial10_Hiro008|
@@ -292,7 +292,7 @@
 # 0203Trial10_Sherry012
 ; > Sherry: |#0203Trial10_Sherry012|
 ; それは、どういうことでしょう？
-你说的意思是？
+妳说的意思是？
 
 # 0203Trial10_Hiro016
 ; > Hiro: |#0203Trial10_Hiro016|
@@ -364,7 +364,7 @@
 # 0203Trial10_Sherry014
 ; > Sherry: |#0203Trial10_Sherry014|
 ; それってどういうことですか？
-你这话的意思是？
+妳这话的意思是？
 
 # 0203Trial10_Hiro024
 ; > Hiro: |#0203Trial10_Hiro024|
@@ -428,12 +428,12 @@
 ; ……ヒロくん。<br>キミには何が起こったのか、<br>すでにわかっているようだね。
 ……希罗。<br>
 当时发生了什么事情，<br>
-看来你已经全都了然于心了。
+看来妳已经全都了然于心了。
 
 # 0203Trial10_Leia002
 ; > Leia: |#0203Trial10_Leia002|
 ; 私たちにもわかるよう<br>説明してくれたまえ！
-请你解释一下，<br>
+请妳解释一下，<br>
 好让我们也能明白！
 
 # 0203Trial10_Hiro032
@@ -476,7 +476,7 @@
 # 0203Trial10_Alisa013
 ; > Alisa: |#0203Trial10_Alisa013|
 ; んなもん、どこにあんだよ。
-你说哪里有这种东西啊。
+妳说哪里有这种东西啊。
 
 # 0203Trial10_Hiro034
 ; > Hiro: |#0203Trial10_Hiro034|
@@ -525,7 +525,7 @@
 # 0203Trial10_Alisa015
 ; > Alisa: |#0203Trial10_Alisa015|
 ; そんな説明で<br>ウチらを納得させられると思ってたのか？
-你真以为这种解释<br>
+妳真以为这种解释<br>
 能说服我们吗？
 
 # 0203Trial10_Alisa016
@@ -581,7 +581,7 @@
 ; > Ema: |#0203Trial10_Ema002|
 ; っ！<br>それって……！
 ！<br>
-你是说……！
+妳是说……！
 
 # 0203Trial10_Hiro048
 ; > Hiro: |#0203Trial10_Hiro048|
@@ -599,7 +599,7 @@
 # 0203Trial10_Sherry017
 ; > Sherry: |#0203Trial10_Sherry017|
 ; その人がどうやって<br>雨を降らせるって言うんですか？
-你详细说说看，<br>
+妳详细说说看，<br>
 这人要怎样人工降雨呢？
 
 # 0203Trial10_Alisa017
@@ -630,7 +630,7 @@
 # 0203Trial10_Hiro051
 ; > Hiro: |#0203Trial10_Hiro051|
 ; シェリー、君だよ。
-雪莉，就是你。
+雪莉，就是妳。
 
 # 0203Trial10_Sherry018
 ; > Sherry: |#0203Trial10_Sherry018|
@@ -705,7 +705,7 @@
 # 0203Trial10_Hiro057
 ; > Hiro: |#0203Trial10_Hiro057|
 ; アリサ、君だよ。
-亚里沙，就是你。
+亚里沙，就是妳。
 
 # 0203Trial10_Alisa018
 ; > Alisa: |#0203Trial10_Alisa018|
@@ -716,12 +716,12 @@
 ; > Alisa: |#0203Trial10_Alisa019|
 ; ウチの魔法は【発火】だ。<br>どうやって雨を降らせるっつーんだよ。
 我的魔法是【点火】。<br>
-你说，我怎么用魔法来让雨下起来。
+妳说，我怎么用魔法来让雨下起来。
 
 # 0203Trial10_Hiro058
 ; > Hiro: |#0203Trial10_Hiro058|
 ; その火の熱を利用して水を蒸発させ、<br>人工的な雨雲を作ったんだ。
-你利用火的热量让水蒸发，<br>
+妳利用火的热量让水蒸发，<br>
 人为地造出了雨云。
 
 # 0203Trial10_Hiro059
@@ -732,18 +732,18 @@
 # 0203Trial10_Hiro060
 ; > Hiro: |#0203Trial10_Hiro060|
 ; 外を歩いていたのも、<br>それが目的だったんじゃないか？
-案发时你会到外面散步<br>
+案发时妳会到外面散步<br>
 也是为了达到下雨的目的对不对？
 
 # 0203Trial10_Alisa020
 ; > Alisa: |#0203Trial10_Alisa020|
 ; 言いがかりもいいところだろ！
-你是故意找茬对吧！
+妳是故意找茬对吧！
 
 # 0203Trial10_Alisa021
 ; > Alisa: |#0203Trial10_Alisa021|
 ; そもそもウチだけで湖の水を蒸発させるなんて、<br>んな大それたこと出来ねえよ……。
-而且你也太看得起我了，单靠我一个人可做不来<br>
+而且妳也太看得起我了，单靠我一个人可做不来<br>
 让湖水蒸发这么大阵仗的事……
 
 # 0203Trial10_Sherry025
@@ -766,7 +766,7 @@
 # 0203Trial10_Alisa022
 ; > Alisa: |#0203Trial10_Alisa022|
 ; 勘弁しろよ……！<br>二階堂……！
-你饶了我吧……！<br>
+妳饶了我吧……！<br>
 二阶堂……！
 
 # 0203Trial10_Hiro061
@@ -788,7 +788,7 @@
 ; > Hiro: |#0203Trial10_Hiro064|
 ; ……ノア。<br>君だよ。
 ……诺亚。<br>
-就是你。
+就是妳。
 
 # 0203Trial10_Noah002
 ; > Noah: |#0203Trial10_Noah002|
@@ -857,12 +857,12 @@
 # 0203Trial10_Hiro074
 ; > Hiro: |#0203Trial10_Hiro074|
 ; （ノア……本当に君が、犯人なのか……！？）
-（诺亚……凶手真的，是你吗……！？）
+（诺亚……凶手真的，是妳吗……！？）
 
 # 0203Trial10_Noah004
 ; > Noah: |#0203Trial10_Noah004|
 ; ……のあ、そんなことしてないよ？
-……诺亚没有做这种事哦？
+……诺亚没有做这种事喔？
 
 # 0203Trial10_Noah005
 ; > Noah: |#0203Trial10_Noah005|

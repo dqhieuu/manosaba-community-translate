@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter02/Act02_Chapter02_Adv05' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act02_Chapter02/Act02_Chapter02_Adv05' Naninovel scenario script
 
 # 0202Adv05_Narrative001
 ; 娯楽室を訪れると、<br>ミリアとアンアンが映画を再生させていた。
@@ -69,7 +69,7 @@
 ; > Miria: |#0202Adv05_Miria002|
 ; とおっ～……こんな感じ？<br>ね、ねえアンアンちゃん、どうかな。
 哒～……大概就像这样？<br>
-那个，安安，你觉得怎么样？
+那个，安安，妳觉得怎么样？
 
 # 0202Adv05_Narrative008
 ; どうやらミリアは、スクリーンの中で剣を振る<br><ruby="かいぞく">海賊</ruby>の真似事をしているようだった。
@@ -80,7 +80,7 @@
 ; > AnAn: |#0202Adv05_AnAn001|
 ; 『へっぴり腰で迫力に欠ける。<br>　そんな調子では、フック船長の役は務まらない』
 『下盘不稳，气势不足。<br>
-　你这样是无法胜任铁钩船长一角的』
+　妳这样是无法胜任铁钩船长一角的』
 
 # 0202Adv05_Miria003
 ; > Miria: |#0202Adv05_Miria003|
@@ -102,7 +102,7 @@
 # 0202Adv05_Hiro007
 ; > Hiro: |#0202Adv05_Hiro007|
 ; 君たちは劇で何をするんだ？
-你们在舞台剧组都负责什么？
+妳们在舞台剧组都负责什么？
 
 # 0202Adv05_Miria004
 ; > Miria: |#0202Adv05_Miria004|
@@ -129,7 +129,7 @@
 # 0202Adv05_Hiro008
 ; > Hiro: |#0202Adv05_Hiro008|
 ; そうか。健闘を祈る。
-这样啊。祝你们成功。
+这样啊。祝妳们成功。
 
 # 0202Adv05_Miria006
 ; > Miria: |#0202Adv05_Miria006|
@@ -139,7 +139,7 @@
 # 0202Adv05_Miria007
 ; > Miria: |#0202Adv05_Miria007|
 ; アンアンちゃんの方はどうかな。<br>脚本は書けそう？
-安安你那边怎样了。<br>
+安安妳那边怎样了。<br>
 剧本写得还顺利吗？
 
 # 0202Adv05_AnAn004

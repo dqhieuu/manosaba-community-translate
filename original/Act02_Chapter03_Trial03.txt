@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter03/Act02_Chapter03_Trial03' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act02_Chapter03/Act02_Chapter03_Trial03' Naninovel scenario script
 
 # 0203Trial03_Sherry001
 ; > @printDebate pos:70,50 roll:4 |#0203Trial03_Sherry001|
@@ -96,7 +96,7 @@
 一时激愤把安安给<link="Objection_02_03_03_02">推下楼</link>，<br>
 那我们就有理由相信<br>
 很有可能凶手已经<br>
-变成<link="Objection_02_03_03_03">魔女</link>了哦。<br>
+变成<link="Objection_02_03_03_03">魔女</link>了喔。<br>
 
 
 # 0203Trial03_Sherry011
@@ -132,7 +132,7 @@
 # 0203Trial03_Choice001
 ; > @choice |#0203Trial03_Choice001| button:ChoiceButtons/Trial/Objection handler:TrialHiro
 ; 偶然撮ったにしては不自然
-说是碰巧拍下就不对劲了
+说是碰巧拍下就不对劲了**
 
 # Common_Return
 ; > @choice |#Common_Return| button:ChoiceButtons/Trial/Cancel handler:TrialHiro
@@ -174,7 +174,7 @@
 # 0203Trial03_Sherry013
 ; > Sherry: |#0203Trial03_Sherry013|
 ; ベランダから外側に向かって背中を押してるわけですよね？
-你的意思是，凶手从安安背后把她往阳台外面推，对吧？
+妳的意思是，凶手从安安背后把她往阳台外面推，对吧？
 
 # 0203Trial03_Sherry014
 ; > Sherry: |#0203Trial03_Sherry014|
@@ -224,7 +224,7 @@
 # 0203Trial03_Hiro012
 ; > Hiro: |#0203Trial03_Hiro012|
 ; いや、シェリー。そうとも限らない。
-不对，雪莉。事情不一定是你说的那样。
+不对，雪莉。事情不一定是妳说的那样。
 
 # 0203Trial03_Hiro013
 ; > Hiro: |#0203Trial03_Hiro013|
@@ -245,8 +245,8 @@
 # 0203Trial03_Noah001
 ; > Noah: |#0203Trial03_Noah001|
 ; ねー、それにしても、<br>ヒロちゃんはなんでそう思ったの？
-欸欸，诺亚想问问你，<br>
-为什么希罗你会这样想？
+欸欸，诺亚想问问妳，<br>
+为什么希罗妳会这样想？
 
 # 0203Trial03_Noah002
 ; > Noah: |#0203Trial03_Noah002|
@@ -267,7 +267,7 @@
 # 0203Trial03_Sherry018
 ; > Sherry: |#0203Trial03_Sherry018|
 ; これはものすごく怪しいですね、ヒロさん！！
-你这也太可疑了，希罗！！
+妳这也太可疑了，希罗！！
 
 # 0203Trial03_Hiro014
 ; > Hiro: |#0203Trial03_Hiro014|
@@ -289,18 +289,18 @@
 # 0203Trial03_Hiro017
 ; > Hiro: |#0203Trial03_Hiro017|
 ; ……その発言、ちょっと待ってもらおう。
-……关于你的发言，请容我说几句。
+……关于妳的发言，请容我说几句。
 
 # 0203Trial03_Sherry019
 ; > Sherry: |#0203Trial03_Sherry019|
 ; はい、なんでしょう！？
-好的，你要说什么！？
+好的，妳要说什么！？
 
 # 0203Trial03_Hiro018
 ; > Hiro: |#0203Trial03_Hiro018|
 ; シェリー。<br>君は今、ミリアが【偶然】<br>写真を撮ったと言っていたね。
 雪莉。<br>
-你刚才说，米莉亚是【碰巧】<br>
+妳刚才说，米莉亚是【碰巧】<br>
 拍下这张照片对吧。
 
 # 0203Trial03_Sherry020
@@ -327,7 +327,7 @@
 # 0203Trial03_Hiro020
 ; > Hiro: |#0203Trial03_Hiro020|
 ; 写真の画角を見て欲しいんだ。
-你看看照片的拍摄角度。
+妳看看照片的拍摄角度。
 
 # 0203Trial03_Hiro021
 ; > Hiro: |#0203Trial03_Hiro021|
@@ -360,7 +360,7 @@
 # 0203Trial03_Sherry025
 ; > Sherry: |#0203Trial03_Sherry025|
 ; そこのところどうなんですか！<br>ミリアさん！
-这个情况你要怎么解释！<br>
+这个情况妳要怎么解释！<br>
 米莉亚！
 
 # 0203Trial03_Miria002
@@ -385,7 +385,7 @@
 # 0203Trial03_Miria005
 ; > Miria: |#0203Trial03_Miria005|
 ; その後、本当に空の写真は撮ったんだよ！？
-在那以后大叔我真的还拍了天空哦！？
+在那以后大叔我真的还拍了天空喔！？
 
 # 0203Trial03_Miria006
 ; > Miria: |#0203Trial03_Miria006|
@@ -460,7 +460,7 @@
 ; > Alisa: |#0203Trial03_Alisa004|
 ; ……洗濯だのなんだの、<br>いったいなんの話してんだよお前ら。
 ……什么洗衣服晾衣服的，<br>
-你们到底在说什么废话。
+妳们到底在说什么废话。
 
 # 0203Trial03_Alisa005
 ; > Alisa: |#0203Trial03_Alisa005|
@@ -517,7 +517,7 @@
 # 0203Trial03_Sherry026
 ; > Sherry: |#0203Trial03_Sherry026|
 ; いいえ、その通りですね！
-没有，你说得对！
+没有，妳说得对！
 
 # 0203Trial03_Sherry027
 ; > Sherry: |#0203Trial03_Sherry027|
@@ -537,7 +537,7 @@
 # 0203Trial03_Hiro032
 ; > Hiro: |#0203Trial03_Hiro032|
 ; 何か……殺人の証拠になるようなものが<br>残されていたとでも言うのかな。
-你是说……现场有留下<br>
+妳是说……现场有留下<br>
 能证明这是一场谋杀的证据？
 
 # 0203Trial03_Sherry029

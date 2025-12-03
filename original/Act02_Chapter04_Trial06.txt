@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter04/Act02_Chapter04_Trial06' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act02_Chapter04/Act02_Chapter04_Trial06' Naninovel scenario script
 
 # 0204Trial06_Sherry001
 ; > @printDebate pos:30,50 roll:-4 |#0204Trial06_Sherry001|
@@ -76,7 +76,7 @@
 从一开始就在电梯顶板上的话，<br>
 那么先上去的我们三个各自乘电梯时，<br>
 则会成为电梯里的第三人，<br>
-电梯也应当因为超载而无法启动才对。
+电梯也应当因为超载而无法启动才对。**出框
 
 # 0204Trial06_Alisa001
 ; > @printDebate pos:70,50 roll:4 |#0204Trial06_Alisa001|
@@ -102,7 +102,7 @@
 ; > @printDebate pos:70,50 roll:4 |#0204Trial06_Alisa002|
 ; ならやっぱ、<br>おめえら３人が<br><link="Objection_02_04_06_03">共犯</link>でもない限り、<br>二階堂以外は<br>桜羽の死体を<br>持ち込めねーことになるな。
 那就是说，<br>
-除非你们<br>
+除非妳们<br>
 三个是<link="Objection_02_04_06_03">共犯</link>，<br>
 否则除了二阶堂以外，<br>
 没人能把樱羽的尸体<br>
@@ -169,7 +169,7 @@
 # 0204Trial06_Miria004
 ; > Miria: |#0204Trial06_Miria004|
 ; ……エレベーター内の重さをはかる<br>センサーのこと……？
-……你是说测量电梯承重的<br>
+……妳是说测量电梯承重的<br>
 感应器……？
 
 # 0204Trial06_Hiro005
@@ -262,12 +262,12 @@
 ; > Sherry: |#0204Trial06_Sherry014|
 ; 共犯だとしたらこんな裁判を開く前に<br>もっと良い方法でヒロさんを殺していますよ！
 如果是共犯，在这种审判开庭之前，<br>
-我们就会用更好的方法把你也杀了！
+我们就会用更好的方法把妳也杀了！
 
 # 0204Trial06_Alisa004
 ; > Alisa: |#0204Trial06_Alisa004|
 ; こ、こえーこと言うな……。
-你、你讲话真狠啊……
+妳、妳讲话真狠啊……
 
 # 0204Trial06_Hiro012
 ; > Hiro: |#0204Trial06_Hiro012|
@@ -301,7 +301,7 @@
 # 0204Trial06_Alisa005
 ; > Alisa: |#0204Trial06_Alisa005|
 ; 【いたとしたら】じゃねーよ。
-【假如】你个头啊。
+【假如】妳个头啊。
 
 # 0204Trial06_Alisa006
 ; > Alisa: |#0204Trial06_Alisa006|
@@ -354,7 +354,7 @@
 # 0204Trial06_Alisa008
 ; > Alisa: |#0204Trial06_Alisa008|
 ; ……何言ってんだ、てめー…。
-……你在说什么屁话啊，喂……
+……妳在说什么屁话啊，喂……
 
 # 0204Trial06_Hiro021
 ; > Hiro: |#0204Trial06_Hiro021|
@@ -381,7 +381,7 @@
 # 0204Trial06_Sherry016
 ; > Sherry: |#0204Trial06_Sherry016|
 ; 【魂の重さ】というやつですね！
-你说的是【灵魂的重量】吧！
+妳说的是【灵魂的重量】吧！
 
 # 0204Trial06_Sherry017
 ; > Sherry: |#0204Trial06_Sherry017|
@@ -572,7 +572,7 @@
 # 0204Trial06_Hanna007
 ; > Hanna: |#0204Trial06_Hanna007|
 ; 発想がグロ過ぎますわ～～！
-你想到的东西也太恶心了哇～～！
+妳想到的东西也太恶心了哇～～！
 
 # 0204Trial06_Hiro036
 ; > Hiro: |#0204Trial06_Hiro036|
@@ -678,5 +678,5 @@
 # 0204Trial06_Hiro048
 ; > Hiro: |#0204Trial06_Hiro048|
 ; だから……付き合ってもらうよ。<br>私の推理に！
-所以……只能请你们<br>
+所以……只能请妳们<br>
 继续听听我的推理了！

@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act01_Chapter05/Act01_Chapter05_Adv04' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act01_Chapter05/Act01_Chapter05_Adv04' Naninovel scenario script
 
 # 0105Adv04_Narrative001
 ; ゲストハウス【<ruby="ウンディーネ">水精</ruby>の間】に隠された<br>エレベーターを経由し――
@@ -41,7 +41,7 @@
 ; > Coco: |#0105Adv04_Coco003|
 ; こんな場所あったんだ……<br>ここでエマっちが処刑台を操作して、<br>アリサを殺したってわけか。
 居然有这种地方……<br>
-所以你就是在这里操纵处刑台，<br>
+所以妳就是在这里操纵处刑台，<br>
 然后杀了亚里沙吗。
 
 # 0105Adv04_Ema002
@@ -164,7 +164,7 @@
 # 0105Adv04_Coco006
 ; > Coco: |#0105Adv04_Coco006|
 ; だあっ、まさかあてぃしを<br>ここで凍死させる気なん！？
-真是的，难道你想把我<br>
+真是的，难道妳想把我<br>
 冻死在这里！？
 
 # 0105Adv04_Coco007
@@ -260,7 +260,7 @@
 # 0105Adv04_Coco008
 ; > Coco: |#0105Adv04_Coco008|
 ; まさかエマっち、行く気じゃないよな……？
-艾玛亲，你该不会是想进去吧……？
+艾玛亲，妳该不会是想进去吧……？
 
 # 0105Adv04_Ema022
 ; > Ema: |#0105Adv04_Ema022|
@@ -401,7 +401,7 @@
 # 0105Adv04_Ema030
 ; > Ema: |#0105Adv04_Ema030|
 ; これココちゃんが開けたの？
-这是可可你打开的吗？
+这是可可妳打开的吗？
 
 # 0105Adv04_Coco014
 ; > Coco: |#0105Adv04_Coco014|
@@ -695,7 +695,7 @@
 # 0105Adv04_Coco029
 ; > Coco: |#0105Adv04_Coco029|
 ; エマっちしつこすぎてキモいわ！！
-艾玛亲你烦不烦啊，真恶心！！
+艾玛亲妳烦不烦啊，真恶心！！
 
 # 0105Adv04_Narrative055
 ; 逃げ腰のココを半ば引きずって、<br>エマは壁際まで走った。

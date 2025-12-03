@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act01_Chapter01/Act01_Chapter01_Adv03' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act01_Chapter01/Act01_Chapter01_Adv03' Naninovel scenario script
 
 # 0101Adv03_Narrative001
 ; 先ほどエマが<ruby="てつごうし">鉄格子</ruby>に<ruby="すが">縋</ruby>りついた時に<br>かたく閉ざされていた扉は、あっさり開いた。
@@ -22,7 +22,7 @@
 # 0101Adv03_Narrative004
 ; 声をあげたエマの方へと視線が注がれる。<br>エマにとって、ヒロ以外は全員見たこともない少女たち。
 少女们的视线都集中在了艾玛身上。<br>
-除了希罗，艾玛并未见过这些少女。
+除了希罗，艾玛并未见过这些少女。**
 
 # 0101Adv03_Ema002
 ; > Ema: |#0101Adv03_Ema002|
@@ -68,14 +68,14 @@
 ; > Ema: |#0101Adv03_Ema005|
 ; あの、あのね。色々あったけど、<br>ヒロちゃんにまた会えてよかった。
 听、听我说。虽然发生了这样那样的事，<br>
-不过还能见到希罗你，真是太好了。
+不过还能见到希罗妳，真是太好了。
 
 # 0101Adv03_Ema006
 ; > Ema: |#0101Adv03_Ema006|
 ; ボク、変わったんだよ。<br>もう前のボクじゃない。<br>ヒロちゃんと友だちになりたいんだ。
 我已经下决心改变了，<br>
 已经不是过去的我了。<br>
-我想和你做朋友。
+我想和妳做朋友。
 
 # 0101Adv03_Hiro002
 ; > Hiro: |#0101Adv03_Hiro002|
@@ -124,13 +124,13 @@
 # 0101Adv03_Hiro004
 ; > Hiro: |#0101Adv03_Hiro004|
 ; 君が変わったとして、<br>そのことが、私になんの意味が？
-你改变了，<br>
+妳改变了，<br>
 跟我有什么关系？
 
 # 0101Adv03_Hiro005
 ; > Hiro: |#0101Adv03_Hiro005|
 ; 私が君を嫌いなことは変わらない。<br>この先永遠に。
-我讨厌你的事实不会改变。<br>
+我讨厌妳的事实不会改变。<br>
 永远不会。
 
 # 0101Adv03_Narrative014

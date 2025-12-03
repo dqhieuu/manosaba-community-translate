@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter03/Act02_Chapter03_Adv15' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act02_Chapter03/Act02_Chapter03_Adv15' Naninovel scenario script
 
 # 0203Adv15_Narrative001
 ; 裁判の後、<br>私はひとりで地下の焼却炉室に来ていた。

@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act01_Chapter02/Act01_Chapter02_Adv11' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act01_Chapter02/Act01_Chapter02_Adv11' Naninovel scenario script
 
 # 0102Adv11_Miria001
 ; > Miria: |#0102Adv11_Miria001|
@@ -28,7 +28,7 @@
 # 0102Adv11_Ema002
 ; > Ema: |#0102Adv11_Ema002|
 ; 今の悲鳴って……。
-你刚才的惨叫……
+妳刚才的惨叫……
 
 # 0102Adv11_AnAn001
 ; > AnAn: |#0102Adv11_AnAn001|
@@ -55,7 +55,7 @@
 # 0102Adv11_Miria003
 ; > Miria: |#0102Adv11_Miria003|
 ; う、うるさくしちゃってごめんね。
-抱、抱歉，吵到你了。
+抱、抱歉，吵到妳了。
 
 # 0102Adv11_Miria004
 ; > Miria: |#0102Adv11_Miria004|
@@ -76,15 +76,15 @@
 # 0102Adv11_Miria006
 ; > Miria: |#0102Adv11_Miria006|
 ; びっくりさせちゃったよね……気をつけます……。<br>エマちゃんたちが一生懸命頑張ってるのに、<br>遊んじゃってるし。
-吓到你了吧……以后我会注意的……<br>
-明明你们在努力为计划做准备，<br>
+吓到妳了吧……以后我会注意的……<br>
+明明妳们在努力为计划做准备，<br>
 而我却在这里玩。
 
 # 0102Adv11_Ema004
 ; > Ema: |#0102Adv11_Ema004|
 ; そこは気にしなくて大丈夫だよ。<br>ミリアちゃんは安全な場所にいた方がいいし。
-没关系的，你不用太介意。<br>
-待在安全的地方对你也比较好。
+没关系的，妳不用太介意。<br>
+待在安全的地方对妳也比较好。
 
 # 0102Adv11_Miria007
 ; > Miria: |#0102Adv11_Miria007|
@@ -140,7 +140,7 @@
 # 0102Adv11_Miria011
 ; > Miria: |#0102Adv11_Miria011|
 ; 気にしないでいいから。
-你别放在心上。
+妳别放在心上。
 
 # 0102Adv11_Narrative007
 ; エマとミリアが話し込んでいたら、<br>気付けばアンアンが近くに立っていた。
@@ -160,7 +160,7 @@
 # 0102Adv11_Ema009
 ; > Ema: |#0102Adv11_Ema009|
 ; あ、映画の邪魔しちゃってたよね。<br>ごめん、ボクもう行くね。
-啊，我打扰你们看电影了吧。<br>
+啊，我打扰妳们看电影了吧。<br>
 对不起，我这就走。
 
 # 0102Adv11_Ema010

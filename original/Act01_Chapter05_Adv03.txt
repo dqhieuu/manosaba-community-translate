@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act01_Chapter05/Act01_Chapter05_Adv03' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act01_Chapter05/Act01_Chapter05_Adv03' Naninovel scenario script
 
 # 0105Adv03_Narrative001
 ; エマは殺人現場である裁判所へと戻り、<br>ナノカの死体を調べることにした。
@@ -86,7 +86,7 @@
 # 0105Adv03_Ema005
 ; > Ema: |#0105Adv03_Ema005|
 ; メルルちゃん……ありがとう。
-梅露露……谢谢你。
+梅露露……谢谢妳。
 
 # 0105Adv03_Narrative008
 ; エマがお礼を口にすると、<br>メルルが泣きそうな表情になる。
@@ -132,7 +132,7 @@
 ; > Ema: |#0105Adv03_Ema007|
 ; メルルちゃんは、<br>初めて会った時もこうやって怪我を治してくれた。
 和梅露露相遇的那天，<br>
-你也是像这样，帮我治疗了呢。
+妳也是像这样，帮我治疗了呢。
 
 # 0105Adv03_Ema008
 ; > Ema: |#0105Adv03_Ema008|
@@ -251,19 +251,19 @@
 # 0105Adv03_Margo003
 ; > Margo: |#0105Adv03_Margo003|
 ; あなたにとって、<br>きっとこれが最後の裁判になるわ。
-对你来说，<br>
+对妳来说，<br>
 这一定是最后一次审判了。
 
 # 0105Adv03_Margo004
 ; > Margo: |#0105Adv03_Margo004|
 ; 誰も死なせない、みんなで牢屋敷を脱出する、<br>あなたはそう言ったわね。
-你说过，不会让任何人死去，<br>
+妳说过，不会让任何人死去，<br>
 大家会一起逃出监牢，对吧。
 
 # 0105Adv03_Margo005
 ; > Margo: |#0105Adv03_Margo005|
 ; お手並み拝見させてちょうだい。
-那就让我好好看看你的本事吧。
+那就让我好好看看妳的本事吧。
 
 # 0105Adv03_Narrative022
 ; まるで<ruby="あお">煽</ruby>るかのように挑戦的な眼差しで、<br>マーゴは悠然と微笑んだ。

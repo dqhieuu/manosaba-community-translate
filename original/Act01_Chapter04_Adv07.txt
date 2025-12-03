@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act01_Chapter04/Act01_Chapter04_Adv07' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act01_Chapter04/Act01_Chapter04_Adv07' Naninovel scenario script
 
 # 0104Adv07_Narrative001
 ; ――たどりついた裁判所で。
@@ -115,7 +115,7 @@
 
 # 0104Adv07_Narrative010
 ; エマの視線は残された少女たちに移ろう。
-艾玛看了看在场所剩无几的少女。
+艾玛看了看在场所剩无几的少女。*
 
 # 0104Adv07_Ema003
 ; > Ema: |#0104Adv07_Ema003|
@@ -134,7 +134,7 @@
 
 # 0104Adv07_Narrative012
 ; マーゴとココは話し合うことなどないと言わんばかりに、<br>早々に裁判所を出ていった。
-玛格和可可摆出“跟你们没什么好商量的”的态度<br>
+玛格和可可摆出“跟妳们没什么好商量的”的态度<br>
 快步走出了审判庭。
 
 # 0104Adv07_Narrative013

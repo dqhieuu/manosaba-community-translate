@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter05/Act02_Chapter05_Trial22' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act02_Chapter05/Act02_Chapter05_Trial22' Naninovel scenario script
 
 # 0205Trial22_Hanna001
 ; > @printDebate pos:70,50 roll:4 |#0205Trial22_Hanna001|
@@ -37,7 +37,7 @@
 ; > @printDebate pos:30,50 roll:-4 |#0205Trial22_Hiro001|
 ; ……ハンナ！<br>心を強く持つんだ！
 ……汉娜！<br>
-你振作一点！
+妳振作一点！
 
 # 0205Trial22_Hanna006
 ; > @printDebate pos:70,50 roll:4 |#0205Trial22_Hanna006|
@@ -71,7 +71,7 @@
 # 0205Trial22_Choice001
 ; > @choice |#0205Trial22_Choice001| button:ChoiceButtons/Trial/Objection handler:TrialHiro
 ; 仕方なかった
-不是你的错
+不是妳的错
 
 # Common_Return
 ; > @choice |#Common_Return| button:ChoiceButtons/Trial/Cancel handler:TrialHiro
@@ -81,7 +81,7 @@
 # 0205Trial22_Choice002
 ; > @choice |#0205Trial22_Choice002| button:ChoiceButtons/Trial/Objection handler:TrialHiro
 ; 君がやったんじゃない
-不是你动手的
+不是妳动手的
 
 # 0205Trial22_Choice003
 ; > @choice |#0205Trial22_Choice003| button:ChoiceButtons/Trial/Objection handler:TrialHiro
@@ -92,18 +92,18 @@
 ; > 他選択肢全通過
 ; > @choice |#0205Trial22_Choice004| button:ChoiceButtons/Trial/Objection handler:TrialHiro
 ; 君なら乗り越えられる
-你有办法克服
+妳有办法克服
 
 # 0205Trial22_Hiro006
 ; > Hiro: |#0205Trial22_Hiro006|
 ; 仕方なかったんだ！<br>君は魔女化が進行していた……！
-那不怪你！<br>
-当时你的魔女化正在加深……！
+那不怪妳！<br>
+当时妳的魔女化正在加深……！
 
 # 0205Trial22_Hiro007
 ; > Hiro: |#0205Trial22_Hiro007|
 ; それは君の意思じゃない！<br>全て魔女因子のせいだ！
-你不是真心想杀人的！<br>
+妳不是真心想杀人的！<br>
 这全都是魔女因子的错！
 
 # 0205Trial22_Hanna007
@@ -129,13 +129,13 @@
 # 0205Trial22_Hiro010
 ; > Hiro: |#0205Trial22_Hiro010|
 ; それは君がやったことじゃない！<br>別の世界の君がしたことだ！
-那不是你做的！<br>
-只是另一个世界的你做的事！
+那不是妳做的！<br>
+只是另一个世界的妳做的事！
 
 # 0205Trial22_Hiro011
 ; > Hiro: |#0205Trial22_Hiro011|
 ; 今ここにいる君が悔やむ必要なんてない！
-当下的你根本没必要懊悔！
+当下的妳根本没必要懊悔！
 
 # 0205Trial22_Hanna008
 ; > Hanna: |#0205Trial22_Hanna008|
@@ -160,7 +160,7 @@
 # 0205Trial22_Hiro015
 ; > Hiro: |#0205Trial22_Hiro015|
 ; 君が責任を感じる必要なんてない！
-你根本没必要感到自责！
+妳根本没必要感到自责！
 
 # 0205Trial22_Sherry001
 ; > Sherry: |#0205Trial22_Sherry001|
@@ -181,12 +181,12 @@
 # 0205Trial22_Hiro016
 ; > Hiro: |#0205Trial22_Hiro016|
 ; 君なら乗り越えられる……。
-你一定能克服……
+妳一定能克服……
 
 # 0205Trial22_Hiro017
 ; > Hiro: |#0205Trial22_Hiro017|
 ; 君は気高い【お嬢様】なんだろう！
-你不是高贵的【大小姐】吗！
+妳不是高贵的【大小姐】吗！
 
 # 0205Trial22_Hanna010
 ; > Hanna: |#0205Trial22_Hanna010|

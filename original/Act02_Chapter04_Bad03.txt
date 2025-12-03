@@ -1,16 +1,16 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter04/Act02_Chapter04_Bad03' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act02_Chapter04/Act02_Chapter04_Bad03' Naninovel scenario script
 
 # 0204Bad03_Hiro001
 ; > Hiro: |#0204Bad03_Hiro001|
 ; 止めてもどうせやるんだろう……。<br>なら勝手にすればいい。
-反正就算我制止，你也不会听吧……<br>
-那就随你便好了。
+反正就算我制止，妳也不会听吧……<br>
+那就随妳便好了。
 
 # 0204Bad03_Sherry001
 ; > Sherry: |#0204Bad03_Sherry001|
 ; ヒロさん、わかってますねー！<br>ではでは、一旦地上に戻りますね！
-希罗你很懂我嘛！<br>
-那么那么，我先暂时回地面一趟哦！
+希罗妳很懂我嘛！<br>
+那么那么，我先暂时回地面一趟喔！
 
 # 0204Bad03_Narrative001
 ; シェリーは途中でエレベーターを止めると、<br>すぐに上階のボタンを押す。
@@ -40,7 +40,7 @@
 # 0204Bad03_Hiro002
 ; > Hiro: |#0204Bad03_Hiro002|
 ; ……適当に押してるだけじゃないのか？
-……你只是在随便乱按而已吧？
+……妳只是在随便乱按而已吧？
 
 # 0204Bad03_Sherry003
 ; > Sherry: |#0204Bad03_Sherry003|
@@ -85,7 +85,7 @@
 # 0204Bad03_Hiro006
 ; > Hiro: |#0204Bad03_Hiro006|
 ; 聞いてるのか？
-你在听吗？
+妳在听吗？
 
 # 0204Bad03_Sherry005
 ; > Sherry: |#0204Bad03_Sherry005|
@@ -100,7 +100,7 @@
 # 0204Bad03_Sherry006
 ; > Sherry: |#0204Bad03_Sherry006|
 ; ……れて、……く。
-……带、……你去。
+……带、……妳去。
 
 # 0204Bad03_Hiro007
 ; > Hiro: |#0204Bad03_Hiro007|
@@ -224,7 +224,7 @@
 # 0204Bad03_Girl001
 ; > Girl: |#0204Bad03_Girl001|
 ; ダメ……帰さない。
-不行……不会让你回去。
+不行……不会让妳回去。
 
 # 0204Bad03_Narrative022
 ; 聞こえた声は、シェリーと同じもの。<br>けれどあまりの<ruby="ほのぐら">仄暗</ruby>さに、ぞわりと<br>肌が<ruby="あわだ">粟立</ruby>った。
@@ -279,8 +279,8 @@
 # 0204Bad03_Girl002
 ; > Girl: |#0204Bad03_Girl002|
 ; ふフ……ダメだよ。<br>帰さない、帰さナイ、カエさない、カエサナイ。
-呵呵……不行哦。<br>
-不让你回去、不让你回、不准你回、不准你逃。
+呵呵……不行喔。<br>
+不让妳回去、不让妳回、不准妳回、不准妳逃。
 
 # 0204Bad03_Hiro018
 ; > Hiro: |#0204Bad03_Hiro018|

@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act01_Chapter03/Act01_Chapter03_Adv18' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act01_Chapter03/Act01_Chapter03_Adv18' Naninovel scenario script
 
 # 0103Adv18_Narrative001
 ; ゴクチョーからの通知が入り、<br>少女たちは、ラウンジに集められた。
@@ -95,14 +95,14 @@
 # 0103Adv18_Coco002
 ; > Coco: |#0103Adv18_Coco002|
 ; 今あいつせいぜいとか言わんかった？<br>なんかもう適当の極みみたいになってね？
-它刚才是不是说“尽力”？<br>
+牠刚才是不是说“尽力”？<br>
 怎么感觉越来越随便了？
 
 # 0103Adv18_Margo001
 ; > Margo: |#0103Adv18_Margo001|
 ; この牢屋敷がいつから存在するかは知らないけれど、<br>殺人事件と魔女裁判の流れに<br>うんざりしてるのかしらね……。
 不知道这座监牢存在多久了，<br>
-也许连它都厌倦了<br>
+也许连牠都厌倦了<br>
 这种凶杀案和魔女审判的流程吧……
 
 # 0103Adv18_Margo002
@@ -124,7 +124,7 @@
 # 0103Adv18_Narrative010
 ; そんな中、はじめに動きを見せたのは、<br>マーゴだった。
 此时，<br>
-玛格最先行动，打破了现状。
+玛格最先行动，打破了现状。*
 
 # 0103Adv18_Margo003
 ; > Margo: |#0103Adv18_Margo003|
@@ -149,12 +149,12 @@
 # 0103Adv18_Meruru001
 ; > Meruru: |#0103Adv18_Meruru001|
 ; シェリーさんは動ける状態では……。
-雪莉小姐，你现在的状态不适合活动……
+雪莉小姐，妳现在的状态不适合活动……
 
 # 0103Adv18_Sherry001
 ; > Sherry: |#0103Adv18_Sherry001|
 ; 私は名探偵なんですよ？<br>じっとしていられるわけが……。
-我可是名侦探哦？<br>
+我可是名侦探喔？<br>
 怎么可能坐视不管……
 
 # 0103Adv18_Narrative014
@@ -166,7 +166,7 @@
 # 0103Adv18_Meruru002
 ; > Meruru: |#0103Adv18_Meruru002|
 ; どうかじっとしていてください……！<br>シェリーさんまで何かあったら……。
-请你好好休息……！<br>
+请妳好好休息……！<br>
 要是雪莉小姐也出什么事的话……
 
 # 0103Adv18_Sherry002

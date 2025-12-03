@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act01_Chapter04/Act01_Chapter04_Adv12' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act01_Chapter04/Act01_Chapter04_Adv12' Naninovel scenario script
 
 # 0104Adv12_Narrative001
 ; 牢屋敷内に、荘厳な鐘が鳴り響く。
@@ -41,7 +41,7 @@
 # 0104Adv12_Narrative007
 ; 裁判所に入ると、<br>少女たちの目が一斉にエマに向く。
 当艾玛走进审判庭的时，<br>
-在场的每一位少女都把目光投向了她。
+在场的每一位少女都把目光投向了她。*
 
 # 0104Adv12_Narrative008
 ; メルル、ココ、マーゴ。
@@ -70,7 +70,7 @@
 # 0104Adv12_Coco002
 ; > Coco: |#0104Adv12_Coco002|
 ; まーだそんなこと言ってんのかよ。<br>どれだけ庇っても、誰かが犯人なんだろうがよ。
-你怎么还在说这种话。<br>
+妳怎么还在说这种话。<br>
 不管怎么辩解，肯定是这里的某个人下的手好不好。
 
 # 0104Adv12_Meruru001
@@ -89,7 +89,7 @@
 # 0104Adv12_Warden002
 ; > Warden: |#0104Adv12_Warden002|
 ; ４名で始めてしまいましょう。
-就现在四个人开始吧。
+就现在四个人开始吧。*
 
 # 0104Adv12_Narrative009
 ; ４名の少女たちは証言台に立つ。

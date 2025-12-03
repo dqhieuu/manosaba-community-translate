@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter04/Act02_Chapter04_Adv11' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act02_Chapter04/Act02_Chapter04_Adv11' Naninovel scenario script
 
 # 0204Adv11_Narrative001
 ; 翌日の正午、<br>私はひとりでゲストハウスの方へと<ruby="おもむ">赴</ruby>いていた。
@@ -39,7 +39,7 @@
 # 0204Adv11_Hiro002
 ; > Hiro: |#0204Adv11_Hiro002|
 ; 君たち……何か用か？
-你们怎么来了……有什么事？
+妳们怎么来了……有什么事？
 
 # 0204Adv11_Hanna001
 ; > Hanna: |#0204Adv11_Hanna001|
@@ -68,7 +68,7 @@
 # 0204Adv11_Leia003
 ; > Leia: |#0204Adv11_Leia003|
 ; 今日も地下施設を調べに行くんだろう？<br>私たちも一緒に――。
-今天你也要去调查地下吧？<br>
+今天妳也要去调查地下吧？<br>
 我们也一起——
 
 # 0204Adv11_Narrative006

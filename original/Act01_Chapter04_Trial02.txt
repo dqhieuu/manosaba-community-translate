@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act01_Chapter04/Act01_Chapter04_Trial02' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act01_Chapter04/Act01_Chapter04_Trial02' Naninovel scenario script
 
 # 0104Trial02_Margo001
 ; > @printDebate pos:70,50 roll:4 |#0104Trial02_Margo001|
@@ -84,7 +84,7 @@
 # 0104Trial02_Margo010
 ; > @printDebate pos:70,50 roll:4 |#0104Trial02_Margo010|
 ; ……わかったかしら？<br>エマちゃん。
-……这下你明白了吗？<br>
+……这下妳明白了吗？<br>
 可爱的小艾玛。
 
 # 0104Trial02_Ema001
@@ -151,7 +151,7 @@
 # 0104Trial02_Coco002
 ; > Coco: |#0104Trial02_Coco002|
 ; なに？ ロウソクが使われてたらマズいことでもあんの？
-怎样？有人点过蜡烛对你来说很成问题吗？
+怎样？有人点过蜡烛对妳来说很成问题吗？
 
 # 0104Trial02_Coco003
 ; > Coco: |#0104Trial02_Coco003|
@@ -188,7 +188,7 @@
 # 0104Trial02_Margo013
 ; > Margo: |#0104Trial02_Margo013|
 ; じゃあ……どこで？
-那你说……会在哪？
+那妳说……会在哪？
 
 # 0104Trial02_Ema010
 ; > Ema: |#0104Trial02_Ema010|
@@ -204,7 +204,7 @@
 # 0104Trial02_Coco004
 ; > Coco: |#0104Trial02_Coco004|
 ; 聞いてないこと勝手に言うなっての。<br>空気読んでもらえるー？
-没人说案发地点，你别在那里乱扯。<br>
+没人说案发地点，妳别在那里乱扯。<br>
 能不能给我搞清楚情况～？
 
 # 0104Trial02_Ema011
@@ -243,7 +243,7 @@
 # 0104Trial02_Margo015
 ; > Margo: |#0104Trial02_Margo015|
 ; ……今朝は、入れたけれど？
-……今天早上能进来哦？
+……今天早上能进来喔？
 
 # 0104Trial02_Ema017
 ; > Ema: |#0104Trial02_Ema017|
@@ -367,7 +367,7 @@
 ; > Margo: |#0104Trial02_Margo018|
 ; ……なるほど、たしかにそうね。<br>エマちゃんの言うことも一理あるわ。
 ……原来是这样，好像确实有可能。<br>
-你说得有道理。
+妳说得有道理。
 
 # 0104Trial02_Margo019
 ; > Margo: |#0104Trial02_Margo019|

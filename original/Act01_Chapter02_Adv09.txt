@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act01_Chapter02/Act01_Chapter02_Adv09' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act01_Chapter02/Act01_Chapter02_Adv09' Naninovel scenario script
 
 # 0102Adv09_Narrative001
 ; エマがマーゴの監房前にたどりつくと、<br>既に中では<ruby="にぎ">賑</ruby>わっている声が聞こえてくる。
@@ -8,7 +8,7 @@
 # 0102Adv09_Hanna001
 ; > Hanna: |#0102Adv09_Hanna001|
 ; なんで来やがるんですの！！<br>立ち入り禁止って言ったじゃありませんの！
-你来做什么！！<br>
+妳来做什么！！<br>
 我不是叮嘱过不准进来吗！
 
 # 0102Adv09_Sherry001
@@ -20,18 +20,18 @@
 # 0102Adv09_Sherry002
 ; > Sherry: |#0102Adv09_Sherry002|
 ; ほら、貸してください。
-好啦，你就拿来给我吧。
+好啦，妳就拿来给我吧。
 
 # 0102Adv09_Hanna002
 ; > Hanna: |#0102Adv09_Hanna002|
 ; ひぃぃいい！<br>引っ張りやがりましたわコイツー！！
 呀——！<br>
-你这家伙竟敢直接上手拽！！
+妳这家伙竟敢直接上手拽！！
 
 # 0102Adv09_Meruru001
 ; > Meruru: |#0102Adv09_Meruru001|
 ; ふっ、２人とも落ち着いてください…っ
-你、你们两位都冷静点……
+妳、妳们两位都冷静点……
 
 # 0102Adv09_Ema001
 ; > Ema: |#0102Adv09_Ema001|
@@ -80,13 +80,13 @@
 # 0102Adv09_Sherry003
 ; > Sherry: |#0102Adv09_Sherry003|
 ; えー？ そんなこと言っていいんですかー？<br>処刑されちゃいますよー？
-欸？你确定要这么说吗？<br>
-会被处刑的哦？
+欸？妳确定要这么说吗？<br>
+会被处刑的喔？
 
 # 0102Adv09_Hanna004
 ; > Hanna: |#0102Adv09_Hanna004|
 ; 構いませんわ！ 絶対殺しますわー！
-无所谓了！我一定要杀了你！
+无所谓了！我一定要杀了妳！
 
 # 0102Adv09_Narrative004
 ; 内部からドタドタと暴れる様子が伝わり、<br>エマとメルルはますます青ざめる。
@@ -102,7 +102,7 @@
 # 0102Adv09_Ema004
 ; > Ema: |#0102Adv09_Ema004|
 ; お願い……！
-拜托你了……！
+拜托妳了……！
 
 # 0102Adv09_Narrative005
 ; メルルの方が涙目になっているが、<br>騒ぎをなんとか収めてくれるのを願い、<br>エマはその場を後にした。

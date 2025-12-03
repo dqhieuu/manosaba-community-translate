@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act01_Chapter01/Act01_Chapter01_Adv29' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act01_Chapter01/Act01_Chapter01_Adv29' Naninovel scenario script
 
 # 0101Adv29_Ema001
 ; > Ema: |#0101Adv29_Ema001|
@@ -8,7 +8,7 @@
 # 0101Adv29_Narrative001
 ; 見張りのためか、看守はよく玄関ホールに立っている。<br>いつのっそりと現れてもおかしくない。
 看守经常会来玄关大厅这边巡逻站岗。<br>
-它什么时候悄悄出现在这里都不出奇。
+牠什么时候悄悄出现在这里都不出奇。
 
 # 0101Adv29_Ema002
 ; > Ema: |#0101Adv29_Ema002|
@@ -28,7 +28,7 @@
 # 0101Adv29_Hanna001
 ; > Hanna: |#0101Adv29_Hanna001|
 ; どうしましたの？<br>あなたがため息なんて。
-你怎么了？<br>
+妳怎么了？<br>
 天不怕地不怕的雪莉竟然会叹气。
 
 # 0101Adv29_Sherry002
@@ -86,7 +86,7 @@
 # 0101Adv29_Sherry006
 ; > Sherry: |#0101Adv29_Sherry006|
 ; 看守が掃除しているところ、<br>見たことあります？
-你们有没有亲眼见过<br>
+妳们有没有亲眼见过<br>
 看守打扫的样子？
 
 # 0101Adv29_Ema005

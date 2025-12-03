@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act01_Chapter02/Act01_Chapter02_Trial15' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act01_Chapter02/Act01_Chapter02_Trial15' Naninovel scenario script
 
 # 0102Trial15_AnAn001
 ; > AnAn: |#0102Trial15_AnAn001|
@@ -15,8 +15,8 @@
 # 0102Trial15_AnAn003
 ; > AnAn: |#0102Trial15_AnAn003|
 ; だから……試しに魔法を使って頼んでみたんだ。<br>ゴクチョーに、鍵を持ってくるよう頼まれたと。
-所以……吾辈试着用魔法拜托它，<br>
-骗它说，典狱长让吾辈把钥匙拿来。
+所以……吾辈试着用魔法拜托牠，<br>
+骗牠说，典狱长让吾辈把钥匙拿来。
 
 # 0102Trial15_AnAn004
 ; > AnAn: |#0102Trial15_AnAn004|

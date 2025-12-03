@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Common/CommonBad08' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Common/CommonBad08' Naninovel scenario script
 
 # CommonBad08_Warden001
 ; > Warden: |#CommonBad08_Warden001|
@@ -71,7 +71,7 @@
 
 # CommonBad08_Narrative007
 ; だが、選ばなければならない。
-但我们不得不作出选择。
+但我们不得不做出选择。
 
 # CommonBad08_Narrative008
 ; そうしなければ、<br>全員の命がないのだから。
@@ -150,7 +150,7 @@
 ; > Miria: |#CommonBad08_Miria007|
 ; やめっ……やめて……<br>しにたく、ない……おねがい……。
 住手……住手……<br>
-我不想、死……求求你们……
+我不想、死……求求妳们……
 
 # CommonBad08_Narrative019
 ; 痛みと、迫る死の恐怖――

@@ -1,4 +1,9 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter01/Act02_Chapter01_Adv06' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act02_Chapter01/Act02_Chapter01_Adv06' Naninovel scenario script
+
+# Toast_106
+; > @toast "|#Toast_106|"
+; 第２章　第１話
+
 
 # 0201Adv06_Narrative001
 ; ラウンジでゴクチョーの話を聞いた後……。
@@ -153,7 +158,7 @@
 ; > Hiro: |#0201Adv06_Hiro008|
 ; 勝手にポケットに入っていたんだ。<br>君も何か入っていなかったのか？
 不知怎么就在口袋里了。<br>
-你那边没有什么东西吗？
+妳那边没有什么东西吗？
 
 # 0201Adv06_Ema006
 ; > Ema: |#0201Adv06_Ema006|

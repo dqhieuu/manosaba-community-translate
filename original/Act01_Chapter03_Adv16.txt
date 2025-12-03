@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act01_Chapter03/Act01_Chapter03_Adv16' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act01_Chapter03/Act01_Chapter03_Adv16' Naninovel scenario script
 
 # 0103Adv16_Narrative001
 ; 夜に出歩けるようになって、<br>エマは毎晩スコップを手に、<br>マップのバツ印の箇所に来ていた。
@@ -153,14 +153,14 @@
 # 0103Adv16_Hanna002
 ; > Hanna: |#0103Adv16_Hanna002|
 ; エマさん、あなた……！<br>大変、ひどい熱ですわ！
-艾玛，你……！<br>
+艾玛，妳……！<br>
 天啊，发着这么高的烧！
 
 # 0103Adv16_Hanna003
 ; > Hanna: |#0103Adv16_Hanna003|
 ; やっぱり、良くなってなかったのですね……！<br>無理をしないように、あれほど言いましたのに！
-果然你的病还没有好……！<br>
-明明都叫你不要勉强自己了！
+果然妳的病还没有好……！<br>
+明明都叫妳不要勉强自己了！
 
 # 0103Adv16_Ema010
 ; > Ema: |#0103Adv16_Ema010|
@@ -171,7 +171,7 @@
 ; > Hanna: |#0103Adv16_Hanna004|
 ; ……っ、大丈夫なわけないでしょう！？<br>それにこの手……。
 ……怎么可能没事！？<br>
-而且你的手……
+而且妳的手……
 
 # 0103Adv16_Narrative020
 ; ハンナはエマの手を取って、<br>わなわなと震えていた。
@@ -182,7 +182,7 @@
 ; > Hanna: |#0103Adv16_Hanna005|
 ; 傷だらけじゃありませんか！<br>一体何をなさっていたの！？
 手上全是伤啊！<br>
-你到底在做什么！？
+妳到底在做什么！？
 
 # 0103Adv16_Ema011
 ; > Ema: |#0103Adv16_Ema011|
@@ -208,7 +208,7 @@
 # 0103Adv16_Hanna007
 ; > Hanna: |#0103Adv16_Hanna007|
 ; 気をしっかりもってくださいまし、<br>エマさん！
-你要坚持住啊，<br>
+妳要坚持住啊，<br>
 艾玛！
 
 # 0103Adv16_Hanna008

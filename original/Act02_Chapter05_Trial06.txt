@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter05/Act02_Chapter05_Trial06' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act02_Chapter05/Act02_Chapter05_Trial06' Naninovel scenario script
 
 # 0205Trial06_Noah001
 ; > @printDebate pos:70,50 roll:4 |#0205Trial06_Noah001|
@@ -11,7 +11,7 @@
 # 0205Trial06_Hiro001
 ; > @printDebate pos:30,50 roll:-4 |#0205Trial06_Hiro001|
 ; ……まず、君の正体は<br>正体不明の<br>ストリート・アーティスト、<br>【バルーン】だ。
-……首先，你的真实身份是<br>
+……首先，妳的真实身份是<br>
 身份不明的<br>
 街头艺术家，<br>
 【气球】。
@@ -48,7 +48,7 @@
 # 0205Trial06_Hiro003
 ; > @printDebate pos:30,50 roll:-4 |#0205Trial06_Hiro003|
 ; 君が描いた絵とは言えない……<br>違うかな。
-这些画不能说是你画的……<br>
+这些画不能说是妳画的……<br>
 我说得没错吧。
 
 # 0205Trial06_Noah005
@@ -59,7 +59,7 @@
 # 0205Trial06_Noah006
 ; > @printDebate pos:70,50 roll:4 |#0205Trial06_Noah006|
 ; ち、違うよ！？<br>のあ、<br><link="Objection_02_05_06_01">お絵描き大好き</link>だもん！！
-不、不对哦！？<br>
+不、不对喔！？<br>
 诺亚，<br>
 <link="Objection_02_05_06_01">超喜欢画画</link>的！！
 
@@ -67,7 +67,7 @@
 ; > @printDebate pos:70,50 roll:4 |#0205Trial06_Noah007|
 ; ヒロちゃん……<br>なんでそんなこと言うの……！
 希罗……<br>
-你为什么要说这么过分的话……！
+妳为什么要说这么过分的话……！
 
 # 0205Trial06_Hiro004
 ; > Hiro: |#0205Trial06_Hiro004|
@@ -118,12 +118,12 @@
 # 0205Trial06_Hiro008
 ; > Hiro: |#0205Trial06_Hiro008|
 ; 私は別の流れの世界で見て知っているよ。
-我在另一个发展不同的世界亲眼见到过，所以我知道哦。
+我在另一个发展不同的世界亲眼见到过，所以我知道喔。
 
 # 0205Trial06_Hiro009
 ; > Hiro: |#0205Trial06_Hiro009|
 ; ノア……実は君が、<br>【絵を描けない】ということを。
-诺亚……其实你，<br>
+诺亚……其实妳，<br>
 并【不会画画】。
 
 # 0205Trial06_Noah009
@@ -146,7 +146,7 @@
 ; > Noah: |#0205Trial06_Noah011|
 ; ヒロちゃんは嘘をついてるんだ！<br>のあを罠にハメようとしてるんだよ！
 希罗在撒谎！<br>
-你想给诺亚设圈套！
+妳想给诺亚设圈套！
 
 # 0205Trial06_Noah012
 ; > Noah: |#0205Trial06_Noah012|
@@ -173,7 +173,7 @@
 ; > Hiro: |#0205Trial06_Hiro014|
 ; いいやノア。<br>君は一度も絵なんて描いたことないはずだ。
 不，诺亚。<br>
-你应该从没画过画才对。
+妳应该从没画过画才对。
 
 # 0205Trial06_Hiro015
 ; > Hiro: |#0205Trial06_Hiro015|
@@ -193,12 +193,12 @@
 # 0205Trial06_Noah015
 ; > Noah: |#0205Trial06_Noah015|
 ; 嘘ついてるのはヒロちゃんの方でしょ？
-撒谎的是希罗你才对吧？
+撒谎的是希罗妳才对吧？
 
 # 0205Trial06_Noah016
 ; > Noah: |#0205Trial06_Noah016|
 ; そういうの、のあよくないと思う！
-诺亚觉得，你这样很不好！
+诺亚觉得，妳这样很不好！
 
 # 0205Trial06_Hiro016
 ; > Hiro: |#0205Trial06_Hiro016|
@@ -220,7 +220,7 @@
 ; > Hiro: |#0205Trial06_Hiro019|
 ; ……その通り。<br>君は絵を描くのが大好きだったね。
 ……没错。<br>
-你非常喜欢画画呢。
+妳非常喜欢画画呢。
 
 # 0205Trial06_Noah017
 ; > Noah: |#0205Trial06_Noah017|
@@ -240,7 +240,7 @@
 # 0205Trial06_Hiro021
 ; > Hiro: |#0205Trial06_Hiro021|
 ; 大好きな絵なんだ。<br>描けるだろう？
-你最喜欢画画了。<br>
+妳最喜欢画画了。<br>
 应该能画出来吧？
 
 # 0205Trial06_Hiro022
@@ -251,7 +251,7 @@
 # 0205Trial06_Hiro023
 ; > Hiro: |#0205Trial06_Hiro023|
 ; ただ君の手で描いてもらえれば、それでいいんだ。
-只要是你亲手画的，那就行了。
+只要是妳亲手画的，那就行了。
 
 # 0205Trial06_Noah019
 ; > Noah: |#0205Trial06_Noah019|

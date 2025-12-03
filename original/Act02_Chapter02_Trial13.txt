@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter02/Act02_Chapter02_Trial13' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act02_Chapter02/Act02_Chapter02_Trial13' Naninovel scenario script
 
 # 0202Trial13_Nanoka001
 ; > Nanoka: |#0202Trial13_Nanoka001|
@@ -37,7 +37,7 @@
 # 0202Trial13_Nanoka007
 ; > Nanoka: |#0202Trial13_Nanoka007|
 ; でも彼女は聞く耳をもってくれなかったわ。
-但她完全听不进我说的话。
+但她完全不听不进我说的话。
 
 # 0202Trial13_Nanoka008
 ; > Nanoka: |#0202Trial13_Nanoka008|

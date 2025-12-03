@@ -1,9 +1,9 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter06/Act02_Chapter06_Trial03' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act02_Chapter06/Act02_Chapter06_Trial03' Naninovel scenario script
 
 # 0206Trial03_Yuki001
 ; > @printDebate pos:30,50 roll:-4 |#0206Trial03_Yuki001|
 ; さきほどあなたたちは、<br>【私の裁定には<br>正当性があるのか】<br>……と尋ねられましたね。
-刚才你们问，<br>
+刚才妳们问，<br>
 【我的裁决<br>
 是否有正当性】<br>
 ……对吧。
@@ -133,7 +133,7 @@
 # 0206Trial03_Choice003
 ; > @choice |#0206Trial03_Choice003| button:ChoiceButtons/Trial/Question handler:TrialHiro
 ; どうやって絶滅させる？
-你要如何灭绝？
+妳要如何灭绝？
 
 # 0206Trial03_Choice004
 ; > @choice |#0206Trial03_Choice004| button:ChoiceButtons/Trial/Objection handler:TrialHiro
@@ -158,7 +158,7 @@
 # 0206Trial03_Hiro005
 ; > Hiro: |#0206Trial03_Hiro005|
 ; それはどうやって行うつもりなのかな。
-你要怎么做才能完成这个目标呢？
+妳要怎么做才能完成这个目标呢？
 
 # 0206Trial03_Hiro006
 ; > Hiro: |#0206Trial03_Hiro006|
@@ -270,7 +270,7 @@
 # 0206Trial03_Hiro010
 ; > Hiro: |#0206Trial03_Hiro010|
 ; ならばそれは自業自得！<br>自己責任だ！
-那你们就是自作自受！<br>
+那妳们就是自作自受！<br>
 后果自负！
 
 # 0206Trial03_Yuki027
@@ -315,7 +315,7 @@
 # 0206Trial03_Hiro016
 ; > Hiro: |#0206Trial03_Hiro016|
 ; 君が受けた非道を<br>そのままやり返してしまえば、<br>憎しみの連鎖は止まらない！
-如果你将自己受到的非人待遇<br>
+如果妳将自己受到的非人待遇<br>
 原样奉还回去，<br>
 这样永远无法斩断仇恨的连锁！
 
@@ -485,7 +485,7 @@
 ; > Hiro: |#0206Trial03_Hiro036|
 ; ……待った。<br>それはおかしい。
 ……等等。<br>
-你的话有矛盾。
+妳的话有矛盾。
 
 # 0206Trial03_Hiro037
 ; > Hiro: |#0206Trial03_Hiro037|

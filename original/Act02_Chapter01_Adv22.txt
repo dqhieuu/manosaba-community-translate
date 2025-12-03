@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter01/Act02_Chapter01_Adv22' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act02_Chapter01/Act02_Chapter01_Adv22' Naninovel scenario script
 
 # 0201Adv22_Narrative001
 ; 月代ユキ――<br>【彼女】は、他の人とは違った。
@@ -44,7 +44,7 @@
 # 0201Adv22_Hiro001
 ; > Hiro: |#0201Adv22_Hiro001|
 ; 君のことは私が守る。
-我会保护你。
+我会保护妳。
 
 # 0201Adv22_Narrative010
 ; 私が声をかけても、<br>ユキの眼はどこか遠くを見ているか、<br>もう１人の友人に<ruby="そそ">注</ruby>がれていた。

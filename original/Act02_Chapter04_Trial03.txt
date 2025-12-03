@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter04/Act02_Chapter04_Trial03' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act02_Chapter04/Act02_Chapter04_Trial03' Naninovel scenario script
 
 # 0204Trial03_Miria001
 ; > @printDebate pos:70,50 roll:4 |#0204Trial03_Miria001|
@@ -516,12 +516,12 @@
 ; > Alisa: |#0204Trial03_Alisa018|
 ; 【２人は相打ち】……<br>それの何が不満なんだよ。
 【两人同归于尽】<br>
-——对这结论你有个毛意见？
+——对这结论妳有个毛意见？
 
 # 0204Trial03_Alisa019
 ; > Alisa: |#0204Trial03_Alisa019|
 ; おめえ、何か裏があるんじゃねーだろうな。
-你这家伙，不会是藏了什么事吧？
+妳这家伙，不会是藏了什么事吧？
 
 # 0204Trial03_Hiro036
 ; > Hiro: |#0204Trial03_Hiro036|
@@ -692,10 +692,10 @@
 ; > Sherry: |#0204Trial03_Sherry019|
 ; ではミリアさんの推理……<br>教えてください！
 那就请米莉亚<br>
-来阐述一下你的推理吧！
+来阐述一下妳的推理吧！
 
 # 0204Trial03_Miria016
 ; > Miria: |#0204Trial03_Miria016|
 ; ……任せて。<br>みんなが納得する推理……見せてあげるよ！
 ……交给大叔我吧。<br>
-我的推理……一定会让你们都信服的！
+我的推理……一定会让妳们都信服的！

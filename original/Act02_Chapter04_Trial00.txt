@@ -1,4 +1,4 @@
-; 日本語 <ja> to 简体中文 <zh-Hans> localization document for 'Act02_Chapter04/Act02_Chapter04_Trial00' Naninovel scenario script
+; 日本語 <ja> to 繁體中文 <zh-Hant> localization document for 'Act02_Chapter04/Act02_Chapter04_Trial00' Naninovel scenario script
 
 # 0204Trial00_Hiro001
 ; > Hiro: |#0204Trial00_Hiro001|
@@ -97,7 +97,7 @@
 ; > Sherry: |#0204Trial00_Sherry006|
 ; もしかしたら推理の過程でどちらの犯人も<br>見つかるかもしれませんしね！
 说不定在推理过程中，<br>
-两起案件的凶手都会被我们找到哦！
+两起案件的凶手都会被我们找到喔！
 
 # 0204Trial00_Sherry007
 ; > Sherry: |#0204Trial00_Sherry007|
@@ -109,7 +109,7 @@
 ; > Sherry: |#0204Trial00_Sherry008|
 ; 犯人を全て明らかにするまで……<br>議論を続けるんですよ！
 在查明所有凶手之前……<br>
-不可以停止讨论哦！
+不可以停止讨论喔！
 
 # 0204Trial00_Alisa003
 ; > Alisa: |#0204Trial00_Alisa003|
@@ -301,7 +301,7 @@
 ; > Sherry: |#0204Trial00_Sherry014|
 ; 高い所に登る物なのは一緒です！<br>本質を見ましょうよ、ミリアさん！
 都是用来爬到高处的，没区别！<br>
-看事情要注重事物的本质哦，米莉亚！
+看事情要注重事物的本质喔，米莉亚！
 
 # 0204Trial00_Miria021
 ; > Miria: |#0204Trial00_Miria021|
@@ -316,7 +316,7 @@
 # 0204Trial00_Hanna007
 ; > Hanna: |#0204Trial00_Hanna007|
 ; これには発見時、血痕もついていましたわ。
-发现这东西的时候，上面已经沾有血迹了哦。
+发现这东西的时候，上面已经沾有血迹了喔。
 
 # 0204Trial00_Sherry015
 ; > Sherry: |#0204Trial00_Sherry015|
@@ -344,8 +344,8 @@
 # 0204Trial00_Alisa011
 ; > Alisa: |#0204Trial00_Alisa011|
 ; 死体を見つけたときの話は聞いたが……<br>そんなんお前らの中で完結してる話だろ。
-我是听说了你们发现尸体的事……<br>
-但那都是你们几个之间该解决的事吧。
+我是听说了妳们发现尸体的事……<br>
+但那都是妳们几个之间该解决的事吧。
 
 # 0204Trial00_Alisa012
 ; > Alisa: |#0204Trial00_Alisa012|
@@ -357,7 +357,7 @@
 ; > Sherry: |#0204Trial00_Sherry018|
 ; でもそれは逆に言えば、<br>【目撃証言がない】ということでもあります。
 但是反过来说，也就是<br>
-【没有目击证言】可以证明你的清白。
+【没有目击证言】可以证明妳的清白。
 
 # 0204Trial00_Sherry019
 ; > Sherry: |#0204Trial00_Sherry019|
@@ -417,7 +417,7 @@
 ; > Sherry: |#0204Trial00_Sherry023|
 ; どうやらひとりずつ行くしかないみたいですね。<br>ハンナさんお先にどうぞ！
 看来只能一次上去一个人了。<br>
-汉娜你先请吧！
+汉娜妳先请吧！
 
 # 0204Trial00_Sherry024
 ; > Sherry: |#0204Trial00_Sherry024|
